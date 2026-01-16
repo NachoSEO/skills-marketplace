@@ -57,7 +57,16 @@ function getHeaders(): HeadersInit {
   return headers;
 }
 
+function hasGitHubToken(): boolean {
+  return !!process.env.GITHUB_TOKEN;
+}
+
 export async function searchGitHubForSkills(query: string): Promise<DiscoveredSkill[]> {
+  // GitHub search requires authentication
+  if (!hasGitHubToken()) {
+    return [];
+  }
+
   const searchQueries = [
     `${query} filename:SKILL.md`,
     `${query} topic:claude-code`,
@@ -75,7 +84,6 @@ export async function searchGitHubForSkills(query: string): Promise<DiscoveredSk
       );
 
       if (!response.ok) {
-        console.error(`GitHub search failed for "${searchQuery}": ${response.status}`);
         continue;
       }
 
@@ -98,8 +106,8 @@ export async function searchGitHubForSkills(query: string): Promise<DiscoveredSk
           });
         }
       }
-    } catch (error) {
-      console.error(`Error searching GitHub for "${searchQuery}":`, error);
+    } catch {
+      // Silently continue on error
     }
   }
 
@@ -107,6 +115,11 @@ export async function searchGitHubForSkills(query: string): Promise<DiscoveredSk
 }
 
 export async function searchByTopic(): Promise<DiscoveredSkill[]> {
+  // GitHub search requires authentication
+  if (!hasGitHubToken()) {
+    return [];
+  }
+
   const topics = ['claude-code', 'claude-skill', 'claude-code-skill', 'anthropic-skill'];
   const allResults = new Map<string, DiscoveredSkill>();
 
@@ -118,7 +131,6 @@ export async function searchByTopic(): Promise<DiscoveredSkill[]> {
       );
 
       if (!response.ok) {
-        console.error(`GitHub topic search failed for "${topic}": ${response.status}`);
         continue;
       }
 
@@ -141,8 +153,8 @@ export async function searchByTopic(): Promise<DiscoveredSkill[]> {
           });
         }
       }
-    } catch (error) {
-      console.error(`Error searching GitHub topic "${topic}":`, error);
+    } catch {
+      // Silently continue on error
     }
   }
 
@@ -150,6 +162,11 @@ export async function searchByTopic(): Promise<DiscoveredSkill[]> {
 }
 
 export async function searchForSkillMdFiles(): Promise<DiscoveredSkill[]> {
+  // GitHub code search requires authentication
+  if (!hasGitHubToken()) {
+    return [];
+  }
+
   try {
     const response = await fetch(
       `${GITHUB_API_BASE}/search/code?q=filename:SKILL.md+path:/&per_page=100`,
@@ -157,7 +174,6 @@ export async function searchForSkillMdFiles(): Promise<DiscoveredSkill[]> {
     );
 
     if (!response.ok) {
-      console.error(`GitHub code search failed: ${response.status}`);
       return [];
     }
 
@@ -205,8 +221,7 @@ export async function searchForSkillMdFiles(): Promise<DiscoveredSkill[]> {
     }
 
     return results.sort((a, b) => b.stars - a.stars);
-  } catch (error) {
-    console.error('Error searching for SKILL.md files:', error);
+  } catch {
     return [];
   }
 }
@@ -215,6 +230,11 @@ export async function checkRepoForSkillMd(
   owner: string,
   repo: string
 ): Promise<{ hasSkillMd: boolean; paths: string[] }> {
+  // GitHub code search requires authentication
+  if (!hasGitHubToken()) {
+    return { hasSkillMd: false, paths: [] };
+  }
+
   try {
     const response = await fetch(
       `${GITHUB_API_BASE}/search/code?q=filename:SKILL.md+repo:${owner}/${repo}`,

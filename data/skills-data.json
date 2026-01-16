@@ -6726,7 +6726,7 @@
       "video"
     ],
     "installCommand": "git clone https://github.com/travisvn/youtube-transcript.git",
-    "createdAt": "2026-01-16T20:23:35.727Z",
+    "createdAt": "2026-01-16T22:12:26.382Z",
     "pros": [
       "Data insights",
       "Visualization support",
@@ -6754,7 +6754,7 @@
       "media"
     ],
     "installCommand": "git clone https://github.com/travisvn/video-downloader.git",
-    "createdAt": "2026-01-16T20:23:35.727Z",
+    "createdAt": "2026-01-16T22:12:26.383Z",
     "pros": [
       "Time-saving",
       "Task automation",
@@ -6782,7 +6782,7 @@
       "ai"
     ],
     "installCommand": "git clone https://github.com/travisvn/imagen.git",
-    "createdAt": "2026-01-16T20:23:35.727Z",
+    "createdAt": "2026-01-16T22:12:26.383Z",
     "pros": [
       "API integration",
       "Creative flexibility",
@@ -6810,7 +6810,7 @@
       "web"
     ],
     "installCommand": "git clone https://github.com/travisvn/article-extractor.git",
-    "createdAt": "2026-01-16T20:23:35.727Z",
+    "createdAt": "2026-01-16T22:12:26.383Z",
     "pros": [
       "Automation support",
       "Data insights",
@@ -6838,7 +6838,7 @@
       "data"
     ],
     "installCommand": "git clone https://github.com/travisvn/csv-summarizer.git",
-    "createdAt": "2026-01-16T20:23:35.727Z",
+    "createdAt": "2026-01-16T22:12:26.383Z",
     "pros": [
       "Automation support",
       "Data insights",
@@ -6866,7 +6866,7 @@
       "database"
     ],
     "installCommand": "git clone https://github.com/travisvn/postgres-skill.git",
-    "createdAt": "2026-01-16T20:23:35.727Z",
+    "createdAt": "2026-01-16T22:12:26.383Z",
     "pros": [
       "Data insights",
       "Visualization support",
@@ -6894,7 +6894,7 @@
       "errors"
     ],
     "installCommand": "git clone https://github.com/travisvn/root-cause-tracing.git",
-    "createdAt": "2026-01-16T20:23:35.727Z",
+    "createdAt": "2026-01-16T22:12:26.383Z",
     "pros": [
       "Developer-focused",
       "Workflow integration",
@@ -6922,7 +6922,7 @@
       "marketing"
     ],
     "installCommand": "git clone https://github.com/travisvn/competitive-ads-extractor.git",
-    "createdAt": "2026-01-16T20:23:35.727Z",
+    "createdAt": "2026-01-16T22:12:26.383Z",
     "pros": [
       "AI-powered",
       "Business-focused",
@@ -6950,7 +6950,7 @@
       "naming"
     ],
     "installCommand": "git clone https://github.com/travisvn/domain-brainstormer.git",
-    "createdAt": "2026-01-16T20:23:35.727Z",
+    "createdAt": "2026-01-16T22:12:26.383Z",
     "pros": [
       "AI-powered",
       "Multi-format support"
@@ -6977,7 +6977,7 @@
       "sales"
     ],
     "installCommand": "git clone https://github.com/travisvn/lead-research.git",
-    "createdAt": "2026-01-16T20:23:35.727Z",
+    "createdAt": "2026-01-16T22:12:26.383Z",
     "pros": [
       "Business-focused",
       "Professional output",
@@ -7005,7 +7005,7 @@
       "writing"
     ],
     "installCommand": "git clone https://github.com/travisvn/content-research-writer.git",
-    "createdAt": "2026-01-16T20:23:35.728Z",
+    "createdAt": "2026-01-16T22:12:26.383Z",
     "pros": [
       "Clear communication",
       "Template support",
@@ -7033,7 +7033,7 @@
       "planning"
     ],
     "installCommand": "git clone https://github.com/travisvn/brainstorming-skill.git",
-    "createdAt": "2026-01-16T20:23:35.728Z",
+    "createdAt": "2026-01-16T22:12:26.383Z",
     "pros": [
       "Time-saving",
       "Task automation",
@@ -7061,7 +7061,7 @@
       "research"
     ],
     "installCommand": "git clone https://github.com/travisvn/family-history-research.git",
-    "createdAt": "2026-01-16T20:23:35.728Z",
+    "createdAt": "2026-01-16T22:12:26.383Z",
     "pros": [
       "Time-saving",
       "Task automation",
@@ -7089,7 +7089,7 @@
       "insights"
     ],
     "installCommand": "git clone https://github.com/travisvn/meeting-insights.git",
-    "createdAt": "2026-01-16T20:23:35.728Z",
+    "createdAt": "2026-01-16T22:12:26.383Z",
     "pros": [
       "Clear communication",
       "Template support",
@@ -7117,7 +7117,7 @@
       "query"
     ],
     "installCommand": "git clone https://github.com/travisvn/notebooklm-integration.git",
-    "createdAt": "2026-01-16T20:23:35.728Z",
+    "createdAt": "2026-01-16T22:12:26.383Z",
     "pros": [
       "AI-powered automation",
       "Intelligent processing",
@@ -7145,7 +7145,7 @@
       "quality"
     ],
     "installCommand": "git clone https://github.com/travisvn/image-enhancer.git",
-    "createdAt": "2026-01-16T20:23:35.728Z",
+    "createdAt": "2026-01-16T22:12:26.383Z",
     "pros": [
       "Automation support",
       "Creative flexibility",
@@ -7173,7 +7173,7 @@
       "styling"
     ],
     "installCommand": "git clone https://github.com/travisvn/theme-factory.git",
-    "createdAt": "2026-01-16T20:23:35.728Z",
+    "createdAt": "2026-01-16T22:12:26.383Z",
     "pros": [
       "Creative flexibility",
       "Visual output",
@@ -7201,7 +7201,7 @@
       "duplicates"
     ],
     "installCommand": "git clone https://github.com/travisvn/file-organizer.git",
-    "createdAt": "2026-01-16T20:23:35.728Z",
+    "createdAt": "2026-01-16T22:12:26.383Z",
     "pros": [
       "AI-powered",
       "Time-saving",
@@ -7229,7 +7229,7 @@
       "organization"
     ],
     "installCommand": "git clone https://github.com/travisvn/invoice-organizer.git",
-    "createdAt": "2026-01-16T20:23:35.728Z",
+    "createdAt": "2026-01-16T22:12:26.383Z",
     "pros": [
       "Time-saving",
       "Task automation",
@@ -7257,7 +7257,7 @@
       "methodology"
     ],
     "installCommand": "git clone https://github.com/travisvn/kaizen-skill.git",
-    "createdAt": "2026-01-16T20:23:35.728Z",
+    "createdAt": "2026-01-16T22:12:26.383Z",
     "pros": [
       "Time-saving",
       "Task automation",
@@ -7285,7 +7285,7 @@
       "workflows"
     ],
     "installCommand": "git clone https://github.com/travisvn/n8n-skills.git",
-    "createdAt": "2026-01-16T20:23:35.728Z",
+    "createdAt": "2026-01-16T22:12:26.383Z",
     "pros": [
       "Automation support",
       "AI-powered"
@@ -7312,7 +7312,7 @@
       "selection"
     ],
     "installCommand": "git clone https://github.com/travisvn/raffle-winner.git",
-    "createdAt": "2026-01-16T20:23:35.728Z",
+    "createdAt": "2026-01-16T22:12:26.383Z",
     "pros": [
       "Time-saving",
       "Task automation",
@@ -7340,7 +7340,7 @@
       "customization"
     ],
     "installCommand": "git clone https://github.com/travisvn/tailored-resume.git",
-    "createdAt": "2026-01-16T20:23:35.728Z",
+    "createdAt": "2026-01-16T22:12:26.383Z",
     "pros": [
       "Time-saving",
       "Task automation",
@@ -7368,7 +7368,7 @@
       "priorities"
     ],
     "installCommand": "git clone https://github.com/travisvn/ship-learn-next.git",
-    "createdAt": "2026-01-16T20:23:35.728Z",
+    "createdAt": "2026-01-16T22:12:26.383Z",
     "pros": [
       "Time-saving",
       "Task automation",
@@ -7396,7 +7396,7 @@
       "summarization"
     ],
     "installCommand": "git clone https://github.com/travisvn/tapestry-skill.git",
-    "createdAt": "2026-01-16T20:23:35.728Z",
+    "createdAt": "2026-01-16T22:12:26.383Z",
     "pros": [
       "Time-saving",
       "Task automation",
@@ -7424,7 +7424,7 @@
       "repository"
     ],
     "installCommand": "git clone https://github.com/travisvn/git-pushing.git",
-    "createdAt": "2026-01-16T20:23:35.728Z",
+    "createdAt": "2026-01-16T22:12:26.383Z",
     "pros": [
       "Automation support",
       "CI/CD integration",
@@ -7452,7 +7452,7 @@
       "code"
     ],
     "installCommand": "git clone https://github.com/travisvn/review-implementing.git",
-    "createdAt": "2026-01-16T20:23:35.728Z",
+    "createdAt": "2026-01-16T22:12:26.383Z",
     "pros": [
       "Developer-focused",
       "Workflow integration",
@@ -7480,7 +7480,7 @@
       "automation"
     ],
     "installCommand": "git clone https://github.com/travisvn/test-fixing.git",
-    "createdAt": "2026-01-16T20:23:35.728Z",
+    "createdAt": "2026-01-16T22:12:26.383Z",
     "pros": [
       "Automation support",
       "AI-powered"
@@ -7507,7 +7507,7 @@
       "security"
     ],
     "installCommand": "git clone https://github.com/travisvn/computer-forensics.git",
-    "createdAt": "2026-01-16T20:23:35.728Z",
+    "createdAt": "2026-01-16T22:12:26.383Z",
     "pros": [
       "Security-focused",
       "Best practices",
@@ -7535,7 +7535,7 @@
       "sanitization"
     ],
     "installCommand": "git clone https://github.com/travisvn/file-deletion.git",
-    "createdAt": "2026-01-16T20:23:35.728Z",
+    "createdAt": "2026-01-16T22:12:26.383Z",
     "pros": [
       "Security-focused",
       "Best practices",
@@ -7563,7 +7563,7 @@
       "forensics"
     ],
     "installCommand": "git clone https://github.com/travisvn/metadata-extraction.git",
-    "createdAt": "2026-01-16T20:23:35.728Z",
+    "createdAt": "2026-01-16T22:12:26.383Z",
     "pros": [
       "Security-focused",
       "Best practices",
@@ -7591,7 +7591,7 @@
       "detection"
     ],
     "installCommand": "git clone https://github.com/travisvn/sigma-rules.git",
-    "createdAt": "2026-01-16T20:23:35.728Z",
+    "createdAt": "2026-01-16T22:12:26.384Z",
     "pros": [
       "Security-focused",
       "Best practices",
@@ -7619,7 +7619,7 @@
       "ebook"
     ],
     "installCommand": "git clone https://github.com/travisvn/markdown-epub.git",
-    "createdAt": "2026-01-16T20:23:35.728Z",
+    "createdAt": "2026-01-16T22:12:26.384Z",
     "pros": [
       "File format support",
       "Batch processing",
@@ -7647,7 +7647,7 @@
       "git"
     ],
     "installCommand": "git clone https://github.com/travisvn/changelog-generator.git",
-    "createdAt": "2026-01-16T20:23:35.728Z",
+    "createdAt": "2026-01-16T22:12:26.384Z",
     "pros": [
       "CI/CD integration",
       "Automation support",
@@ -7675,7 +7675,7 @@
       "organization"
     ],
     "installCommand": "git clone https://github.com/travisvn/terminal-title.git",
-    "createdAt": "2026-01-16T20:23:35.728Z",
+    "createdAt": "2026-01-16T22:12:26.384Z",
     "pros": [
       "Developer-focused",
       "Workflow integration",
@@ -7703,7 +7703,7 @@
       "tracing"
     ],
     "installCommand": "git clone https://github.com/travisvn/langsmith-fetch.git",
-    "createdAt": "2026-01-16T20:23:35.728Z",
+    "createdAt": "2026-01-16T22:12:26.384Z",
     "pros": [
       "AI-powered",
       "AI-powered automation",
@@ -7731,7 +7731,7 @@
       "quality"
     ],
     "installCommand": "git clone https://github.com/travisvn/move-code-quality.git",
-    "createdAt": "2026-01-16T20:23:35.728Z",
+    "createdAt": "2026-01-16T22:12:26.384Z",
     "pros": [
       "AI-powered",
       "Developer-focused",
@@ -7759,7 +7759,7 @@
       "coverage"
     ],
     "installCommand": "git clone https://github.com/travisvn/pypict.git",
-    "createdAt": "2026-01-16T20:23:35.728Z",
+    "createdAt": "2026-01-16T22:12:26.384Z",
     "pros": [
       "AI-powered",
       "Developer-focused",
@@ -7787,7 +7787,7 @@
       "social"
     ],
     "installCommand": "git clone https://github.com/travisvn/reddit-fetch.git",
-    "createdAt": "2026-01-16T20:23:35.728Z",
+    "createdAt": "2026-01-16T22:12:26.384Z",
     "pros": [
       "API integration",
       "Data insights",
@@ -7815,7 +7815,7 @@
       "design"
     ],
     "installCommand": "git clone https://github.com/travisvn/software-architecture.git",
-    "createdAt": "2026-01-16T20:23:35.728Z",
+    "createdAt": "2026-01-16T22:12:26.384Z",
     "pros": [
       "Developer-focused",
       "Workflow integration",
@@ -7843,7 +7843,7 @@
       "development"
     ],
     "installCommand": "git clone https://github.com/travisvn/subagent-driven.git",
-    "createdAt": "2026-01-16T20:23:35.728Z",
+    "createdAt": "2026-01-16T22:12:26.384Z",
     "pros": [
       "AI-powered automation",
       "Intelligent processing",
@@ -7871,7 +7871,7 @@
       "methodology"
     ],
     "installCommand": "git clone https://github.com/travisvn/tdd-skill.git",
-    "createdAt": "2026-01-16T20:23:35.728Z",
+    "createdAt": "2026-01-16T22:12:26.384Z",
     "pros": [
       "Developer-focused",
       "Workflow integration",
@@ -7899,7 +7899,7 @@
       "parallel"
     ],
     "installCommand": "git clone https://github.com/travisvn/git-worktrees.git",
-    "createdAt": "2026-01-16T20:23:35.728Z",
+    "createdAt": "2026-01-16T22:12:26.384Z",
     "pros": [
       "CI/CD integration",
       "Automation support",
@@ -7927,7 +7927,7 @@
       "ai"
     ],
     "installCommand": "git clone https://github.com/travisvn/prompt-engineering.git",
-    "createdAt": "2026-01-16T20:23:35.728Z",
+    "createdAt": "2026-01-16T22:12:26.384Z",
     "pros": [
       "AI-powered",
       "AI-powered automation",
@@ -7955,7 +7955,7 @@
       "serverless"
     ],
     "installCommand": "git clone https://github.com/travisvn/aws-skills.git",
-    "createdAt": "2026-01-16T20:23:35.728Z",
+    "createdAt": "2026-01-16T22:12:26.384Z",
     "pros": [
       "CI/CD integration",
       "Automation support",
@@ -7983,7 +7983,7 @@
       "workflow"
     ],
     "installCommand": "git clone https://github.com/travisvn/finishing-branch.git",
-    "createdAt": "2026-01-16T20:23:35.728Z",
+    "createdAt": "2026-01-16T22:12:26.384Z",
     "pros": [
       "CI/CD integration",
       "Automation support",
@@ -8011,7 +8011,7 @@
       "context"
     ],
     "installCommand": "git clone https://github.com/diet103/claude-code-infrastructure.git",
-    "createdAt": "2026-01-16T20:23:35.729Z",
+    "createdAt": "2026-01-16T22:12:26.384Z",
     "pros": [
       "Developer-focused",
       "Workflow integration",
@@ -8039,7 +8039,7 @@
       "context"
     ],
     "installCommand": "git clone https://github.com/prasad-chalasani/claude-code-tools.git",
-    "createdAt": "2026-01-16T20:23:35.729Z",
+    "createdAt": "2026-01-16T22:12:26.384Z",
     "pros": [
       "Developer-focused",
       "Workflow integration",
