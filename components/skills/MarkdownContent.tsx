@@ -33,6 +33,20 @@ export function MarkdownContent({ content }: MarkdownContentProps) {
                   </ul>
                 );
               }
+              if (para.type === 'code') {
+                return (
+                  <div key={pIndex} className="rounded-lg overflow-hidden border border-border bg-secondary/50">
+                    {para.language && (
+                      <div className="px-4 py-2 bg-secondary/80 border-b border-border text-xs text-muted font-mono">
+                        {para.language}
+                      </div>
+                    )}
+                    <pre className="p-4 overflow-x-auto">
+                      <code className="text-xs font-mono text-foreground">{para.code}</code>
+                    </pre>
+                  </div>
+                );
+              }
               return (
                 <p key={pIndex}>{formatInlineText(para.text)}</p>
               );
@@ -49,6 +63,7 @@ interface Section {
   paragraphs: (
     | { type: 'paragraph'; text: string }
     | { type: 'list'; items: string[] }
+    | { type: 'code'; language: string; code: string }
   )[];
 }
 
@@ -57,6 +72,9 @@ function parseMarkdown(content: string): Section[] {
   const sections: Section[] = [];
   let currentSection: Section = { paragraphs: [] };
   let currentList: string[] = [];
+  let inCodeBlock = false;
+  let codeBlockLanguage = '';
+  let codeBlockLines: string[] = [];
 
   const flushList = () => {
     if (currentList.length > 0) {
@@ -65,8 +83,41 @@ function parseMarkdown(content: string): Section[] {
     }
   };
 
+  const flushCodeBlock = () => {
+    if (codeBlockLines.length > 0) {
+      currentSection.paragraphs.push({
+        type: 'code',
+        language: codeBlockLanguage,
+        code: codeBlockLines.join('\n'),
+      });
+      codeBlockLines = [];
+      codeBlockLanguage = '';
+    }
+  };
+
   for (const line of lines) {
     const trimmed = line.trim();
+
+    // Check for code block start/end
+    if (trimmed.startsWith('```')) {
+      if (inCodeBlock) {
+        // End of code block
+        flushCodeBlock();
+        inCodeBlock = false;
+      } else {
+        // Start of code block
+        flushList();
+        inCodeBlock = true;
+        codeBlockLanguage = trimmed.slice(3).trim();
+      }
+      continue;
+    }
+
+    // If inside code block, collect lines
+    if (inCodeBlock) {
+      codeBlockLines.push(line);
+      continue;
+    }
 
     if (!trimmed) {
       flushList();
@@ -94,6 +145,7 @@ function parseMarkdown(content: string): Section[] {
   }
 
   flushList();
+  flushCodeBlock();
   if (currentSection.heading || currentSection.paragraphs.length > 0) {
     sections.push(currentSection);
   }
