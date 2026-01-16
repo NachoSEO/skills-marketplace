@@ -302,6 +302,18 @@ async function main() {
     // Generate fallback SEO content if missing
     const seoContent = cached?.seoContent || generateFallbackSeoContent(formattedName, description, entry.tags || []);
 
+    // Calculate a default rating based on stars if not provided in registry
+    // Normalized logarithmically: 100 stars = 3.5, 1000 = 4.0, 10000 = 4.5, 50000+ = 5.0
+    const calculateDefaultRating = (stars: number | undefined): number => {
+      if (!stars || stars <= 0) return 3.5;
+      const logStars = Math.log10(stars);
+      // Scale: log10(100)=2 -> 3.5, log10(1000)=3 -> 4.0, log10(10000)=4 -> 4.5, log10(50000)=4.7 -> 4.9
+      const rating = 3.0 + (logStars - 1) * 0.5;
+      return Math.min(5.0, Math.max(3.0, Math.round(rating * 10) / 10));
+    };
+
+    const rating = entry.rating ?? calculateDefaultRating(cached?.stars);
+
     return {
       id: `${entry.owner}-${entry.repo}${entry.path ? `-${slugify(entry.path)}` : ''}`,
       name: formattedName,
@@ -327,6 +339,7 @@ async function main() {
       skillPath: entry.path,
       pros: entry.pros,
       cons: entry.cons,
+      rating,
     };
   });
 

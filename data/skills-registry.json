@@ -6,10 +6,22 @@
     "category": "document-processing",
     "name": "DOCX",
     "description": "Create, edit, and analyze Word documents with tracked changes, comments, and formatting preservation",
-    "tags": ["word", "documents", "office"],
+    "tags": [
+      "word",
+      "documents",
+      "office"
+    ],
     "featured": true,
-    "pros": ["Official Anthropic skill", "Track changes support", "Well documented"],
-    "cons": ["Python dependencies", "Large document handling"]
+    "pros": [
+      "Official Anthropic skill",
+      "Track changes support",
+      "Well documented"
+    ],
+    "cons": [
+      "Python dependencies",
+      "Large document handling"
+    ],
+    "rating": 4.8
   },
   {
     "owner": "anthropics",
@@ -18,10 +30,22 @@
     "category": "document-processing",
     "name": "PDF",
     "description": "Comprehensive PDF toolkit for extracting text/tables, creating, merging, splitting documents, and handling forms",
-    "tags": ["pdf", "documents", "extraction"],
+    "tags": [
+      "pdf",
+      "documents",
+      "extraction"
+    ],
     "featured": true,
-    "pros": ["Official Anthropic skill", "Form handling", "Table extraction"],
-    "cons": ["OCR not included", "Complex PDFs may need tuning"]
+    "pros": [
+      "Official Anthropic skill",
+      "Form handling",
+      "Table extraction"
+    ],
+    "cons": [
+      "OCR not included",
+      "Complex PDFs may need tuning"
+    ],
+    "rating": 4.9
   },
   {
     "owner": "anthropics",
@@ -30,10 +54,22 @@
     "category": "document-processing",
     "name": "PPTX",
     "description": "Create, edit, and analyze PowerPoint presentations with layouts, templates, charts, and automated slides",
-    "tags": ["powerpoint", "presentations", "office"],
+    "tags": [
+      "powerpoint",
+      "presentations",
+      "office"
+    ],
     "featured": true,
-    "pros": ["Official Anthropic skill", "Chart generation", "Template support"],
-    "cons": ["Limited animation control", "Complex layouts"]
+    "pros": [
+      "Official Anthropic skill",
+      "Chart generation",
+      "Template support"
+    ],
+    "cons": [
+      "Limited animation control",
+      "Complex layouts"
+    ],
+    "rating": 4.7
   },
   {
     "owner": "anthropics",
@@ -42,10 +78,22 @@
     "category": "document-processing",
     "name": "XLSX",
     "description": "Create, edit, and analyze Excel spreadsheets with formulas, formatting, data analysis, and visualization",
-    "tags": ["excel", "spreadsheets", "office"],
+    "tags": [
+      "excel",
+      "spreadsheets",
+      "office"
+    ],
     "featured": true,
-    "pros": ["Official Anthropic skill", "Formula support", "Data visualization"],
-    "cons": ["Large file performance", "Macro limitations"]
+    "pros": [
+      "Official Anthropic skill",
+      "Formula support",
+      "Data visualization"
+    ],
+    "cons": [
+      "Large file performance",
+      "Macro limitations"
+    ],
+    "rating": 4.8
   },
   {
     "owner": "anthropics",
@@ -54,8 +102,13 @@
     "category": "creative-design",
     "name": "Algorithmic Art",
     "description": "Generate creative algorithmic art using p5.js for generative and procedural designs",
-    "tags": ["art", "p5js", "generative"],
-    "featured": true
+    "tags": [
+      "art",
+      "p5js",
+      "generative"
+    ],
+    "featured": true,
+    "rating": 4.6
   },
   {
     "owner": "anthropics",
@@ -64,7 +117,12 @@
     "category": "creative-design",
     "name": "Canvas Design",
     "description": "Create visual art and designs in PNG and PDF formats using canvas-based rendering",
-    "tags": ["design", "canvas", "graphics"]
+    "tags": [
+      "design",
+      "canvas",
+      "graphics"
+    ],
+    "rating": 4.4
   },
   {
     "owner": "anthropics",
@@ -73,7 +131,12 @@
     "category": "creative-design",
     "name": "Slack GIF Creator",
     "description": "Create animated GIFs optimized for Slack's size constraints and messaging",
-    "tags": ["gif", "slack", "animation"]
+    "tags": [
+      "gif",
+      "slack",
+      "animation"
+    ],
+    "rating": 4.2
   },
   {
     "owner": "anthropics",
@@ -82,10 +145,22 @@
     "category": "development-tools",
     "name": "Frontend Design",
     "description": "Build distinctive frontends avoiding generic aesthetics with bold design decisions for React & Tailwind",
-    "tags": ["react", "tailwind", "frontend"],
+    "tags": [
+      "react",
+      "tailwind",
+      "frontend"
+    ],
     "featured": true,
-    "pros": ["Official Anthropic skill", "Unique aesthetics", "Production-ready code"],
-    "cons": ["React/Tailwind only", "Opinionated style"]
+    "pros": [
+      "Official Anthropic skill",
+      "Unique aesthetics",
+      "Production-ready code"
+    ],
+    "cons": [
+      "React/Tailwind only",
+      "Opinionated style"
+    ],
+    "rating": 4.9
   },
   {
     "owner": "anthropics",
@@ -94,9 +169,20 @@
     "category": "development-tools",
     "name": "Artifacts Builder",
     "description": "Build complex claude.ai HTML artifacts using React, Tailwind CSS, and shadcn/ui components",
-    "tags": ["artifacts", "react", "shadcn"],
-    "pros": ["shadcn/ui integration", "Claude.ai optimized"],
-    "cons": ["Artifacts-specific", "Limited to web"]
+    "tags": [
+      "artifacts",
+      "react",
+      "shadcn"
+    ],
+    "pros": [
+      "shadcn/ui integration",
+      "Claude.ai optimized"
+    ],
+    "cons": [
+      "Artifacts-specific",
+      "Limited to web"
+    ],
+    "rating": 4.5
   },
   {
     "owner": "anthropics",
@@ -105,10 +191,22 @@
     "category": "development-tools",
     "name": "MCP Builder",
     "description": "Guide for creating high-quality MCP servers to integrate external APIs and services",
-    "tags": ["mcp", "api", "integration"],
+    "tags": [
+      "mcp",
+      "api",
+      "integration"
+    ],
     "featured": true,
-    "pros": ["Official Anthropic skill", "Best practices", "API integration"],
-    "cons": ["MCP-specific", "Requires TypeScript knowledge"]
+    "pros": [
+      "Official Anthropic skill",
+      "Best practices",
+      "API integration"
+    ],
+    "cons": [
+      "MCP-specific",
+      "Requires TypeScript knowledge"
+    ],
+    "rating": 4.8
   },
   {
     "owner": "anthropics",
@@ -117,7 +215,12 @@
     "category": "development-tools",
     "name": "Webapp Testing",
     "description": "Test local web applications using Playwright for UI verification and debugging",
-    "tags": ["testing", "playwright", "e2e"]
+    "tags": [
+      "testing",
+      "playwright",
+      "e2e"
+    ],
+    "rating": 4.3
   },
   {
     "owner": "anthropics",
@@ -126,7 +229,12 @@
     "category": "business-marketing",
     "name": "Brand Guidelines",
     "description": "Apply Anthropic's official brand colors and typography to artifacts and designs",
-    "tags": ["branding", "design", "anthropic"]
+    "tags": [
+      "branding",
+      "design",
+      "anthropic"
+    ],
+    "rating": 4.1
   },
   {
     "owner": "anthropics",
@@ -135,7 +243,12 @@
     "category": "communication",
     "name": "Internal Comms",
     "description": "Write internal communications like status reports, newsletters, FAQs, and announcements",
-    "tags": ["writing", "communication", "business"]
+    "tags": [
+      "writing",
+      "communication",
+      "business"
+    ],
+    "rating": 4
   },
   {
     "owner": "anthropics",
@@ -144,7 +257,12 @@
     "category": "ai-llm",
     "name": "Skill Creator",
     "description": "Interactive skill creation tool that guides you through building new skills with Q&A workflow",
-    "tags": ["skills", "creation", "meta"]
+    "tags": [
+      "skills",
+      "creation",
+      "meta"
+    ],
+    "rating": 4.4
   },
   {
     "owner": "obra",
@@ -152,8 +270,13 @@
     "category": "development-tools",
     "name": "Superpowers",
     "description": "Core skills library with 20+ battle-tested skills including TDD, debugging, and collaboration patterns",
-    "tags": ["tdd", "debugging", "collaboration"],
-    "featured": true
+    "tags": [
+      "tdd",
+      "debugging",
+      "collaboration"
+    ],
+    "featured": true,
+    "rating": 4.9
   },
   {
     "owner": "obra",
@@ -161,7 +284,12 @@
     "category": "development-tools",
     "name": "Superpowers Lab",
     "description": "Experimental skills using refined techniques for advanced development workflows",
-    "tags": ["experimental", "advanced", "workflows"]
+    "tags": [
+      "experimental",
+      "advanced",
+      "workflows"
+    ],
+    "rating": 4.5
   },
   {
     "owner": "conorluddy",
@@ -169,7 +297,12 @@
     "category": "development-tools",
     "name": "iOS Simulator",
     "description": "Build, navigate, and test iOS applications in the simulator environment",
-    "tags": ["ios", "simulator", "mobile"]
+    "tags": [
+      "ios",
+      "simulator",
+      "mobile"
+    ],
+    "rating": 4.3
   },
   {
     "owner": "jthack",
@@ -177,7 +310,12 @@
     "category": "security",
     "name": "FFUF Web Fuzzing",
     "description": "Expert guidance for ffuf web fuzzing during penetration testing and security assessments",
-    "tags": ["security", "fuzzing", "pentesting"]
+    "tags": [
+      "security",
+      "fuzzing",
+      "pentesting"
+    ],
+    "rating": 4.4
   },
   {
     "owner": "lackeyjb",
@@ -185,7 +323,12 @@
     "category": "development-tools",
     "name": "Playwright Skill",
     "description": "Browser automation and testing using Playwright for web application testing",
-    "tags": ["playwright", "automation", "testing"]
+    "tags": [
+      "playwright",
+      "automation",
+      "testing"
+    ],
+    "rating": 4.6
   },
   {
     "owner": "chrisvoncsefalvay",
@@ -193,7 +336,12 @@
     "category": "data-analysis",
     "name": "D3.js Visualization",
     "description": "Create sophisticated data visualizations using D3.js for interactive charts and graphs",
-    "tags": ["d3js", "visualization", "charts"]
+    "tags": [
+      "d3js",
+      "visualization",
+      "charts"
+    ],
+    "rating": 4.5
   },
   {
     "owner": "K-Dense-AI",
@@ -201,7 +349,12 @@
     "category": "data-analysis",
     "name": "Scientific Skills",
     "description": "Comprehensive collection of ready-to-use scientific skills for research and analysis",
-    "tags": ["science", "research", "analysis"]
+    "tags": [
+      "science",
+      "research",
+      "analysis"
+    ],
+    "rating": 4.3
   },
   {
     "owner": "alonw0",
@@ -209,7 +362,12 @@
     "category": "creative-design",
     "name": "Web Asset Generator",
     "description": "Generate favicons, app icons, and social media images for web projects",
-    "tags": ["favicon", "icons", "assets"]
+    "tags": [
+      "favicon",
+      "icons",
+      "assets"
+    ],
+    "rating": 4.2
   },
   {
     "owner": "asklokesh",
@@ -217,7 +375,12 @@
     "category": "ai-llm",
     "name": "Loki Mode",
     "description": "Multi-agent autonomous startup system orchestrating 37 AI agents across 6 swarms",
-    "tags": ["agents", "autonomous", "swarm"]
+    "tags": [
+      "agents",
+      "autonomous",
+      "swarm"
+    ],
+    "rating": 4.7
   },
   {
     "owner": "yusufkaraaslan",
@@ -225,7 +388,12 @@
     "category": "ai-llm",
     "name": "Skill Seekers",
     "description": "Convert documentation websites into Claude Skills automatically",
-    "tags": ["documentation", "conversion", "automation"]
+    "tags": [
+      "documentation",
+      "conversion",
+      "automation"
+    ],
+    "rating": 4.1
   },
   {
     "owner": "fcakyon",
@@ -233,7 +401,12 @@
     "category": "development-tools",
     "name": "Codex Settings",
     "description": "Plugins for GitHub, Azure, MongoDB, Tavily, Playwright integration",
-    "tags": ["plugins", "integration", "settings"]
+    "tags": [
+      "plugins",
+      "integration",
+      "settings"
+    ],
+    "rating": 4
   },
   {
     "owner": "dreamiurg",
@@ -241,7 +414,12 @@
     "category": "productivity",
     "name": "Mountaineering Skills",
     "description": "Automate mountain route research for North American peaks and climbing",
-    "tags": ["mountaineering", "research", "outdoor"]
+    "tags": [
+      "mountaineering",
+      "research",
+      "outdoor"
+    ],
+    "rating": 4
   },
   {
     "owner": "NeoLabHQ",
@@ -249,7 +427,12 @@
     "category": "ai-llm",
     "name": "Context Engineering Kit",
     "description": "Advanced context techniques with minimal token footprint for efficient prompting",
-    "tags": ["context", "prompting", "optimization"]
+    "tags": [
+      "context",
+      "prompting",
+      "optimization"
+    ],
+    "rating": 4.3
   },
   {
     "owner": "ayoubben18",
@@ -257,7 +440,12 @@
     "category": "productivity",
     "name": "AB Method",
     "description": "Spec-driven workflow for transforming large problems into focused missions",
-    "tags": ["workflow", "specs", "methodology"]
+    "tags": [
+      "workflow",
+      "specs",
+      "methodology"
+    ],
+    "rating": 4.2
   },
   {
     "owner": "automazeio",
@@ -265,7 +453,12 @@
     "category": "productivity",
     "name": "Claude Code PM",
     "description": "Comprehensive project management with specialized agents and commands",
-    "tags": ["project-management", "agents", "productivity"]
+    "tags": [
+      "project-management",
+      "agents",
+      "productivity"
+    ],
+    "rating": 4.1
   },
   {
     "owner": "ThibautMelen",
@@ -273,7 +466,12 @@
     "category": "ai-llm",
     "name": "Agentic Workflow Patterns",
     "description": "Documented agentic patterns with Mermaid diagrams for AI workflows",
-    "tags": ["patterns", "workflows", "diagrams"]
+    "tags": [
+      "patterns",
+      "workflows",
+      "diagrams"
+    ],
+    "rating": 4
   },
   {
     "owner": "Veraticus",
@@ -281,7 +479,12 @@
     "category": "development-tools",
     "name": "CC Tools",
     "description": "High-performance Go implementation for hooks and utilities",
-    "tags": ["go", "hooks", "utilities"]
+    "tags": [
+      "go",
+      "hooks",
+      "utilities"
+    ],
+    "rating": 4.4
   },
   {
     "owner": "nyatinte",
@@ -289,7 +492,12 @@
     "category": "development-tools",
     "name": "CCExp",
     "description": "Interactive CLI for discovering configuration files and commands",
-    "tags": ["cli", "discovery", "configuration"]
+    "tags": [
+      "cli",
+      "discovery",
+      "configuration"
+    ],
+    "rating": 4.2
   },
   {
     "owner": "carlrannaberg",
@@ -297,7 +505,12 @@
     "category": "development-tools",
     "name": "ClaudeKit",
     "description": "CLI toolkit with checkpointing, quality hooks, and 20+ subagents",
-    "tags": ["cli", "checkpointing", "subagents"]
+    "tags": [
+      "cli",
+      "checkpointing",
+      "subagents"
+    ],
+    "rating": 4.5
   },
   {
     "owner": "zippoxer",
@@ -305,7 +518,12 @@
     "category": "productivity",
     "name": "Recall",
     "description": "Full-text search for Claude Code sessions and conversation history",
-    "tags": ["search", "sessions", "history"]
+    "tags": [
+      "search",
+      "sessions",
+      "history"
+    ],
+    "rating": 4.6
   },
   {
     "owner": "snipeship",
@@ -313,7 +531,12 @@
     "category": "productivity",
     "name": "CCFlare",
     "description": "Web-based usage dashboard with comprehensive metrics and analytics",
-    "tags": ["dashboard", "metrics", "analytics"]
+    "tags": [
+      "dashboard",
+      "metrics",
+      "analytics"
+    ],
+    "rating": 4.1
   },
   {
     "owner": "ryoppippi",
@@ -321,7 +544,12 @@
     "category": "productivity",
     "name": "CC Usage",
     "description": "CLI tool analyzing logs with cost and token dashboards",
-    "tags": ["usage", "cost", "tokens"]
+    "tags": [
+      "usage",
+      "cost",
+      "tokens"
+    ],
+    "rating": 4
   },
   {
     "owner": "frankbria",
@@ -329,7 +557,12 @@
     "category": "ai-llm",
     "name": "Ralph for Claude Code",
     "description": "Autonomous framework with exit detection and safety guardrails",
-    "tags": ["autonomous", "safety", "framework"]
+    "tags": [
+      "autonomous",
+      "safety",
+      "framework"
+    ],
+    "rating": 4.5
   },
   {
     "owner": "smtg-ai",
@@ -337,7 +570,12 @@
     "category": "ai-llm",
     "name": "Claude Squad",
     "description": "Manage multiple agents in separate workspaces for parallel work",
-    "tags": ["multi-agent", "workspaces", "parallel"]
+    "tags": [
+      "multi-agent",
+      "workspaces",
+      "parallel"
+    ],
+    "rating": 4.7
   },
   {
     "owner": "dtormoen",
@@ -345,7 +583,12 @@
     "category": "devops-cicd",
     "name": "TSK",
     "description": "Rust CLI for delegating tasks to sandboxed Docker agents",
-    "tags": ["rust", "docker", "sandboxing"]
+    "tags": [
+      "rust",
+      "docker",
+      "sandboxing"
+    ],
+    "rating": 4.2
   },
   {
     "owner": "Haleclipse",
@@ -353,7 +596,12 @@
     "category": "development-tools",
     "name": "CCometixLine",
     "description": "Rust-based statusline with Git integration and usage tracking",
-    "tags": ["statusline", "git", "rust"]
+    "tags": [
+      "statusline",
+      "git",
+      "rust"
+    ],
+    "rating": 4
   },
   {
     "owner": "sirmalloc",
@@ -361,7 +609,12 @@
     "category": "development-tools",
     "name": "CC Statusline",
     "description": "Customizable formatter displaying model, branch, and token usage",
-    "tags": ["statusline", "customizable", "display"]
+    "tags": [
+      "statusline",
+      "customizable",
+      "display"
+    ],
+    "rating": 3.9
   },
   {
     "owner": "Talieisin",
@@ -369,7 +622,12 @@
     "category": "communication",
     "name": "Britfix",
     "description": "Convert American to British English in files intelligently",
-    "tags": ["english", "localization", "writing"]
+    "tags": [
+      "english",
+      "localization",
+      "writing"
+    ],
+    "rating": 3.8
   },
   {
     "owner": "GowayLee",
@@ -377,7 +635,12 @@
     "category": "development-tools",
     "name": "CC Hooks",
     "description": "Python SDK simplifying hook writing with clean API",
-    "tags": ["hooks", "python", "sdk"]
+    "tags": [
+      "hooks",
+      "python",
+      "sdk"
+    ],
+    "rating": 4.4
   },
   {
     "owner": "nizos",
@@ -385,7 +648,12 @@
     "category": "development-tools",
     "name": "TDD Guard",
     "description": "Real-time monitoring blocking TDD principle violations",
-    "tags": ["tdd", "monitoring", "testing"]
+    "tags": [
+      "tdd",
+      "monitoring",
+      "testing"
+    ],
+    "rating": 4.2
   },
   {
     "owner": "qdhenry",
@@ -394,7 +662,12 @@
     "category": "productivity",
     "name": "Linear Todo Sync",
     "description": "GraphQL API integration for task retrieval with priority-based organization",
-    "tags": ["linear", "todo", "sync"]
+    "tags": [
+      "linear",
+      "todo",
+      "sync"
+    ],
+    "rating": 3.9
   },
   {
     "owner": "qdhenry",
@@ -403,7 +676,12 @@
     "category": "devops-cicd",
     "name": "Cloudflare Manager",
     "description": "Workers deployment, KV Storage, R2 bucket management, and Pages deployment",
-    "tags": ["cloudflare", "workers", "deployment"]
+    "tags": [
+      "cloudflare",
+      "workers",
+      "deployment"
+    ],
+    "rating": 4
   },
   {
     "owner": "ComposioHQ",
@@ -411,8 +689,13 @@
     "category": "ai-llm",
     "name": "Composio Connect",
     "description": "Integrate 1000+ apps including Gmail, Slack, GitHub, Notion with Claude",
-    "tags": ["integration", "apps", "automation"],
-    "featured": true
+    "tags": [
+      "integration",
+      "apps",
+      "automation"
+    ],
+    "featured": true,
+    "rating": 4.3
   },
   {
     "owner": "travisvn",
@@ -420,7 +703,11 @@
     "category": "data-analysis",
     "name": "YouTube Transcript",
     "description": "Extract and summarize video transcripts from YouTube",
-    "tags": ["youtube", "transcript", "video"]
+    "tags": [
+      "youtube",
+      "transcript",
+      "video"
+    ]
   },
   {
     "owner": "travisvn",
@@ -428,7 +715,11 @@
     "category": "productivity",
     "name": "Video Downloader",
     "description": "Download videos from YouTube and other platforms",
-    "tags": ["download", "video", "media"]
+    "tags": [
+      "download",
+      "video",
+      "media"
+    ]
   },
   {
     "owner": "travisvn",
@@ -436,7 +727,11 @@
     "category": "creative-design",
     "name": "Imagen",
     "description": "Generate images via Google Gemini API for creative projects",
-    "tags": ["image-generation", "gemini", "ai"]
+    "tags": [
+      "image-generation",
+      "gemini",
+      "ai"
+    ]
   },
   {
     "owner": "travisvn",
@@ -444,7 +739,11 @@
     "category": "data-analysis",
     "name": "Article Extractor",
     "description": "Extract article text and metadata from websites automatically",
-    "tags": ["extraction", "articles", "web"]
+    "tags": [
+      "extraction",
+      "articles",
+      "web"
+    ]
   },
   {
     "owner": "travisvn",
@@ -452,7 +751,11 @@
     "category": "data-analysis",
     "name": "CSV Summarizer",
     "description": "Analyze CSV files with automated insights and statistics",
-    "tags": ["csv", "analysis", "data"]
+    "tags": [
+      "csv",
+      "analysis",
+      "data"
+    ]
   },
   {
     "owner": "travisvn",
@@ -460,7 +763,11 @@
     "category": "data-analysis",
     "name": "PostgreSQL",
     "description": "Safe read-only SQL queries on PostgreSQL databases",
-    "tags": ["postgres", "sql", "database"]
+    "tags": [
+      "postgres",
+      "sql",
+      "database"
+    ]
   },
   {
     "owner": "travisvn",
@@ -468,7 +775,11 @@
     "category": "development-tools",
     "name": "Root Cause Tracing",
     "description": "Trace execution errors to their origins for debugging",
-    "tags": ["debugging", "tracing", "errors"]
+    "tags": [
+      "debugging",
+      "tracing",
+      "errors"
+    ]
   },
   {
     "owner": "travisvn",
@@ -476,7 +787,11 @@
     "category": "business-marketing",
     "name": "Competitive Ads Extractor",
     "description": "Analyze competitor advertising strategies and campaigns",
-    "tags": ["ads", "competitive", "marketing"]
+    "tags": [
+      "ads",
+      "competitive",
+      "marketing"
+    ]
   },
   {
     "owner": "travisvn",
@@ -484,7 +799,11 @@
     "category": "business-marketing",
     "name": "Domain Brainstormer",
     "description": "Generate domain name ideas across multiple TLDs",
-    "tags": ["domains", "brainstorming", "naming"]
+    "tags": [
+      "domains",
+      "brainstorming",
+      "naming"
+    ]
   },
   {
     "owner": "travisvn",
@@ -492,7 +811,11 @@
     "category": "business-marketing",
     "name": "Lead Research Assistant",
     "description": "Identify and qualify target leads for sales outreach",
-    "tags": ["leads", "research", "sales"]
+    "tags": [
+      "leads",
+      "research",
+      "sales"
+    ]
   },
   {
     "owner": "travisvn",
@@ -500,7 +823,11 @@
     "category": "communication",
     "name": "Content Research Writer",
     "description": "Research, citations, and feedback for content creation",
-    "tags": ["content", "research", "writing"]
+    "tags": [
+      "content",
+      "research",
+      "writing"
+    ]
   },
   {
     "owner": "travisvn",
@@ -508,7 +835,11 @@
     "category": "productivity",
     "name": "Brainstorming",
     "description": "Structure ideas into fully-formed designs and plans",
-    "tags": ["brainstorming", "ideas", "planning"]
+    "tags": [
+      "brainstorming",
+      "ideas",
+      "planning"
+    ]
   },
   {
     "owner": "travisvn",
@@ -516,7 +847,11 @@
     "category": "productivity",
     "name": "Family History Research",
     "description": "Assist genealogy project planning and research",
-    "tags": ["genealogy", "history", "research"]
+    "tags": [
+      "genealogy",
+      "history",
+      "research"
+    ]
   },
   {
     "owner": "travisvn",
@@ -524,7 +859,11 @@
     "category": "communication",
     "name": "Meeting Insights Analyzer",
     "description": "Reveal behavioral patterns in meeting transcripts",
-    "tags": ["meetings", "analysis", "insights"]
+    "tags": [
+      "meetings",
+      "analysis",
+      "insights"
+    ]
   },
   {
     "owner": "travisvn",
@@ -532,7 +871,11 @@
     "category": "ai-llm",
     "name": "NotebookLM Integration",
     "description": "Query uploaded documents for answers using NotebookLM",
-    "tags": ["notebooklm", "documents", "query"]
+    "tags": [
+      "notebooklm",
+      "documents",
+      "query"
+    ]
   },
   {
     "owner": "travisvn",
@@ -540,7 +883,11 @@
     "category": "creative-design",
     "name": "Image Enhancer",
     "description": "Improve image resolution and clarity automatically",
-    "tags": ["image", "enhancement", "quality"]
+    "tags": [
+      "image",
+      "enhancement",
+      "quality"
+    ]
   },
   {
     "owner": "travisvn",
@@ -548,7 +895,11 @@
     "category": "creative-design",
     "name": "Theme Factory",
     "description": "Apply professional design themes to artifacts and projects",
-    "tags": ["themes", "design", "styling"]
+    "tags": [
+      "themes",
+      "design",
+      "styling"
+    ]
   },
   {
     "owner": "travisvn",
@@ -556,7 +907,11 @@
     "category": "productivity",
     "name": "File Organizer",
     "description": "Intelligently structure files and find duplicates",
-    "tags": ["files", "organization", "duplicates"]
+    "tags": [
+      "files",
+      "organization",
+      "duplicates"
+    ]
   },
   {
     "owner": "travisvn",
@@ -564,7 +919,11 @@
     "category": "productivity",
     "name": "Invoice Organizer",
     "description": "Prepare invoices and receipts for tax filing",
-    "tags": ["invoices", "taxes", "organization"]
+    "tags": [
+      "invoices",
+      "taxes",
+      "organization"
+    ]
   },
   {
     "owner": "travisvn",
@@ -572,7 +931,11 @@
     "category": "productivity",
     "name": "Kaizen",
     "description": "Apply continuous improvement methodology to workflows",
-    "tags": ["kaizen", "improvement", "methodology"]
+    "tags": [
+      "kaizen",
+      "improvement",
+      "methodology"
+    ]
   },
   {
     "owner": "travisvn",
@@ -580,7 +943,11 @@
     "category": "productivity",
     "name": "n8n Skills",
     "description": "Enable AI operation of n8n workflows and automation",
-    "tags": ["n8n", "automation", "workflows"]
+    "tags": [
+      "n8n",
+      "automation",
+      "workflows"
+    ]
   },
   {
     "owner": "travisvn",
@@ -588,7 +955,11 @@
     "category": "productivity",
     "name": "Raffle Winner Picker",
     "description": "Select secure random winners for raffles and giveaways",
-    "tags": ["raffle", "random", "selection"]
+    "tags": [
+      "raffle",
+      "random",
+      "selection"
+    ]
   },
   {
     "owner": "travisvn",
@@ -596,7 +967,11 @@
     "category": "productivity",
     "name": "Tailored Resume Generator",
     "description": "Customize resumes for specific job applications",
-    "tags": ["resume", "jobs", "customization"]
+    "tags": [
+      "resume",
+      "jobs",
+      "customization"
+    ]
   },
   {
     "owner": "travisvn",
@@ -604,7 +979,11 @@
     "category": "productivity",
     "name": "Ship Learn Next",
     "description": "Iterate on development and learning priorities effectively",
-    "tags": ["learning", "iteration", "priorities"]
+    "tags": [
+      "learning",
+      "iteration",
+      "priorities"
+    ]
   },
   {
     "owner": "travisvn",
@@ -612,7 +991,11 @@
     "category": "productivity",
     "name": "Tapestry",
     "description": "Interlink and summarize related documents together",
-    "tags": ["documents", "linking", "summarization"]
+    "tags": [
+      "documents",
+      "linking",
+      "summarization"
+    ]
   },
   {
     "owner": "travisvn",
@@ -620,7 +1003,11 @@
     "category": "devops-cicd",
     "name": "Git Pushing",
     "description": "Automate git operations and repository interactions",
-    "tags": ["git", "automation", "repository"]
+    "tags": [
+      "git",
+      "automation",
+      "repository"
+    ]
   },
   {
     "owner": "travisvn",
@@ -628,7 +1015,11 @@
     "category": "development-tools",
     "name": "Review Implementing",
     "description": "Evaluate code implementation alignment with requirements",
-    "tags": ["review", "implementation", "code"]
+    "tags": [
+      "review",
+      "implementation",
+      "code"
+    ]
   },
   {
     "owner": "travisvn",
@@ -636,7 +1027,11 @@
     "category": "development-tools",
     "name": "Test Fixing",
     "description": "Detect and fix failing tests automatically",
-    "tags": ["testing", "fixing", "automation"]
+    "tags": [
+      "testing",
+      "fixing",
+      "automation"
+    ]
   },
   {
     "owner": "travisvn",
@@ -644,7 +1039,11 @@
     "category": "security",
     "name": "Computer Forensics",
     "description": "Digital forensics techniques for investigation",
-    "tags": ["forensics", "investigation", "security"]
+    "tags": [
+      "forensics",
+      "investigation",
+      "security"
+    ]
   },
   {
     "owner": "travisvn",
@@ -652,7 +1051,11 @@
     "category": "security",
     "name": "Secure File Deletion",
     "description": "Implement secure data sanitization and deletion",
-    "tags": ["deletion", "security", "sanitization"]
+    "tags": [
+      "deletion",
+      "security",
+      "sanitization"
+    ]
   },
   {
     "owner": "travisvn",
@@ -660,7 +1063,11 @@
     "category": "security",
     "name": "Metadata Extraction",
     "description": "Analyze file metadata for forensic investigations",
-    "tags": ["metadata", "extraction", "forensics"]
+    "tags": [
+      "metadata",
+      "extraction",
+      "forensics"
+    ]
   },
   {
     "owner": "travisvn",
@@ -668,7 +1075,11 @@
     "category": "security",
     "name": "Threat Hunting with Sigma",
     "description": "Use Sigma rules for threat detection and hunting",
-    "tags": ["sigma", "threat-hunting", "detection"]
+    "tags": [
+      "sigma",
+      "threat-hunting",
+      "detection"
+    ]
   },
   {
     "owner": "travisvn",
@@ -676,7 +1087,11 @@
     "category": "document-processing",
     "name": "Markdown to EPUB",
     "description": "Convert markdown into professional ebook files",
-    "tags": ["markdown", "epub", "ebook"]
+    "tags": [
+      "markdown",
+      "epub",
+      "ebook"
+    ]
   },
   {
     "owner": "travisvn",
@@ -684,7 +1099,11 @@
     "category": "devops-cicd",
     "name": "Changelog Generator",
     "description": "Transform git commits into customer-friendly release notes",
-    "tags": ["changelog", "releases", "git"]
+    "tags": [
+      "changelog",
+      "releases",
+      "git"
+    ]
   },
   {
     "owner": "travisvn",
@@ -692,7 +1111,11 @@
     "category": "development-tools",
     "name": "Terminal Title",
     "description": "Add dynamic titles to terminal windows for organization",
-    "tags": ["terminal", "title", "organization"]
+    "tags": [
+      "terminal",
+      "title",
+      "organization"
+    ]
   },
   {
     "owner": "travisvn",
@@ -700,7 +1123,11 @@
     "category": "ai-llm",
     "name": "LangSmith Fetch",
     "description": "Analyze LangChain execution traces for debugging",
-    "tags": ["langsmith", "langchain", "tracing"]
+    "tags": [
+      "langsmith",
+      "langchain",
+      "tracing"
+    ]
   },
   {
     "owner": "travisvn",
@@ -708,7 +1135,11 @@
     "category": "development-tools",
     "name": "Move Code Quality",
     "description": "Validate Move language code quality for blockchain",
-    "tags": ["move", "blockchain", "quality"]
+    "tags": [
+      "move",
+      "blockchain",
+      "quality"
+    ]
   },
   {
     "owner": "travisvn",
@@ -716,7 +1147,11 @@
     "category": "development-tools",
     "name": "PyPICT",
     "description": "Generate pairwise test case coverage efficiently",
-    "tags": ["testing", "pairwise", "coverage"]
+    "tags": [
+      "testing",
+      "pairwise",
+      "coverage"
+    ]
   },
   {
     "owner": "travisvn",
@@ -724,7 +1159,11 @@
     "category": "data-analysis",
     "name": "Reddit Fetch",
     "description": "Retrieve Reddit content via API for analysis",
-    "tags": ["reddit", "fetch", "social"]
+    "tags": [
+      "reddit",
+      "fetch",
+      "social"
+    ]
   },
   {
     "owner": "travisvn",
@@ -732,7 +1171,11 @@
     "category": "development-tools",
     "name": "Software Architecture",
     "description": "Clean Architecture and SOLID principles guidance",
-    "tags": ["architecture", "solid", "design"]
+    "tags": [
+      "architecture",
+      "solid",
+      "design"
+    ]
   },
   {
     "owner": "travisvn",
@@ -740,7 +1183,11 @@
     "category": "ai-llm",
     "name": "Subagent Driven Development",
     "description": "Dispatch independent task agents for parallel work",
-    "tags": ["subagents", "parallel", "development"]
+    "tags": [
+      "subagents",
+      "parallel",
+      "development"
+    ]
   },
   {
     "owner": "travisvn",
@@ -748,7 +1195,11 @@
     "category": "development-tools",
     "name": "Test Driven Development",
     "description": "TDD methodology guidance for quality code",
-    "tags": ["tdd", "testing", "methodology"]
+    "tags": [
+      "tdd",
+      "testing",
+      "methodology"
+    ]
   },
   {
     "owner": "travisvn",
@@ -756,7 +1207,11 @@
     "category": "devops-cicd",
     "name": "Git Worktrees",
     "description": "Manage isolated git worktrees for parallel development",
-    "tags": ["git", "worktrees", "parallel"]
+    "tags": [
+      "git",
+      "worktrees",
+      "parallel"
+    ]
   },
   {
     "owner": "travisvn",
@@ -764,7 +1219,11 @@
     "category": "ai-llm",
     "name": "Prompt Engineering",
     "description": "Teach prompt optimization techniques for better AI interactions",
-    "tags": ["prompts", "optimization", "ai"]
+    "tags": [
+      "prompts",
+      "optimization",
+      "ai"
+    ]
   },
   {
     "owner": "travisvn",
@@ -772,7 +1231,11 @@
     "category": "devops-cicd",
     "name": "AWS Skills",
     "description": "AWS CDK patterns and serverless architecture guidance",
-    "tags": ["aws", "cdk", "serverless"]
+    "tags": [
+      "aws",
+      "cdk",
+      "serverless"
+    ]
   },
   {
     "owner": "travisvn",
@@ -780,7 +1243,11 @@
     "category": "devops-cicd",
     "name": "Finishing Development Branch",
     "description": "Guide development workflow completion and merging",
-    "tags": ["git", "branches", "workflow"]
+    "tags": [
+      "git",
+      "branches",
+      "workflow"
+    ]
   },
   {
     "owner": "vijaythecoder",
@@ -788,7 +1255,11 @@
     "category": "ai-llm",
     "name": "Awesome Claude Agents",
     "description": "Team of specialized AI agents for building features and debugging",
-    "tags": ["agents", "team", "specialized"]
+    "tags": [
+      "agents",
+      "team",
+      "specialized"
+    ]
   },
   {
     "owner": "VoltAgent",
@@ -796,7 +1267,11 @@
     "category": "ai-llm",
     "name": "Claude Code Subagents",
     "description": "100+ specialized AI agents for full-stack development",
-    "tags": ["subagents", "fullstack", "specialized"]
+    "tags": [
+      "subagents",
+      "fullstack",
+      "specialized"
+    ]
   },
   {
     "owner": "hesreallyhim",
@@ -804,7 +1279,11 @@
     "category": "development-tools",
     "name": "Claude Code Templates",
     "description": "Usage dashboard, analytics, slash commands, hooks, and agents",
-    "tags": ["templates", "dashboard", "analytics"]
+    "tags": [
+      "templates",
+      "dashboard",
+      "analytics"
+    ]
   },
   {
     "owner": "diet103",
@@ -812,7 +1291,11 @@
     "category": "development-tools",
     "name": "Infrastructure Showcase",
     "description": "Hooks ensuring Claude selects appropriate skills for context",
-    "tags": ["infrastructure", "hooks", "context"]
+    "tags": [
+      "infrastructure",
+      "hooks",
+      "context"
+    ]
   },
   {
     "owner": "prasad-chalasani",
@@ -820,7 +1303,11 @@
     "category": "development-tools",
     "name": "Session Continuity Tools",
     "description": "Skills for avoiding compaction and recovering context across sessions",
-    "tags": ["sessions", "continuity", "context"]
+    "tags": [
+      "sessions",
+      "continuity",
+      "context"
+    ]
   },
   {
     "owner": "brettdavies",
@@ -828,7 +1315,11 @@
     "category": "web-scraping",
     "name": "Crawl4AI Web Scraping",
     "description": "Web scraping with JavaScript support, CSS/LLM extraction, and automated data pipelines",
-    "tags": ["scraping", "crawling", "extraction"],
+    "tags": [
+      "scraping",
+      "crawling",
+      "extraction"
+    ],
     "featured": true
   },
   {
@@ -837,7 +1328,11 @@
     "category": "web-scraping",
     "name": "ClaudeKit Skills",
     "description": "Browser automation, screenshots, web scraping, performance monitoring, and form automation",
-    "tags": ["browser", "automation", "scraping"]
+    "tags": [
+      "browser",
+      "automation",
+      "scraping"
+    ]
   },
   {
     "owner": "czlonkowski",
@@ -845,7 +1340,11 @@
     "category": "automation",
     "name": "n8n Workflow Skills",
     "description": "7 complementary skills for n8n automation with 525+ nodes and 2,653+ workflow templates",
-    "tags": ["n8n", "workflows", "automation"],
+    "tags": [
+      "n8n",
+      "workflows",
+      "automation"
+    ],
     "featured": true
   },
   {
@@ -854,7 +1353,11 @@
     "category": "automation",
     "name": "n8n Workflow Builder",
     "description": "AI assistant for n8n workflow automation through natural language management",
-    "tags": ["n8n", "builder", "automation"]
+    "tags": [
+      "n8n",
+      "builder",
+      "automation"
+    ]
   },
   {
     "owner": "TheCraigHewitt",
@@ -862,7 +1365,11 @@
     "category": "seo-search",
     "name": "SEO Machine",
     "description": "SEO-optimized blog content workspace with keyword mapping and search intent analysis",
-    "tags": ["seo", "content", "keywords"],
+    "tags": [
+      "seo",
+      "content",
+      "keywords"
+    ],
     "featured": true
   },
   {
@@ -871,7 +1378,11 @@
     "category": "seo-search",
     "name": "Claude Code SEO",
     "description": "100-point SEO audits across 6 dimensions with 27+ commands for comprehensive optimization",
-    "tags": ["seo", "audit", "optimization"]
+    "tags": [
+      "seo",
+      "audit",
+      "optimization"
+    ]
   },
   {
     "owner": "dragosroua",
@@ -879,7 +1390,11 @@
     "category": "seo-search",
     "name": "Content SEO Skills",
     "description": "Production-ready skills for content management, SEO optimization, and link management",
-    "tags": ["content", "seo", "links"]
+    "tags": [
+      "content",
+      "seo",
+      "links"
+    ]
   },
   {
     "owner": "taahamahdi",
@@ -887,7 +1402,11 @@
     "category": "translation-localization",
     "name": "i18n AI Translate",
     "description": "AI-powered localization for i18next-style JSON with multi-engine support and diff-aware translation",
-    "tags": ["i18n", "translation", "localization"],
+    "tags": [
+      "i18n",
+      "translation",
+      "localization"
+    ],
     "featured": true
   },
   {
@@ -897,6 +1416,2116 @@
     "category": "translation-localization",
     "name": "Translations",
     "description": "Internationalization with next-intl and PO files for adding and modifying translations",
-    "tags": ["i18n", "next-intl", "po-files"]
+    "tags": [
+      "i18n",
+      "next-intl",
+      "po-files"
+    ]
+  },
+  {
+    "owner": "axiaoge2",
+    "repo": "Apple-Hig-Designer",
+    "category": "development-tools",
+    "name": "Apple-Hig-Designer",
+    "description": "A Claude Code Skill for designing professional interfaces following Apple Human Interface Guidelines",
+    "tags": [
+      "claude-skill"
+    ]
+  },
+  {
+    "owner": "muratcankoylan",
+    "repo": "Agent-Skills-for-Context-Engineering",
+    "category": "development-tools",
+    "name": "Agent-Skills-for-Context-Engineering",
+    "description": "A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or debugging agent systems that require effective context management.",
+    "tags": []
+  },
+  {
+    "owner": "euphrat1ca",
+    "repo": "Security-List",
+    "category": "creative-design",
+    "name": "Security-List",
+    "description": "If you have any good suggestions or comments during the search process, please feedback some index experience in issues. Thank you for your participation.查阅过程中，如果有什么好的意见或建议，请在Issues反馈，感谢您的参与。",
+    "tags": []
+  },
+  {
+    "owner": "innovationacademy-kr",
+    "repo": "hitchhikers_guide",
+    "category": "development-tools",
+    "name": "hitchhikers_guide",
+    "description": "은하수 .. 됐고, hitchhiker 들을 위한 안내서",
+    "tags": []
+  },
+  {
+    "owner": "entice",
+    "repo": "entice",
+    "category": "document-processing",
+    "name": "entice",
+    "description": "Docs for the entice project",
+    "tags": []
+  },
+  {
+    "owner": "XiaomingX",
+    "repo": "proxy-pool",
+    "category": "development-tools",
+    "name": "proxy-pool",
+    "description": "Python ProxyPool for web spider.ProxyPool 是一个用于采集、验证和管理代理IP的轻量级工具，旨在帮助用户自动维护高质量的代理池，方便在爬虫、网络请求中灵活使用匿名代理。",
+    "tags": []
+  },
+  {
+    "owner": "ninehills",
+    "repo": "PatentWriterAgent",
+    "category": "ai-llm",
+    "name": "PatentWriterAgent",
+    "description": "PatentWriterAgent Demo",
+    "tags": []
+  },
+  {
+    "owner": "Dicklesworthstone",
+    "repo": "mcp_agent_mail",
+    "category": "ai-llm",
+    "name": "mcp_agent_mail",
+    "description": "Like gmail for your coding agents. Lets various different agents communicate and coordinate with each other.",
+    "tags": []
+  },
+  {
+    "owner": "doongz",
+    "repo": "notes",
+    "category": "productivity",
+    "name": "notes",
+    "description": "算法｜技能｜知识｜数学",
+    "tags": []
+  },
+  {
+    "owner": "jikexueyuanwiki",
+    "repo": "git-bak",
+    "category": "devops-cicd",
+    "name": "git-bak",
+    "description": "Git教程",
+    "tags": []
+  },
+  {
+    "owner": "nohanaga",
+    "repo": "Azure-AI-Search-Workshop",
+    "category": "ai-llm",
+    "name": "Azure-AI-Search-Workshop",
+    "tags": []
+  },
+  {
+    "owner": "Whamp",
+    "repo": "zai-glm-skills",
+    "category": "ai-llm",
+    "name": "zai-glm-skills",
+    "tags": []
+  },
+  {
+    "owner": "mbta",
+    "repo": "transit_project_ideas",
+    "category": "development-tools",
+    "name": "transit_project_ideas",
+    "description": "Transit Coding Projects for Beginners",
+    "tags": []
+  },
+  {
+    "owner": "tpmjs",
+    "repo": "tpmjs",
+    "category": "ai-llm",
+    "name": "tpmjs",
+    "description": "Tool Package Manager for AI Agents",
+    "tags": []
+  },
+  {
+    "owner": "murffious",
+    "repo": "git-master-1",
+    "category": "document-processing",
+    "name": "git-master-1",
+    "description": "Boilerplate Code for Full Stack Web Development and some DOCS ",
+    "tags": []
+  },
+  {
+    "owner": "melvincarvalho",
+    "repo": "aam",
+    "category": "ai-llm",
+    "name": "aam",
+    "description": "autonomous agent manager",
+    "tags": []
+  },
+  {
+    "owner": "fage1151",
+    "repo": "swoole-doc",
+    "category": "document-processing",
+    "name": "swoole-doc",
+    "description": "swoole手册",
+    "tags": []
+  },
+  {
+    "owner": "Rowing0914",
+    "repo": "my_personal_notes",
+    "category": "productivity",
+    "name": "my_personal_notes",
+    "description": "for myself",
+    "tags": []
+  },
+  {
+    "owner": "calvinsettachatgul",
+    "repo": "aws_associate_solutions_architect",
+    "category": "devops-cicd",
+    "name": "aws_associate_solutions_architect",
+    "description": "learning aws",
+    "tags": []
+  },
+  {
+    "owner": "bl-ue",
+    "repo": "tweakcc-system-prompts",
+    "category": "ai-llm",
+    "name": "tweakcc-system-prompts",
+    "description": "Customized Claude Code system prompts for use with tweakcc — ~48k bytes smaller, 30% faster, same accuracy",
+    "tags": []
+  },
+  {
+    "owner": "parsaeisa",
+    "repo": "Notes",
+    "category": "productivity",
+    "name": "Notes",
+    "tags": []
+  },
+  {
+    "owner": "DrZoot",
+    "repo": "htmx-skill",
+    "category": "ai-llm",
+    "name": "htmx-skill",
+    "description": "HTMX Agent Skill",
+    "tags": []
+  },
+  {
+    "owner": "SerPeter",
+    "repo": "llm-fmt-project",
+    "category": "ai-llm",
+    "name": "llm-fmt-project",
+    "description": "Token-efficient data format converter for LLM/agent contexts. JSON/YAML/XML → TOON/compact formats with 30-60% token savings. Includes filtering, auto-selection, and token analysis.",
+    "tags": []
+  },
+  {
+    "owner": "bytifycorp",
+    "repo": "blog-posts",
+    "category": "communication",
+    "name": "blog-posts",
+    "tags": []
+  },
+  {
+    "owner": "milc3sar",
+    "repo": "AtomicCommit-Pro",
+    "category": "ai-llm",
+    "name": "AtomicCommit-Pro",
+    "description": "Skill para agente con el propósito de ser motor de control de versiones diseñado para fragmentar cambios complejos en unidades lógicas indivisibles. Actúa como un filtro de calidad que separa correcciones, funcionalidades y estilos, asegurando que cada commit sea una pieza de información pura y trazable para el equipo de desarrollo.",
+    "tags": []
+  },
+  {
+    "owner": "Dicklesworthstone",
+    "repo": "jeffreysprompts.com",
+    "category": "ai-llm",
+    "name": "jeffreysprompts.com",
+    "description": "A curated collection of battle-tested prompts for agentic coding - Browse, copy, and install as Claude Code skills",
+    "tags": []
+  },
+  {
+    "owner": "hancengiz",
+    "repo": "claude-code-prompt-coach-skill",
+    "category": "ai-llm",
+    "name": "claude-code-prompt-coach-skill",
+    "tags": []
+  },
+  {
+    "owner": "xsjlmzs",
+    "repo": "Notes",
+    "category": "productivity",
+    "name": "Notes",
+    "description": "some learning notes",
+    "tags": []
+  },
+  {
+    "owner": "KurshedKhan",
+    "repo": "JavaScript",
+    "category": "automation",
+    "name": "JavaScript",
+    "description": "This is very powerful programming language.",
+    "tags": []
+  },
+  {
+    "owner": "rugbylug",
+    "repo": "Meeting-notes",
+    "category": "communication",
+    "name": "Meeting-notes",
+    "description": "Notes from RugbyLug meetings",
+    "tags": []
+  },
+  {
+    "owner": "vlmutolo",
+    "repo": "skills",
+    "category": "ai-llm",
+    "name": "skills",
+    "description": "AI agent skills repository",
+    "tags": []
+  },
+  {
+    "owner": "FreeChase",
+    "repo": "VscodeNote",
+    "category": "development-tools",
+    "name": "VscodeNote",
+    "description": "记录vscode的一些笔记，包括插件、快捷件",
+    "tags": []
+  },
+  {
+    "owner": "justinabrahms",
+    "repo": "confluence-md",
+    "category": "document-processing",
+    "name": "confluence-md",
+    "description": "A command-line tool for retrieving Confluence pages as Markdown",
+    "tags": []
+  },
+  {
+    "owner": "ahmad-kad",
+    "repo": "calhacks-agenticRobot",
+    "category": "ai-llm",
+    "name": "calhacks-agenticRobot",
+    "tags": []
+  },
+  {
+    "owner": "krozgrov",
+    "repo": "ha-omlet-integration",
+    "category": "creative-design",
+    "name": "ha-omlet-integration",
+    "description": "Custom Home Assistant integration for Omlet devices, enabling monitoring and control of Autodoors and Smart Fans. Includes features like battery level monitoring, door/light control, and updates via API.",
+    "tags": []
+  },
+  {
+    "owner": "tnotesjs",
+    "repo": "TNotes.en-words",
+    "category": "document-processing",
+    "name": "TNotes.en-words",
+    "description": "📒 英语词库",
+    "tags": []
+  },
+  {
+    "owner": "EduardoRemedios",
+    "repo": "MCP-Builder-Skill",
+    "category": "development-tools",
+    "name": "MCP-Builder-Skill",
+    "description": "MCP Builder Skill Files",
+    "tags": []
+  },
+  {
+    "owner": "NangoHQ",
+    "repo": "function-builder",
+    "category": "ai-llm",
+    "name": "function-builder",
+    "description": "Build end to end functions in Nango using simple prompts",
+    "tags": []
+  },
+  {
+    "owner": "mehdic",
+    "repo": "auto-review-agent",
+    "category": "ai-llm",
+    "name": "auto-review-agent",
+    "description": "A system that allows a calude session to monitor another claude session and force to continue working",
+    "tags": []
+  },
+  {
+    "owner": "ljqdeGolang",
+    "repo": "Studynotebook",
+    "category": "productivity",
+    "name": "Studynotebook",
+    "description": "This is a personal repository that is established by myself to record what I learn every day.",
+    "tags": []
+  },
+  {
+    "owner": "venkatthirupathi",
+    "repo": "Murf_ai_Agent",
+    "category": "ai-llm",
+    "name": "Murf_ai_Agent",
+    "tags": []
+  },
+  {
+    "owner": "agentscope-ai",
+    "repo": "agentscope-java",
+    "category": "ai-llm",
+    "name": "agentscope-java",
+    "description": "AgentScope Java: Agent-Oriented Programming for Building LLM Applications",
+    "tags": []
+  },
+  {
+    "owner": "CherryHQ",
+    "repo": "cherry-studio",
+    "category": "ai-llm",
+    "name": "cherry-studio",
+    "description": "AI Agent + Coding Agent + 300+ assistants: agentic AI desktop with autonomous coding, intelligent automation, and unified access to frontier LLMs.",
+    "tags": [
+      "ai-agent",
+      "ai-sdk",
+      "chatbots",
+      "claude-code",
+      "claude-code-sdk"
+    ]
+  },
+  {
+    "owner": "wshobson",
+    "repo": "agents",
+    "category": "automation",
+    "name": "agents",
+    "description": "Intelligent automation and multi-agent orchestration for Claude Code",
+    "tags": [
+      "agents",
+      "anthropic",
+      "anthropic-claude",
+      "automation",
+      "claude"
+    ]
+  },
+  {
+    "owner": "hesreallyhim",
+    "repo": "awesome-claude-code",
+    "category": "ai-llm",
+    "name": "awesome-claude-code",
+    "description": "A curated list of awesome skills, hooks, slash-commands, agent orchestrators, applications, and plugins for Claude Code by Anthropic",
+    "tags": [
+      "agent-skills",
+      "agentic-code",
+      "agentic-coding",
+      "ai-workflow-optimization",
+      "ai-workflows"
+    ]
+  },
+  {
+    "owner": "ComposioHQ",
+    "repo": "awesome-claude-skills",
+    "category": "ai-llm",
+    "name": "awesome-claude-skills",
+    "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+    "tags": [
+      "anthropic",
+      "anthropic-ai",
+      "anthropic-skills",
+      "awesome",
+      "awesome-lists"
+    ]
+  },
+  {
+    "owner": "winfunc",
+    "repo": "opcode",
+    "category": "ai-llm",
+    "name": "opcode",
+    "description": "A powerful GUI app and Toolkit for Claude Code - Create custom agents, manage interactive Claude Code sessions, run secure background agents, and more.",
+    "tags": [
+      "anthropic",
+      "anthropic-claude",
+      "claude",
+      "claude-4",
+      "claude-4-opus"
+    ]
+  },
+  {
+    "owner": "oraios",
+    "repo": "serena",
+    "category": "ai-llm",
+    "name": "serena",
+    "description": "A powerful coding agent toolkit providing semantic retrieval and editing capabilities (MCP server & other integrations)",
+    "tags": [
+      "agent",
+      "ai",
+      "ai-coding",
+      "claude",
+      "claude-code"
+    ]
+  },
+  {
+    "owner": "code-yeongyu",
+    "repo": "oh-my-opencode",
+    "category": "ai-llm",
+    "name": "oh-my-opencode",
+    "description": "The Best Agent Harness. Meet Sisyphus: The Batteries-Included Agent that codes like you.",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "amp",
+      "anthropic",
+      "chatgpt"
+    ]
+  },
+  {
+    "owner": "davila7",
+    "repo": "claude-code-templates",
+    "category": "development-tools",
+    "name": "claude-code-templates",
+    "description": "CLI tool for configuring and monitoring Claude Code",
+    "tags": [
+      "anthropic",
+      "anthropic-claude",
+      "claude",
+      "claude-code"
+    ]
+  },
+  {
+    "owner": "nextlevelbuilder",
+    "repo": "ui-ux-pro-max-skill",
+    "category": "creative-design",
+    "name": "ui-ux-pro-max-skill",
+    "description": "An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms",
+    "tags": [
+      "ai-skills",
+      "antigravity",
+      "claude",
+      "claude-code",
+      "codex"
+    ]
+  },
+  {
+    "owner": "shareAI-lab",
+    "repo": "learn-claude-code",
+    "category": "ai-llm",
+    "name": "learn-claude-code",
+    "description": "How can we build a true AI agent? Like Claude Code.",
+    "tags": [
+      "agent",
+      "claude-code",
+      "teaching"
+    ]
+  },
+  {
+    "owner": "thedotmack",
+    "repo": "claude-mem",
+    "category": "ai-llm",
+    "name": "claude-mem",
+    "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "ai-memory",
+      "anthropic",
+      "artificial-intelligence"
+    ]
+  },
+  {
+    "owner": "ruvnet",
+    "repo": "claude-flow",
+    "category": "ai-llm",
+    "name": "claude-flow",
+    "description": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code support via MCP protocol. Ranked #1 in agent-based frameworks.",
+    "tags": [
+      "agentic-ai",
+      "agentic-engineering",
+      "agentic-framework",
+      "agentic-rag",
+      "agentic-workflow"
+    ]
+  },
+  {
+    "owner": "farion1231",
+    "repo": "cc-switch",
+    "category": "development-tools",
+    "name": "cc-switch",
+    "description": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex & Gemini CLI.",
+    "tags": [
+      "ai-tools",
+      "claude-code",
+      "codex",
+      "deepseek-v3",
+      "desktop-app"
+    ]
+  },
+  {
+    "owner": "steveyegge",
+    "repo": "beads",
+    "category": "business-marketing",
+    "name": "beads",
+    "description": "Beads - A memory upgrade for your coding agent",
+    "tags": [
+      "agents",
+      "claude-code",
+      "coding"
+    ]
+  },
+  {
+    "owner": "OthmanAdi",
+    "repo": "planning-with-files",
+    "category": "ai-llm",
+    "name": "planning-with-files",
+    "description": "Claude Code skill implementing Manus-style persistent markdown planning — the workflow pattern behind the $2B acquisition.",
+    "tags": [
+      "agent",
+      "agent-skills",
+      "agents",
+      "claude",
+      "claude-code"
+    ]
+  },
+  {
+    "owner": "mcp-use",
+    "repo": "mcp-use",
+    "category": "ai-llm",
+    "name": "mcp-use",
+    "description": "mcp-use is the easiest way to interact with mcp servers with custom agents",
+    "tags": [
+      "agentic-framework",
+      "ai",
+      "apps-sdk",
+      "chatgpt",
+      "claude-code"
+    ]
+  },
+  {
+    "owner": "humanlayer",
+    "repo": "humanlayer",
+    "category": "ai-llm",
+    "name": "humanlayer",
+    "description": "The best way to get AI coding agents to solve hard problems in complex codebases.",
+    "tags": [
+      "agents",
+      "ai",
+      "amp",
+      "claude-code",
+      "codex"
+    ]
+  },
+  {
+    "owner": "slopus",
+    "repo": "happy",
+    "category": "productivity",
+    "name": "happy",
+    "description": "Mobile and Web client for Codex and Claude Code, with realtime voice, encryption and fully featured",
+    "tags": [
+      "claude-code",
+      "claude-desktop",
+      "claude-mobile",
+      "codex",
+      "codex-cli"
+    ]
+  },
+  {
+    "owner": "Wei-Shaw",
+    "repo": "claude-relay-service",
+    "category": "ai-llm",
+    "name": "claude-relay-service",
+    "description": "CRS-自建Claude Code镜像，一站式开源中转服务，让 Claude、OpenAI、Gemini、Droid 订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+    "tags": [
+      "claude",
+      "claude-api",
+      "claude-code",
+      "claude-proxy",
+      "codex-cli"
+    ]
+  },
+  {
+    "owner": "router-for-me",
+    "repo": "CLIProxyAPI",
+    "category": "ai-llm",
+    "name": "CLIProxyAPI",
+    "description": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+    "tags": [
+      "antigravity",
+      "claude-code",
+      "cluade",
+      "codex",
+      "gemini"
+    ]
+  },
+  {
+    "owner": "Maciek-roboblog",
+    "repo": "Claude-Code-Usage-Monitor",
+    "category": "ai-llm",
+    "name": "Claude-Code-Usage-Monitor",
+    "description": "Real-time Claude Code usage monitor with predictions and warnings",
+    "tags": [
+      "ai",
+      "analytics",
+      "claude",
+      "claude-code",
+      "claude-usage"
+    ]
+  },
+  {
+    "owner": "olimorris",
+    "repo": "codecompanion.nvim",
+    "category": "ai-llm",
+    "name": "codecompanion.nvim",
+    "description": "✨ AI Coding, Vim Style",
+    "tags": [
+      "acp",
+      "agent-client-protocol",
+      "anthropic",
+      "claude-code",
+      "copilot"
+    ]
+  },
+  {
+    "owner": "siteboon",
+    "repo": "claudecodeui",
+    "category": "ai-llm",
+    "name": "claudecodeui",
+    "description": "Use Claude Code, Cursor CLI or Codex on mobile and web with CloudCLI (aka Claude Code UI). CloudCLI is a free open source webui/GUI that helps you manage your Claude Code session and projects remotely",
+    "tags": [
+      "anthropic",
+      "anthropic-ai",
+      "anthropic-claude",
+      "claude",
+      "claude-api"
+    ]
+  },
+  {
+    "owner": "UfoMiao",
+    "repo": "zcf",
+    "category": "ai-llm",
+    "name": "zcf",
+    "description": "Zero-Config Code Flow for Claude code & Codex",
+    "tags": [
+      "agent",
+      "ai",
+      "ai-agent",
+      "bmad-method",
+      "ccr"
+    ]
+  },
+  {
+    "owner": "travisvn",
+    "repo": "awesome-claude-skills",
+    "category": "ai-llm",
+    "name": "awesome-claude-skills",
+    "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows — particularly Claude Code",
+    "tags": [
+      "agentic-coding",
+      "anthropic",
+      "awesome",
+      "awesome-list",
+      "awesome-lists"
+    ]
+  },
+  {
+    "owner": "zilliztech",
+    "repo": "claude-context",
+    "category": "ai-llm",
+    "name": "claude-context",
+    "description": "Code search MCP for Claude Code. Make entire codebase the context for any coding agent.",
+    "tags": [
+      "agent",
+      "agentic-rag",
+      "ai-coding",
+      "claude-code",
+      "code-generation"
+    ]
+  },
+  {
+    "owner": "iOfficeAI",
+    "repo": "AionUi",
+    "category": "ai-llm",
+    "name": "AionUi",
+    "description": "Free, local, open-source Cowork for Gemini CLI, Claude Code, Codex, Opencode, Qwen Code, Goose Cli, Auggie, and more | 🌟 Star if you like it!",
+    "tags": [
+      "acp",
+      "ai",
+      "ai-agent",
+      "banana",
+      "chat"
+    ]
+  },
+  {
+    "owner": "anthropics",
+    "repo": "claude-plugins-official",
+    "category": "ai-llm",
+    "name": "claude-plugins-official",
+    "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+    "tags": [
+      "claude-code",
+      "mcp",
+      "skills"
+    ]
+  },
+  {
+    "owner": "opactorai",
+    "repo": "Claudable",
+    "category": "ai-llm",
+    "name": "Claudable",
+    "description": "Claudable is an open-source web builder that leverages local CLI agents, such as Claude Code, Codex, Gemini CLI, Qwen Code, and Cursor Agent, to build and deploy products effortlessly.",
+    "tags": [
+      "agent",
+      "claude",
+      "claude-code",
+      "codex",
+      "codingagent"
+    ]
+  },
+  {
+    "owner": "parcadei",
+    "repo": "Continuous-Claude-v3",
+    "category": "development-tools",
+    "name": "Continuous-Claude-v3",
+    "description": "Context management for Claude Code. Hooks maintain state via ledgers and handoffs. MCP execution without context pollution. Agent orchestration with isolated context windows.",
+    "tags": [
+      "agents",
+      "claude-code",
+      "claude-code-cli",
+      "claude-code-hooks",
+      "claude-code-mcp"
+    ]
+  },
+  {
+    "owner": "su-kaka",
+    "repo": "gcli2api",
+    "category": "ai-llm",
+    "name": "gcli2api",
+    "description": "将 GeminiCLI 和 Antigravity 转换为 OpenAI 、GEMINI 和 Claude API 接口",
+    "tags": [
+      "antigravity-ide",
+      "antigravity2api",
+      "claude",
+      "claude-api",
+      "claude-code"
+    ]
+  },
+  {
+    "owner": "VoltAgent",
+    "repo": "awesome-claude-skills",
+    "category": "ai-llm",
+    "name": "awesome-claude-skills",
+    "description": "The awesome collection of Claude Skills and resources.",
+    "tags": [
+      "ai-agents",
+      "awesome-list",
+      "claude",
+      "claude-ai",
+      "claude-code"
+    ]
+  },
+  {
+    "owner": "glittercowboy",
+    "repo": "get-shit-done",
+    "category": "ai-llm",
+    "name": "get-shit-done",
+    "description": "A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code by TÂCHES.",
+    "tags": [
+      "claude-code",
+      "context-engineering",
+      "meta-prompting",
+      "spec-driven-development"
+    ]
+  },
+  {
+    "owner": "Piebald-AI",
+    "repo": "claude-code-system-prompts",
+    "category": "ai-llm",
+    "name": "claude-code-system-prompts",
+    "description": "All parts of Claude Code's system prompt, 20 builtin tool descriptions, sub agent prompts (Plan/Explore/Task), utility prompts (CLAUDE.md, compact,  statusline, magic docs, WebFetch, Bash cmd, security review, agent creation).  Updated for each Claude Code version.",
+    "tags": [
+      "claude-code",
+      "claude-code-system-prompts",
+      "system-prompts"
+    ]
+  },
+  {
+    "owner": "zebbern",
+    "repo": "claude-code-guide",
+    "category": "development-tools",
+    "name": "claude-code-guide",
+    "description": "Master Claude Code with this Guide! Includes: Setup, SKILL.md files, Agents, Commands, workflows and tricks making Claude's potential skyrocket!",
+    "tags": [
+      "ai",
+      "ai-agent",
+      "ai-agent-tools",
+      "claude",
+      "claude-ai"
+    ]
+  },
+  {
+    "owner": "SawyerHood",
+    "repo": "dev-browser",
+    "category": "ai-llm",
+    "name": "dev-browser",
+    "description": "A Claude Skill to give your agent the ability to use a web browser",
+    "tags": [
+      "claude-code",
+      "playwright",
+      "skills"
+    ]
+  },
+  {
+    "owner": "stravu",
+    "repo": "crystal",
+    "category": "ai-llm",
+    "name": "crystal",
+    "description": "Run multiple Codex and Claude Code AI sessions in parallel git worktrees. Test, compare approaches & manage AI-assisted development workflows in one desktop app.",
+    "tags": [
+      "agentic-ai",
+      "ai",
+      "ai-coding",
+      "anthropic",
+      "claude"
+    ]
+  },
+  {
+    "owner": "breaking-brake",
+    "repo": "cc-wf-studio",
+    "category": "automation",
+    "name": "cc-wf-studio",
+    "description": "ClaudeCode Workflow Studio",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "mcp-tools",
+      "slash-commands",
+      "sub-agents"
+    ]
+  },
+  {
+    "owner": "brennercruvinel",
+    "repo": "CCPlugins",
+    "category": "ai-llm",
+    "name": "CCPlugins",
+    "description": "Best Claude Code framework that actually save time. Built by a dev tired of typing \"please act like a senior engineer\" in every conversation.",
+    "tags": [
+      "automated",
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "cli"
+    ]
+  },
+  {
+    "owner": "glitternetwork",
+    "repo": "pinme",
+    "category": "ai-llm",
+    "name": "pinme",
+    "description": "Deploy Your Frontend in a Single Command. Claude Code Skills supported.",
+    "tags": [
+      "ai-tools",
+      "claude-code-skill",
+      "claude-skills",
+      "deployment",
+      "deployment-tools"
+    ]
+  },
+  {
+    "owner": "jarrodwatts",
+    "repo": "claude-hud",
+    "category": "development-tools",
+    "name": "claude-hud",
+    "description": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
+    "tags": [
+      "anthropic",
+      "claude",
+      "claude-code",
+      "cli",
+      "plugin"
+    ]
+  },
+  {
+    "owner": "steipete",
+    "repo": "CodexBar",
+    "category": "ai-llm",
+    "name": "CodexBar",
+    "description": "Show usage stats for OpenAI Codex and Claude Code, without having to login.",
+    "tags": [
+      "ai",
+      "claude-code",
+      "codex",
+      "swift"
+    ]
+  },
+  {
+    "owner": "gotalab",
+    "repo": "cc-sdd",
+    "category": "creative-design",
+    "name": "cc-sdd",
+    "description": "Spec-driven development (SDD) for your team's workflow. Kiro style commands that enforce structured requirements→design→tasks workflow and steering, transforming how you build with AI. Support Claude Code, Codex, Cursor, Github Copilot, Gemini CLI and Windsurf. ",
+    "tags": [
+      "claude-code",
+      "codex",
+      "cursor",
+      "gemini-cli",
+      "github-copilot"
+    ]
+  },
+  {
+    "owner": "intellectronica",
+    "repo": "ruler",
+    "category": "ai-llm",
+    "name": "ruler",
+    "description": "Ruler — apply the same rules to all coding agents",
+    "tags": [
+      "agents",
+      "ai",
+      "aider",
+      "claude-code",
+      "codex"
+    ]
+  },
+  {
+    "owner": "davepoon",
+    "repo": "buildwithclaude",
+    "category": "development-tools",
+    "name": "buildwithclaude",
+    "description": "A single hub to find Claude Skills, Agents, Commands, Hooks, Plugins, and Marketplace collections to extend Claude Code",
+    "tags": [
+      "claude",
+      "claude-code",
+      "claude-code-commands",
+      "claude-skills",
+      "cli-tool"
+    ]
+  },
+  {
+    "owner": "folke",
+    "repo": "sidekick.nvim",
+    "category": "development-tools",
+    "name": "sidekick.nvim",
+    "description": "Your Neovim AI sidekick",
+    "tags": [
+      "claude-code",
+      "codex-cli",
+      "copilot",
+      "copilot-cli",
+      "gemini-cli"
+    ]
+  },
+  {
+    "owner": "FullAgent",
+    "repo": "fulling",
+    "category": "ai-llm",
+    "name": "fulling",
+    "description": "Fulling is an AI-powered Full-stack Engineer Agent. Built with Next.js, Claude, shadcn/ui, and PostgreSQL. Use kubernetes as infra.",
+    "tags": [
+      "ai-agent",
+      "claude",
+      "claude-code",
+      "docker",
+      "kubernetes"
+    ]
+  },
+  {
+    "owner": "peterfei",
+    "repo": "ai-agent-team",
+    "category": "ai-llm",
+    "name": "ai-agent-team",
+    "description": "AI Agent Team-拥有24/7专业AI开发团队：产品经理、前端开发、后端开发、测试工程师、DevOps工程师、技术负责人。一键安装，支持中英文命令，大幅提升开发效率！",
+    "tags": [
+      "24886",
+      "ai",
+      "ai-agents",
+      "claude-code",
+      "claude-code-skill"
+    ]
+  },
+  {
+    "owner": "alirezarezvani",
+    "repo": "ClaudeForge",
+    "category": "ai-llm",
+    "name": "ClaudeForge",
+    "description": "A CLAUDE.md Generator and Maintenance tool for for Claude Code to create high-quality CLAUDE.md instruction files — aligned with Anthropic’s best practices for Claude Code.",
+    "tags": [
+      "agentic-ai",
+      "agentic-workflow",
+      "claude-code",
+      "claude-skill",
+      "claude-subagents"
+    ]
+  },
+  {
+    "owner": "PleasePrompto",
+    "repo": "google-ai-mode-skill",
+    "category": "ai-llm",
+    "name": "google-ai-mode-skill",
+    "description": "Claude Code skill for free Google AI Mode search with citations. Zero-config setup, persistent browser profile, query optimization. Token-efficient web research.",
+    "tags": [
+      "ai-search",
+      "browser-automation",
+      "citations",
+      "claude-code",
+      "claude-skill"
+    ]
+  },
+  {
+    "owner": "giuseppe-trisciuoglio",
+    "repo": "developer-kit",
+    "category": "creative-design",
+    "name": "developer-kit",
+    "description": "This repository is a starter kit for building \"skills\" and \"agents\" for Claude Code. The current content focuses on patterns, conventions, and agents for Java projects (Spring Boot, JUnit, LangChain4J), but the kit is designed to be extensible and multi-language (PHP, TypeScript, Python, etc.).",
+    "tags": [
+      "agentic-code",
+      "agentic-coding",
+      "agents",
+      "claude-code",
+      "claude-code-skill"
+    ]
+  },
+  {
+    "owner": "OutlineDriven",
+    "repo": "outline-driven-development",
+    "category": "development-tools",
+    "name": "outline-driven-development",
+    "description": "Outline Driven Development – Beyond \"specs\" or \"vibes\" using AST analysis and Modern CLI Tools w/ context engineering; batteries-included",
+    "tags": [
+      "claude-code-plugins",
+      "claude-code-skill",
+      "claude-code-skills",
+      "claude-plugins",
+      "claude-skills"
+    ]
+  },
+  {
+    "owner": "sheeki03",
+    "repo": "Few-Word",
+    "category": "ai-llm",
+    "name": "Few-Word",
+    "description": "Claude Code plugin that offloads large outputs to filesystem and retrieves when required.",
+    "tags": [
+      "ai-agents",
+      "claude-code",
+      "claude-code-hooks",
+      "claude-code-plugin",
+      "claude-code-plugins"
+    ]
+  },
+  {
+    "owner": "iamzifei",
+    "repo": "gtd-coach-plugin",
+    "category": "productivity",
+    "name": "gtd-coach-plugin",
+    "description": "Claude Skill that break down everyday's todo with details action plan based on your goal/plan",
+    "tags": [
+      "ai",
+      "claude",
+      "claude-code",
+      "claude-skill"
+    ]
+  },
+  {
+    "owner": "iamzifei",
+    "repo": "wechat-article-publisher-skill",
+    "category": "ai-llm",
+    "name": "wechat-article-publisher-skill",
+    "description": "Claude Skill that publish on Wechat articles (微信公众号发布）",
+    "tags": [
+      "ai",
+      "claude",
+      "claude-code",
+      "claude-skill"
+    ]
+  },
+  {
+    "owner": "iamzifei",
+    "repo": "wechat-article-formatter-skill",
+    "category": "ai-llm",
+    "name": "wechat-article-formatter-skill",
+    "description": "Claude Skill that format Wechat articles for 微信公众号 (微信公众号文章排版，支持自定义样式)",
+    "tags": [
+      "ai",
+      "claude",
+      "claude-code",
+      "claude-skill"
+    ]
+  },
+  {
+    "owner": "scoobynko",
+    "repo": "claude-code-design-skills",
+    "category": "automation",
+    "name": "claude-code-design-skills",
+    "description": " Claude Code skills for automated design-to-code workflows. ",
+    "tags": [
+      "claude-code",
+      "claude-skill",
+      "claude-skills",
+      "design",
+      "figma"
+    ]
+  },
+  {
+    "owner": "ForteScarlet",
+    "repo": "codex-kkp",
+    "category": "ai-llm",
+    "name": "codex-kkp",
+    "description": "A Claude Code Plugin that enables seamless integration with Codex AI Agent for code analysis, implementation, and collaboration tasks.",
+    "tags": [
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "claude-code-skills",
+      "claude-plugin"
+    ]
+  },
+  {
+    "owner": "secondsky",
+    "repo": "claude-skills",
+    "category": "ai-llm",
+    "name": "claude-skills",
+    "description": "Production-ready skills for Claude Code CLI - Cloudflare, React, Tailwind v4, and AI integrations",
+    "tags": [
+      "claude-code",
+      "claude-code-commands",
+      "claude-code-hooks",
+      "claude-code-plugin",
+      "claude-code-plugins"
+    ]
+  },
+  {
+    "owner": "alirezarezvani",
+    "repo": "claude-code-aso-skill",
+    "category": "ai-llm",
+    "name": "claude-code-aso-skill",
+    "description": "AEO Automation Framework for Claude Code One-click, beginner friendly automation for GitHub. Includes a dedicated fleet of AEO sub-agents handling planning, execution, reports, actionable items, and executive summaries. Trigger work instantly with AEO slash-commands. Fully integrated as a Claude Code Skill and usable across Claude AI App",
+    "tags": [
+      "aeo",
+      "agentic-framework",
+      "android",
+      "app-store-optimization",
+      "appstore"
+    ]
+  },
+  {
+    "owner": "BlockRunAI",
+    "repo": "blockrun-agent-wallet",
+    "category": "ai-llm",
+    "name": "blockrun-agent-wallet",
+    "description": "Give AI agents a wallet to pay for GPT, Grok, DALL-E, and 30+ models. No API keys needed. Works with Claude Code and Antigravity.",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "anthropic",
+      "base-chain",
+      "chatgpt"
+    ]
+  },
+  {
+    "owner": "netresearch",
+    "repo": "jira-skill",
+    "category": "ai-llm",
+    "name": "jira-skill",
+    "description": "Agent Skill for intelligent Jira integration with MCP config and wiki markup | Claude Code compatible",
+    "tags": [
+      "agent-skills",
+      "ai-agent",
+      "atlassian",
+      "claude-code-skill",
+      "jira"
+    ]
+  },
+  {
+    "owner": "diegoeis",
+    "repo": "product-spec-kit",
+    "category": "ai-llm",
+    "name": "product-spec-kit",
+    "description": "Leverage AI to create, refine, and maintain your product specifications. Made to be used in LLMs and IDEs.",
+    "tags": [
+      "ai-specification",
+      "claude-skill",
+      "claude-skill-prd",
+      "product",
+      "product-management"
+    ]
+  },
+  {
+    "owner": "rohailaltaf",
+    "repo": "claude-skills",
+    "category": "document-processing",
+    "name": "claude-skills",
+    "description": "🤖 Claude Code skills that automate the tedious parts of development. Start with /update-docs to keep your documentation fresh.",
+    "tags": [
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "claude-skill",
+      "claude-skills"
+    ]
+  },
+  {
+    "owner": "SpillwaveSolutions",
+    "repo": "project-memory",
+    "category": "ai-llm",
+    "name": "project-memory",
+    "description": "This is a claude skill for tracking project state. ",
+    "tags": [
+      "agentic-skill",
+      "claude-code-skill"
+    ]
+  },
+  {
+    "owner": "OutlineDriven",
+    "repo": "odin-claude-plugin",
+    "category": "business-marketing",
+    "name": "odin-claude-plugin",
+    "description": "ODIN [for Claude Code as a plugin] - Outline Driven development approach for agentic INtelligence",
+    "tags": [
+      "claude-code",
+      "claude-code-cli",
+      "claude-code-plugin",
+      "claude-code-plugins",
+      "claude-code-skill"
+    ]
+  },
+  {
+    "owner": "gcpdev",
+    "repo": "llm-council-skill",
+    "category": "ai-llm",
+    "name": "llm-council-skill",
+    "description": "A skill to claude code that enables brainstorming with other LLMs (ChatGPT, Gemini) before presenting the implementation plan to the user",
+    "tags": [
+      "claude-code-skill",
+      "claude-code-skills",
+      "claude-skills"
+    ]
+  },
+  {
+    "owner": "ckelsoe",
+    "repo": "claude-skill-prompt-architect",
+    "category": "ai-llm",
+    "name": "claude-skill-prompt-architect",
+    "description": "Claude Code skill that transforms vague prompts into structured, expert-level prompts using 7 research-backed   frameworks (CO-STAR, RISEN, RISE, TIDD-EC, RTF, CoT, CoD)",
+    "tags": [
+      "claude-code",
+      "claude-skill",
+      "prompt-engineering",
+      "prompt-frameworks",
+      "prompt-improvement"
+    ]
+  },
+  {
+    "owner": "juanmacruzherrera",
+    "repo": "claude-layered-memory-architecture",
+    "category": "ai-llm",
+    "name": "claude-layered-memory-architecture",
+    "description": "Three-layer memory architecture for long-term AI learning with Claude",
+    "tags": [
+      "ai-memory",
+      "antrophic",
+      "architecture",
+      "claude",
+      "claude-ai"
+    ]
+  },
+  {
+    "owner": "wsbs20",
+    "repo": "claude-code-aso-skill",
+    "category": "ai-llm",
+    "name": "claude-code-aso-skill",
+    "description": "🚀 Optimize App Store visibility with AI agents in the Claude Code framework for enhanced performance and growth.",
+    "tags": [
+      "aeo",
+      "agentic-framework",
+      "android",
+      "app-store-optimization",
+      "appstore"
+    ]
+  },
+  {
+    "owner": "vicentereig",
+    "repo": "dspy-rb-skill",
+    "category": "ai-llm",
+    "name": "dspy-rb-skill",
+    "description": "Claude Skill for DSPy.rb - Type-safe LLM application development in Ruby",
+    "tags": [
+      "ai",
+      "claude",
+      "claude-skill",
+      "dspy",
+      "llm"
+    ]
+  },
+  {
+    "owner": "iamzifei",
+    "repo": "linkedin-article-publisher-skill",
+    "category": "ai-llm",
+    "name": "linkedin-article-publisher-skill",
+    "description": "Claude Skill that publish on LinkedIn article",
+    "tags": [
+      "ai",
+      "claude",
+      "claude-code",
+      "claude-skill"
+    ]
+  },
+  {
+    "owner": "netresearch",
+    "repo": "typo3-ddev-skill",
+    "category": "ai-llm",
+    "name": "typo3-ddev-skill",
+    "description": "Agent Skill for automating DDEV environment setup in TYPO3 extension projects | Claude Code compatible",
+    "tags": [
+      "agent-skills",
+      "ai-agent",
+      "claude-code-skill",
+      "ddev",
+      "developer-tool"
+    ]
+  },
+  {
+    "owner": "netresearch",
+    "repo": "agents-skill",
+    "category": "ai-llm",
+    "name": "agents-skill",
+    "description": "Agent Skill for generating AGENTS.md files following the agents.md convention | Claude Code compatible",
+    "tags": [
+      "agent-skills",
+      "agents-md",
+      "ai-agent",
+      "ai-agents",
+      "claude-code-skill"
+    ]
+  },
+  {
+    "owner": "greenstevester",
+    "repo": "fastlane-skill",
+    "category": "ai-llm",
+    "name": "fastlane-skill",
+    "description": "AI skill to setup and use fastlane to automate building and releasing your iOS and Android apps",
+    "tags": [
+      "app-store",
+      "automation",
+      "claude-code",
+      "claude-skill",
+      "fastlane"
+    ]
+  },
+  {
+    "owner": "CavinHuang",
+    "repo": "claude-skills-hub",
+    "category": "ai-llm",
+    "name": "claude-skills-hub",
+    "description": "🚀 Claude Skills Hub - 150+ Free Claude Skills for Enhanced AI Coding. A marketplace of expert-crafted workflows to boost your Claude Code experience.",
+    "tags": [
+      "claude-skill",
+      "claude-skills",
+      "claude-skills-creator",
+      "claude-skills-hub"
+    ]
+  },
+  {
+    "owner": "thepushkarp",
+    "repo": "brainstorm-plan",
+    "category": "document-processing",
+    "name": "brainstorm-plan",
+    "description": "Claude Code plugin marketplace for turning fuzzy ideas into concrete design docs and implementation plans.",
+    "tags": [
+      "brainstorming",
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill"
+    ]
+  },
+  {
+    "owner": "SpillwaveSolutions",
+    "repo": "running-marketing-campaigns-agent-skill",
+    "category": "business-marketing",
+    "name": "running-marketing-campaigns-agent-skill",
+    "description": "Claude Code skill for planning, executing, and measuring digital marketing campaigns. Includes UTM tracking, content strategy, email sequences, social media tactics, brand voice guidelines, and analytics frameworks.",
+    "tags": [
+      "agentic-skill",
+      "claude-code-skill"
+    ]
+  },
+  {
+    "owner": "netresearch",
+    "repo": "typo3-docs-skill",
+    "category": "ai-llm",
+    "name": "typo3-docs-skill",
+    "description": "Agent Skill for creating and maintaining TYPO3 extension documentation | Claude Code compatible",
+    "tags": [
+      "agent-skills",
+      "ai-agent",
+      "claude-code-skill",
+      "documentation",
+      "documentation-generator"
+    ]
+  },
+  {
+    "owner": "husniadil",
+    "repo": "fastmcp-builder",
+    "category": "development-tools",
+    "name": "fastmcp-builder",
+    "description": "A comprehensive Claude Code skill for building production-ready MCP servers using FastMCP. Includes reference guides, runnable examples, and a complete implementation with OAuth, testing, and best practices.",
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "code-generation",
+      "developer-tools",
+      "fastmcp"
+    ]
+  },
+  {
+    "owner": "netresearch",
+    "repo": "cli-tools-skill",
+    "category": "ai-llm",
+    "name": "cli-tools-skill",
+    "description": "Agent Skill for automatic CLI tool management - installs missing tools, audits environments | Claude Code compatible",
+    "tags": [
+      "agent-skills",
+      "ai-agent",
+      "automation",
+      "claude-code-skill",
+      "cli"
+    ]
+  },
+  {
+    "owner": "zysilm-ai",
+    "repo": "skill-master",
+    "category": "ai-llm",
+    "name": "skill-master",
+    "description": "Skill Master helps you to find, invoke and improve LLM Agent skills automatically. It is also a skill itself",
+    "tags": [
+      "agent-skill",
+      "ai-agents",
+      "claude-code",
+      "claude-skill",
+      "claude-skills"
+    ]
+  },
+  {
+    "owner": "ali5ter",
+    "repo": "obsidian-project-assistant",
+    "category": "document-processing",
+    "name": "obsidian-project-assistant",
+    "description": "📓 Claude Code skill and agent for automatic project documentation in Obsidian",
+    "tags": [
+      "claude-agent",
+      "claude-code",
+      "claude-skill",
+      "documentation",
+      "note-taking"
+    ]
+  },
+  {
+    "owner": "digitalsamba",
+    "repo": "digital-samba-skill",
+    "category": "ai-llm",
+    "name": "digital-samba-skill",
+    "description": "Claude Code skill for building video conferencing integrations with Digital Samba. Provides API reference, SDK methods, integration patterns, and JWT token guides to help Claude assist with embedding video calls in your applications.",
+    "tags": [
+      "ai-assisted-development",
+      "api-integration",
+      "claude-code",
+      "claude-skill",
+      "digital-samba"
+    ]
+  },
+  {
+    "owner": "xrip",
+    "repo": "claude-skill-analyze-js",
+    "category": "ai-llm",
+    "name": "claude-skill-analyze-js",
+    "description": "A Claude Code skill that performs static analysis on JavaScript files to find API endpoints, URLs, secrets, emails, and file references. Supports TOON format output (50% smaller than JSON) optimized for LLM consumption. Use with /analyze-js in Claude Code.",
+    "tags": [
+      "ai",
+      "claude",
+      "claude-code-skills",
+      "claude-skill"
+    ]
+  },
+  {
+    "owner": "bastien-gallay",
+    "repo": "rhetorical-analysis-skill",
+    "category": "web-scraping",
+    "name": "rhetorical-analysis-skill",
+    "description": "Claude Skill d'analyse rhétorique méthodique d'une source",
+    "tags": [
+      "claude",
+      "claude-skill",
+      "rhetorical-parser"
+    ]
+  },
+  {
+    "owner": "splinesreticulating",
+    "repo": "n8n-v2-workflow-skill",
+    "category": "automation",
+    "name": "n8n-v2-workflow-skill",
+    "description": "Comprehensive n8n v2.0 workflow development skill for Claude Code",
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "n8n",
+      "n8n-20",
+      "n8n-v2"
+    ]
+  },
+  {
+    "owner": "DidierRLopes",
+    "repo": "get-y2b-clips",
+    "category": "web-scraping",
+    "name": "get-y2b-clips",
+    "description": "YouTube nuggets extraction via Claude Code Skill",
+    "tags": [
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "claude-code-skills"
+    ]
+  },
+  {
+    "owner": "SpillwaveSolutions",
+    "repo": "plantuml",
+    "category": "ai-llm",
+    "name": "plantuml",
+    "description": "A Plantuml Claude Skill that can generate images and help you create Plantuml digrams from source code. It can also extract plantuml diagrams from a markdown file and then generate each of those to images and create a new markdown file with image links to those diagrams.",
+    "tags": [
+      "agentic-skill",
+      "claude-code-skill"
+    ]
+  },
+  {
+    "owner": "netresearch",
+    "repo": "typo3-conformance-skill",
+    "category": "ai-llm",
+    "name": "typo3-conformance-skill",
+    "description": "Agent Skill: TYPO3 extension conformance checker - validates against official standards | Claude Code compatible",
+    "tags": [
+      "agent-skills",
+      "ai-agent",
+      "claude-code-skill",
+      "open-standard",
+      "quality-assurance"
+    ]
+  },
+  {
+    "owner": "netresearch",
+    "repo": "netresearch-branding-skill",
+    "category": "ai-llm",
+    "name": "netresearch-branding-skill",
+    "description": "Agent Skill for implementing Netresearch brand guidelines - colors, typography, components | Claude Code compatible",
+    "tags": [
+      "agent-skills",
+      "ai-agent",
+      "branding",
+      "claude-code-skill",
+      "corporate-identity"
+    ]
+  },
+  {
+    "owner": "SpillwaveSolutions",
+    "repo": "jira",
+    "category": "ai-llm",
+    "name": "jira",
+    "description": "Claude Skill For JIRA",
+    "tags": [
+      "agentic-skill",
+      "claude-code-skill"
+    ]
+  },
+  {
+    "owner": "netresearch",
+    "repo": "typo3-testing-skill",
+    "category": "development-tools",
+    "name": "typo3-testing-skill",
+    "description": "Agent Skill for creating and managing TYPO3 extension tests | Claude Code compatible",
+    "tags": [
+      "agent-skills",
+      "ai-agent",
+      "claude-code-skill",
+      "open-standard",
+      "skill"
+    ]
+  },
+  {
+    "owner": "veithly",
+    "repo": "codex-skill",
+    "category": "ai-llm",
+    "name": "codex-skill",
+    "description": "Delegate coding tasks to OpenAI Codex CLI with YOLO mode for Claude Code",
+    "tags": [
+      "ai-coding",
+      "automation",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-skill"
+    ]
+  },
+  {
+    "owner": "CuriousDima",
+    "repo": "claude-web-to-markdown-skill",
+    "category": "ai-llm",
+    "name": "claude-web-to-markdown-skill",
+    "description": "Claude skill for converting web pages to Markdown using Jina AI",
+    "tags": [
+      "claude",
+      "claude-skill",
+      "jina-ai-reader",
+      "markdown"
+    ]
+  },
+  {
+    "owner": "cmdrvl",
+    "repo": "edgar-change-interpreter",
+    "category": "ai-llm",
+    "name": "edgar-change-interpreter",
+    "description": "Claude skill for identifying material changes, silent risks, and interpretation traps in SEC filings (10-K, 10-Q, 8-K). Built by CMD+RVL.",
+    "tags": [
+      "10k",
+      "10q",
+      "8k",
+      "agent-tools",
+      "anthropic"
+    ]
+  },
+  {
+    "owner": "iamzifei",
+    "repo": "xiaohongshu-images-skill",
+    "category": "ai-llm",
+    "name": "xiaohongshu-images-skill",
+    "description": "Claude Skill that makes 3:4 Xiaohongshu/小红书 images based on the content",
+    "tags": [
+      "ai",
+      "claude",
+      "claude-code",
+      "claude-skill"
+    ]
+  },
+  {
+    "owner": "wrsmith108",
+    "repo": "claude-skill-flaky-test-detector",
+    "category": "development-tools",
+    "name": "claude-skill-flaky-test-detector",
+    "description": "Claude Code skill for detecting flaky test patterns that cause intermittent CI failures",
+    "tags": [
+      "ci-cd",
+      "claude-code",
+      "claude-skill",
+      "developer-tools",
+      "flaky-tests"
+    ]
+  },
+  {
+    "owner": "iamzifei",
+    "repo": "red-publisher-skill",
+    "category": "ai-llm",
+    "name": "red-publisher-skill",
+    "description": "Claude Skill that publish on Red/Xiaohongshu/小红书",
+    "tags": [
+      "ai",
+      "claude",
+      "claude-code",
+      "claude-skill"
+    ]
+  },
+  {
+    "owner": "conorluddy",
+    "repo": "linear-skills",
+    "category": "productivity",
+    "name": "linear-skills",
+    "description": "A lightweight Claude Code skill for fetching Linear issue details without the context overhead of the full Linear MCP.",
+    "tags": [
+      "claude-code",
+      "claude-skill",
+      "claude-skills",
+      "linear",
+      "linear-mcp"
+    ]
+  },
+  {
+    "owner": "Cornjebus",
+    "repo": "neo-llm-security",
+    "category": "ai-llm",
+    "name": "neo-llm-security",
+    "description": "AI security co-pilot skill for Claude Code - identify, test, and fix vulnerabilities in LLM-powered applications",
+    "tags": [
+      "ai-security",
+      "claude-code",
+      "claude-skill",
+      "jailbreak",
+      "llm-security"
+    ]
+  },
+  {
+    "owner": "kongyo2",
+    "repo": "prompt-engineering-skill",
+    "category": "ai-llm",
+    "name": "prompt-engineering-skill",
+    "tags": [
+      "agent-skills",
+      "claude-skill",
+      "claude-skills"
+    ]
+  },
+  {
+    "owner": "amitlals",
+    "repo": "sap-rpt1-oss-predictor",
+    "category": "data-analysis",
+    "name": "sap-rpt1-oss-predictor",
+    "description": "SAP-RPT-1-OSS predictor Claude Skills",
+    "tags": [
+      "claude-skill",
+      "claude-skills-libary",
+      "huggingface-transformers",
+      "machine-learning-models",
+      "predictive-analytics-library"
+    ]
+  },
+  {
+    "owner": "ali5ter",
+    "repo": "claude-cli-ux-skill",
+    "category": "development-tools",
+    "name": "claude-cli-ux-skill",
+    "description": "🔬 Expert UX testing skill for CLIs and developer tools. Automatically evaluates command-line interfaces for usability, accessibility, and developer experience in Claude Code.",
+    "tags": [
+      "accessibility",
+      "api-design",
+      "claude-code",
+      "claude-skill",
+      "cli"
+    ]
+  },
+  {
+    "owner": "SpillwaveSolutions",
+    "repo": "claude_permissions_skill",
+    "category": "ai-llm",
+    "name": "claude_permissions_skill",
+    "description": "Manages Claude Permissions so you are not always bothered. ",
+    "tags": [
+      "agentic-skill",
+      "claude-code-skill"
+    ]
+  },
+  {
+    "owner": "ospocc",
+    "repo": "agent-skill-howopen",
+    "category": "ai-llm",
+    "name": "agent-skill-howopen",
+    "description": "This skill allows the agent to perform an \"Open Source Health Check\" on the current project. It analyzes the technology stack, programming language distribution, and open-source licenses of dependencies.",
+    "tags": [
+      "checker",
+      "claude-code-skill",
+      "claude-skills",
+      "dependencies",
+      "howopen"
+    ]
+  },
+  {
+    "owner": "SpillwaveSolutions",
+    "repo": "using-firebase",
+    "category": "development-tools",
+    "name": "using-firebase",
+    "description": "User Firebase Skill for using the command line and developing in Python and Typescript ",
+    "tags": [
+      "agentic-skill",
+      "claude-code-skill"
+    ]
+  },
+  {
+    "owner": "netresearch",
+    "repo": "typo3-core-contributions-skill",
+    "category": "ai-llm",
+    "name": "typo3-core-contributions-skill",
+    "description": "Agent Skill for TYPO3 Core contributions - Gerrit workflow, CI/CD, quality automation | Claude Code compatible",
+    "tags": [
+      "agent-skills",
+      "ai-agent",
+      "claude-code-skill",
+      "contribution",
+      "gerrit"
+    ]
+  },
+  {
+    "owner": "SpillwaveSolutions",
+    "repo": "image_gen",
+    "category": "creative-design",
+    "name": "image_gen",
+    "description": "Image generation skill that uses Gemini Banana to generate images. ",
+    "tags": [
+      "agentic-skill",
+      "claude-code-skill"
+    ]
+  },
+  {
+    "owner": "gnoyes-mik",
+    "repo": "code-tour",
+    "category": "development-tools",
+    "name": "code-tour",
+    "description": "Interactive code explorer - navigate your codebase like a debugger.",
+    "tags": [
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "code-explorer",
+      "developer-tools"
+    ]
+  },
+  {
+    "owner": "SpillwaveSolutions",
+    "repo": "document-specialist-skill",
+    "category": "document-processing",
+    "name": "document-specialist-skill",
+    "description": "Claude Code Skill. AI-powered software documentation automation. Professional software documentation specialist. Featuring Progressive Disclosure Architecture. Supports: Design, Requirements, SRS, PRD, API, and architecture docs. Few shot examples for Spring Boot, Pulumi, etc., Supports (Markdown, DOCX, PDF). ",
+    "tags": [
+      "agentic-skill",
+      "claude-code-skill"
+    ]
+  },
+  {
+    "owner": "netresearch",
+    "repo": "enterprise-readiness-skill",
+    "category": "ai-llm",
+    "name": "enterprise-readiness-skill",
+    "description": "Agent Skill for enterprise readiness assessment - security, quality, and automation | Claude Code compatible",
+    "tags": [
+      "agent-skills",
+      "ai-agent",
+      "claude-code-skill",
+      "devsecops",
+      "enterprise"
+    ]
+  },
+  {
+    "owner": "richard-gyiko",
+    "repo": "data-wrangler-plugin",
+    "category": "data-analysis",
+    "name": "data-wrangler-plugin",
+    "description": "Claude Code plugin for SQL analytics over CSV, Parquet, JSON, Excel, and databases using DuckDB",
+    "tags": [
+      "analytics",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "csv"
+    ]
+  },
+  {
+    "owner": "Spidy57",
+    "repo": "claude-code-reference",
+    "category": "ai-llm",
+    "name": "claude-code-reference",
+    "description": "🖥️ Explore a comprehensive GTK app for Linux that serves as a searchable reference for all Claude Code commands, shortcuts, and keyboard bindings.",
+    "tags": [
+      "agentic-ai",
+      "cache",
+      "claude",
+      "claude-code",
+      "claude-code-skill"
+    ]
+  },
+  {
+    "owner": "SpillwaveSolutions",
+    "repo": "mastering-gemini-cli-agentic-skill",
+    "category": "ai-llm",
+    "name": "mastering-gemini-cli-agentic-skill",
+    "description": "Claude Code skill for mastering headless automation with Google's Gemini CLI",
+    "tags": [
+      "agentic-skill",
+      "claude-code-skill",
+      "gemini",
+      "gemini-cli"
+    ]
+  },
+  {
+    "owner": "smadgerano",
+    "repo": "Opencode-Intern-Claude-Code-Skill",
+    "category": "ai-llm",
+    "name": "Opencode-Intern-Claude-Code-Skill",
+    "description": "Use Opencode in Claude through ACP",
+    "tags": [
+      "acp",
+      "agentic-ai",
+      "agentic-workflow",
+      "claude",
+      "claude-code"
+    ]
+  },
+  {
+    "owner": "claudeskills",
+    "repo": "svg-to-react",
+    "category": "creative-design",
+    "name": "svg-to-react",
+    "description": "Convert svg images to react components that can be managed with props (color, size...)",
+    "tags": [
+      "claude",
+      "claude-skill",
+      "frontend",
+      "react",
+      "svg-icons"
+    ]
+  },
+  {
+    "owner": "evgeny-trushin",
+    "repo": "claude-skills-collection",
+    "category": "productivity",
+    "name": "claude-skills-collection",
+    "description": "Curated collection of Claude Code skills for automation, data extraction, code generation, and   productivity. Drop-in skills for Claude AI to enhance your workflow.",
+    "tags": [
+      "claude-ai",
+      "claude-code",
+      "claude-skill",
+      "claude-skills",
+      "shopping"
+    ]
+  },
+  {
+    "owner": "ozankasikci",
+    "repo": "awesome-claude-skills",
+    "category": "ai-llm",
+    "name": "awesome-claude-skills",
+    "description": "A curated collection of useful Claude Skills, resources, and tools",
+    "tags": [
+      "ai",
+      "claude",
+      "claude-skill",
+      "claude-skills",
+      "llm"
+    ]
+  },
+  {
+    "owner": "wrsmith108",
+    "repo": "claude-skill-security-auditor",
+    "category": "security",
+    "name": "claude-skill-security-auditor",
+    "description": "Claude Code skill for running structured security audits with actionable remediation plans",
+    "tags": [
+      "claude-code",
+      "claude-skill",
+      "developer-tools",
+      "npm-audit",
+      "security"
+    ]
+  },
+  {
+    "owner": "mvdmakesthings",
+    "repo": "skills",
+    "category": "business-marketing",
+    "name": "skills",
+    "description": "A bespoke Claude Code plugin marketplace featuring skills that extend Claude's capabilities for specialized tasks.",
+    "tags": [
+      "claude-code",
+      "claude-skill",
+      "claude-skills",
+      "skills"
+    ]
+  },
+  {
+    "owner": "SpillwaveSolutions",
+    "repo": "mastering-langgraph-agent-skill",
+    "category": "ai-llm",
+    "name": "mastering-langgraph-agent-skill",
+    "description": "Build stateful AI agents and agentic workflows with LangGraph in Python. Covers tool-using agents, branching workflows, memory persistence, human-in-the-loop, multi-agent systems, and production deployment. Supports 14+ AI coding agents via Agent Skill Standard.",
+    "tags": [
+      "agentic-skill",
+      "claude-code-skill",
+      "langgraph",
+      "langgraph-python"
+    ]
+  },
+  {
+    "owner": "csmoove530",
+    "repo": "claude-code-x402-skill",
+    "category": "ai-llm",
+    "name": "claude-code-x402-skill",
+    "description": "Claude Code skill for x402 protocol development - provides expert guidance for building x402-based servers and payment-gated APIs",
+    "tags": [
+      "ai-agents",
+      "claude-code",
+      "claude-code-skill",
+      "http-payments",
+      "micropayments"
+    ]
+  },
+  {
+    "owner": "SpillwaveSolutions",
+    "repo": "publishing-astro-websites-agentic-skill",
+    "category": "document-processing",
+    "name": "publishing-astro-websites-agentic-skill",
+    "description": "A comprehensive Claude Code skill for building and deploying static websites with the Astro framework. Covers SSG, Content Collections, Markdown/MDX, Mermaid diagrams, Pagefind search, i18n, and deployment to Firebase/Netlify/Vercel.",
+    "tags": [
+      "agentic-skill",
+      "astro",
+      "claude-code-skill",
+      "firebase",
+      "netlify"
+    ]
+  },
+  {
+    "owner": "keiththompson",
+    "repo": "video-to-cooklang",
+    "category": "development-tools",
+    "name": "video-to-cooklang",
+    "description": "A Claude Code plugin that converts recipe videos from TikTok, Instagram, YouTube, and other platforms into Cooklang format.",
+    "tags": [
+      "claude-code-plugin",
+      "claude-code-skill",
+      "claude-code-skills"
+    ]
+  },
+  {
+    "owner": "SpillwaveSolutions",
+    "repo": "mastering-postgresql-agent-skill",
+    "category": "data-analysis",
+    "name": "mastering-postgresql-agent-skill",
+    "description": "PostgreSQL development for Python with full-text search, vector similarity, JSONB indexing, and production cloud deployment",
+    "tags": [
+      "agentic-skill",
+      "bm25",
+      "claude-code-skill",
+      "postgresql",
+      "vector-search"
+    ]
+  },
+  {
+    "owner": "SpillwaveSolutions",
+    "repo": "mastering-git-cli-agent-skill",
+    "category": "automation",
+    "name": "mastering-git-cli-agent-skill",
+    "description": "Git CLI operations, workflows, and automation for modern development (2025)",
+    "tags": [
+      "agentic-skill",
+      "claude-code-skill"
+    ]
+  },
+  {
+    "owner": "SpillwaveSolutions",
+    "repo": "mastering-typescript-skill",
+    "category": "development-tools",
+    "name": "mastering-typescript-skill",
+    "description": "Claude Code skill for enterprise-grade TypeScript development with type-safe patterns, modern tooling, and framework integration (React, NestJS)",
+    "tags": [
+      "agentic-skill",
+      "claude-code-skill",
+      "typescript"
+    ]
+  },
+  {
+    "owner": "SpillwaveSolutions",
+    "repo": "mastering-aws-cli",
+    "category": "devops-cicd",
+    "name": "mastering-aws-cli",
+    "description": "Agentic Skill for AWS CLI ",
+    "tags": [
+      "agentic-skill",
+      "claude-code-skill"
+    ]
+  },
+  {
+    "owner": "matthewdeaves",
+    "repo": "claude-code-prompts",
+    "category": "ai-llm",
+    "name": "claude-code-prompts",
+    "description": "Skills, statuslines, and configs for Claude Code CLI",
+    "tags": [
+      "ai-assisted-development",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "claude-code-skill"
+    ]
+  },
+  {
+    "owner": "SpillwaveSolutions",
+    "repo": "spacy-nlp-agentic-skill",
+    "category": "ai-llm",
+    "name": "spacy-nlp-agentic-skill",
+    "description": "Claude Code plugin for NLP with spaCy 3.x - entity extraction, classification, batch processing",
+    "tags": [
+      "agentic-skill",
+      "claude-code-skill"
+    ]
+  },
+  {
+    "owner": "TeXmeijin",
+    "repo": "video-to-gif-skill",
+    "category": "development-tools",
+    "name": "video-to-gif-skill",
+    "description": "Claude Code Skill: Merge multiple video files into a single optimized GIF with per-segment speed control",
+    "tags": [
+      "claude-code-skill",
+      "claude-skills"
+    ]
   }
 ]

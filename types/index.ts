@@ -21,6 +21,7 @@ export interface Skill {
   skillPath?: string;
   pros?: string[];
   cons?: string[];
+  rating?: number;
 }
 
 export interface Category {
@@ -74,6 +75,7 @@ export interface SkillRegistry {
   description?: string;
   pros?: string[];
   cons?: string[];
+  rating?: number;
 }
 
 export interface SkillsIndex {

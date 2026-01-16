@@ -1,5 +1,3 @@
-import Link from 'next/link';
-
 interface SkillTagsProps {
   tags: string[];
 }
@@ -10,16 +8,13 @@ export function SkillTags({ tags }: SkillTagsProps) {
   return (
     <div className="flex flex-wrap gap-2">
       {tags.map((tag) => (
-        <Link
+        <span
           key={tag}
-          href={`/skills?q=${encodeURIComponent(tag)}`}
-          className="group inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-secondary/70 hover:bg-terminal/10 border border-transparent hover:border-terminal/30 text-sm text-muted hover:text-terminal transition-all"
+          className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-secondary/70 border border-transparent text-sm text-muted"
         >
-          <span className="text-terminal/60 group-hover:text-terminal transition-colors">
-            #
-          </span>
+          <span className="text-terminal/60">#</span>
           {tag}
-        </Link>
+        </span>
       ))}
     </div>
   );

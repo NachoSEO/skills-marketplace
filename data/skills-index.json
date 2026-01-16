@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generatedAt": "2026-01-16T07:43:03.538Z",
+  "generatedAt": "2026-01-16T14:42:45.341Z",
   "slugIndex": {
     "docx": 0,
     "pdf": 1,
@@ -16,99 +16,264 @@
     "brand-guidelines": 11,
     "internal-comms": 12,
     "skill-creator": 13,
-    "superpowers": 14,
-    "superpowers-lab": 15,
-    "ios-simulator": 16,
-    "ffuf-web-fuzzing": 17,
-    "playwright-skill": 18,
-    "d3-js-visualization": 19,
-    "scientific-skills": 20,
-    "web-asset-generator": 21,
-    "loki-mode": 22,
-    "claude-squad": 23,
-    "ralph-for-claude-code": 24,
-    "recall": 25,
-    "codex-settings": 26,
-    "claudekit": 27,
-    "context-engineering-kit": 28,
-    "ab-method": 29,
-    "skill-seekers": 30,
-    "cc-hooks": 31,
-    "cc-tools": 32,
-    "ccexp": 33,
-    "claude-code-pm": 34,
-    "tsk": 35,
-    "tdd-guard": 36,
-    "awesome-claude-agents": 37,
-    "ccflare": 38,
-    "agentic-workflow-patterns": 39,
-    "cc-usage": 40,
-    "ccometixline": 41,
-    "mountaineering-skills": 42,
-    "cc-statusline": 43,
-    "claude-code-subagents": 44,
-    "composio-connect": 45,
-    "cloudflare-manager": 46,
-    "britfix": 47,
-    "linear-todo-sync": 48,
-    "claude-code-templates": 49,
-    "youtube-transcript": 50,
-    "video-downloader": 51,
-    "imagen": 52,
-    "article-extractor": 53,
-    "csv-summarizer": 54,
-    "postgresql": 55,
-    "root-cause-tracing": 56,
-    "competitive-ads-extractor": 57,
-    "domain-brainstormer": 58,
-    "lead-research-assistant": 59,
-    "content-research-writer": 60,
-    "brainstorming": 61,
-    "family-history-research": 62,
-    "meeting-insights-analyzer": 63,
-    "notebooklm-integration": 64,
-    "image-enhancer": 65,
-    "theme-factory": 66,
-    "file-organizer": 67,
-    "invoice-organizer": 68,
-    "kaizen": 69,
-    "n8n-skills": 70,
-    "raffle-winner-picker": 71,
-    "tailored-resume-generator": 72,
-    "ship-learn-next": 73,
-    "tapestry": 74,
-    "git-pushing": 75,
-    "review-implementing": 76,
-    "test-fixing": 77,
-    "computer-forensics": 78,
-    "secure-file-deletion": 79,
-    "metadata-extraction": 80,
-    "threat-hunting-with-sigma": 81,
-    "markdown-to-epub": 82,
-    "changelog-generator": 83,
-    "terminal-title": 84,
-    "langsmith-fetch": 85,
-    "move-code-quality": 86,
-    "pypict": 87,
-    "reddit-fetch": 88,
-    "software-architecture": 89,
-    "subagent-driven-development": 90,
-    "test-driven-development": 91,
-    "git-worktrees": 92,
-    "prompt-engineering": 93,
-    "aws-skills": 94,
-    "finishing-development-branch": 95,
-    "infrastructure-showcase": 96,
-    "session-continuity-tools": 97,
-    "crawl4ai-web-scraping": 98,
-    "claudekit-skills": 99,
-    "n8n-workflow-skills": 100,
-    "n8n-workflow-builder": 101,
-    "seo-machine": 102,
-    "claude-code-seo": 103,
-    "content-seo-skills": 104,
-    "i18n-ai-translate": 105,
-    "translations": 106
+    "cherry-studio": 14,
+    "agents": 15,
+    "superpowers": 16,
+    "superpowers-lab": 17,
+    "ios-simulator": 18,
+    "ffuf-web-fuzzing": 19,
+    "playwright-skill": 20,
+    "d3-js-visualization": 21,
+    "scientific-skills": 22,
+    "web-asset-generator": 23,
+    "awesome-claude-code": 24,
+    "awesome-claude-skills": 28,
+    "opcode": 29,
+    "serena": 30,
+    "oh-my-opencode": 31,
+    "ui-ux-pro-max-skill": 32,
+    "learn-claude-code": 33,
+    "claude-mem": 34,
+    "claude-flow": 35,
+    "cc-switch": 36,
+    "beads": 37,
+    "planning-with-files": 38,
+    "mcp-use": 39,
+    "humanlayer": 40,
+    "happy": 41,
+    "agent-skills-for-context-engineering": 42,
+    "claude-relay-service": 43,
+    "cliproxyapi": 44,
+    "claude-code-usage-monitor": 45,
+    "codecompanion-nvim": 46,
+    "claudecodeui": 47,
+    "zcf": 48,
+    "claude-context": 49,
+    "aionui": 50,
+    "claude-plugins-official": 51,
+    "claudable": 52,
+    "continuous-claude-v3": 53,
+    "gcli2api": 54,
+    "get-shit-done": 55,
+    "claude-code-system-prompts": 56,
+    "claude-code-guide": 57,
+    "dev-browser": 58,
+    "crystal": 59,
+    "cc-wf-studio": 60,
+    "ccplugins": 61,
+    "pinme": 62,
+    "claude-hud": 63,
+    "codexbar": 64,
+    "cc-sdd": 65,
+    "ruler": 66,
+    "buildwithclaude": 67,
+    "sidekick-nvim": 68,
+    "fulling": 69,
+    "loki-mode": 70,
+    "n8n-workflow-skills": 71,
+    "security-list": 72,
+    "mcp-agent-mail": 73,
+    "claudekit-skills": 74,
+    "claude-squad": 75,
+    "agentscope-java": 76,
+    "n8n-workflow-builder": 77,
+    "patentwriteragent": 78,
+    "seo-machine": 79,
+    "ralph-for-claude-code": 80,
+    "ai-agent-team": 81,
+    "recall": 82,
+    "codex-settings": 83,
+    "hitchhikers-guide": 84,
+    "claudekit": 85,
+    "context-engineering-kit": 86,
+    "ab-method": 87,
+    "skill-seekers": 88,
+    "cc-hooks": 89,
+    "cc-tools": 90,
+    "ccexp": 91,
+    "claude-code-pm": 92,
+    "claudeforge": 93,
+    "claude-code-prompt-coach-skill": 94,
+    "entice": 95,
+    "proxy-pool": 96,
+    "notes": 99,
+    "tsk": 100,
+    "tdd-guard": 101,
+    "translations": 102,
+    "i18n-ai-translate": 103,
+    "apple-hig-designer": 104,
+    "awesome-claude-agents": 105,
+    "ccflare": 106,
+    "agentic-workflow-patterns": 107,
+    "cc-usage": 108,
+    "claude-code-seo": 109,
+    "google-ai-mode-skill": 110,
+    "developer-kit": 111,
+    "ccometixline": 112,
+    "mountaineering-skills": 113,
+    "azure-ai-search-workshop": 114,
+    "cc-statusline": 115,
+    "claude-code-subagents": 116,
+    "outline-driven-development": 117,
+    "composio-connect": 118,
+    "jeffreysprompts-com": 119,
+    "tweakcc-system-prompts": 120,
+    "few-word": 121,
+    "cloudflare-manager": 122,
+    "britfix": 123,
+    "ha-omlet-integration": 124,
+    "gtd-coach-plugin": 125,
+    "git-bak": 126,
+    "wechat-article-publisher-skill": 127,
+    "wechat-article-formatter-skill": 128,
+    "claude-code-design-skills": 129,
+    "codex-kkp": 130,
+    "claude-skills": 132,
+    "claude-code-aso-skill": 134,
+    "linear-todo-sync": 135,
+    "claude-code-templates": 137,
+    "blockrun-agent-wallet": 138,
+    "jira-skill": 139,
+    "git-master-1": 140,
+    "product-spec-kit": 141,
+    "aws-associate-solutions-architect": 142,
+    "content-seo-skills": 143,
+    "swoole-doc": 144,
+    "my-personal-notes": 145,
+    "project-memory": 146,
+    "transit-project-ideas": 147,
+    "tpmjs": 148,
+    "odin-claude-plugin": 149,
+    "llm-council-skill": 150,
+    "claude-skill-prompt-architect": 151,
+    "claude-layered-memory-architecture": 152,
+    "aam": 153,
+    "dspy-rb-skill": 154,
+    "linkedin-article-publisher-skill": 155,
+    "typo3-ddev-skill": 156,
+    "agents-skill": 157,
+    "fastlane-skill": 158,
+    "claude-skills-hub": 159,
+    "brainstorm-plan": 160,
+    "running-marketing-campaigns-agent-skill": 161,
+    "typo3-docs-skill": 162,
+    "fastmcp-builder": 163,
+    "cli-tools-skill": 164,
+    "crawl4ai-web-scraping": 165,
+    "tnotes-en-words": 166,
+    "skill-master": 167,
+    "obsidian-project-assistant": 168,
+    "digital-samba-skill": 169,
+    "claude-skill-analyze-js": 170,
+    "rhetorical-analysis-skill": 171,
+    "n8n-v2-workflow-skill": 172,
+    "get-y2b-clips": 173,
+    "plantuml": 174,
+    "typo3-conformance-skill": 175,
+    "netresearch-branding-skill": 176,
+    "jira": 177,
+    "typo3-testing-skill": 178,
+    "javascript": 179,
+    "codex-skill": 180,
+    "claude-web-to-markdown-skill": 181,
+    "edgar-change-interpreter": 182,
+    "xiaohongshu-images-skill": 183,
+    "claude-skill-flaky-test-detector": 184,
+    "red-publisher-skill": 185,
+    "linear-skills": 186,
+    "neo-llm-security": 187,
+    "prompt-engineering-skill": 188,
+    "sap-rpt1-oss-predictor": 189,
+    "claude-cli-ux-skill": 190,
+    "claude-permissions-skill": 191,
+    "agent-skill-howopen": 192,
+    "using-firebase": 193,
+    "typo3-core-contributions-skill": 194,
+    "image-gen": 195,
+    "code-tour": 196,
+    "document-specialist-skill": 197,
+    "enterprise-readiness-skill": 198,
+    "data-wrangler-plugin": 199,
+    "claude-code-reference": 200,
+    "mastering-gemini-cli-agentic-skill": 201,
+    "youtube-transcript": 202,
+    "video-downloader": 203,
+    "imagen": 204,
+    "article-extractor": 205,
+    "csv-summarizer": 206,
+    "postgresql": 207,
+    "root-cause-tracing": 208,
+    "competitive-ads-extractor": 209,
+    "domain-brainstormer": 210,
+    "lead-research-assistant": 211,
+    "content-research-writer": 212,
+    "brainstorming": 213,
+    "family-history-research": 214,
+    "meeting-insights-analyzer": 215,
+    "notebooklm-integration": 216,
+    "image-enhancer": 217,
+    "theme-factory": 218,
+    "file-organizer": 219,
+    "invoice-organizer": 220,
+    "kaizen": 221,
+    "n8n-skills": 222,
+    "raffle-winner-picker": 223,
+    "tailored-resume-generator": 224,
+    "ship-learn-next": 225,
+    "tapestry": 226,
+    "git-pushing": 227,
+    "review-implementing": 228,
+    "test-fixing": 229,
+    "computer-forensics": 230,
+    "secure-file-deletion": 231,
+    "metadata-extraction": 232,
+    "threat-hunting-with-sigma": 233,
+    "markdown-to-epub": 234,
+    "changelog-generator": 235,
+    "terminal-title": 236,
+    "langsmith-fetch": 237,
+    "move-code-quality": 238,
+    "pypict": 239,
+    "reddit-fetch": 240,
+    "software-architecture": 241,
+    "subagent-driven-development": 242,
+    "test-driven-development": 243,
+    "git-worktrees": 244,
+    "prompt-engineering": 245,
+    "aws-skills": 246,
+    "finishing-development-branch": 247,
+    "infrastructure-showcase": 248,
+    "session-continuity-tools": 249,
+    "zai-glm-skills": 250,
+    "htmx-skill": 251,
+    "llm-fmt-project": 252,
+    "blog-posts": 253,
+    "atomiccommit-pro": 254,
+    "meeting-notes": 255,
+    "skills": 269,
+    "vscodenote": 257,
+    "confluence-md": 258,
+    "calhacks-agenticrobot": 259,
+    "mcp-builder-skill": 260,
+    "function-builder": 261,
+    "auto-review-agent": 262,
+    "studynotebook": 263,
+    "murf-ai-agent": 264,
+    "opencode-intern-claude-code-skill": 265,
+    "svg-to-react": 266,
+    "claude-skills-collection": 267,
+    "claude-skill-security-auditor": 268,
+    "mastering-langgraph-agent-skill": 270,
+    "claude-code-x402-skill": 271,
+    "publishing-astro-websites-agentic-skill": 272,
+    "video-to-cooklang": 273,
+    "mastering-postgresql-agent-skill": 274,
+    "mastering-git-cli-agent-skill": 275,
+    "mastering-typescript-skill": 276,
+    "mastering-aws-cli": 277,
+    "claude-code-prompts": 278,
+    "spacy-nlp-agentic-skill": 279,
+    "video-to-gif-skill": 280
   },
   "categoryIndex": {
     "document-processing": [
@@ -116,16 +281,33 @@
       "pdf",
       "pptx",
       "xlsx",
-      "markdown-to-epub"
+      "entice",
+      "claude-skills",
+      "git-master-1",
+      "swoole-doc",
+      "brainstorm-plan",
+      "tnotes-en-words",
+      "obsidian-project-assistant",
+      "document-specialist-skill",
+      "markdown-to-epub",
+      "confluence-md",
+      "publishing-astro-websites-agentic-skill"
     ],
     "creative-design": [
       "algorithmic-art",
       "canvas-design",
       "slack-gif-creator",
       "web-asset-generator",
+      "ui-ux-pro-max-skill",
+      "cc-sdd",
+      "security-list",
+      "developer-kit",
+      "ha-omlet-integration",
+      "image-gen",
       "imagen",
       "image-enhancer",
-      "theme-factory"
+      "theme-factory",
+      "svg-to-react"
     ],
     "development-tools": [
       "frontend-design",
@@ -136,15 +318,34 @@
       "superpowers-lab",
       "ios-simulator",
       "playwright-skill",
+      "cc-switch",
+      "agent-skills-for-context-engineering",
+      "continuous-claude-v3",
+      "claude-code-guide",
+      "claude-hud",
+      "buildwithclaude",
+      "sidekick-nvim",
       "codex-settings",
+      "hitchhikers-guide",
       "claudekit",
       "cc-hooks",
       "cc-tools",
       "ccexp",
+      "proxy-pool",
       "tdd-guard",
+      "apple-hig-designer",
       "ccometixline",
       "cc-statusline",
+      "outline-driven-development",
       "claude-code-templates",
+      "claude-code-templates",
+      "transit-project-ideas",
+      "fastmcp-builder",
+      "typo3-testing-skill",
+      "claude-skill-flaky-test-detector",
+      "claude-cli-ux-skill",
+      "using-firebase",
+      "code-tour",
       "root-cause-tracing",
       "review-implementing",
       "test-fixing",
@@ -154,60 +355,195 @@
       "software-architecture",
       "test-driven-development",
       "infrastructure-showcase",
-      "session-continuity-tools"
+      "session-continuity-tools",
+      "vscodenote",
+      "mcp-builder-skill",
+      "video-to-cooklang",
+      "mastering-typescript-skill",
+      "video-to-gif-skill"
     ],
     "business-marketing": [
       "brand-guidelines",
+      "beads",
+      "odin-claude-plugin",
+      "running-marketing-campaigns-agent-skill",
       "competitive-ads-extractor",
       "domain-brainstormer",
-      "lead-research-assistant"
+      "lead-research-assistant",
+      "skills"
     ],
     "communication": [
       "internal-comms",
       "britfix",
       "content-research-writer",
-      "meeting-insights-analyzer"
+      "meeting-insights-analyzer",
+      "blog-posts",
+      "meeting-notes"
     ],
     "ai-llm": [
       "skill-creator",
+      "cherry-studio",
+      "awesome-claude-code",
+      "awesome-claude-skills",
+      "awesome-claude-skills",
+      "awesome-claude-skills",
+      "awesome-claude-skills",
+      "opcode",
+      "serena",
+      "oh-my-opencode",
+      "learn-claude-code",
+      "claude-mem",
+      "claude-flow",
+      "planning-with-files",
+      "mcp-use",
+      "humanlayer",
+      "claude-relay-service",
+      "cliproxyapi",
+      "claude-code-usage-monitor",
+      "codecompanion-nvim",
+      "claudecodeui",
+      "zcf",
+      "claude-context",
+      "aionui",
+      "claude-plugins-official",
+      "claudable",
+      "gcli2api",
+      "get-shit-done",
+      "claude-code-system-prompts",
+      "dev-browser",
+      "crystal",
+      "ccplugins",
+      "pinme",
+      "codexbar",
+      "ruler",
+      "fulling",
       "loki-mode",
+      "mcp-agent-mail",
       "claude-squad",
+      "agentscope-java",
+      "patentwriteragent",
       "ralph-for-claude-code",
+      "ai-agent-team",
       "context-engineering-kit",
       "skill-seekers",
+      "claudeforge",
+      "claude-code-prompt-coach-skill",
       "awesome-claude-agents",
       "agentic-workflow-patterns",
+      "google-ai-mode-skill",
+      "azure-ai-search-workshop",
       "claude-code-subagents",
       "composio-connect",
+      "jeffreysprompts-com",
+      "tweakcc-system-prompts",
+      "few-word",
+      "wechat-article-publisher-skill",
+      "wechat-article-formatter-skill",
+      "codex-kkp",
+      "claude-skills",
+      "claude-code-aso-skill",
+      "claude-code-aso-skill",
+      "blockrun-agent-wallet",
+      "jira-skill",
+      "product-spec-kit",
+      "project-memory",
+      "tpmjs",
+      "llm-council-skill",
+      "claude-skill-prompt-architect",
+      "claude-layered-memory-architecture",
+      "aam",
+      "dspy-rb-skill",
+      "linkedin-article-publisher-skill",
+      "typo3-ddev-skill",
+      "agents-skill",
+      "fastlane-skill",
+      "claude-skills-hub",
+      "typo3-docs-skill",
+      "cli-tools-skill",
+      "skill-master",
+      "digital-samba-skill",
+      "claude-skill-analyze-js",
+      "plantuml",
+      "typo3-conformance-skill",
+      "netresearch-branding-skill",
+      "jira",
+      "codex-skill",
+      "claude-web-to-markdown-skill",
+      "edgar-change-interpreter",
+      "xiaohongshu-images-skill",
+      "red-publisher-skill",
+      "neo-llm-security",
+      "prompt-engineering-skill",
+      "claude-permissions-skill",
+      "agent-skill-howopen",
+      "typo3-core-contributions-skill",
+      "enterprise-readiness-skill",
+      "claude-code-reference",
+      "mastering-gemini-cli-agentic-skill",
       "notebooklm-integration",
       "langsmith-fetch",
       "subagent-driven-development",
-      "prompt-engineering"
+      "prompt-engineering",
+      "zai-glm-skills",
+      "htmx-skill",
+      "llm-fmt-project",
+      "atomiccommit-pro",
+      "skills",
+      "calhacks-agenticrobot",
+      "function-builder",
+      "auto-review-agent",
+      "murf-ai-agent",
+      "opencode-intern-claude-code-skill",
+      "mastering-langgraph-agent-skill",
+      "claude-code-x402-skill",
+      "claude-code-prompts",
+      "spacy-nlp-agentic-skill"
+    ],
+    "automation": [
+      "agents",
+      "cc-wf-studio",
+      "n8n-workflow-skills",
+      "n8n-workflow-builder",
+      "claude-code-design-skills",
+      "n8n-v2-workflow-skill",
+      "javascript",
+      "mastering-git-cli-agent-skill"
     ],
     "security": [
       "ffuf-web-fuzzing",
       "computer-forensics",
       "secure-file-deletion",
       "metadata-extraction",
-      "threat-hunting-with-sigma"
+      "threat-hunting-with-sigma",
+      "claude-skill-security-auditor"
     ],
     "data-analysis": [
       "d3-js-visualization",
       "scientific-skills",
+      "sap-rpt1-oss-predictor",
+      "data-wrangler-plugin",
       "youtube-transcript",
       "article-extractor",
       "csv-summarizer",
       "postgresql",
-      "reddit-fetch"
+      "reddit-fetch",
+      "mastering-postgresql-agent-skill"
     ],
     "productivity": [
+      "happy",
       "recall",
       "ab-method",
       "claude-code-pm",
+      "notes",
+      "notes",
+      "notes",
       "ccflare",
       "cc-usage",
       "mountaineering-skills",
+      "gtd-coach-plugin",
       "linear-todo-sync",
+      "my-personal-notes",
+      "linear-skills",
       "video-downloader",
       "brainstorming",
       "family-history-research",
@@ -218,36 +554,42 @@
       "raffle-winner-picker",
       "tailored-resume-generator",
       "ship-learn-next",
-      "tapestry"
-    ],
-    "devops-cicd": [
-      "tsk",
-      "cloudflare-manager",
-      "git-pushing",
-      "changelog-generator",
-      "git-worktrees",
-      "aws-skills",
-      "finishing-development-branch"
+      "tapestry",
+      "studynotebook",
+      "claude-skills-collection"
     ],
     "web-scraping": [
+      "claudekit-skills",
       "crawl4ai-web-scraping",
-      "claudekit-skills"
-    ],
-    "automation": [
-      "n8n-workflow-skills",
-      "n8n-workflow-builder"
+      "rhetorical-analysis-skill",
+      "get-y2b-clips"
     ],
     "seo-search": [
       "seo-machine",
       "claude-code-seo",
       "content-seo-skills"
     ],
+    "devops-cicd": [
+      "tsk",
+      "cloudflare-manager",
+      "git-bak",
+      "aws-associate-solutions-architect",
+      "git-pushing",
+      "changelog-generator",
+      "git-worktrees",
+      "aws-skills",
+      "finishing-development-branch",
+      "mastering-aws-cli"
+    ],
     "translation-localization": [
-      "i18n-ai-translate",
-      "translations"
+      "translations",
+      "i18n-ai-translate"
     ]
   },
   "tagIndex": {
+    "24886": [
+      "ai-agent-team"
+    ],
     "word": [
       "docx"
     ],
@@ -267,9 +609,9 @@
     ],
     "extraction": [
       "pdf",
+      "crawl4ai-web-scraping",
       "article-extractor",
-      "metadata-extraction",
-      "crawl4ai-web-scraping"
+      "metadata-extraction"
     ],
     "powerpoint": [
       "pptx"
@@ -295,6 +637,7 @@
     "design": [
       "canvas-design",
       "brand-guidelines",
+      "claude-code-design-skills",
       "theme-factory",
       "software-architecture"
     ],
@@ -315,13 +658,15 @@
     ],
     "react": [
       "frontend-design",
-      "artifacts-builder"
+      "artifacts-builder",
+      "svg-to-react"
     ],
     "tailwind": [
       "frontend-design"
     ],
     "frontend": [
-      "frontend-design"
+      "frontend-design",
+      "svg-to-react"
     ],
     "artifacts": [
       "artifacts-builder"
@@ -330,7 +675,8 @@
       "artifacts-builder"
     ],
     "mcp": [
-      "mcp-builder"
+      "mcp-builder",
+      "claude-plugins-official"
     ],
     "api": [
       "mcp-builder"
@@ -350,16 +696,32 @@
     ],
     "playwright": [
       "webapp-testing",
-      "playwright-skill"
+      "playwright-skill",
+      "dev-browser"
     ],
     "e2e": [
       "webapp-testing"
     ],
     "branding": [
-      "brand-guidelines"
+      "brand-guidelines",
+      "netresearch-branding-skill"
     ],
     "anthropic": [
-      "brand-guidelines"
+      "brand-guidelines",
+      "agents",
+      "awesome-claude-skills",
+      "awesome-claude-skills",
+      "opcode",
+      "oh-my-opencode",
+      "claude-mem",
+      "codecompanion-nvim",
+      "claudecodeui",
+      "crystal",
+      "claude-hud",
+      "claude-code-templates",
+      "blockrun-agent-wallet",
+      "edgar-change-interpreter",
+      "claude-code-prompts"
     ],
     "writing": [
       "internal-comms",
@@ -373,13 +735,188 @@
       "internal-comms"
     ],
     "skills": [
-      "skill-creator"
+      "skill-creator",
+      "claude-plugins-official",
+      "dev-browser",
+      "skills"
     ],
     "creation": [
       "skill-creator"
     ],
     "meta": [
       "skill-creator"
+    ],
+    "ai-agent": [
+      "cherry-studio",
+      "zcf",
+      "aionui",
+      "claude-code-guide",
+      "fulling",
+      "jira-skill",
+      "typo3-ddev-skill",
+      "agents-skill",
+      "typo3-docs-skill",
+      "cli-tools-skill",
+      "typo3-conformance-skill",
+      "netresearch-branding-skill",
+      "typo3-testing-skill",
+      "typo3-core-contributions-skill",
+      "enterprise-readiness-skill"
+    ],
+    "ai-sdk": [
+      "cherry-studio"
+    ],
+    "chatbots": [
+      "cherry-studio"
+    ],
+    "claude-code": [
+      "cherry-studio",
+      "awesome-claude-skills",
+      "serena",
+      "ui-ux-pro-max-skill",
+      "learn-claude-code",
+      "cc-switch",
+      "beads",
+      "planning-with-files",
+      "mcp-use",
+      "humanlayer",
+      "happy",
+      "claude-relay-service",
+      "cliproxyapi",
+      "claude-code-usage-monitor",
+      "codecompanion-nvim",
+      "claude-context",
+      "claude-plugins-official",
+      "claudable",
+      "continuous-claude-v3",
+      "gcli2api",
+      "get-shit-done",
+      "claude-code-system-prompts",
+      "dev-browser",
+      "cc-wf-studio",
+      "ccplugins",
+      "claude-hud",
+      "codexbar",
+      "cc-sdd",
+      "ruler",
+      "buildwithclaude",
+      "sidekick-nvim",
+      "fulling",
+      "ai-agent-team",
+      "claudeforge",
+      "google-ai-mode-skill",
+      "developer-kit",
+      "few-word",
+      "gtd-coach-plugin",
+      "wechat-article-publisher-skill",
+      "wechat-article-formatter-skill",
+      "claude-code-design-skills",
+      "codex-kkp",
+      "claude-skills",
+      "claude-skills",
+      "claude-code-templates",
+      "odin-claude-plugin",
+      "claude-skill-prompt-architect",
+      "linkedin-article-publisher-skill",
+      "fastlane-skill",
+      "brainstorm-plan",
+      "fastmcp-builder",
+      "skill-master",
+      "obsidian-project-assistant",
+      "digital-samba-skill",
+      "n8n-v2-workflow-skill",
+      "get-y2b-clips",
+      "codex-skill",
+      "xiaohongshu-images-skill",
+      "claude-skill-flaky-test-detector",
+      "red-publisher-skill",
+      "linear-skills",
+      "neo-llm-security",
+      "claude-cli-ux-skill",
+      "code-tour",
+      "data-wrangler-plugin",
+      "claude-code-reference",
+      "opencode-intern-claude-code-skill",
+      "claude-skills-collection",
+      "claude-skill-security-auditor",
+      "skills",
+      "claude-code-x402-skill",
+      "claude-code-prompts"
+    ],
+    "claude-code-sdk": [
+      "cherry-studio"
+    ],
+    "agents": [
+      "agents",
+      "beads",
+      "planning-with-files",
+      "humanlayer",
+      "continuous-claude-v3",
+      "ruler",
+      "loki-mode",
+      "claude-code-pm",
+      "awesome-claude-agents",
+      "developer-kit"
+    ],
+    "anthropic-claude": [
+      "agents",
+      "opcode",
+      "claudecodeui",
+      "claude-code-templates"
+    ],
+    "automation": [
+      "agents",
+      "playwright-skill",
+      "n8n-workflow-skills",
+      "claudekit-skills",
+      "n8n-workflow-builder",
+      "skill-seekers",
+      "composio-connect",
+      "fastlane-skill",
+      "cli-tools-skill",
+      "codex-skill",
+      "n8n-skills",
+      "git-pushing",
+      "test-fixing"
+    ],
+    "claude": [
+      "agents",
+      "awesome-claude-skills",
+      "awesome-claude-skills",
+      "opcode",
+      "serena",
+      "ui-ux-pro-max-skill",
+      "planning-with-files",
+      "claude-relay-service",
+      "claude-code-usage-monitor",
+      "claudecodeui",
+      "claudable",
+      "gcli2api",
+      "claude-code-guide",
+      "crystal",
+      "ccplugins",
+      "claude-hud",
+      "buildwithclaude",
+      "fulling",
+      "gtd-coach-plugin",
+      "wechat-article-publisher-skill",
+      "wechat-article-formatter-skill",
+      "codex-kkp",
+      "claude-skills",
+      "claude-code-templates",
+      "claude-layered-memory-architecture",
+      "dspy-rb-skill",
+      "linkedin-article-publisher-skill",
+      "brainstorm-plan",
+      "claude-skill-analyze-js",
+      "rhetorical-analysis-skill",
+      "claude-web-to-markdown-skill",
+      "xiaohongshu-images-skill",
+      "red-publisher-skill",
+      "claude-code-reference",
+      "opencode-intern-claude-code-skill",
+      "svg-to-react",
+      "claude-code-prompts"
     ],
     "tdd": [
       "superpowers",
@@ -401,9 +938,9 @@
     ],
     "workflows": [
       "superpowers-lab",
+      "n8n-workflow-skills",
       "agentic-workflow-patterns",
-      "n8n-skills",
-      "n8n-workflow-skills"
+      "n8n-skills"
     ],
     "ios": [
       "ios-simulator"
@@ -417,24 +954,14 @@
     "security": [
       "ffuf-web-fuzzing",
       "computer-forensics",
-      "secure-file-deletion"
+      "secure-file-deletion",
+      "claude-skill-security-auditor"
     ],
     "fuzzing": [
       "ffuf-web-fuzzing"
     ],
     "pentesting": [
       "ffuf-web-fuzzing"
-    ],
-    "automation": [
-      "playwright-skill",
-      "skill-seekers",
-      "composio-connect",
-      "n8n-skills",
-      "git-pushing",
-      "test-fixing",
-      "claudekit-skills",
-      "n8n-workflow-skills",
-      "n8n-workflow-builder"
     ],
     "d3js": [
       "d3-js-visualization"
@@ -469,10 +996,470 @@
     "assets": [
       "web-asset-generator"
     ],
-    "agents": [
-      "loki-mode",
-      "claude-code-pm",
-      "awesome-claude-agents"
+    "agent-skills": [
+      "awesome-claude-code",
+      "planning-with-files",
+      "cc-wf-studio",
+      "jira-skill",
+      "typo3-ddev-skill",
+      "agents-skill",
+      "typo3-docs-skill",
+      "cli-tools-skill",
+      "typo3-conformance-skill",
+      "netresearch-branding-skill",
+      "typo3-testing-skill",
+      "prompt-engineering-skill",
+      "typo3-core-contributions-skill",
+      "enterprise-readiness-skill"
+    ],
+    "agentic-code": [
+      "awesome-claude-code",
+      "developer-kit"
+    ],
+    "agentic-coding": [
+      "awesome-claude-code",
+      "awesome-claude-skills",
+      "developer-kit"
+    ],
+    "ai-workflow-optimization": [
+      "awesome-claude-code"
+    ],
+    "ai-workflows": [
+      "awesome-claude-code"
+    ],
+    "anthropic-ai": [
+      "awesome-claude-skills",
+      "claudecodeui"
+    ],
+    "anthropic-skills": [
+      "awesome-claude-skills"
+    ],
+    "awesome": [
+      "awesome-claude-skills",
+      "awesome-claude-skills"
+    ],
+    "awesome-lists": [
+      "awesome-claude-skills",
+      "awesome-claude-skills"
+    ],
+    "awesome-list": [
+      "awesome-claude-skills",
+      "awesome-claude-skills"
+    ],
+    "ai-agents": [
+      "awesome-claude-skills",
+      "oh-my-opencode",
+      "claude-mem",
+      "ai-agent-team",
+      "few-word",
+      "blockrun-agent-wallet",
+      "agents-skill",
+      "skill-master",
+      "claude-code-x402-skill"
+    ],
+    "claude-ai": [
+      "awesome-claude-skills",
+      "claude-code-guide",
+      "ccplugins",
+      "claude-skills",
+      "claude-layered-memory-architecture",
+      "claude-skills-collection"
+    ],
+    "ai": [
+      "awesome-claude-skills",
+      "serena",
+      "oh-my-opencode",
+      "claude-mem",
+      "mcp-use",
+      "humanlayer",
+      "claude-code-usage-monitor",
+      "zcf",
+      "aionui",
+      "claude-code-guide",
+      "crystal",
+      "codexbar",
+      "ruler",
+      "ai-agent-team",
+      "gtd-coach-plugin",
+      "wechat-article-publisher-skill",
+      "wechat-article-formatter-skill",
+      "blockrun-agent-wallet",
+      "dspy-rb-skill",
+      "linkedin-article-publisher-skill",
+      "claude-skill-analyze-js",
+      "xiaohongshu-images-skill",
+      "red-publisher-skill",
+      "imagen",
+      "prompt-engineering"
+    ],
+    "claude-skill": [
+      "awesome-claude-skills",
+      "claudeforge",
+      "apple-hig-designer",
+      "google-ai-mode-skill",
+      "gtd-coach-plugin",
+      "wechat-article-publisher-skill",
+      "wechat-article-formatter-skill",
+      "claude-code-design-skills",
+      "claude-skills",
+      "product-spec-kit",
+      "claude-skill-prompt-architect",
+      "dspy-rb-skill",
+      "linkedin-article-publisher-skill",
+      "fastlane-skill",
+      "claude-skills-hub",
+      "skill-master",
+      "obsidian-project-assistant",
+      "digital-samba-skill",
+      "claude-skill-analyze-js",
+      "rhetorical-analysis-skill",
+      "codex-skill",
+      "claude-web-to-markdown-skill",
+      "xiaohongshu-images-skill",
+      "claude-skill-flaky-test-detector",
+      "red-publisher-skill",
+      "linear-skills",
+      "neo-llm-security",
+      "prompt-engineering-skill",
+      "sap-rpt1-oss-predictor",
+      "claude-cli-ux-skill",
+      "svg-to-react",
+      "claude-skills-collection",
+      "claude-skill-security-auditor",
+      "skills"
+    ],
+    "claude-skills": [
+      "awesome-claude-skills",
+      "pinme",
+      "buildwithclaude",
+      "outline-driven-development",
+      "claude-code-design-skills",
+      "claude-skills",
+      "llm-council-skill",
+      "claude-skills-hub",
+      "skill-master",
+      "linear-skills",
+      "prompt-engineering-skill",
+      "agent-skill-howopen",
+      "claude-skills-collection",
+      "skills",
+      "video-to-gif-skill"
+    ],
+    "llm": [
+      "awesome-claude-skills",
+      "dspy-rb-skill"
+    ],
+    "claude-4": [
+      "opcode"
+    ],
+    "claude-4-opus": [
+      "opcode"
+    ],
+    "agent": [
+      "serena",
+      "learn-claude-code",
+      "planning-with-files",
+      "zcf",
+      "claude-context",
+      "claudable"
+    ],
+    "ai-coding": [
+      "serena",
+      "claude-context",
+      "crystal",
+      "codex-skill"
+    ],
+    "amp": [
+      "oh-my-opencode",
+      "humanlayer"
+    ],
+    "chatgpt": [
+      "oh-my-opencode",
+      "mcp-use",
+      "blockrun-agent-wallet"
+    ],
+    "ai-skills": [
+      "ui-ux-pro-max-skill"
+    ],
+    "antigravity": [
+      "ui-ux-pro-max-skill",
+      "cliproxyapi"
+    ],
+    "codex": [
+      "ui-ux-pro-max-skill",
+      "cc-switch",
+      "humanlayer",
+      "happy",
+      "cliproxyapi",
+      "claudable",
+      "codexbar",
+      "cc-sdd",
+      "ruler"
+    ],
+    "teaching": [
+      "learn-claude-code"
+    ],
+    "ai-memory": [
+      "claude-mem",
+      "claude-layered-memory-architecture"
+    ],
+    "artificial-intelligence": [
+      "claude-mem"
+    ],
+    "agentic-ai": [
+      "claude-flow",
+      "crystal",
+      "claudeforge",
+      "claude-code-reference",
+      "opencode-intern-claude-code-skill"
+    ],
+    "agentic-engineering": [
+      "claude-flow"
+    ],
+    "agentic-framework": [
+      "claude-flow",
+      "mcp-use",
+      "claude-code-aso-skill",
+      "claude-code-aso-skill"
+    ],
+    "agentic-rag": [
+      "claude-flow",
+      "claude-context"
+    ],
+    "agentic-workflow": [
+      "claude-flow",
+      "claudeforge",
+      "opencode-intern-claude-code-skill"
+    ],
+    "ai-tools": [
+      "cc-switch",
+      "pinme"
+    ],
+    "deepseek-v3": [
+      "cc-switch"
+    ],
+    "desktop-app": [
+      "cc-switch"
+    ],
+    "coding": [
+      "beads"
+    ],
+    "apps-sdk": [
+      "mcp-use"
+    ],
+    "claude-desktop": [
+      "happy"
+    ],
+    "claude-mobile": [
+      "happy"
+    ],
+    "codex-cli": [
+      "happy",
+      "claude-relay-service",
+      "sidekick-nvim"
+    ],
+    "claude-api": [
+      "claude-relay-service",
+      "claudecodeui",
+      "gcli2api"
+    ],
+    "claude-proxy": [
+      "claude-relay-service"
+    ],
+    "cluade": [
+      "cliproxyapi"
+    ],
+    "gemini": [
+      "cliproxyapi",
+      "mastering-gemini-cli-agentic-skill",
+      "imagen"
+    ],
+    "analytics": [
+      "claude-code-usage-monitor",
+      "ccflare",
+      "claude-code-templates",
+      "data-wrangler-plugin"
+    ],
+    "claude-usage": [
+      "claude-code-usage-monitor"
+    ],
+    "acp": [
+      "codecompanion-nvim",
+      "aionui",
+      "opencode-intern-claude-code-skill"
+    ],
+    "agent-client-protocol": [
+      "codecompanion-nvim"
+    ],
+    "copilot": [
+      "codecompanion-nvim",
+      "sidekick-nvim"
+    ],
+    "bmad-method": [
+      "zcf"
+    ],
+    "ccr": [
+      "zcf"
+    ],
+    "code-generation": [
+      "claude-context",
+      "fastmcp-builder"
+    ],
+    "banana": [
+      "aionui"
+    ],
+    "chat": [
+      "aionui"
+    ],
+    "codingagent": [
+      "claudable"
+    ],
+    "claude-code-cli": [
+      "continuous-claude-v3",
+      "odin-claude-plugin"
+    ],
+    "claude-code-hooks": [
+      "continuous-claude-v3",
+      "few-word",
+      "claude-skills"
+    ],
+    "claude-code-mcp": [
+      "continuous-claude-v3"
+    ],
+    "antigravity-ide": [
+      "gcli2api"
+    ],
+    "antigravity2api": [
+      "gcli2api"
+    ],
+    "context-engineering": [
+      "get-shit-done"
+    ],
+    "meta-prompting": [
+      "get-shit-done"
+    ],
+    "spec-driven-development": [
+      "get-shit-done"
+    ],
+    "claude-code-system-prompts": [
+      "claude-code-system-prompts"
+    ],
+    "system-prompts": [
+      "claude-code-system-prompts"
+    ],
+    "ai-agent-tools": [
+      "claude-code-guide"
+    ],
+    "mcp-tools": [
+      "cc-wf-studio"
+    ],
+    "slash-commands": [
+      "cc-wf-studio"
+    ],
+    "sub-agents": [
+      "cc-wf-studio"
+    ],
+    "automated": [
+      "ccplugins"
+    ],
+    "cli": [
+      "ccplugins",
+      "claude-hud",
+      "claudekit",
+      "ccexp",
+      "cli-tools-skill",
+      "claude-cli-ux-skill"
+    ],
+    "claude-code-skill": [
+      "pinme",
+      "ai-agent-team",
+      "developer-kit",
+      "outline-driven-development",
+      "codex-kkp",
+      "jira-skill",
+      "project-memory",
+      "odin-claude-plugin",
+      "llm-council-skill",
+      "typo3-ddev-skill",
+      "agents-skill",
+      "brainstorm-plan",
+      "running-marketing-campaigns-agent-skill",
+      "typo3-docs-skill",
+      "fastmcp-builder",
+      "cli-tools-skill",
+      "n8n-v2-workflow-skill",
+      "get-y2b-clips",
+      "plantuml",
+      "typo3-conformance-skill",
+      "netresearch-branding-skill",
+      "jira",
+      "typo3-testing-skill",
+      "claude-permissions-skill",
+      "agent-skill-howopen",
+      "using-firebase",
+      "typo3-core-contributions-skill",
+      "image-gen",
+      "code-tour",
+      "document-specialist-skill",
+      "enterprise-readiness-skill",
+      "data-wrangler-plugin",
+      "claude-code-reference",
+      "mastering-gemini-cli-agentic-skill",
+      "mastering-langgraph-agent-skill",
+      "claude-code-x402-skill",
+      "publishing-astro-websites-agentic-skill",
+      "video-to-cooklang",
+      "mastering-postgresql-agent-skill",
+      "mastering-git-cli-agent-skill",
+      "mastering-typescript-skill",
+      "mastering-aws-cli",
+      "claude-code-prompts",
+      "spacy-nlp-agentic-skill",
+      "video-to-gif-skill"
+    ],
+    "deployment": [
+      "pinme",
+      "cloudflare-manager"
+    ],
+    "deployment-tools": [
+      "pinme"
+    ],
+    "plugin": [
+      "claude-hud"
+    ],
+    "swift": [
+      "codexbar"
+    ],
+    "cursor": [
+      "cc-sdd"
+    ],
+    "gemini-cli": [
+      "cc-sdd",
+      "sidekick-nvim",
+      "mastering-gemini-cli-agentic-skill"
+    ],
+    "github-copilot": [
+      "cc-sdd"
+    ],
+    "aider": [
+      "ruler"
+    ],
+    "claude-code-commands": [
+      "buildwithclaude",
+      "claude-skills"
+    ],
+    "cli-tool": [
+      "buildwithclaude"
+    ],
+    "copilot-cli": [
+      "sidekick-nvim"
+    ],
+    "docker": [
+      "fulling",
+      "tsk"
+    ],
+    "kubernetes": [
+      "fulling"
     ],
     "autonomous": [
       "loki-mode",
@@ -480,6 +1467,19 @@
     ],
     "swarm": [
       "loki-mode"
+    ],
+    "n8n": [
+      "n8n-workflow-skills",
+      "n8n-workflow-builder",
+      "n8n-v2-workflow-skill",
+      "n8n-skills"
+    ],
+    "browser": [
+      "claudekit-skills"
+    ],
+    "scraping": [
+      "claudekit-skills",
+      "crawl4ai-web-scraping"
     ],
     "multi-agent": [
       "claude-squad"
@@ -491,6 +1491,22 @@
       "claude-squad",
       "subagent-driven-development",
       "git-worktrees"
+    ],
+    "builder": [
+      "n8n-workflow-builder"
+    ],
+    "seo": [
+      "seo-machine",
+      "claude-code-seo",
+      "content-seo-skills"
+    ],
+    "content": [
+      "seo-machine",
+      "content-seo-skills",
+      "content-research-writer"
+    ],
+    "keywords": [
+      "seo-machine"
     ],
     "safety": [
       "ralph-for-claude-code"
@@ -515,10 +1531,6 @@
     "settings": [
       "codex-settings"
     ],
-    "cli": [
-      "claudekit",
-      "ccexp"
-    ],
     "checkpointing": [
       "claudekit"
     ],
@@ -537,8 +1549,8 @@
     ],
     "optimization": [
       "context-engineering-kit",
-      "prompt-engineering",
-      "claude-code-seo"
+      "claude-code-seo",
+      "prompt-engineering"
     ],
     "workflow": [
       "ab-method",
@@ -553,7 +1565,9 @@
       "test-driven-development"
     ],
     "documentation": [
-      "skill-seekers"
+      "skill-seekers",
+      "typo3-docs-skill",
+      "obsidian-project-assistant"
     ],
     "conversion": [
       "skill-seekers"
@@ -587,18 +1601,35 @@
     "productivity": [
       "claude-code-pm"
     ],
+    "claude-subagents": [
+      "claudeforge"
+    ],
     "rust": [
       "tsk",
       "ccometixline"
-    ],
-    "docker": [
-      "tsk"
     ],
     "sandboxing": [
       "tsk"
     ],
     "monitoring": [
       "tdd-guard"
+    ],
+    "i18n": [
+      "translations",
+      "i18n-ai-translate"
+    ],
+    "next-intl": [
+      "translations"
+    ],
+    "po-files": [
+      "translations"
+    ],
+    "translation": [
+      "i18n-ai-translate"
+    ],
+    "localization": [
+      "i18n-ai-translate",
+      "britfix"
     ],
     "team": [
       "awesome-claude-agents"
@@ -614,10 +1645,6 @@
     "metrics": [
       "ccflare"
     ],
-    "analytics": [
-      "ccflare",
-      "claude-code-templates"
-    ],
     "patterns": [
       "agentic-workflow-patterns"
     ],
@@ -632,6 +1659,18 @@
     ],
     "tokens": [
       "cc-usage"
+    ],
+    "audit": [
+      "claude-code-seo"
+    ],
+    "ai-search": [
+      "google-ai-mode-skill"
+    ],
+    "browser-automation": [
+      "google-ai-mode-skill"
+    ],
+    "citations": [
+      "google-ai-mode-skill"
     ],
     "statusline": [
       "ccometixline",
@@ -659,8 +1698,36 @@
     "fullstack": [
       "claude-code-subagents"
     ],
+    "claude-code-plugins": [
+      "outline-driven-development",
+      "few-word",
+      "claude-skills",
+      "odin-claude-plugin"
+    ],
+    "claude-code-skills": [
+      "outline-driven-development",
+      "codex-kkp",
+      "llm-council-skill",
+      "claude-skill-analyze-js",
+      "get-y2b-clips",
+      "video-to-cooklang"
+    ],
+    "claude-plugins": [
+      "outline-driven-development"
+    ],
     "apps": [
       "composio-connect"
+    ],
+    "claude-code-plugin": [
+      "few-word",
+      "claude-skills",
+      "odin-claude-plugin",
+      "brainstorm-plan",
+      "get-y2b-clips",
+      "codex-skill",
+      "code-tour",
+      "data-wrangler-plugin",
+      "video-to-cooklang"
     ],
     "cloudflare": [
       "cloudflare-manager"
@@ -668,18 +1735,34 @@
     "workers": [
       "cloudflare-manager"
     ],
-    "deployment": [
-      "cloudflare-manager"
-    ],
     "english": [
       "britfix"
     ],
-    "localization": [
-      "britfix",
-      "i18n-ai-translate"
+    "figma": [
+      "claude-code-design-skills"
+    ],
+    "claude-plugin": [
+      "codex-kkp"
+    ],
+    "aeo": [
+      "claude-code-aso-skill",
+      "claude-code-aso-skill"
+    ],
+    "android": [
+      "claude-code-aso-skill",
+      "claude-code-aso-skill"
+    ],
+    "app-store-optimization": [
+      "claude-code-aso-skill",
+      "claude-code-aso-skill"
+    ],
+    "appstore": [
+      "claude-code-aso-skill",
+      "claude-code-aso-skill"
     ],
     "linear": [
-      "linear-todo-sync"
+      "linear-todo-sync",
+      "linear-skills"
     ],
     "todo": [
       "linear-todo-sync"
@@ -689,6 +1772,235 @@
     ],
     "templates": [
       "claude-code-templates"
+    ],
+    "base-chain": [
+      "blockrun-agent-wallet"
+    ],
+    "atlassian": [
+      "jira-skill"
+    ],
+    "jira": [
+      "jira-skill"
+    ],
+    "ai-specification": [
+      "product-spec-kit"
+    ],
+    "claude-skill-prd": [
+      "product-spec-kit"
+    ],
+    "product": [
+      "product-spec-kit"
+    ],
+    "product-management": [
+      "product-spec-kit"
+    ],
+    "links": [
+      "content-seo-skills"
+    ],
+    "agentic-skill": [
+      "project-memory",
+      "running-marketing-campaigns-agent-skill",
+      "plantuml",
+      "jira",
+      "claude-permissions-skill",
+      "using-firebase",
+      "image-gen",
+      "document-specialist-skill",
+      "mastering-gemini-cli-agentic-skill",
+      "mastering-langgraph-agent-skill",
+      "publishing-astro-websites-agentic-skill",
+      "mastering-postgresql-agent-skill",
+      "mastering-git-cli-agent-skill",
+      "mastering-typescript-skill",
+      "mastering-aws-cli",
+      "spacy-nlp-agentic-skill"
+    ],
+    "prompt-engineering": [
+      "claude-skill-prompt-architect"
+    ],
+    "prompt-frameworks": [
+      "claude-skill-prompt-architect"
+    ],
+    "prompt-improvement": [
+      "claude-skill-prompt-architect"
+    ],
+    "antrophic": [
+      "claude-layered-memory-architecture"
+    ],
+    "architecture": [
+      "claude-layered-memory-architecture",
+      "software-architecture"
+    ],
+    "dspy": [
+      "dspy-rb-skill"
+    ],
+    "ddev": [
+      "typo3-ddev-skill"
+    ],
+    "developer-tool": [
+      "typo3-ddev-skill"
+    ],
+    "agents-md": [
+      "agents-skill"
+    ],
+    "app-store": [
+      "fastlane-skill"
+    ],
+    "fastlane": [
+      "fastlane-skill"
+    ],
+    "claude-skills-creator": [
+      "claude-skills-hub"
+    ],
+    "claude-skills-hub": [
+      "claude-skills-hub"
+    ],
+    "brainstorming": [
+      "brainstorm-plan",
+      "domain-brainstormer",
+      "brainstorming"
+    ],
+    "documentation-generator": [
+      "typo3-docs-skill"
+    ],
+    "developer-tools": [
+      "fastmcp-builder",
+      "claude-skill-flaky-test-detector",
+      "code-tour",
+      "claude-skill-security-auditor"
+    ],
+    "fastmcp": [
+      "fastmcp-builder"
+    ],
+    "crawling": [
+      "crawl4ai-web-scraping"
+    ],
+    "agent-skill": [
+      "skill-master"
+    ],
+    "claude-agent": [
+      "obsidian-project-assistant"
+    ],
+    "note-taking": [
+      "obsidian-project-assistant"
+    ],
+    "ai-assisted-development": [
+      "digital-samba-skill",
+      "claude-code-prompts"
+    ],
+    "api-integration": [
+      "digital-samba-skill"
+    ],
+    "digital-samba": [
+      "digital-samba-skill"
+    ],
+    "rhetorical-parser": [
+      "rhetorical-analysis-skill"
+    ],
+    "n8n-20": [
+      "n8n-v2-workflow-skill"
+    ],
+    "n8n-v2": [
+      "n8n-v2-workflow-skill"
+    ],
+    "open-standard": [
+      "typo3-conformance-skill",
+      "typo3-testing-skill"
+    ],
+    "quality-assurance": [
+      "typo3-conformance-skill"
+    ],
+    "corporate-identity": [
+      "netresearch-branding-skill"
+    ],
+    "skill": [
+      "typo3-testing-skill"
+    ],
+    "jina-ai-reader": [
+      "claude-web-to-markdown-skill"
+    ],
+    "markdown": [
+      "claude-web-to-markdown-skill",
+      "markdown-to-epub"
+    ],
+    "10k": [
+      "edgar-change-interpreter"
+    ],
+    "10q": [
+      "edgar-change-interpreter"
+    ],
+    "8k": [
+      "edgar-change-interpreter"
+    ],
+    "agent-tools": [
+      "edgar-change-interpreter"
+    ],
+    "ci-cd": [
+      "claude-skill-flaky-test-detector"
+    ],
+    "flaky-tests": [
+      "claude-skill-flaky-test-detector"
+    ],
+    "linear-mcp": [
+      "linear-skills"
+    ],
+    "ai-security": [
+      "neo-llm-security"
+    ],
+    "jailbreak": [
+      "neo-llm-security"
+    ],
+    "llm-security": [
+      "neo-llm-security"
+    ],
+    "claude-skills-libary": [
+      "sap-rpt1-oss-predictor"
+    ],
+    "huggingface-transformers": [
+      "sap-rpt1-oss-predictor"
+    ],
+    "machine-learning-models": [
+      "sap-rpt1-oss-predictor"
+    ],
+    "predictive-analytics-library": [
+      "sap-rpt1-oss-predictor"
+    ],
+    "accessibility": [
+      "claude-cli-ux-skill"
+    ],
+    "api-design": [
+      "claude-cli-ux-skill"
+    ],
+    "checker": [
+      "agent-skill-howopen"
+    ],
+    "dependencies": [
+      "agent-skill-howopen"
+    ],
+    "howopen": [
+      "agent-skill-howopen"
+    ],
+    "contribution": [
+      "typo3-core-contributions-skill"
+    ],
+    "gerrit": [
+      "typo3-core-contributions-skill"
+    ],
+    "code-explorer": [
+      "code-tour"
+    ],
+    "devsecops": [
+      "enterprise-readiness-skill"
+    ],
+    "enterprise": [
+      "enterprise-readiness-skill"
+    ],
+    "csv": [
+      "data-wrangler-plugin",
+      "csv-summarizer"
+    ],
+    "cache": [
+      "claude-code-reference"
     ],
     "youtube": [
       "youtube-transcript"
@@ -709,21 +2021,11 @@
     "image-generation": [
       "imagen"
     ],
-    "gemini": [
-      "imagen"
-    ],
-    "ai": [
-      "imagen",
-      "prompt-engineering"
-    ],
     "articles": [
       "article-extractor"
     ],
     "web": [
       "article-extractor"
-    ],
-    "csv": [
-      "csv-summarizer"
     ],
     "data": [
       "csv-summarizer"
@@ -756,10 +2058,6 @@
     "domains": [
       "domain-brainstormer"
     ],
-    "brainstorming": [
-      "domain-brainstormer",
-      "brainstorming"
-    ],
     "naming": [
       "domain-brainstormer"
     ],
@@ -768,11 +2066,6 @@
     ],
     "sales": [
       "lead-research-assistant"
-    ],
-    "content": [
-      "content-research-writer",
-      "seo-machine",
-      "content-seo-skills"
     ],
     "ideas": [
       "brainstorming"
@@ -833,11 +2126,6 @@
     ],
     "improvement": [
       "kaizen"
-    ],
-    "n8n": [
-      "n8n-skills",
-      "n8n-workflow-skills",
-      "n8n-workflow-builder"
     ],
     "raffle": [
       "raffle-winner-picker"
@@ -912,9 +2200,6 @@
     "detection": [
       "threat-hunting-with-sigma"
     ],
-    "markdown": [
-      "markdown-to-epub"
-    ],
     "epub": [
       "markdown-to-epub"
     ],
@@ -960,9 +2245,6 @@
     "social": [
       "reddit-fetch"
     ],
-    "architecture": [
-      "software-architecture"
-    ],
     "solid": [
       "software-architecture"
     ],
@@ -993,45 +2275,47 @@
     "continuity": [
       "session-continuity-tools"
     ],
-    "scraping": [
-      "crawl4ai-web-scraping",
-      "claudekit-skills"
+    "svg-icons": [
+      "svg-to-react"
     ],
-    "crawling": [
-      "crawl4ai-web-scraping"
+    "shopping": [
+      "claude-skills-collection"
     ],
-    "browser": [
-      "claudekit-skills"
+    "npm-audit": [
+      "claude-skill-security-auditor"
     ],
-    "builder": [
-      "n8n-workflow-builder"
+    "langgraph": [
+      "mastering-langgraph-agent-skill"
     ],
-    "seo": [
-      "seo-machine",
-      "claude-code-seo",
-      "content-seo-skills"
+    "langgraph-python": [
+      "mastering-langgraph-agent-skill"
     ],
-    "keywords": [
-      "seo-machine"
+    "http-payments": [
+      "claude-code-x402-skill"
     ],
-    "audit": [
-      "claude-code-seo"
+    "micropayments": [
+      "claude-code-x402-skill"
     ],
-    "links": [
-      "content-seo-skills"
+    "astro": [
+      "publishing-astro-websites-agentic-skill"
     ],
-    "i18n": [
-      "i18n-ai-translate",
-      "translations"
+    "firebase": [
+      "publishing-astro-websites-agentic-skill"
     ],
-    "translation": [
-      "i18n-ai-translate"
+    "netlify": [
+      "publishing-astro-websites-agentic-skill"
     ],
-    "next-intl": [
-      "translations"
+    "bm25": [
+      "mastering-postgresql-agent-skill"
     ],
-    "po-files": [
-      "translations"
+    "postgresql": [
+      "mastering-postgresql-agent-skill"
+    ],
+    "vector-search": [
+      "mastering-postgresql-agent-skill"
+    ],
+    "typescript": [
+      "mastering-typescript-skill"
     ]
   },
   "languageIndex": {
@@ -1050,9 +2334,105 @@
       "brand-guidelines",
       "internal-comms",
       "skill-creator",
+      "awesome-claude-code",
+      "awesome-claude-skills",
+      "awesome-claude-skills",
+      "awesome-claude-skills",
+      "awesome-claude-skills",
+      "serena",
+      "ui-ux-pro-max-skill",
+      "learn-claude-code",
+      "agent-skills-for-context-engineering",
+      "claude-code-usage-monitor",
+      "continuous-claude-v3",
+      "gcli2api",
+      "ccplugins",
+      "mcp-agent-mail",
+      "claudekit-skills",
+      "seo-machine",
       "cc-hooks",
+      "claudeforge",
+      "proxy-pool",
       "cc-usage",
-      "cc-statusline"
+      "google-ai-mode-skill",
+      "developer-kit",
+      "cc-statusline",
+      "few-word",
+      "ha-omlet-integration",
+      "wechat-article-publisher-skill",
+      "claude-code-aso-skill",
+      "claude-code-aso-skill",
+      "blockrun-agent-wallet",
+      "jira-skill",
+      "content-seo-skills",
+      "odin-claude-plugin",
+      "llm-council-skill",
+      "claude-skill-prompt-architect",
+      "linkedin-article-publisher-skill",
+      "running-marketing-campaigns-agent-skill",
+      "fastmcp-builder",
+      "crawl4ai-web-scraping",
+      "rhetorical-analysis-skill",
+      "get-y2b-clips",
+      "plantuml",
+      "xiaohongshu-images-skill",
+      "red-publisher-skill",
+      "linear-skills",
+      "sap-rpt1-oss-predictor",
+      "claude-permissions-skill",
+      "agent-skill-howopen",
+      "data-wrangler-plugin",
+      "claude-code-reference",
+      "htmx-skill",
+      "calhacks-agenticrobot",
+      "murf-ai-agent",
+      "opencode-intern-claude-code-skill",
+      "claude-skills-collection",
+      "mastering-postgresql-agent-skill",
+      "spacy-nlp-agentic-skill"
+    ],
+    "TypeScript": [
+      "cherry-studio",
+      "opcode",
+      "oh-my-opencode",
+      "claude-mem",
+      "claude-flow",
+      "mcp-use",
+      "humanlayer",
+      "happy",
+      "zcf",
+      "claude-context",
+      "aionui",
+      "claudable",
+      "dev-browser",
+      "crystal",
+      "cc-wf-studio",
+      "pinme",
+      "cc-sdd",
+      "ruler",
+      "buildwithclaude",
+      "fulling",
+      "ralph-for-claude-code",
+      "recall",
+      "claudekit",
+      "ccexp",
+      "tdd-guard",
+      "translations",
+      "i18n-ai-translate",
+      "ccflare",
+      "jeffreysprompts-com",
+      "cloudflare-manager",
+      "britfix",
+      "claude-skills",
+      "claude-skills",
+      "linear-todo-sync",
+      "tpmjs",
+      "edgar-change-interpreter",
+      "claude-skill-flaky-test-detector",
+      "claude-skill-security-auditor"
+    ],
+    "C#": [
+      "agents"
     ],
     "Shell": [
       "superpowers",
@@ -1063,32 +2443,100 @@
       "d3-js-visualization",
       "scientific-skills",
       "web-asset-generator",
+      "planning-with-files",
+      "claude-plugins-official",
       "loki-mode",
+      "n8n-workflow-skills",
       "context-engineering-kit",
-      "skill-seekers"
-    ],
-    "Go": [
-      "claude-squad",
-      "cc-tools"
-    ],
-    "TypeScript": [
-      "ralph-for-claude-code",
-      "recall",
-      "claudekit",
-      "ccexp",
-      "tdd-guard",
-      "ccflare",
-      "cloudflare-manager",
-      "britfix",
-      "linear-todo-sync"
+      "skill-seekers",
+      "claude-code-prompt-coach-skill",
+      "my-personal-notes",
+      "typo3-ddev-skill",
+      "agents-skill",
+      "typo3-docs-skill",
+      "cli-tools-skill",
+      "obsidian-project-assistant",
+      "typo3-conformance-skill",
+      "typo3-testing-skill",
+      "codex-skill",
+      "claude-cli-ux-skill",
+      "using-firebase",
+      "typo3-core-contributions-skill",
+      "enterprise-readiness-skill",
+      "mastering-gemini-cli-agentic-skill",
+      "auto-review-agent",
+      "mastering-git-cli-agent-skill",
+      "mastering-typescript-skill",
+      "claude-code-prompts",
+      "video-to-gif-skill"
     ],
     "Rust": [
+      "cc-switch",
       "tsk",
-      "ccometixline"
+      "ccometixline",
+      "llm-fmt-project"
+    ],
+    "Go": [
+      "beads",
+      "cliproxyapi",
+      "claude-squad",
+      "cc-tools",
+      "confluence-md"
+    ],
+    "JavaScript": [
+      "claude-relay-service",
+      "claudecodeui",
+      "get-shit-done",
+      "claude-code-system-prompts",
+      "claude-hud",
+      "n8n-workflow-builder",
+      "ai-agent-team",
+      "apple-hig-designer",
+      "git-master-1",
+      "aws-associate-solutions-architect",
+      "aam",
+      "tnotes-en-words",
+      "claude-skill-analyze-js",
+      "n8n-v2-workflow-skill"
+    ],
+    "Lua": [
+      "codecompanion-nvim",
+      "sidekick-nvim"
+    ],
+    "Swift": [
+      "codexbar"
+    ],
+    "Java": [
+      "agentscope-java"
+    ],
+    "Mermaid": [
+      "patentwriteragent"
+    ],
+    "Markdown": [
+      "notes",
+      "notes",
+      "notes"
+    ],
+    "HTML": [
+      "claude-code-seo"
+    ],
+    "CSS": [
+      "wechat-article-formatter-skill",
+      "netresearch-branding-skill"
+    ],
+    "Kotlin": [
+      "codex-kkp"
+    ],
+    "PHP": [
+      "swoole-doc"
+    ],
+    "MDX": [
+      "blog-posts"
     ]
   },
   "aggregates": {
     "tagCounts": {
+      "24886": 1,
       "word": 1,
       "documents": 4,
       "office": 3,
@@ -1101,31 +2549,40 @@
       "art": 1,
       "p5js": 1,
       "generative": 1,
-      "design": 4,
+      "design": 5,
       "canvas": 1,
       "graphics": 1,
       "gif": 1,
       "slack": 1,
       "animation": 1,
-      "react": 2,
+      "react": 3,
       "tailwind": 1,
-      "frontend": 1,
+      "frontend": 2,
       "artifacts": 1,
       "shadcn": 1,
-      "mcp": 1,
+      "mcp": 2,
       "api": 1,
       "integration": 3,
       "testing": 6,
-      "playwright": 2,
+      "playwright": 3,
       "e2e": 1,
-      "branding": 1,
-      "anthropic": 1,
+      "branding": 2,
+      "anthropic": 15,
       "writing": 3,
       "communication": 1,
       "business": 1,
-      "skills": 1,
+      "skills": 4,
       "creation": 1,
       "meta": 1,
+      "ai-agent": 15,
+      "ai-sdk": 1,
+      "chatbots": 1,
+      "claude-code": 72,
+      "claude-code-sdk": 1,
+      "agents": 10,
+      "anthropic-claude": 4,
+      "automation": 13,
+      "claude": 37,
       "tdd": 3,
       "debugging": 2,
       "collaboration": 1,
@@ -1135,10 +2592,9 @@
       "ios": 1,
       "simulator": 1,
       "mobile": 1,
-      "security": 3,
+      "security": 4,
       "fuzzing": 1,
       "pentesting": 1,
-      "automation": 9,
       "d3js": 1,
       "visualization": 1,
       "charts": 1,
@@ -1148,12 +2604,104 @@
       "favicon": 1,
       "icons": 1,
       "assets": 1,
-      "agents": 3,
+      "agent-skills": 14,
+      "agentic-code": 2,
+      "agentic-coding": 3,
+      "ai-workflow-optimization": 1,
+      "ai-workflows": 1,
+      "anthropic-ai": 2,
+      "anthropic-skills": 1,
+      "awesome": 2,
+      "awesome-lists": 2,
+      "awesome-list": 2,
+      "ai-agents": 9,
+      "claude-ai": 6,
+      "ai": 25,
+      "claude-skill": 34,
+      "claude-skills": 15,
+      "llm": 2,
+      "claude-4": 1,
+      "claude-4-opus": 1,
+      "agent": 6,
+      "ai-coding": 4,
+      "amp": 2,
+      "chatgpt": 3,
+      "ai-skills": 1,
+      "antigravity": 2,
+      "codex": 9,
+      "teaching": 1,
+      "ai-memory": 2,
+      "artificial-intelligence": 1,
+      "agentic-ai": 5,
+      "agentic-engineering": 1,
+      "agentic-framework": 4,
+      "agentic-rag": 2,
+      "agentic-workflow": 3,
+      "ai-tools": 2,
+      "deepseek-v3": 1,
+      "desktop-app": 1,
+      "coding": 1,
+      "apps-sdk": 1,
+      "claude-desktop": 1,
+      "claude-mobile": 1,
+      "codex-cli": 3,
+      "claude-api": 3,
+      "claude-proxy": 1,
+      "cluade": 1,
+      "gemini": 3,
+      "analytics": 4,
+      "claude-usage": 1,
+      "acp": 3,
+      "agent-client-protocol": 1,
+      "copilot": 2,
+      "bmad-method": 1,
+      "ccr": 1,
+      "code-generation": 2,
+      "banana": 1,
+      "chat": 1,
+      "codingagent": 1,
+      "claude-code-cli": 2,
+      "claude-code-hooks": 3,
+      "claude-code-mcp": 1,
+      "antigravity-ide": 1,
+      "antigravity2api": 1,
+      "context-engineering": 1,
+      "meta-prompting": 1,
+      "spec-driven-development": 1,
+      "claude-code-system-prompts": 1,
+      "system-prompts": 1,
+      "ai-agent-tools": 1,
+      "mcp-tools": 1,
+      "slash-commands": 1,
+      "sub-agents": 1,
+      "automated": 1,
+      "cli": 6,
+      "claude-code-skill": 45,
+      "deployment": 2,
+      "deployment-tools": 1,
+      "plugin": 1,
+      "swift": 1,
+      "cursor": 1,
+      "gemini-cli": 3,
+      "github-copilot": 1,
+      "aider": 1,
+      "claude-code-commands": 2,
+      "cli-tool": 1,
+      "copilot-cli": 1,
+      "docker": 2,
+      "kubernetes": 1,
       "autonomous": 2,
       "swarm": 1,
+      "n8n": 4,
+      "browser": 1,
+      "scraping": 2,
       "multi-agent": 1,
       "workspaces": 1,
       "parallel": 3,
+      "builder": 1,
+      "seo": 3,
+      "content": 3,
+      "keywords": 1,
       "safety": 1,
       "framework": 1,
       "search": 1,
@@ -1161,7 +2709,6 @@
       "history": 2,
       "plugins": 1,
       "settings": 1,
-      "cli": 2,
       "checkpointing": 1,
       "subagents": 3,
       "context": 3,
@@ -1170,7 +2717,7 @@
       "workflow": 2,
       "specs": 1,
       "methodology": 3,
-      "documentation": 1,
+      "documentation": 3,
       "conversion": 1,
       "hooks": 3,
       "python": 1,
@@ -1181,20 +2728,28 @@
       "configuration": 1,
       "project-management": 1,
       "productivity": 1,
+      "claude-subagents": 1,
       "rust": 2,
-      "docker": 1,
       "sandboxing": 1,
       "monitoring": 1,
+      "i18n": 2,
+      "next-intl": 1,
+      "po-files": 1,
+      "translation": 1,
+      "localization": 2,
       "team": 1,
       "specialized": 2,
       "dashboard": 2,
       "metrics": 1,
-      "analytics": 2,
       "patterns": 1,
       "diagrams": 1,
       "usage": 1,
       "cost": 1,
       "tokens": 1,
+      "audit": 1,
+      "ai-search": 1,
+      "browser-automation": 1,
+      "citations": 1,
       "statusline": 2,
       "git": 5,
       "mountaineering": 1,
@@ -1202,27 +2757,100 @@
       "customizable": 1,
       "display": 1,
       "fullstack": 1,
+      "claude-code-plugins": 4,
+      "claude-code-skills": 6,
+      "claude-plugins": 1,
       "apps": 1,
+      "claude-code-plugin": 9,
       "cloudflare": 1,
       "workers": 1,
-      "deployment": 1,
       "english": 1,
-      "localization": 2,
-      "linear": 1,
+      "figma": 1,
+      "claude-plugin": 1,
+      "aeo": 2,
+      "android": 2,
+      "app-store-optimization": 2,
+      "appstore": 2,
+      "linear": 2,
       "todo": 1,
       "sync": 1,
       "templates": 1,
+      "base-chain": 1,
+      "atlassian": 1,
+      "jira": 1,
+      "ai-specification": 1,
+      "claude-skill-prd": 1,
+      "product": 1,
+      "product-management": 1,
+      "links": 1,
+      "agentic-skill": 16,
+      "prompt-engineering": 1,
+      "prompt-frameworks": 1,
+      "prompt-improvement": 1,
+      "antrophic": 1,
+      "architecture": 2,
+      "dspy": 1,
+      "ddev": 1,
+      "developer-tool": 1,
+      "agents-md": 1,
+      "app-store": 1,
+      "fastlane": 1,
+      "claude-skills-creator": 1,
+      "claude-skills-hub": 1,
+      "brainstorming": 3,
+      "documentation-generator": 1,
+      "developer-tools": 4,
+      "fastmcp": 1,
+      "crawling": 1,
+      "agent-skill": 1,
+      "claude-agent": 1,
+      "note-taking": 1,
+      "ai-assisted-development": 2,
+      "api-integration": 1,
+      "digital-samba": 1,
+      "rhetorical-parser": 1,
+      "n8n-20": 1,
+      "n8n-v2": 1,
+      "open-standard": 2,
+      "quality-assurance": 1,
+      "corporate-identity": 1,
+      "skill": 1,
+      "jina-ai-reader": 1,
+      "markdown": 2,
+      "10k": 1,
+      "10q": 1,
+      "8k": 1,
+      "agent-tools": 1,
+      "ci-cd": 1,
+      "flaky-tests": 1,
+      "linear-mcp": 1,
+      "ai-security": 1,
+      "jailbreak": 1,
+      "llm-security": 1,
+      "claude-skills-libary": 1,
+      "huggingface-transformers": 1,
+      "machine-learning-models": 1,
+      "predictive-analytics-library": 1,
+      "accessibility": 1,
+      "api-design": 1,
+      "checker": 1,
+      "dependencies": 1,
+      "howopen": 1,
+      "contribution": 1,
+      "gerrit": 1,
+      "code-explorer": 1,
+      "devsecops": 1,
+      "enterprise": 1,
+      "csv": 2,
+      "cache": 1,
       "youtube": 1,
       "transcript": 1,
       "video": 2,
       "download": 1,
       "media": 1,
       "image-generation": 1,
-      "gemini": 1,
-      "ai": 2,
       "articles": 1,
       "web": 1,
-      "csv": 1,
       "data": 1,
       "postgres": 1,
       "sql": 1,
@@ -1233,11 +2861,9 @@
       "competitive": 1,
       "marketing": 1,
       "domains": 1,
-      "brainstorming": 2,
       "naming": 1,
       "leads": 1,
       "sales": 1,
-      "content": 3,
       "ideas": 1,
       "planning": 1,
       "genealogy": 1,
@@ -1257,7 +2883,6 @@
       "taxes": 1,
       "kaizen": 1,
       "improvement": 1,
-      "n8n": 3,
       "raffle": 1,
       "random": 1,
       "selection": 1,
@@ -1282,7 +2907,6 @@
       "sigma": 1,
       "threat-hunting": 1,
       "detection": 1,
-      "markdown": 1,
       "epub": 1,
       "ebook": 1,
       "changelog": 1,
@@ -1298,7 +2922,6 @@
       "reddit": 1,
       "fetch": 1,
       "social": 1,
-      "architecture": 1,
       "solid": 1,
       "development": 1,
       "worktrees": 1,
@@ -1309,88 +2932,109 @@
       "branches": 1,
       "infrastructure": 1,
       "continuity": 1,
-      "scraping": 2,
-      "crawling": 1,
-      "browser": 1,
-      "builder": 1,
-      "seo": 3,
-      "keywords": 1,
-      "audit": 1,
-      "links": 1,
-      "i18n": 2,
-      "translation": 1,
-      "next-intl": 1,
-      "po-files": 1
+      "svg-icons": 1,
+      "shopping": 1,
+      "npm-audit": 1,
+      "langgraph": 1,
+      "langgraph-python": 1,
+      "http-payments": 1,
+      "micropayments": 1,
+      "astro": 1,
+      "firebase": 1,
+      "netlify": 1,
+      "bm25": 1,
+      "postgresql": 1,
+      "vector-search": 1,
+      "typescript": 1
     },
     "languageCounts": {
-      "Python": 17,
-      "Shell": 11,
-      "Go": 2,
-      "TypeScript": 9,
-      "Rust": 2
+      "Python": 70,
+      "TypeScript": 38,
+      "C#": 1,
+      "Shell": 34,
+      "Rust": 4,
+      "Go": 5,
+      "JavaScript": 14,
+      "Lua": 2,
+      "Swift": 1,
+      "Java": 1,
+      "Mermaid": 1,
+      "Markdown": 3,
+      "HTML": 1,
+      "CSS": 2,
+      "Kotlin": 1,
+      "PHP": 1,
+      "MDX": 1
     },
     "licenseCounts": {
-      "MIT": 31
+      "AGPL-3.0": 3,
+      "MIT": 123,
+      "NOASSERTION": 13,
+      "Apache-2.0": 7,
+      "GPL-3.0": 2,
+      "CC0-1.0": 1,
+      "WTFPL": 1,
+      "CC-BY-SA-4.0": 3
     },
     "categoryStats": {
       "document-processing": {
-        "count": 5,
+        "count": 15,
         "featured": 4
       },
       "creative-design": {
-        "count": 7,
-        "featured": 1
-      },
-      "development-tools": {
-        "count": 27,
-        "featured": 3
-      },
-      "business-marketing": {
-        "count": 4,
-        "featured": 0
-      },
-      "communication": {
-        "count": 4,
-        "featured": 0
-      },
-      "ai-llm": {
         "count": 14,
         "featured": 1
       },
-      "security": {
-        "count": 5,
+      "development-tools": {
+        "count": 51,
+        "featured": 3
+      },
+      "business-marketing": {
+        "count": 8,
         "featured": 0
       },
-      "data-analysis": {
-        "count": 7,
+      "communication": {
+        "count": 6,
         "featured": 0
       },
-      "productivity": {
-        "count": 18,
-        "featured": 0
-      },
-      "devops-cicd": {
-        "count": 7,
-        "featured": 0
-      },
-      "web-scraping": {
-        "count": 2,
+      "ai-llm": {
+        "count": 117,
         "featured": 1
       },
       "automation": {
-        "count": 2,
+        "count": 8,
+        "featured": 1
+      },
+      "security": {
+        "count": 6,
+        "featured": 0
+      },
+      "data-analysis": {
+        "count": 10,
+        "featured": 0
+      },
+      "productivity": {
+        "count": 27,
+        "featured": 0
+      },
+      "web-scraping": {
+        "count": 4,
         "featured": 1
       },
       "seo-search": {
         "count": 3,
         "featured": 1
       },
+      "devops-cicd": {
+        "count": 10,
+        "featured": 0
+      },
       "translation-localization": {
         "count": 2,
         "featured": 1
       }
     },
-    "totalSkills": 107,
+    "totalSkills": 281,
     "totalFeatured": 13
   }
 }

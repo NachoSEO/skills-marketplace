@@ -93,8 +93,8 @@ export function HeroSection({ skillCount, categoryCount }: HeroSectionProps) {
 
         {/* Main heading with typing effect */}
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 opacity-0 fade-in-up" style={{ animationDelay: '0.2s', animationFillMode: 'forwards' }}>
-          <span className="text-terminal glow-text">SkillsForge</span>
-          <span className="block mt-2">for Claude Code</span>
+          <span className="text-terminal glow-text">Claude Code</span>
+          <span className="block mt-2">Skills Marketplace</span>
         </h1>
 
         {/* Subtitle */}
