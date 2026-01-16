@@ -5,19 +5,28 @@ interface Props {
   category?: Category;
 }
 
+// Sanitize strings for JSON-LD to prevent script injection
+function sanitizeForJsonLd(str: string | undefined | null): string {
+  if (!str) return '';
+  return str
+    .replace(/</g, '\\u003c')
+    .replace(/>/g, '\\u003e')
+    .replace(/&/g, '\\u0026')
+    .slice(0, 5000); // Limit length
+}
+
 export function SkillJsonLd({ skill, category }: Props) {
-  // JSON-LD structured data for SEO
-  // Using JSON.stringify ensures safe serialization of all values
+  // JSON-LD structured data for SEO with sanitized inputs
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'SoftwareApplication',
-    name: skill.name,
-    description: skill.aiDescription || skill.description,
-    applicationCategory: category?.name || 'DeveloperApplication',
+    name: sanitizeForJsonLd(skill.name),
+    description: sanitizeForJsonLd(skill.aiDescription || skill.description),
+    applicationCategory: sanitizeForJsonLd(category?.name) || 'DeveloperApplication',
     operatingSystem: 'Cross-platform',
     author: {
       '@type': 'Person',
-      name: skill.author,
+      name: sanitizeForJsonLd(skill.author),
     },
     offers: {
       '@type': 'Offer',
@@ -31,17 +40,17 @@ export function SkillJsonLd({ skill, category }: Props) {
         ratingCount: skill.stars,
       },
     }),
-    url: `https://skillsforge.dev/skills/${skill.slug}`,
+    url: `https://skillsforge.dev/skills/${encodeURIComponent(skill.slug)}`,
     downloadUrl: skill.githubUrl,
     softwareVersion: '1.0',
     datePublished: skill.createdAt,
     ...(skill.updatedAt && { dateModified: skill.updatedAt }),
     ...(skill.license && {
-      license: `https://opensource.org/licenses/${skill.license}`,
+      license: `https://opensource.org/licenses/${encodeURIComponent(skill.license)}`,
     }),
-    keywords: skill.tags.join(', '),
+    keywords: skill.tags.map(sanitizeForJsonLd).join(', '),
     ...(skill.language && {
-      programmingLanguage: skill.language,
+      programmingLanguage: sanitizeForJsonLd(skill.language),
     }),
   };
 

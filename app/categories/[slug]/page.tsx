@@ -78,7 +78,7 @@ export default async function CategoryPage({ params }: Props) {
                 <polyline points="8,6 2,12 8,18" />
               </svg>
             </div>
-            <h1 className="text-3xl sm:text-4xl font-bold mb-2">{category.name}</h1>
+            <h1 className="text-3xl sm:text-4xl font-bold mb-2">Claude Skills for {category.name}</h1>
             <p className="text-lg text-muted mb-4">{category.description}</p>
             <p className="text-sm text-muted">
               {categorySkills.length} {categorySkills.length === 1 ? 'skill' : 'skills'} available

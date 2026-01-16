@@ -175,27 +175,23 @@ export async function generateDescriptionAction(id: string): Promise<ActionResul
     revalidatePath('/admin');
 
     return { success: true, data: summary };
-  } catch (error) {
-    console.error('Error generating description:', error);
+  } catch {
     return { success: false, error: 'Failed to generate description' };
   }
 }
 
 export async function regenerateDataAction(): Promise<ActionResult> {
   try {
-    const { stdout, stderr } = await execAsync('npm run generate:skills', {
+    await execAsync('npm run generate:skills', {
       cwd: process.cwd(),
     });
-    console.log('Generate output:', stdout);
-    if (stderr) console.error('Generate stderr:', stderr);
 
     revalidatePath('/');
     revalidatePath('/skills');
     revalidatePath('/admin');
 
     return { success: true };
-  } catch (error) {
-    console.error('Error regenerating data:', error);
+  } catch {
     return { success: false, error: 'Failed to regenerate data' };
   }
 }
@@ -237,8 +233,7 @@ export async function discoverSkillsAction(query?: string): Promise<ActionResult
     );
 
     return { success: true, data: newSkills };
-  } catch (error) {
-    console.error('Error discovering skills:', error);
+  } catch {
     return { success: false, error: 'Failed to discover skills' };
   }
 }
@@ -264,8 +259,7 @@ export async function addDiscoveredSkillAction(
     revalidatePath('/admin/discover');
 
     return { success: true, data: { ...newSkill, id: generateSkillId(newSkill) } };
-  } catch (error) {
-    console.error('Error adding discovered skill:', error);
+  } catch {
     return { success: false, error: 'Failed to add skill' };
   }
 }

@@ -109,7 +109,7 @@ export function InstallPanel({ skill }: InstallPanelProps) {
 
         {/* Command display */}
         <div className="relative group">
-          <div className="p-4 rounded-lg bg-[#0d1117] dark:bg-[#0a0a0a] font-mono text-sm overflow-x-auto">
+          <div className="p-4 pr-24 rounded-lg bg-[#0d1117] dark:bg-[#0a0a0a] font-mono text-sm overflow-x-auto">
             <div className="flex items-start gap-3">
               <span className="text-terminal select-none shrink-0">$</span>
               <code className="text-green-400 dark:text-green-300 break-all">
