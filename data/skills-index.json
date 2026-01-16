@@ -1,0 +1,1396 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-01-16T07:43:03.538Z",
+  "slugIndex": {
+    "docx": 0,
+    "pdf": 1,
+    "pptx": 2,
+    "xlsx": 3,
+    "algorithmic-art": 4,
+    "canvas-design": 5,
+    "slack-gif-creator": 6,
+    "frontend-design": 7,
+    "artifacts-builder": 8,
+    "mcp-builder": 9,
+    "webapp-testing": 10,
+    "brand-guidelines": 11,
+    "internal-comms": 12,
+    "skill-creator": 13,
+    "superpowers": 14,
+    "superpowers-lab": 15,
+    "ios-simulator": 16,
+    "ffuf-web-fuzzing": 17,
+    "playwright-skill": 18,
+    "d3-js-visualization": 19,
+    "scientific-skills": 20,
+    "web-asset-generator": 21,
+    "loki-mode": 22,
+    "claude-squad": 23,
+    "ralph-for-claude-code": 24,
+    "recall": 25,
+    "codex-settings": 26,
+    "claudekit": 27,
+    "context-engineering-kit": 28,
+    "ab-method": 29,
+    "skill-seekers": 30,
+    "cc-hooks": 31,
+    "cc-tools": 32,
+    "ccexp": 33,
+    "claude-code-pm": 34,
+    "tsk": 35,
+    "tdd-guard": 36,
+    "awesome-claude-agents": 37,
+    "ccflare": 38,
+    "agentic-workflow-patterns": 39,
+    "cc-usage": 40,
+    "ccometixline": 41,
+    "mountaineering-skills": 42,
+    "cc-statusline": 43,
+    "claude-code-subagents": 44,
+    "composio-connect": 45,
+    "cloudflare-manager": 46,
+    "britfix": 47,
+    "linear-todo-sync": 48,
+    "claude-code-templates": 49,
+    "youtube-transcript": 50,
+    "video-downloader": 51,
+    "imagen": 52,
+    "article-extractor": 53,
+    "csv-summarizer": 54,
+    "postgresql": 55,
+    "root-cause-tracing": 56,
+    "competitive-ads-extractor": 57,
+    "domain-brainstormer": 58,
+    "lead-research-assistant": 59,
+    "content-research-writer": 60,
+    "brainstorming": 61,
+    "family-history-research": 62,
+    "meeting-insights-analyzer": 63,
+    "notebooklm-integration": 64,
+    "image-enhancer": 65,
+    "theme-factory": 66,
+    "file-organizer": 67,
+    "invoice-organizer": 68,
+    "kaizen": 69,
+    "n8n-skills": 70,
+    "raffle-winner-picker": 71,
+    "tailored-resume-generator": 72,
+    "ship-learn-next": 73,
+    "tapestry": 74,
+    "git-pushing": 75,
+    "review-implementing": 76,
+    "test-fixing": 77,
+    "computer-forensics": 78,
+    "secure-file-deletion": 79,
+    "metadata-extraction": 80,
+    "threat-hunting-with-sigma": 81,
+    "markdown-to-epub": 82,
+    "changelog-generator": 83,
+    "terminal-title": 84,
+    "langsmith-fetch": 85,
+    "move-code-quality": 86,
+    "pypict": 87,
+    "reddit-fetch": 88,
+    "software-architecture": 89,
+    "subagent-driven-development": 90,
+    "test-driven-development": 91,
+    "git-worktrees": 92,
+    "prompt-engineering": 93,
+    "aws-skills": 94,
+    "finishing-development-branch": 95,
+    "infrastructure-showcase": 96,
+    "session-continuity-tools": 97,
+    "crawl4ai-web-scraping": 98,
+    "claudekit-skills": 99,
+    "n8n-workflow-skills": 100,
+    "n8n-workflow-builder": 101,
+    "seo-machine": 102,
+    "claude-code-seo": 103,
+    "content-seo-skills": 104,
+    "i18n-ai-translate": 105,
+    "translations": 106
+  },
+  "categoryIndex": {
+    "document-processing": [
+      "docx",
+      "pdf",
+      "pptx",
+      "xlsx",
+      "markdown-to-epub"
+    ],
+    "creative-design": [
+      "algorithmic-art",
+      "canvas-design",
+      "slack-gif-creator",
+      "web-asset-generator",
+      "imagen",
+      "image-enhancer",
+      "theme-factory"
+    ],
+    "development-tools": [
+      "frontend-design",
+      "artifacts-builder",
+      "mcp-builder",
+      "webapp-testing",
+      "superpowers",
+      "superpowers-lab",
+      "ios-simulator",
+      "playwright-skill",
+      "codex-settings",
+      "claudekit",
+      "cc-hooks",
+      "cc-tools",
+      "ccexp",
+      "tdd-guard",
+      "ccometixline",
+      "cc-statusline",
+      "claude-code-templates",
+      "root-cause-tracing",
+      "review-implementing",
+      "test-fixing",
+      "terminal-title",
+      "move-code-quality",
+      "pypict",
+      "software-architecture",
+      "test-driven-development",
+      "infrastructure-showcase",
+      "session-continuity-tools"
+    ],
+    "business-marketing": [
+      "brand-guidelines",
+      "competitive-ads-extractor",
+      "domain-brainstormer",
+      "lead-research-assistant"
+    ],
+    "communication": [
+      "internal-comms",
+      "britfix",
+      "content-research-writer",
+      "meeting-insights-analyzer"
+    ],
+    "ai-llm": [
+      "skill-creator",
+      "loki-mode",
+      "claude-squad",
+      "ralph-for-claude-code",
+      "context-engineering-kit",
+      "skill-seekers",
+      "awesome-claude-agents",
+      "agentic-workflow-patterns",
+      "claude-code-subagents",
+      "composio-connect",
+      "notebooklm-integration",
+      "langsmith-fetch",
+      "subagent-driven-development",
+      "prompt-engineering"
+    ],
+    "security": [
+      "ffuf-web-fuzzing",
+      "computer-forensics",
+      "secure-file-deletion",
+      "metadata-extraction",
+      "threat-hunting-with-sigma"
+    ],
+    "data-analysis": [
+      "d3-js-visualization",
+      "scientific-skills",
+      "youtube-transcript",
+      "article-extractor",
+      "csv-summarizer",
+      "postgresql",
+      "reddit-fetch"
+    ],
+    "productivity": [
+      "recall",
+      "ab-method",
+      "claude-code-pm",
+      "ccflare",
+      "cc-usage",
+      "mountaineering-skills",
+      "linear-todo-sync",
+      "video-downloader",
+      "brainstorming",
+      "family-history-research",
+      "file-organizer",
+      "invoice-organizer",
+      "kaizen",
+      "n8n-skills",
+      "raffle-winner-picker",
+      "tailored-resume-generator",
+      "ship-learn-next",
+      "tapestry"
+    ],
+    "devops-cicd": [
+      "tsk",
+      "cloudflare-manager",
+      "git-pushing",
+      "changelog-generator",
+      "git-worktrees",
+      "aws-skills",
+      "finishing-development-branch"
+    ],
+    "web-scraping": [
+      "crawl4ai-web-scraping",
+      "claudekit-skills"
+    ],
+    "automation": [
+      "n8n-workflow-skills",
+      "n8n-workflow-builder"
+    ],
+    "seo-search": [
+      "seo-machine",
+      "claude-code-seo",
+      "content-seo-skills"
+    ],
+    "translation-localization": [
+      "i18n-ai-translate",
+      "translations"
+    ]
+  },
+  "tagIndex": {
+    "word": [
+      "docx"
+    ],
+    "documents": [
+      "docx",
+      "pdf",
+      "notebooklm-integration",
+      "tapestry"
+    ],
+    "office": [
+      "docx",
+      "pptx",
+      "xlsx"
+    ],
+    "pdf": [
+      "pdf"
+    ],
+    "extraction": [
+      "pdf",
+      "article-extractor",
+      "metadata-extraction",
+      "crawl4ai-web-scraping"
+    ],
+    "powerpoint": [
+      "pptx"
+    ],
+    "presentations": [
+      "pptx"
+    ],
+    "excel": [
+      "xlsx"
+    ],
+    "spreadsheets": [
+      "xlsx"
+    ],
+    "art": [
+      "algorithmic-art"
+    ],
+    "p5js": [
+      "algorithmic-art"
+    ],
+    "generative": [
+      "algorithmic-art"
+    ],
+    "design": [
+      "canvas-design",
+      "brand-guidelines",
+      "theme-factory",
+      "software-architecture"
+    ],
+    "canvas": [
+      "canvas-design"
+    ],
+    "graphics": [
+      "canvas-design"
+    ],
+    "gif": [
+      "slack-gif-creator"
+    ],
+    "slack": [
+      "slack-gif-creator"
+    ],
+    "animation": [
+      "slack-gif-creator"
+    ],
+    "react": [
+      "frontend-design",
+      "artifacts-builder"
+    ],
+    "tailwind": [
+      "frontend-design"
+    ],
+    "frontend": [
+      "frontend-design"
+    ],
+    "artifacts": [
+      "artifacts-builder"
+    ],
+    "shadcn": [
+      "artifacts-builder"
+    ],
+    "mcp": [
+      "mcp-builder"
+    ],
+    "api": [
+      "mcp-builder"
+    ],
+    "integration": [
+      "mcp-builder",
+      "codex-settings",
+      "composio-connect"
+    ],
+    "testing": [
+      "webapp-testing",
+      "playwright-skill",
+      "tdd-guard",
+      "test-fixing",
+      "pypict",
+      "test-driven-development"
+    ],
+    "playwright": [
+      "webapp-testing",
+      "playwright-skill"
+    ],
+    "e2e": [
+      "webapp-testing"
+    ],
+    "branding": [
+      "brand-guidelines"
+    ],
+    "anthropic": [
+      "brand-guidelines"
+    ],
+    "writing": [
+      "internal-comms",
+      "britfix",
+      "content-research-writer"
+    ],
+    "communication": [
+      "internal-comms"
+    ],
+    "business": [
+      "internal-comms"
+    ],
+    "skills": [
+      "skill-creator"
+    ],
+    "creation": [
+      "skill-creator"
+    ],
+    "meta": [
+      "skill-creator"
+    ],
+    "tdd": [
+      "superpowers",
+      "tdd-guard",
+      "test-driven-development"
+    ],
+    "debugging": [
+      "superpowers",
+      "root-cause-tracing"
+    ],
+    "collaboration": [
+      "superpowers"
+    ],
+    "experimental": [
+      "superpowers-lab"
+    ],
+    "advanced": [
+      "superpowers-lab"
+    ],
+    "workflows": [
+      "superpowers-lab",
+      "agentic-workflow-patterns",
+      "n8n-skills",
+      "n8n-workflow-skills"
+    ],
+    "ios": [
+      "ios-simulator"
+    ],
+    "simulator": [
+      "ios-simulator"
+    ],
+    "mobile": [
+      "ios-simulator"
+    ],
+    "security": [
+      "ffuf-web-fuzzing",
+      "computer-forensics",
+      "secure-file-deletion"
+    ],
+    "fuzzing": [
+      "ffuf-web-fuzzing"
+    ],
+    "pentesting": [
+      "ffuf-web-fuzzing"
+    ],
+    "automation": [
+      "playwright-skill",
+      "skill-seekers",
+      "composio-connect",
+      "n8n-skills",
+      "git-pushing",
+      "test-fixing",
+      "claudekit-skills",
+      "n8n-workflow-skills",
+      "n8n-workflow-builder"
+    ],
+    "d3js": [
+      "d3-js-visualization"
+    ],
+    "visualization": [
+      "d3-js-visualization"
+    ],
+    "charts": [
+      "d3-js-visualization"
+    ],
+    "science": [
+      "scientific-skills"
+    ],
+    "research": [
+      "scientific-skills",
+      "mountaineering-skills",
+      "lead-research-assistant",
+      "content-research-writer",
+      "family-history-research"
+    ],
+    "analysis": [
+      "scientific-skills",
+      "csv-summarizer",
+      "meeting-insights-analyzer"
+    ],
+    "favicon": [
+      "web-asset-generator"
+    ],
+    "icons": [
+      "web-asset-generator"
+    ],
+    "assets": [
+      "web-asset-generator"
+    ],
+    "agents": [
+      "loki-mode",
+      "claude-code-pm",
+      "awesome-claude-agents"
+    ],
+    "autonomous": [
+      "loki-mode",
+      "ralph-for-claude-code"
+    ],
+    "swarm": [
+      "loki-mode"
+    ],
+    "multi-agent": [
+      "claude-squad"
+    ],
+    "workspaces": [
+      "claude-squad"
+    ],
+    "parallel": [
+      "claude-squad",
+      "subagent-driven-development",
+      "git-worktrees"
+    ],
+    "safety": [
+      "ralph-for-claude-code"
+    ],
+    "framework": [
+      "ralph-for-claude-code"
+    ],
+    "search": [
+      "recall"
+    ],
+    "sessions": [
+      "recall",
+      "session-continuity-tools"
+    ],
+    "history": [
+      "recall",
+      "family-history-research"
+    ],
+    "plugins": [
+      "codex-settings"
+    ],
+    "settings": [
+      "codex-settings"
+    ],
+    "cli": [
+      "claudekit",
+      "ccexp"
+    ],
+    "checkpointing": [
+      "claudekit"
+    ],
+    "subagents": [
+      "claudekit",
+      "claude-code-subagents",
+      "subagent-driven-development"
+    ],
+    "context": [
+      "context-engineering-kit",
+      "infrastructure-showcase",
+      "session-continuity-tools"
+    ],
+    "prompting": [
+      "context-engineering-kit"
+    ],
+    "optimization": [
+      "context-engineering-kit",
+      "prompt-engineering",
+      "claude-code-seo"
+    ],
+    "workflow": [
+      "ab-method",
+      "finishing-development-branch"
+    ],
+    "specs": [
+      "ab-method"
+    ],
+    "methodology": [
+      "ab-method",
+      "kaizen",
+      "test-driven-development"
+    ],
+    "documentation": [
+      "skill-seekers"
+    ],
+    "conversion": [
+      "skill-seekers"
+    ],
+    "hooks": [
+      "cc-hooks",
+      "cc-tools",
+      "infrastructure-showcase"
+    ],
+    "python": [
+      "cc-hooks"
+    ],
+    "sdk": [
+      "cc-hooks"
+    ],
+    "go": [
+      "cc-tools"
+    ],
+    "utilities": [
+      "cc-tools"
+    ],
+    "discovery": [
+      "ccexp"
+    ],
+    "configuration": [
+      "ccexp"
+    ],
+    "project-management": [
+      "claude-code-pm"
+    ],
+    "productivity": [
+      "claude-code-pm"
+    ],
+    "rust": [
+      "tsk",
+      "ccometixline"
+    ],
+    "docker": [
+      "tsk"
+    ],
+    "sandboxing": [
+      "tsk"
+    ],
+    "monitoring": [
+      "tdd-guard"
+    ],
+    "team": [
+      "awesome-claude-agents"
+    ],
+    "specialized": [
+      "awesome-claude-agents",
+      "claude-code-subagents"
+    ],
+    "dashboard": [
+      "ccflare",
+      "claude-code-templates"
+    ],
+    "metrics": [
+      "ccflare"
+    ],
+    "analytics": [
+      "ccflare",
+      "claude-code-templates"
+    ],
+    "patterns": [
+      "agentic-workflow-patterns"
+    ],
+    "diagrams": [
+      "agentic-workflow-patterns"
+    ],
+    "usage": [
+      "cc-usage"
+    ],
+    "cost": [
+      "cc-usage"
+    ],
+    "tokens": [
+      "cc-usage"
+    ],
+    "statusline": [
+      "ccometixline",
+      "cc-statusline"
+    ],
+    "git": [
+      "ccometixline",
+      "git-pushing",
+      "changelog-generator",
+      "git-worktrees",
+      "finishing-development-branch"
+    ],
+    "mountaineering": [
+      "mountaineering-skills"
+    ],
+    "outdoor": [
+      "mountaineering-skills"
+    ],
+    "customizable": [
+      "cc-statusline"
+    ],
+    "display": [
+      "cc-statusline"
+    ],
+    "fullstack": [
+      "claude-code-subagents"
+    ],
+    "apps": [
+      "composio-connect"
+    ],
+    "cloudflare": [
+      "cloudflare-manager"
+    ],
+    "workers": [
+      "cloudflare-manager"
+    ],
+    "deployment": [
+      "cloudflare-manager"
+    ],
+    "english": [
+      "britfix"
+    ],
+    "localization": [
+      "britfix",
+      "i18n-ai-translate"
+    ],
+    "linear": [
+      "linear-todo-sync"
+    ],
+    "todo": [
+      "linear-todo-sync"
+    ],
+    "sync": [
+      "linear-todo-sync"
+    ],
+    "templates": [
+      "claude-code-templates"
+    ],
+    "youtube": [
+      "youtube-transcript"
+    ],
+    "transcript": [
+      "youtube-transcript"
+    ],
+    "video": [
+      "youtube-transcript",
+      "video-downloader"
+    ],
+    "download": [
+      "video-downloader"
+    ],
+    "media": [
+      "video-downloader"
+    ],
+    "image-generation": [
+      "imagen"
+    ],
+    "gemini": [
+      "imagen"
+    ],
+    "ai": [
+      "imagen",
+      "prompt-engineering"
+    ],
+    "articles": [
+      "article-extractor"
+    ],
+    "web": [
+      "article-extractor"
+    ],
+    "csv": [
+      "csv-summarizer"
+    ],
+    "data": [
+      "csv-summarizer"
+    ],
+    "postgres": [
+      "postgresql"
+    ],
+    "sql": [
+      "postgresql"
+    ],
+    "database": [
+      "postgresql"
+    ],
+    "tracing": [
+      "root-cause-tracing",
+      "langsmith-fetch"
+    ],
+    "errors": [
+      "root-cause-tracing"
+    ],
+    "ads": [
+      "competitive-ads-extractor"
+    ],
+    "competitive": [
+      "competitive-ads-extractor"
+    ],
+    "marketing": [
+      "competitive-ads-extractor"
+    ],
+    "domains": [
+      "domain-brainstormer"
+    ],
+    "brainstorming": [
+      "domain-brainstormer",
+      "brainstorming"
+    ],
+    "naming": [
+      "domain-brainstormer"
+    ],
+    "leads": [
+      "lead-research-assistant"
+    ],
+    "sales": [
+      "lead-research-assistant"
+    ],
+    "content": [
+      "content-research-writer",
+      "seo-machine",
+      "content-seo-skills"
+    ],
+    "ideas": [
+      "brainstorming"
+    ],
+    "planning": [
+      "brainstorming"
+    ],
+    "genealogy": [
+      "family-history-research"
+    ],
+    "meetings": [
+      "meeting-insights-analyzer"
+    ],
+    "insights": [
+      "meeting-insights-analyzer"
+    ],
+    "notebooklm": [
+      "notebooklm-integration"
+    ],
+    "query": [
+      "notebooklm-integration"
+    ],
+    "image": [
+      "image-enhancer"
+    ],
+    "enhancement": [
+      "image-enhancer"
+    ],
+    "quality": [
+      "image-enhancer",
+      "move-code-quality"
+    ],
+    "themes": [
+      "theme-factory"
+    ],
+    "styling": [
+      "theme-factory"
+    ],
+    "files": [
+      "file-organizer"
+    ],
+    "organization": [
+      "file-organizer",
+      "invoice-organizer",
+      "terminal-title"
+    ],
+    "duplicates": [
+      "file-organizer"
+    ],
+    "invoices": [
+      "invoice-organizer"
+    ],
+    "taxes": [
+      "invoice-organizer"
+    ],
+    "kaizen": [
+      "kaizen"
+    ],
+    "improvement": [
+      "kaizen"
+    ],
+    "n8n": [
+      "n8n-skills",
+      "n8n-workflow-skills",
+      "n8n-workflow-builder"
+    ],
+    "raffle": [
+      "raffle-winner-picker"
+    ],
+    "random": [
+      "raffle-winner-picker"
+    ],
+    "selection": [
+      "raffle-winner-picker"
+    ],
+    "resume": [
+      "tailored-resume-generator"
+    ],
+    "jobs": [
+      "tailored-resume-generator"
+    ],
+    "customization": [
+      "tailored-resume-generator"
+    ],
+    "learning": [
+      "ship-learn-next"
+    ],
+    "iteration": [
+      "ship-learn-next"
+    ],
+    "priorities": [
+      "ship-learn-next"
+    ],
+    "linking": [
+      "tapestry"
+    ],
+    "summarization": [
+      "tapestry"
+    ],
+    "repository": [
+      "git-pushing"
+    ],
+    "review": [
+      "review-implementing"
+    ],
+    "implementation": [
+      "review-implementing"
+    ],
+    "code": [
+      "review-implementing"
+    ],
+    "fixing": [
+      "test-fixing"
+    ],
+    "forensics": [
+      "computer-forensics",
+      "metadata-extraction"
+    ],
+    "investigation": [
+      "computer-forensics"
+    ],
+    "deletion": [
+      "secure-file-deletion"
+    ],
+    "sanitization": [
+      "secure-file-deletion"
+    ],
+    "metadata": [
+      "metadata-extraction"
+    ],
+    "sigma": [
+      "threat-hunting-with-sigma"
+    ],
+    "threat-hunting": [
+      "threat-hunting-with-sigma"
+    ],
+    "detection": [
+      "threat-hunting-with-sigma"
+    ],
+    "markdown": [
+      "markdown-to-epub"
+    ],
+    "epub": [
+      "markdown-to-epub"
+    ],
+    "ebook": [
+      "markdown-to-epub"
+    ],
+    "changelog": [
+      "changelog-generator"
+    ],
+    "releases": [
+      "changelog-generator"
+    ],
+    "terminal": [
+      "terminal-title"
+    ],
+    "title": [
+      "terminal-title"
+    ],
+    "langsmith": [
+      "langsmith-fetch"
+    ],
+    "langchain": [
+      "langsmith-fetch"
+    ],
+    "move": [
+      "move-code-quality"
+    ],
+    "blockchain": [
+      "move-code-quality"
+    ],
+    "pairwise": [
+      "pypict"
+    ],
+    "coverage": [
+      "pypict"
+    ],
+    "reddit": [
+      "reddit-fetch"
+    ],
+    "fetch": [
+      "reddit-fetch"
+    ],
+    "social": [
+      "reddit-fetch"
+    ],
+    "architecture": [
+      "software-architecture"
+    ],
+    "solid": [
+      "software-architecture"
+    ],
+    "development": [
+      "subagent-driven-development"
+    ],
+    "worktrees": [
+      "git-worktrees"
+    ],
+    "prompts": [
+      "prompt-engineering"
+    ],
+    "aws": [
+      "aws-skills"
+    ],
+    "cdk": [
+      "aws-skills"
+    ],
+    "serverless": [
+      "aws-skills"
+    ],
+    "branches": [
+      "finishing-development-branch"
+    ],
+    "infrastructure": [
+      "infrastructure-showcase"
+    ],
+    "continuity": [
+      "session-continuity-tools"
+    ],
+    "scraping": [
+      "crawl4ai-web-scraping",
+      "claudekit-skills"
+    ],
+    "crawling": [
+      "crawl4ai-web-scraping"
+    ],
+    "browser": [
+      "claudekit-skills"
+    ],
+    "builder": [
+      "n8n-workflow-builder"
+    ],
+    "seo": [
+      "seo-machine",
+      "claude-code-seo",
+      "content-seo-skills"
+    ],
+    "keywords": [
+      "seo-machine"
+    ],
+    "audit": [
+      "claude-code-seo"
+    ],
+    "links": [
+      "content-seo-skills"
+    ],
+    "i18n": [
+      "i18n-ai-translate",
+      "translations"
+    ],
+    "translation": [
+      "i18n-ai-translate"
+    ],
+    "next-intl": [
+      "translations"
+    ],
+    "po-files": [
+      "translations"
+    ]
+  },
+  "languageIndex": {
+    "Python": [
+      "docx",
+      "pdf",
+      "pptx",
+      "xlsx",
+      "algorithmic-art",
+      "canvas-design",
+      "slack-gif-creator",
+      "frontend-design",
+      "artifacts-builder",
+      "mcp-builder",
+      "webapp-testing",
+      "brand-guidelines",
+      "internal-comms",
+      "skill-creator",
+      "cc-hooks",
+      "cc-usage",
+      "cc-statusline"
+    ],
+    "Shell": [
+      "superpowers",
+      "superpowers-lab",
+      "ios-simulator",
+      "ffuf-web-fuzzing",
+      "playwright-skill",
+      "d3-js-visualization",
+      "scientific-skills",
+      "web-asset-generator",
+      "loki-mode",
+      "context-engineering-kit",
+      "skill-seekers"
+    ],
+    "Go": [
+      "claude-squad",
+      "cc-tools"
+    ],
+    "TypeScript": [
+      "ralph-for-claude-code",
+      "recall",
+      "claudekit",
+      "ccexp",
+      "tdd-guard",
+      "ccflare",
+      "cloudflare-manager",
+      "britfix",
+      "linear-todo-sync"
+    ],
+    "Rust": [
+      "tsk",
+      "ccometixline"
+    ]
+  },
+  "aggregates": {
+    "tagCounts": {
+      "word": 1,
+      "documents": 4,
+      "office": 3,
+      "pdf": 1,
+      "extraction": 4,
+      "powerpoint": 1,
+      "presentations": 1,
+      "excel": 1,
+      "spreadsheets": 1,
+      "art": 1,
+      "p5js": 1,
+      "generative": 1,
+      "design": 4,
+      "canvas": 1,
+      "graphics": 1,
+      "gif": 1,
+      "slack": 1,
+      "animation": 1,
+      "react": 2,
+      "tailwind": 1,
+      "frontend": 1,
+      "artifacts": 1,
+      "shadcn": 1,
+      "mcp": 1,
+      "api": 1,
+      "integration": 3,
+      "testing": 6,
+      "playwright": 2,
+      "e2e": 1,
+      "branding": 1,
+      "anthropic": 1,
+      "writing": 3,
+      "communication": 1,
+      "business": 1,
+      "skills": 1,
+      "creation": 1,
+      "meta": 1,
+      "tdd": 3,
+      "debugging": 2,
+      "collaboration": 1,
+      "experimental": 1,
+      "advanced": 1,
+      "workflows": 4,
+      "ios": 1,
+      "simulator": 1,
+      "mobile": 1,
+      "security": 3,
+      "fuzzing": 1,
+      "pentesting": 1,
+      "automation": 9,
+      "d3js": 1,
+      "visualization": 1,
+      "charts": 1,
+      "science": 1,
+      "research": 5,
+      "analysis": 3,
+      "favicon": 1,
+      "icons": 1,
+      "assets": 1,
+      "agents": 3,
+      "autonomous": 2,
+      "swarm": 1,
+      "multi-agent": 1,
+      "workspaces": 1,
+      "parallel": 3,
+      "safety": 1,
+      "framework": 1,
+      "search": 1,
+      "sessions": 2,
+      "history": 2,
+      "plugins": 1,
+      "settings": 1,
+      "cli": 2,
+      "checkpointing": 1,
+      "subagents": 3,
+      "context": 3,
+      "prompting": 1,
+      "optimization": 3,
+      "workflow": 2,
+      "specs": 1,
+      "methodology": 3,
+      "documentation": 1,
+      "conversion": 1,
+      "hooks": 3,
+      "python": 1,
+      "sdk": 1,
+      "go": 1,
+      "utilities": 1,
+      "discovery": 1,
+      "configuration": 1,
+      "project-management": 1,
+      "productivity": 1,
+      "rust": 2,
+      "docker": 1,
+      "sandboxing": 1,
+      "monitoring": 1,
+      "team": 1,
+      "specialized": 2,
+      "dashboard": 2,
+      "metrics": 1,
+      "analytics": 2,
+      "patterns": 1,
+      "diagrams": 1,
+      "usage": 1,
+      "cost": 1,
+      "tokens": 1,
+      "statusline": 2,
+      "git": 5,
+      "mountaineering": 1,
+      "outdoor": 1,
+      "customizable": 1,
+      "display": 1,
+      "fullstack": 1,
+      "apps": 1,
+      "cloudflare": 1,
+      "workers": 1,
+      "deployment": 1,
+      "english": 1,
+      "localization": 2,
+      "linear": 1,
+      "todo": 1,
+      "sync": 1,
+      "templates": 1,
+      "youtube": 1,
+      "transcript": 1,
+      "video": 2,
+      "download": 1,
+      "media": 1,
+      "image-generation": 1,
+      "gemini": 1,
+      "ai": 2,
+      "articles": 1,
+      "web": 1,
+      "csv": 1,
+      "data": 1,
+      "postgres": 1,
+      "sql": 1,
+      "database": 1,
+      "tracing": 2,
+      "errors": 1,
+      "ads": 1,
+      "competitive": 1,
+      "marketing": 1,
+      "domains": 1,
+      "brainstorming": 2,
+      "naming": 1,
+      "leads": 1,
+      "sales": 1,
+      "content": 3,
+      "ideas": 1,
+      "planning": 1,
+      "genealogy": 1,
+      "meetings": 1,
+      "insights": 1,
+      "notebooklm": 1,
+      "query": 1,
+      "image": 1,
+      "enhancement": 1,
+      "quality": 2,
+      "themes": 1,
+      "styling": 1,
+      "files": 1,
+      "organization": 3,
+      "duplicates": 1,
+      "invoices": 1,
+      "taxes": 1,
+      "kaizen": 1,
+      "improvement": 1,
+      "n8n": 3,
+      "raffle": 1,
+      "random": 1,
+      "selection": 1,
+      "resume": 1,
+      "jobs": 1,
+      "customization": 1,
+      "learning": 1,
+      "iteration": 1,
+      "priorities": 1,
+      "linking": 1,
+      "summarization": 1,
+      "repository": 1,
+      "review": 1,
+      "implementation": 1,
+      "code": 1,
+      "fixing": 1,
+      "forensics": 2,
+      "investigation": 1,
+      "deletion": 1,
+      "sanitization": 1,
+      "metadata": 1,
+      "sigma": 1,
+      "threat-hunting": 1,
+      "detection": 1,
+      "markdown": 1,
+      "epub": 1,
+      "ebook": 1,
+      "changelog": 1,
+      "releases": 1,
+      "terminal": 1,
+      "title": 1,
+      "langsmith": 1,
+      "langchain": 1,
+      "move": 1,
+      "blockchain": 1,
+      "pairwise": 1,
+      "coverage": 1,
+      "reddit": 1,
+      "fetch": 1,
+      "social": 1,
+      "architecture": 1,
+      "solid": 1,
+      "development": 1,
+      "worktrees": 1,
+      "prompts": 1,
+      "aws": 1,
+      "cdk": 1,
+      "serverless": 1,
+      "branches": 1,
+      "infrastructure": 1,
+      "continuity": 1,
+      "scraping": 2,
+      "crawling": 1,
+      "browser": 1,
+      "builder": 1,
+      "seo": 3,
+      "keywords": 1,
+      "audit": 1,
+      "links": 1,
+      "i18n": 2,
+      "translation": 1,
+      "next-intl": 1,
+      "po-files": 1
+    },
+    "languageCounts": {
+      "Python": 17,
+      "Shell": 11,
+      "Go": 2,
+      "TypeScript": 9,
+      "Rust": 2
+    },
+    "licenseCounts": {
+      "MIT": 31
+    },
+    "categoryStats": {
+      "document-processing": {
+        "count": 5,
+        "featured": 4
+      },
+      "creative-design": {
+        "count": 7,
+        "featured": 1
+      },
+      "development-tools": {
+        "count": 27,
+        "featured": 3
+      },
+      "business-marketing": {
+        "count": 4,
+        "featured": 0
+      },
+      "communication": {
+        "count": 4,
+        "featured": 0
+      },
+      "ai-llm": {
+        "count": 14,
+        "featured": 1
+      },
+      "security": {
+        "count": 5,
+        "featured": 0
+      },
+      "data-analysis": {
+        "count": 7,
+        "featured": 0
+      },
+      "productivity": {
+        "count": 18,
+        "featured": 0
+      },
+      "devops-cicd": {
+        "count": 7,
+        "featured": 0
+      },
+      "web-scraping": {
+        "count": 2,
+        "featured": 1
+      },
+      "automation": {
+        "count": 2,
+        "featured": 1
+      },
+      "seo-search": {
+        "count": 3,
+        "featured": 1
+      },
+      "translation-localization": {
+        "count": 2,
+        "featured": 1
+      }
+    },
+    "totalSkills": 107,
+    "totalFeatured": 13
+  }
+}

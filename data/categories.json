@@ -1,0 +1,114 @@
+[
+  {
+    "id": "document-processing",
+    "name": "Document Processing",
+    "slug": "document-processing",
+    "description": "Create, edit, and analyze Word, PDF, PowerPoint, and Excel documents",
+    "icon": "file-text",
+    "color": "#3b82f6"
+  },
+  {
+    "id": "development-tools",
+    "name": "Development Tools",
+    "slug": "development-tools",
+    "description": "MCP builders, testing frameworks, debugging tools, and code quality",
+    "icon": "code",
+    "color": "#10b981"
+  },
+  {
+    "id": "creative-design",
+    "name": "Creative & Design",
+    "slug": "creative-design",
+    "description": "Canvas design, GIF creation, algorithmic art, and visual tools",
+    "icon": "palette",
+    "color": "#f59e0b"
+  },
+  {
+    "id": "data-analysis",
+    "name": "Data & Analysis",
+    "slug": "data-analysis",
+    "description": "CSV analysis, database tools, visualization, and data processing",
+    "icon": "bar-chart",
+    "color": "#8b5cf6"
+  },
+  {
+    "id": "business-marketing",
+    "name": "Business & Marketing",
+    "slug": "business-marketing",
+    "description": "Brand guidelines, competitive analysis, lead research, and more",
+    "icon": "briefcase",
+    "color": "#ec4899"
+  },
+  {
+    "id": "communication",
+    "name": "Communication",
+    "slug": "communication",
+    "description": "Internal comms, meeting analysis, writing, and content tools",
+    "icon": "message-circle",
+    "color": "#06b6d4"
+  },
+  {
+    "id": "productivity",
+    "name": "Productivity",
+    "slug": "productivity",
+    "description": "File organization, invoices, workflows, and task management",
+    "icon": "zap",
+    "color": "#f97316"
+  },
+  {
+    "id": "security",
+    "name": "Security",
+    "slug": "security",
+    "description": "Forensics, threat hunting, security auditing, and penetration testing",
+    "icon": "shield",
+    "color": "#ef4444"
+  },
+  {
+    "id": "devops-cicd",
+    "name": "DevOps & CI/CD",
+    "slug": "devops-cicd",
+    "description": "Git workflows, deployment, monitoring, and infrastructure",
+    "icon": "git-branch",
+    "color": "#84cc16"
+  },
+  {
+    "id": "ai-llm",
+    "name": "AI & LLM",
+    "slug": "ai-llm",
+    "description": "Prompt engineering, agent orchestration, and AI tooling",
+    "icon": "brain",
+    "color": "#a855f7"
+  },
+  {
+    "id": "web-scraping",
+    "name": "Web Scraping",
+    "slug": "web-scraping",
+    "description": "Data extraction, web crawlers, and automated data collection tools",
+    "icon": "globe",
+    "color": "#0ea5e9"
+  },
+  {
+    "id": "automation",
+    "name": "Automation",
+    "slug": "automation",
+    "description": "Workflow automation, task scheduling, and process optimization",
+    "icon": "repeat",
+    "color": "#14b8a6"
+  },
+  {
+    "id": "translation-localization",
+    "name": "Translation & Localization",
+    "slug": "translation-localization",
+    "description": "AI translation, multilingual content, localization workflows, and language tools",
+    "icon": "languages",
+    "color": "#6366f1"
+  },
+  {
+    "id": "seo-search",
+    "name": "SEO & Search",
+    "slug": "seo-search",
+    "description": "Keyword research, search optimization, backlink analysis, and ranking tools",
+    "icon": "search",
+    "color": "#d946ef"
+  }
+]

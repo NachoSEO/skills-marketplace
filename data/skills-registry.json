@@ -1,0 +1,902 @@
+[
+  {
+    "owner": "anthropics",
+    "repo": "skills",
+    "path": "skills/docx",
+    "category": "document-processing",
+    "name": "DOCX",
+    "description": "Create, edit, and analyze Word documents with tracked changes, comments, and formatting preservation",
+    "tags": ["word", "documents", "office"],
+    "featured": true,
+    "pros": ["Official Anthropic skill", "Track changes support", "Well documented"],
+    "cons": ["Python dependencies", "Large document handling"]
+  },
+  {
+    "owner": "anthropics",
+    "repo": "skills",
+    "path": "skills/pdf",
+    "category": "document-processing",
+    "name": "PDF",
+    "description": "Comprehensive PDF toolkit for extracting text/tables, creating, merging, splitting documents, and handling forms",
+    "tags": ["pdf", "documents", "extraction"],
+    "featured": true,
+    "pros": ["Official Anthropic skill", "Form handling", "Table extraction"],
+    "cons": ["OCR not included", "Complex PDFs may need tuning"]
+  },
+  {
+    "owner": "anthropics",
+    "repo": "skills",
+    "path": "skills/pptx",
+    "category": "document-processing",
+    "name": "PPTX",
+    "description": "Create, edit, and analyze PowerPoint presentations with layouts, templates, charts, and automated slides",
+    "tags": ["powerpoint", "presentations", "office"],
+    "featured": true,
+    "pros": ["Official Anthropic skill", "Chart generation", "Template support"],
+    "cons": ["Limited animation control", "Complex layouts"]
+  },
+  {
+    "owner": "anthropics",
+    "repo": "skills",
+    "path": "skills/xlsx",
+    "category": "document-processing",
+    "name": "XLSX",
+    "description": "Create, edit, and analyze Excel spreadsheets with formulas, formatting, data analysis, and visualization",
+    "tags": ["excel", "spreadsheets", "office"],
+    "featured": true,
+    "pros": ["Official Anthropic skill", "Formula support", "Data visualization"],
+    "cons": ["Large file performance", "Macro limitations"]
+  },
+  {
+    "owner": "anthropics",
+    "repo": "skills",
+    "path": "skills/algorithmic-art",
+    "category": "creative-design",
+    "name": "Algorithmic Art",
+    "description": "Generate creative algorithmic art using p5.js for generative and procedural designs",
+    "tags": ["art", "p5js", "generative"],
+    "featured": true
+  },
+  {
+    "owner": "anthropics",
+    "repo": "skills",
+    "path": "skills/canvas-design",
+    "category": "creative-design",
+    "name": "Canvas Design",
+    "description": "Create visual art and designs in PNG and PDF formats using canvas-based rendering",
+    "tags": ["design", "canvas", "graphics"]
+  },
+  {
+    "owner": "anthropics",
+    "repo": "skills",
+    "path": "skills/slack-gif-creator",
+    "category": "creative-design",
+    "name": "Slack GIF Creator",
+    "description": "Create animated GIFs optimized for Slack's size constraints and messaging",
+    "tags": ["gif", "slack", "animation"]
+  },
+  {
+    "owner": "anthropics",
+    "repo": "skills",
+    "path": "skills/frontend-design",
+    "category": "development-tools",
+    "name": "Frontend Design",
+    "description": "Build distinctive frontends avoiding generic aesthetics with bold design decisions for React & Tailwind",
+    "tags": ["react", "tailwind", "frontend"],
+    "featured": true,
+    "pros": ["Official Anthropic skill", "Unique aesthetics", "Production-ready code"],
+    "cons": ["React/Tailwind only", "Opinionated style"]
+  },
+  {
+    "owner": "anthropics",
+    "repo": "skills",
+    "path": "skills/artifacts-builder",
+    "category": "development-tools",
+    "name": "Artifacts Builder",
+    "description": "Build complex claude.ai HTML artifacts using React, Tailwind CSS, and shadcn/ui components",
+    "tags": ["artifacts", "react", "shadcn"],
+    "pros": ["shadcn/ui integration", "Claude.ai optimized"],
+    "cons": ["Artifacts-specific", "Limited to web"]
+  },
+  {
+    "owner": "anthropics",
+    "repo": "skills",
+    "path": "skills/mcp-builder",
+    "category": "development-tools",
+    "name": "MCP Builder",
+    "description": "Guide for creating high-quality MCP servers to integrate external APIs and services",
+    "tags": ["mcp", "api", "integration"],
+    "featured": true,
+    "pros": ["Official Anthropic skill", "Best practices", "API integration"],
+    "cons": ["MCP-specific", "Requires TypeScript knowledge"]
+  },
+  {
+    "owner": "anthropics",
+    "repo": "skills",
+    "path": "skills/webapp-testing",
+    "category": "development-tools",
+    "name": "Webapp Testing",
+    "description": "Test local web applications using Playwright for UI verification and debugging",
+    "tags": ["testing", "playwright", "e2e"]
+  },
+  {
+    "owner": "anthropics",
+    "repo": "skills",
+    "path": "skills/brand-guidelines",
+    "category": "business-marketing",
+    "name": "Brand Guidelines",
+    "description": "Apply Anthropic's official brand colors and typography to artifacts and designs",
+    "tags": ["branding", "design", "anthropic"]
+  },
+  {
+    "owner": "anthropics",
+    "repo": "skills",
+    "path": "skills/internal-comms",
+    "category": "communication",
+    "name": "Internal Comms",
+    "description": "Write internal communications like status reports, newsletters, FAQs, and announcements",
+    "tags": ["writing", "communication", "business"]
+  },
+  {
+    "owner": "anthropics",
+    "repo": "skills",
+    "path": "skills/skill-creator",
+    "category": "ai-llm",
+    "name": "Skill Creator",
+    "description": "Interactive skill creation tool that guides you through building new skills with Q&A workflow",
+    "tags": ["skills", "creation", "meta"]
+  },
+  {
+    "owner": "obra",
+    "repo": "superpowers",
+    "category": "development-tools",
+    "name": "Superpowers",
+    "description": "Core skills library with 20+ battle-tested skills including TDD, debugging, and collaboration patterns",
+    "tags": ["tdd", "debugging", "collaboration"],
+    "featured": true
+  },
+  {
+    "owner": "obra",
+    "repo": "superpowers-lab",
+    "category": "development-tools",
+    "name": "Superpowers Lab",
+    "description": "Experimental skills using refined techniques for advanced development workflows",
+    "tags": ["experimental", "advanced", "workflows"]
+  },
+  {
+    "owner": "conorluddy",
+    "repo": "ios-simulator-skill",
+    "category": "development-tools",
+    "name": "iOS Simulator",
+    "description": "Build, navigate, and test iOS applications in the simulator environment",
+    "tags": ["ios", "simulator", "mobile"]
+  },
+  {
+    "owner": "jthack",
+    "repo": "ffuf_claude_skill",
+    "category": "security",
+    "name": "FFUF Web Fuzzing",
+    "description": "Expert guidance for ffuf web fuzzing during penetration testing and security assessments",
+    "tags": ["security", "fuzzing", "pentesting"]
+  },
+  {
+    "owner": "lackeyjb",
+    "repo": "playwright-skill",
+    "category": "development-tools",
+    "name": "Playwright Skill",
+    "description": "Browser automation and testing using Playwright for web application testing",
+    "tags": ["playwright", "automation", "testing"]
+  },
+  {
+    "owner": "chrisvoncsefalvay",
+    "repo": "claude-d3js-skill",
+    "category": "data-analysis",
+    "name": "D3.js Visualization",
+    "description": "Create sophisticated data visualizations using D3.js for interactive charts and graphs",
+    "tags": ["d3js", "visualization", "charts"]
+  },
+  {
+    "owner": "K-Dense-AI",
+    "repo": "claude-scientific-skills",
+    "category": "data-analysis",
+    "name": "Scientific Skills",
+    "description": "Comprehensive collection of ready-to-use scientific skills for research and analysis",
+    "tags": ["science", "research", "analysis"]
+  },
+  {
+    "owner": "alonw0",
+    "repo": "web-asset-generator",
+    "category": "creative-design",
+    "name": "Web Asset Generator",
+    "description": "Generate favicons, app icons, and social media images for web projects",
+    "tags": ["favicon", "icons", "assets"]
+  },
+  {
+    "owner": "asklokesh",
+    "repo": "claudeskill-loki-mode",
+    "category": "ai-llm",
+    "name": "Loki Mode",
+    "description": "Multi-agent autonomous startup system orchestrating 37 AI agents across 6 swarms",
+    "tags": ["agents", "autonomous", "swarm"]
+  },
+  {
+    "owner": "yusufkaraaslan",
+    "repo": "Skill_Seekers",
+    "category": "ai-llm",
+    "name": "Skill Seekers",
+    "description": "Convert documentation websites into Claude Skills automatically",
+    "tags": ["documentation", "conversion", "automation"]
+  },
+  {
+    "owner": "fcakyon",
+    "repo": "claude-codex-settings",
+    "category": "development-tools",
+    "name": "Codex Settings",
+    "description": "Plugins for GitHub, Azure, MongoDB, Tavily, Playwright integration",
+    "tags": ["plugins", "integration", "settings"]
+  },
+  {
+    "owner": "dreamiurg",
+    "repo": "claude-mountaineering-skills",
+    "category": "productivity",
+    "name": "Mountaineering Skills",
+    "description": "Automate mountain route research for North American peaks and climbing",
+    "tags": ["mountaineering", "research", "outdoor"]
+  },
+  {
+    "owner": "NeoLabHQ",
+    "repo": "context-engineering-kit",
+    "category": "ai-llm",
+    "name": "Context Engineering Kit",
+    "description": "Advanced context techniques with minimal token footprint for efficient prompting",
+    "tags": ["context", "prompting", "optimization"]
+  },
+  {
+    "owner": "ayoubben18",
+    "repo": "ab-method",
+    "category": "productivity",
+    "name": "AB Method",
+    "description": "Spec-driven workflow for transforming large problems into focused missions",
+    "tags": ["workflow", "specs", "methodology"]
+  },
+  {
+    "owner": "automazeio",
+    "repo": "ccpm",
+    "category": "productivity",
+    "name": "Claude Code PM",
+    "description": "Comprehensive project management with specialized agents and commands",
+    "tags": ["project-management", "agents", "productivity"]
+  },
+  {
+    "owner": "ThibautMelen",
+    "repo": "agentic-workflow-patterns",
+    "category": "ai-llm",
+    "name": "Agentic Workflow Patterns",
+    "description": "Documented agentic patterns with Mermaid diagrams for AI workflows",
+    "tags": ["patterns", "workflows", "diagrams"]
+  },
+  {
+    "owner": "Veraticus",
+    "repo": "cc-tools",
+    "category": "development-tools",
+    "name": "CC Tools",
+    "description": "High-performance Go implementation for hooks and utilities",
+    "tags": ["go", "hooks", "utilities"]
+  },
+  {
+    "owner": "nyatinte",
+    "repo": "ccexp",
+    "category": "development-tools",
+    "name": "CCExp",
+    "description": "Interactive CLI for discovering configuration files and commands",
+    "tags": ["cli", "discovery", "configuration"]
+  },
+  {
+    "owner": "carlrannaberg",
+    "repo": "claudekit",
+    "category": "development-tools",
+    "name": "ClaudeKit",
+    "description": "CLI toolkit with checkpointing, quality hooks, and 20+ subagents",
+    "tags": ["cli", "checkpointing", "subagents"]
+  },
+  {
+    "owner": "zippoxer",
+    "repo": "recall",
+    "category": "productivity",
+    "name": "Recall",
+    "description": "Full-text search for Claude Code sessions and conversation history",
+    "tags": ["search", "sessions", "history"]
+  },
+  {
+    "owner": "snipeship",
+    "repo": "ccflare",
+    "category": "productivity",
+    "name": "CCFlare",
+    "description": "Web-based usage dashboard with comprehensive metrics and analytics",
+    "tags": ["dashboard", "metrics", "analytics"]
+  },
+  {
+    "owner": "ryoppippi",
+    "repo": "ccusage",
+    "category": "productivity",
+    "name": "CC Usage",
+    "description": "CLI tool analyzing logs with cost and token dashboards",
+    "tags": ["usage", "cost", "tokens"]
+  },
+  {
+    "owner": "frankbria",
+    "repo": "ralph-claude-code",
+    "category": "ai-llm",
+    "name": "Ralph for Claude Code",
+    "description": "Autonomous framework with exit detection and safety guardrails",
+    "tags": ["autonomous", "safety", "framework"]
+  },
+  {
+    "owner": "smtg-ai",
+    "repo": "claude-squad",
+    "category": "ai-llm",
+    "name": "Claude Squad",
+    "description": "Manage multiple agents in separate workspaces for parallel work",
+    "tags": ["multi-agent", "workspaces", "parallel"]
+  },
+  {
+    "owner": "dtormoen",
+    "repo": "tsk",
+    "category": "devops-cicd",
+    "name": "TSK",
+    "description": "Rust CLI for delegating tasks to sandboxed Docker agents",
+    "tags": ["rust", "docker", "sandboxing"]
+  },
+  {
+    "owner": "Haleclipse",
+    "repo": "CCometixLine",
+    "category": "development-tools",
+    "name": "CCometixLine",
+    "description": "Rust-based statusline with Git integration and usage tracking",
+    "tags": ["statusline", "git", "rust"]
+  },
+  {
+    "owner": "sirmalloc",
+    "repo": "ccstatusline",
+    "category": "development-tools",
+    "name": "CC Statusline",
+    "description": "Customizable formatter displaying model, branch, and token usage",
+    "tags": ["statusline", "customizable", "display"]
+  },
+  {
+    "owner": "Talieisin",
+    "repo": "britfix",
+    "category": "communication",
+    "name": "Britfix",
+    "description": "Convert American to British English in files intelligently",
+    "tags": ["english", "localization", "writing"]
+  },
+  {
+    "owner": "GowayLee",
+    "repo": "cchooks",
+    "category": "development-tools",
+    "name": "CC Hooks",
+    "description": "Python SDK simplifying hook writing with clean API",
+    "tags": ["hooks", "python", "sdk"]
+  },
+  {
+    "owner": "nizos",
+    "repo": "tdd-guard",
+    "category": "development-tools",
+    "name": "TDD Guard",
+    "description": "Real-time monitoring blocking TDD principle violations",
+    "tags": ["tdd", "monitoring", "testing"]
+  },
+  {
+    "owner": "qdhenry",
+    "repo": "Claude-Command-Suite",
+    "path": "skills/linear-todo-sync",
+    "category": "productivity",
+    "name": "Linear Todo Sync",
+    "description": "GraphQL API integration for task retrieval with priority-based organization",
+    "tags": ["linear", "todo", "sync"]
+  },
+  {
+    "owner": "qdhenry",
+    "repo": "Claude-Command-Suite",
+    "path": "skills/cloudflare-manager",
+    "category": "devops-cicd",
+    "name": "Cloudflare Manager",
+    "description": "Workers deployment, KV Storage, R2 bucket management, and Pages deployment",
+    "tags": ["cloudflare", "workers", "deployment"]
+  },
+  {
+    "owner": "ComposioHQ",
+    "repo": "composio",
+    "category": "ai-llm",
+    "name": "Composio Connect",
+    "description": "Integrate 1000+ apps including Gmail, Slack, GitHub, Notion with Claude",
+    "tags": ["integration", "apps", "automation"],
+    "featured": true
+  },
+  {
+    "owner": "travisvn",
+    "repo": "youtube-transcript",
+    "category": "data-analysis",
+    "name": "YouTube Transcript",
+    "description": "Extract and summarize video transcripts from YouTube",
+    "tags": ["youtube", "transcript", "video"]
+  },
+  {
+    "owner": "travisvn",
+    "repo": "video-downloader",
+    "category": "productivity",
+    "name": "Video Downloader",
+    "description": "Download videos from YouTube and other platforms",
+    "tags": ["download", "video", "media"]
+  },
+  {
+    "owner": "travisvn",
+    "repo": "imagen",
+    "category": "creative-design",
+    "name": "Imagen",
+    "description": "Generate images via Google Gemini API for creative projects",
+    "tags": ["image-generation", "gemini", "ai"]
+  },
+  {
+    "owner": "travisvn",
+    "repo": "article-extractor",
+    "category": "data-analysis",
+    "name": "Article Extractor",
+    "description": "Extract article text and metadata from websites automatically",
+    "tags": ["extraction", "articles", "web"]
+  },
+  {
+    "owner": "travisvn",
+    "repo": "csv-summarizer",
+    "category": "data-analysis",
+    "name": "CSV Summarizer",
+    "description": "Analyze CSV files with automated insights and statistics",
+    "tags": ["csv", "analysis", "data"]
+  },
+  {
+    "owner": "travisvn",
+    "repo": "postgres-skill",
+    "category": "data-analysis",
+    "name": "PostgreSQL",
+    "description": "Safe read-only SQL queries on PostgreSQL databases",
+    "tags": ["postgres", "sql", "database"]
+  },
+  {
+    "owner": "travisvn",
+    "repo": "root-cause-tracing",
+    "category": "development-tools",
+    "name": "Root Cause Tracing",
+    "description": "Trace execution errors to their origins for debugging",
+    "tags": ["debugging", "tracing", "errors"]
+  },
+  {
+    "owner": "travisvn",
+    "repo": "competitive-ads-extractor",
+    "category": "business-marketing",
+    "name": "Competitive Ads Extractor",
+    "description": "Analyze competitor advertising strategies and campaigns",
+    "tags": ["ads", "competitive", "marketing"]
+  },
+  {
+    "owner": "travisvn",
+    "repo": "domain-brainstormer",
+    "category": "business-marketing",
+    "name": "Domain Brainstormer",
+    "description": "Generate domain name ideas across multiple TLDs",
+    "tags": ["domains", "brainstorming", "naming"]
+  },
+  {
+    "owner": "travisvn",
+    "repo": "lead-research",
+    "category": "business-marketing",
+    "name": "Lead Research Assistant",
+    "description": "Identify and qualify target leads for sales outreach",
+    "tags": ["leads", "research", "sales"]
+  },
+  {
+    "owner": "travisvn",
+    "repo": "content-research-writer",
+    "category": "communication",
+    "name": "Content Research Writer",
+    "description": "Research, citations, and feedback for content creation",
+    "tags": ["content", "research", "writing"]
+  },
+  {
+    "owner": "travisvn",
+    "repo": "brainstorming-skill",
+    "category": "productivity",
+    "name": "Brainstorming",
+    "description": "Structure ideas into fully-formed designs and plans",
+    "tags": ["brainstorming", "ideas", "planning"]
+  },
+  {
+    "owner": "travisvn",
+    "repo": "family-history-research",
+    "category": "productivity",
+    "name": "Family History Research",
+    "description": "Assist genealogy project planning and research",
+    "tags": ["genealogy", "history", "research"]
+  },
+  {
+    "owner": "travisvn",
+    "repo": "meeting-insights",
+    "category": "communication",
+    "name": "Meeting Insights Analyzer",
+    "description": "Reveal behavioral patterns in meeting transcripts",
+    "tags": ["meetings", "analysis", "insights"]
+  },
+  {
+    "owner": "travisvn",
+    "repo": "notebooklm-integration",
+    "category": "ai-llm",
+    "name": "NotebookLM Integration",
+    "description": "Query uploaded documents for answers using NotebookLM",
+    "tags": ["notebooklm", "documents", "query"]
+  },
+  {
+    "owner": "travisvn",
+    "repo": "image-enhancer",
+    "category": "creative-design",
+    "name": "Image Enhancer",
+    "description": "Improve image resolution and clarity automatically",
+    "tags": ["image", "enhancement", "quality"]
+  },
+  {
+    "owner": "travisvn",
+    "repo": "theme-factory",
+    "category": "creative-design",
+    "name": "Theme Factory",
+    "description": "Apply professional design themes to artifacts and projects",
+    "tags": ["themes", "design", "styling"]
+  },
+  {
+    "owner": "travisvn",
+    "repo": "file-organizer",
+    "category": "productivity",
+    "name": "File Organizer",
+    "description": "Intelligently structure files and find duplicates",
+    "tags": ["files", "organization", "duplicates"]
+  },
+  {
+    "owner": "travisvn",
+    "repo": "invoice-organizer",
+    "category": "productivity",
+    "name": "Invoice Organizer",
+    "description": "Prepare invoices and receipts for tax filing",
+    "tags": ["invoices", "taxes", "organization"]
+  },
+  {
+    "owner": "travisvn",
+    "repo": "kaizen-skill",
+    "category": "productivity",
+    "name": "Kaizen",
+    "description": "Apply continuous improvement methodology to workflows",
+    "tags": ["kaizen", "improvement", "methodology"]
+  },
+  {
+    "owner": "travisvn",
+    "repo": "n8n-skills",
+    "category": "productivity",
+    "name": "n8n Skills",
+    "description": "Enable AI operation of n8n workflows and automation",
+    "tags": ["n8n", "automation", "workflows"]
+  },
+  {
+    "owner": "travisvn",
+    "repo": "raffle-winner",
+    "category": "productivity",
+    "name": "Raffle Winner Picker",
+    "description": "Select secure random winners for raffles and giveaways",
+    "tags": ["raffle", "random", "selection"]
+  },
+  {
+    "owner": "travisvn",
+    "repo": "tailored-resume",
+    "category": "productivity",
+    "name": "Tailored Resume Generator",
+    "description": "Customize resumes for specific job applications",
+    "tags": ["resume", "jobs", "customization"]
+  },
+  {
+    "owner": "travisvn",
+    "repo": "ship-learn-next",
+    "category": "productivity",
+    "name": "Ship Learn Next",
+    "description": "Iterate on development and learning priorities effectively",
+    "tags": ["learning", "iteration", "priorities"]
+  },
+  {
+    "owner": "travisvn",
+    "repo": "tapestry-skill",
+    "category": "productivity",
+    "name": "Tapestry",
+    "description": "Interlink and summarize related documents together",
+    "tags": ["documents", "linking", "summarization"]
+  },
+  {
+    "owner": "travisvn",
+    "repo": "git-pushing",
+    "category": "devops-cicd",
+    "name": "Git Pushing",
+    "description": "Automate git operations and repository interactions",
+    "tags": ["git", "automation", "repository"]
+  },
+  {
+    "owner": "travisvn",
+    "repo": "review-implementing",
+    "category": "development-tools",
+    "name": "Review Implementing",
+    "description": "Evaluate code implementation alignment with requirements",
+    "tags": ["review", "implementation", "code"]
+  },
+  {
+    "owner": "travisvn",
+    "repo": "test-fixing",
+    "category": "development-tools",
+    "name": "Test Fixing",
+    "description": "Detect and fix failing tests automatically",
+    "tags": ["testing", "fixing", "automation"]
+  },
+  {
+    "owner": "travisvn",
+    "repo": "computer-forensics",
+    "category": "security",
+    "name": "Computer Forensics",
+    "description": "Digital forensics techniques for investigation",
+    "tags": ["forensics", "investigation", "security"]
+  },
+  {
+    "owner": "travisvn",
+    "repo": "file-deletion",
+    "category": "security",
+    "name": "Secure File Deletion",
+    "description": "Implement secure data sanitization and deletion",
+    "tags": ["deletion", "security", "sanitization"]
+  },
+  {
+    "owner": "travisvn",
+    "repo": "metadata-extraction",
+    "category": "security",
+    "name": "Metadata Extraction",
+    "description": "Analyze file metadata for forensic investigations",
+    "tags": ["metadata", "extraction", "forensics"]
+  },
+  {
+    "owner": "travisvn",
+    "repo": "sigma-rules",
+    "category": "security",
+    "name": "Threat Hunting with Sigma",
+    "description": "Use Sigma rules for threat detection and hunting",
+    "tags": ["sigma", "threat-hunting", "detection"]
+  },
+  {
+    "owner": "travisvn",
+    "repo": "markdown-epub",
+    "category": "document-processing",
+    "name": "Markdown to EPUB",
+    "description": "Convert markdown into professional ebook files",
+    "tags": ["markdown", "epub", "ebook"]
+  },
+  {
+    "owner": "travisvn",
+    "repo": "changelog-generator",
+    "category": "devops-cicd",
+    "name": "Changelog Generator",
+    "description": "Transform git commits into customer-friendly release notes",
+    "tags": ["changelog", "releases", "git"]
+  },
+  {
+    "owner": "travisvn",
+    "repo": "terminal-title",
+    "category": "development-tools",
+    "name": "Terminal Title",
+    "description": "Add dynamic titles to terminal windows for organization",
+    "tags": ["terminal", "title", "organization"]
+  },
+  {
+    "owner": "travisvn",
+    "repo": "langsmith-fetch",
+    "category": "ai-llm",
+    "name": "LangSmith Fetch",
+    "description": "Analyze LangChain execution traces for debugging",
+    "tags": ["langsmith", "langchain", "tracing"]
+  },
+  {
+    "owner": "travisvn",
+    "repo": "move-code-quality",
+    "category": "development-tools",
+    "name": "Move Code Quality",
+    "description": "Validate Move language code quality for blockchain",
+    "tags": ["move", "blockchain", "quality"]
+  },
+  {
+    "owner": "travisvn",
+    "repo": "pypict",
+    "category": "development-tools",
+    "name": "PyPICT",
+    "description": "Generate pairwise test case coverage efficiently",
+    "tags": ["testing", "pairwise", "coverage"]
+  },
+  {
+    "owner": "travisvn",
+    "repo": "reddit-fetch",
+    "category": "data-analysis",
+    "name": "Reddit Fetch",
+    "description": "Retrieve Reddit content via API for analysis",
+    "tags": ["reddit", "fetch", "social"]
+  },
+  {
+    "owner": "travisvn",
+    "repo": "software-architecture",
+    "category": "development-tools",
+    "name": "Software Architecture",
+    "description": "Clean Architecture and SOLID principles guidance",
+    "tags": ["architecture", "solid", "design"]
+  },
+  {
+    "owner": "travisvn",
+    "repo": "subagent-driven",
+    "category": "ai-llm",
+    "name": "Subagent Driven Development",
+    "description": "Dispatch independent task agents for parallel work",
+    "tags": ["subagents", "parallel", "development"]
+  },
+  {
+    "owner": "travisvn",
+    "repo": "tdd-skill",
+    "category": "development-tools",
+    "name": "Test Driven Development",
+    "description": "TDD methodology guidance for quality code",
+    "tags": ["tdd", "testing", "methodology"]
+  },
+  {
+    "owner": "travisvn",
+    "repo": "git-worktrees",
+    "category": "devops-cicd",
+    "name": "Git Worktrees",
+    "description": "Manage isolated git worktrees for parallel development",
+    "tags": ["git", "worktrees", "parallel"]
+  },
+  {
+    "owner": "travisvn",
+    "repo": "prompt-engineering",
+    "category": "ai-llm",
+    "name": "Prompt Engineering",
+    "description": "Teach prompt optimization techniques for better AI interactions",
+    "tags": ["prompts", "optimization", "ai"]
+  },
+  {
+    "owner": "travisvn",
+    "repo": "aws-skills",
+    "category": "devops-cicd",
+    "name": "AWS Skills",
+    "description": "AWS CDK patterns and serverless architecture guidance",
+    "tags": ["aws", "cdk", "serverless"]
+  },
+  {
+    "owner": "travisvn",
+    "repo": "finishing-branch",
+    "category": "devops-cicd",
+    "name": "Finishing Development Branch",
+    "description": "Guide development workflow completion and merging",
+    "tags": ["git", "branches", "workflow"]
+  },
+  {
+    "owner": "vijaythecoder",
+    "repo": "awesome-claude-agents",
+    "category": "ai-llm",
+    "name": "Awesome Claude Agents",
+    "description": "Team of specialized AI agents for building features and debugging",
+    "tags": ["agents", "team", "specialized"]
+  },
+  {
+    "owner": "VoltAgent",
+    "repo": "awesome-claude-code-subagents",
+    "category": "ai-llm",
+    "name": "Claude Code Subagents",
+    "description": "100+ specialized AI agents for full-stack development",
+    "tags": ["subagents", "fullstack", "specialized"]
+  },
+  {
+    "owner": "hesreallyhim",
+    "repo": "claude-code-templates",
+    "category": "development-tools",
+    "name": "Claude Code Templates",
+    "description": "Usage dashboard, analytics, slash commands, hooks, and agents",
+    "tags": ["templates", "dashboard", "analytics"]
+  },
+  {
+    "owner": "diet103",
+    "repo": "claude-code-infrastructure",
+    "category": "development-tools",
+    "name": "Infrastructure Showcase",
+    "description": "Hooks ensuring Claude selects appropriate skills for context",
+    "tags": ["infrastructure", "hooks", "context"]
+  },
+  {
+    "owner": "prasad-chalasani",
+    "repo": "claude-code-tools",
+    "category": "development-tools",
+    "name": "Session Continuity Tools",
+    "description": "Skills for avoiding compaction and recovering context across sessions",
+    "tags": ["sessions", "continuity", "context"]
+  },
+  {
+    "owner": "brettdavies",
+    "repo": "crawl4ai-skill",
+    "category": "web-scraping",
+    "name": "Crawl4AI Web Scraping",
+    "description": "Web scraping with JavaScript support, CSS/LLM extraction, and automated data pipelines",
+    "tags": ["scraping", "crawling", "extraction"],
+    "featured": true
+  },
+  {
+    "owner": "mrgoonie",
+    "repo": "claudekit-skills",
+    "category": "web-scraping",
+    "name": "ClaudeKit Skills",
+    "description": "Browser automation, screenshots, web scraping, performance monitoring, and form automation",
+    "tags": ["browser", "automation", "scraping"]
+  },
+  {
+    "owner": "czlonkowski",
+    "repo": "n8n-skills",
+    "category": "automation",
+    "name": "n8n Workflow Skills",
+    "description": "7 complementary skills for n8n automation with 525+ nodes and 2,653+ workflow templates",
+    "tags": ["n8n", "workflows", "automation"],
+    "featured": true
+  },
+  {
+    "owner": "makafeli",
+    "repo": "n8n-workflow-builder",
+    "category": "automation",
+    "name": "n8n Workflow Builder",
+    "description": "AI assistant for n8n workflow automation through natural language management",
+    "tags": ["n8n", "builder", "automation"]
+  },
+  {
+    "owner": "TheCraigHewitt",
+    "repo": "seomachine",
+    "category": "seo-search",
+    "name": "SEO Machine",
+    "description": "SEO-optimized blog content workspace with keyword mapping and search intent analysis",
+    "tags": ["seo", "content", "keywords"],
+    "featured": true
+  },
+  {
+    "owner": "huifer",
+    "repo": "claude-code-seo",
+    "category": "seo-search",
+    "name": "Claude Code SEO",
+    "description": "100-point SEO audits across 6 dimensions with 27+ commands for comprehensive optimization",
+    "tags": ["seo", "audit", "optimization"]
+  },
+  {
+    "owner": "dragosroua",
+    "repo": "claude-content-skills",
+    "category": "seo-search",
+    "name": "Content SEO Skills",
+    "description": "Production-ready skills for content management, SEO optimization, and link management",
+    "tags": ["content", "seo", "links"]
+  },
+  {
+    "owner": "taahamahdi",
+    "repo": "i18n-ai-translate",
+    "category": "translation-localization",
+    "name": "i18n AI Translate",
+    "description": "AI-powered localization for i18next-style JSON with multi-engine support and diff-aware translation",
+    "tags": ["i18n", "translation", "localization"],
+    "featured": true
+  },
+  {
+    "owner": "zoonk",
+    "repo": "zoonk",
+    "path": "skills/translations",
+    "category": "translation-localization",
+    "name": "Translations",
+    "description": "Internationalization with next-intl and PO files for adding and modifying translations",
+    "tags": ["i18n", "next-intl", "po-files"]
+  }
+]
