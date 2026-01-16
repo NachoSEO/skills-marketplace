@@ -856,14 +856,14 @@
   {
     "slug": "notes",
     "aiDescription": "",
-    "stars": 105,
-    "forks": 24,
-    "watchers": 105,
-    "language": "Markdown",
-    "license": "CC-BY-SA-4.0",
-    "createdAt": "2021-09-21T05:40:57Z",
-    "updatedAt": "2025-11-12T07:47:27Z",
-    "lastFetched": "2026-01-16T14:40:37.936Z"
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "language": null,
+    "license": null,
+    "createdAt": "2022-07-13T13:46:09Z",
+    "updatedAt": "2022-07-13T13:46:09Z",
+    "lastFetched": "2026-01-16T14:40:52.695Z"
   },
   {
     "slug": "git-bak",
@@ -1000,14 +1000,14 @@
   {
     "slug": "notes",
     "aiDescription": "",
-    "stars": 3,
+    "stars": 0,
     "forks": 0,
-    "watchers": 3,
-    "language": "Jupyter Notebook",
+    "watchers": 0,
+    "language": null,
     "license": null,
-    "createdAt": "2022-09-27T22:22:44Z",
-    "updatedAt": "2025-12-01T11:47:47Z",
-    "lastFetched": "2026-01-16T14:40:48.056Z"
+    "createdAt": "2022-07-13T13:46:09Z",
+    "updatedAt": "2022-07-13T13:46:09Z",
+    "lastFetched": "2026-01-16T14:40:52.695Z"
   },
   {
     "slug": "htmx-skill",
@@ -1123,11 +1123,11 @@
     "stars": 0,
     "forks": 0,
     "watchers": 0,
-    "language": null,
-    "license": null,
-    "createdAt": "2025-11-13T20:05:56Z",
-    "updatedAt": "2025-11-13T20:36:07Z",
-    "lastFetched": "2026-01-16T14:40:55.119Z"
+    "language": "Python",
+    "license": "MIT",
+    "createdAt": "2025-10-29T22:02:51Z",
+    "updatedAt": "2026-01-13T20:52:08Z",
+    "lastFetched": "2026-01-16T14:42:36.943Z"
   },
   {
     "slug": "vscodenote",
@@ -1300,14 +1300,14 @@
   {
     "slug": "awesome-claude-skills",
     "aiDescription": "",
-    "stars": 20152,
-    "forks": 2037,
-    "watchers": 20152,
-    "language": "Python",
+    "stars": 0,
+    "forks": 1,
+    "watchers": 0,
+    "language": null,
     "license": null,
-    "createdAt": "2025-10-17T07:15:01Z",
-    "updatedAt": "2026-01-16T14:33:44Z",
-    "lastFetched": "2026-01-16T14:41:06.024Z"
+    "createdAt": "2025-11-30T01:53:24Z",
+    "updatedAt": "2025-11-30T08:31:36Z",
+    "lastFetched": "2026-01-16T14:42:35.511Z"
   },
   {
     "slug": "opcode",
@@ -1553,14 +1553,14 @@
   {
     "slug": "awesome-claude-skills",
     "aiDescription": "",
-    "stars": 5170,
-    "forks": 326,
-    "watchers": 5170,
+    "stars": 0,
+    "forks": 1,
+    "watchers": 0,
     "language": null,
     "license": null,
-    "createdAt": "2025-10-16T20:42:39Z",
-    "updatedAt": "2026-01-16T14:36:40Z",
-    "lastFetched": "2026-01-16T14:41:20.981Z"
+    "createdAt": "2025-11-30T01:53:24Z",
+    "updatedAt": "2025-11-30T08:31:36Z",
+    "lastFetched": "2026-01-16T14:42:35.511Z"
   },
   {
     "slug": "claude-context",
@@ -1637,14 +1637,14 @@
   {
     "slug": "awesome-claude-skills",
     "aiDescription": "",
-    "stars": 3145,
-    "forks": 204,
-    "watchers": 3145,
+    "stars": 0,
+    "forks": 1,
+    "watchers": 0,
     "language": null,
-    "license": "MIT",
-    "createdAt": "2025-10-28T08:55:32Z",
-    "updatedAt": "2026-01-16T14:41:26Z",
-    "lastFetched": "2026-01-16T14:41:26.576Z"
+    "license": null,
+    "createdAt": "2025-11-30T01:53:24Z",
+    "updatedAt": "2025-11-30T08:31:36Z",
+    "lastFetched": "2026-01-16T14:42:35.511Z"
   },
   {
     "slug": "get-shit-done",
@@ -1961,26 +1961,26 @@
   {
     "slug": "claude-skills",
     "aiDescription": "",
-    "stars": 19,
+    "stars": 7,
     "forks": 0,
-    "watchers": 19,
-    "language": "TypeScript",
-    "license": "MIT",
-    "createdAt": "2025-11-08T15:34:35Z",
-    "updatedAt": "2026-01-15T10:31:19Z",
-    "lastFetched": "2026-01-16T14:41:48.379Z"
+    "watchers": 7,
+    "language": null,
+    "license": null,
+    "createdAt": "2026-01-02T15:47:53Z",
+    "updatedAt": "2026-01-13T14:20:35Z",
+    "lastFetched": "2026-01-16T14:41:52.610Z"
   },
   {
     "slug": "claude-code-aso-skill",
     "aiDescription": "",
-    "stars": 17,
-    "forks": 8,
-    "watchers": 17,
+    "stars": 5,
+    "forks": 2,
+    "watchers": 5,
     "language": "Python",
     "license": "NOASSERTION",
-    "createdAt": "2025-11-07T09:08:00Z",
-    "updatedAt": "2026-01-16T12:01:27Z",
-    "lastFetched": "2026-01-16T14:41:49.342Z"
+    "createdAt": "2020-11-01T05:41:34Z",
+    "updatedAt": "2026-01-16T14:33:27Z",
+    "lastFetched": "2026-01-16T14:41:58.015Z"
   },
   {
     "slug": "blockrun-agent-wallet",

@@ -108,7 +108,15 @@
       "generative"
     ],
     "featured": true,
-    "rating": 4.6
+    "rating": 4.6,
+    "pros": [
+      "Official Anthropic skill",
+      "Community favorite"
+    ],
+    "cons": [
+      "Requires design context",
+      "Output quality varies"
+    ]
   },
   {
     "owner": "anthropics",
@@ -122,7 +130,15 @@
       "canvas",
       "graphics"
     ],
-    "rating": 4.4
+    "rating": 4.4,
+    "pros": [
+      "Official Anthropic skill",
+      "Visual output"
+    ],
+    "cons": [
+      "Requires design context",
+      "Output quality varies"
+    ]
   },
   {
     "owner": "anthropics",
@@ -136,7 +152,15 @@
       "slack",
       "animation"
     ],
-    "rating": 4.2
+    "rating": 4.2,
+    "pros": [
+      "Official Anthropic skill",
+      "AI-powered"
+    ],
+    "cons": [
+      "Requires design context",
+      "Output quality varies"
+    ]
   },
   {
     "owner": "anthropics",
@@ -220,7 +244,16 @@
       "playwright",
       "e2e"
     ],
-    "rating": 4.3
+    "rating": 4.3,
+    "pros": [
+      "Official Anthropic skill",
+      "Developer-focused",
+      "Workflow integration"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ]
   },
   {
     "owner": "anthropics",
@@ -234,7 +267,16 @@
       "design",
       "anthropic"
     ],
-    "rating": 4.1
+    "rating": 4.1,
+    "pros": [
+      "Official Anthropic skill",
+      "Business-focused",
+      "Professional output"
+    ],
+    "cons": [
+      "Industry-specific",
+      "Customization needed"
+    ]
   },
   {
     "owner": "anthropics",
@@ -248,7 +290,16 @@
       "communication",
       "business"
     ],
-    "rating": 4
+    "rating": 4,
+    "pros": [
+      "Official Anthropic skill",
+      "Clear communication",
+      "Template support"
+    ],
+    "cons": [
+      "Style preferences vary",
+      "Context needed"
+    ]
   },
   {
     "owner": "anthropics",
@@ -262,7 +313,16 @@
       "creation",
       "meta"
     ],
-    "rating": 4.4
+    "rating": 4.4,
+    "pros": [
+      "Official Anthropic skill",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ]
   },
   {
     "owner": "obra",
@@ -276,7 +336,16 @@
       "collaboration"
     ],
     "featured": true,
-    "rating": 4.9
+    "rating": 4.9,
+    "pros": [
+      "Community favorite",
+      "Developer-focused",
+      "Workflow integration"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ]
   },
   {
     "owner": "obra",
@@ -289,7 +358,16 @@
       "advanced",
       "workflows"
     ],
-    "rating": 4.5
+    "rating": 4.5,
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ]
   },
   {
     "owner": "conorluddy",
@@ -302,7 +380,16 @@
       "simulator",
       "mobile"
     ],
-    "rating": 4.3
+    "rating": 4.3,
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ]
   },
   {
     "owner": "jthack",
@@ -315,7 +402,16 @@
       "fuzzing",
       "pentesting"
     ],
-    "rating": 4.4
+    "rating": 4.4,
+    "pros": [
+      "Security-focused",
+      "Best practices",
+      "Threat awareness"
+    ],
+    "cons": [
+      "Requires security knowledge",
+      "Context-dependent"
+    ]
   },
   {
     "owner": "lackeyjb",
@@ -328,7 +424,16 @@
       "automation",
       "testing"
     ],
-    "rating": 4.6
+    "rating": 4.6,
+    "pros": [
+      "Automation support",
+      "Developer-focused",
+      "Workflow integration"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ]
   },
   {
     "owner": "chrisvoncsefalvay",
@@ -341,7 +446,16 @@
       "visualization",
       "charts"
     ],
-    "rating": 4.5
+    "rating": 4.5,
+    "pros": [
+      "Visual output",
+      "Data insights",
+      "Visualization support"
+    ],
+    "cons": [
+      "Data format requirements",
+      "Large datasets need tuning"
+    ]
   },
   {
     "owner": "K-Dense-AI",
@@ -354,7 +468,16 @@
       "research",
       "analysis"
     ],
-    "rating": 4.3
+    "rating": 4.3,
+    "pros": [
+      "Comprehensive feature set",
+      "Data insights",
+      "Visualization support"
+    ],
+    "cons": [
+      "Data format requirements",
+      "Large datasets need tuning"
+    ]
   },
   {
     "owner": "alonw0",
@@ -367,7 +490,16 @@
       "icons",
       "assets"
     ],
-    "rating": 4.2
+    "rating": 4.2,
+    "pros": [
+      "Creative flexibility",
+      "Visual output",
+      "Customizable styles"
+    ],
+    "cons": [
+      "Requires design context",
+      "Output quality varies"
+    ]
   },
   {
     "owner": "asklokesh",
@@ -380,7 +512,15 @@
       "autonomous",
       "swarm"
     ],
-    "rating": 4.7
+    "rating": 4.7,
+    "pros": [
+      "AI-powered",
+      "Multi-format support"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ]
   },
   {
     "owner": "yusufkaraaslan",
@@ -393,7 +533,16 @@
       "conversion",
       "automation"
     ],
-    "rating": 4.1
+    "rating": 4.1,
+    "pros": [
+      "Automation support",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ]
   },
   {
     "owner": "fcakyon",
@@ -406,7 +555,16 @@
       "integration",
       "settings"
     ],
-    "rating": 4
+    "rating": 4,
+    "pros": [
+      "Easy integration",
+      "Developer-focused",
+      "Workflow integration"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ]
   },
   {
     "owner": "dreamiurg",
@@ -419,7 +577,15 @@
       "research",
       "outdoor"
     ],
-    "rating": 4
+    "rating": 4,
+    "pros": [
+      "Automation support",
+      "AI-powered"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
+    ]
   },
   {
     "owner": "NeoLabHQ",
@@ -432,7 +598,16 @@
       "prompting",
       "optimization"
     ],
-    "rating": 4.3
+    "rating": 4.3,
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ]
   },
   {
     "owner": "ayoubben18",
@@ -445,7 +620,16 @@
       "specs",
       "methodology"
     ],
-    "rating": 4.2
+    "rating": 4.2,
+    "pros": [
+      "Time-saving",
+      "Task automation",
+      "Workflow optimization"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
+    ]
   },
   {
     "owner": "automazeio",
@@ -458,7 +642,16 @@
       "agents",
       "productivity"
     ],
-    "rating": 4.1
+    "rating": 4.1,
+    "pros": [
+      "Comprehensive feature set",
+      "Time-saving",
+      "Task automation"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
+    ]
   },
   {
     "owner": "ThibautMelen",
@@ -471,7 +664,16 @@
       "workflows",
       "diagrams"
     ],
-    "rating": 4
+    "rating": 4,
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ]
   },
   {
     "owner": "Veraticus",
@@ -484,7 +686,16 @@
       "hooks",
       "utilities"
     ],
-    "rating": 4.4
+    "rating": 4.4,
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Go runtime required",
+      "Setup required"
+    ]
   },
   {
     "owner": "nyatinte",
@@ -497,7 +708,16 @@
       "discovery",
       "configuration"
     ],
-    "rating": 4.2
+    "rating": 4.2,
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ]
   },
   {
     "owner": "carlrannaberg",
@@ -510,7 +730,16 @@
       "checkpointing",
       "subagents"
     ],
-    "rating": 4.5
+    "rating": 4.5,
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ]
   },
   {
     "owner": "zippoxer",
@@ -523,7 +752,16 @@
       "sessions",
       "history"
     ],
-    "rating": 4.6
+    "rating": 4.6,
+    "pros": [
+      "Time-saving",
+      "Task automation",
+      "Workflow optimization"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
+    ]
   },
   {
     "owner": "snipeship",
@@ -536,7 +774,16 @@
       "metrics",
       "analytics"
     ],
-    "rating": 4.1
+    "rating": 4.1,
+    "pros": [
+      "Comprehensive feature set",
+      "Time-saving",
+      "Task automation"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
+    ]
   },
   {
     "owner": "ryoppippi",
@@ -549,7 +796,16 @@
       "cost",
       "tokens"
     ],
-    "rating": 4
+    "rating": 4,
+    "pros": [
+      "Time-saving",
+      "Task automation",
+      "Workflow optimization"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
+    ]
   },
   {
     "owner": "frankbria",
@@ -562,7 +818,16 @@
       "safety",
       "framework"
     ],
-    "rating": 4.5
+    "rating": 4.5,
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ]
   },
   {
     "owner": "smtg-ai",
@@ -575,7 +840,16 @@
       "workspaces",
       "parallel"
     ],
-    "rating": 4.7
+    "rating": 4.7,
+    "pros": [
+      "Multi-format support",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ]
   },
   {
     "owner": "dtormoen",
@@ -588,7 +862,16 @@
       "docker",
       "sandboxing"
     ],
-    "rating": 4.2
+    "rating": 4.2,
+    "pros": [
+      "CI/CD integration",
+      "Automation support",
+      "Deployment ready"
+    ],
+    "cons": [
+      "Docker required",
+      "Rust toolchain required"
+    ]
   },
   {
     "owner": "Haleclipse",
@@ -601,7 +884,16 @@
       "git",
       "rust"
     ],
-    "rating": 4
+    "rating": 4,
+    "pros": [
+      "Easy integration",
+      "Developer-focused",
+      "Workflow integration"
+    ],
+    "cons": [
+      "Rust toolchain required",
+      "Setup required"
+    ]
   },
   {
     "owner": "sirmalloc",
@@ -614,7 +906,16 @@
       "customizable",
       "display"
     ],
-    "rating": 3.9
+    "rating": 3.9,
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ]
   },
   {
     "owner": "Talieisin",
@@ -627,7 +928,16 @@
       "localization",
       "writing"
     ],
-    "rating": 3.8
+    "rating": 3.8,
+    "pros": [
+      "AI-powered",
+      "Clear communication",
+      "Template support"
+    ],
+    "cons": [
+      "Style preferences vary",
+      "Context needed"
+    ]
   },
   {
     "owner": "GowayLee",
@@ -640,7 +950,16 @@
       "python",
       "sdk"
     ],
-    "rating": 4.4
+    "rating": 4.4,
+    "pros": [
+      "API integration",
+      "Developer-focused",
+      "Workflow integration"
+    ],
+    "cons": [
+      "Python required",
+      "Setup required"
+    ]
   },
   {
     "owner": "nizos",
@@ -653,7 +972,16 @@
       "monitoring",
       "testing"
     ],
-    "rating": 4.2
+    "rating": 4.2,
+    "pros": [
+      "Real-time processing",
+      "Developer-focused",
+      "Workflow integration"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ]
   },
   {
     "owner": "qdhenry",
@@ -667,7 +995,15 @@
       "todo",
       "sync"
     ],
-    "rating": 3.9
+    "rating": 3.9,
+    "pros": [
+      "Easy integration",
+      "API integration"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
+    ]
   },
   {
     "owner": "qdhenry",
@@ -681,7 +1017,16 @@
       "workers",
       "deployment"
     ],
-    "rating": 4
+    "rating": 4,
+    "pros": [
+      "CI/CD integration",
+      "Automation support",
+      "Deployment ready"
+    ],
+    "cons": [
+      "Infrastructure knowledge needed",
+      "Platform-specific"
+    ]
   },
   {
     "owner": "ComposioHQ",
@@ -695,7 +1040,16 @@
       "automation"
     ],
     "featured": true,
-    "rating": 4.3
+    "rating": 4.3,
+    "pros": [
+      "Community favorite",
+      "Easy integration",
+      "AI-powered"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ]
   },
   {
     "owner": "travisvn",
@@ -707,6 +1061,15 @@
       "youtube",
       "transcript",
       "video"
+    ],
+    "pros": [
+      "Data insights",
+      "Visualization support",
+      "Analysis automation"
+    ],
+    "cons": [
+      "Data format requirements",
+      "Large datasets need tuning"
     ]
   },
   {
@@ -719,6 +1082,15 @@
       "download",
       "video",
       "media"
+    ],
+    "pros": [
+      "Time-saving",
+      "Task automation",
+      "Workflow optimization"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
     ]
   },
   {
@@ -731,6 +1103,15 @@
       "image-generation",
       "gemini",
       "ai"
+    ],
+    "pros": [
+      "API integration",
+      "Creative flexibility",
+      "Visual output"
+    ],
+    "cons": [
+      "Requires design context",
+      "Output quality varies"
     ]
   },
   {
@@ -743,6 +1124,15 @@
       "extraction",
       "articles",
       "web"
+    ],
+    "pros": [
+      "Automation support",
+      "Data insights",
+      "Visualization support"
+    ],
+    "cons": [
+      "Data format requirements",
+      "Large datasets need tuning"
     ]
   },
   {
@@ -755,6 +1145,15 @@
       "csv",
       "analysis",
       "data"
+    ],
+    "pros": [
+      "Automation support",
+      "Data insights",
+      "Visualization support"
+    ],
+    "cons": [
+      "Data format requirements",
+      "Large datasets need tuning"
     ]
   },
   {
@@ -767,6 +1166,15 @@
       "postgres",
       "sql",
       "database"
+    ],
+    "pros": [
+      "Data insights",
+      "Visualization support",
+      "Analysis automation"
+    ],
+    "cons": [
+      "Data format requirements",
+      "Large datasets need tuning"
     ]
   },
   {
@@ -779,6 +1187,15 @@
       "debugging",
       "tracing",
       "errors"
+    ],
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
     ]
   },
   {
@@ -791,6 +1208,15 @@
       "ads",
       "competitive",
       "marketing"
+    ],
+    "pros": [
+      "AI-powered",
+      "Business-focused",
+      "Professional output"
+    ],
+    "cons": [
+      "Industry-specific",
+      "Customization needed"
     ]
   },
   {
@@ -803,6 +1229,14 @@
       "domains",
       "brainstorming",
       "naming"
+    ],
+    "pros": [
+      "AI-powered",
+      "Multi-format support"
+    ],
+    "cons": [
+      "Industry-specific",
+      "Customization needed"
     ]
   },
   {
@@ -815,6 +1249,15 @@
       "leads",
       "research",
       "sales"
+    ],
+    "pros": [
+      "Business-focused",
+      "Professional output",
+      "Brand consistency"
+    ],
+    "cons": [
+      "Industry-specific",
+      "Customization needed"
     ]
   },
   {
@@ -827,6 +1270,15 @@
       "content",
       "research",
       "writing"
+    ],
+    "pros": [
+      "Clear communication",
+      "Template support",
+      "Professional output"
+    ],
+    "cons": [
+      "Style preferences vary",
+      "Context needed"
     ]
   },
   {
@@ -839,6 +1291,15 @@
       "brainstorming",
       "ideas",
       "planning"
+    ],
+    "pros": [
+      "Time-saving",
+      "Task automation",
+      "Workflow optimization"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
     ]
   },
   {
@@ -851,6 +1312,15 @@
       "genealogy",
       "history",
       "research"
+    ],
+    "pros": [
+      "Time-saving",
+      "Task automation",
+      "Workflow optimization"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
     ]
   },
   {
@@ -863,6 +1333,15 @@
       "meetings",
       "analysis",
       "insights"
+    ],
+    "pros": [
+      "Clear communication",
+      "Template support",
+      "Professional output"
+    ],
+    "cons": [
+      "Style preferences vary",
+      "Context needed"
     ]
   },
   {
@@ -875,6 +1354,15 @@
       "notebooklm",
       "documents",
       "query"
+    ],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -887,6 +1375,15 @@
       "image",
       "enhancement",
       "quality"
+    ],
+    "pros": [
+      "Automation support",
+      "Creative flexibility",
+      "Visual output"
+    ],
+    "cons": [
+      "Requires design context",
+      "Output quality varies"
     ]
   },
   {
@@ -899,6 +1396,15 @@
       "themes",
       "design",
       "styling"
+    ],
+    "pros": [
+      "Creative flexibility",
+      "Visual output",
+      "Customizable styles"
+    ],
+    "cons": [
+      "Requires design context",
+      "Output quality varies"
     ]
   },
   {
@@ -911,6 +1417,15 @@
       "files",
       "organization",
       "duplicates"
+    ],
+    "pros": [
+      "AI-powered",
+      "Time-saving",
+      "Task automation"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
     ]
   },
   {
@@ -923,6 +1438,15 @@
       "invoices",
       "taxes",
       "organization"
+    ],
+    "pros": [
+      "Time-saving",
+      "Task automation",
+      "Workflow optimization"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
     ]
   },
   {
@@ -935,6 +1459,15 @@
       "kaizen",
       "improvement",
       "methodology"
+    ],
+    "pros": [
+      "Time-saving",
+      "Task automation",
+      "Workflow optimization"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
     ]
   },
   {
@@ -947,6 +1480,14 @@
       "n8n",
       "automation",
       "workflows"
+    ],
+    "pros": [
+      "Automation support",
+      "AI-powered"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
     ]
   },
   {
@@ -959,6 +1500,15 @@
       "raffle",
       "random",
       "selection"
+    ],
+    "pros": [
+      "Time-saving",
+      "Task automation",
+      "Workflow optimization"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
     ]
   },
   {
@@ -971,6 +1521,15 @@
       "resume",
       "jobs",
       "customization"
+    ],
+    "pros": [
+      "Time-saving",
+      "Task automation",
+      "Workflow optimization"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
     ]
   },
   {
@@ -983,6 +1542,15 @@
       "learning",
       "iteration",
       "priorities"
+    ],
+    "pros": [
+      "Time-saving",
+      "Task automation",
+      "Workflow optimization"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
     ]
   },
   {
@@ -995,6 +1563,15 @@
       "documents",
       "linking",
       "summarization"
+    ],
+    "pros": [
+      "Time-saving",
+      "Task automation",
+      "Workflow optimization"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
     ]
   },
   {
@@ -1007,6 +1584,15 @@
       "git",
       "automation",
       "repository"
+    ],
+    "pros": [
+      "Automation support",
+      "CI/CD integration",
+      "Deployment ready"
+    ],
+    "cons": [
+      "Infrastructure knowledge needed",
+      "Platform-specific"
     ]
   },
   {
@@ -1019,6 +1605,15 @@
       "review",
       "implementation",
       "code"
+    ],
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
     ]
   },
   {
@@ -1031,6 +1626,14 @@
       "testing",
       "fixing",
       "automation"
+    ],
+    "pros": [
+      "Automation support",
+      "AI-powered"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
     ]
   },
   {
@@ -1043,6 +1646,15 @@
       "forensics",
       "investigation",
       "security"
+    ],
+    "pros": [
+      "Security-focused",
+      "Best practices",
+      "Threat awareness"
+    ],
+    "cons": [
+      "Requires security knowledge",
+      "Context-dependent"
     ]
   },
   {
@@ -1055,6 +1667,15 @@
       "deletion",
       "security",
       "sanitization"
+    ],
+    "pros": [
+      "Security-focused",
+      "Best practices",
+      "Threat awareness"
+    ],
+    "cons": [
+      "Requires security knowledge",
+      "Context-dependent"
     ]
   },
   {
@@ -1067,6 +1688,15 @@
       "metadata",
       "extraction",
       "forensics"
+    ],
+    "pros": [
+      "Security-focused",
+      "Best practices",
+      "Threat awareness"
+    ],
+    "cons": [
+      "Requires security knowledge",
+      "Context-dependent"
     ]
   },
   {
@@ -1079,6 +1709,15 @@
       "sigma",
       "threat-hunting",
       "detection"
+    ],
+    "pros": [
+      "Security-focused",
+      "Best practices",
+      "Threat awareness"
+    ],
+    "cons": [
+      "Requires security knowledge",
+      "Context-dependent"
     ]
   },
   {
@@ -1091,6 +1730,15 @@
       "markdown",
       "epub",
       "ebook"
+    ],
+    "pros": [
+      "File format support",
+      "Batch processing",
+      "Format preservation"
+    ],
+    "cons": [
+      "Large files may be slow",
+      "Format-specific limitations"
     ]
   },
   {
@@ -1103,6 +1751,15 @@
       "changelog",
       "releases",
       "git"
+    ],
+    "pros": [
+      "CI/CD integration",
+      "Automation support",
+      "Deployment ready"
+    ],
+    "cons": [
+      "Infrastructure knowledge needed",
+      "Platform-specific"
     ]
   },
   {
@@ -1115,6 +1772,15 @@
       "terminal",
       "title",
       "organization"
+    ],
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
     ]
   },
   {
@@ -1127,6 +1793,15 @@
       "langsmith",
       "langchain",
       "tracing"
+    ],
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -1139,6 +1814,15 @@
       "move",
       "blockchain",
       "quality"
+    ],
+    "pros": [
+      "AI-powered",
+      "Developer-focused",
+      "Workflow integration"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
     ]
   },
   {
@@ -1151,6 +1835,15 @@
       "testing",
       "pairwise",
       "coverage"
+    ],
+    "pros": [
+      "AI-powered",
+      "Developer-focused",
+      "Workflow integration"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
     ]
   },
   {
@@ -1163,6 +1856,15 @@
       "reddit",
       "fetch",
       "social"
+    ],
+    "pros": [
+      "API integration",
+      "Data insights",
+      "Visualization support"
+    ],
+    "cons": [
+      "Data format requirements",
+      "Large datasets need tuning"
     ]
   },
   {
@@ -1175,6 +1877,15 @@
       "architecture",
       "solid",
       "design"
+    ],
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
     ]
   },
   {
@@ -1187,6 +1898,15 @@
       "subagents",
       "parallel",
       "development"
+    ],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -1199,6 +1919,15 @@
       "tdd",
       "testing",
       "methodology"
+    ],
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
     ]
   },
   {
@@ -1211,6 +1940,15 @@
       "git",
       "worktrees",
       "parallel"
+    ],
+    "pros": [
+      "CI/CD integration",
+      "Automation support",
+      "Deployment ready"
+    ],
+    "cons": [
+      "Infrastructure knowledge needed",
+      "Platform-specific"
     ]
   },
   {
@@ -1223,6 +1961,15 @@
       "prompts",
       "optimization",
       "ai"
+    ],
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -1235,6 +1982,15 @@
       "aws",
       "cdk",
       "serverless"
+    ],
+    "pros": [
+      "CI/CD integration",
+      "Automation support",
+      "Deployment ready"
+    ],
+    "cons": [
+      "Infrastructure knowledge needed",
+      "Platform-specific"
     ]
   },
   {
@@ -1247,6 +2003,15 @@
       "git",
       "branches",
       "workflow"
+    ],
+    "pros": [
+      "CI/CD integration",
+      "Automation support",
+      "Deployment ready"
+    ],
+    "cons": [
+      "Infrastructure knowledge needed",
+      "Platform-specific"
     ]
   },
   {
@@ -1259,6 +2024,15 @@
       "agents",
       "team",
       "specialized"
+    ],
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -1271,6 +2045,15 @@
       "subagents",
       "fullstack",
       "specialized"
+    ],
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -1283,6 +2066,15 @@
       "templates",
       "dashboard",
       "analytics"
+    ],
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
     ]
   },
   {
@@ -1295,6 +2087,15 @@
       "infrastructure",
       "hooks",
       "context"
+    ],
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
     ]
   },
   {
@@ -1307,6 +2108,15 @@
       "sessions",
       "continuity",
       "context"
+    ],
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
     ]
   },
   {
@@ -1320,7 +2130,16 @@
       "crawling",
       "extraction"
     ],
-    "featured": true
+    "featured": true,
+    "pros": [
+      "Community favorite",
+      "Automation support",
+      "API integration"
+    ],
+    "cons": [
+      "Site-specific tuning",
+      "Rate limiting considerations"
+    ]
   },
   {
     "owner": "mrgoonie",
@@ -1332,6 +2151,14 @@
       "browser",
       "automation",
       "scraping"
+    ],
+    "pros": [
+      "Automation support",
+      "API integration"
+    ],
+    "cons": [
+      "Site-specific tuning",
+      "Rate limiting considerations"
     ]
   },
   {
@@ -1345,7 +2172,16 @@
       "workflows",
       "automation"
     ],
-    "featured": true
+    "featured": true,
+    "pros": [
+      "Community favorite",
+      "Automation support",
+      "Template support"
+    ],
+    "cons": [
+      "Node.js required",
+      "Initial configuration"
+    ]
   },
   {
     "owner": "makafeli",
@@ -1357,6 +2193,14 @@
       "n8n",
       "builder",
       "automation"
+    ],
+    "pros": [
+      "Automation support",
+      "AI-powered"
+    ],
+    "cons": [
+      "Initial configuration",
+      "Platform dependencies"
     ]
   },
   {
@@ -1370,7 +2214,16 @@
       "content",
       "keywords"
     ],
-    "featured": true
+    "featured": true,
+    "pros": [
+      "Community favorite",
+      "SEO optimization",
+      "Search insights"
+    ],
+    "cons": [
+      "Algorithm changes",
+      "Results take time"
+    ]
   },
   {
     "owner": "huifer",
@@ -1382,6 +2235,15 @@
       "seo",
       "audit",
       "optimization"
+    ],
+    "pros": [
+      "Comprehensive feature set",
+      "SEO optimization",
+      "Search insights"
+    ],
+    "cons": [
+      "Algorithm changes",
+      "Results take time"
     ]
   },
   {
@@ -1394,6 +2256,15 @@
       "content",
       "seo",
       "links"
+    ],
+    "pros": [
+      "SEO optimization",
+      "Search insights",
+      "Content improvement"
+    ],
+    "cons": [
+      "Algorithm changes",
+      "Results take time"
     ]
   },
   {
@@ -1407,7 +2278,16 @@
       "translation",
       "localization"
     ],
-    "featured": true
+    "featured": true,
+    "pros": [
+      "Community favorite",
+      "AI-powered",
+      "Multi-format support"
+    ],
+    "cons": [
+      "Context nuances",
+      "Review recommended"
+    ]
   },
   {
     "owner": "zoonk",
@@ -1420,6 +2300,15 @@
       "i18n",
       "next-intl",
       "po-files"
+    ],
+    "pros": [
+      "Multi-language support",
+      "Consistent translations",
+      "Format preservation"
+    ],
+    "cons": [
+      "Context nuances",
+      "Review recommended"
     ]
   },
   {
@@ -1430,6 +2319,15 @@
     "description": "A Claude Code Skill for designing professional interfaces following Apple Human Interface Guidelines",
     "tags": [
       "claude-skill"
+    ],
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
     ]
   },
   {
@@ -1438,7 +2336,15 @@
     "category": "development-tools",
     "name": "Agent-Skills-for-Context-Engineering",
     "description": "A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or debugging agent systems that require effective context management.",
-    "tags": []
+    "tags": [],
+    "pros": [
+      "Comprehensive feature set",
+      "Multi-format support"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ]
   },
   {
     "owner": "euphrat1ca",
@@ -1446,7 +2352,16 @@
     "category": "creative-design",
     "name": "Security-List",
     "description": "If you have any good suggestions or comments during the search process, please feedback some index experience in issues. Thank you for your participation.查阅过程中，如果有什么好的意见或建议，请在Issues反馈，感谢您的参与。",
-    "tags": []
+    "tags": [],
+    "pros": [
+      "Creative flexibility",
+      "Visual output",
+      "Customizable styles"
+    ],
+    "cons": [
+      "Requires design context",
+      "Output quality varies"
+    ]
   },
   {
     "owner": "innovationacademy-kr",
@@ -1454,7 +2369,16 @@
     "category": "development-tools",
     "name": "hitchhikers_guide",
     "description": "은하수 .. 됐고, hitchhiker 들을 위한 안내서",
-    "tags": []
+    "tags": [],
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ]
   },
   {
     "owner": "entice",
@@ -1462,7 +2386,16 @@
     "category": "document-processing",
     "name": "entice",
     "description": "Docs for the entice project",
-    "tags": []
+    "tags": [],
+    "pros": [
+      "File format support",
+      "Batch processing",
+      "Format preservation"
+    ],
+    "cons": [
+      "Large files may be slow",
+      "Format-specific limitations"
+    ]
   },
   {
     "owner": "XiaomingX",
@@ -1470,7 +2403,16 @@
     "category": "development-tools",
     "name": "proxy-pool",
     "description": "Python ProxyPool for web spider.ProxyPool 是一个用于采集、验证和管理代理IP的轻量级工具，旨在帮助用户自动维护高质量的代理池，方便在爬虫、网络请求中灵活使用匿名代理。",
-    "tags": []
+    "tags": [],
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Python required",
+      "Setup required"
+    ]
   },
   {
     "owner": "ninehills",
@@ -1478,7 +2420,16 @@
     "category": "ai-llm",
     "name": "PatentWriterAgent",
     "description": "PatentWriterAgent Demo",
-    "tags": []
+    "tags": [],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ]
   },
   {
     "owner": "Dicklesworthstone",
@@ -1486,7 +2437,16 @@
     "category": "ai-llm",
     "name": "mcp_agent_mail",
     "description": "Like gmail for your coding agents. Lets various different agents communicate and coordinate with each other.",
-    "tags": []
+    "tags": [],
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ]
   },
   {
     "owner": "doongz",
@@ -1494,7 +2454,16 @@
     "category": "productivity",
     "name": "notes",
     "description": "算法｜技能｜知识｜数学",
-    "tags": []
+    "tags": [],
+    "pros": [
+      "Time-saving",
+      "Task automation",
+      "Workflow optimization"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
+    ]
   },
   {
     "owner": "jikexueyuanwiki",
@@ -1502,21 +2471,48 @@
     "category": "devops-cicd",
     "name": "git-bak",
     "description": "Git教程",
-    "tags": []
+    "tags": [],
+    "pros": [
+      "CI/CD integration",
+      "Automation support",
+      "Deployment ready"
+    ],
+    "cons": [
+      "Infrastructure knowledge needed",
+      "Platform-specific"
+    ]
   },
   {
     "owner": "nohanaga",
     "repo": "Azure-AI-Search-Workshop",
     "category": "ai-llm",
     "name": "Azure-AI-Search-Workshop",
-    "tags": []
+    "tags": [],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ]
   },
   {
     "owner": "Whamp",
     "repo": "zai-glm-skills",
     "category": "ai-llm",
     "name": "zai-glm-skills",
-    "tags": []
+    "tags": [],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ]
   },
   {
     "owner": "mbta",
@@ -1524,7 +2520,16 @@
     "category": "development-tools",
     "name": "transit_project_ideas",
     "description": "Transit Coding Projects for Beginners",
-    "tags": []
+    "tags": [],
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ]
   },
   {
     "owner": "tpmjs",
@@ -1532,7 +2537,16 @@
     "category": "ai-llm",
     "name": "tpmjs",
     "description": "Tool Package Manager for AI Agents",
-    "tags": []
+    "tags": [],
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ]
   },
   {
     "owner": "murffious",
@@ -1540,7 +2554,16 @@
     "category": "document-processing",
     "name": "git-master-1",
     "description": "Boilerplate Code for Full Stack Web Development and some DOCS ",
-    "tags": []
+    "tags": [],
+    "pros": [
+      "File format support",
+      "Batch processing",
+      "Format preservation"
+    ],
+    "cons": [
+      "Large files may be slow",
+      "Format-specific limitations"
+    ]
   },
   {
     "owner": "melvincarvalho",
@@ -1548,7 +2571,16 @@
     "category": "ai-llm",
     "name": "aam",
     "description": "autonomous agent manager",
-    "tags": []
+    "tags": [],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ]
   },
   {
     "owner": "fage1151",
@@ -1556,7 +2588,16 @@
     "category": "document-processing",
     "name": "swoole-doc",
     "description": "swoole手册",
-    "tags": []
+    "tags": [],
+    "pros": [
+      "File format support",
+      "Batch processing",
+      "Format preservation"
+    ],
+    "cons": [
+      "Large files may be slow",
+      "Format-specific limitations"
+    ]
   },
   {
     "owner": "Rowing0914",
@@ -1564,7 +2605,16 @@
     "category": "productivity",
     "name": "my_personal_notes",
     "description": "for myself",
-    "tags": []
+    "tags": [],
+    "pros": [
+      "Time-saving",
+      "Task automation",
+      "Workflow optimization"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
+    ]
   },
   {
     "owner": "calvinsettachatgul",
@@ -1572,7 +2622,16 @@
     "category": "devops-cicd",
     "name": "aws_associate_solutions_architect",
     "description": "learning aws",
-    "tags": []
+    "tags": [],
+    "pros": [
+      "CI/CD integration",
+      "Automation support",
+      "Deployment ready"
+    ],
+    "cons": [
+      "Infrastructure knowledge needed",
+      "Platform-specific"
+    ]
   },
   {
     "owner": "bl-ue",
@@ -1580,14 +2639,32 @@
     "category": "ai-llm",
     "name": "tweakcc-system-prompts",
     "description": "Customized Claude Code system prompts for use with tweakcc — ~48k bytes smaller, 30% faster, same accuracy",
-    "tags": []
+    "tags": [],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ]
   },
   {
     "owner": "parsaeisa",
     "repo": "Notes",
     "category": "productivity",
     "name": "Notes",
-    "tags": []
+    "tags": [],
+    "pros": [
+      "Time-saving",
+      "Task automation",
+      "Workflow optimization"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
+    ]
   },
   {
     "owner": "DrZoot",
@@ -1595,7 +2672,16 @@
     "category": "ai-llm",
     "name": "htmx-skill",
     "description": "HTMX Agent Skill",
-    "tags": []
+    "tags": [],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ]
   },
   {
     "owner": "SerPeter",
@@ -1603,14 +2689,32 @@
     "category": "ai-llm",
     "name": "llm-fmt-project",
     "description": "Token-efficient data format converter for LLM/agent contexts. JSON/YAML/XML → TOON/compact formats with 30-60% token savings. Includes filtering, auto-selection, and token analysis.",
-    "tags": []
+    "tags": [],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ]
   },
   {
     "owner": "bytifycorp",
     "repo": "blog-posts",
     "category": "communication",
     "name": "blog-posts",
-    "tags": []
+    "tags": [],
+    "pros": [
+      "Clear communication",
+      "Template support",
+      "Professional output"
+    ],
+    "cons": [
+      "Style preferences vary",
+      "Context needed"
+    ]
   },
   {
     "owner": "milc3sar",
@@ -1618,7 +2722,16 @@
     "category": "ai-llm",
     "name": "AtomicCommit-Pro",
     "description": "Skill para agente con el propósito de ser motor de control de versiones diseñado para fragmentar cambios complejos en unidades lógicas indivisibles. Actúa como un filtro de calidad que separa correcciones, funcionalidades y estilos, asegurando que cada commit sea una pieza de información pura y trazable para el equipo de desarrollo.",
-    "tags": []
+    "tags": [],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ]
   },
   {
     "owner": "Dicklesworthstone",
@@ -1626,14 +2739,32 @@
     "category": "ai-llm",
     "name": "jeffreysprompts.com",
     "description": "A curated collection of battle-tested prompts for agentic coding - Browse, copy, and install as Claude Code skills",
-    "tags": []
+    "tags": [],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ]
   },
   {
     "owner": "hancengiz",
     "repo": "claude-code-prompt-coach-skill",
     "category": "ai-llm",
     "name": "claude-code-prompt-coach-skill",
-    "tags": []
+    "tags": [],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ]
   },
   {
     "owner": "xsjlmzs",
@@ -1641,7 +2772,16 @@
     "category": "productivity",
     "name": "Notes",
     "description": "some learning notes",
-    "tags": []
+    "tags": [],
+    "pros": [
+      "Time-saving",
+      "Task automation",
+      "Workflow optimization"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
+    ]
   },
   {
     "owner": "KurshedKhan",
@@ -1649,7 +2789,16 @@
     "category": "automation",
     "name": "JavaScript",
     "description": "This is very powerful programming language.",
-    "tags": []
+    "tags": [],
+    "pros": [
+      "Task automation",
+      "Workflow integration",
+      "Time-saving"
+    ],
+    "cons": [
+      "Initial configuration",
+      "Platform dependencies"
+    ]
   },
   {
     "owner": "rugbylug",
@@ -1657,7 +2806,16 @@
     "category": "communication",
     "name": "Meeting-notes",
     "description": "Notes from RugbyLug meetings",
-    "tags": []
+    "tags": [],
+    "pros": [
+      "Clear communication",
+      "Template support",
+      "Professional output"
+    ],
+    "cons": [
+      "Style preferences vary",
+      "Context needed"
+    ]
   },
   {
     "owner": "vlmutolo",
@@ -1665,7 +2823,16 @@
     "category": "ai-llm",
     "name": "skills",
     "description": "AI agent skills repository",
-    "tags": []
+    "tags": [],
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ]
   },
   {
     "owner": "FreeChase",
@@ -1673,7 +2840,16 @@
     "category": "development-tools",
     "name": "VscodeNote",
     "description": "记录vscode的一些笔记，包括插件、快捷件",
-    "tags": []
+    "tags": [],
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ]
   },
   {
     "owner": "justinabrahms",
@@ -1681,14 +2857,32 @@
     "category": "document-processing",
     "name": "confluence-md",
     "description": "A command-line tool for retrieving Confluence pages as Markdown",
-    "tags": []
+    "tags": [],
+    "pros": [
+      "File format support",
+      "Batch processing",
+      "Format preservation"
+    ],
+    "cons": [
+      "Large files may be slow",
+      "Format-specific limitations"
+    ]
   },
   {
     "owner": "ahmad-kad",
     "repo": "calhacks-agenticRobot",
     "category": "ai-llm",
     "name": "calhacks-agenticRobot",
-    "tags": []
+    "tags": [],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ]
   },
   {
     "owner": "krozgrov",
@@ -1696,7 +2890,15 @@
     "category": "creative-design",
     "name": "ha-omlet-integration",
     "description": "Custom Home Assistant integration for Omlet devices, enabling monitoring and control of Autodoors and Smart Fans. Includes features like battery level monitoring, door/light control, and updates via API.",
-    "tags": []
+    "tags": [],
+    "pros": [
+      "Easy integration",
+      "API integration"
+    ],
+    "cons": [
+      "Requires design context",
+      "Output quality varies"
+    ]
   },
   {
     "owner": "tnotesjs",
@@ -1704,7 +2906,16 @@
     "category": "document-processing",
     "name": "TNotes.en-words",
     "description": "📒 英语词库",
-    "tags": []
+    "tags": [],
+    "pros": [
+      "File format support",
+      "Batch processing",
+      "Format preservation"
+    ],
+    "cons": [
+      "Large files may be slow",
+      "Format-specific limitations"
+    ]
   },
   {
     "owner": "EduardoRemedios",
@@ -1712,7 +2923,16 @@
     "category": "development-tools",
     "name": "MCP-Builder-Skill",
     "description": "MCP Builder Skill Files",
-    "tags": []
+    "tags": [],
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ]
   },
   {
     "owner": "NangoHQ",
@@ -1720,7 +2940,16 @@
     "category": "ai-llm",
     "name": "function-builder",
     "description": "Build end to end functions in Nango using simple prompts",
-    "tags": []
+    "tags": [],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "Go runtime required",
+      "API costs may apply"
+    ]
   },
   {
     "owner": "mehdic",
@@ -1728,7 +2957,16 @@
     "category": "ai-llm",
     "name": "auto-review-agent",
     "description": "A system that allows a calude session to monitor another claude session and force to continue working",
-    "tags": []
+    "tags": [],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ]
   },
   {
     "owner": "ljqdeGolang",
@@ -1736,14 +2974,32 @@
     "category": "productivity",
     "name": "Studynotebook",
     "description": "This is a personal repository that is established by myself to record what I learn every day.",
-    "tags": []
+    "tags": [],
+    "pros": [
+      "Time-saving",
+      "Task automation",
+      "Workflow optimization"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
+    ]
   },
   {
     "owner": "venkatthirupathi",
     "repo": "Murf_ai_Agent",
     "category": "ai-llm",
     "name": "Murf_ai_Agent",
-    "tags": []
+    "tags": [],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ]
   },
   {
     "owner": "agentscope-ai",
@@ -1751,7 +3007,16 @@
     "category": "ai-llm",
     "name": "agentscope-java",
     "description": "AgentScope Java: Agent-Oriented Programming for Building LLM Applications",
-    "tags": []
+    "tags": [],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ]
   },
   {
     "owner": "CherryHQ",
@@ -1765,6 +3030,14 @@
       "chatbots",
       "claude-code",
       "claude-code-sdk"
+    ],
+    "pros": [
+      "Automation support",
+      "AI-powered"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -1779,6 +3052,15 @@
       "anthropic-claude",
       "automation",
       "claude"
+    ],
+    "pros": [
+      "Automation support",
+      "AI-powered",
+      "Multi-format support"
+    ],
+    "cons": [
+      "Initial configuration",
+      "Platform dependencies"
     ]
   },
   {
@@ -1793,6 +3075,15 @@
       "agentic-coding",
       "ai-workflow-optimization",
       "ai-workflows"
+    ],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -1807,6 +3098,15 @@
       "anthropic-skills",
       "awesome",
       "awesome-lists"
+    ],
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -1821,6 +3121,15 @@
       "claude",
       "claude-4",
       "claude-4-opus"
+    ],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -1835,6 +3144,15 @@
       "ai-coding",
       "claude",
       "claude-code"
+    ],
+    "pros": [
+      "Easy integration",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -1849,6 +3167,15 @@
       "amp",
       "anthropic",
       "chatgpt"
+    ],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -1862,6 +3189,15 @@
       "anthropic-claude",
       "claude",
       "claude-code"
+    ],
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
     ]
   },
   {
@@ -1876,6 +3212,14 @@
       "claude",
       "claude-code",
       "codex"
+    ],
+    "pros": [
+      "AI-powered",
+      "Multi-format support"
+    ],
+    "cons": [
+      "Requires design context",
+      "Output quality varies"
     ]
   },
   {
@@ -1888,6 +3232,15 @@
       "agent",
       "claude-code",
       "teaching"
+    ],
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -1902,6 +3255,14 @@
       "ai-memory",
       "anthropic",
       "artificial-intelligence"
+    ],
+    "pros": [
+      "Automation support",
+      "AI-powered"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -1916,6 +3277,15 @@
       "agentic-framework",
       "agentic-rag",
       "agentic-workflow"
+    ],
+    "pros": [
+      "Easy integration",
+      "AI-powered",
+      "Multi-format support"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -1930,6 +3300,15 @@
       "codex",
       "deepseek-v3",
       "desktop-app"
+    ],
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
     ]
   },
   {
@@ -1942,6 +3321,15 @@
       "agents",
       "claude-code",
       "coding"
+    ],
+    "pros": [
+      "Business-focused",
+      "Professional output",
+      "Brand consistency"
+    ],
+    "cons": [
+      "Industry-specific",
+      "Customization needed"
     ]
   },
   {
@@ -1956,6 +3344,15 @@
       "agents",
       "claude",
       "claude-code"
+    ],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -1970,6 +3367,15 @@
       "apps-sdk",
       "chatgpt",
       "claude-code"
+    ],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -1984,6 +3390,15 @@
       "amp",
       "claude-code",
       "codex"
+    ],
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -1998,6 +3413,15 @@
       "claude-mobile",
       "codex",
       "codex-cli"
+    ],
+    "pros": [
+      "Real-time processing",
+      "Time-saving",
+      "Task automation"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
     ]
   },
   {
@@ -2012,6 +3436,15 @@
       "claude-code",
       "claude-proxy",
       "codex-cli"
+    ],
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -2026,6 +3459,14 @@
       "cluade",
       "codex",
       "gemini"
+    ],
+    "pros": [
+      "AI-powered",
+      "API integration"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -2040,6 +3481,15 @@
       "claude",
       "claude-code",
       "claude-usage"
+    ],
+    "pros": [
+      "Real-time processing",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -2054,6 +3504,15 @@
       "anthropic",
       "claude-code",
       "copilot"
+    ],
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -2068,6 +3527,15 @@
       "anthropic-claude",
       "claude",
       "claude-api"
+    ],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -2082,6 +3550,15 @@
       "ai-agent",
       "bmad-method",
       "ccr"
+    ],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -2096,6 +3573,15 @@
       "awesome",
       "awesome-list",
       "awesome-lists"
+    ],
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -2110,6 +3596,15 @@
       "ai-coding",
       "claude-code",
       "code-generation"
+    ],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -2124,6 +3619,15 @@
       "ai-agent",
       "banana",
       "chat"
+    ],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -2136,6 +3640,15 @@
       "claude-code",
       "mcp",
       "skills"
+    ],
+    "pros": [
+      "Official Anthropic skill",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -2150,6 +3663,15 @@
       "claude-code",
       "codex",
       "codingagent"
+    ],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -2164,6 +3686,15 @@
       "claude-code-cli",
       "claude-code-hooks",
       "claude-code-mcp"
+    ],
+    "pros": [
+      "AI-powered",
+      "Developer-focused",
+      "Workflow integration"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
     ]
   },
   {
@@ -2178,6 +3709,14 @@
       "claude",
       "claude-api",
       "claude-code"
+    ],
+    "pros": [
+      "AI-powered",
+      "API integration"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -2192,6 +3731,15 @@
       "claude",
       "claude-ai",
       "claude-code"
+    ],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -2205,6 +3753,15 @@
       "context-engineering",
       "meta-prompting",
       "spec-driven-development"
+    ],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -2217,6 +3774,15 @@
       "claude-code",
       "claude-code-system-prompts",
       "system-prompts"
+    ],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -2231,6 +3797,15 @@
       "ai-agent-tools",
       "claude",
       "claude-ai"
+    ],
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
     ]
   },
   {
@@ -2243,6 +3818,15 @@
       "claude-code",
       "playwright",
       "skills"
+    ],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -2257,6 +3841,14 @@
       "ai-coding",
       "anthropic",
       "claude"
+    ],
+    "pros": [
+      "AI-powered",
+      "Multi-format support"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -2271,6 +3863,15 @@
       "mcp-tools",
       "slash-commands",
       "sub-agents"
+    ],
+    "pros": [
+      "Task automation",
+      "Workflow integration",
+      "Time-saving"
+    ],
+    "cons": [
+      "Initial configuration",
+      "Platform dependencies"
     ]
   },
   {
@@ -2285,6 +3886,15 @@
       "claude-ai",
       "claude-code",
       "cli"
+    ],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -2299,6 +3909,15 @@
       "claude-skills",
       "deployment",
       "deployment-tools"
+    ],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -2313,6 +3932,15 @@
       "claude-code",
       "cli",
       "plugin"
+    ],
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
     ]
   },
   {
@@ -2326,6 +3954,15 @@
       "claude-code",
       "codex",
       "swift"
+    ],
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -2340,6 +3977,15 @@
       "cursor",
       "gemini-cli",
       "github-copilot"
+    ],
+    "pros": [
+      "AI-powered",
+      "Creative flexibility",
+      "Visual output"
+    ],
+    "cons": [
+      "Requires design context",
+      "Output quality varies"
     ]
   },
   {
@@ -2354,6 +4000,15 @@
       "aider",
       "claude-code",
       "codex"
+    ],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -2368,6 +4023,15 @@
       "claude-code-commands",
       "claude-skills",
       "cli-tool"
+    ],
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
     ]
   },
   {
@@ -2382,6 +4046,15 @@
       "copilot",
       "copilot-cli",
       "gemini-cli"
+    ],
+    "pros": [
+      "AI-powered",
+      "Developer-focused",
+      "Workflow integration"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
     ]
   },
   {
@@ -2396,6 +4069,15 @@
       "claude-code",
       "docker",
       "kubernetes"
+    ],
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "Docker required",
+      "API costs may apply"
     ]
   },
   {
@@ -2410,6 +4092,15 @@
       "ai-agents",
       "claude-code",
       "claude-code-skill"
+    ],
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -2424,6 +4115,15 @@
       "claude-code",
       "claude-skill",
       "claude-subagents"
+    ],
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -2438,6 +4138,15 @@
       "citations",
       "claude-code",
       "claude-skill"
+    ],
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -2452,6 +4161,14 @@
       "agents",
       "claude-code",
       "claude-code-skill"
+    ],
+    "pros": [
+      "AI-powered",
+      "Multi-format support"
+    ],
+    "cons": [
+      "Python required",
+      "Requires design context"
     ]
   },
   {
@@ -2466,6 +4183,15 @@
       "claude-code-skills",
       "claude-plugins",
       "claude-skills"
+    ],
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
     ]
   },
   {
@@ -2480,6 +4206,15 @@
       "claude-code-hooks",
       "claude-code-plugin",
       "claude-code-plugins"
+    ],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -2493,6 +4228,15 @@
       "claude",
       "claude-code",
       "claude-skill"
+    ],
+    "pros": [
+      "AI-powered",
+      "Time-saving",
+      "Task automation"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
     ]
   },
   {
@@ -2506,6 +4250,15 @@
       "claude",
       "claude-code",
       "claude-skill"
+    ],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -2519,6 +4272,15 @@
       "claude",
       "claude-code",
       "claude-skill"
+    ],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -2533,6 +4295,15 @@
       "claude-skills",
       "design",
       "figma"
+    ],
+    "pros": [
+      "Automation support",
+      "Task automation",
+      "Workflow integration"
+    ],
+    "cons": [
+      "Initial configuration",
+      "Platform dependencies"
     ]
   },
   {
@@ -2547,6 +4318,14 @@
       "claude-code-skill",
       "claude-code-skills",
       "claude-plugin"
+    ],
+    "pros": [
+      "Easy integration",
+      "AI-powered"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -2561,6 +4340,14 @@
       "claude-code-hooks",
       "claude-code-plugin",
       "claude-code-plugins"
+    ],
+    "pros": [
+      "Easy integration",
+      "AI-powered"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -2575,6 +4362,15 @@
       "android",
       "app-store-optimization",
       "appstore"
+    ],
+    "pros": [
+      "Automation support",
+      "Easy integration",
+      "AI-powered"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -2589,6 +4385,14 @@
       "anthropic",
       "base-chain",
       "chatgpt"
+    ],
+    "pros": [
+      "AI-powered",
+      "API integration"
+    ],
+    "cons": [
+      "API credentials needed",
+      "API costs may apply"
     ]
   },
   {
@@ -2603,6 +4407,14 @@
       "atlassian",
       "claude-code-skill",
       "jira"
+    ],
+    "pros": [
+      "Easy integration",
+      "AI-powered"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -2617,6 +4429,15 @@
       "claude-skill-prd",
       "product",
       "product-management"
+    ],
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -2631,6 +4452,15 @@
       "claude-code",
       "claude-skill",
       "claude-skills"
+    ],
+    "pros": [
+      "Automation support",
+      "File format support",
+      "Batch processing"
+    ],
+    "cons": [
+      "Large files may be slow",
+      "Format-specific limitations"
     ]
   },
   {
@@ -2642,6 +4472,15 @@
     "tags": [
       "agentic-skill",
       "claude-code-skill"
+    ],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -2656,6 +4495,15 @@
       "claude-code-plugin",
       "claude-code-plugins",
       "claude-code-skill"
+    ],
+    "pros": [
+      "Business-focused",
+      "Professional output",
+      "Brand consistency"
+    ],
+    "cons": [
+      "Industry-specific",
+      "Customization needed"
     ]
   },
   {
@@ -2668,6 +4516,15 @@
       "claude-code-skill",
       "claude-code-skills",
       "claude-skills"
+    ],
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -2682,6 +4539,15 @@
       "prompt-engineering",
       "prompt-frameworks",
       "prompt-improvement"
+    ],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -2696,6 +4562,15 @@
       "architecture",
       "claude",
       "claude-ai"
+    ],
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -2710,6 +4585,15 @@
       "android",
       "app-store-optimization",
       "appstore"
+    ],
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -2724,6 +4608,15 @@
       "claude-skill",
       "dspy",
       "llm"
+    ],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -2737,6 +4630,15 @@
       "claude",
       "claude-code",
       "claude-skill"
+    ],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -2751,6 +4653,15 @@
       "claude-code-skill",
       "ddev",
       "developer-tool"
+    ],
+    "pros": [
+      "Automation support",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -2765,6 +4676,15 @@
       "ai-agent",
       "ai-agents",
       "claude-code-skill"
+    ],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -2779,6 +4699,14 @@
       "claude-code",
       "claude-skill",
       "fastlane"
+    ],
+    "pros": [
+      "Automation support",
+      "AI-powered"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -2792,6 +4720,15 @@
       "claude-skills",
       "claude-skills-creator",
       "claude-skills-hub"
+    ],
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -2806,6 +4743,15 @@
       "claude-code",
       "claude-code-plugin",
       "claude-code-skill"
+    ],
+    "pros": [
+      "File format support",
+      "Batch processing",
+      "Format preservation"
+    ],
+    "cons": [
+      "Large files may be slow",
+      "Format-specific limitations"
     ]
   },
   {
@@ -2817,6 +4763,15 @@
     "tags": [
       "agentic-skill",
       "claude-code-skill"
+    ],
+    "pros": [
+      "AI-powered",
+      "Business-focused",
+      "Professional output"
+    ],
+    "cons": [
+      "Industry-specific",
+      "Customization needed"
     ]
   },
   {
@@ -2831,6 +4786,15 @@
       "claude-code-skill",
       "documentation",
       "documentation-generator"
+    ],
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -2845,6 +4809,15 @@
       "code-generation",
       "developer-tools",
       "fastmcp"
+    ],
+    "pros": [
+      "Comprehensive feature set",
+      "Developer-focused",
+      "Workflow integration"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
     ]
   },
   {
@@ -2859,6 +4832,15 @@
       "automation",
       "claude-code-skill",
       "cli"
+    ],
+    "pros": [
+      "Automation support",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -2873,6 +4855,15 @@
       "claude-code",
       "claude-skill",
       "claude-skills"
+    ],
+    "pros": [
+      "Automation support",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -2887,6 +4878,15 @@
       "claude-skill",
       "documentation",
       "note-taking"
+    ],
+    "pros": [
+      "Automation support",
+      "File format support",
+      "Batch processing"
+    ],
+    "cons": [
+      "Large files may be slow",
+      "Format-specific limitations"
     ]
   },
   {
@@ -2901,6 +4901,14 @@
       "claude-code",
       "claude-skill",
       "digital-samba"
+    ],
+    "pros": [
+      "Easy integration",
+      "API integration"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -2914,6 +4922,14 @@
       "claude",
       "claude-code-skills",
       "claude-skill"
+    ],
+    "pros": [
+      "AI-powered",
+      "API integration"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -2926,6 +4942,15 @@
       "claude",
       "claude-skill",
       "rhetorical-parser"
+    ],
+    "pros": [
+      "Data extraction",
+      "Automation support",
+      "Multiple formats"
+    ],
+    "cons": [
+      "Site-specific tuning",
+      "Rate limiting considerations"
     ]
   },
   {
@@ -2940,6 +4965,15 @@
       "n8n",
       "n8n-20",
       "n8n-v2"
+    ],
+    "pros": [
+      "Comprehensive feature set",
+      "Task automation",
+      "Workflow integration"
+    ],
+    "cons": [
+      "Initial configuration",
+      "Platform dependencies"
     ]
   },
   {
@@ -2953,6 +4987,15 @@
       "claude-code-plugin",
       "claude-code-skill",
       "claude-code-skills"
+    ],
+    "pros": [
+      "Data extraction",
+      "Automation support",
+      "Multiple formats"
+    ],
+    "cons": [
+      "Site-specific tuning",
+      "Rate limiting considerations"
     ]
   },
   {
@@ -2964,6 +5007,15 @@
     "tags": [
       "agentic-skill",
       "claude-code-skill"
+    ],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -2978,6 +5030,15 @@
       "claude-code-skill",
       "open-standard",
       "quality-assurance"
+    ],
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -2992,6 +5053,15 @@
       "branding",
       "claude-code-skill",
       "corporate-identity"
+    ],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -3003,6 +5073,15 @@
     "tags": [
       "agentic-skill",
       "claude-code-skill"
+    ],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -3017,6 +5096,15 @@
       "claude-code-skill",
       "open-standard",
       "skill"
+    ],
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
     ]
   },
   {
@@ -3031,6 +5119,15 @@
       "claude-code",
       "claude-code-plugin",
       "claude-skill"
+    ],
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -3044,6 +5141,15 @@
       "claude-skill",
       "jina-ai-reader",
       "markdown"
+    ],
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -3058,6 +5164,15 @@
       "8k",
       "agent-tools",
       "anthropic"
+    ],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -3071,6 +5186,15 @@
       "claude",
       "claude-code",
       "claude-skill"
+    ],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -3085,6 +5209,15 @@
       "claude-skill",
       "developer-tools",
       "flaky-tests"
+    ],
+    "pros": [
+      "AI-powered",
+      "Developer-focused",
+      "Workflow integration"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
     ]
   },
   {
@@ -3098,6 +5231,15 @@
       "claude",
       "claude-code",
       "claude-skill"
+    ],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -3112,6 +5254,15 @@
       "claude-skills",
       "linear",
       "linear-mcp"
+    ],
+    "pros": [
+      "AI-powered",
+      "Time-saving",
+      "Task automation"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
     ]
   },
   {
@@ -3126,6 +5277,15 @@
       "claude-skill",
       "jailbreak",
       "llm-security"
+    ],
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -3137,6 +5297,15 @@
       "agent-skills",
       "claude-skill",
       "claude-skills"
+    ],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -3151,6 +5320,15 @@
       "huggingface-transformers",
       "machine-learning-models",
       "predictive-analytics-library"
+    ],
+    "pros": [
+      "Data insights",
+      "Visualization support",
+      "Analysis automation"
+    ],
+    "cons": [
+      "Data format requirements",
+      "Large datasets need tuning"
     ]
   },
   {
@@ -3165,6 +5343,15 @@
       "claude-code",
       "claude-skill",
       "cli"
+    ],
+    "pros": [
+      "Automation support",
+      "Developer-focused",
+      "Workflow integration"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
     ]
   },
   {
@@ -3176,6 +5363,15 @@
     "tags": [
       "agentic-skill",
       "claude-code-skill"
+    ],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -3190,6 +5386,15 @@
       "claude-skills",
       "dependencies",
       "howopen"
+    ],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -3201,6 +5406,15 @@
     "tags": [
       "agentic-skill",
       "claude-code-skill"
+    ],
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Python required",
+      "Setup required"
     ]
   },
   {
@@ -3215,6 +5429,15 @@
       "claude-code-skill",
       "contribution",
       "gerrit"
+    ],
+    "pros": [
+      "Automation support",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -3226,6 +5449,15 @@
     "tags": [
       "agentic-skill",
       "claude-code-skill"
+    ],
+    "pros": [
+      "Creative flexibility",
+      "Visual output",
+      "Customizable styles"
+    ],
+    "cons": [
+      "Requires design context",
+      "Output quality varies"
     ]
   },
   {
@@ -3240,6 +5472,15 @@
       "claude-code-skill",
       "code-explorer",
       "developer-tools"
+    ],
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
     ]
   },
   {
@@ -3251,6 +5492,15 @@
     "tags": [
       "agentic-skill",
       "claude-code-skill"
+    ],
+    "pros": [
+      "Automation support",
+      "AI-powered",
+      "API integration"
+    ],
+    "cons": [
+      "Large files may be slow",
+      "Format-specific limitations"
     ]
   },
   {
@@ -3265,6 +5515,15 @@
       "claude-code-skill",
       "devsecops",
       "enterprise"
+    ],
+    "pros": [
+      "Automation support",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -3279,6 +5538,15 @@
       "claude-code-plugin",
       "claude-code-skill",
       "csv"
+    ],
+    "pros": [
+      "Data insights",
+      "Visualization support",
+      "Analysis automation"
+    ],
+    "cons": [
+      "Data format requirements",
+      "Large datasets need tuning"
     ]
   },
   {
@@ -3293,6 +5561,15 @@
       "claude",
       "claude-code",
       "claude-code-skill"
+    ],
+    "pros": [
+      "Comprehensive feature set",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -3306,6 +5583,15 @@
       "claude-code-skill",
       "gemini",
       "gemini-cli"
+    ],
+    "pros": [
+      "Automation support",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -3320,6 +5606,15 @@
       "agentic-workflow",
       "claude",
       "claude-code"
+    ],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -3334,6 +5629,15 @@
       "frontend",
       "react",
       "svg-icons"
+    ],
+    "pros": [
+      "Creative flexibility",
+      "Visual output",
+      "Customizable styles"
+    ],
+    "cons": [
+      "Requires design context",
+      "Output quality varies"
     ]
   },
   {
@@ -3348,6 +5652,14 @@
       "claude-skill",
       "claude-skills",
       "shopping"
+    ],
+    "pros": [
+      "Automation support",
+      "AI-powered"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
     ]
   },
   {
@@ -3362,6 +5674,15 @@
       "claude-skill",
       "claude-skills",
       "llm"
+    ],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -3376,6 +5697,15 @@
       "developer-tools",
       "npm-audit",
       "security"
+    ],
+    "pros": [
+      "Security-focused",
+      "Best practices",
+      "Threat awareness"
+    ],
+    "cons": [
+      "Requires security knowledge",
+      "Context-dependent"
     ]
   },
   {
@@ -3389,6 +5719,15 @@
       "claude-skill",
       "claude-skills",
       "skills"
+    ],
+    "pros": [
+      "Business-focused",
+      "Professional output",
+      "Brand consistency"
+    ],
+    "cons": [
+      "Industry-specific",
+      "Customization needed"
     ]
   },
   {
@@ -3402,6 +5741,14 @@
       "claude-code-skill",
       "langgraph",
       "langgraph-python"
+    ],
+    "pros": [
+      "AI-powered",
+      "Multi-format support"
+    ],
+    "cons": [
+      "Python required",
+      "API costs may apply"
     ]
   },
   {
@@ -3416,6 +5763,15 @@
       "claude-code-skill",
       "http-payments",
       "micropayments"
+    ],
+    "pros": [
+      "API integration",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -3430,6 +5786,14 @@
       "claude-code-skill",
       "firebase",
       "netlify"
+    ],
+    "pros": [
+      "Comprehensive feature set",
+      "AI-powered"
+    ],
+    "cons": [
+      "Large files may be slow",
+      "Format-specific limitations"
     ]
   },
   {
@@ -3442,6 +5806,15 @@
       "claude-code-plugin",
       "claude-code-skill",
       "claude-code-skills"
+    ],
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
     ]
   },
   {
@@ -3456,6 +5829,15 @@
       "claude-code-skill",
       "postgresql",
       "vector-search"
+    ],
+    "pros": [
+      "Data insights",
+      "Visualization support",
+      "Analysis automation"
+    ],
+    "cons": [
+      "Python required",
+      "Data format requirements"
     ]
   },
   {
@@ -3467,6 +5849,15 @@
     "tags": [
       "agentic-skill",
       "claude-code-skill"
+    ],
+    "pros": [
+      "Automation support",
+      "Task automation",
+      "Workflow integration"
+    ],
+    "cons": [
+      "Initial configuration",
+      "Platform dependencies"
     ]
   },
   {
@@ -3479,6 +5870,15 @@
       "agentic-skill",
       "claude-code-skill",
       "typescript"
+    ],
+    "pros": [
+      "Easy integration",
+      "Developer-focused",
+      "Workflow integration"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
     ]
   },
   {
@@ -3490,6 +5890,15 @@
     "tags": [
       "agentic-skill",
       "claude-code-skill"
+    ],
+    "pros": [
+      "CI/CD integration",
+      "Automation support",
+      "Deployment ready"
+    ],
+    "cons": [
+      "Infrastructure knowledge needed",
+      "Platform-specific"
     ]
   },
   {
@@ -3504,6 +5913,15 @@
       "claude",
       "claude-code",
       "claude-code-skill"
+    ],
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -3515,6 +5933,15 @@
     "tags": [
       "agentic-skill",
       "claude-code-skill"
+    ],
+    "pros": [
+      "Batch processing",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ]
   },
   {
@@ -3526,6 +5953,15 @@
     "tags": [
       "claude-code-skill",
       "claude-skills"
+    ],
+    "pros": [
+      "Multi-format support",
+      "Developer-focused",
+      "Workflow integration"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
     ]
   }
 ]

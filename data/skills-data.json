@@ -168,6 +168,14 @@
     "updatedAt": "2026-01-15T23:21:02Z",
     "featured": true,
     "skillPath": "skills/algorithmic-art",
+    "pros": [
+      "Official Anthropic skill",
+      "Community favorite"
+    ],
+    "cons": [
+      "Requires design context",
+      "Output quality varies"
+    ],
     "rating": 4.6
   },
   {
@@ -194,6 +202,14 @@
     "createdAt": "2025-09-22T15:53:31Z",
     "updatedAt": "2026-01-15T23:21:02Z",
     "skillPath": "skills/canvas-design",
+    "pros": [
+      "Official Anthropic skill",
+      "Visual output"
+    ],
+    "cons": [
+      "Requires design context",
+      "Output quality varies"
+    ],
     "rating": 4.4
   },
   {
@@ -220,6 +236,14 @@
     "createdAt": "2025-09-22T15:53:31Z",
     "updatedAt": "2026-01-15T23:21:02Z",
     "skillPath": "skills/slack-gif-creator",
+    "pros": [
+      "Official Anthropic skill",
+      "AI-powered"
+    ],
+    "cons": [
+      "Requires design context",
+      "Output quality varies"
+    ],
     "rating": 4.2
   },
   {
@@ -352,6 +376,15 @@
     "createdAt": "2025-09-22T15:53:31Z",
     "updatedAt": "2026-01-15T23:21:02Z",
     "skillPath": "skills/webapp-testing",
+    "pros": [
+      "Official Anthropic skill",
+      "Developer-focused",
+      "Workflow integration"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ],
     "rating": 4.3
   },
   {
@@ -378,6 +411,15 @@
     "createdAt": "2025-09-22T15:53:31Z",
     "updatedAt": "2026-01-15T23:21:02Z",
     "skillPath": "skills/brand-guidelines",
+    "pros": [
+      "Official Anthropic skill",
+      "Business-focused",
+      "Professional output"
+    ],
+    "cons": [
+      "Industry-specific",
+      "Customization needed"
+    ],
     "rating": 4.1
   },
   {
@@ -404,6 +446,15 @@
     "createdAt": "2025-09-22T15:53:31Z",
     "updatedAt": "2026-01-15T23:21:02Z",
     "skillPath": "skills/internal-comms",
+    "pros": [
+      "Official Anthropic skill",
+      "Clear communication",
+      "Template support"
+    ],
+    "cons": [
+      "Style preferences vary",
+      "Context needed"
+    ],
     "rating": 4
   },
   {
@@ -430,6 +481,15 @@
     "createdAt": "2025-09-22T15:53:31Z",
     "updatedAt": "2026-01-15T23:21:02Z",
     "skillPath": "skills/skill-creator",
+    "pros": [
+      "Official Anthropic skill",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 4.4
   },
   {
@@ -457,6 +517,14 @@
     "installCommand": "git clone https://github.com/CherryHQ/cherry-studio.git",
     "createdAt": "2024-05-24T01:56:26Z",
     "updatedAt": "2026-01-16T14:38:53Z",
+    "pros": [
+      "Automation support",
+      "AI-powered"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 4.8
   },
   {
@@ -484,6 +552,15 @@
     "installCommand": "git clone https://github.com/wshobson/agents.git",
     "createdAt": "2025-07-24T23:28:14Z",
     "updatedAt": "2026-01-16T14:39:14Z",
+    "pros": [
+      "Automation support",
+      "AI-powered",
+      "Multi-format support"
+    ],
+    "cons": [
+      "Initial configuration",
+      "Platform dependencies"
+    ],
     "rating": 4.7
   },
   {
@@ -510,6 +587,15 @@
     "createdAt": "2025-10-09T19:45:18Z",
     "updatedAt": "2026-01-15T23:22:19Z",
     "featured": true,
+    "pros": [
+      "Community favorite",
+      "Developer-focused",
+      "Workflow integration"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ],
     "rating": 4.9
   },
   {
@@ -535,6 +621,15 @@
     "installCommand": "git clone https://github.com/obra/superpowers-lab.git",
     "createdAt": "2025-10-09T19:45:18Z",
     "updatedAt": "2026-01-15T23:22:19Z",
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ],
     "rating": 4.5
   },
   {
@@ -560,6 +655,15 @@
     "installCommand": "git clone https://github.com/conorluddy/ios-simulator-skill.git",
     "createdAt": "2025-10-09T19:45:18Z",
     "updatedAt": "2026-01-15T23:22:19Z",
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ],
     "rating": 4.3
   },
   {
@@ -585,6 +689,15 @@
     "installCommand": "git clone https://github.com/jthack/ffuf_claude_skill.git",
     "createdAt": "2025-10-09T19:45:18Z",
     "updatedAt": "2026-01-15T23:22:19Z",
+    "pros": [
+      "Security-focused",
+      "Best practices",
+      "Threat awareness"
+    ],
+    "cons": [
+      "Requires security knowledge",
+      "Context-dependent"
+    ],
     "rating": 4.4
   },
   {
@@ -610,6 +723,15 @@
     "installCommand": "git clone https://github.com/lackeyjb/playwright-skill.git",
     "createdAt": "2025-10-09T19:45:18Z",
     "updatedAt": "2026-01-15T23:22:19Z",
+    "pros": [
+      "Automation support",
+      "Developer-focused",
+      "Workflow integration"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ],
     "rating": 4.6
   },
   {
@@ -635,6 +757,15 @@
     "installCommand": "git clone https://github.com/chrisvoncsefalvay/claude-d3js-skill.git",
     "createdAt": "2025-10-09T19:45:18Z",
     "updatedAt": "2026-01-15T23:22:19Z",
+    "pros": [
+      "Visual output",
+      "Data insights",
+      "Visualization support"
+    ],
+    "cons": [
+      "Data format requirements",
+      "Large datasets need tuning"
+    ],
     "rating": 4.5
   },
   {
@@ -660,6 +791,15 @@
     "installCommand": "git clone https://github.com/K-Dense-AI/claude-scientific-skills.git",
     "createdAt": "2025-10-09T19:45:18Z",
     "updatedAt": "2026-01-15T23:22:19Z",
+    "pros": [
+      "Comprehensive feature set",
+      "Data insights",
+      "Visualization support"
+    ],
+    "cons": [
+      "Data format requirements",
+      "Large datasets need tuning"
+    ],
     "rating": 4.3
   },
   {
@@ -685,6 +825,15 @@
     "installCommand": "git clone https://github.com/alonw0/web-asset-generator.git",
     "createdAt": "2025-10-09T19:45:18Z",
     "updatedAt": "2026-01-15T23:22:19Z",
+    "pros": [
+      "Creative flexibility",
+      "Visual output",
+      "Customizable styles"
+    ],
+    "cons": [
+      "Requires design context",
+      "Output quality varies"
+    ],
     "rating": 4.2
   },
   {
@@ -712,114 +861,15 @@
     "installCommand": "git clone https://github.com/hesreallyhim/awesome-claude-code.git",
     "createdAt": "2025-04-19T20:55:59Z",
     "updatedAt": "2026-01-16T14:34:46Z",
-    "rating": 4.7
-  },
-  {
-    "id": "ComposioHQ-awesome-claude-skills",
-    "name": "Awesome Claude Skills",
-    "slug": "awesome-claude-skills",
-    "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
-    "aiDescription": "Awesome Claude Skills provides a curated list of awesome claude skills, resources, and tools for customizing claude ai workflows",
-    "seoContent": "## What is Awesome Claude Skills?\n\nAwesome Claude Skills is a skill for Claude Code that helps you a curated list of awesome claude skills, resources, and tools for customizing claude ai workflows. Install this skill to extend Claude's capabilities in your projects.\n\n## Key Features\n\n- Easy installation and setup\n- Seamless integration with Claude Code\n- Designed for developer productivity\n- Community-maintained and open source\n\n## Use Cases\n\n- **Development Workflows**: Integrate Awesome Claude Skills into your daily coding tasks\n- **Automation**: Automate repetitive tasks related to anthropic, anthropic-ai, anthropic-skills, awesome, awesome-lists\n- **Productivity**: Save time with AI-powered assistance\n\n## How to Get Started\n\nInstall Awesome Claude Skills by cloning the repository and placing it in your Claude Code skills directory. The skill will be automatically available in your next Claude Code session.\n\n## Why Use This Skill?\n\nAwesome Claude Skills extends Claude Code's capabilities, making it easier to work with anthropic, anthropic-ai, anthropic-skills, awesome, awesome-lists. Whether you're a beginner or an experienced developer, this skill can help streamline your workflow.",
-    "author": "ComposioHQ",
-    "githubUrl": "https://github.com/ComposioHQ/awesome-claude-skills",
-    "stars": 20152,
-    "forks": 2037,
-    "watchers": 20152,
-    "language": "Python",
-    "license": null,
-    "category": "ai-llm",
-    "tags": [
-      "anthropic",
-      "anthropic-ai",
-      "anthropic-skills",
-      "awesome",
-      "awesome-lists"
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
     ],
-    "installCommand": "git clone https://github.com/ComposioHQ/awesome-claude-skills.git",
-    "createdAt": "2025-10-17T07:15:01Z",
-    "updatedAt": "2026-01-16T14:33:44Z",
-    "rating": 4.7
-  },
-  {
-    "id": "travisvn-awesome-claude-skills",
-    "name": "Awesome Claude Skills",
-    "slug": "awesome-claude-skills",
-    "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows — particularly Claude Code",
-    "aiDescription": "Awesome Claude Skills provides a curated list of awesome claude skills, resources, and tools for customizing claude ai workflows — particularly claude code",
-    "seoContent": "## What is Awesome Claude Skills?\n\nAwesome Claude Skills is a skill for Claude Code that helps you a curated list of awesome claude skills, resources, and tools for customizing claude ai workflows — particularly claude code. Install this skill to extend Claude's capabilities in your projects.\n\n## Key Features\n\n- Easy installation and setup\n- Seamless integration with Claude Code\n- Designed for developer productivity\n- Community-maintained and open source\n\n## Use Cases\n\n- **Development Workflows**: Integrate Awesome Claude Skills into your daily coding tasks\n- **Automation**: Automate repetitive tasks related to agentic-coding, anthropic, awesome, awesome-list, awesome-lists\n- **Productivity**: Save time with AI-powered assistance\n\n## How to Get Started\n\nInstall Awesome Claude Skills by cloning the repository and placing it in your Claude Code skills directory. The skill will be automatically available in your next Claude Code session.\n\n## Why Use This Skill?\n\nAwesome Claude Skills extends Claude Code's capabilities, making it easier to work with agentic-coding, anthropic, awesome, awesome-list, awesome-lists. Whether you're a beginner or an experienced developer, this skill can help streamline your workflow.",
-    "author": "travisvn",
-    "githubUrl": "https://github.com/travisvn/awesome-claude-skills",
-    "stars": 20152,
-    "forks": 2037,
-    "watchers": 20152,
-    "language": "Python",
-    "license": null,
-    "category": "ai-llm",
-    "tags": [
-      "agentic-coding",
-      "anthropic",
-      "awesome",
-      "awesome-list",
-      "awesome-lists"
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ],
-    "installCommand": "git clone https://github.com/travisvn/awesome-claude-skills.git",
-    "createdAt": "2025-10-17T07:15:01Z",
-    "updatedAt": "2026-01-16T14:33:44Z",
-    "rating": 4.7
-  },
-  {
-    "id": "VoltAgent-awesome-claude-skills",
-    "name": "Awesome Claude Skills",
-    "slug": "awesome-claude-skills",
-    "description": "The awesome collection of Claude Skills and resources.",
-    "aiDescription": "Awesome Claude Skills provides the awesome collection of claude skills and resources.",
-    "seoContent": "## What is Awesome Claude Skills?\n\nAwesome Claude Skills is a skill for Claude Code that helps you the awesome collection of claude skills and resources.. Install this skill to extend Claude's capabilities in your projects.\n\n## Key Features\n\n- Easy installation and setup\n- Seamless integration with Claude Code\n- Designed for developer productivity\n- Community-maintained and open source\n\n## Use Cases\n\n- **Development Workflows**: Integrate Awesome Claude Skills into your daily coding tasks\n- **Automation**: Automate repetitive tasks related to ai-agents, awesome-list, claude, claude-ai, claude-code\n- **Productivity**: Save time with AI-powered assistance\n\n## How to Get Started\n\nInstall Awesome Claude Skills by cloning the repository and placing it in your Claude Code skills directory. The skill will be automatically available in your next Claude Code session.\n\n## Why Use This Skill?\n\nAwesome Claude Skills extends Claude Code's capabilities, making it easier to work with ai-agents, awesome-list, claude, claude-ai, claude-code. Whether you're a beginner or an experienced developer, this skill can help streamline your workflow.",
-    "author": "VoltAgent",
-    "githubUrl": "https://github.com/VoltAgent/awesome-claude-skills",
-    "stars": 20152,
-    "forks": 2037,
-    "watchers": 20152,
-    "language": "Python",
-    "license": null,
-    "category": "ai-llm",
-    "tags": [
-      "ai-agents",
-      "awesome-list",
-      "claude",
-      "claude-ai",
-      "claude-code"
-    ],
-    "installCommand": "git clone https://github.com/VoltAgent/awesome-claude-skills.git",
-    "createdAt": "2025-10-17T07:15:01Z",
-    "updatedAt": "2026-01-16T14:33:44Z",
-    "rating": 4.7
-  },
-  {
-    "id": "ozankasikci-awesome-claude-skills",
-    "name": "Awesome Claude Skills",
-    "slug": "awesome-claude-skills",
-    "description": "A curated collection of useful Claude Skills, resources, and tools",
-    "aiDescription": "Awesome Claude Skills provides a curated collection of useful claude skills, resources, and tools",
-    "seoContent": "## What is Awesome Claude Skills?\n\nAwesome Claude Skills is a skill for Claude Code that helps you a curated collection of useful claude skills, resources, and tools. Install this skill to extend Claude's capabilities in your projects.\n\n## Key Features\n\n- Easy installation and setup\n- Seamless integration with Claude Code\n- Designed for developer productivity\n- Community-maintained and open source\n\n## Use Cases\n\n- **Development Workflows**: Integrate Awesome Claude Skills into your daily coding tasks\n- **Automation**: Automate repetitive tasks related to ai, claude, claude-skill, claude-skills, llm\n- **Productivity**: Save time with AI-powered assistance\n\n## How to Get Started\n\nInstall Awesome Claude Skills by cloning the repository and placing it in your Claude Code skills directory. The skill will be automatically available in your next Claude Code session.\n\n## Why Use This Skill?\n\nAwesome Claude Skills extends Claude Code's capabilities, making it easier to work with ai, claude, claude-skill, claude-skills, llm. Whether you're a beginner or an experienced developer, this skill can help streamline your workflow.",
-    "author": "ozankasikci",
-    "githubUrl": "https://github.com/ozankasikci/awesome-claude-skills",
-    "stars": 20152,
-    "forks": 2037,
-    "watchers": 20152,
-    "language": "Python",
-    "license": null,
-    "category": "ai-llm",
-    "tags": [
-      "ai",
-      "claude",
-      "claude-skill",
-      "claude-skills",
-      "llm"
-    ],
-    "installCommand": "git clone https://github.com/ozankasikci/awesome-claude-skills.git",
-    "createdAt": "2025-10-17T07:15:01Z",
-    "updatedAt": "2026-01-16T14:33:44Z",
     "rating": 4.7
   },
   {
@@ -847,6 +897,15 @@
     "installCommand": "git clone https://github.com/winfunc/opcode.git",
     "createdAt": "2025-06-19T13:53:26Z",
     "updatedAt": "2026-01-16T14:09:56Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 4.7
   },
   {
@@ -874,6 +933,15 @@
     "installCommand": "git clone https://github.com/oraios/serena.git",
     "createdAt": "2025-03-23T22:35:24Z",
     "updatedAt": "2026-01-16T14:14:49Z",
+    "pros": [
+      "Easy integration",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 4.6
   },
   {
@@ -901,6 +969,15 @@
     "installCommand": "git clone https://github.com/code-yeongyu/oh-my-opencode.git",
     "createdAt": "2025-12-03T01:40:05Z",
     "updatedAt": "2026-01-16T14:39:59Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 4.6
   },
   {
@@ -928,6 +1005,14 @@
     "installCommand": "git clone https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git",
     "createdAt": "2025-11-30T11:36:31Z",
     "updatedAt": "2026-01-16T14:40:45Z",
+    "pros": [
+      "AI-powered",
+      "Multi-format support"
+    ],
+    "cons": [
+      "Requires design context",
+      "Output quality varies"
+    ],
     "rating": 4.6
   },
   {
@@ -953,6 +1038,15 @@
     "installCommand": "git clone https://github.com/shareAI-lab/learn-claude-code.git",
     "createdAt": "2025-06-29T15:34:15Z",
     "updatedAt": "2026-01-16T14:16:23Z",
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 4.6
   },
   {
@@ -980,6 +1074,14 @@
     "installCommand": "git clone https://github.com/thedotmack/claude-mem.git",
     "createdAt": "2025-08-31T20:50:03Z",
     "updatedAt": "2026-01-16T14:38:40Z",
+    "pros": [
+      "Automation support",
+      "AI-powered"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 4.6
   },
   {
@@ -1007,6 +1109,15 @@
     "installCommand": "git clone https://github.com/ruvnet/claude-flow.git",
     "createdAt": "2025-06-02T21:24:20Z",
     "updatedAt": "2026-01-16T14:41:01Z",
+    "pros": [
+      "Easy integration",
+      "AI-powered",
+      "Multi-format support"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 4.5
   },
   {
@@ -1034,6 +1145,15 @@
     "installCommand": "git clone https://github.com/farion1231/cc-switch.git",
     "createdAt": "2025-08-04T14:16:16Z",
     "updatedAt": "2026-01-16T14:38:40Z",
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ],
     "rating": 4.5
   },
   {
@@ -1059,6 +1179,15 @@
     "installCommand": "git clone https://github.com/steveyegge/beads.git",
     "createdAt": "2025-10-12T03:09:46Z",
     "updatedAt": "2026-01-16T14:40:42Z",
+    "pros": [
+      "Business-focused",
+      "Professional output",
+      "Brand consistency"
+    ],
+    "cons": [
+      "Industry-specific",
+      "Customization needed"
+    ],
     "rating": 4.5
   },
   {
@@ -1086,6 +1215,15 @@
     "installCommand": "git clone https://github.com/OthmanAdi/planning-with-files.git",
     "createdAt": "2026-01-03T07:37:28Z",
     "updatedAt": "2026-01-16T14:37:13Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 4.5
   },
   {
@@ -1113,6 +1251,15 @@
     "installCommand": "git clone https://github.com/mcp-use/mcp-use.git",
     "createdAt": "2025-03-28T10:06:31Z",
     "updatedAt": "2026-01-16T13:27:45Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 4.5
   },
   {
@@ -1140,6 +1287,15 @@
     "installCommand": "git clone https://github.com/humanlayer/humanlayer.git",
     "createdAt": "2024-08-05T21:26:44Z",
     "updatedAt": "2026-01-16T14:33:48Z",
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 4.5
   },
   {
@@ -1167,6 +1323,15 @@
     "installCommand": "git clone https://github.com/slopus/happy.git",
     "createdAt": "2025-07-18T05:53:18Z",
     "updatedAt": "2026-01-16T14:39:58Z",
+    "pros": [
+      "Real-time processing",
+      "Time-saving",
+      "Task automation"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
+    ],
     "rating": 4.4
   },
   {
@@ -1188,6 +1353,14 @@
     "installCommand": "git clone https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering.git",
     "createdAt": "2025-12-21T02:43:42Z",
     "updatedAt": "2026-01-16T14:11:15Z",
+    "pros": [
+      "Comprehensive feature set",
+      "Multi-format support"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ],
     "rating": 4.4
   },
   {
@@ -1215,6 +1388,15 @@
     "installCommand": "git clone https://github.com/Wei-Shaw/claude-relay-service.git",
     "createdAt": "2025-07-14T10:11:32Z",
     "updatedAt": "2026-01-16T13:31:05Z",
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 4.4
   },
   {
@@ -1242,6 +1424,14 @@
     "installCommand": "git clone https://github.com/router-for-me/CLIProxyAPI.git",
     "createdAt": "2025-07-01T19:43:27Z",
     "updatedAt": "2026-01-16T14:40:49Z",
+    "pros": [
+      "AI-powered",
+      "API integration"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 4.4
   },
   {
@@ -1269,6 +1459,15 @@
     "installCommand": "git clone https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor.git",
     "createdAt": "2025-06-19T00:00:05Z",
     "updatedAt": "2026-01-16T12:18:53Z",
+    "pros": [
+      "Real-time processing",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 4.4
   },
   {
@@ -1296,6 +1495,15 @@
     "installCommand": "git clone https://github.com/olimorris/codecompanion.nvim.git",
     "createdAt": "2023-12-27T17:32:51Z",
     "updatedAt": "2026-01-16T09:41:44Z",
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 4.4
   },
   {
@@ -1323,6 +1531,15 @@
     "installCommand": "git clone https://github.com/siteboon/claudecodeui.git",
     "createdAt": "2025-06-25T12:51:12Z",
     "updatedAt": "2026-01-16T14:13:55Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 4.4
   },
   {
@@ -1350,6 +1567,15 @@
     "installCommand": "git clone https://github.com/UfoMiao/zcf.git",
     "createdAt": "2025-07-30T06:09:00Z",
     "updatedAt": "2026-01-16T14:30:57Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 4.4
   },
   {
@@ -1377,6 +1603,15 @@
     "installCommand": "git clone https://github.com/zilliztech/claude-context.git",
     "createdAt": "2025-06-06T02:12:47Z",
     "updatedAt": "2026-01-16T14:31:17Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 4.4
   },
   {
@@ -1404,6 +1639,15 @@
     "installCommand": "git clone https://github.com/iOfficeAI/AionUi.git",
     "createdAt": "2025-08-07T10:29:51Z",
     "updatedAt": "2026-01-16T14:39:41Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 4.3
   },
   {
@@ -1429,6 +1673,15 @@
     "installCommand": "git clone https://github.com/anthropics/claude-plugins-official.git",
     "createdAt": "2025-11-20T18:36:20Z",
     "updatedAt": "2026-01-16T14:22:22Z",
+    "pros": [
+      "Official Anthropic skill",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 4.3
   },
   {
@@ -1456,6 +1709,15 @@
     "installCommand": "git clone https://github.com/opactorai/Claudable.git",
     "createdAt": "2025-08-20T05:15:16Z",
     "updatedAt": "2026-01-16T14:30:16Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 4.3
   },
   {
@@ -1483,6 +1745,15 @@
     "installCommand": "git clone https://github.com/parcadei/Continuous-Claude-v3.git",
     "createdAt": "2025-12-23T00:12:49Z",
     "updatedAt": "2026-01-16T14:09:29Z",
+    "pros": [
+      "AI-powered",
+      "Developer-focused",
+      "Workflow integration"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ],
     "rating": 4.3
   },
   {
@@ -1510,6 +1781,14 @@
     "installCommand": "git clone https://github.com/su-kaka/gcli2api.git",
     "createdAt": "2025-08-14T11:54:36Z",
     "updatedAt": "2026-01-16T14:39:59Z",
+    "pros": [
+      "AI-powered",
+      "API integration"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 4.3
   },
   {
@@ -1536,6 +1815,15 @@
     "installCommand": "git clone https://github.com/glittercowboy/get-shit-done.git",
     "createdAt": "2025-12-14T14:17:12Z",
     "updatedAt": "2026-01-16T14:40:37Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 4.2
   },
   {
@@ -1561,6 +1849,15 @@
     "installCommand": "git clone https://github.com/Piebald-AI/claude-code-system-prompts.git",
     "createdAt": "2025-11-18T21:26:33Z",
     "updatedAt": "2026-01-16T14:24:16Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 4.2
   },
   {
@@ -1588,6 +1885,15 @@
     "installCommand": "git clone https://github.com/zebbern/claude-code-guide.git",
     "createdAt": "2025-06-21T20:43:25Z",
     "updatedAt": "2026-01-16T13:26:38Z",
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ],
     "rating": 4.2
   },
   {
@@ -1613,6 +1919,15 @@
     "installCommand": "git clone https://github.com/SawyerHood/dev-browser.git",
     "createdAt": "2025-12-02T19:20:20Z",
     "updatedAt": "2026-01-16T14:40:41Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 4.2
   },
   {
@@ -1640,6 +1955,14 @@
     "installCommand": "git clone https://github.com/stravu/crystal.git",
     "createdAt": "2025-06-05T23:54:39Z",
     "updatedAt": "2026-01-16T10:18:49Z",
+    "pros": [
+      "AI-powered",
+      "Multi-format support"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 4.2
   },
   {
@@ -1667,6 +1990,15 @@
     "installCommand": "git clone https://github.com/breaking-brake/cc-wf-studio.git",
     "createdAt": "2025-11-01T16:04:15Z",
     "updatedAt": "2026-01-16T14:40:18Z",
+    "pros": [
+      "Task automation",
+      "Workflow integration",
+      "Time-saving"
+    ],
+    "cons": [
+      "Initial configuration",
+      "Platform dependencies"
+    ],
     "rating": 4.2
   },
   {
@@ -1694,6 +2026,15 @@
     "installCommand": "git clone https://github.com/brennercruvinel/CCPlugins.git",
     "createdAt": "2025-07-25T03:20:54Z",
     "updatedAt": "2026-01-15T19:59:02Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 4.2
   },
   {
@@ -1721,6 +2062,15 @@
     "installCommand": "git clone https://github.com/glitternetwork/pinme.git",
     "createdAt": "2025-04-13T01:41:33Z",
     "updatedAt": "2026-01-16T14:14:42Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 4.2
   },
   {
@@ -1748,6 +2098,15 @@
     "installCommand": "git clone https://github.com/jarrodwatts/claude-hud.git",
     "createdAt": "2026-01-02T01:35:07Z",
     "updatedAt": "2026-01-16T13:57:55Z",
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ],
     "rating": 4.2
   },
   {
@@ -1774,6 +2133,15 @@
     "installCommand": "git clone https://github.com/steipete/CodexBar.git",
     "createdAt": "2025-11-16T17:00:44Z",
     "updatedAt": "2026-01-16T14:23:03Z",
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 4.2
   },
   {
@@ -1801,6 +2169,15 @@
     "installCommand": "git clone https://github.com/gotalab/cc-sdd.git",
     "createdAt": "2025-07-17T04:41:37Z",
     "updatedAt": "2026-01-16T10:39:07Z",
+    "pros": [
+      "AI-powered",
+      "Creative flexibility",
+      "Visual output"
+    ],
+    "cons": [
+      "Requires design context",
+      "Output quality varies"
+    ],
     "rating": 4.2
   },
   {
@@ -1828,6 +2205,15 @@
     "installCommand": "git clone https://github.com/intellectronica/ruler.git",
     "createdAt": "2025-05-20T08:22:59Z",
     "updatedAt": "2026-01-16T06:31:43Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 4.2
   },
   {
@@ -1855,6 +2241,15 @@
     "installCommand": "git clone https://github.com/davepoon/buildwithclaude.git",
     "createdAt": "2025-07-25T02:26:45Z",
     "updatedAt": "2026-01-16T11:26:55Z",
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ],
     "rating": 4.2
   },
   {
@@ -1882,6 +2277,15 @@
     "installCommand": "git clone https://github.com/folke/sidekick.nvim.git",
     "createdAt": "2025-09-26T10:26:48Z",
     "updatedAt": "2026-01-16T14:07:49Z",
+    "pros": [
+      "AI-powered",
+      "Developer-focused",
+      "Workflow integration"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ],
     "rating": 4.2
   },
   {
@@ -1909,6 +2313,15 @@
     "installCommand": "git clone https://github.com/FullAgent/fulling.git",
     "createdAt": "2025-10-11T02:31:07Z",
     "updatedAt": "2026-01-16T12:55:34Z",
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "Docker required",
+      "API costs may apply"
+    ],
     "rating": 4.2
   },
   {
@@ -1934,6 +2347,14 @@
     "installCommand": "git clone https://github.com/asklokesh/claudeskill-loki-mode.git",
     "createdAt": "2025-11-18T01:07:24Z",
     "updatedAt": "2026-01-15T21:24:42Z",
+    "pros": [
+      "AI-powered",
+      "Multi-format support"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 4.7
   },
   {
@@ -1960,6 +2381,15 @@
     "createdAt": "2025-10-20T05:51:27Z",
     "updatedAt": "2026-01-16T14:37:15Z",
     "featured": true,
+    "pros": [
+      "Community favorite",
+      "Automation support",
+      "Template support"
+    ],
+    "cons": [
+      "Node.js required",
+      "Initial configuration"
+    ],
     "rating": 4.1
   },
   {
@@ -1981,6 +2411,15 @@
     "installCommand": "git clone https://github.com/euphrat1ca/Security-List.git",
     "createdAt": "2018-01-04T05:44:58Z",
     "updatedAt": "2026-01-15T07:41:13Z",
+    "pros": [
+      "Creative flexibility",
+      "Visual output",
+      "Customizable styles"
+    ],
+    "cons": [
+      "Requires design context",
+      "Output quality varies"
+    ],
     "rating": 4.1
   },
   {
@@ -2002,6 +2441,15 @@
     "installCommand": "git clone https://github.com/Dicklesworthstone/mcp_agent_mail.git",
     "createdAt": "2025-10-23T03:42:36Z",
     "updatedAt": "2026-01-16T11:34:02Z",
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 4.1
   },
   {
@@ -2027,6 +2475,14 @@
     "installCommand": "git clone https://github.com/mrgoonie/claudekit-skills.git",
     "createdAt": "2025-10-23T04:43:54Z",
     "updatedAt": "2026-01-16T14:21:08Z",
+    "pros": [
+      "Automation support",
+      "API integration"
+    ],
+    "cons": [
+      "Site-specific tuning",
+      "Rate limiting considerations"
+    ],
     "rating": 4.1
   },
   {
@@ -2052,6 +2508,15 @@
     "installCommand": "git clone https://github.com/smtg-ai/claude-squad.git",
     "createdAt": "2025-10-25T23:41:20Z",
     "updatedAt": "2026-01-15T22:09:49Z",
+    "pros": [
+      "Multi-format support",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 4.7
   },
   {
@@ -2073,6 +2538,15 @@
     "installCommand": "git clone https://github.com/agentscope-ai/agentscope-java.git",
     "createdAt": "2025-09-23T04:37:43Z",
     "updatedAt": "2026-01-16T14:03:26Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 4
   },
   {
@@ -2098,6 +2572,14 @@
     "installCommand": "git clone https://github.com/makafeli/n8n-workflow-builder.git",
     "createdAt": "2025-01-14T21:43:54Z",
     "updatedAt": "2026-01-16T07:27:53Z",
+    "pros": [
+      "Automation support",
+      "AI-powered"
+    ],
+    "cons": [
+      "Initial configuration",
+      "Platform dependencies"
+    ],
     "rating": 3.8
   },
   {
@@ -2119,6 +2601,15 @@
     "installCommand": "git clone https://github.com/ninehills/PatentWriterAgent.git",
     "createdAt": "2025-10-21T03:14:53Z",
     "updatedAt": "2026-01-13T15:37:00Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3.8
   },
   {
@@ -2145,6 +2636,15 @@
     "createdAt": "2025-10-29T20:50:23Z",
     "updatedAt": "2026-01-15T14:57:13Z",
     "featured": true,
+    "pros": [
+      "Community favorite",
+      "SEO optimization",
+      "Search insights"
+    ],
+    "cons": [
+      "Algorithm changes",
+      "Results take time"
+    ],
     "rating": 3.7
   },
   {
@@ -2170,6 +2670,15 @@
     "installCommand": "git clone https://github.com/frankbria/ralph-claude-code.git",
     "createdAt": "2025-10-19T16:33:47Z",
     "updatedAt": "2026-01-15T23:06:55Z",
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 4.5
   },
   {
@@ -2197,6 +2706,15 @@
     "installCommand": "git clone https://github.com/peterfei/ai-agent-team.git",
     "createdAt": "2025-11-07T15:22:33Z",
     "updatedAt": "2026-01-16T10:34:43Z",
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3.7
   },
   {
@@ -2222,6 +2740,15 @@
     "installCommand": "git clone https://github.com/zippoxer/recall.git",
     "createdAt": "2025-11-05T13:47:09Z",
     "updatedAt": "2026-01-15T14:54:30Z",
+    "pros": [
+      "Time-saving",
+      "Task automation",
+      "Workflow optimization"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
+    ],
     "rating": 4.6
   },
   {
@@ -2247,6 +2774,15 @@
     "installCommand": "git clone https://github.com/fcakyon/claude-codex-settings.git",
     "createdAt": "2025-10-30T22:11:42Z",
     "updatedAt": "2026-01-15T19:25:42Z",
+    "pros": [
+      "Easy integration",
+      "Developer-focused",
+      "Workflow integration"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ],
     "rating": 4
   },
   {
@@ -2268,6 +2804,15 @@
     "installCommand": "git clone https://github.com/innovationacademy-kr/hitchhikers_guide.git",
     "createdAt": "2021-03-11T00:48:34Z",
     "updatedAt": "2025-11-26T09:25:28Z",
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ],
     "rating": 3.7
   },
   {
@@ -2293,6 +2838,15 @@
     "installCommand": "git clone https://github.com/carlrannaberg/claudekit.git",
     "createdAt": "2025-11-04T15:53:53Z",
     "updatedAt": "2026-01-15T03:32:12Z",
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ],
     "rating": 4.5
   },
   {
@@ -2318,6 +2872,15 @@
     "installCommand": "git clone https://github.com/NeoLabHQ/context-engineering-kit.git",
     "createdAt": "2025-11-09T21:07:16Z",
     "updatedAt": "2026-01-12T22:51:23Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 4.3
   },
   {
@@ -2343,6 +2906,15 @@
     "installCommand": "git clone https://github.com/ayoubben18/ab-method.git",
     "createdAt": "2025-11-15T14:45:06Z",
     "updatedAt": "2026-01-14T08:06:35Z",
+    "pros": [
+      "Time-saving",
+      "Task automation",
+      "Workflow optimization"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
+    ],
     "rating": 4.2
   },
   {
@@ -2368,6 +2940,15 @@
     "installCommand": "git clone https://github.com/yusufkaraaslan/Skill_Seekers.git",
     "createdAt": "2025-11-15T15:47:31Z",
     "updatedAt": "2026-01-15T16:23:07Z",
+    "pros": [
+      "Automation support",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 4.1
   },
   {
@@ -2393,6 +2974,15 @@
     "installCommand": "git clone https://github.com/GowayLee/cchooks.git",
     "createdAt": "2025-11-03T23:01:11Z",
     "updatedAt": "2026-01-15T11:42:45Z",
+    "pros": [
+      "API integration",
+      "Developer-focused",
+      "Workflow integration"
+    ],
+    "cons": [
+      "Python required",
+      "Setup required"
+    ],
     "rating": 4.4
   },
   {
@@ -2418,6 +3008,15 @@
     "installCommand": "git clone https://github.com/Veraticus/cc-tools.git",
     "createdAt": "2025-11-02T03:10:41Z",
     "updatedAt": "2026-01-14T07:16:48Z",
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Go runtime required",
+      "Setup required"
+    ],
     "rating": 4.4
   },
   {
@@ -2443,6 +3042,15 @@
     "installCommand": "git clone https://github.com/nyatinte/ccexp.git",
     "createdAt": "2025-10-24T19:08:54Z",
     "updatedAt": "2026-01-14T17:34:17Z",
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ],
     "rating": 4.2
   },
   {
@@ -2468,6 +3076,15 @@
     "installCommand": "git clone https://github.com/automazeio/ccpm.git",
     "createdAt": "2025-11-11T20:01:23Z",
     "updatedAt": "2026-01-13T13:00:02Z",
+    "pros": [
+      "Comprehensive feature set",
+      "Time-saving",
+      "Task automation"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
+    ],
     "rating": 4.1
   },
   {
@@ -2495,6 +3112,15 @@
     "installCommand": "git clone https://github.com/alirezarezvani/ClaudeForge.git",
     "createdAt": "2025-11-12T09:46:18Z",
     "updatedAt": "2026-01-16T13:17:18Z",
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3.6
   },
   {
@@ -2516,6 +3142,15 @@
     "installCommand": "git clone https://github.com/hancengiz/claude-code-prompt-coach-skill.git",
     "createdAt": "2025-11-09T11:09:39Z",
     "updatedAt": "2026-01-15T12:00:07Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3.5
   },
   {
@@ -2537,6 +3172,15 @@
     "installCommand": "git clone https://github.com/entice/entice.git",
     "createdAt": "2013-08-18T01:07:59Z",
     "updatedAt": "2025-10-12T16:36:06Z",
+    "pros": [
+      "File format support",
+      "Batch processing",
+      "Format preservation"
+    ],
+    "cons": [
+      "Large files may be slow",
+      "Format-specific limitations"
+    ],
     "rating": 3.5
   },
   {
@@ -2558,69 +3202,15 @@
     "installCommand": "git clone https://github.com/XiaomingX/proxy-pool.git",
     "createdAt": "2024-11-26T12:57:48Z",
     "updatedAt": "2026-01-12T13:53:03Z",
-    "rating": 3.5
-  },
-  {
-    "id": "doongz-notes",
-    "name": "Notes",
-    "slug": "notes",
-    "description": "算法｜技能｜知识｜数学",
-    "aiDescription": "Notes provides 算法｜技能｜知识｜数学",
-    "seoContent": "## What is Notes?\n\nNotes is a skill for Claude Code that helps you 算法｜技能｜知识｜数学. Install this skill to extend Claude's capabilities in your projects.\n\n## Key Features\n\n- Easy installation and setup\n- Seamless integration with Claude Code\n- Designed for developer productivity\n- Community-maintained and open source\n\n## Use Cases\n\n- **Development Workflows**: Integrate Notes into your daily coding tasks\n- **Automation**: Automate repetitive tasks related to productivity\n- **Productivity**: Save time with AI-powered assistance\n\n## How to Get Started\n\nInstall Notes by cloning the repository and placing it in your Claude Code skills directory. The skill will be automatically available in your next Claude Code session.\n\n## Why Use This Skill?\n\nNotes extends Claude Code's capabilities, making it easier to work with productivity. Whether you're a beginner or an experienced developer, this skill can help streamline your workflow.",
-    "author": "doongz",
-    "githubUrl": "https://github.com/doongz/notes",
-    "stars": 105,
-    "forks": 24,
-    "watchers": 105,
-    "language": "Markdown",
-    "license": "CC-BY-SA-4.0",
-    "category": "productivity",
-    "tags": [],
-    "installCommand": "git clone https://github.com/doongz/notes.git",
-    "createdAt": "2021-09-21T05:40:57Z",
-    "updatedAt": "2025-11-12T07:47:27Z",
-    "rating": 3.5
-  },
-  {
-    "id": "parsaeisa-Notes",
-    "name": "Notes",
-    "slug": "notes",
-    "description": "",
-    "aiDescription": "Notes is a skill for Claude Code that enhances your development workflow.",
-    "seoContent": "## What is Notes?\n\nNotes is a skill for Claude Code that helps you enhance your development workflow. Install this skill to extend Claude's capabilities in your projects.\n\n## Key Features\n\n- Easy installation and setup\n- Seamless integration with Claude Code\n- Designed for developer productivity\n- Community-maintained and open source\n\n## Use Cases\n\n- **Development Workflows**: Integrate Notes into your daily coding tasks\n- **Automation**: Automate repetitive tasks related to productivity\n- **Productivity**: Save time with AI-powered assistance\n\n## How to Get Started\n\nInstall Notes by cloning the repository and placing it in your Claude Code skills directory. The skill will be automatically available in your next Claude Code session.\n\n## Why Use This Skill?\n\nNotes extends Claude Code's capabilities, making it easier to work with productivity. Whether you're a beginner or an experienced developer, this skill can help streamline your workflow.",
-    "author": "parsaeisa",
-    "githubUrl": "https://github.com/parsaeisa/Notes",
-    "stars": 105,
-    "forks": 24,
-    "watchers": 105,
-    "language": "Markdown",
-    "license": "CC-BY-SA-4.0",
-    "category": "productivity",
-    "tags": [],
-    "installCommand": "git clone https://github.com/parsaeisa/Notes.git",
-    "createdAt": "2021-09-21T05:40:57Z",
-    "updatedAt": "2025-11-12T07:47:27Z",
-    "rating": 3.5
-  },
-  {
-    "id": "xsjlmzs-Notes",
-    "name": "Notes",
-    "slug": "notes",
-    "description": "some learning notes",
-    "aiDescription": "Notes provides some learning notes",
-    "seoContent": "## What is Notes?\n\nNotes is a skill for Claude Code that helps you some learning notes. Install this skill to extend Claude's capabilities in your projects.\n\n## Key Features\n\n- Easy installation and setup\n- Seamless integration with Claude Code\n- Designed for developer productivity\n- Community-maintained and open source\n\n## Use Cases\n\n- **Development Workflows**: Integrate Notes into your daily coding tasks\n- **Automation**: Automate repetitive tasks related to productivity\n- **Productivity**: Save time with AI-powered assistance\n\n## How to Get Started\n\nInstall Notes by cloning the repository and placing it in your Claude Code skills directory. The skill will be automatically available in your next Claude Code session.\n\n## Why Use This Skill?\n\nNotes extends Claude Code's capabilities, making it easier to work with productivity. Whether you're a beginner or an experienced developer, this skill can help streamline your workflow.",
-    "author": "xsjlmzs",
-    "githubUrl": "https://github.com/xsjlmzs/Notes",
-    "stars": 105,
-    "forks": 24,
-    "watchers": 105,
-    "language": "Markdown",
-    "license": "CC-BY-SA-4.0",
-    "category": "productivity",
-    "tags": [],
-    "installCommand": "git clone https://github.com/xsjlmzs/Notes.git",
-    "createdAt": "2021-09-21T05:40:57Z",
-    "updatedAt": "2025-11-12T07:47:27Z",
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Python required",
+      "Setup required"
+    ],
     "rating": 3.5
   },
   {
@@ -2646,6 +3236,15 @@
     "installCommand": "git clone https://github.com/dtormoen/tsk.git",
     "createdAt": "2025-10-23T18:30:16Z",
     "updatedAt": "2026-01-15T02:56:34Z",
+    "pros": [
+      "CI/CD integration",
+      "Automation support",
+      "Deployment ready"
+    ],
+    "cons": [
+      "Docker required",
+      "Rust toolchain required"
+    ],
     "rating": 4.2
   },
   {
@@ -2671,6 +3270,15 @@
     "installCommand": "git clone https://github.com/nizos/tdd-guard.git",
     "createdAt": "2025-11-03T22:28:55Z",
     "updatedAt": "2026-01-15T18:45:07Z",
+    "pros": [
+      "Real-time processing",
+      "Developer-focused",
+      "Workflow integration"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ],
     "rating": 4.2
   },
   {
@@ -2697,6 +3305,15 @@
     "createdAt": "2025-01-30T16:45:53Z",
     "updatedAt": "2026-01-16T04:06:45Z",
     "skillPath": "skills/translations",
+    "pros": [
+      "Multi-language support",
+      "Consistent translations",
+      "Format preservation"
+    ],
+    "cons": [
+      "Context nuances",
+      "Review recommended"
+    ],
     "rating": 3.5
   },
   {
@@ -2723,6 +3340,15 @@
     "createdAt": "2023-07-27T02:03:01Z",
     "updatedAt": "2026-01-11T15:34:26Z",
     "featured": true,
+    "pros": [
+      "Community favorite",
+      "AI-powered",
+      "Multi-format support"
+    ],
+    "cons": [
+      "Context nuances",
+      "Review recommended"
+    ],
     "rating": 3.5
   },
   {
@@ -2746,6 +3372,15 @@
     "installCommand": "git clone https://github.com/axiaoge2/Apple-Hig-Designer.git",
     "createdAt": "2025-12-12T16:36:56Z",
     "updatedAt": "2026-01-16T05:53:00Z",
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ],
     "rating": 3.5
   },
   {
@@ -2771,6 +3406,15 @@
     "installCommand": "git clone https://github.com/vijaythecoder/awesome-claude-agents.git",
     "createdAt": "2025-10-26T22:30:46Z",
     "updatedAt": "2026-01-15T19:30:25Z",
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3.5
   },
   {
@@ -2796,6 +3440,15 @@
     "installCommand": "git clone https://github.com/snipeship/ccflare.git",
     "createdAt": "2025-10-26T23:34:30Z",
     "updatedAt": "2026-01-14T09:40:22Z",
+    "pros": [
+      "Comprehensive feature set",
+      "Time-saving",
+      "Task automation"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
+    ],
     "rating": 4.1
   },
   {
@@ -2821,6 +3474,15 @@
     "installCommand": "git clone https://github.com/ThibautMelen/agentic-workflow-patterns.git",
     "createdAt": "2025-11-28T19:03:33Z",
     "updatedAt": "2026-01-14T22:54:33Z",
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 4
   },
   {
@@ -2846,6 +3508,15 @@
     "installCommand": "git clone https://github.com/ryoppippi/ccusage.git",
     "createdAt": "2025-10-23T01:38:56Z",
     "updatedAt": "2026-01-14T06:13:13Z",
+    "pros": [
+      "Time-saving",
+      "Task automation",
+      "Workflow optimization"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
+    ],
     "rating": 4
   },
   {
@@ -2871,6 +3542,15 @@
     "installCommand": "git clone https://github.com/huifer/claude-code-seo.git",
     "createdAt": "2026-01-04T09:13:34Z",
     "updatedAt": "2026-01-16T01:04:25Z",
+    "pros": [
+      "Comprehensive feature set",
+      "SEO optimization",
+      "Search insights"
+    ],
+    "cons": [
+      "Algorithm changes",
+      "Results take time"
+    ],
     "rating": 3.4
   },
   {
@@ -2898,6 +3578,15 @@
     "installCommand": "git clone https://github.com/PleasePrompto/google-ai-mode-skill.git",
     "createdAt": "2026-01-03T19:31:32Z",
     "updatedAt": "2026-01-16T06:05:05Z",
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3.4
   },
   {
@@ -2925,6 +3614,14 @@
     "installCommand": "git clone https://github.com/giuseppe-trisciuoglio/developer-kit.git",
     "createdAt": "2025-10-21T08:08:21Z",
     "updatedAt": "2026-01-16T02:06:20Z",
+    "pros": [
+      "AI-powered",
+      "Multi-format support"
+    ],
+    "cons": [
+      "Python required",
+      "Requires design context"
+    ],
     "rating": 3.4
   },
   {
@@ -2950,6 +3647,15 @@
     "installCommand": "git clone https://github.com/Haleclipse/CCometixLine.git",
     "createdAt": "2025-11-10T11:13:16Z",
     "updatedAt": "2026-01-15T00:23:50Z",
+    "pros": [
+      "Easy integration",
+      "Developer-focused",
+      "Workflow integration"
+    ],
+    "cons": [
+      "Rust toolchain required",
+      "Setup required"
+    ],
     "rating": 4
   },
   {
@@ -2975,6 +3681,14 @@
     "installCommand": "git clone https://github.com/dreamiurg/claude-mountaineering-skills.git",
     "createdAt": "2025-11-11T00:19:09Z",
     "updatedAt": "2026-01-15T02:20:47Z",
+    "pros": [
+      "Automation support",
+      "AI-powered"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
+    ],
     "rating": 4
   },
   {
@@ -2996,6 +3710,15 @@
     "installCommand": "git clone https://github.com/nohanaga/Azure-AI-Search-Workshop.git",
     "createdAt": "2021-06-21T01:47:32Z",
     "updatedAt": "2025-08-03T18:50:09Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3.3
   },
   {
@@ -3021,6 +3744,15 @@
     "installCommand": "git clone https://github.com/sirmalloc/ccstatusline.git",
     "createdAt": "2025-11-02T08:56:00Z",
     "updatedAt": "2026-01-11T13:19:25Z",
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ],
     "rating": 3.9
   },
   {
@@ -3046,6 +3778,15 @@
     "installCommand": "git clone https://github.com/VoltAgent/awesome-claude-code-subagents.git",
     "createdAt": "2025-11-08T19:28:21Z",
     "updatedAt": "2026-01-10T21:15:20Z",
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3.3
   },
   {
@@ -3073,6 +3814,15 @@
     "installCommand": "git clone https://github.com/OutlineDriven/outline-driven-development.git",
     "createdAt": "2025-11-17T02:07:04Z",
     "updatedAt": "2026-01-15T20:52:20Z",
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ],
     "rating": 3.3
   },
   {
@@ -3099,6 +3849,15 @@
     "createdAt": "2025-11-04T05:08:28Z",
     "updatedAt": "2026-01-12T06:41:17Z",
     "featured": true,
+    "pros": [
+      "Community favorite",
+      "Easy integration",
+      "AI-powered"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 4.3
   },
   {
@@ -3120,6 +3879,15 @@
     "installCommand": "git clone https://github.com/Dicklesworthstone/jeffreysprompts.com.git",
     "createdAt": "2026-01-09T21:47:18Z",
     "updatedAt": "2026-01-16T10:36:28Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3.2
   },
   {
@@ -3141,6 +3909,15 @@
     "installCommand": "git clone https://github.com/bl-ue/tweakcc-system-prompts.git",
     "createdAt": "2025-10-22T23:14:41Z",
     "updatedAt": "2026-01-10T06:47:07Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3.2
   },
   {
@@ -3168,6 +3945,15 @@
     "installCommand": "git clone https://github.com/sheeki03/Few-Word.git",
     "createdAt": "2026-01-07T20:10:01Z",
     "updatedAt": "2026-01-15T18:55:22Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3.2
   },
   {
@@ -3194,6 +3980,15 @@
     "createdAt": "2025-11-07T10:12:14Z",
     "updatedAt": "2026-01-15T12:39:27Z",
     "skillPath": "skills/cloudflare-manager",
+    "pros": [
+      "CI/CD integration",
+      "Automation support",
+      "Deployment ready"
+    ],
+    "cons": [
+      "Infrastructure knowledge needed",
+      "Platform-specific"
+    ],
     "rating": 4
   },
   {
@@ -3219,6 +4014,15 @@
     "installCommand": "git clone https://github.com/Talieisin/britfix.git",
     "createdAt": "2025-11-07T21:19:41Z",
     "updatedAt": "2025-12-17T04:14:08Z",
+    "pros": [
+      "AI-powered",
+      "Clear communication",
+      "Template support"
+    ],
+    "cons": [
+      "Style preferences vary",
+      "Context needed"
+    ],
     "rating": 3.8
   },
   {
@@ -3240,6 +4044,14 @@
     "installCommand": "git clone https://github.com/krozgrov/ha-omlet-integration.git",
     "createdAt": "2024-12-27T12:19:27Z",
     "updatedAt": "2026-01-04T05:03:30Z",
+    "pros": [
+      "Easy integration",
+      "API integration"
+    ],
+    "cons": [
+      "Requires design context",
+      "Output quality varies"
+    ],
     "rating": 3.2
   },
   {
@@ -3266,6 +4078,15 @@
     "installCommand": "git clone https://github.com/iamzifei/gtd-coach-plugin.git",
     "createdAt": "2026-01-10T00:18:07Z",
     "updatedAt": "2026-01-15T02:13:32Z",
+    "pros": [
+      "AI-powered",
+      "Time-saving",
+      "Task automation"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
+    ],
     "rating": 3.2
   },
   {
@@ -3287,6 +4108,15 @@
     "installCommand": "git clone https://github.com/jikexueyuanwiki/git-bak.git",
     "createdAt": "2014-12-31T03:16:01Z",
     "updatedAt": "2024-10-05T06:49:00Z",
+    "pros": [
+      "CI/CD integration",
+      "Automation support",
+      "Deployment ready"
+    ],
+    "cons": [
+      "Infrastructure knowledge needed",
+      "Platform-specific"
+    ],
     "rating": 3.2
   },
   {
@@ -3313,6 +4143,15 @@
     "installCommand": "git clone https://github.com/iamzifei/wechat-article-publisher-skill.git",
     "createdAt": "2026-01-13T23:31:00Z",
     "updatedAt": "2026-01-16T12:33:39Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3.2
   },
   {
@@ -3339,6 +4178,15 @@
     "installCommand": "git clone https://github.com/iamzifei/wechat-article-formatter-skill.git",
     "createdAt": "2026-01-14T02:00:48Z",
     "updatedAt": "2026-01-16T02:54:27Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3.2
   },
   {
@@ -3366,6 +4214,15 @@
     "installCommand": "git clone https://github.com/scoobynko/claude-code-design-skills.git",
     "createdAt": "2025-11-02T10:57:27Z",
     "updatedAt": "2026-01-15T04:54:14Z",
+    "pros": [
+      "Automation support",
+      "Task automation",
+      "Workflow integration"
+    ],
+    "cons": [
+      "Initial configuration",
+      "Platform dependencies"
+    ],
     "rating": 3.2
   },
   {
@@ -3393,114 +4250,14 @@
     "installCommand": "git clone https://github.com/ForteScarlet/codex-kkp.git",
     "createdAt": "2025-12-04T06:52:52Z",
     "updatedAt": "2026-01-14T17:55:49Z",
-    "rating": 3.1
-  },
-  {
-    "id": "secondsky-claude-skills",
-    "name": "Claude Skills",
-    "slug": "claude-skills",
-    "description": "Production-ready skills for Claude Code CLI - Cloudflare, React, Tailwind v4, and AI integrations",
-    "aiDescription": "Claude Skills provides production-ready skills for claude code cli - cloudflare, react, tailwind v4, and ai integrations",
-    "seoContent": "## What is Claude Skills?\n\nClaude Skills is a skill for Claude Code that helps you production-ready skills for claude code cli - cloudflare, react, tailwind v4, and ai integrations. Install this skill to extend Claude's capabilities in your projects.\n\n## Key Features\n\n- Easy installation and setup\n- Seamless integration with Claude Code\n- Designed for developer productivity\n- Community-maintained and open source\n\n## Use Cases\n\n- **Development Workflows**: Integrate Claude Skills into your daily coding tasks\n- **Automation**: Automate repetitive tasks related to claude-code, claude-code-commands, claude-code-hooks, claude-code-plugin, claude-code-plugins\n- **Productivity**: Save time with AI-powered assistance\n\n## How to Get Started\n\nInstall Claude Skills by cloning the repository and placing it in your Claude Code skills directory. The skill will be automatically available in your next Claude Code session.\n\n## Why Use This Skill?\n\nClaude Skills extends Claude Code's capabilities, making it easier to work with claude-code, claude-code-commands, claude-code-hooks, claude-code-plugin, claude-code-plugins. Whether you're a beginner or an experienced developer, this skill can help streamline your workflow.",
-    "author": "secondsky",
-    "githubUrl": "https://github.com/secondsky/claude-skills",
-    "stars": 19,
-    "forks": 0,
-    "watchers": 19,
-    "language": "TypeScript",
-    "license": "MIT",
-    "category": "ai-llm",
-    "tags": [
-      "claude-code",
-      "claude-code-commands",
-      "claude-code-hooks",
-      "claude-code-plugin",
-      "claude-code-plugins"
+    "pros": [
+      "Easy integration",
+      "AI-powered"
     ],
-    "installCommand": "git clone https://github.com/secondsky/claude-skills.git",
-    "createdAt": "2025-11-08T15:34:35Z",
-    "updatedAt": "2026-01-15T10:31:19Z",
-    "rating": 3.1
-  },
-  {
-    "id": "rohailaltaf-claude-skills",
-    "name": "Claude Skills",
-    "slug": "claude-skills",
-    "description": "🤖 Claude Code skills that automate the tedious parts of development. Start with /update-docs to keep your documentation fresh.",
-    "aiDescription": "Claude Skills provides 🤖 claude code skills that automate the tedious parts of development. start with /update-docs to keep your documentation fresh.",
-    "seoContent": "## What is Claude Skills?\n\nClaude Skills is a skill for Claude Code that helps you 🤖 claude code skills that automate the tedious parts of development. start with /update-docs to keep your documentation fresh.. Install this skill to extend Claude's capabilities in your projects.\n\n## Key Features\n\n- Easy installation and setup\n- Seamless integration with Claude Code\n- Designed for developer productivity\n- Community-maintained and open source\n\n## Use Cases\n\n- **Development Workflows**: Integrate Claude Skills into your daily coding tasks\n- **Automation**: Automate repetitive tasks related to claude, claude-ai, claude-code, claude-skill, claude-skills\n- **Productivity**: Save time with AI-powered assistance\n\n## How to Get Started\n\nInstall Claude Skills by cloning the repository and placing it in your Claude Code skills directory. The skill will be automatically available in your next Claude Code session.\n\n## Why Use This Skill?\n\nClaude Skills extends Claude Code's capabilities, making it easier to work with claude, claude-ai, claude-code, claude-skill, claude-skills. Whether you're a beginner or an experienced developer, this skill can help streamline your workflow.",
-    "author": "rohailaltaf",
-    "githubUrl": "https://github.com/rohailaltaf/claude-skills",
-    "stars": 19,
-    "forks": 0,
-    "watchers": 19,
-    "language": "TypeScript",
-    "license": "MIT",
-    "category": "document-processing",
-    "tags": [
-      "claude",
-      "claude-ai",
-      "claude-code",
-      "claude-skill",
-      "claude-skills"
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
     ],
-    "installCommand": "git clone https://github.com/rohailaltaf/claude-skills.git",
-    "createdAt": "2025-11-08T15:34:35Z",
-    "updatedAt": "2026-01-15T10:31:19Z",
-    "rating": 3.1
-  },
-  {
-    "id": "alirezarezvani-claude-code-aso-skill",
-    "name": "Claude Code Aso Skill",
-    "slug": "claude-code-aso-skill",
-    "description": "AEO Automation Framework for Claude Code One-click, beginner friendly automation for GitHub. Includes a dedicated fleet of AEO sub-agents handling planning, execution, reports, actionable items, and executive summaries. Trigger work instantly with AEO slash-commands. Fully integrated as a Claude Code Skill and usable across Claude AI App",
-    "aiDescription": "Claude Code Aso Skill provides aeo automation framework for claude code one-click, beginner friendly automation for github. includes a dedicated fleet of aeo sub-agents handling planning, execution, reports, actionable items, and executive summaries. trigger work instantly with aeo slash-commands. fully integrated as a claude code skill and usable across claude ai app",
-    "seoContent": "## What is Claude Code Aso Skill?\n\nClaude Code Aso Skill is a skill for Claude Code that helps you aeo automation framework for claude code one-click, beginner friendly automation for github. includes a dedicated fleet of aeo sub-agents handling planning, execution, reports, actionable items, and executive summaries. trigger work instantly with aeo slash-commands. fully integrated as a claude code skill and usable across claude ai app. Install this skill to extend Claude's capabilities in your projects.\n\n## Key Features\n\n- Easy installation and setup\n- Seamless integration with Claude Code\n- Designed for developer productivity\n- Community-maintained and open source\n\n## Use Cases\n\n- **Development Workflows**: Integrate Claude Code Aso Skill into your daily coding tasks\n- **Automation**: Automate repetitive tasks related to aeo, agentic-framework, android, app-store-optimization, appstore\n- **Productivity**: Save time with AI-powered assistance\n\n## How to Get Started\n\nInstall Claude Code Aso Skill by cloning the repository and placing it in your Claude Code skills directory. The skill will be automatically available in your next Claude Code session.\n\n## Why Use This Skill?\n\nClaude Code Aso Skill extends Claude Code's capabilities, making it easier to work with aeo, agentic-framework, android, app-store-optimization, appstore. Whether you're a beginner or an experienced developer, this skill can help streamline your workflow.",
-    "author": "alirezarezvani",
-    "githubUrl": "https://github.com/alirezarezvani/claude-code-aso-skill",
-    "stars": 17,
-    "forks": 8,
-    "watchers": 17,
-    "language": "Python",
-    "license": "NOASSERTION",
-    "category": "ai-llm",
-    "tags": [
-      "aeo",
-      "agentic-framework",
-      "android",
-      "app-store-optimization",
-      "appstore"
-    ],
-    "installCommand": "git clone https://github.com/alirezarezvani/claude-code-aso-skill.git",
-    "createdAt": "2025-11-07T09:08:00Z",
-    "updatedAt": "2026-01-16T12:01:27Z",
-    "rating": 3.1
-  },
-  {
-    "id": "wsbs20-claude-code-aso-skill",
-    "name": "Claude Code Aso Skill",
-    "slug": "claude-code-aso-skill",
-    "description": "🚀 Optimize App Store visibility with AI agents in the Claude Code framework for enhanced performance and growth.",
-    "aiDescription": "Claude Code Aso Skill provides 🚀 optimize app store visibility with ai agents in the claude code framework for enhanced performance and growth.",
-    "seoContent": "## What is Claude Code Aso Skill?\n\nClaude Code Aso Skill is a skill for Claude Code that helps you 🚀 optimize app store visibility with ai agents in the claude code framework for enhanced performance and growth.. Install this skill to extend Claude's capabilities in your projects.\n\n## Key Features\n\n- Easy installation and setup\n- Seamless integration with Claude Code\n- Designed for developer productivity\n- Community-maintained and open source\n\n## Use Cases\n\n- **Development Workflows**: Integrate Claude Code Aso Skill into your daily coding tasks\n- **Automation**: Automate repetitive tasks related to aeo, agentic-framework, android, app-store-optimization, appstore\n- **Productivity**: Save time with AI-powered assistance\n\n## How to Get Started\n\nInstall Claude Code Aso Skill by cloning the repository and placing it in your Claude Code skills directory. The skill will be automatically available in your next Claude Code session.\n\n## Why Use This Skill?\n\nClaude Code Aso Skill extends Claude Code's capabilities, making it easier to work with aeo, agentic-framework, android, app-store-optimization, appstore. Whether you're a beginner or an experienced developer, this skill can help streamline your workflow.",
-    "author": "wsbs20",
-    "githubUrl": "https://github.com/wsbs20/claude-code-aso-skill",
-    "stars": 17,
-    "forks": 8,
-    "watchers": 17,
-    "language": "Python",
-    "license": "NOASSERTION",
-    "category": "ai-llm",
-    "tags": [
-      "aeo",
-      "agentic-framework",
-      "android",
-      "app-store-optimization",
-      "appstore"
-    ],
-    "installCommand": "git clone https://github.com/wsbs20/claude-code-aso-skill.git",
-    "createdAt": "2025-11-07T09:08:00Z",
-    "updatedAt": "2026-01-16T12:01:27Z",
     "rating": 3.1
   },
   {
@@ -3527,6 +4284,14 @@
     "createdAt": "2025-11-01T17:27:13Z",
     "updatedAt": "2025-12-05T06:15:00Z",
     "skillPath": "skills/linear-todo-sync",
+    "pros": [
+      "Easy integration",
+      "API integration"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
+    ],
     "rating": 3.9
   },
   {
@@ -3552,6 +4317,15 @@
     "installCommand": "git clone https://github.com/hesreallyhim/claude-code-templates.git",
     "createdAt": "2025-11-06T05:30:54Z",
     "updatedAt": "2026-01-10T21:39:37Z",
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ],
     "rating": 3
   },
   {
@@ -3578,6 +4352,15 @@
     "installCommand": "git clone https://github.com/davila7/claude-code-templates.git",
     "createdAt": "2025-11-06T05:30:54Z",
     "updatedAt": "2026-01-10T21:39:37Z",
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ],
     "rating": 3
   },
   {
@@ -3605,6 +4388,14 @@
     "installCommand": "git clone https://github.com/BlockRunAI/blockrun-agent-wallet.git",
     "createdAt": "2026-01-12T07:16:39Z",
     "updatedAt": "2026-01-16T14:37:43Z",
+    "pros": [
+      "AI-powered",
+      "API integration"
+    ],
+    "cons": [
+      "API credentials needed",
+      "API costs may apply"
+    ],
     "rating": 3
   },
   {
@@ -3632,6 +4423,14 @@
     "installCommand": "git clone https://github.com/netresearch/jira-skill.git",
     "createdAt": "2025-11-07T10:15:13Z",
     "updatedAt": "2026-01-14T20:31:05Z",
+    "pros": [
+      "Easy integration",
+      "AI-powered"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3
   },
   {
@@ -3653,6 +4452,15 @@
     "installCommand": "git clone https://github.com/murffious/git-master-1.git",
     "createdAt": "2018-10-24T15:31:30Z",
     "updatedAt": "2025-09-23T13:08:17Z",
+    "pros": [
+      "File format support",
+      "Batch processing",
+      "Format preservation"
+    ],
+    "cons": [
+      "Large files may be slow",
+      "Format-specific limitations"
+    ],
     "rating": 3
   },
   {
@@ -3680,6 +4488,15 @@
     "installCommand": "git clone https://github.com/diegoeis/product-spec-kit.git",
     "createdAt": "2025-10-31T04:26:48Z",
     "updatedAt": "2025-11-19T21:05:58Z",
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3
   },
   {
@@ -3701,6 +4518,15 @@
     "installCommand": "git clone https://github.com/calvinsettachatgul/aws_associate_solutions_architect.git",
     "createdAt": "2016-11-26T00:33:34Z",
     "updatedAt": "2019-07-18T12:06:40Z",
+    "pros": [
+      "CI/CD integration",
+      "Automation support",
+      "Deployment ready"
+    ],
+    "cons": [
+      "Infrastructure knowledge needed",
+      "Platform-specific"
+    ],
     "rating": 3
   },
   {
@@ -3726,6 +4552,15 @@
     "installCommand": "git clone https://github.com/dragosroua/claude-content-skills.git",
     "createdAt": "2025-11-29T02:11:27Z",
     "updatedAt": "2026-01-08T18:37:16Z",
+    "pros": [
+      "SEO optimization",
+      "Search insights",
+      "Content improvement"
+    ],
+    "cons": [
+      "Algorithm changes",
+      "Results take time"
+    ],
     "rating": 3
   },
   {
@@ -3747,6 +4582,15 @@
     "installCommand": "git clone https://github.com/fage1151/swoole-doc.git",
     "createdAt": "2017-08-05T03:18:44Z",
     "updatedAt": "2018-12-20T06:06:38Z",
+    "pros": [
+      "File format support",
+      "Batch processing",
+      "Format preservation"
+    ],
+    "cons": [
+      "Large files may be slow",
+      "Format-specific limitations"
+    ],
     "rating": 3
   },
   {
@@ -3768,6 +4612,86 @@
     "installCommand": "git clone https://github.com/Rowing0914/my_personal_notes.git",
     "createdAt": "2019-08-23T07:11:52Z",
     "updatedAt": "2024-08-21T00:31:48Z",
+    "pros": [
+      "Time-saving",
+      "Task automation",
+      "Workflow optimization"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
+    ],
+    "rating": 3
+  },
+  {
+    "id": "secondsky-claude-skills",
+    "name": "Claude Skills",
+    "slug": "claude-skills",
+    "description": "Production-ready skills for Claude Code CLI - Cloudflare, React, Tailwind v4, and AI integrations",
+    "aiDescription": "Claude Skills provides production-ready skills for claude code cli - cloudflare, react, tailwind v4, and ai integrations",
+    "seoContent": "## What is Claude Skills?\n\nClaude Skills is a skill for Claude Code that helps you production-ready skills for claude code cli - cloudflare, react, tailwind v4, and ai integrations. Install this skill to extend Claude's capabilities in your projects.\n\n## Key Features\n\n- Easy installation and setup\n- Seamless integration with Claude Code\n- Designed for developer productivity\n- Community-maintained and open source\n\n## Use Cases\n\n- **Development Workflows**: Integrate Claude Skills into your daily coding tasks\n- **Automation**: Automate repetitive tasks related to claude-code, claude-code-commands, claude-code-hooks, claude-code-plugin, claude-code-plugins\n- **Productivity**: Save time with AI-powered assistance\n\n## How to Get Started\n\nInstall Claude Skills by cloning the repository and placing it in your Claude Code skills directory. The skill will be automatically available in your next Claude Code session.\n\n## Why Use This Skill?\n\nClaude Skills extends Claude Code's capabilities, making it easier to work with claude-code, claude-code-commands, claude-code-hooks, claude-code-plugin, claude-code-plugins. Whether you're a beginner or an experienced developer, this skill can help streamline your workflow.",
+    "author": "secondsky",
+    "githubUrl": "https://github.com/secondsky/claude-skills",
+    "stars": 7,
+    "forks": 0,
+    "watchers": 7,
+    "language": null,
+    "license": null,
+    "category": "ai-llm",
+    "tags": [
+      "claude-code",
+      "claude-code-commands",
+      "claude-code-hooks",
+      "claude-code-plugin",
+      "claude-code-plugins"
+    ],
+    "installCommand": "git clone https://github.com/secondsky/claude-skills.git",
+    "createdAt": "2026-01-02T15:47:53Z",
+    "updatedAt": "2026-01-13T14:20:35Z",
+    "pros": [
+      "Easy integration",
+      "AI-powered"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
+    "rating": 3
+  },
+  {
+    "id": "rohailaltaf-claude-skills",
+    "name": "Claude Skills",
+    "slug": "claude-skills",
+    "description": "🤖 Claude Code skills that automate the tedious parts of development. Start with /update-docs to keep your documentation fresh.",
+    "aiDescription": "Claude Skills provides 🤖 claude code skills that automate the tedious parts of development. start with /update-docs to keep your documentation fresh.",
+    "seoContent": "## What is Claude Skills?\n\nClaude Skills is a skill for Claude Code that helps you 🤖 claude code skills that automate the tedious parts of development. start with /update-docs to keep your documentation fresh.. Install this skill to extend Claude's capabilities in your projects.\n\n## Key Features\n\n- Easy installation and setup\n- Seamless integration with Claude Code\n- Designed for developer productivity\n- Community-maintained and open source\n\n## Use Cases\n\n- **Development Workflows**: Integrate Claude Skills into your daily coding tasks\n- **Automation**: Automate repetitive tasks related to claude, claude-ai, claude-code, claude-skill, claude-skills\n- **Productivity**: Save time with AI-powered assistance\n\n## How to Get Started\n\nInstall Claude Skills by cloning the repository and placing it in your Claude Code skills directory. The skill will be automatically available in your next Claude Code session.\n\n## Why Use This Skill?\n\nClaude Skills extends Claude Code's capabilities, making it easier to work with claude, claude-ai, claude-code, claude-skill, claude-skills. Whether you're a beginner or an experienced developer, this skill can help streamline your workflow.",
+    "author": "rohailaltaf",
+    "githubUrl": "https://github.com/rohailaltaf/claude-skills",
+    "stars": 7,
+    "forks": 0,
+    "watchers": 7,
+    "language": null,
+    "license": null,
+    "category": "document-processing",
+    "tags": [
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "claude-skill",
+      "claude-skills"
+    ],
+    "installCommand": "git clone https://github.com/rohailaltaf/claude-skills.git",
+    "createdAt": "2026-01-02T15:47:53Z",
+    "updatedAt": "2026-01-13T14:20:35Z",
+    "pros": [
+      "Automation support",
+      "File format support",
+      "Batch processing"
+    ],
+    "cons": [
+      "Large files may be slow",
+      "Format-specific limitations"
+    ],
     "rating": 3
   },
   {
@@ -3792,6 +4716,15 @@
     "installCommand": "git clone https://github.com/SpillwaveSolutions/project-memory.git",
     "createdAt": "2025-10-23T00:10:53Z",
     "updatedAt": "2026-01-16T06:27:39Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3
   },
   {
@@ -3813,6 +4746,15 @@
     "installCommand": "git clone https://github.com/mbta/transit_project_ideas.git",
     "createdAt": "2020-08-21T16:15:29Z",
     "updatedAt": "2024-11-04T07:15:54Z",
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ],
     "rating": 3
   },
   {
@@ -3834,6 +4776,15 @@
     "installCommand": "git clone https://github.com/tpmjs/tpmjs.git",
     "createdAt": "2025-11-25T00:05:16Z",
     "updatedAt": "2026-01-16T08:01:12Z",
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3
   },
   {
@@ -3861,6 +4812,15 @@
     "installCommand": "git clone https://github.com/OutlineDriven/odin-claude-plugin.git",
     "createdAt": "2025-11-17T11:03:30Z",
     "updatedAt": "2026-01-15T01:10:15Z",
+    "pros": [
+      "Business-focused",
+      "Professional output",
+      "Brand consistency"
+    ],
+    "cons": [
+      "Industry-specific",
+      "Customization needed"
+    ],
     "rating": 3
   },
   {
@@ -3886,6 +4846,51 @@
     "installCommand": "git clone https://github.com/gcpdev/llm-council-skill.git",
     "createdAt": "2026-01-03T23:56:16Z",
     "updatedAt": "2026-01-13T16:28:03Z",
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
+    "rating": 3
+  },
+  {
+    "id": "alirezarezvani-claude-code-aso-skill",
+    "name": "Claude Code Aso Skill",
+    "slug": "claude-code-aso-skill",
+    "description": "AEO Automation Framework for Claude Code One-click, beginner friendly automation for GitHub. Includes a dedicated fleet of AEO sub-agents handling planning, execution, reports, actionable items, and executive summaries. Trigger work instantly with AEO slash-commands. Fully integrated as a Claude Code Skill and usable across Claude AI App",
+    "aiDescription": "Claude Code Aso Skill provides aeo automation framework for claude code one-click, beginner friendly automation for github. includes a dedicated fleet of aeo sub-agents handling planning, execution, reports, actionable items, and executive summaries. trigger work instantly with aeo slash-commands. fully integrated as a claude code skill and usable across claude ai app",
+    "seoContent": "## What is Claude Code Aso Skill?\n\nClaude Code Aso Skill is a skill for Claude Code that helps you aeo automation framework for claude code one-click, beginner friendly automation for github. includes a dedicated fleet of aeo sub-agents handling planning, execution, reports, actionable items, and executive summaries. trigger work instantly with aeo slash-commands. fully integrated as a claude code skill and usable across claude ai app. Install this skill to extend Claude's capabilities in your projects.\n\n## Key Features\n\n- Easy installation and setup\n- Seamless integration with Claude Code\n- Designed for developer productivity\n- Community-maintained and open source\n\n## Use Cases\n\n- **Development Workflows**: Integrate Claude Code Aso Skill into your daily coding tasks\n- **Automation**: Automate repetitive tasks related to aeo, agentic-framework, android, app-store-optimization, appstore\n- **Productivity**: Save time with AI-powered assistance\n\n## How to Get Started\n\nInstall Claude Code Aso Skill by cloning the repository and placing it in your Claude Code skills directory. The skill will be automatically available in your next Claude Code session.\n\n## Why Use This Skill?\n\nClaude Code Aso Skill extends Claude Code's capabilities, making it easier to work with aeo, agentic-framework, android, app-store-optimization, appstore. Whether you're a beginner or an experienced developer, this skill can help streamline your workflow.",
+    "author": "alirezarezvani",
+    "githubUrl": "https://github.com/alirezarezvani/claude-code-aso-skill",
+    "stars": 5,
+    "forks": 2,
+    "watchers": 5,
+    "language": "Python",
+    "license": "NOASSERTION",
+    "category": "ai-llm",
+    "tags": [
+      "aeo",
+      "agentic-framework",
+      "android",
+      "app-store-optimization",
+      "appstore"
+    ],
+    "installCommand": "git clone https://github.com/alirezarezvani/claude-code-aso-skill.git",
+    "createdAt": "2020-11-01T05:41:34Z",
+    "updatedAt": "2026-01-16T14:33:27Z",
+    "pros": [
+      "Automation support",
+      "Easy integration",
+      "AI-powered"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3
   },
   {
@@ -3913,6 +4918,15 @@
     "installCommand": "git clone https://github.com/ckelsoe/claude-skill-prompt-architect.git",
     "createdAt": "2025-11-24T16:27:21Z",
     "updatedAt": "2026-01-15T00:18:29Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3
   },
   {
@@ -3940,6 +4954,51 @@
     "installCommand": "git clone https://github.com/juanmacruzherrera/claude-layered-memory-architecture.git",
     "createdAt": "2025-12-23T16:23:32Z",
     "updatedAt": "2025-12-27T21:21:52Z",
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
+    "rating": 3
+  },
+  {
+    "id": "wsbs20-claude-code-aso-skill",
+    "name": "Claude Code Aso Skill",
+    "slug": "claude-code-aso-skill",
+    "description": "🚀 Optimize App Store visibility with AI agents in the Claude Code framework for enhanced performance and growth.",
+    "aiDescription": "Claude Code Aso Skill provides 🚀 optimize app store visibility with ai agents in the claude code framework for enhanced performance and growth.",
+    "seoContent": "## What is Claude Code Aso Skill?\n\nClaude Code Aso Skill is a skill for Claude Code that helps you 🚀 optimize app store visibility with ai agents in the claude code framework for enhanced performance and growth.. Install this skill to extend Claude's capabilities in your projects.\n\n## Key Features\n\n- Easy installation and setup\n- Seamless integration with Claude Code\n- Designed for developer productivity\n- Community-maintained and open source\n\n## Use Cases\n\n- **Development Workflows**: Integrate Claude Code Aso Skill into your daily coding tasks\n- **Automation**: Automate repetitive tasks related to aeo, agentic-framework, android, app-store-optimization, appstore\n- **Productivity**: Save time with AI-powered assistance\n\n## How to Get Started\n\nInstall Claude Code Aso Skill by cloning the repository and placing it in your Claude Code skills directory. The skill will be automatically available in your next Claude Code session.\n\n## Why Use This Skill?\n\nClaude Code Aso Skill extends Claude Code's capabilities, making it easier to work with aeo, agentic-framework, android, app-store-optimization, appstore. Whether you're a beginner or an experienced developer, this skill can help streamline your workflow.",
+    "author": "wsbs20",
+    "githubUrl": "https://github.com/wsbs20/claude-code-aso-skill",
+    "stars": 5,
+    "forks": 2,
+    "watchers": 5,
+    "language": "Python",
+    "license": "NOASSERTION",
+    "category": "ai-llm",
+    "tags": [
+      "aeo",
+      "agentic-framework",
+      "android",
+      "app-store-optimization",
+      "appstore"
+    ],
+    "installCommand": "git clone https://github.com/wsbs20/claude-code-aso-skill.git",
+    "createdAt": "2020-11-01T05:41:34Z",
+    "updatedAt": "2026-01-16T14:33:27Z",
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3
   },
   {
@@ -3961,6 +5020,15 @@
     "installCommand": "git clone https://github.com/melvincarvalho/aam.git",
     "createdAt": "2021-06-19T16:21:51Z",
     "updatedAt": "2025-09-01T06:46:45Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3
   },
   {
@@ -3988,6 +5056,15 @@
     "installCommand": "git clone https://github.com/vicentereig/dspy-rb-skill.git",
     "createdAt": "2025-12-12T23:57:18Z",
     "updatedAt": "2025-12-30T13:00:56Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3
   },
   {
@@ -4014,6 +5091,15 @@
     "installCommand": "git clone https://github.com/iamzifei/linkedin-article-publisher-skill.git",
     "createdAt": "2026-01-13T08:16:05Z",
     "updatedAt": "2026-01-16T01:04:32Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3
   },
   {
@@ -4041,6 +5127,15 @@
     "installCommand": "git clone https://github.com/netresearch/typo3-ddev-skill.git",
     "createdAt": "2025-10-21T10:05:16Z",
     "updatedAt": "2026-01-13T20:44:08Z",
+    "pros": [
+      "Automation support",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3
   },
   {
@@ -4068,6 +5163,15 @@
     "installCommand": "git clone https://github.com/netresearch/agents-skill.git",
     "createdAt": "2025-10-18T19:35:16Z",
     "updatedAt": "2026-01-14T11:59:57Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3
   },
   {
@@ -4095,6 +5199,14 @@
     "installCommand": "git clone https://github.com/greenstevester/fastlane-skill.git",
     "createdAt": "2025-12-28T12:56:54Z",
     "updatedAt": "2026-01-15T13:51:09Z",
+    "pros": [
+      "Automation support",
+      "AI-powered"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3
   },
   {
@@ -4121,6 +5233,15 @@
     "installCommand": "git clone https://github.com/CavinHuang/claude-skills-hub.git",
     "createdAt": "2025-10-25T08:00:33Z",
     "updatedAt": "2026-01-10T14:14:15Z",
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3
   },
   {
@@ -4148,6 +5269,15 @@
     "installCommand": "git clone https://github.com/thepushkarp/brainstorm-plan.git",
     "createdAt": "2025-12-29T05:30:22Z",
     "updatedAt": "2026-01-13T18:28:27Z",
+    "pros": [
+      "File format support",
+      "Batch processing",
+      "Format preservation"
+    ],
+    "cons": [
+      "Large files may be slow",
+      "Format-specific limitations"
+    ],
     "rating": 3
   },
   {
@@ -4172,6 +5302,15 @@
     "installCommand": "git clone https://github.com/SpillwaveSolutions/running-marketing-campaigns-agent-skill.git",
     "createdAt": "2025-12-28T21:38:05Z",
     "updatedAt": "2026-01-07T23:26:10Z",
+    "pros": [
+      "AI-powered",
+      "Business-focused",
+      "Professional output"
+    ],
+    "cons": [
+      "Industry-specific",
+      "Customization needed"
+    ],
     "rating": 3
   },
   {
@@ -4199,6 +5338,15 @@
     "installCommand": "git clone https://github.com/netresearch/typo3-docs-skill.git",
     "createdAt": "2025-10-18T07:02:25Z",
     "updatedAt": "2026-01-16T13:30:28Z",
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3
   },
   {
@@ -4226,6 +5374,15 @@
     "installCommand": "git clone https://github.com/husniadil/fastmcp-builder.git",
     "createdAt": "2025-10-26T17:09:46Z",
     "updatedAt": "2025-12-31T10:29:35Z",
+    "pros": [
+      "Comprehensive feature set",
+      "Developer-focused",
+      "Workflow integration"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ],
     "rating": 3
   },
   {
@@ -4253,6 +5410,15 @@
     "installCommand": "git clone https://github.com/netresearch/cli-tools-skill.git",
     "createdAt": "2025-11-29T21:10:49Z",
     "updatedAt": "2026-01-07T12:50:07Z",
+    "pros": [
+      "Automation support",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3
   },
   {
@@ -4279,6 +5445,15 @@
     "createdAt": "2025-12-03T03:12:37Z",
     "updatedAt": "2025-12-07T13:31:04Z",
     "featured": true,
+    "pros": [
+      "Community favorite",
+      "Automation support",
+      "API integration"
+    ],
+    "cons": [
+      "Site-specific tuning",
+      "Rate limiting considerations"
+    ],
     "rating": 3
   },
   {
@@ -4300,6 +5475,15 @@
     "installCommand": "git clone https://github.com/tnotesjs/TNotes.en-words.git",
     "createdAt": "2024-10-26T10:05:13Z",
     "updatedAt": "2025-12-23T15:32:08Z",
+    "pros": [
+      "File format support",
+      "Batch processing",
+      "Format preservation"
+    ],
+    "cons": [
+      "Large files may be slow",
+      "Format-specific limitations"
+    ],
     "rating": 3
   },
   {
@@ -4327,6 +5511,15 @@
     "installCommand": "git clone https://github.com/zysilm-ai/skill-master.git",
     "createdAt": "2026-01-07T12:35:31Z",
     "updatedAt": "2026-01-16T02:32:05Z",
+    "pros": [
+      "Automation support",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3
   },
   {
@@ -4354,6 +5547,15 @@
     "installCommand": "git clone https://github.com/ali5ter/obsidian-project-assistant.git",
     "createdAt": "2025-12-24T03:50:29Z",
     "updatedAt": "2026-01-13T21:59:44Z",
+    "pros": [
+      "Automation support",
+      "File format support",
+      "Batch processing"
+    ],
+    "cons": [
+      "Large files may be slow",
+      "Format-specific limitations"
+    ],
     "rating": 3
   },
   {
@@ -4381,6 +5583,14 @@
     "installCommand": "git clone https://github.com/digitalsamba/digital-samba-skill.git",
     "createdAt": "2025-12-05T23:58:48Z",
     "updatedAt": "2026-01-05T21:27:44Z",
+    "pros": [
+      "Easy integration",
+      "API integration"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3
   },
   {
@@ -4407,6 +5617,14 @@
     "installCommand": "git clone https://github.com/xrip/claude-skill-analyze-js.git",
     "createdAt": "2026-01-06T20:12:15Z",
     "updatedAt": "2026-01-07T08:35:38Z",
+    "pros": [
+      "AI-powered",
+      "API integration"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3
   },
   {
@@ -4432,6 +5650,15 @@
     "installCommand": "git clone https://github.com/bastien-gallay/rhetorical-analysis-skill.git",
     "createdAt": "2025-12-12T20:38:34Z",
     "updatedAt": "2025-12-16T07:55:04Z",
+    "pros": [
+      "Data extraction",
+      "Automation support",
+      "Multiple formats"
+    ],
+    "cons": [
+      "Site-specific tuning",
+      "Rate limiting considerations"
+    ],
     "rating": 3
   },
   {
@@ -4459,6 +5686,15 @@
     "installCommand": "git clone https://github.com/splinesreticulating/n8n-v2-workflow-skill.git",
     "createdAt": "2025-12-18T17:57:59Z",
     "updatedAt": "2025-12-31T09:01:33Z",
+    "pros": [
+      "Comprehensive feature set",
+      "Task automation",
+      "Workflow integration"
+    ],
+    "cons": [
+      "Initial configuration",
+      "Platform dependencies"
+    ],
     "rating": 3
   },
   {
@@ -4485,6 +5721,15 @@
     "installCommand": "git clone https://github.com/DidierRLopes/get-y2b-clips.git",
     "createdAt": "2025-12-20T13:13:26Z",
     "updatedAt": "2026-01-10T08:32:21Z",
+    "pros": [
+      "Data extraction",
+      "Automation support",
+      "Multiple formats"
+    ],
+    "cons": [
+      "Site-specific tuning",
+      "Rate limiting considerations"
+    ],
     "rating": 3
   },
   {
@@ -4509,6 +5754,15 @@
     "installCommand": "git clone https://github.com/SpillwaveSolutions/plantuml.git",
     "createdAt": "2025-11-09T22:38:53Z",
     "updatedAt": "2026-01-07T23:46:27Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3
   },
   {
@@ -4536,6 +5790,15 @@
     "installCommand": "git clone https://github.com/netresearch/typo3-conformance-skill.git",
     "createdAt": "2025-10-18T10:14:23Z",
     "updatedAt": "2026-01-11T21:48:20Z",
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3
   },
   {
@@ -4563,6 +5826,15 @@
     "installCommand": "git clone https://github.com/netresearch/netresearch-branding-skill.git",
     "createdAt": "2025-10-18T10:33:28Z",
     "updatedAt": "2026-01-07T12:50:01Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3
   },
   {
@@ -4587,6 +5859,15 @@
     "installCommand": "git clone https://github.com/SpillwaveSolutions/jira.git",
     "createdAt": "2025-10-23T02:46:42Z",
     "updatedAt": "2026-01-14T12:19:07Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3
   },
   {
@@ -4614,6 +5895,15 @@
     "installCommand": "git clone https://github.com/netresearch/typo3-testing-skill.git",
     "createdAt": "2025-10-18T08:31:58Z",
     "updatedAt": "2026-01-11T21:40:38Z",
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ],
     "rating": 3
   },
   {
@@ -4635,6 +5925,15 @@
     "installCommand": "git clone https://github.com/KurshedKhan/JavaScript.git",
     "createdAt": "2023-08-07T09:07:23Z",
     "updatedAt": "2025-05-12T12:33:37Z",
+    "pros": [
+      "Task automation",
+      "Workflow integration",
+      "Time-saving"
+    ],
+    "cons": [
+      "Initial configuration",
+      "Platform dependencies"
+    ],
     "rating": 3
   },
   {
@@ -4662,6 +5961,15 @@
     "installCommand": "git clone https://github.com/veithly/codex-skill.git",
     "createdAt": "2026-01-03T15:58:07Z",
     "updatedAt": "2026-01-05T08:56:59Z",
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3
   },
   {
@@ -4688,6 +5996,15 @@
     "installCommand": "git clone https://github.com/CuriousDima/claude-web-to-markdown-skill.git",
     "createdAt": "2025-11-20T04:46:36Z",
     "updatedAt": "2025-11-24T03:27:08Z",
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3
   },
   {
@@ -4715,6 +6032,15 @@
     "installCommand": "git clone https://github.com/cmdrvl/edgar-change-interpreter.git",
     "createdAt": "2025-12-27T00:40:03Z",
     "updatedAt": "2026-01-09T06:19:46Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3
   },
   {
@@ -4741,6 +6067,15 @@
     "installCommand": "git clone https://github.com/iamzifei/xiaohongshu-images-skill.git",
     "createdAt": "2026-01-14T04:31:35Z",
     "updatedAt": "2026-01-16T14:14:29Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3
   },
   {
@@ -4768,6 +6103,15 @@
     "installCommand": "git clone https://github.com/wrsmith108/claude-skill-flaky-test-detector.git",
     "createdAt": "2026-01-04T01:01:10Z",
     "updatedAt": "2026-01-07T01:57:40Z",
+    "pros": [
+      "AI-powered",
+      "Developer-focused",
+      "Workflow integration"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ],
     "rating": 3
   },
   {
@@ -4794,6 +6138,15 @@
     "installCommand": "git clone https://github.com/iamzifei/red-publisher-skill.git",
     "createdAt": "2026-01-14T22:49:14Z",
     "updatedAt": "2026-01-16T01:06:46Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3
   },
   {
@@ -4821,6 +6174,15 @@
     "installCommand": "git clone https://github.com/conorluddy/linear-skills.git",
     "createdAt": "2025-12-16T21:49:29Z",
     "updatedAt": "2025-12-17T14:08:14Z",
+    "pros": [
+      "AI-powered",
+      "Time-saving",
+      "Task automation"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
+    ],
     "rating": 3
   },
   {
@@ -4848,6 +6210,15 @@
     "installCommand": "git clone https://github.com/Cornjebus/neo-llm-security.git",
     "createdAt": "2025-12-13T19:40:39Z",
     "updatedAt": "2025-12-26T07:37:13Z",
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3
   },
   {
@@ -4873,6 +6244,15 @@
     "installCommand": "git clone https://github.com/kongyo2/prompt-engineering-skill.git",
     "createdAt": "2025-10-17T05:06:11Z",
     "updatedAt": "2026-01-03T01:56:27Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3
   },
   {
@@ -4900,6 +6280,15 @@
     "installCommand": "git clone https://github.com/amitlals/sap-rpt1-oss-predictor.git",
     "createdAt": "2025-12-28T20:50:56Z",
     "updatedAt": "2025-12-28T22:33:46Z",
+    "pros": [
+      "Data insights",
+      "Visualization support",
+      "Analysis automation"
+    ],
+    "cons": [
+      "Data format requirements",
+      "Large datasets need tuning"
+    ],
     "rating": 3
   },
   {
@@ -4927,6 +6316,15 @@
     "installCommand": "git clone https://github.com/ali5ter/claude-cli-ux-skill.git",
     "createdAt": "2025-12-20T18:33:39Z",
     "updatedAt": "2026-01-13T21:59:37Z",
+    "pros": [
+      "Automation support",
+      "Developer-focused",
+      "Workflow integration"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ],
     "rating": 3
   },
   {
@@ -4951,6 +6349,15 @@
     "installCommand": "git clone https://github.com/SpillwaveSolutions/claude_permissions_skill.git",
     "createdAt": "2025-11-16T21:39:10Z",
     "updatedAt": "2026-01-07T23:53:08Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3
   },
   {
@@ -4978,6 +6385,15 @@
     "installCommand": "git clone https://github.com/ospocc/agent-skill-howopen.git",
     "createdAt": "2026-01-15T13:01:31Z",
     "updatedAt": "2026-01-16T02:29:38Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3
   },
   {
@@ -5002,6 +6418,15 @@
     "installCommand": "git clone https://github.com/SpillwaveSolutions/using-firebase.git",
     "createdAt": "2025-12-27T06:58:02Z",
     "updatedAt": "2026-01-07T23:42:21Z",
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Python required",
+      "Setup required"
+    ],
     "rating": 3
   },
   {
@@ -5029,6 +6454,15 @@
     "installCommand": "git clone https://github.com/netresearch/typo3-core-contributions-skill.git",
     "createdAt": "2025-10-27T12:47:18Z",
     "updatedAt": "2026-01-07T12:50:04Z",
+    "pros": [
+      "Automation support",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3
   },
   {
@@ -5053,6 +6487,15 @@
     "installCommand": "git clone https://github.com/SpillwaveSolutions/image_gen.git",
     "createdAt": "2025-11-09T22:26:51Z",
     "updatedAt": "2026-01-07T23:51:01Z",
+    "pros": [
+      "Creative flexibility",
+      "Visual output",
+      "Customizable styles"
+    ],
+    "cons": [
+      "Requires design context",
+      "Output quality varies"
+    ],
     "rating": 3
   },
   {
@@ -5080,6 +6523,15 @@
     "installCommand": "git clone https://github.com/gnoyes-mik/code-tour.git",
     "createdAt": "2026-01-15T04:56:57Z",
     "updatedAt": "2026-01-15T07:15:48Z",
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ],
     "rating": 3
   },
   {
@@ -5104,6 +6556,15 @@
     "installCommand": "git clone https://github.com/SpillwaveSolutions/document-specialist-skill.git",
     "createdAt": "2025-11-18T05:16:56Z",
     "updatedAt": "2026-01-07T23:40:28Z",
+    "pros": [
+      "Automation support",
+      "AI-powered",
+      "API integration"
+    ],
+    "cons": [
+      "Large files may be slow",
+      "Format-specific limitations"
+    ],
     "rating": 3
   },
   {
@@ -5131,6 +6592,15 @@
     "installCommand": "git clone https://github.com/netresearch/enterprise-readiness-skill.git",
     "createdAt": "2025-11-29T17:57:15Z",
     "updatedAt": "2026-01-07T12:49:54Z",
+    "pros": [
+      "Automation support",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3
   },
   {
@@ -5158,6 +6628,15 @@
     "installCommand": "git clone https://github.com/richard-gyiko/data-wrangler-plugin.git",
     "createdAt": "2025-12-11T21:03:23Z",
     "updatedAt": "2026-01-10T16:25:30Z",
+    "pros": [
+      "Data insights",
+      "Visualization support",
+      "Analysis automation"
+    ],
+    "cons": [
+      "Data format requirements",
+      "Large datasets need tuning"
+    ],
     "rating": 3
   },
   {
@@ -5185,6 +6664,15 @@
     "installCommand": "git clone https://github.com/Spidy57/claude-code-reference.git",
     "createdAt": "2025-12-27T00:09:07Z",
     "updatedAt": "2026-01-16T12:27:25Z",
+    "pros": [
+      "Comprehensive feature set",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3
   },
   {
@@ -5211,6 +6699,15 @@
     "installCommand": "git clone https://github.com/SpillwaveSolutions/mastering-gemini-cli-agentic-skill.git",
     "createdAt": "2025-12-31T01:59:17Z",
     "updatedAt": "2026-01-07T23:35:43Z",
+    "pros": [
+      "Automation support",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3
   },
   {
@@ -5229,7 +6726,16 @@
       "video"
     ],
     "installCommand": "git clone https://github.com/travisvn/youtube-transcript.git",
-    "createdAt": "2026-01-16T14:42:45.333Z",
+    "createdAt": "2026-01-16T20:23:35.727Z",
+    "pros": [
+      "Data insights",
+      "Visualization support",
+      "Analysis automation"
+    ],
+    "cons": [
+      "Data format requirements",
+      "Large datasets need tuning"
+    ],
     "rating": 3.5
   },
   {
@@ -5248,7 +6754,16 @@
       "media"
     ],
     "installCommand": "git clone https://github.com/travisvn/video-downloader.git",
-    "createdAt": "2026-01-16T14:42:45.333Z",
+    "createdAt": "2026-01-16T20:23:35.727Z",
+    "pros": [
+      "Time-saving",
+      "Task automation",
+      "Workflow optimization"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
+    ],
     "rating": 3.5
   },
   {
@@ -5267,7 +6782,16 @@
       "ai"
     ],
     "installCommand": "git clone https://github.com/travisvn/imagen.git",
-    "createdAt": "2026-01-16T14:42:45.333Z",
+    "createdAt": "2026-01-16T20:23:35.727Z",
+    "pros": [
+      "API integration",
+      "Creative flexibility",
+      "Visual output"
+    ],
+    "cons": [
+      "Requires design context",
+      "Output quality varies"
+    ],
     "rating": 3.5
   },
   {
@@ -5286,7 +6810,16 @@
       "web"
     ],
     "installCommand": "git clone https://github.com/travisvn/article-extractor.git",
-    "createdAt": "2026-01-16T14:42:45.333Z",
+    "createdAt": "2026-01-16T20:23:35.727Z",
+    "pros": [
+      "Automation support",
+      "Data insights",
+      "Visualization support"
+    ],
+    "cons": [
+      "Data format requirements",
+      "Large datasets need tuning"
+    ],
     "rating": 3.5
   },
   {
@@ -5305,7 +6838,16 @@
       "data"
     ],
     "installCommand": "git clone https://github.com/travisvn/csv-summarizer.git",
-    "createdAt": "2026-01-16T14:42:45.333Z",
+    "createdAt": "2026-01-16T20:23:35.727Z",
+    "pros": [
+      "Automation support",
+      "Data insights",
+      "Visualization support"
+    ],
+    "cons": [
+      "Data format requirements",
+      "Large datasets need tuning"
+    ],
     "rating": 3.5
   },
   {
@@ -5324,7 +6866,16 @@
       "database"
     ],
     "installCommand": "git clone https://github.com/travisvn/postgres-skill.git",
-    "createdAt": "2026-01-16T14:42:45.333Z",
+    "createdAt": "2026-01-16T20:23:35.727Z",
+    "pros": [
+      "Data insights",
+      "Visualization support",
+      "Analysis automation"
+    ],
+    "cons": [
+      "Data format requirements",
+      "Large datasets need tuning"
+    ],
     "rating": 3.5
   },
   {
@@ -5343,7 +6894,16 @@
       "errors"
     ],
     "installCommand": "git clone https://github.com/travisvn/root-cause-tracing.git",
-    "createdAt": "2026-01-16T14:42:45.333Z",
+    "createdAt": "2026-01-16T20:23:35.727Z",
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ],
     "rating": 3.5
   },
   {
@@ -5362,7 +6922,16 @@
       "marketing"
     ],
     "installCommand": "git clone https://github.com/travisvn/competitive-ads-extractor.git",
-    "createdAt": "2026-01-16T14:42:45.333Z",
+    "createdAt": "2026-01-16T20:23:35.727Z",
+    "pros": [
+      "AI-powered",
+      "Business-focused",
+      "Professional output"
+    ],
+    "cons": [
+      "Industry-specific",
+      "Customization needed"
+    ],
     "rating": 3.5
   },
   {
@@ -5381,7 +6950,15 @@
       "naming"
     ],
     "installCommand": "git clone https://github.com/travisvn/domain-brainstormer.git",
-    "createdAt": "2026-01-16T14:42:45.333Z",
+    "createdAt": "2026-01-16T20:23:35.727Z",
+    "pros": [
+      "AI-powered",
+      "Multi-format support"
+    ],
+    "cons": [
+      "Industry-specific",
+      "Customization needed"
+    ],
     "rating": 3.5
   },
   {
@@ -5400,7 +6977,16 @@
       "sales"
     ],
     "installCommand": "git clone https://github.com/travisvn/lead-research.git",
-    "createdAt": "2026-01-16T14:42:45.333Z",
+    "createdAt": "2026-01-16T20:23:35.727Z",
+    "pros": [
+      "Business-focused",
+      "Professional output",
+      "Brand consistency"
+    ],
+    "cons": [
+      "Industry-specific",
+      "Customization needed"
+    ],
     "rating": 3.5
   },
   {
@@ -5419,7 +7005,16 @@
       "writing"
     ],
     "installCommand": "git clone https://github.com/travisvn/content-research-writer.git",
-    "createdAt": "2026-01-16T14:42:45.333Z",
+    "createdAt": "2026-01-16T20:23:35.728Z",
+    "pros": [
+      "Clear communication",
+      "Template support",
+      "Professional output"
+    ],
+    "cons": [
+      "Style preferences vary",
+      "Context needed"
+    ],
     "rating": 3.5
   },
   {
@@ -5438,7 +7033,16 @@
       "planning"
     ],
     "installCommand": "git clone https://github.com/travisvn/brainstorming-skill.git",
-    "createdAt": "2026-01-16T14:42:45.333Z",
+    "createdAt": "2026-01-16T20:23:35.728Z",
+    "pros": [
+      "Time-saving",
+      "Task automation",
+      "Workflow optimization"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
+    ],
     "rating": 3.5
   },
   {
@@ -5457,7 +7061,16 @@
       "research"
     ],
     "installCommand": "git clone https://github.com/travisvn/family-history-research.git",
-    "createdAt": "2026-01-16T14:42:45.333Z",
+    "createdAt": "2026-01-16T20:23:35.728Z",
+    "pros": [
+      "Time-saving",
+      "Task automation",
+      "Workflow optimization"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
+    ],
     "rating": 3.5
   },
   {
@@ -5476,7 +7089,16 @@
       "insights"
     ],
     "installCommand": "git clone https://github.com/travisvn/meeting-insights.git",
-    "createdAt": "2026-01-16T14:42:45.333Z",
+    "createdAt": "2026-01-16T20:23:35.728Z",
+    "pros": [
+      "Clear communication",
+      "Template support",
+      "Professional output"
+    ],
+    "cons": [
+      "Style preferences vary",
+      "Context needed"
+    ],
     "rating": 3.5
   },
   {
@@ -5495,7 +7117,16 @@
       "query"
     ],
     "installCommand": "git clone https://github.com/travisvn/notebooklm-integration.git",
-    "createdAt": "2026-01-16T14:42:45.333Z",
+    "createdAt": "2026-01-16T20:23:35.728Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3.5
   },
   {
@@ -5514,7 +7145,16 @@
       "quality"
     ],
     "installCommand": "git clone https://github.com/travisvn/image-enhancer.git",
-    "createdAt": "2026-01-16T14:42:45.333Z",
+    "createdAt": "2026-01-16T20:23:35.728Z",
+    "pros": [
+      "Automation support",
+      "Creative flexibility",
+      "Visual output"
+    ],
+    "cons": [
+      "Requires design context",
+      "Output quality varies"
+    ],
     "rating": 3.5
   },
   {
@@ -5533,7 +7173,16 @@
       "styling"
     ],
     "installCommand": "git clone https://github.com/travisvn/theme-factory.git",
-    "createdAt": "2026-01-16T14:42:45.333Z",
+    "createdAt": "2026-01-16T20:23:35.728Z",
+    "pros": [
+      "Creative flexibility",
+      "Visual output",
+      "Customizable styles"
+    ],
+    "cons": [
+      "Requires design context",
+      "Output quality varies"
+    ],
     "rating": 3.5
   },
   {
@@ -5552,7 +7201,16 @@
       "duplicates"
     ],
     "installCommand": "git clone https://github.com/travisvn/file-organizer.git",
-    "createdAt": "2026-01-16T14:42:45.333Z",
+    "createdAt": "2026-01-16T20:23:35.728Z",
+    "pros": [
+      "AI-powered",
+      "Time-saving",
+      "Task automation"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
+    ],
     "rating": 3.5
   },
   {
@@ -5571,7 +7229,16 @@
       "organization"
     ],
     "installCommand": "git clone https://github.com/travisvn/invoice-organizer.git",
-    "createdAt": "2026-01-16T14:42:45.333Z",
+    "createdAt": "2026-01-16T20:23:35.728Z",
+    "pros": [
+      "Time-saving",
+      "Task automation",
+      "Workflow optimization"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
+    ],
     "rating": 3.5
   },
   {
@@ -5590,7 +7257,16 @@
       "methodology"
     ],
     "installCommand": "git clone https://github.com/travisvn/kaizen-skill.git",
-    "createdAt": "2026-01-16T14:42:45.333Z",
+    "createdAt": "2026-01-16T20:23:35.728Z",
+    "pros": [
+      "Time-saving",
+      "Task automation",
+      "Workflow optimization"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
+    ],
     "rating": 3.5
   },
   {
@@ -5609,7 +7285,15 @@
       "workflows"
     ],
     "installCommand": "git clone https://github.com/travisvn/n8n-skills.git",
-    "createdAt": "2026-01-16T14:42:45.333Z",
+    "createdAt": "2026-01-16T20:23:35.728Z",
+    "pros": [
+      "Automation support",
+      "AI-powered"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
+    ],
     "rating": 3.5
   },
   {
@@ -5628,7 +7312,16 @@
       "selection"
     ],
     "installCommand": "git clone https://github.com/travisvn/raffle-winner.git",
-    "createdAt": "2026-01-16T14:42:45.333Z",
+    "createdAt": "2026-01-16T20:23:35.728Z",
+    "pros": [
+      "Time-saving",
+      "Task automation",
+      "Workflow optimization"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
+    ],
     "rating": 3.5
   },
   {
@@ -5647,7 +7340,16 @@
       "customization"
     ],
     "installCommand": "git clone https://github.com/travisvn/tailored-resume.git",
-    "createdAt": "2026-01-16T14:42:45.333Z",
+    "createdAt": "2026-01-16T20:23:35.728Z",
+    "pros": [
+      "Time-saving",
+      "Task automation",
+      "Workflow optimization"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
+    ],
     "rating": 3.5
   },
   {
@@ -5666,7 +7368,16 @@
       "priorities"
     ],
     "installCommand": "git clone https://github.com/travisvn/ship-learn-next.git",
-    "createdAt": "2026-01-16T14:42:45.333Z",
+    "createdAt": "2026-01-16T20:23:35.728Z",
+    "pros": [
+      "Time-saving",
+      "Task automation",
+      "Workflow optimization"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
+    ],
     "rating": 3.5
   },
   {
@@ -5685,7 +7396,16 @@
       "summarization"
     ],
     "installCommand": "git clone https://github.com/travisvn/tapestry-skill.git",
-    "createdAt": "2026-01-16T14:42:45.333Z",
+    "createdAt": "2026-01-16T20:23:35.728Z",
+    "pros": [
+      "Time-saving",
+      "Task automation",
+      "Workflow optimization"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
+    ],
     "rating": 3.5
   },
   {
@@ -5704,7 +7424,16 @@
       "repository"
     ],
     "installCommand": "git clone https://github.com/travisvn/git-pushing.git",
-    "createdAt": "2026-01-16T14:42:45.333Z",
+    "createdAt": "2026-01-16T20:23:35.728Z",
+    "pros": [
+      "Automation support",
+      "CI/CD integration",
+      "Deployment ready"
+    ],
+    "cons": [
+      "Infrastructure knowledge needed",
+      "Platform-specific"
+    ],
     "rating": 3.5
   },
   {
@@ -5723,7 +7452,16 @@
       "code"
     ],
     "installCommand": "git clone https://github.com/travisvn/review-implementing.git",
-    "createdAt": "2026-01-16T14:42:45.333Z",
+    "createdAt": "2026-01-16T20:23:35.728Z",
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ],
     "rating": 3.5
   },
   {
@@ -5742,7 +7480,15 @@
       "automation"
     ],
     "installCommand": "git clone https://github.com/travisvn/test-fixing.git",
-    "createdAt": "2026-01-16T14:42:45.333Z",
+    "createdAt": "2026-01-16T20:23:35.728Z",
+    "pros": [
+      "Automation support",
+      "AI-powered"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ],
     "rating": 3.5
   },
   {
@@ -5761,7 +7507,16 @@
       "security"
     ],
     "installCommand": "git clone https://github.com/travisvn/computer-forensics.git",
-    "createdAt": "2026-01-16T14:42:45.333Z",
+    "createdAt": "2026-01-16T20:23:35.728Z",
+    "pros": [
+      "Security-focused",
+      "Best practices",
+      "Threat awareness"
+    ],
+    "cons": [
+      "Requires security knowledge",
+      "Context-dependent"
+    ],
     "rating": 3.5
   },
   {
@@ -5780,7 +7535,16 @@
       "sanitization"
     ],
     "installCommand": "git clone https://github.com/travisvn/file-deletion.git",
-    "createdAt": "2026-01-16T14:42:45.333Z",
+    "createdAt": "2026-01-16T20:23:35.728Z",
+    "pros": [
+      "Security-focused",
+      "Best practices",
+      "Threat awareness"
+    ],
+    "cons": [
+      "Requires security knowledge",
+      "Context-dependent"
+    ],
     "rating": 3.5
   },
   {
@@ -5799,7 +7563,16 @@
       "forensics"
     ],
     "installCommand": "git clone https://github.com/travisvn/metadata-extraction.git",
-    "createdAt": "2026-01-16T14:42:45.333Z",
+    "createdAt": "2026-01-16T20:23:35.728Z",
+    "pros": [
+      "Security-focused",
+      "Best practices",
+      "Threat awareness"
+    ],
+    "cons": [
+      "Requires security knowledge",
+      "Context-dependent"
+    ],
     "rating": 3.5
   },
   {
@@ -5818,7 +7591,16 @@
       "detection"
     ],
     "installCommand": "git clone https://github.com/travisvn/sigma-rules.git",
-    "createdAt": "2026-01-16T14:42:45.333Z",
+    "createdAt": "2026-01-16T20:23:35.728Z",
+    "pros": [
+      "Security-focused",
+      "Best practices",
+      "Threat awareness"
+    ],
+    "cons": [
+      "Requires security knowledge",
+      "Context-dependent"
+    ],
     "rating": 3.5
   },
   {
@@ -5837,7 +7619,16 @@
       "ebook"
     ],
     "installCommand": "git clone https://github.com/travisvn/markdown-epub.git",
-    "createdAt": "2026-01-16T14:42:45.333Z",
+    "createdAt": "2026-01-16T20:23:35.728Z",
+    "pros": [
+      "File format support",
+      "Batch processing",
+      "Format preservation"
+    ],
+    "cons": [
+      "Large files may be slow",
+      "Format-specific limitations"
+    ],
     "rating": 3.5
   },
   {
@@ -5856,7 +7647,16 @@
       "git"
     ],
     "installCommand": "git clone https://github.com/travisvn/changelog-generator.git",
-    "createdAt": "2026-01-16T14:42:45.333Z",
+    "createdAt": "2026-01-16T20:23:35.728Z",
+    "pros": [
+      "CI/CD integration",
+      "Automation support",
+      "Deployment ready"
+    ],
+    "cons": [
+      "Infrastructure knowledge needed",
+      "Platform-specific"
+    ],
     "rating": 3.5
   },
   {
@@ -5875,7 +7675,16 @@
       "organization"
     ],
     "installCommand": "git clone https://github.com/travisvn/terminal-title.git",
-    "createdAt": "2026-01-16T14:42:45.333Z",
+    "createdAt": "2026-01-16T20:23:35.728Z",
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ],
     "rating": 3.5
   },
   {
@@ -5894,7 +7703,16 @@
       "tracing"
     ],
     "installCommand": "git clone https://github.com/travisvn/langsmith-fetch.git",
-    "createdAt": "2026-01-16T14:42:45.333Z",
+    "createdAt": "2026-01-16T20:23:35.728Z",
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3.5
   },
   {
@@ -5913,7 +7731,16 @@
       "quality"
     ],
     "installCommand": "git clone https://github.com/travisvn/move-code-quality.git",
-    "createdAt": "2026-01-16T14:42:45.333Z",
+    "createdAt": "2026-01-16T20:23:35.728Z",
+    "pros": [
+      "AI-powered",
+      "Developer-focused",
+      "Workflow integration"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ],
     "rating": 3.5
   },
   {
@@ -5932,7 +7759,16 @@
       "coverage"
     ],
     "installCommand": "git clone https://github.com/travisvn/pypict.git",
-    "createdAt": "2026-01-16T14:42:45.333Z",
+    "createdAt": "2026-01-16T20:23:35.728Z",
+    "pros": [
+      "AI-powered",
+      "Developer-focused",
+      "Workflow integration"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ],
     "rating": 3.5
   },
   {
@@ -5951,7 +7787,16 @@
       "social"
     ],
     "installCommand": "git clone https://github.com/travisvn/reddit-fetch.git",
-    "createdAt": "2026-01-16T14:42:45.333Z",
+    "createdAt": "2026-01-16T20:23:35.728Z",
+    "pros": [
+      "API integration",
+      "Data insights",
+      "Visualization support"
+    ],
+    "cons": [
+      "Data format requirements",
+      "Large datasets need tuning"
+    ],
     "rating": 3.5
   },
   {
@@ -5970,7 +7815,16 @@
       "design"
     ],
     "installCommand": "git clone https://github.com/travisvn/software-architecture.git",
-    "createdAt": "2026-01-16T14:42:45.333Z",
+    "createdAt": "2026-01-16T20:23:35.728Z",
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ],
     "rating": 3.5
   },
   {
@@ -5989,7 +7843,16 @@
       "development"
     ],
     "installCommand": "git clone https://github.com/travisvn/subagent-driven.git",
-    "createdAt": "2026-01-16T14:42:45.333Z",
+    "createdAt": "2026-01-16T20:23:35.728Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3.5
   },
   {
@@ -6008,7 +7871,16 @@
       "methodology"
     ],
     "installCommand": "git clone https://github.com/travisvn/tdd-skill.git",
-    "createdAt": "2026-01-16T14:42:45.333Z",
+    "createdAt": "2026-01-16T20:23:35.728Z",
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ],
     "rating": 3.5
   },
   {
@@ -6027,7 +7899,16 @@
       "parallel"
     ],
     "installCommand": "git clone https://github.com/travisvn/git-worktrees.git",
-    "createdAt": "2026-01-16T14:42:45.334Z",
+    "createdAt": "2026-01-16T20:23:35.728Z",
+    "pros": [
+      "CI/CD integration",
+      "Automation support",
+      "Deployment ready"
+    ],
+    "cons": [
+      "Infrastructure knowledge needed",
+      "Platform-specific"
+    ],
     "rating": 3.5
   },
   {
@@ -6046,7 +7927,16 @@
       "ai"
     ],
     "installCommand": "git clone https://github.com/travisvn/prompt-engineering.git",
-    "createdAt": "2026-01-16T14:42:45.334Z",
+    "createdAt": "2026-01-16T20:23:35.728Z",
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3.5
   },
   {
@@ -6065,7 +7955,16 @@
       "serverless"
     ],
     "installCommand": "git clone https://github.com/travisvn/aws-skills.git",
-    "createdAt": "2026-01-16T14:42:45.334Z",
+    "createdAt": "2026-01-16T20:23:35.728Z",
+    "pros": [
+      "CI/CD integration",
+      "Automation support",
+      "Deployment ready"
+    ],
+    "cons": [
+      "Infrastructure knowledge needed",
+      "Platform-specific"
+    ],
     "rating": 3.5
   },
   {
@@ -6084,7 +7983,16 @@
       "workflow"
     ],
     "installCommand": "git clone https://github.com/travisvn/finishing-branch.git",
-    "createdAt": "2026-01-16T14:42:45.334Z",
+    "createdAt": "2026-01-16T20:23:35.728Z",
+    "pros": [
+      "CI/CD integration",
+      "Automation support",
+      "Deployment ready"
+    ],
+    "cons": [
+      "Infrastructure knowledge needed",
+      "Platform-specific"
+    ],
     "rating": 3.5
   },
   {
@@ -6103,7 +8011,16 @@
       "context"
     ],
     "installCommand": "git clone https://github.com/diet103/claude-code-infrastructure.git",
-    "createdAt": "2026-01-16T14:42:45.334Z",
+    "createdAt": "2026-01-16T20:23:35.729Z",
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ],
     "rating": 3.5
   },
   {
@@ -6122,7 +8039,46 @@
       "context"
     ],
     "installCommand": "git clone https://github.com/prasad-chalasani/claude-code-tools.git",
-    "createdAt": "2026-01-16T14:42:45.334Z",
+    "createdAt": "2026-01-16T20:23:35.729Z",
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ],
+    "rating": 3.5
+  },
+  {
+    "id": "doongz-notes",
+    "name": "Notes",
+    "slug": "notes",
+    "description": "算法｜技能｜知识｜数学",
+    "aiDescription": "Notes provides 算法｜技能｜知识｜数学",
+    "seoContent": "## What is Notes?\n\nNotes is a skill for Claude Code that helps you 算法｜技能｜知识｜数学. Install this skill to extend Claude's capabilities in your projects.\n\n## Key Features\n\n- Easy installation and setup\n- Seamless integration with Claude Code\n- Designed for developer productivity\n- Community-maintained and open source\n\n## Use Cases\n\n- **Development Workflows**: Integrate Notes into your daily coding tasks\n- **Automation**: Automate repetitive tasks related to productivity\n- **Productivity**: Save time with AI-powered assistance\n\n## How to Get Started\n\nInstall Notes by cloning the repository and placing it in your Claude Code skills directory. The skill will be automatically available in your next Claude Code session.\n\n## Why Use This Skill?\n\nNotes extends Claude Code's capabilities, making it easier to work with productivity. Whether you're a beginner or an experienced developer, this skill can help streamline your workflow.",
+    "author": "doongz",
+    "githubUrl": "https://github.com/doongz/notes",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "language": null,
+    "license": null,
+    "category": "productivity",
+    "tags": [],
+    "installCommand": "git clone https://github.com/doongz/notes.git",
+    "createdAt": "2022-07-13T13:46:09Z",
+    "updatedAt": "2022-07-13T13:46:09Z",
+    "pros": [
+      "Time-saving",
+      "Task automation",
+      "Workflow optimization"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
+    ],
     "rating": 3.5
   },
   {
@@ -6144,6 +8100,45 @@
     "installCommand": "git clone https://github.com/Whamp/zai-glm-skills.git",
     "createdAt": "2026-01-07T18:31:40Z",
     "updatedAt": "2026-01-12T17:50:02Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
+    "rating": 3.5
+  },
+  {
+    "id": "parsaeisa-Notes",
+    "name": "Notes",
+    "slug": "notes",
+    "description": "",
+    "aiDescription": "Notes is a skill for Claude Code that enhances your development workflow.",
+    "seoContent": "## What is Notes?\n\nNotes is a skill for Claude Code that helps you enhance your development workflow. Install this skill to extend Claude's capabilities in your projects.\n\n## Key Features\n\n- Easy installation and setup\n- Seamless integration with Claude Code\n- Designed for developer productivity\n- Community-maintained and open source\n\n## Use Cases\n\n- **Development Workflows**: Integrate Notes into your daily coding tasks\n- **Automation**: Automate repetitive tasks related to productivity\n- **Productivity**: Save time with AI-powered assistance\n\n## How to Get Started\n\nInstall Notes by cloning the repository and placing it in your Claude Code skills directory. The skill will be automatically available in your next Claude Code session.\n\n## Why Use This Skill?\n\nNotes extends Claude Code's capabilities, making it easier to work with productivity. Whether you're a beginner or an experienced developer, this skill can help streamline your workflow.",
+    "author": "parsaeisa",
+    "githubUrl": "https://github.com/parsaeisa/Notes",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "language": null,
+    "license": null,
+    "category": "productivity",
+    "tags": [],
+    "installCommand": "git clone https://github.com/parsaeisa/Notes.git",
+    "createdAt": "2022-07-13T13:46:09Z",
+    "updatedAt": "2022-07-13T13:46:09Z",
+    "pros": [
+      "Time-saving",
+      "Task automation",
+      "Workflow optimization"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
+    ],
     "rating": 3.5
   },
   {
@@ -6165,6 +8160,15 @@
     "installCommand": "git clone https://github.com/DrZoot/htmx-skill.git",
     "createdAt": "2026-01-01T22:19:36Z",
     "updatedAt": "2026-01-02T00:12:57Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3.5
   },
   {
@@ -6186,6 +8190,15 @@
     "installCommand": "git clone https://github.com/SerPeter/llm-fmt-project.git",
     "createdAt": "2025-12-22T14:20:39Z",
     "updatedAt": "2026-01-09T08:32:19Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3.5
   },
   {
@@ -6207,6 +8220,15 @@
     "installCommand": "git clone https://github.com/bytifycorp/blog-posts.git",
     "createdAt": "2024-08-03T10:31:42Z",
     "updatedAt": "2024-11-01T09:39:19Z",
+    "pros": [
+      "Clear communication",
+      "Template support",
+      "Professional output"
+    ],
+    "cons": [
+      "Style preferences vary",
+      "Context needed"
+    ],
     "rating": 3.5
   },
   {
@@ -6228,6 +8250,45 @@
     "installCommand": "git clone https://github.com/milc3sar/AtomicCommit-Pro.git",
     "createdAt": "2026-01-16T05:14:06Z",
     "updatedAt": "2026-01-16T06:58:59Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
+    "rating": 3.5
+  },
+  {
+    "id": "xsjlmzs-Notes",
+    "name": "Notes",
+    "slug": "notes",
+    "description": "some learning notes",
+    "aiDescription": "Notes provides some learning notes",
+    "seoContent": "## What is Notes?\n\nNotes is a skill for Claude Code that helps you some learning notes. Install this skill to extend Claude's capabilities in your projects.\n\n## Key Features\n\n- Easy installation and setup\n- Seamless integration with Claude Code\n- Designed for developer productivity\n- Community-maintained and open source\n\n## Use Cases\n\n- **Development Workflows**: Integrate Notes into your daily coding tasks\n- **Automation**: Automate repetitive tasks related to productivity\n- **Productivity**: Save time with AI-powered assistance\n\n## How to Get Started\n\nInstall Notes by cloning the repository and placing it in your Claude Code skills directory. The skill will be automatically available in your next Claude Code session.\n\n## Why Use This Skill?\n\nNotes extends Claude Code's capabilities, making it easier to work with productivity. Whether you're a beginner or an experienced developer, this skill can help streamline your workflow.",
+    "author": "xsjlmzs",
+    "githubUrl": "https://github.com/xsjlmzs/Notes",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "language": null,
+    "license": null,
+    "category": "productivity",
+    "tags": [],
+    "installCommand": "git clone https://github.com/xsjlmzs/Notes.git",
+    "createdAt": "2022-07-13T13:46:09Z",
+    "updatedAt": "2022-07-13T13:46:09Z",
+    "pros": [
+      "Time-saving",
+      "Task automation",
+      "Workflow optimization"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
+    ],
     "rating": 3.5
   },
   {
@@ -6249,6 +8310,15 @@
     "installCommand": "git clone https://github.com/rugbylug/Meeting-notes.git",
     "createdAt": "2018-08-01T08:35:11Z",
     "updatedAt": "2018-10-18T20:31:02Z",
+    "pros": [
+      "Clear communication",
+      "Template support",
+      "Professional output"
+    ],
+    "cons": [
+      "Style preferences vary",
+      "Context needed"
+    ],
     "rating": 3.5
   },
   {
@@ -6263,13 +8333,22 @@
     "stars": 0,
     "forks": 0,
     "watchers": 0,
-    "language": null,
-    "license": null,
+    "language": "Python",
+    "license": "MIT",
     "category": "ai-llm",
     "tags": [],
     "installCommand": "git clone https://github.com/vlmutolo/skills.git",
-    "createdAt": "2025-11-13T20:05:56Z",
-    "updatedAt": "2025-11-13T20:36:07Z",
+    "createdAt": "2025-10-29T22:02:51Z",
+    "updatedAt": "2026-01-13T20:52:08Z",
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3.5
   },
   {
@@ -6291,6 +8370,15 @@
     "installCommand": "git clone https://github.com/FreeChase/VscodeNote.git",
     "createdAt": "2025-11-14T06:46:39Z",
     "updatedAt": "2025-11-25T00:52:48Z",
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ],
     "rating": 3.5
   },
   {
@@ -6312,6 +8400,15 @@
     "installCommand": "git clone https://github.com/justinabrahms/confluence-md.git",
     "createdAt": "2025-11-02T19:19:06Z",
     "updatedAt": "2025-12-09T15:37:02Z",
+    "pros": [
+      "File format support",
+      "Batch processing",
+      "Format preservation"
+    ],
+    "cons": [
+      "Large files may be slow",
+      "Format-specific limitations"
+    ],
     "rating": 3.5
   },
   {
@@ -6333,6 +8430,15 @@
     "installCommand": "git clone https://github.com/ahmad-kad/calhacks-agenticRobot.git",
     "createdAt": "2025-10-25T06:56:02Z",
     "updatedAt": "2025-10-26T07:10:23Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3.5
   },
   {
@@ -6354,6 +8460,15 @@
     "installCommand": "git clone https://github.com/EduardoRemedios/MCP-Builder-Skill.git",
     "createdAt": "2025-11-10T13:54:43Z",
     "updatedAt": "2025-11-10T13:55:37Z",
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ],
     "rating": 3.5
   },
   {
@@ -6375,6 +8490,15 @@
     "installCommand": "git clone https://github.com/NangoHQ/function-builder.git",
     "createdAt": "2025-12-17T09:38:11Z",
     "updatedAt": "2025-12-19T19:07:45Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "Go runtime required",
+      "API costs may apply"
+    ],
     "rating": 3.5
   },
   {
@@ -6396,6 +8520,15 @@
     "installCommand": "git clone https://github.com/mehdic/auto-review-agent.git",
     "createdAt": "2025-11-03T14:24:07Z",
     "updatedAt": "2025-11-07T09:18:06Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3.5
   },
   {
@@ -6417,6 +8550,15 @@
     "installCommand": "git clone https://github.com/ljqdeGolang/Studynotebook.git",
     "createdAt": "2021-01-21T03:27:03Z",
     "updatedAt": "2025-03-02T12:14:55Z",
+    "pros": [
+      "Time-saving",
+      "Task automation",
+      "Workflow optimization"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
+    ],
     "rating": 3.5
   },
   {
@@ -6438,6 +8580,123 @@
     "installCommand": "git clone https://github.com/venkatthirupathi/Murf_ai_Agent.git",
     "createdAt": "2025-08-29T18:10:43Z",
     "updatedAt": "2025-08-31T13:03:06Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
+    "rating": 3.5
+  },
+  {
+    "id": "ComposioHQ-awesome-claude-skills",
+    "name": "Awesome Claude Skills",
+    "slug": "awesome-claude-skills",
+    "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+    "aiDescription": "Awesome Claude Skills provides a curated list of awesome claude skills, resources, and tools for customizing claude ai workflows",
+    "seoContent": "## What is Awesome Claude Skills?\n\nAwesome Claude Skills is a skill for Claude Code that helps you a curated list of awesome claude skills, resources, and tools for customizing claude ai workflows. Install this skill to extend Claude's capabilities in your projects.\n\n## Key Features\n\n- Easy installation and setup\n- Seamless integration with Claude Code\n- Designed for developer productivity\n- Community-maintained and open source\n\n## Use Cases\n\n- **Development Workflows**: Integrate Awesome Claude Skills into your daily coding tasks\n- **Automation**: Automate repetitive tasks related to anthropic, anthropic-ai, anthropic-skills, awesome, awesome-lists\n- **Productivity**: Save time with AI-powered assistance\n\n## How to Get Started\n\nInstall Awesome Claude Skills by cloning the repository and placing it in your Claude Code skills directory. The skill will be automatically available in your next Claude Code session.\n\n## Why Use This Skill?\n\nAwesome Claude Skills extends Claude Code's capabilities, making it easier to work with anthropic, anthropic-ai, anthropic-skills, awesome, awesome-lists. Whether you're a beginner or an experienced developer, this skill can help streamline your workflow.",
+    "author": "ComposioHQ",
+    "githubUrl": "https://github.com/ComposioHQ/awesome-claude-skills",
+    "stars": 0,
+    "forks": 1,
+    "watchers": 0,
+    "language": null,
+    "license": null,
+    "category": "ai-llm",
+    "tags": [
+      "anthropic",
+      "anthropic-ai",
+      "anthropic-skills",
+      "awesome",
+      "awesome-lists"
+    ],
+    "installCommand": "git clone https://github.com/ComposioHQ/awesome-claude-skills.git",
+    "createdAt": "2025-11-30T01:53:24Z",
+    "updatedAt": "2025-11-30T08:31:36Z",
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
+    "rating": 3.5
+  },
+  {
+    "id": "travisvn-awesome-claude-skills",
+    "name": "Awesome Claude Skills",
+    "slug": "awesome-claude-skills",
+    "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows — particularly Claude Code",
+    "aiDescription": "Awesome Claude Skills provides a curated list of awesome claude skills, resources, and tools for customizing claude ai workflows — particularly claude code",
+    "seoContent": "## What is Awesome Claude Skills?\n\nAwesome Claude Skills is a skill for Claude Code that helps you a curated list of awesome claude skills, resources, and tools for customizing claude ai workflows — particularly claude code. Install this skill to extend Claude's capabilities in your projects.\n\n## Key Features\n\n- Easy installation and setup\n- Seamless integration with Claude Code\n- Designed for developer productivity\n- Community-maintained and open source\n\n## Use Cases\n\n- **Development Workflows**: Integrate Awesome Claude Skills into your daily coding tasks\n- **Automation**: Automate repetitive tasks related to agentic-coding, anthropic, awesome, awesome-list, awesome-lists\n- **Productivity**: Save time with AI-powered assistance\n\n## How to Get Started\n\nInstall Awesome Claude Skills by cloning the repository and placing it in your Claude Code skills directory. The skill will be automatically available in your next Claude Code session.\n\n## Why Use This Skill?\n\nAwesome Claude Skills extends Claude Code's capabilities, making it easier to work with agentic-coding, anthropic, awesome, awesome-list, awesome-lists. Whether you're a beginner or an experienced developer, this skill can help streamline your workflow.",
+    "author": "travisvn",
+    "githubUrl": "https://github.com/travisvn/awesome-claude-skills",
+    "stars": 0,
+    "forks": 1,
+    "watchers": 0,
+    "language": null,
+    "license": null,
+    "category": "ai-llm",
+    "tags": [
+      "agentic-coding",
+      "anthropic",
+      "awesome",
+      "awesome-list",
+      "awesome-lists"
+    ],
+    "installCommand": "git clone https://github.com/travisvn/awesome-claude-skills.git",
+    "createdAt": "2025-11-30T01:53:24Z",
+    "updatedAt": "2025-11-30T08:31:36Z",
+    "pros": [
+      "AI-powered",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
+    "rating": 3.5
+  },
+  {
+    "id": "VoltAgent-awesome-claude-skills",
+    "name": "Awesome Claude Skills",
+    "slug": "awesome-claude-skills",
+    "description": "The awesome collection of Claude Skills and resources.",
+    "aiDescription": "Awesome Claude Skills provides the awesome collection of claude skills and resources.",
+    "seoContent": "## What is Awesome Claude Skills?\n\nAwesome Claude Skills is a skill for Claude Code that helps you the awesome collection of claude skills and resources.. Install this skill to extend Claude's capabilities in your projects.\n\n## Key Features\n\n- Easy installation and setup\n- Seamless integration with Claude Code\n- Designed for developer productivity\n- Community-maintained and open source\n\n## Use Cases\n\n- **Development Workflows**: Integrate Awesome Claude Skills into your daily coding tasks\n- **Automation**: Automate repetitive tasks related to ai-agents, awesome-list, claude, claude-ai, claude-code\n- **Productivity**: Save time with AI-powered assistance\n\n## How to Get Started\n\nInstall Awesome Claude Skills by cloning the repository and placing it in your Claude Code skills directory. The skill will be automatically available in your next Claude Code session.\n\n## Why Use This Skill?\n\nAwesome Claude Skills extends Claude Code's capabilities, making it easier to work with ai-agents, awesome-list, claude, claude-ai, claude-code. Whether you're a beginner or an experienced developer, this skill can help streamline your workflow.",
+    "author": "VoltAgent",
+    "githubUrl": "https://github.com/VoltAgent/awesome-claude-skills",
+    "stars": 0,
+    "forks": 1,
+    "watchers": 0,
+    "language": null,
+    "license": null,
+    "category": "ai-llm",
+    "tags": [
+      "ai-agents",
+      "awesome-list",
+      "claude",
+      "claude-ai",
+      "claude-code"
+    ],
+    "installCommand": "git clone https://github.com/VoltAgent/awesome-claude-skills.git",
+    "createdAt": "2025-11-30T01:53:24Z",
+    "updatedAt": "2025-11-30T08:31:36Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3.5
   },
   {
@@ -6465,6 +8724,15 @@
     "installCommand": "git clone https://github.com/smadgerano/Opencode-Intern-Claude-Code-Skill.git",
     "createdAt": "2026-01-14T01:05:45Z",
     "updatedAt": "2026-01-14T01:46:49Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3.5
   },
   {
@@ -6492,6 +8760,15 @@
     "installCommand": "git clone https://github.com/claudeskills/svg-to-react.git",
     "createdAt": "2025-12-12T22:51:15Z",
     "updatedAt": "2025-12-13T00:41:53Z",
+    "pros": [
+      "Creative flexibility",
+      "Visual output",
+      "Customizable styles"
+    ],
+    "cons": [
+      "Requires design context",
+      "Output quality varies"
+    ],
     "rating": 3.5
   },
   {
@@ -6519,6 +8796,50 @@
     "installCommand": "git clone https://github.com/evgeny-trushin/claude-skills-collection.git",
     "createdAt": "2025-12-08T06:52:12Z",
     "updatedAt": "2026-01-01T05:15:37Z",
+    "pros": [
+      "Automation support",
+      "AI-powered"
+    ],
+    "cons": [
+      "Initial setup time",
+      "Workflow-specific"
+    ],
+    "rating": 3.5
+  },
+  {
+    "id": "ozankasikci-awesome-claude-skills",
+    "name": "Awesome Claude Skills",
+    "slug": "awesome-claude-skills",
+    "description": "A curated collection of useful Claude Skills, resources, and tools",
+    "aiDescription": "Awesome Claude Skills provides a curated collection of useful claude skills, resources, and tools",
+    "seoContent": "## What is Awesome Claude Skills?\n\nAwesome Claude Skills is a skill for Claude Code that helps you a curated collection of useful claude skills, resources, and tools. Install this skill to extend Claude's capabilities in your projects.\n\n## Key Features\n\n- Easy installation and setup\n- Seamless integration with Claude Code\n- Designed for developer productivity\n- Community-maintained and open source\n\n## Use Cases\n\n- **Development Workflows**: Integrate Awesome Claude Skills into your daily coding tasks\n- **Automation**: Automate repetitive tasks related to ai, claude, claude-skill, claude-skills, llm\n- **Productivity**: Save time with AI-powered assistance\n\n## How to Get Started\n\nInstall Awesome Claude Skills by cloning the repository and placing it in your Claude Code skills directory. The skill will be automatically available in your next Claude Code session.\n\n## Why Use This Skill?\n\nAwesome Claude Skills extends Claude Code's capabilities, making it easier to work with ai, claude, claude-skill, claude-skills, llm. Whether you're a beginner or an experienced developer, this skill can help streamline your workflow.",
+    "author": "ozankasikci",
+    "githubUrl": "https://github.com/ozankasikci/awesome-claude-skills",
+    "stars": 0,
+    "forks": 1,
+    "watchers": 0,
+    "language": null,
+    "license": null,
+    "category": "ai-llm",
+    "tags": [
+      "ai",
+      "claude",
+      "claude-skill",
+      "claude-skills",
+      "llm"
+    ],
+    "installCommand": "git clone https://github.com/ozankasikci/awesome-claude-skills.git",
+    "createdAt": "2025-11-30T01:53:24Z",
+    "updatedAt": "2025-11-30T08:31:36Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3.5
   },
   {
@@ -6546,6 +8867,15 @@
     "installCommand": "git clone https://github.com/wrsmith108/claude-skill-security-auditor.git",
     "createdAt": "2026-01-04T01:01:24Z",
     "updatedAt": "2026-01-04T01:05:43Z",
+    "pros": [
+      "Security-focused",
+      "Best practices",
+      "Threat awareness"
+    ],
+    "cons": [
+      "Requires security knowledge",
+      "Context-dependent"
+    ],
     "rating": 3.5
   },
   {
@@ -6560,8 +8890,8 @@
     "stars": 0,
     "forks": 0,
     "watchers": 0,
-    "language": null,
-    "license": null,
+    "language": "Python",
+    "license": "MIT",
     "category": "business-marketing",
     "tags": [
       "claude-code",
@@ -6570,8 +8900,17 @@
       "skills"
     ],
     "installCommand": "git clone https://github.com/mvdmakesthings/skills.git",
-    "createdAt": "2025-11-13T20:05:56Z",
-    "updatedAt": "2025-11-13T20:36:07Z",
+    "createdAt": "2025-10-29T22:02:51Z",
+    "updatedAt": "2026-01-13T20:52:08Z",
+    "pros": [
+      "Business-focused",
+      "Professional output",
+      "Brand consistency"
+    ],
+    "cons": [
+      "Industry-specific",
+      "Customization needed"
+    ],
     "rating": 3.5
   },
   {
@@ -6598,6 +8937,14 @@
     "installCommand": "git clone https://github.com/SpillwaveSolutions/mastering-langgraph-agent-skill.git",
     "createdAt": "2025-12-29T01:21:22Z",
     "updatedAt": "2026-01-07T23:29:57Z",
+    "pros": [
+      "AI-powered",
+      "Multi-format support"
+    ],
+    "cons": [
+      "Python required",
+      "API costs may apply"
+    ],
     "rating": 3.5
   },
   {
@@ -6625,6 +8972,15 @@
     "installCommand": "git clone https://github.com/csmoove530/claude-code-x402-skill.git",
     "createdAt": "2026-01-12T20:03:28Z",
     "updatedAt": "2026-01-12T22:22:02Z",
+    "pros": [
+      "API integration",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3.5
   },
   {
@@ -6652,6 +9008,14 @@
     "installCommand": "git clone https://github.com/SpillwaveSolutions/publishing-astro-websites-agentic-skill.git",
     "createdAt": "2026-01-02T09:03:51Z",
     "updatedAt": "2026-01-07T23:33:01Z",
+    "pros": [
+      "Comprehensive feature set",
+      "AI-powered"
+    ],
+    "cons": [
+      "Large files may be slow",
+      "Format-specific limitations"
+    ],
     "rating": 3.5
   },
   {
@@ -6677,6 +9041,15 @@
     "installCommand": "git clone https://github.com/keiththompson/video-to-cooklang.git",
     "createdAt": "2026-01-02T20:23:51Z",
     "updatedAt": "2026-01-02T20:27:08Z",
+    "pros": [
+      "Developer-focused",
+      "Workflow integration",
+      "Code quality"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ],
     "rating": 3.5
   },
   {
@@ -6704,6 +9077,15 @@
     "installCommand": "git clone https://github.com/SpillwaveSolutions/mastering-postgresql-agent-skill.git",
     "createdAt": "2025-12-31T15:32:54Z",
     "updatedAt": "2026-01-07T23:31:46Z",
+    "pros": [
+      "Data insights",
+      "Visualization support",
+      "Analysis automation"
+    ],
+    "cons": [
+      "Python required",
+      "Data format requirements"
+    ],
     "rating": 3.5
   },
   {
@@ -6728,6 +9110,15 @@
     "installCommand": "git clone https://github.com/SpillwaveSolutions/mastering-git-cli-agent-skill.git",
     "createdAt": "2026-01-01T01:08:10Z",
     "updatedAt": "2026-01-07T23:25:03Z",
+    "pros": [
+      "Automation support",
+      "Task automation",
+      "Workflow integration"
+    ],
+    "cons": [
+      "Initial configuration",
+      "Platform dependencies"
+    ],
     "rating": 3.5
   },
   {
@@ -6753,6 +9144,15 @@
     "installCommand": "git clone https://github.com/SpillwaveSolutions/mastering-typescript-skill.git",
     "createdAt": "2026-01-01T00:36:07Z",
     "updatedAt": "2026-01-07T23:29:22Z",
+    "pros": [
+      "Easy integration",
+      "Developer-focused",
+      "Workflow integration"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ],
     "rating": 3.5
   },
   {
@@ -6777,6 +9177,15 @@
     "installCommand": "git clone https://github.com/SpillwaveSolutions/mastering-aws-cli.git",
     "createdAt": "2025-12-26T04:52:41Z",
     "updatedAt": "2026-01-07T23:38:34Z",
+    "pros": [
+      "CI/CD integration",
+      "Automation support",
+      "Deployment ready"
+    ],
+    "cons": [
+      "Infrastructure knowledge needed",
+      "Platform-specific"
+    ],
     "rating": 3.5
   },
   {
@@ -6804,6 +9213,15 @@
     "installCommand": "git clone https://github.com/matthewdeaves/claude-code-prompts.git",
     "createdAt": "2026-01-07T11:54:47Z",
     "updatedAt": "2026-01-15T08:56:27Z",
+    "pros": [
+      "AI-powered automation",
+      "Intelligent processing",
+      "Adaptive behavior"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3.5
   },
   {
@@ -6828,6 +9246,15 @@
     "installCommand": "git clone https://github.com/SpillwaveSolutions/spacy-nlp-agentic-skill.git",
     "createdAt": "2026-01-05T03:20:54Z",
     "updatedAt": "2026-01-07T23:19:37Z",
+    "pros": [
+      "Batch processing",
+      "AI-powered automation",
+      "Intelligent processing"
+    ],
+    "cons": [
+      "API costs may apply",
+      "Results may vary"
+    ],
     "rating": 3.5
   },
   {
@@ -6852,6 +9279,15 @@
     "installCommand": "git clone https://github.com/TeXmeijin/video-to-gif-skill.git",
     "createdAt": "2026-01-04T08:58:02Z",
     "updatedAt": "2026-01-04T09:01:47Z",
+    "pros": [
+      "Multi-format support",
+      "Developer-focused",
+      "Workflow integration"
+    ],
+    "cons": [
+      "Setup required",
+      "Learning curve"
+    ],
     "rating": 3.5
   }
 ]
