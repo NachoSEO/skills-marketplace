@@ -5,7 +5,7 @@ import { SkillGrid } from '@/components/skills/SkillGrid';
 import { BreadcrumbJsonLd } from '@/components/seo/BreadcrumbJsonLd';
 import { getSkillsSync, getUniqueLanguages, getSkillsByLanguage } from '@/lib/skills';
 
-const BASE_URL = 'https://skills.claudecode.dev';
+const BASE_URL = 'https://skillsforge.dev';
 
 interface Props {
   params: Promise<{ language: string }>;
@@ -60,7 +60,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       canonical: `/languages/${languageSlug}`,
     },
     openGraph: {
-      title: `${language} Skills - Claude Skills Marketplace`,
+      title: `${language} Skills - SkillsForge`,
       description: `Discover ${matchingSkills.length} Claude Code skills written in ${language}.`,
     },
   };

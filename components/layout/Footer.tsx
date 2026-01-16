@@ -21,7 +21,7 @@ export function Footer() {
                   <path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z" />
                 </svg>
               </div>
-              <span className="font-semibold text-lg">Skills Marketplace</span>
+              <span className="font-semibold text-lg">SkillsForge</span>
             </Link>
             <p className="text-sm text-muted max-w-md">
               Discover and install skills for Claude Code, Codex CLI, and ChatGPT.
@@ -89,7 +89,7 @@ export function Footer() {
 
         <div className="mt-12 pt-8 border-t border-border flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted">
-            &copy; {new Date().getFullYear()} Skills Marketplace. Open source project.
+            &copy; {new Date().getFullYear()} SkillsForge. Open source project.
           </p>
           <div className="flex items-center gap-4 text-sm text-muted">
             <span>Compatible with:</span>

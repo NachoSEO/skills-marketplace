@@ -155,7 +155,7 @@ export default async function Image({ params }: { params: { slug: string } }) {
               fontWeight: 600,
             }}
           >
-            Claude Skills Marketplace
+            SkillsForge
           </div>
         </div>
       </div>

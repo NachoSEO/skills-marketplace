@@ -89,7 +89,7 @@ export function TerminalDemo() {
           <div className="w-3 h-3 rounded-full bg-green-500 hover:bg-green-400 transition-colors" />
         </div>
         <div className="flex-1 text-center">
-          <span className="text-xs text-muted font-mono">zsh — skills-marketplace</span>
+          <span className="text-xs text-muted font-mono">zsh — skillsforge</span>
         </div>
         <div className="w-14" /> {/* Spacer for symmetry */}
       </div>

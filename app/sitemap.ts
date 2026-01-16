@@ -6,7 +6,7 @@ import {
   getUniqueLicenses,
 } from '@/lib/skills';
 
-const BASE_URL = 'https://skills.claudecode.dev';
+const BASE_URL = 'https://skillsforge.dev';
 
 function slugify(text: string): string {
   return text

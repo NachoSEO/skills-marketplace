@@ -31,7 +31,7 @@ export function SkillJsonLd({ skill, category }: Props) {
         ratingCount: skill.stars,
       },
     }),
-    url: `https://skills.claudecode.dev/skills/${skill.slug}`,
+    url: `https://skillsforge.dev/skills/${skill.slug}`,
     downloadUrl: skill.githubUrl,
     softwareVersion: '1.0',
     datePublished: skill.createdAt,

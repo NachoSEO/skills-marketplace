@@ -15,13 +15,13 @@ const geistMono = Geist_Mono({
   subsets: ['latin'],
 });
 
-const BASE_URL = 'https://skills.claudecode.dev';
+const BASE_URL = 'https://skillsforge.dev';
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   title: {
-    default: 'Claude Skills Marketplace',
-    template: '%s | Claude Skills Marketplace',
+    default: 'SkillsForge',
+    template: '%s | SkillsForge',
   },
   description:
     'Discover and install 500+ skills for Claude Code, Codex CLI, and ChatGPT. Browse by category, search, and enhance your AI coding workflow.',
@@ -33,20 +33,21 @@ export const metadata: Metadata = {
     'ChatGPT',
     'agent skills',
     'MCP',
+    'SkillsForge',
   ],
   alternates: {
     canonical: '/',
   },
   openGraph: {
-    title: 'Claude Skills Marketplace',
+    title: 'SkillsForge',
     description: 'Discover 500+ skills for Claude Code and other AI agents',
     type: 'website',
     url: BASE_URL,
-    siteName: 'Claude Skills Marketplace',
+    siteName: 'SkillsForge',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Claude Skills Marketplace',
+    title: 'SkillsForge',
     description: 'Discover 500+ skills for Claude Code and other AI agents',
   },
 };
@@ -54,7 +55,7 @@ export const metadata: Metadata = {
 const organizationJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
-  name: 'Claude Skills Marketplace',
+  name: 'SkillsForge',
   url: BASE_URL,
   description: 'Discover and install skills for Claude Code and other AI agents',
 };

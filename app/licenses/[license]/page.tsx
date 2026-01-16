@@ -5,7 +5,7 @@ import { SkillGrid } from '@/components/skills/SkillGrid';
 import { BreadcrumbJsonLd } from '@/components/seo/BreadcrumbJsonLd';
 import { getSkillsSync, getUniqueLicenses, getSkillsByLicense } from '@/lib/skills';
 
-const BASE_URL = 'https://skills.claudecode.dev';
+const BASE_URL = 'https://skillsforge.dev';
 
 interface Props {
   params: Promise<{ license: string }>;
@@ -54,7 +54,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       canonical: `/licenses/${licenseSlug}`,
     },
     openGraph: {
-      title: `${license} Licensed Skills - Claude Skills Marketplace`,
+      title: `${license} Licensed Skills - SkillsForge`,
       description: `Discover ${matchingSkills.length} Claude Code skills with ${license} license.`,
     },
   };

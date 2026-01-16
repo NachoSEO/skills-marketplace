@@ -35,9 +35,9 @@ export function Header() {
               </div>
               <div className="hidden sm:flex flex-col">
                 <span className="font-bold text-base leading-tight group-hover:text-terminal transition-colors">
-                  Claude Skills
+                  SkillsForge
                 </span>
-                <span className="text-xs text-muted font-mono">marketplace</span>
+                <span className="text-xs text-muted font-mono">for Claude Code</span>
               </div>
             </Link>
 

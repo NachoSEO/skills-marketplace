@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next';
 
-const BASE_URL = 'https://skills.claudecode.dev';
+const BASE_URL = 'https://skillsforge.dev';
 
 export default function robots(): MetadataRoute.Robots {
   return {

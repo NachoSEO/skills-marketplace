@@ -19,7 +19,7 @@ import {
   getAlternativeSkills,
 } from '@/lib/skills';
 
-const BASE_URL = 'https://skills.claudecode.dev';
+const BASE_URL = 'https://skillsforge.dev';
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -50,14 +50,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       canonical: `/skills/${skill.slug}`,
     },
     openGraph: {
-      title: `${skill.name} - Claude Skills Marketplace`,
+      title: `${skill.name} - SkillsForge`,
       description: skill.aiDescription || skill.description,
       type: 'website',
       url: `${BASE_URL}/skills/${skill.slug}`,
     },
     twitter: {
       card: 'summary_large_image',
-      title: `${skill.name} - Claude Skills Marketplace`,
+      title: `${skill.name} - SkillsForge`,
       description: skill.aiDescription || skill.description,
     },
   };
