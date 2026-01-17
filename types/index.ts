@@ -1,3 +1,10 @@
+export interface FileNode {
+  name: string;
+  type: 'file' | 'dir';
+  path: string;
+  children?: FileNode[];
+}
+
 export interface Skill {
   id: string;
   name: string;
@@ -22,6 +29,7 @@ export interface Skill {
   pros?: string[];
   cons?: string[];
   rating?: number;
+  fileStructure?: FileNode[];
 }
 
 export interface Category {

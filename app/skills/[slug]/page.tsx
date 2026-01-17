@@ -8,6 +8,7 @@ import { TechSpec } from '@/components/skills/TechSpec';
 import { SkillTags } from '@/components/skills/SkillTags';
 import { SkillGrid } from '@/components/skills/SkillGrid';
 import { MarkdownContent } from '@/components/skills/MarkdownContent';
+import { FileStructure } from '@/components/skills/FileStructure';
 import { SkillJsonLd } from '@/components/seo/SkillJsonLd';
 import { BreadcrumbJsonLd } from '@/components/seo/BreadcrumbJsonLd';
 import { AlternativesSection } from '@/components/skills/AlternativesSection';
@@ -126,8 +127,19 @@ export default async function SkillPage({ params }: Props) {
               </section>
             )}
 
+            {/* File Structure */}
+            {skill.fileStructure && skill.fileStructure.length > 0 && (
+              <section className="fade-in-up stagger-3">
+                <h2 className="text-lg font-semibold mb-4 flex items-center gap-2">
+                  <span className="text-terminal font-mono">&gt;</span>
+                  File Structure
+                </h2>
+                <FileStructure files={skill.fileStructure} githubUrl={skill.githubUrl} />
+              </section>
+            )}
+
             {/* Technical Specifications */}
-            <section className="fade-in-up stagger-3">
+            <section className="fade-in-up stagger-4">
               <h2 className="text-lg font-semibold mb-4 flex items-center gap-2">
                 <span className="text-terminal font-mono">&gt;</span>
                 Technical Details

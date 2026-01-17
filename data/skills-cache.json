@@ -2,652 +2,602 @@
   {
     "slug": "docx",
     "aiDescription": "This skill enables Claude to create, edit, and analyze Microsoft Word documents programmatically. It supports tracked changes, comments, and complex formatting while preserving document structure. Part of Anthropic's official document skills powering Claude's file creation capabilities.",
-    "seoContent": "## What is the DOCX Skill?\n\nThe DOCX skill empowers Claude Code to work seamlessly with Microsoft Word documents, providing comprehensive document creation, editing, and analysis capabilities. This official Anthropic skill enables AI-powered document automation for professional workflows.\n\n## Key Features\n\n- Create new Word documents from scratch with full formatting control\n- Edit existing documents while preserving styles, headers, and footers\n- Track changes and manage revisions programmatically\n- Insert and format tables, images, and complex layouts\n- Handle comments and annotations for collaborative editing\n- Support for document templates and style management\n\n## Use Cases\n\n- **Automated Report Generation**: Generate professional reports with consistent branding and formatting from data sources\n- **Document Templating**: Create reusable document templates for contracts, proposals, and forms\n- **Batch Processing**: Process multiple documents simultaneously for formatting updates or content extraction\n- **Content Migration**: Convert content between formats while maintaining document integrity\n\n## How to Get Started\n\nInstall the DOCX skill to your Claude Code environment and start creating documents immediately. The skill integrates with Python's document processing libraries and provides intuitive commands for common operations.\n\n## Why Use This Skill?\n\nThe DOCX skill eliminates manual document creation tedium and ensures consistency across all your Word documents. Whether you're generating reports, creating proposals, or processing forms, this skill transforms hours of work into automated workflows that run in seconds.",
-    "stars": 41798,
-    "forks": 3846,
-    "watchers": 41798,
+    "stars": 43354,
+    "forks": 4015,
+    "watchers": 43354,
     "language": "Python",
     "license": null,
     "createdAt": "2025-09-22T15:53:31Z",
-    "updatedAt": "2026-01-15T23:21:02Z",
-    "lastFetched": "2026-01-15T23:25:22.965Z"
+    "updatedAt": "2026-01-17T08:45:29Z",
+    "lastFetched": "2026-01-17T08:46:14.354Z"
   },
   {
     "slug": "pdf",
     "aiDescription": "A comprehensive PDF toolkit that allows Claude to extract text and tables, create new PDFs, merge and split documents, and handle form fields. This production-grade skill powers Claude's PDF capabilities and demonstrates advanced document manipulation patterns.",
-    "seoContent": "## What is the PDF Skill?\n\nThe PDF skill provides Claude Code with a complete toolkit for working with PDF documents. From text extraction to document creation, merging, splitting, and form handling, this skill covers every aspect of PDF manipulation needed in modern workflows.\n\n## Key Features\n\n- Extract text, tables, and structured data from PDF files\n- Create new PDF documents with custom layouts and formatting\n- Merge multiple PDFs into single documents\n- Split large PDFs into smaller, focused files\n- Fill and process PDF form fields programmatically\n- Add watermarks, headers, and page numbers\n\n## Use Cases\n\n- **Invoice Processing**: Extract data from invoices for accounting automation\n- **Document Assembly**: Combine multiple PDFs into comprehensive packages\n- **Form Automation**: Pre-fill forms with data from databases or spreadsheets\n- **Report Distribution**: Generate and prepare PDFs for automated distribution\n\n## How to Get Started\n\nInstall the PDF skill and begin processing documents immediately. The skill handles common PDF operations through simple commands, making complex document workflows accessible without deep PDF library knowledge.\n\n## Why Use This Skill?\n\nPDFs are everywhere in business workflows, and manual processing is time-consuming and error-prone. The PDF skill automates these tasks with precision, enabling you to process hundreds of documents in the time it would take to handle one manually. This skill is essential for any workflow involving document automation.",
-    "stars": 41798,
-    "forks": 3846,
-    "watchers": 41798,
+    "stars": 43354,
+    "forks": 4015,
+    "watchers": 43354,
     "language": "Python",
     "license": null,
     "createdAt": "2025-09-22T15:53:31Z",
-    "updatedAt": "2026-01-15T23:21:02Z",
-    "lastFetched": "2026-01-15T23:25:23.919Z"
+    "updatedAt": "2026-01-17T08:45:29Z",
+    "lastFetched": "2026-01-17T08:46:14.993Z"
   },
   {
     "slug": "pptx",
     "aiDescription": "Enables Claude to create, edit, and analyze PowerPoint presentations with support for layouts, templates, charts, and automated slide generation. This skill handles complex presentation structures including master slides, animations, and embedded content.",
-    "seoContent": "## What is the PPTX Skill?\n\nThe PPTX skill enables Claude Code to create, modify, and analyze PowerPoint presentations programmatically. Build professional slide decks, apply templates, insert charts, and automate presentation generation for consistent, high-quality output.\n\n## Key Features\n\n- Create presentations from scratch with custom themes\n- Apply and modify master slide templates\n- Insert charts, tables, and data visualizations\n- Add and format images, shapes, and SmartArt\n- Generate slides dynamically from data sources\n- Support for speaker notes and animations\n\n## Use Cases\n\n- **Sales Decks**: Generate customized sales presentations from CRM data\n- **Monthly Reports**: Automate recurring presentation updates with fresh data\n- **Training Materials**: Create consistent training content at scale\n- **Data Presentations**: Transform data into visual presentation formats automatically\n\n## How to Get Started\n\nInstall the PPTX skill to start creating presentations. The skill provides intuitive commands for slide operations, layout management, and content insertion, making presentation automation straightforward.\n\n## Why Use This Skill?\n\nCreating presentations manually is repetitive and time-consuming. The PPTX skill lets you generate polished presentations in seconds, maintain brand consistency across all decks, and update content automatically when source data changes. Transform your presentation workflow from hours to minutes.",
-    "stars": 41798,
-    "forks": 3846,
-    "watchers": 41798,
+    "stars": 43354,
+    "forks": 4015,
+    "watchers": 43354,
     "language": "Python",
     "license": null,
     "createdAt": "2025-09-22T15:53:31Z",
-    "updatedAt": "2026-01-15T23:21:02Z",
-    "lastFetched": "2026-01-15T23:25:24.874Z"
+    "updatedAt": "2026-01-17T08:45:29Z",
+    "lastFetched": "2026-01-17T08:46:15.611Z"
   },
   {
     "slug": "xlsx",
     "aiDescription": "Provides Claude with Excel spreadsheet capabilities including formula creation, cell formatting, data analysis, and visualization generation. Supports complex workbook structures with multiple sheets, pivot tables, and conditional formatting.",
-    "seoContent": "## What is the XLSX Skill?\n\nThe XLSX skill gives Claude Code comprehensive Excel spreadsheet capabilities. Create, edit, and analyze spreadsheets with formulas, formatting, charts, and data analysis features that match Excel's native functionality.\n\n## Key Features\n\n- Create and modify Excel workbooks with multiple sheets\n- Build complex formulas and functions programmatically\n- Apply cell formatting, styles, and conditional formatting\n- Generate charts and data visualizations\n- Work with pivot tables and data analysis tools\n- Handle large datasets efficiently\n\n## Use Cases\n\n- **Financial Modeling**: Build and update financial models automatically\n- **Data Transformation**: Process and transform data between formats\n- **Report Generation**: Create formatted reports from raw data\n- **Bulk Operations**: Apply changes across multiple spreadsheets simultaneously\n\n## How to Get Started\n\nInstall the XLSX skill to begin working with Excel files immediately. The skill supports both reading existing files and creating new spreadsheets from scratch with full formatting control.\n\n## Why Use This Skill?\n\nExcel remains the backbone of business data processing, but manual spreadsheet work is tedious and error-prone. The XLSX skill automates these tasks, ensuring accuracy and consistency while dramatically reducing the time needed for spreadsheet operations. Essential for any data-driven workflow.",
-    "stars": 41798,
-    "forks": 3846,
-    "watchers": 41798,
+    "stars": 43354,
+    "forks": 4015,
+    "watchers": 43354,
     "language": "Python",
     "license": null,
     "createdAt": "2025-09-22T15:53:31Z",
-    "updatedAt": "2026-01-15T23:21:02Z",
-    "lastFetched": "2026-01-15T23:25:25.701Z"
+    "updatedAt": "2026-01-17T08:45:29Z",
+    "lastFetched": "2026-01-17T08:46:16.298Z"
   },
   {
     "slug": "algorithmic-art",
     "aiDescription": "Teaches Claude to generate creative algorithmic art using p5.js for generative and procedural designs. Enables creation of patterns, fractals, particle systems, and interactive visualizations with mathematical precision.",
-    "seoContent": "## What is the Algorithmic Art Skill?\n\nThe Algorithmic Art skill enables Claude Code to create stunning generative art using p5.js. Generate patterns, fractals, particle systems, and procedural designs that blend mathematical precision with creative expression.\n\n## Key Features\n\n- Generate fractals and mathematical patterns\n- Create particle systems and flow fields\n- Build procedural textures and backgrounds\n- Design interactive visualizations\n- Implement noise-based generative techniques\n- Export artwork in various formats\n\n## Use Cases\n\n- **Digital Art Creation**: Generate unique algorithmic artworks for projects\n- **Background Generation**: Create procedural backgrounds for websites and apps\n- **Data Art**: Transform data into visual artistic representations\n- **Educational Visualizations**: Demonstrate mathematical concepts through art\n\n## How to Get Started\n\nInstall the Algorithmic Art skill and start creating generative designs immediately. The skill provides templates and patterns for common generative techniques, making it easy to create professional-quality art.\n\n## Why Use This Skill?\n\nAlgorithmic art combines creativity with code, producing unique visuals that would be impossible to create manually. This skill democratizes generative art, enabling anyone to create stunning procedural designs without deep programming knowledge. Perfect for creative projects, backgrounds, and visual experiments.",
-    "stars": 41798,
-    "forks": 3846,
-    "watchers": 41798,
+    "stars": 43354,
+    "forks": 4015,
+    "watchers": 43354,
     "language": "Python",
     "license": null,
     "createdAt": "2025-09-22T15:53:31Z",
-    "updatedAt": "2026-01-15T23:21:02Z",
-    "lastFetched": "2026-01-15T23:25:26.727Z"
+    "updatedAt": "2026-01-17T08:45:29Z",
+    "lastFetched": "2026-01-17T08:46:16.978Z"
   },
   {
     "slug": "canvas-design",
     "aiDescription": "Enables Claude to create visual art and designs in PNG and PDF formats using canvas-based rendering. Supports shapes, gradients, typography, and complex compositions for graphics, diagrams, and illustrations.",
-    "seoContent": "## What is the Canvas Design Skill?\n\nThe Canvas Design skill empowers Claude Code to create visual graphics, diagrams, and illustrations using canvas-based rendering. Generate PNG and PDF outputs with precise control over shapes, colors, typography, and composition.\n\n## Key Features\n\n- Draw shapes, paths, and complex geometries\n- Apply gradients, patterns, and color effects\n- Render typography with custom fonts and styles\n- Create layered compositions and designs\n- Export to PNG and PDF formats\n- Build diagrams and technical illustrations\n\n## Use Cases\n\n- **Diagram Creation**: Generate flowcharts, architecture diagrams, and schematics\n- **Social Graphics**: Create images for social media posts and marketing\n- **Technical Illustrations**: Build precise technical drawings and documentation graphics\n- **Brand Assets**: Generate logos, icons, and brand elements\n\n## How to Get Started\n\nInstall the Canvas Design skill to start creating graphics programmatically. The skill provides drawing primitives and composition tools for building complex visual designs from simple commands.\n\n## Why Use This Skill?\n\nVisual content creation traditionally requires specialized design software and skills. The Canvas Design skill enables programmatic graphic generation, making it possible to automate image creation, maintain consistency, and generate visuals at scale. Perfect for teams needing consistent graphics without dedicated design resources.",
-    "stars": 41798,
-    "forks": 3846,
-    "watchers": 41798,
+    "stars": 43354,
+    "forks": 4015,
+    "watchers": 43354,
     "language": "Python",
     "license": null,
     "createdAt": "2025-09-22T15:53:31Z",
-    "updatedAt": "2026-01-15T23:21:02Z",
-    "lastFetched": "2026-01-15T23:25:27.620Z"
+    "updatedAt": "2026-01-17T08:45:29Z",
+    "lastFetched": "2026-01-17T08:46:17.617Z"
   },
   {
     "slug": "slack-gif-creator",
     "aiDescription": "Specialized skill for creating animated GIFs optimized for Slack's size constraints and messaging context. Handles frame generation, optimization, and ensures compatibility with Slack's image processing.",
-    "seoContent": "## What is the Slack GIF Creator Skill?\n\nThe Slack GIF Creator skill enables Claude Code to create animated GIFs specifically optimized for Slack's messaging platform. Generate attention-grabbing animations that meet Slack's size requirements and display perfectly in channels.\n\n## Key Features\n\n- Create frame-by-frame animations\n- Optimize file sizes for Slack's constraints\n- Apply timing and easing effects\n- Generate looping animations\n- Support for text overlays and effects\n- Automatic compression and optimization\n\n## Use Cases\n\n- **Team Celebrations**: Create celebratory GIFs for team achievements\n- **Process Demonstrations**: Animate workflows and processes for documentation\n- **Reaction Images**: Generate custom reaction GIFs for team communication\n- **Product Demos**: Create quick animated demos for sharing features\n\n## How to Get Started\n\nInstall the Slack GIF Creator skill and start making animations. The skill handles the technical complexity of GIF optimization, letting you focus on creative content.\n\n## Why Use This Skill?\n\nSlack communication benefits from visual content, but creating GIFs that display correctly requires understanding platform constraints. This skill handles optimization automatically, ensuring your animations look great and load quickly in Slack. Make your team communications more engaging and memorable.",
-    "stars": 41798,
-    "forks": 3846,
-    "watchers": 41798,
+    "stars": 43354,
+    "forks": 4015,
+    "watchers": 43354,
     "language": "Python",
     "license": null,
     "createdAt": "2025-09-22T15:53:31Z",
-    "updatedAt": "2026-01-15T23:21:02Z",
-    "lastFetched": "2026-01-15T23:25:28.507Z"
+    "updatedAt": "2026-01-17T08:45:29Z",
+    "lastFetched": "2026-01-17T08:46:18.298Z"
   },
   {
     "slug": "frontend-design",
     "aiDescription": "Guides Claude in building distinctive frontends that avoid generic AI aesthetics. Emphasizes bold design decisions, unique visual identities, and production-ready React components with Tailwind CSS styling.",
-    "seoContent": "## What is the Frontend Design Skill?\n\nThe Frontend Design skill guides Claude Code in creating distinctive, professional frontend interfaces. Avoid generic AI-generated aesthetics and build React components with bold design decisions and unique visual identities using Tailwind CSS.\n\n## Key Features\n\n- Build production-ready React components\n- Apply sophisticated Tailwind CSS styling\n- Create unique visual identities\n- Implement responsive design patterns\n- Design with accessibility in mind\n- Generate component libraries and design systems\n\n## Use Cases\n\n- **Landing Pages**: Create compelling landing pages with distinctive design\n- **Dashboard UIs**: Build data-rich dashboards with polished interfaces\n- **Component Libraries**: Generate reusable UI component sets\n- **Prototype Development**: Quickly create high-fidelity prototypes\n\n## How to Get Started\n\nInstall the Frontend Design skill to elevate your UI development. The skill provides design principles and patterns that result in professional, distinctive interfaces rather than generic AI output.\n\n## Why Use This Skill?\n\nAI-generated interfaces often look similar and generic. This skill teaches Claude to make bold design choices, creating frontends that stand out with unique character and professional polish. Essential for teams wanting high-quality UI development assistance.",
-    "stars": 41798,
-    "forks": 3846,
-    "watchers": 41798,
+    "stars": 43354,
+    "forks": 4015,
+    "watchers": 43354,
     "language": "Python",
     "license": null,
     "createdAt": "2025-09-22T15:53:31Z",
-    "updatedAt": "2026-01-15T23:21:02Z",
-    "lastFetched": "2026-01-15T23:25:29.437Z"
+    "updatedAt": "2026-01-17T08:45:29Z",
+    "lastFetched": "2026-01-17T08:46:19.104Z"
   },
   {
     "slug": "artifacts-builder",
     "aiDescription": "Teaches Claude to build complex claude.ai HTML artifacts using React, Tailwind CSS, and shadcn/ui components. Covers component composition, state management, and creating interactive experiences within artifact constraints.",
-    "seoContent": "## What is the Artifacts Builder Skill?\n\nThe Artifacts Builder skill teaches Claude to create sophisticated HTML artifacts for claude.ai. Build complex interactive experiences using React, Tailwind CSS, and shadcn/ui components within artifact constraints.\n\n## Key Features\n\n- Build React applications within artifacts\n- Use shadcn/ui component library\n- Implement state management patterns\n- Create interactive experiences\n- Handle artifact-specific constraints\n- Design responsive artifact layouts\n\n## Use Cases\n\n- **Interactive Tools**: Build calculators, converters, and utilities\n- **Data Visualizations**: Create charts and interactive data displays\n- **Mini Applications**: Develop focused single-purpose apps\n- **Prototypes**: Quickly prototype interactive concepts\n\n## How to Get Started\n\nInstall the Artifacts Builder skill to enhance Claude's artifact creation capabilities. The skill provides patterns and best practices for building complex artifacts that work within platform constraints.\n\n## Why Use This Skill?\n\nClaude.ai artifacts enable interactive experiences, but building complex artifacts requires understanding React patterns and artifact constraints. This skill provides the knowledge needed to create sophisticated, professional artifacts that impress users and solve real problems.",
-    "stars": 41798,
-    "forks": 3846,
-    "watchers": 41798,
+    "stars": 43354,
+    "forks": 4015,
+    "watchers": 43354,
     "language": "Python",
     "license": null,
     "createdAt": "2025-09-22T15:53:31Z",
-    "updatedAt": "2026-01-15T23:21:02Z",
-    "lastFetched": "2026-01-15T23:25:30.340Z"
+    "updatedAt": "2026-01-17T08:45:29Z",
+    "lastFetched": "2026-01-17T08:46:19.787Z"
   },
   {
     "slug": "mcp-builder",
     "aiDescription": "Guide for creating high-quality MCP (Model Context Protocol) servers to integrate external APIs and services with Claude. Covers server architecture, protocol implementation, and best practices for tool integration.",
-    "seoContent": "## What is the MCP Builder Skill?\n\nThe MCP Builder skill provides comprehensive guidance for creating Model Context Protocol servers. Integrate external APIs and services with Claude through well-architected MCP servers that follow best practices.\n\n## Key Features\n\n- Design MCP server architectures\n- Implement protocol specifications correctly\n- Handle authentication and security\n- Create robust error handling\n- Build tool definitions and schemas\n- Test and debug MCP integrations\n\n## Use Cases\n\n- **API Integration**: Connect Claude to external services and APIs\n- **Database Access**: Build secure database query interfaces\n- **Service Orchestration**: Create tools for managing cloud services\n- **Custom Tools**: Develop specialized tools for domain-specific tasks\n\n## How to Get Started\n\nInstall the MCP Builder skill to learn MCP server development. The skill covers architecture patterns, implementation details, and testing strategies for building reliable integrations.\n\n## Why Use This Skill?\n\nMCP servers extend Claude's capabilities by connecting to external systems. Building reliable, secure MCP servers requires understanding the protocol and following best practices. This skill provides the knowledge to create professional-grade integrations that enhance Claude's functionality.",
-    "stars": 41798,
-    "forks": 3846,
-    "watchers": 41798,
+    "stars": 43354,
+    "forks": 4015,
+    "watchers": 43354,
     "language": "Python",
     "license": null,
     "createdAt": "2025-09-22T15:53:31Z",
-    "updatedAt": "2026-01-15T23:21:02Z",
-    "lastFetched": "2026-01-15T23:25:31.248Z"
+    "updatedAt": "2026-01-17T08:45:29Z",
+    "lastFetched": "2026-01-17T08:46:20.509Z"
   },
   {
     "slug": "webapp-testing",
     "aiDescription": "Test local web applications using Playwright for UI verification and debugging. Supports automated testing, visual regression, and interactive debugging of web applications during development.",
-    "seoContent": "## What is the Webapp Testing Skill?\n\nThe Webapp Testing skill enables Claude Code to test local web applications using Playwright. Perform automated UI verification, visual regression testing, and interactive debugging during development.\n\n## Key Features\n\n- Automate UI testing with Playwright\n- Capture screenshots and visual comparisons\n- Test user interactions and workflows\n- Debug application behavior interactively\n- Generate test reports and documentation\n- Support for multiple browsers\n\n## Use Cases\n\n- **Development Testing**: Verify features work correctly during development\n- **Regression Testing**: Catch visual and functional regressions\n- **Cross-Browser Testing**: Ensure consistency across browsers\n- **Demo Creation**: Record interactions for documentation\n\n## How to Get Started\n\nInstall the Webapp Testing skill to add automated testing to your workflow. The skill integrates Playwright's capabilities for comprehensive web application testing.\n\n## Why Use This Skill?\n\nManual web testing is slow and error-prone. Automated testing with Playwright ensures consistent verification and catches issues early. This skill makes automated testing accessible, helping you ship with confidence.",
-    "stars": 41798,
-    "forks": 3846,
-    "watchers": 41798,
+    "stars": 43354,
+    "forks": 4015,
+    "watchers": 43354,
     "language": "Python",
     "license": null,
     "createdAt": "2025-09-22T15:53:31Z",
-    "updatedAt": "2026-01-15T23:21:02Z",
-    "lastFetched": "2026-01-15T23:25:32.098Z"
+    "updatedAt": "2026-01-17T08:45:29Z",
+    "lastFetched": "2026-01-17T08:46:21.114Z"
   },
   {
     "slug": "brand-guidelines",
     "aiDescription": "Apply Anthropic's official brand colors, typography, and design guidelines to artifacts and designs. Ensures consistency with official branding across all generated content.",
-    "seoContent": "## What is the Brand Guidelines Skill?\n\nThe Brand Guidelines skill enables Claude Code to apply Anthropic's official brand colors, typography, and design standards. Create artifacts and designs that maintain consistency with official branding.\n\n## Key Features\n\n- Apply official color palettes\n- Use correct typography and fonts\n- Follow spacing and layout guidelines\n- Implement brand-consistent components\n- Generate on-brand marketing materials\n- Maintain visual consistency\n\n## Use Cases\n\n- **Marketing Materials**: Create brand-consistent promotional content\n- **Documentation**: Design documentation following brand standards\n- **Presentations**: Build presentations with official styling\n- **UI Design**: Implement interfaces matching brand guidelines\n\n## How to Get Started\n\nInstall the Brand Guidelines skill to ensure all output follows official branding. The skill provides quick access to brand specifications and automatic application of standards.\n\n## Why Use This Skill?\n\nBrand consistency builds trust and recognition. This skill ensures all Claude-generated content adheres to official guidelines, eliminating the need to manually verify and correct branding in every output. Essential for maintaining professional, consistent brand presence.",
-    "stars": 41798,
-    "forks": 3846,
-    "watchers": 41798,
+    "stars": 43354,
+    "forks": 4015,
+    "watchers": 43354,
     "language": "Python",
     "license": null,
     "createdAt": "2025-09-22T15:53:31Z",
-    "updatedAt": "2026-01-15T23:21:02Z",
-    "lastFetched": "2026-01-15T23:25:32.987Z"
+    "updatedAt": "2026-01-17T08:45:29Z",
+    "lastFetched": "2026-01-17T08:46:21.725Z"
   },
   {
     "slug": "internal-comms",
     "aiDescription": "Write internal communications like status reports, newsletters, FAQs, and announcements. Provides templates and best practices for effective organizational communication.",
-    "seoContent": "## What is the Internal Comms Skill?\n\nThe Internal Comms skill helps Claude Code write effective internal communications. Generate status reports, newsletters, FAQs, announcements, and other organizational content with professional polish.\n\n## Key Features\n\n- Generate status reports and updates\n- Create newsletter content\n- Write FAQ documents\n- Draft announcements and memos\n- Apply consistent tone and formatting\n- Follow communication best practices\n\n## Use Cases\n\n- **Weekly Updates**: Generate team status reports consistently\n- **Company Newsletters**: Create engaging internal newsletters\n- **Policy Communication**: Draft clear policy announcements\n- **Onboarding Materials**: Develop FAQ and guide content\n\n## How to Get Started\n\nInstall the Internal Comms skill to improve organizational communication. The skill provides templates and guidance for various internal communication formats.\n\n## Why Use This Skill?\n\nEffective internal communication is crucial but time-consuming. This skill helps generate consistent, professional communications quickly, ensuring important messages reach teams in clear, engaging formats. Save hours while improving communication quality.",
-    "stars": 41798,
-    "forks": 3846,
-    "watchers": 41798,
+    "stars": 43354,
+    "forks": 4015,
+    "watchers": 43354,
     "language": "Python",
     "license": null,
     "createdAt": "2025-09-22T15:53:31Z",
-    "updatedAt": "2026-01-15T23:21:02Z",
-    "lastFetched": "2026-01-15T23:25:33.880Z"
+    "updatedAt": "2026-01-17T08:45:29Z",
+    "lastFetched": "2026-01-17T08:46:22.472Z"
   },
   {
     "slug": "skill-creator",
     "aiDescription": "Interactive skill creation tool that guides you through building new skills with a Q&A workflow. Helps structure skill content, define use cases, and generate properly formatted skill files.",
-    "seoContent": "## What is the Skill Creator Skill?\n\nThe Skill Creator is a meta-skill that guides you through building new Claude Code skills interactively. Use a Q&A workflow to structure skill content, define use cases, and generate properly formatted skill files.\n\n## Key Features\n\n- Interactive skill creation workflow\n- Guided Q&A for skill definition\n- Template generation for skill files\n- Best practice recommendations\n- Validation of skill structure\n- Documentation generation\n\n## Use Cases\n\n- **New Skill Development**: Create skills for new domains or capabilities\n- **Skill Documentation**: Generate comprehensive skill documentation\n- **Team Skill Sharing**: Build skills for team-specific workflows\n- **Process Automation**: Codify expertise into reusable skills\n\n## How to Get Started\n\nInstall the Skill Creator and run through the interactive workflow. Answer questions about your skill's purpose, use cases, and content to generate a complete skill package.\n\n## Why Use This Skill?\n\nCreating effective skills requires understanding structure and best practices. This skill guides you through the process, ensuring your new skills are well-designed, properly documented, and ready for use. Essential for anyone extending Claude Code's capabilities.",
-    "stars": 41798,
-    "forks": 3846,
-    "watchers": 41798,
+    "stars": 43354,
+    "forks": 4015,
+    "watchers": 43354,
     "language": "Python",
     "license": null,
     "createdAt": "2025-09-22T15:53:31Z",
-    "updatedAt": "2026-01-15T23:21:02Z",
-    "lastFetched": "2026-01-15T23:25:34.809Z"
+    "updatedAt": "2026-01-17T08:45:29Z",
+    "lastFetched": "2026-01-17T08:46:23.389Z"
   },
   {
     "slug": "superpowers",
     "aiDescription": "A complete software development workflow with 20+ battle-tested skills. Features spec-driven design, subagent-driven development, strict TDD enforcement, and systematic debugging. Agents work autonomously for hours following approved plans with mandatory code review.",
-    "seoContent": "## What is the Superpowers Skill?\n\nSuperpowers is a comprehensive software development framework providing 20+ battle-tested skills for professional development workflows. Features spec-driven design, TDD enforcement, and systematic debugging patterns for autonomous development.\n\n## Key Features\n\n- Spec-driven development workflow\n- Strict TDD enforcement and testing patterns\n- Subagent-driven development delegation\n- Systematic debugging methodologies\n- Mandatory code review processes\n- Long-running autonomous task execution\n\n## Use Cases\n\n- **Feature Development**: Build features following proven workflows\n- **Test-Driven Development**: Implement TDD with guardrails and enforcement\n- **Debugging Sessions**: Apply systematic debugging to complex issues\n- **Code Review**: Ensure quality through mandatory review patterns\n\n## How to Get Started\n\nInstall Superpowers to upgrade your development workflow. The skill collection provides comprehensive coverage for professional software development practices.\n\n## Why Use This Skill?\n\nSuperpowers represents years of refined development practices distilled into actionable patterns. Instead of ad-hoc coding, work within proven frameworks that ensure quality, maintainability, and reliability. This is professional-grade development assistance.",
-    "stars": 24202,
-    "forks": 1802,
-    "watchers": 24202,
+    "stars": 26554,
+    "forks": 1979,
+    "watchers": 26554,
     "language": "Shell",
     "license": "MIT",
     "createdAt": "2025-10-09T19:45:18Z",
-    "updatedAt": "2026-01-15T23:22:19Z",
-    "lastFetched": "2026-01-15T23:25:35.830Z"
+    "updatedAt": "2026-01-17T08:45:20Z",
+    "lastFetched": "2026-01-17T08:46:24.138Z"
   },
   {
     "slug": "superpowers-lab",
     "aiDescription": "Experimental skills using refined techniques for advanced development workflows. A testing ground for new patterns and approaches that may graduate to the main Superpowers collection.",
-    "seoContent": "## What is the Superpowers Lab Skill?\n\nSuperpowers Lab is the experimental branch of the Superpowers collection. Test cutting-edge development techniques, refined patterns, and advanced workflows before they graduate to the main collection.\n\n## Key Features\n\n- Experimental development patterns\n- Advanced workflow techniques\n- Refined automation approaches\n- Early access to new capabilities\n- Feedback-driven development\n- Progressive enhancement patterns\n\n## Use Cases\n\n- **Early Adoption**: Try new techniques before general release\n- **Workflow Experimentation**: Test experimental workflows safely\n- **Feedback Contribution**: Help shape future Superpowers features\n- **Advanced Development**: Access cutting-edge capabilities\n\n## How to Get Started\n\nInstall Superpowers Lab alongside the main Superpowers collection. Experimental features are clearly marked and can be used selectively.\n\n## Why Use This Skill?\n\nStay ahead of the curve with early access to developing patterns and techniques. Superpowers Lab lets you experiment with new approaches while contributing feedback that shapes future releases. Perfect for developers who want to push boundaries.",
-    "stars": 24202,
-    "forks": 1802,
-    "watchers": 24202,
+    "stars": 134,
+    "forks": 8,
+    "watchers": 134,
     "language": "Shell",
     "license": "MIT",
-    "createdAt": "2025-10-09T19:45:18Z",
-    "updatedAt": "2026-01-15T23:22:19Z",
-    "lastFetched": "2026-01-15T23:25:36.687Z"
+    "createdAt": "2025-10-23T17:55:40Z",
+    "updatedAt": "2026-01-17T00:51:52Z",
+    "lastFetched": "2026-01-17T08:46:24.864Z"
   },
   {
     "slug": "ios-simulator",
     "aiDescription": "Build, navigate, and test iOS applications in the simulator environment. Provides commands for launching simulators, installing apps, and interacting with iOS interfaces during development.",
-    "seoContent": "## What is the iOS Simulator Skill?\n\nThe iOS Simulator skill enables Claude Code to build, navigate, and test iOS applications within the simulator environment. Streamline mobile development with automated simulator interactions and testing.\n\n## Key Features\n\n- Launch and manage iOS simulators\n- Install and run applications\n- Navigate app interfaces programmatically\n- Capture screenshots and recordings\n- Test user interactions\n- Debug application behavior\n\n## Use Cases\n\n- **App Testing**: Automated testing of iOS applications\n- **UI Verification**: Verify interface layouts and interactions\n- **Development Workflow**: Integrate simulator testing into development\n- **Demo Creation**: Record app interactions for documentation\n\n## How to Get Started\n\nInstall the iOS Simulator skill with Xcode installed on your system. The skill provides commands for common simulator operations.\n\n## Why Use This Skill?\n\niOS development requires constant simulator interaction. This skill automates common operations, letting you test, verify, and demonstrate iOS applications efficiently. Essential for iOS developers wanting to streamline their workflow.",
-    "stars": 24202,
-    "forks": 1802,
-    "watchers": 24202,
-    "language": "Shell",
+    "stars": 320,
+    "forks": 15,
+    "watchers": 320,
+    "language": "Python",
     "license": "MIT",
-    "createdAt": "2025-10-09T19:45:18Z",
-    "updatedAt": "2026-01-15T23:22:19Z",
-    "lastFetched": "2026-01-15T23:25:37.633Z"
+    "createdAt": "2025-10-17T12:43:15Z",
+    "updatedAt": "2026-01-16T18:47:29Z",
+    "lastFetched": "2026-01-17T08:46:25.573Z"
   },
   {
     "slug": "ffuf-web-fuzzing",
     "aiDescription": "Expert guidance for ffuf web fuzzing during penetration testing and security assessments. Covers wordlist selection, parameter fuzzing, and result analysis for security professionals.",
-    "seoContent": "## What is the FFUF Web Fuzzing Skill?\n\nThe FFUF Web Fuzzing skill provides expert guidance for using ffuf in penetration testing and security assessments. Learn effective fuzzing techniques, wordlist strategies, and result analysis for security testing.\n\n## Key Features\n\n- Wordlist selection guidance\n- Parameter fuzzing techniques\n- Directory enumeration patterns\n- Result filtering and analysis\n- Rate limiting and stealth options\n- Integration with security workflows\n\n## Use Cases\n\n- **Penetration Testing**: Discover hidden endpoints and parameters\n- **Security Assessments**: Enumerate web application attack surfaces\n- **Bug Bounty**: Find vulnerabilities through fuzzing\n- **Security Research**: Explore application structures\n\n## How to Get Started\n\nInstall the FFUF Web Fuzzing skill for authorized security testing. The skill provides guidance for effective fuzzing while following responsible disclosure practices.\n\n## Why Use This Skill?\n\nffuf is powerful but requires expertise for effective use. This skill provides the knowledge to conduct thorough, efficient fuzzing campaigns. Essential for security professionals performing authorized testing.",
-    "stars": 24202,
-    "forks": 1802,
-    "watchers": 24202,
-    "language": "Shell",
-    "license": "MIT",
-    "createdAt": "2025-10-09T19:45:18Z",
-    "updatedAt": "2026-01-15T23:22:19Z",
-    "lastFetched": "2026-01-15T23:25:38.508Z"
+    "stars": 95,
+    "forks": 5,
+    "watchers": 95,
+    "language": "Python",
+    "license": null,
+    "createdAt": "2025-10-16T19:33:05Z",
+    "updatedAt": "2026-01-16T07:12:10Z",
+    "lastFetched": "2026-01-17T08:46:26.276Z"
   },
   {
     "slug": "playwright-skill",
     "aiDescription": "Browser automation and testing using Playwright for web application testing. Provides patterns for writing tests, handling async operations, and building reliable automation scripts.",
-    "seoContent": "## What is the Playwright Skill?\n\nThe Playwright Skill provides comprehensive browser automation and testing capabilities. Write reliable tests, handle async operations, and build automation scripts for web applications using Playwright's powerful API.\n\n## Key Features\n\n- Cross-browser testing support\n- Async operation handling\n- Page object pattern implementation\n- Visual comparison testing\n- Network interception\n- Mobile device emulation\n\n## Use Cases\n\n- **E2E Testing**: Build comprehensive end-to-end test suites\n- **Regression Testing**: Catch bugs before they reach production\n- **Automation Scripts**: Automate repetitive web tasks\n- **Visual Testing**: Compare screenshots across versions\n\n## How to Get Started\n\nInstall the Playwright Skill to enhance your testing workflow. The skill provides patterns and best practices for reliable browser automation.\n\n## Why Use This Skill?\n\nPlaywright offers modern browser automation, but writing maintainable tests requires patterns and practices. This skill provides the knowledge to build reliable, maintainable test suites that scale with your application.",
-    "stars": 24202,
-    "forks": 1802,
-    "watchers": 24202,
-    "language": "Shell",
+    "stars": 1305,
+    "forks": 65,
+    "watchers": 1305,
+    "language": "JavaScript",
     "license": "MIT",
-    "createdAt": "2025-10-09T19:45:18Z",
-    "updatedAt": "2026-01-15T23:22:19Z",
-    "lastFetched": "2026-01-15T23:25:39.416Z"
+    "createdAt": "2025-10-19T21:33:51Z",
+    "updatedAt": "2026-01-17T08:26:18Z",
+    "lastFetched": "2026-01-17T08:46:27.000Z"
   },
   {
     "slug": "d3-js-visualization",
     "aiDescription": "Create sophisticated data visualizations using D3.js for interactive charts, graphs, and data-driven displays. Covers chart types, animations, and responsive design patterns.",
-    "seoContent": "## What is the D3.js Visualization Skill?\n\nThe D3.js Visualization skill enables Claude Code to create sophisticated, interactive data visualizations. Build charts, graphs, and data-driven displays using D3.js's powerful rendering capabilities.\n\n## Key Features\n\n- Create bar, line, and pie charts\n- Build interactive visualizations\n- Implement smooth animations\n- Handle large datasets efficiently\n- Support responsive layouts\n- Generate SVG and canvas outputs\n\n## Use Cases\n\n- **Dashboard Development**: Create interactive data dashboards\n- **Report Visualizations**: Generate charts for reports and presentations\n- **Data Exploration**: Build exploratory visualization tools\n- **Real-time Displays**: Visualize streaming data\n\n## How to Get Started\n\nInstall the D3.js Visualization skill to start creating data visualizations. The skill covers common chart patterns and D3.js best practices.\n\n## Why Use This Skill?\n\nD3.js is powerful but has a steep learning curve. This skill provides patterns and examples for common visualization needs, making it easy to create professional data visualizations without deep D3.js expertise.",
-    "stars": 24202,
-    "forks": 1802,
-    "watchers": 24202,
-    "language": "Shell",
-    "license": "MIT",
-    "createdAt": "2025-10-09T19:45:18Z",
-    "updatedAt": "2026-01-15T23:22:19Z",
-    "lastFetched": "2026-01-15T23:25:40.310Z"
+    "stars": 69,
+    "forks": 6,
+    "watchers": 69,
+    "language": "JavaScript",
+    "license": null,
+    "createdAt": "2025-10-17T14:53:45Z",
+    "updatedAt": "2026-01-17T06:29:40Z",
+    "lastFetched": "2026-01-17T08:46:28.142Z"
   },
   {
     "slug": "scientific-skills",
     "aiDescription": "Comprehensive collection of ready-to-use scientific skills for research and analysis. Covers statistics, data processing, and research methodology for scientific applications.",
-    "seoContent": "## What is the Scientific Skills Collection?\n\nThe Scientific Skills collection provides ready-to-use capabilities for research and analysis. Cover statistics, data processing, and research methodology with tools designed for scientific applications.\n\n## Key Features\n\n- Statistical analysis tools\n- Data processing pipelines\n- Research methodology guidance\n- Citation management\n- Result visualization\n- Reproducibility support\n\n## Use Cases\n\n- **Research Analysis**: Process and analyze research data\n- **Statistical Computing**: Perform complex statistical analyses\n- **Data Preparation**: Clean and prepare datasets\n- **Results Reporting**: Generate publication-ready outputs\n\n## How to Get Started\n\nInstall the Scientific Skills collection to enhance research workflows. The skills cover common scientific computing needs and research practices.\n\n## Why Use This Skill?\n\nScientific work requires specialized tools and methodologies. This collection provides domain-appropriate capabilities that understand research contexts and best practices. Essential for researchers using Claude Code in scientific workflows.",
-    "stars": 24202,
-    "forks": 1802,
-    "watchers": 24202,
-    "language": "Shell",
+    "stars": 6282,
+    "forks": 751,
+    "watchers": 6282,
+    "language": "Python",
     "license": "MIT",
-    "createdAt": "2025-10-09T19:45:18Z",
-    "updatedAt": "2026-01-15T23:22:19Z",
-    "lastFetched": "2026-01-15T23:25:41.165Z"
+    "createdAt": "2025-10-19T20:54:15Z",
+    "updatedAt": "2026-01-17T09:09:45Z",
+    "lastFetched": "2026-01-17T09:09:50.597Z"
   },
   {
     "slug": "web-asset-generator",
     "aiDescription": "Generate favicons, app icons, and social media images for web projects. Creates properly sized assets for different platforms and use cases from source images.",
-    "seoContent": "## What is the Web Asset Generator Skill?\n\nThe Web Asset Generator skill creates favicons, app icons, and social media images for web projects. Generate properly sized assets for all platforms from single source images.\n\n## Key Features\n\n- Generate favicon sets for all browsers\n- Create app icons for iOS and Android\n- Build social media image packages\n- Support various image formats\n- Optimize for file size\n- Generate manifest files\n\n## Use Cases\n\n- **New Projects**: Generate complete icon sets for new sites\n- **Rebranding**: Update all assets when branding changes\n- **Multi-Platform**: Create assets for web, mobile, and social\n- **Optimization**: Ensure assets are properly sized and optimized\n\n## How to Get Started\n\nInstall the Web Asset Generator skill and provide source images. The skill generates complete asset packages automatically.\n\n## Why Use This Skill?\n\nWeb projects need numerous icon sizes for different contexts. Manual creation is tedious and error-prone. This skill generates complete, properly optimized asset packages automatically, ensuring your project looks professional across all platforms.",
-    "stars": 24202,
-    "forks": 1802,
-    "watchers": 24202,
-    "language": "Shell",
+    "stars": 152,
+    "forks": 10,
+    "watchers": 152,
+    "language": "Python",
     "license": "MIT",
-    "createdAt": "2025-10-09T19:45:18Z",
-    "updatedAt": "2026-01-15T23:22:19Z",
-    "lastFetched": "2026-01-15T23:25:42.084Z"
+    "createdAt": "2025-10-21T07:38:30Z",
+    "updatedAt": "2026-01-17T07:47:45Z",
+    "lastFetched": "2026-01-17T09:09:51.216Z"
   },
   {
     "slug": "loki-mode",
     "aiDescription": "Multi-agent autonomous startup system orchestrating 37 AI agents across 6 swarms. Enables fully autonomous development workflows with coordinated agent teams for complex projects.",
-    "seoContent": "## What is the Loki Mode Skill?\n\nLoki Mode is an advanced multi-agent system orchestrating 37 AI agents across 6 specialized swarms. Enable fully autonomous development workflows with coordinated agent teams handling complex projects.\n\n## Key Features\n\n- Multi-agent orchestration\n- Specialized agent swarms\n- Autonomous task coordination\n- Complex project management\n- Inter-agent communication\n- Workflow automation\n\n## Use Cases\n\n- **Complex Development**: Tackle large projects with agent teams\n- **Startup Development**: Build products with coordinated agents\n- **Autonomous Operations**: Run development workflows unattended\n- **Parallel Processing**: Execute multiple tasks simultaneously\n\n## How to Get Started\n\nInstall Loki Mode for access to multi-agent capabilities. Configuration allows customization of agent swarms for specific needs.\n\n## Why Use This Skill?\n\nComplex projects require coordination beyond single-agent capabilities. Loki Mode provides the orchestration layer for managing agent teams, enabling autonomous handling of sophisticated development tasks that would overwhelm single agents.",
-    "stars": 1847,
-    "forks": 113,
-    "watchers": 1847,
-    "language": "Shell",
+    "stars": 489,
+    "forks": 100,
+    "watchers": 489,
+    "language": "Python",
     "license": "MIT",
-    "createdAt": "2025-11-18T01:07:24Z",
-    "updatedAt": "2026-01-15T21:24:42Z",
-    "lastFetched": "2026-01-15T23:25:43.017Z"
+    "createdAt": "2025-12-26T16:26:14Z",
+    "updatedAt": "2026-01-16T23:12:59Z",
+    "lastFetched": "2026-01-17T09:09:52.572Z"
   },
   {
     "slug": "skill-seekers",
     "aiDescription": "Convert documentation websites into Claude Skills automatically. Processes web documentation and transforms it into properly structured skill files for Claude Code.",
-    "seoContent": "## What is the Skill Seekers Skill?\n\nSkill Seekers automatically converts documentation websites into Claude Skills. Transform existing documentation into properly structured skill files without manual conversion.\n\n## Key Features\n\n- Automatic documentation extraction\n- Smart content structuring\n- Skill file generation\n- Format preservation\n- Metadata extraction\n- Batch processing support\n\n## Use Cases\n\n- **Library Documentation**: Convert library docs to skills\n- **API Documentation**: Transform API references into skills\n- **Internal Docs**: Turn internal wikis into team skills\n- **Framework Guides**: Create skills from framework documentation\n\n## How to Get Started\n\nInstall Skill Seekers and point it at documentation URLs. The skill handles extraction and conversion automatically.\n\n## Why Use This Skill?\n\nValuable documentation exists across the web. Skill Seekers transforms this knowledge into immediately usable Claude Skills, dramatically reducing the effort needed to teach Claude about specific technologies or domains.",
-    "stars": 154,
-    "forks": 11,
-    "watchers": 154,
-    "language": "Shell",
+    "stars": 6929,
+    "forks": 698,
+    "watchers": 6929,
+    "language": "Python",
     "license": "MIT",
-    "createdAt": "2025-11-15T15:47:31Z",
-    "updatedAt": "2026-01-15T16:23:07Z",
-    "lastFetched": "2026-01-15T23:25:43.934Z"
+    "createdAt": "2025-10-17T14:43:48Z",
+    "updatedAt": "2026-01-17T08:45:20Z",
+    "lastFetched": "2026-01-17T09:09:53.523Z"
   },
   {
     "slug": "codex-settings",
     "aiDescription": "Plugins for GitHub, Azure, MongoDB, Tavily, and Playwright integration with Codex CLI. Extends Codex capabilities with pre-configured integrations for common services.",
-    "seoContent": "## What is the Codex Settings Skill?\n\nCodex Settings provides ready-to-use plugins for integrating popular services with Codex CLI. Connect to GitHub, Azure, MongoDB, Tavily, and Playwright with pre-configured settings.\n\n## Key Features\n\n- GitHub integration plugin\n- Azure service connections\n- MongoDB database access\n- Tavily search integration\n- Playwright browser automation\n- Easy configuration management\n\n## Use Cases\n\n- **GitHub Workflows**: Automate repository operations\n- **Cloud Operations**: Manage Azure resources\n- **Database Tasks**: Query and manage MongoDB\n- **Web Search**: Integrate search capabilities\n\n## How to Get Started\n\nInstall Codex Settings and configure the plugins you need. Each integration includes setup guides and configuration templates.\n\n## Why Use This Skill?\n\nIntegrating external services requires configuration and setup. Codex Settings provides pre-built integrations that work out of the box, saving setup time and ensuring best practices for service connections.",
-    "stars": 224,
-    "forks": 24,
-    "watchers": 224,
-    "language": null,
-    "license": null,
-    "createdAt": "2025-10-30T22:11:42Z",
-    "updatedAt": "2026-01-15T19:25:42Z",
-    "lastFetched": "2026-01-15T23:25:44.857Z"
+    "stars": 352,
+    "forks": 38,
+    "watchers": 352,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "createdAt": "2025-07-09T07:46:08Z",
+    "updatedAt": "2026-01-17T01:07:50Z",
+    "lastFetched": "2026-01-17T09:09:54.705Z"
   },
   {
     "slug": "mountaineering-skills",
     "aiDescription": "Automate mountain route research for North American peaks and climbing expeditions. Provides climbing information, conditions, and planning assistance for mountaineering.",
-    "seoContent": "## What is the Mountaineering Skills Collection?\n\nThe Mountaineering Skills collection automates route research for North American peaks and climbing expeditions. Get climbing information, conditions data, and planning assistance for mountaineering adventures.\n\n## Key Features\n\n- Peak information database\n- Route beta and descriptions\n- Condition research automation\n- Trip planning assistance\n- Gear recommendations\n- Safety considerations\n\n## Use Cases\n\n- **Trip Planning**: Research peaks and routes for expeditions\n- **Route Selection**: Compare routes and difficulties\n- **Condition Checking**: Gather current conditions information\n- **Gear Planning**: Get recommendations for specific objectives\n\n## How to Get Started\n\nInstall Mountaineering Skills for climbing research assistance. The skills access mountaineering databases and resources automatically.\n\n## Why Use This Skill?\n\nMountaineering research requires consulting multiple sources. This skill automates the process, gathering route information, conditions, and planning details so you can focus on preparation and execution.",
-    "stars": 46,
-    "forks": 4,
-    "watchers": 46,
-    "language": null,
-    "license": null,
-    "createdAt": "2025-11-11T00:19:09Z",
-    "updatedAt": "2026-01-15T02:20:47Z",
-    "lastFetched": "2026-01-15T23:25:45.746Z"
+    "stars": 9,
+    "forks": 0,
+    "watchers": 9,
+    "language": "Python",
+    "license": "MIT",
+    "createdAt": "2025-10-20T16:18:12Z",
+    "updatedAt": "2026-01-17T00:03:34Z",
+    "lastFetched": "2026-01-17T09:09:55.421Z"
   },
   {
     "slug": "context-engineering-kit",
     "aiDescription": "Advanced context techniques with minimal token footprint for efficient prompting. Provides patterns for managing context windows effectively and reducing token usage.",
-    "seoContent": "## What is the Context Engineering Kit?\n\nThe Context Engineering Kit provides advanced techniques for managing LLM context windows efficiently. Minimize token usage while maximizing effective context through proven patterns and strategies.\n\n## Key Features\n\n- Token optimization patterns\n- Context compression techniques\n- Priority-based context management\n- Memory-efficient prompting\n- Context window strategies\n- Best practice guidelines\n\n## Use Cases\n\n- **Token Optimization**: Reduce costs through efficient context use\n- **Long Conversations**: Maintain context across extended sessions\n- **Complex Tasks**: Handle tasks requiring extensive context\n- **Prompt Engineering**: Design efficient, effective prompts\n\n## How to Get Started\n\nInstall the Context Engineering Kit to improve context efficiency. The kit provides patterns and techniques for various context management scenarios.\n\n## Why Use This Skill?\n\nContext window limits constrain what LLMs can process. This kit provides techniques to make the most of available context, enabling more complex tasks while controlling token costs.",
-    "stars": 164,
-    "forks": 24,
-    "watchers": 164,
-    "language": "Shell",
-    "license": "MIT",
-    "createdAt": "2025-11-09T21:07:16Z",
-    "updatedAt": "2026-01-12T22:51:23Z",
-    "lastFetched": "2026-01-15T23:25:46.680Z"
+    "stars": 266,
+    "forks": 25,
+    "watchers": 266,
+    "language": "TypeScript",
+    "license": "GPL-3.0",
+    "createdAt": "2025-11-13T23:23:04Z",
+    "updatedAt": "2026-01-17T05:22:49Z",
+    "lastFetched": "2026-01-17T09:09:56.582Z"
   },
   {
     "slug": "ab-method",
     "aiDescription": "Spec-driven workflow for transforming large problems into focused missions. Provides a structured approach to breaking down complex tasks into manageable, executable specifications.",
-    "seoContent": "## What is the AB Method Skill?\n\nThe AB Method provides a spec-driven workflow for transforming large problems into focused missions. Break down complex tasks into manageable specifications that can be executed systematically.\n\n## Key Features\n\n- Problem decomposition framework\n- Specification templates\n- Mission-focused execution\n- Progress tracking\n- Dependency management\n- Review checkpoints\n\n## Use Cases\n\n- **Large Projects**: Break down overwhelming projects into missions\n- **Complex Features**: Specify features systematically before building\n- **Team Coordination**: Create clear specs for team execution\n- **Planning**: Transform vague goals into actionable plans\n\n## How to Get Started\n\nInstall the AB Method skill and apply its workflow to your next complex project. The method guides you through problem breakdown and specification creation.\n\n## Why Use This Skill?\n\nLarge problems feel overwhelming without structure. The AB Method provides a systematic approach to decomposition, ensuring complex tasks become series of focused, achievable missions.",
-    "stars": 159,
-    "forks": 17,
-    "watchers": 159,
-    "language": null,
-    "license": null,
-    "createdAt": "2025-11-15T14:45:06Z",
-    "updatedAt": "2026-01-14T08:06:35Z",
-    "lastFetched": "2026-01-15T23:25:47.616Z"
+    "stars": 130,
+    "forks": 10,
+    "watchers": 130,
+    "language": "JavaScript",
+    "license": "MIT",
+    "createdAt": "2025-08-10T15:40:39Z",
+    "updatedAt": "2026-01-16T10:51:21Z",
+    "lastFetched": "2026-01-17T09:09:57.221Z"
   },
   {
     "slug": "claude-code-pm",
     "aiDescription": "Comprehensive project management with specialized agents and commands. Provides PM workflows, tracking, and coordination capabilities for software development projects.",
-    "seoContent": "## What is Claude Code PM?\n\nClaude Code PM provides comprehensive project management capabilities with specialized agents and commands. Manage software development projects with purpose-built PM workflows and coordination tools.\n\n## Key Features\n\n- Project tracking and organization\n- Specialized PM agents\n- Task management commands\n- Progress reporting\n- Resource coordination\n- Timeline management\n\n## Use Cases\n\n- **Project Tracking**: Monitor project progress systematically\n- **Task Management**: Organize and track development tasks\n- **Team Coordination**: Coordinate work across team members\n- **Reporting**: Generate project status reports\n\n## How to Get Started\n\nInstall Claude Code PM to add project management to your workflow. The skill provides PM commands and agents designed for software development.\n\n## Why Use This Skill?\n\nDevelopment project management benefits from AI assistance. Claude Code PM provides dedicated PM capabilities, helping track progress, coordinate work, and maintain project organization without context switching to external tools.",
-    "stars": 126,
-    "forks": 9,
-    "watchers": 126,
-    "language": null,
+    "stars": 6045,
+    "forks": 637,
+    "watchers": 6045,
+    "language": "Shell",
     "license": "MIT",
-    "createdAt": "2025-11-11T20:01:23Z",
-    "updatedAt": "2026-01-13T13:00:02Z",
-    "lastFetched": "2026-01-15T23:25:48.558Z"
+    "createdAt": "2025-08-18T23:20:08Z",
+    "updatedAt": "2026-01-17T08:45:04Z",
+    "lastFetched": "2026-01-17T09:09:57.940Z"
   },
   {
     "slug": "agentic-workflow-patterns",
     "aiDescription": "Documented agentic patterns with Mermaid diagrams for AI workflows. Provides reusable patterns for designing and implementing agent-based systems and workflows.",
-    "seoContent": "## What is Agentic Workflow Patterns?\n\nAgentic Workflow Patterns documents proven patterns for AI workflows with visual Mermaid diagrams. Design and implement agent-based systems using reusable, tested workflow patterns.\n\n## Key Features\n\n- Documented workflow patterns\n- Visual Mermaid diagrams\n- Implementation guidance\n- Best practice recommendations\n- Pattern selection guidance\n- Composition strategies\n\n## Use Cases\n\n- **System Design**: Design agentic systems using proven patterns\n- **Implementation Reference**: Use diagrams as implementation guides\n- **Team Communication**: Share workflow designs visually\n- **Pattern Selection**: Choose appropriate patterns for tasks\n\n## How to Get Started\n\nInstall Agentic Workflow Patterns for access to the pattern library. Browse patterns and apply relevant ones to your agentic system designs.\n\n## Why Use This Skill?\n\nBuilding effective agentic systems requires understanding what works. This collection provides tested patterns with visual documentation, helping you design robust agent workflows without reinventing proven approaches.",
-    "stars": 78,
-    "forks": 2,
-    "watchers": 78,
+    "stars": 135,
+    "forks": 19,
+    "watchers": 135,
     "language": null,
-    "license": "MIT",
-    "createdAt": "2025-11-28T19:03:33Z",
-    "updatedAt": "2026-01-14T22:54:33Z",
-    "lastFetched": "2026-01-15T23:25:49.463Z"
+    "license": null,
+    "createdAt": "2025-11-25T12:38:23Z",
+    "updatedAt": "2026-01-17T03:23:36Z",
+    "lastFetched": "2026-01-17T09:09:59.155Z"
   },
   {
     "slug": "cc-tools",
     "aiDescription": "High-performance Go implementation for hooks and utilities. Provides fast, reliable tooling for Claude Code hook development and common utility operations.",
-    "seoContent": "## What is CC Tools?\n\nCC Tools provides high-performance Go implementations for Claude Code hooks and utilities. Get fast, reliable tooling for hook development and common operations with Go's performance benefits.\n\n## Key Features\n\n- High-performance Go implementations\n- Hook development utilities\n- Common operations support\n- Fast execution\n- Low resource usage\n- Easy integration\n\n## Use Cases\n\n- **Hook Development**: Build fast, reliable hooks\n- **Performance Critical**: Use where speed matters\n- **Utility Operations**: Common operations with Go performance\n- **Resource Efficiency**: Minimize resource usage\n\n## How to Get Started\n\nInstall CC Tools for access to Go-based utilities. The tools integrate with Claude Code's hook system for high-performance operations.\n\n## Why Use This Skill?\n\nPerformance matters for hooks and utilities that run frequently. CC Tools provides Go's speed and efficiency for Claude Code operations, ensuring responsive, resource-efficient workflows.",
-    "stars": 140,
+    "stars": 42,
     "forks": 6,
-    "watchers": 140,
+    "watchers": 42,
     "language": "Go",
-    "license": "MIT",
-    "createdAt": "2025-11-02T03:10:41Z",
-    "updatedAt": "2026-01-14T07:16:48Z",
-    "lastFetched": "2026-01-15T23:25:50.373Z"
+    "license": null,
+    "createdAt": "2025-08-25T18:22:01Z",
+    "updatedAt": "2026-01-16T10:10:41Z",
+    "lastFetched": "2026-01-17T09:10:00.015Z"
   },
   {
     "slug": "ccexp",
     "aiDescription": "Interactive CLI for discovering configuration files and commands. Helps explore Claude Code's configuration options and available commands interactively.",
-    "seoContent": "## What is CCExp?\n\nCCExp is an interactive CLI for discovering Claude Code configuration files and commands. Explore available options, understand configurations, and discover commands interactively.\n\n## Key Features\n\n- Interactive configuration discovery\n- Command exploration\n- Configuration file navigation\n- Option documentation\n- Search functionality\n- Context-aware help\n\n## Use Cases\n\n- **Configuration Discovery**: Find available configuration options\n- **Command Learning**: Explore available commands interactively\n- **Troubleshooting**: Understand current configuration state\n- **Setup Assistance**: Configure Claude Code effectively\n\n## How to Get Started\n\nInstall CCExp and launch the interactive explorer. Navigate configurations and commands to understand available options.\n\n## Why Use This Skill?\n\nClaude Code has extensive configuration options that can be hard to discover. CCExp makes exploration interactive, helping you understand and use features you might not know exist.",
-    "stars": 133,
-    "forks": 5,
-    "watchers": 133,
+    "stars": 241,
+    "forks": 8,
+    "watchers": 241,
     "language": "TypeScript",
     "license": "MIT",
-    "createdAt": "2025-10-24T19:08:54Z",
-    "updatedAt": "2026-01-14T17:34:17Z",
-    "lastFetched": "2026-01-15T23:25:51.276Z"
+    "createdAt": "2025-06-30T16:31:29Z",
+    "updatedAt": "2026-01-16T16:26:53Z",
+    "lastFetched": "2026-01-17T09:10:00.859Z"
   },
   {
     "slug": "claudekit",
     "aiDescription": "CLI toolkit with checkpointing, quality hooks, and 20+ subagents. Comprehensive toolkit providing development utilities and agent capabilities for Claude Code.",
-    "seoContent": "## What is ClaudeKit?\n\nClaudeKit is a comprehensive CLI toolkit featuring checkpointing, quality hooks, and 20+ specialized subagents. Get development utilities and agent capabilities in one integrated package.\n\n## Key Features\n\n- Session checkpointing\n- Quality enforcement hooks\n- 20+ specialized subagents\n- Development utilities\n- Workflow automation\n- Integration tools\n\n## Use Cases\n\n- **Development Workflows**: Enhance development with utilities and agents\n- **Quality Assurance**: Enforce quality through hooks\n- **Session Management**: Checkpoint and restore work\n- **Task Delegation**: Use specialized subagents for specific tasks\n\n## How to Get Started\n\nInstall ClaudeKit for access to the complete toolkit. Configure components based on your workflow needs.\n\n## Why Use This Skill?\n\nClaudeKit consolidates essential development tools into one package. Instead of assembling tools individually, get a tested, integrated toolkit that covers common development needs comprehensively.",
-    "stars": 188,
-    "forks": 17,
-    "watchers": 188,
+    "stars": 537,
+    "forks": 91,
+    "watchers": 537,
     "language": "TypeScript",
     "license": "MIT",
-    "createdAt": "2025-11-04T15:53:53Z",
-    "updatedAt": "2026-01-15T03:32:12Z",
-    "lastFetched": "2026-01-15T23:25:52.178Z"
+    "createdAt": "2025-07-11T19:09:58Z",
+    "updatedAt": "2026-01-17T01:40:43Z",
+    "lastFetched": "2026-01-17T09:10:01.806Z"
   },
   {
     "slug": "recall",
     "aiDescription": "Full-text search for Claude Code sessions and conversation history. Search across past sessions to find previous work, conversations, and solutions.",
-    "seoContent": "## What is Recall?\n\nRecall provides full-text search across Claude Code sessions and conversation history. Find previous work, conversations, and solutions by searching through your Claude Code history.\n\n## Key Features\n\n- Full-text search capability\n- Session history indexing\n- Conversation retrieval\n- Fast search results\n- Context preservation\n- Search filtering\n\n## Use Cases\n\n- **Finding Previous Work**: Locate past solutions and implementations\n- **Knowledge Retrieval**: Search for remembered conversations\n- **Context Recovery**: Find relevant historical context\n- **Pattern Discovery**: Search for similar past problems\n\n## How to Get Started\n\nInstall Recall to enable session search. The tool indexes your session history for fast retrieval.\n\n## Why Use This Skill?\n\nClaude Code sessions contain valuable work that can be hard to find later. Recall makes this history searchable, turning past sessions into a knowledge base you can query when facing similar problems.",
-    "stars": 235,
-    "forks": 13,
-    "watchers": 235,
-    "language": "TypeScript",
+    "stars": 102,
+    "forks": 11,
+    "watchers": 102,
+    "language": "Rust",
     "license": "MIT",
-    "createdAt": "2025-11-05T13:47:09Z",
-    "updatedAt": "2026-01-15T14:54:30Z",
-    "lastFetched": "2026-01-15T23:25:53.067Z"
+    "createdAt": "2025-11-27T22:03:56Z",
+    "updatedAt": "2026-01-16T10:14:52Z",
+    "lastFetched": "2026-01-17T09:10:02.584Z"
   },
   {
     "slug": "ccflare",
     "aiDescription": "Web-based usage dashboard with comprehensive metrics and analytics. Track Claude Code usage through a visual dashboard with detailed cost and token analytics.",
-    "seoContent": "## What is CCFlare?\n\nCCFlare provides a web-based usage dashboard with comprehensive metrics and analytics for Claude Code. Track usage, costs, and tokens through a visual interface.\n\n## Key Features\n\n- Web-based dashboard\n- Usage metrics visualization\n- Cost tracking\n- Token analytics\n- Historical data\n- Export capabilities\n\n## Use Cases\n\n- **Usage Monitoring**: Track Claude Code usage patterns\n- **Cost Management**: Monitor and control API costs\n- **Team Tracking**: View team usage across projects\n- **Optimization**: Identify optimization opportunities\n\n## How to Get Started\n\nInstall CCFlare and access the dashboard through your browser. Configure data sources for comprehensive tracking.\n\n## Why Use This Skill?\n\nUnderstanding usage patterns helps optimize costs and workflows. CCFlare provides visual insights into how you're using Claude Code, enabling data-driven decisions about usage and spending.",
-    "stars": 80,
-    "forks": 7,
-    "watchers": 80,
+    "stars": 824,
+    "forks": 79,
+    "watchers": 824,
     "language": "TypeScript",
     "license": "MIT",
-    "createdAt": "2025-10-26T23:34:30Z",
-    "updatedAt": "2026-01-14T09:40:22Z",
-    "lastFetched": "2026-01-15T23:25:53.956Z"
+    "createdAt": "2025-07-25T08:22:12Z",
+    "updatedAt": "2026-01-16T04:49:38Z",
+    "lastFetched": "2026-01-17T09:10:03.562Z"
   },
   {
     "slug": "cc-usage",
     "aiDescription": "CLI tool analyzing logs with cost and token dashboards. Analyze Claude Code usage through command-line dashboards showing costs, tokens, and usage patterns.",
-    "seoContent": "## What is CC Usage?\n\nCC Usage is a CLI tool that analyzes Claude Code logs and displays cost and token dashboards. Get usage insights directly in your terminal without leaving your workflow.\n\n## Key Features\n\n- CLI-based analytics\n- Cost tracking\n- Token usage analysis\n- Usage pattern detection\n- Terminal dashboards\n- Log analysis\n\n## Use Cases\n\n- **Quick Checks**: View usage stats without leaving terminal\n- **Cost Monitoring**: Track spending on Claude Code\n- **Usage Analysis**: Understand token consumption patterns\n- **Budget Management**: Monitor against usage budgets\n\n## How to Get Started\n\nInstall CC Usage to enable terminal-based analytics. Run commands to view dashboards and reports.\n\n## Why Use This Skill?\n\nQuick access to usage data helps manage costs effectively. CC Usage provides instant insights in your terminal, making it easy to check usage without context switching to web dashboards.",
-    "stars": 63,
-    "forks": 4,
-    "watchers": 63,
-    "language": "Python",
-    "license": "MIT",
-    "createdAt": "2025-10-23T01:38:56Z",
-    "updatedAt": "2026-01-14T06:13:13Z",
-    "lastFetched": "2026-01-15T23:25:54.870Z"
+    "stars": 9889,
+    "forks": 320,
+    "watchers": 9889,
+    "language": "TypeScript",
+    "license": "NOASSERTION",
+    "createdAt": "2025-05-29T16:56:50Z",
+    "updatedAt": "2026-01-17T08:21:30Z",
+    "lastFetched": "2026-01-17T09:10:04.384Z"
   },
   {
     "slug": "ralph-for-claude-code",
     "aiDescription": "Autonomous framework with exit detection and safety guardrails. Provides autonomous operation capabilities with built-in safety mechanisms for unattended Claude Code sessions.",
-    "seoContent": "## What is Ralph for Claude Code?\n\nRalph provides an autonomous framework with exit detection and safety guardrails for Claude Code. Run autonomous sessions with built-in safety mechanisms that prevent runaway operations.\n\n## Key Features\n\n- Autonomous operation support\n- Exit condition detection\n- Safety guardrails\n- Resource monitoring\n- Intervention triggers\n- Operation logging\n\n## Use Cases\n\n- **Autonomous Development**: Run development tasks unattended\n- **Batch Processing**: Process large tasks without supervision\n- **Safe Automation**: Automate with safety guarantees\n- **Long Operations**: Execute extended tasks safely\n\n## How to Get Started\n\nInstall Ralph and configure safety parameters. The framework handles autonomous operation with built-in protections.\n\n## Why Use This Skill?\n\nAutonomous AI operation requires safety mechanisms. Ralph provides the framework for unattended Claude Code sessions while ensuring operations stay within defined bounds and can be stopped when necessary.",
-    "stars": 244,
-    "forks": 20,
-    "watchers": 244,
-    "language": "TypeScript",
+    "stars": 3380,
+    "forks": 221,
+    "watchers": 3380,
+    "language": "Shell",
     "license": "MIT",
-    "createdAt": "2025-10-19T16:33:47Z",
-    "updatedAt": "2026-01-15T23:06:55Z",
-    "lastFetched": "2026-01-15T23:25:55.762Z"
+    "createdAt": "2025-08-27T16:03:45Z",
+    "updatedAt": "2026-01-17T09:06:55Z",
+    "lastFetched": "2026-01-17T09:10:05.214Z"
   },
   {
     "slug": "claude-squad",
     "aiDescription": "Manage multiple agents in separate workspaces for parallel work. Coordinate multiple Claude Code agents working in isolated environments on different tasks.",
-    "seoContent": "## What is Claude Squad?\n\nClaude Squad enables management of multiple Claude Code agents in separate workspaces for parallel work. Coordinate agents working on different tasks in isolated environments.\n\n## Key Features\n\n- Multi-agent management\n- Workspace isolation\n- Parallel execution\n- Agent coordination\n- Resource allocation\n- Progress monitoring\n\n## Use Cases\n\n- **Parallel Development**: Work on multiple features simultaneously\n- **Task Distribution**: Divide work across agents\n- **Isolated Testing**: Test in separate environments\n- **Scaling Work**: Handle more tasks through parallelism\n\n## How to Get Started\n\nInstall Claude Squad and configure workspace environments. Launch multiple agents for parallel task execution.\n\n## Why Use This Skill?\n\nSingle-agent work limits throughput. Claude Squad enables parallel processing through multiple coordinated agents, dramatically increasing what can be accomplished in a given timeframe.",
-    "stars": 1067,
-    "forks": 58,
-    "watchers": 1067,
+    "stars": 5674,
+    "forks": 389,
+    "watchers": 5674,
     "language": "Go",
-    "license": "MIT",
-    "createdAt": "2025-10-25T23:41:20Z",
-    "updatedAt": "2026-01-15T22:09:49Z",
-    "lastFetched": "2026-01-15T23:25:56.663Z"
+    "license": "AGPL-3.0",
+    "createdAt": "2025-03-09T20:00:41Z",
+    "updatedAt": "2026-01-17T08:39:58Z",
+    "lastFetched": "2026-01-17T09:10:06.114Z"
   },
   {
     "slug": "tsk",
     "aiDescription": "Rust CLI for delegating tasks to sandboxed Docker agents. Run Claude Code tasks in isolated Docker containers for security and reproducibility.",
-    "seoContent": "## What is TSK?\n\nTSK is a Rust CLI for delegating tasks to sandboxed Docker agents. Run Claude Code tasks in isolated containers for enhanced security, reproducibility, and resource control.\n\n## Key Features\n\n- Docker-based sandboxing\n- Task delegation\n- Resource isolation\n- Rust performance\n- Security boundaries\n- Container management\n\n## Use Cases\n\n- **Secure Execution**: Run untrusted code safely\n- **Reproducible Environments**: Ensure consistent execution environments\n- **Resource Control**: Limit resource usage per task\n- **Isolation**: Prevent task interference\n\n## How to Get Started\n\nInstall TSK with Docker available on your system. Delegate tasks to sandboxed agents for isolated execution.\n\n## Why Use This Skill?\n\nCode execution benefits from isolation. TSK provides Docker-based sandboxing for Claude Code tasks, ensuring security and reproducibility while maintaining high performance through its Rust implementation.",
-    "stars": 102,
-    "forks": 14,
-    "watchers": 102,
+    "stars": 119,
+    "forks": 16,
+    "watchers": 119,
     "language": "Rust",
     "license": "MIT",
-    "createdAt": "2025-10-23T18:30:16Z",
-    "updatedAt": "2026-01-15T02:56:34Z",
-    "lastFetched": "2026-01-15T23:25:57.564Z"
+    "createdAt": "2025-05-31T18:27:41Z",
+    "updatedAt": "2026-01-16T00:33:39Z",
+    "lastFetched": "2026-01-17T09:10:07.049Z"
   },
   {
     "slug": "ccometixline",
     "aiDescription": "Rust-based statusline with Git integration and usage tracking. Display Claude Code status, Git information, and usage metrics in a fast, integrated statusline.",
-    "seoContent": "## What is CCometixLine?\n\nCCometixLine is a Rust-based statusline providing Git integration and usage tracking for Claude Code. Display status, Git information, and metrics in a fast, informative statusline.\n\n## Key Features\n\n- Fast Rust implementation\n- Git status integration\n- Usage tracking display\n- Token metrics\n- Customizable format\n- Low resource usage\n\n## Use Cases\n\n- **Status Awareness**: See Claude Code status at a glance\n- **Git Context**: View Git status alongside Claude status\n- **Usage Monitoring**: Track usage in real-time\n- **Workflow Integration**: Integrate status into shell prompt\n\n## How to Get Started\n\nInstall CCometixLine and configure your shell integration. The statusline updates automatically to show current state.\n\n## Why Use This Skill?\n\nContext awareness improves workflow. CCometixLine provides instant visibility into Claude Code status, Git state, and usage without requiring explicit commands or dashboard checks.",
-    "stars": 47,
-    "forks": 2,
-    "watchers": 47,
+    "stars": 1423,
+    "forks": 85,
+    "watchers": 1423,
     "language": "Rust",
-    "license": "MIT",
-    "createdAt": "2025-11-10T11:13:16Z",
-    "updatedAt": "2026-01-15T00:23:50Z",
-    "lastFetched": "2026-01-15T23:25:58.481Z"
+    "license": null,
+    "createdAt": "2025-08-11T16:22:53Z",
+    "updatedAt": "2026-01-17T08:11:47Z",
+    "lastFetched": "2026-01-17T09:10:08.956Z"
   },
   {
     "slug": "cc-statusline",
     "aiDescription": "Customizable formatter displaying model, branch, and token usage. Configure how Claude Code status information displays in your terminal statusline.",
-    "seoContent": "## What is CC Statusline?\n\nCC Statusline is a customizable formatter displaying model, branch, and token usage information. Configure exactly what Claude Code information appears in your terminal statusline.\n\n## Key Features\n\n- Customizable display format\n- Model information\n- Git branch display\n- Token usage tracking\n- Color configuration\n- Format templates\n\n## Use Cases\n\n- **Custom Display**: Configure status display to your preferences\n- **Minimal View**: Show only essential information\n- **Full Context**: Display comprehensive status data\n- **Theme Matching**: Match statusline to terminal theme\n\n## How to Get Started\n\nInstall CC Statusline and configure your display preferences. Customize the format to show information you need.\n\n## Why Use This Skill?\n\nDifferent workflows need different information. CC Statusline lets you customize exactly what Claude Code information you see, balancing information density with visual clarity.",
-    "stars": 41,
-    "forks": 5,
-    "watchers": 41,
-    "language": "Python",
+    "stars": 2902,
+    "forks": 121,
+    "watchers": 2902,
+    "language": "TypeScript",
     "license": "MIT",
-    "createdAt": "2025-11-02T08:56:00Z",
-    "updatedAt": "2026-01-11T13:19:25Z",
-    "lastFetched": "2026-01-15T23:25:59.391Z"
+    "createdAt": "2025-08-08T11:19:28Z",
+    "updatedAt": "2026-01-17T07:40:55Z",
+    "lastFetched": "2026-01-17T09:10:09.833Z"
   },
   {
     "slug": "britfix",
     "aiDescription": "Convert American to British English in files intelligently. Automatically localize text content from American to British English spellings and conventions.",
-    "seoContent": "## What is Britfix?\n\nBritfix intelligently converts American English to British English in files. Automatically localize content with proper spelling conversions and convention adjustments.\n\n## Key Features\n\n- American to British conversion\n- Intelligent word detection\n- Batch file processing\n- Convention handling\n- Context awareness\n- Preview changes before applying\n\n## Use Cases\n\n- **Documentation Localization**: Convert docs for UK audiences\n- **Content Adaptation**: Prepare content for British markets\n- **Consistency Enforcement**: Ensure British English throughout\n- **Translation Support**: Post-process translations for UK English\n\n## How to Get Started\n\nInstall Britfix and run it on files needing conversion. Review suggested changes before applying.\n\n## Why Use This Skill?\n\nManual British English conversion is tedious and error-prone. Britfix automates the process intelligently, handling common conversions while preserving context and meaning.",
-    "stars": 25,
-    "forks": 2,
-    "watchers": 25,
-    "language": "TypeScript",
+    "stars": 7,
+    "forks": 1,
+    "watchers": 7,
+    "language": "Python",
     "license": "MIT",
-    "createdAt": "2025-11-07T21:19:41Z",
-    "updatedAt": "2025-12-17T04:14:08Z",
-    "lastFetched": "2026-01-15T23:26:00.298Z"
+    "createdAt": "2025-12-01T17:24:39Z",
+    "updatedAt": "2026-01-07T18:16:02Z",
+    "lastFetched": "2026-01-17T09:10:10.862Z"
   },
   {
     "slug": "cc-hooks",
     "aiDescription": "Python SDK simplifying hook writing with clean API. Develop Claude Code hooks easily using Python with a well-designed SDK providing clean abstractions.",
-    "seoContent": "## What is CC Hooks?\n\nCC Hooks is a Python SDK simplifying Claude Code hook development. Write hooks easily using Python with a clean API that handles common patterns and boilerplate.\n\n## Key Features\n\n- Clean Python API\n- Hook lifecycle management\n- Event handling\n- Error management\n- Testing utilities\n- Documentation and examples\n\n## Use Cases\n\n- **Custom Hooks**: Build hooks for specific workflow needs\n- **Integration Hooks**: Connect Claude Code to other tools\n- **Quality Hooks**: Enforce quality standards automatically\n- **Logging Hooks**: Track and log Claude Code activities\n\n## How to Get Started\n\nInstall CC Hooks and use the SDK to build custom hooks. The clean API makes hook development straightforward.\n\n## Why Use This Skill?\n\nHook development can be complex without good abstractions. CC Hooks provides a clean Python SDK that handles common patterns, letting you focus on hook logic rather than boilerplate.",
-    "stars": 148,
-    "forks": 7,
-    "watchers": 148,
+    "stars": 106,
+    "forks": 6,
+    "watchers": 106,
     "language": "Python",
     "license": "MIT",
-    "createdAt": "2025-11-03T23:01:11Z",
-    "updatedAt": "2026-01-15T11:42:45Z",
-    "lastFetched": "2026-01-15T23:26:01.197Z"
+    "createdAt": "2025-07-16T11:47:14Z",
+    "updatedAt": "2026-01-13T01:03:36Z",
+    "lastFetched": "2026-01-17T09:10:11.969Z"
   },
   {
     "slug": "tdd-guard",
     "aiDescription": "Real-time monitoring blocking TDD principle violations. Enforce test-driven development by automatically detecting and preventing TDD workflow violations.",
-    "seoContent": "## What is TDD Guard?\n\nTDD Guard provides real-time monitoring that blocks TDD principle violations. Enforce test-driven development practices by automatically detecting and preventing workflow violations.\n\n## Key Features\n\n- Real-time TDD monitoring\n- Violation detection\n- Automatic blocking\n- Rule configuration\n- Violation reporting\n- Team enforcement\n\n## Use Cases\n\n- **TDD Enforcement**: Ensure team follows TDD practices\n- **Training Support**: Help developers learn TDD discipline\n- **Quality Assurance**: Prevent untested code\n- **Process Compliance**: Enforce development standards\n\n## How to Get Started\n\nInstall TDD Guard and configure TDD rules. The guard monitors development and blocks violations in real-time.\n\n## Why Use This Skill?\n\nTDD discipline is hard to maintain, especially under pressure. TDD Guard provides automated enforcement, ensuring TDD practices are followed consistently without relying on manual review.",
-    "stars": 97,
-    "forks": 8,
-    "watchers": 97,
+    "stars": 1700,
+    "forks": 118,
+    "watchers": 1700,
     "language": "TypeScript",
     "license": "MIT",
-    "createdAt": "2025-11-03T22:28:55Z",
-    "updatedAt": "2026-01-15T18:45:07Z",
-    "lastFetched": "2026-01-15T23:26:02.087Z"
+    "createdAt": "2025-07-07T09:14:14Z",
+    "updatedAt": "2026-01-17T02:55:19Z",
+    "lastFetched": "2026-01-17T09:10:12.820Z"
   },
   {
     "slug": "linear-todo-sync",
     "aiDescription": "GraphQL API integration for task retrieval with priority-based organization. Sync Linear issues with Claude Code todo lists, organized by priority.",
-    "seoContent": "## What is Linear Todo Sync?\n\nLinear Todo Sync integrates Linear's GraphQL API for task retrieval with priority-based organization. Keep Claude Code todo lists synchronized with Linear issues.\n\n## Key Features\n\n- Linear API integration\n- Priority-based organization\n- Automatic synchronization\n- Issue retrieval\n- Status updates\n- Filtering options\n\n## Use Cases\n\n- **Task Synchronization**: Keep Linear and Claude Code in sync\n- **Priority Management**: Work on issues by priority\n- **Workflow Integration**: Integrate Linear into development workflow\n- **Status Tracking**: Update issue status from Claude Code\n\n## How to Get Started\n\nInstall Linear Todo Sync and configure your Linear API connection. Issues sync automatically based on configuration.\n\n## Why Use This Skill?\n\nTask management spread across tools creates friction. Linear Todo Sync brings Linear issues into Claude Code, letting you work on prioritized tasks without switching contexts.",
-    "stars": 15,
-    "forks": 4,
-    "watchers": 15,
-    "language": "TypeScript",
-    "license": "MIT",
-    "createdAt": "2025-11-01T17:27:13Z",
-    "updatedAt": "2025-12-05T06:15:00Z",
-    "lastFetched": "2026-01-15T23:26:02.979Z"
+    "stars": 915,
+    "forks": 87,
+    "watchers": 915,
+    "language": "Shell",
+    "license": null,
+    "createdAt": "2025-06-13T01:49:01Z",
+    "updatedAt": "2026-01-17T05:13:01Z",
+    "lastFetched": "2026-01-17T09:10:14.176Z"
   },
   {
     "slug": "cloudflare-manager",
     "aiDescription": "Workers deployment, KV Storage, R2 bucket management, and Pages deployment. Manage Cloudflare services directly from Claude Code with comprehensive deployment capabilities.",
-    "seoContent": "## What is Cloudflare Manager?\n\nCloudflare Manager provides comprehensive management of Cloudflare services from Claude Code. Deploy Workers, manage KV Storage, handle R2 buckets, and deploy Pages projects.\n\n## Key Features\n\n- Workers deployment\n- KV Storage management\n- R2 bucket operations\n- Pages deployment\n- DNS management\n- Configuration handling\n\n## Use Cases\n\n- **Edge Deployment**: Deploy Workers to Cloudflare edge\n- **Storage Management**: Manage KV and R2 storage\n- **Site Deployment**: Deploy static sites to Pages\n- **Infrastructure as Code**: Manage Cloudflare from code\n\n## How to Get Started\n\nInstall Cloudflare Manager and configure API credentials. Manage Cloudflare services through Claude Code commands.\n\n## Why Use This Skill?\n\nCloudflare management typically requires dashboard navigation or CLI switching. This skill brings Cloudflare operations into Claude Code, enabling infrastructure management without leaving your development environment.",
-    "stars": 26,
-    "forks": 1,
-    "watchers": 26,
-    "language": "TypeScript",
-    "license": "MIT",
-    "createdAt": "2025-11-07T10:12:14Z",
-    "updatedAt": "2026-01-15T12:39:27Z",
-    "lastFetched": "2026-01-15T23:26:03.881Z"
+    "stars": 915,
+    "forks": 87,
+    "watchers": 915,
+    "language": "Shell",
+    "license": null,
+    "createdAt": "2025-06-13T01:49:01Z",
+    "updatedAt": "2026-01-17T05:13:01Z",
+    "lastFetched": "2026-01-17T09:10:15.469Z"
   },
   {
     "slug": "composio-connect",
     "aiDescription": "Integrate 1000+ apps including Gmail, Slack, GitHub, Notion with Claude Code. Connect to popular applications through Composio's integration platform.",
-    "seoContent": "## What is Composio Connect?\n\nComposio Connect integrates 1000+ applications with Claude Code including Gmail, Slack, GitHub, and Notion. Connect to popular services through Composio's integration platform.\n\n## Key Features\n\n- 1000+ app integrations\n- Gmail integration\n- Slack connectivity\n- GitHub operations\n- Notion access\n- Unified API access\n\n## Use Cases\n\n- **Email Automation**: Manage Gmail from Claude Code\n- **Team Communication**: Send Slack messages programmatically\n- **Repository Management**: Automate GitHub operations\n- **Documentation**: Update Notion pages automatically\n\n## How to Get Started\n\nInstall Composio Connect and configure app connections. Access integrated apps through unified commands.\n\n## Why Use This Skill?\n\nModern work involves many applications. Composio Connect brings them together in Claude Code, enabling cross-app automation and workflows without juggling multiple tools and APIs.",
-    "stars": 28,
-    "forks": 3,
-    "watchers": 28,
-    "language": null,
-    "license": null,
-    "createdAt": "2025-11-04T05:08:28Z",
-    "updatedAt": "2026-01-12T06:41:17Z",
-    "lastFetched": "2026-01-15T23:26:04.777Z"
+    "stars": 26370,
+    "forks": 4408,
+    "watchers": 26370,
+    "language": "TypeScript",
+    "license": "MIT",
+    "createdAt": "2024-02-23T13:58:27Z",
+    "updatedAt": "2026-01-17T07:50:17Z",
+    "lastFetched": "2026-01-17T09:10:17.215Z"
   },
   {
     "slug": "awesome-claude-agents",
     "aiDescription": "Curated collection of Claude Code agents and multi-agent systems. Discover and learn from community-built agents and agentic workflows for various use cases.",
-    "seoContent": "## What is Awesome Claude Agents?\n\nAwesome Claude Agents is a curated collection of Claude Code agents and multi-agent systems. Discover community-built agents and learn from agentic workflow implementations.\n\n## Key Features\n\n- Curated agent collection\n- Multi-agent examples\n- Workflow patterns\n- Implementation guidance\n- Community contributions\n- Regular updates\n\n## Use Cases\n\n- **Agent Discovery**: Find agents for specific needs\n- **Learning**: Study agent implementations\n- **Inspiration**: Get ideas for custom agents\n- **Contribution**: Share your own agents\n\n## How to Get Started\n\nBrowse the Awesome Claude Agents collection to find relevant agents. Study implementations and adapt patterns for your needs.\n\n## Why Use This Skill?\n\nBuilding agents from scratch is challenging. This curated collection provides tested examples and patterns, accelerating agent development and providing inspiration for agentic workflows.",
-    "stars": 81,
-    "forks": 12,
-    "watchers": 81,
+    "stars": 3719,
+    "forks": 450,
+    "watchers": 3719,
     "language": null,
     "license": "MIT",
-    "createdAt": "2025-10-26T22:30:46Z",
-    "updatedAt": "2026-01-15T19:30:25Z",
-    "lastFetched": "2026-01-15T23:26:05.680Z"
+    "createdAt": "2025-07-26T17:18:06Z",
+    "updatedAt": "2026-01-17T07:05:23Z",
+    "lastFetched": "2026-01-17T09:10:54.490Z"
   },
   {
     "slug": "claude-code-subagents",
     "aiDescription": "Framework for creating and managing Claude Code subagents. Build specialized subagents that can be delegated tasks for focused, efficient work.",
-    "seoContent": "## What is Claude Code Subagents?\n\nClaude Code Subagents provides a framework for creating and managing specialized subagents. Build focused agents that can be delegated specific tasks for efficient parallel work.\n\n## Key Features\n\n- Subagent creation framework\n- Task delegation\n- Agent specialization\n- Resource management\n- Communication patterns\n- Lifecycle management\n\n## Use Cases\n\n- **Specialized Tasks**: Create agents for specific domains\n- **Parallel Work**: Delegate tasks to focused agents\n- **Workflow Automation**: Build agent-based workflows\n- **Scaling Development**: Multiply productivity through agents\n\n## How to Get Started\n\nInstall the Subagents framework and create your first specialized agent. Define capabilities and delegate tasks for focused execution.\n\n## Why Use This Skill?\n\nComplex work benefits from specialization. The Subagents framework lets you create focused agents that excel at specific tasks, enabling delegation patterns that multiply productivity.",
-    "stars": 34,
-    "forks": 8,
-    "watchers": 34,
-    "language": null,
-    "license": null,
-    "createdAt": "2025-11-08T19:28:21Z",
-    "updatedAt": "2026-01-10T21:15:20Z",
-    "lastFetched": "2026-01-15T23:26:06.579Z"
+    "stars": 8029,
+    "forks": 895,
+    "watchers": 8029,
+    "language": "Shell",
+    "license": "MIT",
+    "createdAt": "2025-07-30T12:31:51Z",
+    "updatedAt": "2026-01-17T09:08:55Z",
+    "lastFetched": "2026-01-17T09:10:55.389Z"
   },
   {
     "slug": "claude-code-templates",
     "aiDescription": "Collection of starter templates for common Claude Code project patterns. Jumpstart projects with pre-configured templates for various use cases.",
-    "seoContent": "## What is Claude Code Templates?\n\nClaude Code Templates provides starter templates for common project patterns. Jumpstart development with pre-configured setups for various use cases and technologies.\n\n## Key Features\n\n- Pre-configured project templates\n- Multiple technology stacks\n- Best practice configurations\n- Documentation included\n- Customization guides\n- Regular updates\n\n## Use Cases\n\n- **Quick Starts**: Begin projects with solid foundations\n- **Learning**: Study recommended project structures\n- **Standardization**: Use consistent project patterns\n- **Time Saving**: Skip boilerplate setup\n\n## How to Get Started\n\nBrowse available templates and select one matching your needs. Clone and customize to begin development immediately.\n\n## Why Use This Skill?\n\nProject setup takes time and requires decisions about structure and tooling. Templates provide tested starting points, letting you begin productive work immediately with confidence in the foundation.",
-    "stars": 11,
-    "forks": 4,
-    "watchers": 11,
+    "stars": 2,
+    "forks": 0,
+    "watchers": 2,
     "language": null,
     "license": "MIT",
-    "createdAt": "2025-11-06T05:30:54Z",
-    "updatedAt": "2026-01-10T21:39:37Z",
-    "lastFetched": "2026-01-15T23:26:07.476Z"
+    "createdAt": "2025-11-24T12:17:53Z",
+    "updatedAt": "2025-12-30T19:28:17Z",
+    "lastFetched": "2026-01-17T09:10:56.510Z"
   },
   {
     "slug": "crawl4ai-web-scraping",
@@ -659,31 +609,31 @@
     "license": "MIT",
     "createdAt": "2025-12-03T03:12:37Z",
     "updatedAt": "2025-12-07T13:31:04Z",
-    "lastFetched": "2026-01-16T14:40:25.433Z"
+    "lastFetched": "2026-01-17T09:10:59.389Z"
   },
   {
     "slug": "claudekit-skills",
     "aiDescription": "",
-    "stars": 1321,
-    "forks": 269,
-    "watchers": 1321,
+    "stars": 1335,
+    "forks": 271,
+    "watchers": 1335,
     "language": "Python",
     "license": null,
     "createdAt": "2025-10-23T04:43:54Z",
-    "updatedAt": "2026-01-16T14:21:08Z",
-    "lastFetched": "2026-01-16T14:40:26.034Z"
+    "updatedAt": "2026-01-17T08:48:43Z",
+    "lastFetched": "2026-01-17T09:11:00.556Z"
   },
   {
     "slug": "n8n-workflow-skills",
     "aiDescription": "",
-    "stars": 1637,
-    "forks": 283,
-    "watchers": 1637,
+    "stars": 1677,
+    "forks": 290,
+    "watchers": 1677,
     "language": "Shell",
     "license": "MIT",
     "createdAt": "2025-10-20T05:51:27Z",
-    "updatedAt": "2026-01-16T14:37:15Z",
-    "lastFetched": "2026-01-16T14:40:26.648Z"
+    "updatedAt": "2026-01-17T08:17:06Z",
+    "lastFetched": "2026-01-17T09:11:01.476Z"
   },
   {
     "slug": "n8n-workflow-builder",
@@ -694,32 +644,32 @@
     "language": "JavaScript",
     "license": "MIT",
     "createdAt": "2025-01-14T21:43:54Z",
-    "updatedAt": "2026-01-16T07:27:53Z",
-    "lastFetched": "2026-01-16T14:40:27.371Z"
+    "updatedAt": "2026-01-17T01:18:07Z",
+    "lastFetched": "2026-01-17T09:11:02.396Z"
   },
   {
     "slug": "seo-machine",
     "aiDescription": "",
-    "stars": 297,
-    "forks": 82,
-    "watchers": 297,
+    "stars": 301,
+    "forks": 83,
+    "watchers": 301,
     "language": "Python",
     "license": "MIT",
     "createdAt": "2025-10-29T20:50:23Z",
-    "updatedAt": "2026-01-15T14:57:13Z",
-    "lastFetched": "2026-01-16T14:40:27.911Z"
+    "updatedAt": "2026-01-17T08:36:09Z",
+    "lastFetched": "2026-01-17T09:11:03.388Z"
   },
   {
     "slug": "claude-code-seo",
     "aiDescription": "",
-    "stars": 62,
+    "stars": 63,
     "forks": 2,
-    "watchers": 62,
+    "watchers": 63,
     "language": "HTML",
     "license": "MIT",
     "createdAt": "2026-01-04T09:13:34Z",
-    "updatedAt": "2026-01-16T01:04:25Z",
-    "lastFetched": "2026-01-16T14:40:28.529Z"
+    "updatedAt": "2026-01-17T01:17:27Z",
+    "lastFetched": "2026-01-17T09:11:04.268Z"
   },
   {
     "slug": "content-seo-skills",
@@ -731,7 +681,7 @@
     "license": "MIT",
     "createdAt": "2025-11-29T02:11:27Z",
     "updatedAt": "2026-01-08T18:37:16Z",
-    "lastFetched": "2026-01-16T14:40:29.112Z"
+    "lastFetched": "2026-01-17T09:11:05.180Z"
   },
   {
     "slug": "i18n-ai-translate",
@@ -743,7 +693,7 @@
     "license": "GPL-3.0",
     "createdAt": "2023-07-27T02:03:01Z",
     "updatedAt": "2026-01-11T15:34:26Z",
-    "lastFetched": "2026-01-16T14:40:30.086Z"
+    "lastFetched": "2026-01-17T09:11:06.857Z"
   },
   {
     "slug": "translations",
@@ -754,8 +704,8 @@
     "language": "TypeScript",
     "license": "MIT",
     "createdAt": "2025-01-30T16:45:53Z",
-    "updatedAt": "2026-01-16T04:06:45Z",
-    "lastFetched": "2026-01-16T14:40:31.295Z"
+    "updatedAt": "2026-01-17T01:39:38Z",
+    "lastFetched": "2026-01-17T09:11:08.451Z"
   },
   {
     "slug": "apple-hig-designer",
@@ -767,19 +717,19 @@
     "license": "MIT",
     "createdAt": "2025-12-12T16:36:56Z",
     "updatedAt": "2026-01-16T05:53:00Z",
-    "lastFetched": "2026-01-16T14:40:31.904Z"
+    "lastFetched": "2026-01-17T09:11:09.304Z"
   },
   {
     "slug": "agent-skills-for-context-engineering",
     "aiDescription": "",
-    "stars": 7199,
-    "forks": 566,
-    "watchers": 7199,
+    "stars": 7269,
+    "forks": 573,
+    "watchers": 7269,
     "language": "Python",
     "license": "MIT",
     "createdAt": "2025-12-21T02:43:42Z",
-    "updatedAt": "2026-01-16T14:11:15Z",
-    "lastFetched": "2026-01-16T14:40:32.703Z"
+    "updatedAt": "2026-01-17T08:30:05Z",
+    "lastFetched": "2026-01-17T09:11:10.286Z"
   },
   {
     "slug": "security-list",
@@ -791,7 +741,7 @@
     "license": null,
     "createdAt": "2018-01-04T05:44:58Z",
     "updatedAt": "2026-01-15T07:41:13Z",
-    "lastFetched": "2026-01-16T14:40:33.609Z"
+    "lastFetched": "2026-01-17T09:11:12.075Z"
   },
   {
     "slug": "hitchhikers-guide",
@@ -803,7 +753,7 @@
     "license": "CC0-1.0",
     "createdAt": "2021-03-11T00:48:34Z",
     "updatedAt": "2025-11-26T09:25:28Z",
-    "lastFetched": "2026-01-16T14:40:34.355Z"
+    "lastFetched": "2026-01-17T09:11:12.991Z"
   },
   {
     "slug": "entice",
@@ -815,7 +765,7 @@
     "license": "WTFPL",
     "createdAt": "2013-08-18T01:07:59Z",
     "updatedAt": "2025-10-12T16:36:06Z",
-    "lastFetched": "2026-01-16T14:40:35.391Z"
+    "lastFetched": "2026-01-17T09:11:14.406Z"
   },
   {
     "slug": "proxy-pool",
@@ -827,7 +777,7 @@
     "license": "Apache-2.0",
     "createdAt": "2024-11-26T12:57:48Z",
     "updatedAt": "2026-01-12T13:53:03Z",
-    "lastFetched": "2026-01-16T14:40:35.970Z"
+    "lastFetched": "2026-01-17T09:11:15.293Z"
   },
   {
     "slug": "patentwriteragent",
@@ -839,31 +789,31 @@
     "license": "AGPL-3.0",
     "createdAt": "2025-10-21T03:14:53Z",
     "updatedAt": "2026-01-13T15:37:00Z",
-    "lastFetched": "2026-01-16T14:40:36.700Z"
+    "lastFetched": "2026-01-17T09:11:16.242Z"
   },
   {
     "slug": "mcp-agent-mail",
     "aiDescription": "",
-    "stars": 1458,
-    "forks": 147,
-    "watchers": 1458,
+    "stars": 1467,
+    "forks": 148,
+    "watchers": 1467,
     "language": "Python",
     "license": "MIT",
     "createdAt": "2025-10-23T03:42:36Z",
-    "updatedAt": "2026-01-16T11:34:02Z",
-    "lastFetched": "2026-01-16T14:40:37.257Z"
+    "updatedAt": "2026-01-17T06:01:53Z",
+    "lastFetched": "2026-01-17T09:11:17.500Z"
   },
   {
     "slug": "notes",
     "aiDescription": "",
-    "stars": 0,
-    "forks": 0,
-    "watchers": 0,
-    "language": null,
-    "license": null,
-    "createdAt": "2022-07-13T13:46:09Z",
-    "updatedAt": "2022-07-13T13:46:09Z",
-    "lastFetched": "2026-01-16T14:40:52.695Z"
+    "stars": 105,
+    "forks": 24,
+    "watchers": 105,
+    "language": "Markdown",
+    "license": "CC-BY-SA-4.0",
+    "createdAt": "2021-09-21T05:40:57Z",
+    "updatedAt": "2025-11-12T07:47:27Z",
+    "lastFetched": "2026-01-17T09:11:20.240Z"
   },
   {
     "slug": "git-bak",
@@ -875,7 +825,7 @@
     "license": null,
     "createdAt": "2014-12-31T03:16:01Z",
     "updatedAt": "2024-10-05T06:49:00Z",
-    "lastFetched": "2026-01-16T14:40:38.939Z"
+    "lastFetched": "2026-01-17T09:11:22.091Z"
   },
   {
     "slug": "azure-ai-search-workshop",
@@ -887,7 +837,7 @@
     "license": "MIT",
     "createdAt": "2021-06-21T01:47:32Z",
     "updatedAt": "2025-08-03T18:50:09Z",
-    "lastFetched": "2026-01-16T14:40:39.629Z"
+    "lastFetched": "2026-01-17T09:11:23.245Z"
   },
   {
     "slug": "zai-glm-skills",
@@ -899,7 +849,7 @@
     "license": null,
     "createdAt": "2026-01-07T18:31:40Z",
     "updatedAt": "2026-01-12T17:50:02Z",
-    "lastFetched": "2026-01-16T14:40:40.405Z"
+    "lastFetched": "2026-01-17T09:11:24.582Z"
   },
   {
     "slug": "transit-project-ideas",
@@ -911,7 +861,7 @@
     "license": null,
     "createdAt": "2020-08-21T16:15:29Z",
     "updatedAt": "2024-11-04T07:15:54Z",
-    "lastFetched": "2026-01-16T14:40:41.447Z"
+    "lastFetched": "2026-01-17T09:11:26.066Z"
   },
   {
     "slug": "tpmjs",
@@ -922,8 +872,8 @@
     "language": "TypeScript",
     "license": "MIT",
     "createdAt": "2025-11-25T00:05:16Z",
-    "updatedAt": "2026-01-16T08:01:12Z",
-    "lastFetched": "2026-01-16T14:40:42.037Z"
+    "updatedAt": "2026-01-17T01:34:25Z",
+    "lastFetched": "2026-01-17T09:11:27.477Z"
   },
   {
     "slug": "git-master-1",
@@ -935,7 +885,7 @@
     "license": null,
     "createdAt": "2018-10-24T15:31:30Z",
     "updatedAt": "2025-09-23T13:08:17Z",
-    "lastFetched": "2026-01-16T14:40:43.058Z"
+    "lastFetched": "2026-01-17T09:11:28.970Z"
   },
   {
     "slug": "aam",
@@ -947,7 +897,7 @@
     "license": "MIT",
     "createdAt": "2021-06-19T16:21:51Z",
     "updatedAt": "2025-09-01T06:46:45Z",
-    "lastFetched": "2026-01-16T14:40:43.857Z"
+    "lastFetched": "2026-01-17T09:11:30.392Z"
   },
   {
     "slug": "swoole-doc",
@@ -959,7 +909,7 @@
     "license": null,
     "createdAt": "2017-08-05T03:18:44Z",
     "updatedAt": "2018-12-20T06:06:38Z",
-    "lastFetched": "2026-01-16T14:40:44.816Z"
+    "lastFetched": "2026-01-17T09:11:31.685Z"
   },
   {
     "slug": "my-personal-notes",
@@ -971,7 +921,7 @@
     "license": null,
     "createdAt": "2019-08-23T07:11:52Z",
     "updatedAt": "2024-08-21T00:31:48Z",
-    "lastFetched": "2026-01-16T14:40:45.631Z"
+    "lastFetched": "2026-01-17T09:11:33.103Z"
   },
   {
     "slug": "aws-associate-solutions-architect",
@@ -983,7 +933,7 @@
     "license": null,
     "createdAt": "2016-11-26T00:33:34Z",
     "updatedAt": "2019-07-18T12:06:40Z",
-    "lastFetched": "2026-01-16T14:40:46.426Z"
+    "lastFetched": "2026-01-17T09:11:34.483Z"
   },
   {
     "slug": "tweakcc-system-prompts",
@@ -995,19 +945,19 @@
     "license": null,
     "createdAt": "2025-10-22T23:14:41Z",
     "updatedAt": "2026-01-10T06:47:07Z",
-    "lastFetched": "2026-01-16T14:40:47.339Z"
+    "lastFetched": "2026-01-17T09:11:35.522Z"
   },
   {
     "slug": "notes",
     "aiDescription": "",
-    "stars": 0,
+    "stars": 3,
     "forks": 0,
-    "watchers": 0,
-    "language": null,
+    "watchers": 3,
+    "language": "Jupyter Notebook",
     "license": null,
-    "createdAt": "2022-07-13T13:46:09Z",
-    "updatedAt": "2022-07-13T13:46:09Z",
-    "lastFetched": "2026-01-16T14:40:52.695Z"
+    "createdAt": "2022-09-27T22:22:44Z",
+    "updatedAt": "2025-12-01T11:47:47Z",
+    "lastFetched": "2026-01-17T09:11:36.440Z"
   },
   {
     "slug": "htmx-skill",
@@ -1019,7 +969,7 @@
     "license": "Apache-2.0",
     "createdAt": "2026-01-01T22:19:36Z",
     "updatedAt": "2026-01-02T00:12:57Z",
-    "lastFetched": "2026-01-16T14:40:48.682Z"
+    "lastFetched": "2026-01-17T09:11:37.397Z"
   },
   {
     "slug": "llm-fmt-project",
@@ -1031,7 +981,7 @@
     "license": "MIT",
     "createdAt": "2025-12-22T14:20:39Z",
     "updatedAt": "2026-01-09T08:32:19Z",
-    "lastFetched": "2026-01-16T14:40:49.333Z"
+    "lastFetched": "2026-01-17T09:11:38.358Z"
   },
   {
     "slug": "blog-posts",
@@ -1043,7 +993,7 @@
     "license": null,
     "createdAt": "2024-08-03T10:31:42Z",
     "updatedAt": "2024-11-01T09:39:19Z",
-    "lastFetched": "2026-01-16T14:40:50.099Z"
+    "lastFetched": "2026-01-17T09:11:39.792Z"
   },
   {
     "slug": "atomiccommit-pro",
@@ -1055,19 +1005,19 @@
     "license": null,
     "createdAt": "2026-01-16T05:14:06Z",
     "updatedAt": "2026-01-16T06:58:59Z",
-    "lastFetched": "2026-01-16T14:40:50.718Z"
+    "lastFetched": "2026-01-17T09:11:40.881Z"
   },
   {
     "slug": "jeffreysprompts-com",
     "aiDescription": "",
-    "stars": 28,
+    "stars": 29,
     "forks": 2,
-    "watchers": 28,
+    "watchers": 29,
     "language": "TypeScript",
     "license": "MIT",
     "createdAt": "2026-01-09T21:47:18Z",
-    "updatedAt": "2026-01-16T10:36:28Z",
-    "lastFetched": "2026-01-16T14:40:51.366Z"
+    "updatedAt": "2026-01-16T18:55:31Z",
+    "lastFetched": "2026-01-17T09:11:41.837Z"
   },
   {
     "slug": "claude-code-prompt-coach-skill",
@@ -1079,7 +1029,7 @@
     "license": null,
     "createdAt": "2025-11-09T11:09:39Z",
     "updatedAt": "2026-01-15T12:00:07Z",
-    "lastFetched": "2026-01-16T14:40:52.051Z"
+    "lastFetched": "2026-01-17T09:11:42.941Z"
   },
   {
     "slug": "notes",
@@ -1091,7 +1041,7 @@
     "license": null,
     "createdAt": "2022-07-13T13:46:09Z",
     "updatedAt": "2022-07-13T13:46:09Z",
-    "lastFetched": "2026-01-16T14:40:52.695Z"
+    "lastFetched": "2026-01-17T09:11:44.029Z"
   },
   {
     "slug": "javascript",
@@ -1103,7 +1053,7 @@
     "license": null,
     "createdAt": "2023-08-07T09:07:23Z",
     "updatedAt": "2025-05-12T12:33:37Z",
-    "lastFetched": "2026-01-16T14:40:53.430Z"
+    "lastFetched": "2026-01-17T09:11:45.122Z"
   },
   {
     "slug": "meeting-notes",
@@ -1115,7 +1065,7 @@
     "license": null,
     "createdAt": "2018-08-01T08:35:11Z",
     "updatedAt": "2018-10-18T20:31:02Z",
-    "lastFetched": "2026-01-16T14:40:54.427Z"
+    "lastFetched": "2026-01-17T09:11:46.851Z"
   },
   {
     "slug": "skills",
@@ -1123,11 +1073,11 @@
     "stars": 0,
     "forks": 0,
     "watchers": 0,
-    "language": "Python",
-    "license": "MIT",
-    "createdAt": "2025-10-29T22:02:51Z",
-    "updatedAt": "2026-01-13T20:52:08Z",
-    "lastFetched": "2026-01-16T14:42:36.943Z"
+    "language": null,
+    "license": null,
+    "createdAt": "2025-11-13T20:05:56Z",
+    "updatedAt": "2025-11-13T20:36:07Z",
+    "lastFetched": "2026-01-17T09:11:47.722Z"
   },
   {
     "slug": "vscodenote",
@@ -1139,7 +1089,7 @@
     "license": null,
     "createdAt": "2025-11-14T06:46:39Z",
     "updatedAt": "2025-11-25T00:52:48Z",
-    "lastFetched": "2026-01-16T14:40:55.769Z"
+    "lastFetched": "2026-01-17T09:11:48.679Z"
   },
   {
     "slug": "confluence-md",
@@ -1151,7 +1101,7 @@
     "license": null,
     "createdAt": "2025-11-02T19:19:06Z",
     "updatedAt": "2025-12-09T15:37:02Z",
-    "lastFetched": "2026-01-16T14:40:56.350Z"
+    "lastFetched": "2026-01-17T09:11:49.593Z"
   },
   {
     "slug": "calhacks-agenticrobot",
@@ -1163,7 +1113,7 @@
     "license": null,
     "createdAt": "2025-10-25T06:56:02Z",
     "updatedAt": "2025-10-26T07:10:23Z",
-    "lastFetched": "2026-01-16T14:40:57.063Z"
+    "lastFetched": "2026-01-17T09:11:50.528Z"
   },
   {
     "slug": "ha-omlet-integration",
@@ -1175,7 +1125,7 @@
     "license": "MIT",
     "createdAt": "2024-12-27T12:19:27Z",
     "updatedAt": "2026-01-04T05:03:30Z",
-    "lastFetched": "2026-01-16T14:40:57.682Z"
+    "lastFetched": "2026-01-17T09:11:51.577Z"
   },
   {
     "slug": "tnotes-en-words",
@@ -1187,7 +1137,7 @@
     "license": "NOASSERTION",
     "createdAt": "2024-10-26T10:05:13Z",
     "updatedAt": "2025-12-23T15:32:08Z",
-    "lastFetched": "2026-01-16T14:40:58.590Z"
+    "lastFetched": "2026-01-17T09:11:53.949Z"
   },
   {
     "slug": "mcp-builder-skill",
@@ -1199,7 +1149,7 @@
     "license": null,
     "createdAt": "2025-11-10T13:54:43Z",
     "updatedAt": "2025-11-10T13:55:37Z",
-    "lastFetched": "2026-01-16T14:40:59.247Z"
+    "lastFetched": "2026-01-17T09:11:54.900Z"
   },
   {
     "slug": "function-builder",
@@ -1211,7 +1161,7 @@
     "license": null,
     "createdAt": "2025-12-17T09:38:11Z",
     "updatedAt": "2025-12-19T19:07:45Z",
-    "lastFetched": "2026-01-16T14:41:00.136Z"
+    "lastFetched": "2026-01-17T09:11:55.811Z"
   },
   {
     "slug": "auto-review-agent",
@@ -1223,7 +1173,7 @@
     "license": null,
     "createdAt": "2025-11-03T14:24:07Z",
     "updatedAt": "2025-11-07T09:18:06Z",
-    "lastFetched": "2026-01-16T14:41:00.758Z"
+    "lastFetched": "2026-01-17T09:11:56.738Z"
   },
   {
     "slug": "studynotebook",
@@ -1235,7 +1185,7 @@
     "license": null,
     "createdAt": "2021-01-21T03:27:03Z",
     "updatedAt": "2025-03-02T12:14:55Z",
-    "lastFetched": "2026-01-16T14:41:01.566Z"
+    "lastFetched": "2026-01-17T09:11:58.238Z"
   },
   {
     "slug": "murf-ai-agent",
@@ -1247,608 +1197,607 @@
     "license": null,
     "createdAt": "2025-08-29T18:10:43Z",
     "updatedAt": "2025-08-31T13:03:06Z",
-    "lastFetched": "2026-01-16T14:41:02.211Z"
+    "lastFetched": "2026-01-17T09:11:59.413Z"
   },
   {
     "slug": "agentscope-java",
     "aiDescription": "",
-    "stars": 959,
-    "forks": 208,
-    "watchers": 959,
+    "stars": 961,
+    "forks": 211,
+    "watchers": 961,
     "language": "Java",
     "license": null,
     "createdAt": "2025-09-23T04:37:43Z",
-    "updatedAt": "2026-01-16T14:03:26Z",
-    "lastFetched": "2026-01-16T14:41:02.949Z"
+    "updatedAt": "2026-01-17T08:56:46Z",
+    "lastFetched": "2026-01-17T09:12:00.671Z"
   },
   {
     "slug": "cherry-studio",
     "aiDescription": "",
-    "stars": 37873,
-    "forks": 3487,
-    "watchers": 37873,
+    "stars": 37922,
+    "forks": 3490,
+    "watchers": 37922,
     "language": "TypeScript",
     "license": "AGPL-3.0",
     "createdAt": "2024-05-24T01:56:26Z",
-    "updatedAt": "2026-01-16T14:38:53Z",
-    "lastFetched": "2026-01-16T14:41:03.638Z"
+    "updatedAt": "2026-01-17T08:36:28Z",
+    "lastFetched": "2026-01-17T09:12:01.816Z"
   },
   {
     "slug": "agents",
     "aiDescription": "",
-    "stars": 25639,
-    "forks": 2817,
-    "watchers": 25639,
+    "stars": 25712,
+    "forks": 2824,
+    "watchers": 25712,
     "language": "C#",
     "license": "MIT",
     "createdAt": "2025-07-24T23:28:14Z",
-    "updatedAt": "2026-01-16T14:39:14Z",
-    "lastFetched": "2026-01-16T14:41:04.257Z"
+    "updatedAt": "2026-01-17T09:11:40Z",
+    "lastFetched": "2026-01-17T09:12:02.778Z"
   },
   {
     "slug": "awesome-claude-code",
     "aiDescription": "",
-    "stars": 20597,
-    "forks": 1167,
-    "watchers": 20597,
+    "stars": 20691,
+    "forks": 1173,
+    "watchers": 20691,
     "language": "Python",
     "license": "NOASSERTION",
     "createdAt": "2025-04-19T20:55:59Z",
-    "updatedAt": "2026-01-16T14:34:46Z",
-    "lastFetched": "2026-01-16T14:41:04.972Z"
+    "updatedAt": "2026-01-17T09:09:08Z",
+    "lastFetched": "2026-01-17T09:12:03.666Z"
   },
   {
     "slug": "awesome-claude-skills",
     "aiDescription": "",
-    "stars": 0,
-    "forks": 1,
-    "watchers": 0,
-    "language": null,
+    "stars": 20453,
+    "forks": 2069,
+    "watchers": 20453,
+    "language": "Python",
     "license": null,
-    "createdAt": "2025-11-30T01:53:24Z",
-    "updatedAt": "2025-11-30T08:31:36Z",
-    "lastFetched": "2026-01-16T14:42:35.511Z"
+    "createdAt": "2025-10-17T07:15:01Z",
+    "updatedAt": "2026-01-17T09:11:16Z",
+    "lastFetched": "2026-01-17T09:12:05.412Z"
   },
   {
     "slug": "opcode",
     "aiDescription": "",
-    "stars": 20020,
-    "forks": 1544,
-    "watchers": 20020,
+    "stars": 20033,
+    "forks": 1546,
+    "watchers": 20033,
     "language": "TypeScript",
     "license": "AGPL-3.0",
     "createdAt": "2025-06-19T13:53:26Z",
-    "updatedAt": "2026-01-16T14:09:56Z",
-    "lastFetched": "2026-01-16T14:41:06.816Z"
+    "updatedAt": "2026-01-17T07:33:33Z",
+    "lastFetched": "2026-01-17T09:12:06.285Z"
   },
   {
     "slug": "serena",
     "aiDescription": "",
-    "stars": 18731,
-    "forks": 1278,
-    "watchers": 18731,
+    "stars": 18757,
+    "forks": 1280,
+    "watchers": 18757,
     "language": "Python",
     "license": "MIT",
     "createdAt": "2025-03-23T22:35:24Z",
-    "updatedAt": "2026-01-16T14:14:49Z",
-    "lastFetched": "2026-01-16T14:41:07.531Z"
+    "updatedAt": "2026-01-17T08:40:21Z",
+    "lastFetched": "2026-01-17T09:12:07.278Z"
   },
   {
     "slug": "oh-my-opencode",
     "aiDescription": "",
-    "stars": 17815,
-    "forks": 1254,
-    "watchers": 17815,
+    "stars": 18128,
+    "forks": 1264,
+    "watchers": 18128,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "createdAt": "2025-12-03T01:40:05Z",
-    "updatedAt": "2026-01-16T14:39:59Z",
-    "lastFetched": "2026-01-16T14:41:08.367Z"
+    "updatedAt": "2026-01-17T09:06:44Z",
+    "lastFetched": "2026-01-17T09:12:08.599Z"
   },
   {
     "slug": "claude-code-templates",
     "aiDescription": "Collection of starter templates for common Claude Code project patterns. Jumpstart projects with pre-configured templates for various use cases.",
-    "seoContent": "## What is Claude Code Templates?\n\nClaude Code Templates provides starter templates for common project patterns. Jumpstart development with pre-configured setups for various use cases and technologies.\n\n## Key Features\n\n- Pre-configured project templates\n- Multiple technology stacks\n- Best practice configurations\n- Documentation included\n- Customization guides\n- Regular updates\n\n## Use Cases\n\n- **Quick Starts**: Begin projects with solid foundations\n- **Learning**: Study recommended project structures\n- **Standardization**: Use consistent project patterns\n- **Time Saving**: Skip boilerplate setup\n\n## How to Get Started\n\nBrowse available templates and select one matching your needs. Clone and customize to begin development immediately.\n\n## Why Use This Skill?\n\nProject setup takes time and requires decisions about structure and tooling. Templates provide tested starting points, letting you begin productive work immediately with confidence in the foundation.",
-    "stars": 11,
-    "forks": 4,
-    "watchers": 11,
-    "language": null,
+    "stars": 16640,
+    "forks": 1456,
+    "watchers": 16640,
+    "language": "Python",
     "license": "MIT",
-    "createdAt": "2025-11-06T05:30:54Z",
-    "updatedAt": "2026-01-10T21:39:37Z",
-    "lastFetched": "2026-01-15T23:26:07.476Z"
+    "createdAt": "2025-07-04T01:26:26Z",
+    "updatedAt": "2026-01-17T09:06:23Z",
+    "lastFetched": "2026-01-17T09:12:09.744Z"
   },
   {
     "slug": "ui-ux-pro-max-skill",
     "aiDescription": "",
-    "stars": 15890,
-    "forks": 1597,
-    "watchers": 15890,
+    "stars": 16300,
+    "forks": 1646,
+    "watchers": 16300,
     "language": "Python",
     "license": "MIT",
     "createdAt": "2025-11-30T11:36:31Z",
-    "updatedAt": "2026-01-16T14:40:45Z",
-    "lastFetched": "2026-01-16T14:41:09.187Z"
+    "updatedAt": "2026-01-17T09:11:52Z",
+    "lastFetched": "2026-01-17T09:12:10.767Z"
   },
   {
     "slug": "learn-claude-code",
     "aiDescription": "",
-    "stars": 14383,
-    "forks": 3334,
-    "watchers": 14383,
+    "stars": 14419,
+    "forks": 3339,
+    "watchers": 14419,
     "language": "Python",
     "license": "MIT",
     "createdAt": "2025-06-29T15:34:15Z",
-    "updatedAt": "2026-01-16T14:16:23Z",
-    "lastFetched": "2026-01-16T14:41:09.897Z"
+    "updatedAt": "2026-01-17T08:48:40Z",
+    "lastFetched": "2026-01-17T09:12:11.672Z"
   },
   {
     "slug": "claude-mem",
     "aiDescription": "",
-    "stars": 14118,
-    "forks": 920,
-    "watchers": 14118,
+    "stars": 14223,
+    "forks": 943,
+    "watchers": 14223,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "createdAt": "2025-08-31T20:50:03Z",
-    "updatedAt": "2026-01-16T14:38:40Z",
-    "lastFetched": "2026-01-16T14:41:10.603Z"
+    "updatedAt": "2026-01-17T08:44:16Z",
+    "lastFetched": "2026-01-17T09:12:12.835Z"
   },
   {
     "slug": "claude-flow",
     "aiDescription": "",
-    "stars": 12051,
-    "forks": 1508,
-    "watchers": 12051,
+    "stars": 12275,
+    "forks": 1518,
+    "watchers": 12275,
     "language": "TypeScript",
     "license": null,
     "createdAt": "2025-06-02T21:24:20Z",
-    "updatedAt": "2026-01-16T14:41:01Z",
-    "lastFetched": "2026-01-16T14:41:11.365Z"
+    "updatedAt": "2026-01-17T09:00:57Z",
+    "lastFetched": "2026-01-17T09:12:14.363Z"
   },
   {
     "slug": "cc-switch",
     "aiDescription": "",
-    "stars": 11737,
-    "forks": 764,
-    "watchers": 11737,
+    "stars": 11851,
+    "forks": 770,
+    "watchers": 11851,
     "language": "Rust",
     "license": "MIT",
     "createdAt": "2025-08-04T14:16:16Z",
-    "updatedAt": "2026-01-16T14:38:40Z",
-    "lastFetched": "2026-01-16T14:41:11.952Z"
+    "updatedAt": "2026-01-17T09:11:44Z",
+    "lastFetched": "2026-01-17T09:12:15.258Z"
   },
   {
     "slug": "beads",
     "aiDescription": "",
-    "stars": 10581,
-    "forks": 657,
-    "watchers": 10581,
+    "stars": 10731,
+    "forks": 668,
+    "watchers": 10731,
     "language": "Go",
     "license": "MIT",
     "createdAt": "2025-10-12T03:09:46Z",
-    "updatedAt": "2026-01-16T14:40:42Z",
-    "lastFetched": "2026-01-16T14:41:12.526Z"
+    "updatedAt": "2026-01-17T08:58:12Z",
+    "lastFetched": "2026-01-17T09:12:16.497Z"
   },
   {
     "slug": "planning-with-files",
     "aiDescription": "",
-    "stars": 9448,
-    "forks": 831,
-    "watchers": 9448,
+    "stars": 9579,
+    "forks": 842,
+    "watchers": 9579,
     "language": "Shell",
     "license": "MIT",
     "createdAt": "2026-01-03T07:37:28Z",
-    "updatedAt": "2026-01-16T14:37:13Z",
-    "lastFetched": "2026-01-16T14:41:13.375Z"
+    "updatedAt": "2026-01-17T09:08:40Z",
+    "lastFetched": "2026-01-17T09:12:17.936Z"
   },
   {
     "slug": "mcp-use",
     "aiDescription": "",
-    "stars": 8930,
+    "stars": 8934,
     "forks": 1084,
-    "watchers": 8930,
+    "watchers": 8934,
     "language": "TypeScript",
     "license": "MIT",
     "createdAt": "2025-03-28T10:06:31Z",
-    "updatedAt": "2026-01-16T13:27:45Z",
-    "lastFetched": "2026-01-16T14:41:14.002Z"
+    "updatedAt": "2026-01-17T08:23:56Z",
+    "lastFetched": "2026-01-17T09:12:19.038Z"
   },
   {
     "slug": "humanlayer",
     "aiDescription": "",
-    "stars": 8639,
-    "forks": 723,
-    "watchers": 8639,
+    "stars": 8670,
+    "forks": 726,
+    "watchers": 8670,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "createdAt": "2024-08-05T21:26:44Z",
-    "updatedAt": "2026-01-16T14:33:48Z",
-    "lastFetched": "2026-01-16T14:41:14.703Z"
+    "updatedAt": "2026-01-17T08:56:49Z",
+    "lastFetched": "2026-01-17T09:12:19.970Z"
   },
   {
     "slug": "happy",
     "aiDescription": "",
-    "stars": 7499,
-    "forks": 555,
-    "watchers": 7499,
+    "stars": 7550,
+    "forks": 560,
+    "watchers": 7550,
     "language": "TypeScript",
     "license": "MIT",
     "createdAt": "2025-07-18T05:53:18Z",
-    "updatedAt": "2026-01-16T14:39:58Z",
-    "lastFetched": "2026-01-16T14:41:15.433Z"
+    "updatedAt": "2026-01-17T09:11:11Z",
+    "lastFetched": "2026-01-17T09:12:21.023Z"
   },
   {
     "slug": "claude-relay-service",
     "aiDescription": "",
-    "stars": 7166,
+    "stars": 7183,
     "forks": 1205,
-    "watchers": 7166,
+    "watchers": 7183,
     "language": "JavaScript",
     "license": "MIT",
     "createdAt": "2025-07-14T10:11:32Z",
-    "updatedAt": "2026-01-16T13:31:05Z",
-    "lastFetched": "2026-01-16T14:41:16.211Z"
+    "updatedAt": "2026-01-17T08:47:48Z",
+    "lastFetched": "2026-01-17T09:12:21.928Z"
   },
   {
     "slug": "cliproxyapi",
     "aiDescription": "",
-    "stars": 6889,
-    "forks": 1066,
-    "watchers": 6889,
+    "stars": 6966,
+    "forks": 1075,
+    "watchers": 6966,
     "language": "Go",
     "license": "MIT",
     "createdAt": "2025-07-01T19:43:27Z",
-    "updatedAt": "2026-01-16T14:40:49Z",
-    "lastFetched": "2026-01-16T14:41:17.085Z"
+    "updatedAt": "2026-01-17T08:59:00Z",
+    "lastFetched": "2026-01-17T09:12:22.982Z"
   },
   {
     "slug": "claude-code-usage-monitor",
     "aiDescription": "",
-    "stars": 6200,
-    "forks": 301,
-    "watchers": 6200,
+    "stars": 6210,
+    "forks": 302,
+    "watchers": 6210,
     "language": "Python",
     "license": "MIT",
     "createdAt": "2025-06-19T00:00:05Z",
-    "updatedAt": "2026-01-16T12:18:53Z",
-    "lastFetched": "2026-01-16T14:41:17.950Z"
+    "updatedAt": "2026-01-17T08:20:39Z",
+    "lastFetched": "2026-01-17T09:12:23.795Z"
   },
   {
     "slug": "codecompanion-nvim",
     "aiDescription": "",
-    "stars": 5956,
+    "stars": 5958,
     "forks": 357,
-    "watchers": 5956,
+    "watchers": 5958,
     "language": "Lua",
     "license": "Apache-2.0",
     "createdAt": "2023-12-27T17:32:51Z",
-    "updatedAt": "2026-01-16T09:41:44Z",
-    "lastFetched": "2026-01-16T14:41:18.713Z"
+    "updatedAt": "2026-01-16T17:40:44Z",
+    "lastFetched": "2026-01-17T09:12:24.813Z"
   },
   {
     "slug": "claudecodeui",
     "aiDescription": "",
-    "stars": 5525,
-    "forks": 706,
-    "watchers": 5525,
+    "stars": 5538,
+    "forks": 711,
+    "watchers": 5538,
     "language": "JavaScript",
     "license": "GPL-3.0",
     "createdAt": "2025-06-25T12:51:12Z",
-    "updatedAt": "2026-01-16T14:13:55Z",
-    "lastFetched": "2026-01-16T14:41:19.583Z"
+    "updatedAt": "2026-01-17T07:27:57Z",
+    "lastFetched": "2026-01-17T09:12:25.924Z"
   },
   {
     "slug": "zcf",
     "aiDescription": "",
-    "stars": 5232,
-    "forks": 366,
-    "watchers": 5232,
+    "stars": 5240,
+    "forks": 367,
+    "watchers": 5240,
     "language": "TypeScript",
     "license": "MIT",
     "createdAt": "2025-07-30T06:09:00Z",
-    "updatedAt": "2026-01-16T14:30:57Z",
-    "lastFetched": "2026-01-16T14:41:20.359Z"
+    "updatedAt": "2026-01-17T07:34:40Z",
+    "lastFetched": "2026-01-17T09:12:26.844Z"
   },
   {
     "slug": "awesome-claude-skills",
     "aiDescription": "",
-    "stars": 0,
-    "forks": 1,
-    "watchers": 0,
+    "stars": 5229,
+    "forks": 329,
+    "watchers": 5229,
     "language": null,
     "license": null,
-    "createdAt": "2025-11-30T01:53:24Z",
-    "updatedAt": "2025-11-30T08:31:36Z",
-    "lastFetched": "2026-01-16T14:42:35.511Z"
+    "createdAt": "2025-10-16T20:42:39Z",
+    "updatedAt": "2026-01-17T09:04:26Z",
+    "lastFetched": "2026-01-17T09:12:27.675Z"
   },
   {
     "slug": "claude-context",
     "aiDescription": "",
-    "stars": 5061,
-    "forks": 457,
-    "watchers": 5061,
+    "stars": 5065,
+    "forks": 458,
+    "watchers": 5065,
     "language": "TypeScript",
     "license": "MIT",
     "createdAt": "2025-06-06T02:12:47Z",
-    "updatedAt": "2026-01-16T14:31:17Z",
-    "lastFetched": "2026-01-16T14:41:21.943Z"
+    "updatedAt": "2026-01-17T09:09:26Z",
+    "lastFetched": "2026-01-17T09:12:29.275Z"
   },
   {
     "slug": "aionui",
     "aiDescription": "",
-    "stars": 4040,
-    "forks": 333,
-    "watchers": 4040,
+    "stars": 4483,
+    "forks": 364,
+    "watchers": 4483,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "createdAt": "2025-08-07T10:29:51Z",
-    "updatedAt": "2026-01-16T14:39:41Z",
-    "lastFetched": "2026-01-16T14:41:22.747Z"
+    "updatedAt": "2026-01-17T09:11:20Z",
+    "lastFetched": "2026-01-17T09:12:30.435Z"
   },
   {
     "slug": "claude-plugins-official",
     "aiDescription": "",
-    "stars": 3958,
-    "forks": 443,
-    "watchers": 3958,
+    "stars": 4028,
+    "forks": 454,
+    "watchers": 4028,
     "language": "Shell",
     "license": null,
     "createdAt": "2025-11-20T18:36:20Z",
-    "updatedAt": "2026-01-16T14:22:22Z",
-    "lastFetched": "2026-01-16T14:41:23.482Z"
+    "updatedAt": "2026-01-17T09:09:20Z",
+    "lastFetched": "2026-01-17T09:12:31.469Z"
   },
   {
     "slug": "claudable",
     "aiDescription": "",
-    "stars": 3610,
-    "forks": 557,
-    "watchers": 3610,
+    "stars": 3615,
+    "forks": 555,
+    "watchers": 3615,
     "language": "TypeScript",
     "license": "MIT",
     "createdAt": "2025-08-20T05:15:16Z",
-    "updatedAt": "2026-01-16T14:30:16Z",
-    "lastFetched": "2026-01-16T14:41:24.196Z"
+    "updatedAt": "2026-01-17T07:55:10Z",
+    "lastFetched": "2026-01-17T09:12:32.455Z"
   },
   {
     "slug": "continuous-claude-v3",
     "aiDescription": "",
-    "stars": 3255,
-    "forks": 235,
-    "watchers": 3255,
+    "stars": 3272,
+    "forks": 234,
+    "watchers": 3272,
     "language": "Python",
     "license": "MIT",
     "createdAt": "2025-12-23T00:12:49Z",
-    "updatedAt": "2026-01-16T14:09:29Z",
-    "lastFetched": "2026-01-16T14:41:25.020Z"
+    "updatedAt": "2026-01-17T08:42:13Z",
+    "lastFetched": "2026-01-17T09:12:33.443Z"
   },
   {
     "slug": "gcli2api",
     "aiDescription": "",
-    "stars": 3195,
-    "forks": 1020,
-    "watchers": 3195,
+    "stars": 3205,
+    "forks": 1025,
+    "watchers": 3205,
     "language": "Python",
     "license": "NOASSERTION",
     "createdAt": "2025-08-14T11:54:36Z",
-    "updatedAt": "2026-01-16T14:39:59Z",
-    "lastFetched": "2026-01-16T14:41:25.859Z"
+    "updatedAt": "2026-01-17T08:33:05Z",
+    "lastFetched": "2026-01-17T09:12:35.120Z"
   },
   {
     "slug": "awesome-claude-skills",
     "aiDescription": "",
-    "stars": 0,
-    "forks": 1,
-    "watchers": 0,
+    "stars": 3213,
+    "forks": 208,
+    "watchers": 3213,
     "language": null,
-    "license": null,
-    "createdAt": "2025-11-30T01:53:24Z",
-    "updatedAt": "2025-11-30T08:31:36Z",
-    "lastFetched": "2026-01-16T14:42:35.511Z"
+    "license": "MIT",
+    "createdAt": "2025-10-28T08:55:32Z",
+    "updatedAt": "2026-01-17T09:05:40Z",
+    "lastFetched": "2026-01-17T09:12:36.148Z"
   },
   {
     "slug": "get-shit-done",
     "aiDescription": "",
-    "stars": 3121,
-    "forks": 362,
-    "watchers": 3121,
+    "stars": 3395,
+    "forks": 390,
+    "watchers": 3395,
     "language": "JavaScript",
     "license": "MIT",
     "createdAt": "2025-12-14T14:17:12Z",
-    "updatedAt": "2026-01-16T14:40:37Z",
-    "lastFetched": "2026-01-16T14:41:27.231Z"
+    "updatedAt": "2026-01-17T09:12:29Z",
+    "lastFetched": "2026-01-17T09:12:37.137Z"
   },
   {
     "slug": "claude-code-system-prompts",
     "aiDescription": "",
-    "stars": 3083,
-    "forks": 458,
-    "watchers": 3083,
+    "stars": 3099,
+    "forks": 460,
+    "watchers": 3099,
     "language": "JavaScript",
     "license": "MIT",
     "createdAt": "2025-11-18T21:26:33Z",
-    "updatedAt": "2026-01-16T14:24:16Z",
-    "lastFetched": "2026-01-16T14:41:27.895Z"
+    "updatedAt": "2026-01-17T08:29:00Z",
+    "lastFetched": "2026-01-17T09:12:37.997Z"
   },
   {
     "slug": "claude-code-guide",
     "aiDescription": "",
-    "stars": 3049,
-    "forks": 271,
-    "watchers": 3049,
+    "stars": 3053,
+    "forks": 273,
+    "watchers": 3053,
     "language": null,
     "license": "MIT",
     "createdAt": "2025-06-21T20:43:25Z",
-    "updatedAt": "2026-01-16T13:26:38Z",
-    "lastFetched": "2026-01-16T14:41:28.764Z"
+    "updatedAt": "2026-01-17T07:28:24Z",
+    "lastFetched": "2026-01-17T09:12:39.019Z"
   },
   {
     "slug": "dev-browser",
     "aiDescription": "",
-    "stars": 2825,
-    "forks": 181,
-    "watchers": 2825,
+    "stars": 2845,
+    "forks": 183,
+    "watchers": 2845,
     "language": "TypeScript",
     "license": "MIT",
     "createdAt": "2025-12-02T19:20:20Z",
-    "updatedAt": "2026-01-16T14:40:41Z",
-    "lastFetched": "2026-01-16T14:41:29.407Z"
+    "updatedAt": "2026-01-17T08:11:27Z",
+    "lastFetched": "2026-01-17T09:12:40.033Z"
   },
   {
     "slug": "crystal",
     "aiDescription": "",
-    "stars": 2750,
+    "stars": 2753,
     "forks": 174,
-    "watchers": 2750,
+    "watchers": 2753,
     "language": "TypeScript",
     "license": "MIT",
     "createdAt": "2025-06-05T23:54:39Z",
-    "updatedAt": "2026-01-16T10:18:49Z",
-    "lastFetched": "2026-01-16T14:41:30.077Z"
+    "updatedAt": "2026-01-17T07:30:33Z",
+    "lastFetched": "2026-01-17T09:12:41.025Z"
   },
   {
     "slug": "cc-wf-studio",
     "aiDescription": "",
-    "stars": 2666,
-    "forks": 296,
-    "watchers": 2666,
+    "stars": 2676,
+    "forks": 301,
+    "watchers": 2676,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "createdAt": "2025-11-01T16:04:15Z",
-    "updatedAt": "2026-01-16T14:40:18Z",
-    "lastFetched": "2026-01-16T14:41:32.936Z"
+    "updatedAt": "2026-01-17T08:59:00Z",
+    "lastFetched": "2026-01-17T09:12:41.999Z"
   },
   {
     "slug": "ccplugins",
     "aiDescription": "",
-    "stars": 2631,
+    "stars": 2633,
     "forks": 160,
-    "watchers": 2631,
+    "watchers": 2633,
     "language": "Python",
     "license": "MIT",
     "createdAt": "2025-07-25T03:20:54Z",
-    "updatedAt": "2026-01-15T19:59:02Z",
-    "lastFetched": "2026-01-16T14:41:33.933Z"
+    "updatedAt": "2026-01-16T16:02:28Z",
+    "lastFetched": "2026-01-17T09:12:42.867Z"
   },
   {
     "slug": "pinme",
     "aiDescription": "",
-    "stars": 2553,
-    "forks": 182,
-    "watchers": 2553,
+    "stars": 2560,
+    "forks": 183,
+    "watchers": 2560,
     "language": "TypeScript",
     "license": "MIT",
     "createdAt": "2025-04-13T01:41:33Z",
-    "updatedAt": "2026-01-16T14:14:42Z",
-    "lastFetched": "2026-01-16T14:41:35.055Z"
+    "updatedAt": "2026-01-17T08:47:33Z",
+    "lastFetched": "2026-01-17T09:12:43.757Z"
   },
   {
     "slug": "claude-hud",
     "aiDescription": "",
-    "stars": 2398,
-    "forks": 104,
-    "watchers": 2398,
+    "stars": 2431,
+    "forks": 106,
+    "watchers": 2431,
     "language": "JavaScript",
     "license": "MIT",
     "createdAt": "2026-01-02T01:35:07Z",
-    "updatedAt": "2026-01-16T13:57:55Z",
-    "lastFetched": "2026-01-16T14:41:35.909Z"
+    "updatedAt": "2026-01-17T09:10:52Z",
+    "lastFetched": "2026-01-17T09:12:44.597Z"
   },
   {
     "slug": "codexbar",
     "aiDescription": "",
-    "stars": 2370,
-    "forks": 168,
-    "watchers": 2370,
+    "stars": 2416,
+    "forks": 169,
+    "watchers": 2416,
     "language": "Swift",
     "license": "MIT",
     "createdAt": "2025-11-16T17:00:44Z",
-    "updatedAt": "2026-01-16T14:23:03Z",
-    "lastFetched": "2026-01-16T14:41:36.562Z"
+    "updatedAt": "2026-01-17T09:07:30Z",
+    "lastFetched": "2026-01-17T09:12:45.655Z"
   },
   {
     "slug": "cc-sdd",
     "aiDescription": "",
-    "stars": 2348,
+    "stars": 2352,
     "forks": 194,
-    "watchers": 2348,
+    "watchers": 2352,
     "language": "TypeScript",
     "license": "MIT",
     "createdAt": "2025-07-17T04:41:37Z",
-    "updatedAt": "2026-01-16T10:39:07Z",
-    "lastFetched": "2026-01-16T14:41:37.218Z"
+    "updatedAt": "2026-01-17T08:31:22Z",
+    "lastFetched": "2026-01-17T09:12:46.530Z"
   },
   {
     "slug": "ruler",
     "aiDescription": "",
-    "stars": 2320,
+    "stars": 2324,
     "forks": 123,
-    "watchers": 2320,
+    "watchers": 2324,
     "language": "TypeScript",
     "license": "MIT",
     "createdAt": "2025-05-20T08:22:59Z",
-    "updatedAt": "2026-01-16T06:31:43Z",
-    "lastFetched": "2026-01-16T14:41:37.919Z"
+    "updatedAt": "2026-01-17T04:39:33Z",
+    "lastFetched": "2026-01-17T09:12:47.431Z"
   },
   {
     "slug": "buildwithclaude",
     "aiDescription": "",
-    "stars": 2258,
+    "stars": 2264,
     "forks": 242,
-    "watchers": 2258,
+    "watchers": 2264,
     "language": "TypeScript",
     "license": "MIT",
     "createdAt": "2025-07-25T02:26:45Z",
-    "updatedAt": "2026-01-16T11:26:55Z",
-    "lastFetched": "2026-01-16T14:41:38.527Z"
+    "updatedAt": "2026-01-17T09:11:27Z",
+    "lastFetched": "2026-01-17T09:12:48.506Z"
   },
   {
     "slug": "sidekick-nvim",
     "aiDescription": "",
-    "stars": 2158,
+    "stars": 2163,
     "forks": 81,
-    "watchers": 2158,
+    "watchers": 2163,
     "language": "Lua",
     "license": "Apache-2.0",
     "createdAt": "2025-09-26T10:26:48Z",
-    "updatedAt": "2026-01-16T14:07:49Z",
-    "lastFetched": "2026-01-16T14:41:39.255Z"
+    "updatedAt": "2026-01-17T05:14:53Z",
+    "lastFetched": "2026-01-17T09:12:49.323Z"
   },
   {
     "slug": "fulling",
     "aiDescription": "",
-    "stars": 2142,
-    "forks": 206,
-    "watchers": 2142,
+    "stars": 2151,
+    "forks": 207,
+    "watchers": 2151,
     "language": "TypeScript",
     "license": "MIT",
     "createdAt": "2025-10-11T02:31:07Z",
-    "updatedAt": "2026-01-16T12:55:34Z",
-    "lastFetched": "2026-01-16T14:41:40.006Z"
+    "updatedAt": "2026-01-17T04:34:03Z",
+    "lastFetched": "2026-01-17T09:12:50.543Z"
   },
   {
     "slug": "ai-agent-team",
     "aiDescription": "",
-    "stars": 241,
-    "forks": 30,
-    "watchers": 241,
+    "stars": 244,
+    "forks": 31,
+    "watchers": 244,
     "language": "JavaScript",
     "license": "MIT",
     "createdAt": "2025-11-07T15:22:33Z",
-    "updatedAt": "2026-01-16T10:34:43Z",
-    "lastFetched": "2026-01-16T14:41:40.680Z"
+    "updatedAt": "2026-01-16T23:23:57Z",
+    "lastFetched": "2026-01-17T09:12:51.465Z"
   },
   {
     "slug": "claudeforge",
     "aiDescription": "",
-    "stars": 126,
-    "forks": 24,
-    "watchers": 126,
+    "stars": 127,
+    "forks": 25,
+    "watchers": 127,
     "language": "Python",
     "license": "MIT",
     "createdAt": "2025-11-12T09:46:18Z",
-    "updatedAt": "2026-01-16T13:17:18Z",
-    "lastFetched": "2026-01-16T14:41:41.307Z"
+    "updatedAt": "2026-01-16T18:37:12Z",
+    "lastFetched": "2026-01-17T09:12:52.309Z"
   },
   {
     "slug": "google-ai-mode-skill",
@@ -1860,19 +1809,19 @@
     "license": null,
     "createdAt": "2026-01-03T19:31:32Z",
     "updatedAt": "2026-01-16T06:05:05Z",
-    "lastFetched": "2026-01-16T14:41:41.942Z"
+    "lastFetched": "2026-01-17T09:12:53.166Z"
   },
   {
     "slug": "developer-kit",
     "aiDescription": "",
-    "stars": 53,
+    "stars": 54,
     "forks": 2,
-    "watchers": 53,
+    "watchers": 54,
     "language": "Python",
     "license": "MIT",
     "createdAt": "2025-10-21T08:08:21Z",
-    "updatedAt": "2026-01-16T02:06:20Z",
-    "lastFetched": "2026-01-16T14:41:42.637Z"
+    "updatedAt": "2026-01-16T19:08:02Z",
+    "lastFetched": "2026-01-17T09:12:54.294Z"
   },
   {
     "slug": "outline-driven-development",
@@ -1884,19 +1833,19 @@
     "license": "Apache-2.0",
     "createdAt": "2025-11-17T02:07:04Z",
     "updatedAt": "2026-01-15T20:52:20Z",
-    "lastFetched": "2026-01-16T14:41:43.369Z"
+    "lastFetched": "2026-01-17T09:12:55.523Z"
   },
   {
     "slug": "few-word",
     "aiDescription": "",
-    "stars": 27,
+    "stars": 28,
     "forks": 3,
-    "watchers": 27,
+    "watchers": 28,
     "language": "Python",
     "license": null,
     "createdAt": "2026-01-07T20:10:01Z",
-    "updatedAt": "2026-01-15T18:55:22Z",
-    "lastFetched": "2026-01-16T14:41:44.172Z"
+    "updatedAt": "2026-01-16T22:09:13Z",
+    "lastFetched": "2026-01-17T09:12:56.446Z"
   },
   {
     "slug": "gtd-coach-plugin",
@@ -1908,31 +1857,31 @@
     "license": "MIT",
     "createdAt": "2026-01-10T00:18:07Z",
     "updatedAt": "2026-01-15T02:13:32Z",
-    "lastFetched": "2026-01-16T14:41:44.828Z"
+    "lastFetched": "2026-01-17T09:12:57.265Z"
   },
   {
     "slug": "wechat-article-publisher-skill",
     "aiDescription": "",
-    "stars": 22,
+    "stars": 24,
     "forks": 4,
-    "watchers": 22,
+    "watchers": 24,
     "language": "Python",
     "license": "MIT",
     "createdAt": "2026-01-13T23:31:00Z",
-    "updatedAt": "2026-01-16T12:33:39Z",
-    "lastFetched": "2026-01-16T14:41:45.445Z"
+    "updatedAt": "2026-01-17T01:45:51Z",
+    "lastFetched": "2026-01-17T09:12:58.211Z"
   },
   {
     "slug": "wechat-article-formatter-skill",
     "aiDescription": "",
-    "stars": 21,
-    "forks": 5,
-    "watchers": 21,
+    "stars": 23,
+    "forks": 6,
+    "watchers": 23,
     "language": "CSS",
     "license": null,
     "createdAt": "2026-01-14T02:00:48Z",
-    "updatedAt": "2026-01-16T02:54:27Z",
-    "lastFetched": "2026-01-16T14:41:46.083Z"
+    "updatedAt": "2026-01-17T06:22:55Z",
+    "lastFetched": "2026-01-17T09:12:59.196Z"
   },
   {
     "slug": "claude-code-design-skills",
@@ -1944,7 +1893,7 @@
     "license": "MIT",
     "createdAt": "2025-11-02T10:57:27Z",
     "updatedAt": "2026-01-15T04:54:14Z",
-    "lastFetched": "2026-01-16T14:41:46.830Z"
+    "lastFetched": "2026-01-17T09:13:00.148Z"
   },
   {
     "slug": "codex-kkp",
@@ -1955,32 +1904,32 @@
     "language": "Kotlin",
     "license": "MIT",
     "createdAt": "2025-12-04T06:52:52Z",
-    "updatedAt": "2026-01-14T17:55:49Z",
-    "lastFetched": "2026-01-16T14:41:47.456Z"
+    "updatedAt": "2026-01-17T05:55:00Z",
+    "lastFetched": "2026-01-17T09:13:01.294Z"
   },
   {
     "slug": "claude-skills",
     "aiDescription": "",
-    "stars": 7,
+    "stars": 19,
     "forks": 0,
-    "watchers": 7,
-    "language": null,
-    "license": null,
-    "createdAt": "2026-01-02T15:47:53Z",
-    "updatedAt": "2026-01-13T14:20:35Z",
-    "lastFetched": "2026-01-16T14:41:52.610Z"
+    "watchers": 19,
+    "language": "TypeScript",
+    "license": "MIT",
+    "createdAt": "2025-11-08T15:34:35Z",
+    "updatedAt": "2026-01-15T10:31:19Z",
+    "lastFetched": "2026-01-17T09:13:02.982Z"
   },
   {
     "slug": "claude-code-aso-skill",
     "aiDescription": "",
-    "stars": 5,
-    "forks": 2,
-    "watchers": 5,
+    "stars": 18,
+    "forks": 8,
+    "watchers": 18,
     "language": "Python",
     "license": "NOASSERTION",
-    "createdAt": "2020-11-01T05:41:34Z",
-    "updatedAt": "2026-01-16T14:33:27Z",
-    "lastFetched": "2026-01-16T14:41:58.015Z"
+    "createdAt": "2025-11-07T09:08:00Z",
+    "updatedAt": "2026-01-17T01:25:08Z",
+    "lastFetched": "2026-01-17T09:13:04.010Z"
   },
   {
     "slug": "blockrun-agent-wallet",
@@ -1991,8 +1940,8 @@
     "language": "Python",
     "license": null,
     "createdAt": "2026-01-12T07:16:39Z",
-    "updatedAt": "2026-01-16T14:37:43Z",
-    "lastFetched": "2026-01-16T14:41:50.177Z"
+    "updatedAt": "2026-01-17T08:13:22Z",
+    "lastFetched": "2026-01-17T09:13:05.083Z"
   },
   {
     "slug": "jira-skill",
@@ -2004,7 +1953,7 @@
     "license": "MIT",
     "createdAt": "2025-11-07T10:15:13Z",
     "updatedAt": "2026-01-14T20:31:05Z",
-    "lastFetched": "2026-01-16T14:41:50.913Z"
+    "lastFetched": "2026-01-17T09:13:06.083Z"
   },
   {
     "slug": "product-spec-kit",
@@ -2016,7 +1965,7 @@
     "license": null,
     "createdAt": "2025-10-31T04:26:48Z",
     "updatedAt": "2025-11-19T21:05:58Z",
-    "lastFetched": "2026-01-16T14:41:51.703Z"
+    "lastFetched": "2026-01-17T09:13:07.003Z"
   },
   {
     "slug": "claude-skills",
@@ -2028,7 +1977,7 @@
     "license": null,
     "createdAt": "2026-01-02T15:47:53Z",
     "updatedAt": "2026-01-13T14:20:35Z",
-    "lastFetched": "2026-01-16T14:41:52.610Z"
+    "lastFetched": "2026-01-17T09:13:07.904Z"
   },
   {
     "slug": "project-memory",
@@ -2040,7 +1989,7 @@
     "license": null,
     "createdAt": "2025-10-23T00:10:53Z",
     "updatedAt": "2026-01-16T06:27:39Z",
-    "lastFetched": "2026-01-16T14:41:53.656Z"
+    "lastFetched": "2026-01-17T09:13:09.251Z"
   },
   {
     "slug": "odin-claude-plugin",
@@ -2052,7 +2001,7 @@
     "license": "Apache-2.0",
     "createdAt": "2025-11-17T11:03:30Z",
     "updatedAt": "2026-01-15T01:10:15Z",
-    "lastFetched": "2026-01-16T14:41:54.493Z"
+    "lastFetched": "2026-01-17T09:13:10.215Z"
   },
   {
     "slug": "llm-council-skill",
@@ -2064,7 +2013,7 @@
     "license": "MIT",
     "createdAt": "2026-01-03T23:56:16Z",
     "updatedAt": "2026-01-13T16:28:03Z",
-    "lastFetched": "2026-01-16T14:41:55.446Z"
+    "lastFetched": "2026-01-17T09:13:11.254Z"
   },
   {
     "slug": "claude-skill-prompt-architect",
@@ -2076,7 +2025,7 @@
     "license": "MIT",
     "createdAt": "2025-11-24T16:27:21Z",
     "updatedAt": "2026-01-15T00:18:29Z",
-    "lastFetched": "2026-01-16T14:41:56.280Z"
+    "lastFetched": "2026-01-17T09:13:12.237Z"
   },
   {
     "slug": "claude-layered-memory-architecture",
@@ -2088,19 +2037,19 @@
     "license": "MIT",
     "createdAt": "2025-12-23T16:23:32Z",
     "updatedAt": "2025-12-27T21:21:52Z",
-    "lastFetched": "2026-01-16T14:41:57.120Z"
+    "lastFetched": "2026-01-17T09:13:13.183Z"
   },
   {
     "slug": "claude-code-aso-skill",
     "aiDescription": "",
-    "stars": 5,
+    "stars": 6,
     "forks": 2,
-    "watchers": 5,
+    "watchers": 6,
     "language": "Python",
     "license": "NOASSERTION",
     "createdAt": "2020-11-01T05:41:34Z",
-    "updatedAt": "2026-01-16T14:33:27Z",
-    "lastFetched": "2026-01-16T14:41:58.015Z"
+    "updatedAt": "2026-01-17T08:21:51Z",
+    "lastFetched": "2026-01-17T09:13:14.089Z"
   },
   {
     "slug": "dspy-rb-skill",
@@ -2112,7 +2061,7 @@
     "license": "MIT",
     "createdAt": "2025-12-12T23:57:18Z",
     "updatedAt": "2025-12-30T13:00:56Z",
-    "lastFetched": "2026-01-16T14:41:58.770Z"
+    "lastFetched": "2026-01-17T09:13:15.123Z"
   },
   {
     "slug": "linkedin-article-publisher-skill",
@@ -2124,7 +2073,7 @@
     "license": "MIT",
     "createdAt": "2026-01-13T08:16:05Z",
     "updatedAt": "2026-01-16T01:04:32Z",
-    "lastFetched": "2026-01-16T14:41:59.383Z"
+    "lastFetched": "2026-01-17T09:13:15.939Z"
   },
   {
     "slug": "typo3-ddev-skill",
@@ -2136,7 +2085,7 @@
     "license": "MIT",
     "createdAt": "2025-10-21T10:05:16Z",
     "updatedAt": "2026-01-13T20:44:08Z",
-    "lastFetched": "2026-01-16T14:42:00.123Z"
+    "lastFetched": "2026-01-17T09:13:17.056Z"
   },
   {
     "slug": "agents-skill",
@@ -2148,7 +2097,7 @@
     "license": "NOASSERTION",
     "createdAt": "2025-10-18T19:35:16Z",
     "updatedAt": "2026-01-14T11:59:57Z",
-    "lastFetched": "2026-01-16T14:42:00.904Z"
+    "lastFetched": "2026-01-17T09:13:18.053Z"
   },
   {
     "slug": "fastlane-skill",
@@ -2160,7 +2109,7 @@
     "license": "MIT",
     "createdAt": "2025-12-28T12:56:54Z",
     "updatedAt": "2026-01-15T13:51:09Z",
-    "lastFetched": "2026-01-16T14:42:01.574Z"
+    "lastFetched": "2026-01-17T09:13:18.965Z"
   },
   {
     "slug": "claude-skills-hub",
@@ -2172,7 +2121,7 @@
     "license": "MIT",
     "createdAt": "2025-10-25T08:00:33Z",
     "updatedAt": "2026-01-10T14:14:15Z",
-    "lastFetched": "2026-01-16T14:42:02.186Z"
+    "lastFetched": "2026-01-17T09:13:19.808Z"
   },
   {
     "slug": "brainstorm-plan",
@@ -2184,7 +2133,7 @@
     "license": "MIT",
     "createdAt": "2025-12-29T05:30:22Z",
     "updatedAt": "2026-01-13T18:28:27Z",
-    "lastFetched": "2026-01-16T14:42:03.242Z"
+    "lastFetched": "2026-01-17T09:13:20.717Z"
   },
   {
     "slug": "running-marketing-campaigns-agent-skill",
@@ -2196,7 +2145,7 @@
     "license": "MIT",
     "createdAt": "2025-12-28T21:38:05Z",
     "updatedAt": "2026-01-07T23:26:10Z",
-    "lastFetched": "2026-01-16T14:42:04.107Z"
+    "lastFetched": "2026-01-17T09:13:21.649Z"
   },
   {
     "slug": "typo3-docs-skill",
@@ -2208,7 +2157,7 @@
     "license": "NOASSERTION",
     "createdAt": "2025-10-18T07:02:25Z",
     "updatedAt": "2026-01-16T13:30:28Z",
-    "lastFetched": "2026-01-16T14:42:04.751Z"
+    "lastFetched": "2026-01-17T09:13:22.521Z"
   },
   {
     "slug": "fastmcp-builder",
@@ -2220,7 +2169,7 @@
     "license": "MIT",
     "createdAt": "2025-10-26T17:09:46Z",
     "updatedAt": "2025-12-31T10:29:35Z",
-    "lastFetched": "2026-01-16T14:42:05.485Z"
+    "lastFetched": "2026-01-17T09:13:23.377Z"
   },
   {
     "slug": "cli-tools-skill",
@@ -2232,7 +2181,7 @@
     "license": "MIT",
     "createdAt": "2025-11-29T21:10:49Z",
     "updatedAt": "2026-01-07T12:50:07Z",
-    "lastFetched": "2026-01-16T14:42:06.119Z"
+    "lastFetched": "2026-01-17T09:13:24.286Z"
   },
   {
     "slug": "skill-master",
@@ -2244,7 +2193,7 @@
     "license": "MIT",
     "createdAt": "2026-01-07T12:35:31Z",
     "updatedAt": "2026-01-16T02:32:05Z",
-    "lastFetched": "2026-01-16T14:42:06.822Z"
+    "lastFetched": "2026-01-17T09:13:25.272Z"
   },
   {
     "slug": "obsidian-project-assistant",
@@ -2255,8 +2204,8 @@
     "language": "Shell",
     "license": "MIT",
     "createdAt": "2025-12-24T03:50:29Z",
-    "updatedAt": "2026-01-13T21:59:44Z",
-    "lastFetched": "2026-01-16T14:42:07.462Z"
+    "updatedAt": "2026-01-17T03:04:07Z",
+    "lastFetched": "2026-01-17T09:13:26.237Z"
   },
   {
     "slug": "digital-samba-skill",
@@ -2268,7 +2217,7 @@
     "license": "MIT",
     "createdAt": "2025-12-05T23:58:48Z",
     "updatedAt": "2026-01-05T21:27:44Z",
-    "lastFetched": "2026-01-16T14:42:08.089Z"
+    "lastFetched": "2026-01-17T09:13:27.182Z"
   },
   {
     "slug": "claude-skill-analyze-js",
@@ -2280,7 +2229,7 @@
     "license": "MIT",
     "createdAt": "2026-01-06T20:12:15Z",
     "updatedAt": "2026-01-07T08:35:38Z",
-    "lastFetched": "2026-01-16T14:42:09.136Z"
+    "lastFetched": "2026-01-17T09:13:28.606Z"
   },
   {
     "slug": "rhetorical-analysis-skill",
@@ -2292,7 +2241,7 @@
     "license": "MIT",
     "createdAt": "2025-12-12T20:38:34Z",
     "updatedAt": "2025-12-16T07:55:04Z",
-    "lastFetched": "2026-01-16T14:42:09.733Z"
+    "lastFetched": "2026-01-17T09:13:29.488Z"
   },
   {
     "slug": "n8n-v2-workflow-skill",
@@ -2304,7 +2253,7 @@
     "license": "MIT",
     "createdAt": "2025-12-18T17:57:59Z",
     "updatedAt": "2025-12-31T09:01:33Z",
-    "lastFetched": "2026-01-16T14:42:10.402Z"
+    "lastFetched": "2026-01-17T09:13:30.338Z"
   },
   {
     "slug": "get-y2b-clips",
@@ -2316,7 +2265,7 @@
     "license": "MIT",
     "createdAt": "2025-12-20T13:13:26Z",
     "updatedAt": "2026-01-10T08:32:21Z",
-    "lastFetched": "2026-01-16T14:42:11.003Z"
+    "lastFetched": "2026-01-17T09:13:31.288Z"
   },
   {
     "slug": "plantuml",
@@ -2328,7 +2277,7 @@
     "license": null,
     "createdAt": "2025-11-09T22:38:53Z",
     "updatedAt": "2026-01-07T23:46:27Z",
-    "lastFetched": "2026-01-16T14:42:11.698Z"
+    "lastFetched": "2026-01-17T09:13:32.414Z"
   },
   {
     "slug": "typo3-conformance-skill",
@@ -2340,7 +2289,7 @@
     "license": "MIT",
     "createdAt": "2025-10-18T10:14:23Z",
     "updatedAt": "2026-01-11T21:48:20Z",
-    "lastFetched": "2026-01-16T14:42:12.537Z"
+    "lastFetched": "2026-01-17T09:13:33.372Z"
   },
   {
     "slug": "netresearch-branding-skill",
@@ -2352,7 +2301,7 @@
     "license": "MIT",
     "createdAt": "2025-10-18T10:33:28Z",
     "updatedAt": "2026-01-07T12:50:01Z",
-    "lastFetched": "2026-01-16T14:42:13.347Z"
+    "lastFetched": "2026-01-17T09:13:34.406Z"
   },
   {
     "slug": "jira",
@@ -2364,7 +2313,7 @@
     "license": null,
     "createdAt": "2025-10-23T02:46:42Z",
     "updatedAt": "2026-01-14T12:19:07Z",
-    "lastFetched": "2026-01-16T14:42:14.069Z"
+    "lastFetched": "2026-01-17T09:13:35.558Z"
   },
   {
     "slug": "typo3-testing-skill",
@@ -2376,7 +2325,7 @@
     "license": "NOASSERTION",
     "createdAt": "2025-10-18T08:31:58Z",
     "updatedAt": "2026-01-11T21:40:38Z",
-    "lastFetched": "2026-01-16T14:42:14.760Z"
+    "lastFetched": "2026-01-17T09:13:36.589Z"
   },
   {
     "slug": "codex-skill",
@@ -2388,7 +2337,7 @@
     "license": "MIT",
     "createdAt": "2026-01-03T15:58:07Z",
     "updatedAt": "2026-01-05T08:56:59Z",
-    "lastFetched": "2026-01-16T14:42:15.671Z"
+    "lastFetched": "2026-01-17T09:13:38.354Z"
   },
   {
     "slug": "claude-web-to-markdown-skill",
@@ -2400,7 +2349,7 @@
     "license": "MIT",
     "createdAt": "2025-11-20T04:46:36Z",
     "updatedAt": "2025-11-24T03:27:08Z",
-    "lastFetched": "2026-01-16T14:42:16.426Z"
+    "lastFetched": "2026-01-17T09:13:39.265Z"
   },
   {
     "slug": "edgar-change-interpreter",
@@ -2412,7 +2361,7 @@
     "license": "MIT",
     "createdAt": "2025-12-27T00:40:03Z",
     "updatedAt": "2026-01-09T06:19:46Z",
-    "lastFetched": "2026-01-16T14:42:17.164Z"
+    "lastFetched": "2026-01-17T09:13:40.271Z"
   },
   {
     "slug": "xiaohongshu-images-skill",
@@ -2424,7 +2373,7 @@
     "license": null,
     "createdAt": "2026-01-14T04:31:35Z",
     "updatedAt": "2026-01-16T14:14:29Z",
-    "lastFetched": "2026-01-16T14:42:17.967Z"
+    "lastFetched": "2026-01-17T09:13:41.259Z"
   },
   {
     "slug": "claude-skill-flaky-test-detector",
@@ -2436,7 +2385,7 @@
     "license": null,
     "createdAt": "2026-01-04T01:01:10Z",
     "updatedAt": "2026-01-07T01:57:40Z",
-    "lastFetched": "2026-01-16T14:42:18.614Z"
+    "lastFetched": "2026-01-17T09:13:42.081Z"
   },
   {
     "slug": "red-publisher-skill",
@@ -2448,7 +2397,7 @@
     "license": "MIT",
     "createdAt": "2026-01-14T22:49:14Z",
     "updatedAt": "2026-01-16T01:06:46Z",
-    "lastFetched": "2026-01-16T14:42:19.376Z"
+    "lastFetched": "2026-01-17T09:13:43.027Z"
   },
   {
     "slug": "linear-skills",
@@ -2460,7 +2409,7 @@
     "license": null,
     "createdAt": "2025-12-16T21:49:29Z",
     "updatedAt": "2025-12-17T14:08:14Z",
-    "lastFetched": "2026-01-16T14:42:20.223Z"
+    "lastFetched": "2026-01-17T09:13:43.874Z"
   },
   {
     "slug": "neo-llm-security",
@@ -2472,7 +2421,7 @@
     "license": null,
     "createdAt": "2025-12-13T19:40:39Z",
     "updatedAt": "2025-12-26T07:37:13Z",
-    "lastFetched": "2026-01-16T14:42:21.074Z"
+    "lastFetched": "2026-01-17T09:13:45.030Z"
   },
   {
     "slug": "prompt-engineering-skill",
@@ -2484,7 +2433,7 @@
     "license": null,
     "createdAt": "2025-10-17T05:06:11Z",
     "updatedAt": "2026-01-03T01:56:27Z",
-    "lastFetched": "2026-01-16T14:42:22.336Z"
+    "lastFetched": "2026-01-17T09:13:46.124Z"
   },
   {
     "slug": "sap-rpt1-oss-predictor",
@@ -2496,7 +2445,7 @@
     "license": "NOASSERTION",
     "createdAt": "2025-12-28T20:50:56Z",
     "updatedAt": "2025-12-28T22:33:46Z",
-    "lastFetched": "2026-01-16T14:42:23.185Z"
+    "lastFetched": "2026-01-17T09:13:47.022Z"
   },
   {
     "slug": "claude-cli-ux-skill",
@@ -2508,7 +2457,7 @@
     "license": "MIT",
     "createdAt": "2025-12-20T18:33:39Z",
     "updatedAt": "2026-01-13T21:59:37Z",
-    "lastFetched": "2026-01-16T14:42:23.901Z"
+    "lastFetched": "2026-01-17T09:13:47.881Z"
   },
   {
     "slug": "claude-permissions-skill",
@@ -2520,7 +2469,7 @@
     "license": "MIT",
     "createdAt": "2025-11-16T21:39:10Z",
     "updatedAt": "2026-01-07T23:53:08Z",
-    "lastFetched": "2026-01-16T14:42:24.570Z"
+    "lastFetched": "2026-01-17T09:13:48.866Z"
   },
   {
     "slug": "agent-skill-howopen",
@@ -2532,7 +2481,7 @@
     "license": "MIT",
     "createdAt": "2026-01-15T13:01:31Z",
     "updatedAt": "2026-01-16T02:29:38Z",
-    "lastFetched": "2026-01-16T14:42:25.491Z"
+    "lastFetched": "2026-01-17T09:13:50.034Z"
   },
   {
     "slug": "using-firebase",
@@ -2544,7 +2493,7 @@
     "license": null,
     "createdAt": "2025-12-27T06:58:02Z",
     "updatedAt": "2026-01-07T23:42:21Z",
-    "lastFetched": "2026-01-16T14:42:26.400Z"
+    "lastFetched": "2026-01-17T09:13:50.922Z"
   },
   {
     "slug": "typo3-core-contributions-skill",
@@ -2556,7 +2505,7 @@
     "license": "MIT",
     "createdAt": "2025-10-27T12:47:18Z",
     "updatedAt": "2026-01-07T12:50:04Z",
-    "lastFetched": "2026-01-16T14:42:27.481Z"
+    "lastFetched": "2026-01-17T09:13:52.117Z"
   },
   {
     "slug": "image-gen",
@@ -2568,7 +2517,7 @@
     "license": null,
     "createdAt": "2025-11-09T22:26:51Z",
     "updatedAt": "2026-01-07T23:51:01Z",
-    "lastFetched": "2026-01-16T14:42:28.306Z"
+    "lastFetched": "2026-01-17T09:13:53.074Z"
   },
   {
     "slug": "code-tour",
@@ -2580,19 +2529,19 @@
     "license": "MIT",
     "createdAt": "2026-01-15T04:56:57Z",
     "updatedAt": "2026-01-15T07:15:48Z",
-    "lastFetched": "2026-01-16T14:42:29.124Z"
+    "lastFetched": "2026-01-17T09:13:53.978Z"
   },
   {
     "slug": "document-specialist-skill",
     "aiDescription": "",
-    "stars": 1,
-    "forks": 3,
-    "watchers": 1,
+    "stars": 3,
+    "forks": 4,
+    "watchers": 3,
     "language": null,
     "license": null,
     "createdAt": "2025-11-18T05:16:56Z",
-    "updatedAt": "2026-01-07T23:40:28Z",
-    "lastFetched": "2026-01-16T14:42:29.783Z"
+    "updatedAt": "2026-01-17T09:07:34Z",
+    "lastFetched": "2026-01-17T09:13:55.010Z"
   },
   {
     "slug": "enterprise-readiness-skill",
@@ -2604,7 +2553,7 @@
     "license": "MIT",
     "createdAt": "2025-11-29T17:57:15Z",
     "updatedAt": "2026-01-07T12:49:54Z",
-    "lastFetched": "2026-01-16T14:42:30.475Z"
+    "lastFetched": "2026-01-17T09:13:55.949Z"
   },
   {
     "slug": "data-wrangler-plugin",
@@ -2616,7 +2565,7 @@
     "license": "MIT",
     "createdAt": "2025-12-11T21:03:23Z",
     "updatedAt": "2026-01-10T16:25:30Z",
-    "lastFetched": "2026-01-16T14:42:31.301Z"
+    "lastFetched": "2026-01-17T09:13:56.760Z"
   },
   {
     "slug": "claude-code-reference",
@@ -2627,8 +2576,8 @@
     "language": "Python",
     "license": "MIT",
     "createdAt": "2025-12-27T00:09:07Z",
-    "updatedAt": "2026-01-16T12:27:25Z",
-    "lastFetched": "2026-01-16T14:42:32.018Z"
+    "updatedAt": "2026-01-17T08:35:10Z",
+    "lastFetched": "2026-01-17T09:13:57.602Z"
   },
   {
     "slug": "mastering-gemini-cli-agentic-skill",
@@ -2640,7 +2589,7 @@
     "license": null,
     "createdAt": "2025-12-31T01:59:17Z",
     "updatedAt": "2026-01-07T23:35:43Z",
-    "lastFetched": "2026-01-16T14:42:32.944Z"
+    "lastFetched": "2026-01-17T09:13:58.514Z"
   },
   {
     "slug": "opencode-intern-claude-code-skill",
@@ -2651,8 +2600,8 @@
     "language": "Python",
     "license": null,
     "createdAt": "2026-01-14T01:05:45Z",
-    "updatedAt": "2026-01-14T01:46:49Z",
-    "lastFetched": "2026-01-16T14:42:33.529Z"
+    "updatedAt": "2026-01-17T01:12:30Z",
+    "lastFetched": "2026-01-17T09:13:59.392Z"
   },
   {
     "slug": "svg-to-react",
@@ -2664,7 +2613,7 @@
     "license": "MIT",
     "createdAt": "2025-12-12T22:51:15Z",
     "updatedAt": "2025-12-13T00:41:53Z",
-    "lastFetched": "2026-01-16T14:42:34.244Z"
+    "lastFetched": "2026-01-17T09:14:00.300Z"
   },
   {
     "slug": "claude-skills-collection",
@@ -2676,7 +2625,7 @@
     "license": null,
     "createdAt": "2025-12-08T06:52:12Z",
     "updatedAt": "2026-01-01T05:15:37Z",
-    "lastFetched": "2026-01-16T14:42:34.852Z"
+    "lastFetched": "2026-01-17T09:14:01.338Z"
   },
   {
     "slug": "awesome-claude-skills",
@@ -2688,7 +2637,7 @@
     "license": null,
     "createdAt": "2025-11-30T01:53:24Z",
     "updatedAt": "2025-11-30T08:31:36Z",
-    "lastFetched": "2026-01-16T14:42:35.511Z"
+    "lastFetched": "2026-01-17T09:14:02.262Z"
   },
   {
     "slug": "claude-skill-security-auditor",
@@ -2700,7 +2649,7 @@
     "license": null,
     "createdAt": "2026-01-04T01:01:24Z",
     "updatedAt": "2026-01-04T01:05:43Z",
-    "lastFetched": "2026-01-16T14:42:36.293Z"
+    "lastFetched": "2026-01-17T09:14:03.264Z"
   },
   {
     "slug": "skills",
@@ -2712,7 +2661,7 @@
     "license": "MIT",
     "createdAt": "2025-10-29T22:02:51Z",
     "updatedAt": "2026-01-13T20:52:08Z",
-    "lastFetched": "2026-01-16T14:42:36.943Z"
+    "lastFetched": "2026-01-17T09:14:04.152Z"
   },
   {
     "slug": "mastering-langgraph-agent-skill",
@@ -2724,7 +2673,7 @@
     "license": null,
     "createdAt": "2025-12-29T01:21:22Z",
     "updatedAt": "2026-01-07T23:29:57Z",
-    "lastFetched": "2026-01-16T14:42:37.671Z"
+    "lastFetched": "2026-01-17T09:14:05.073Z"
   },
   {
     "slug": "claude-code-x402-skill",
@@ -2736,19 +2685,19 @@
     "license": "MIT",
     "createdAt": "2026-01-12T20:03:28Z",
     "updatedAt": "2026-01-12T22:22:02Z",
-    "lastFetched": "2026-01-16T14:42:38.442Z"
+    "lastFetched": "2026-01-17T09:14:05.968Z"
   },
   {
     "slug": "publishing-astro-websites-agentic-skill",
     "aiDescription": "",
-    "stars": 0,
-    "forks": 0,
-    "watchers": 0,
+    "stars": 1,
+    "forks": 1,
+    "watchers": 1,
     "language": null,
     "license": null,
     "createdAt": "2026-01-02T09:03:51Z",
-    "updatedAt": "2026-01-07T23:33:01Z",
-    "lastFetched": "2026-01-16T14:42:39.263Z"
+    "updatedAt": "2026-01-17T05:24:28Z",
+    "lastFetched": "2026-01-17T09:14:07.264Z"
   },
   {
     "slug": "video-to-cooklang",
@@ -2760,7 +2709,7 @@
     "license": "MIT",
     "createdAt": "2026-01-02T20:23:51Z",
     "updatedAt": "2026-01-02T20:27:08Z",
-    "lastFetched": "2026-01-16T14:42:39.900Z"
+    "lastFetched": "2026-01-17T09:14:08.175Z"
   },
   {
     "slug": "mastering-postgresql-agent-skill",
@@ -2772,7 +2721,7 @@
     "license": null,
     "createdAt": "2025-12-31T15:32:54Z",
     "updatedAt": "2026-01-07T23:31:46Z",
-    "lastFetched": "2026-01-16T14:42:40.716Z"
+    "lastFetched": "2026-01-17T09:14:09.250Z"
   },
   {
     "slug": "mastering-git-cli-agent-skill",
@@ -2784,7 +2733,7 @@
     "license": null,
     "createdAt": "2026-01-01T01:08:10Z",
     "updatedAt": "2026-01-07T23:25:03Z",
-    "lastFetched": "2026-01-16T14:42:41.431Z"
+    "lastFetched": "2026-01-17T09:14:10.270Z"
   },
   {
     "slug": "mastering-typescript-skill",
@@ -2796,7 +2745,7 @@
     "license": null,
     "createdAt": "2026-01-01T00:36:07Z",
     "updatedAt": "2026-01-07T23:29:22Z",
-    "lastFetched": "2026-01-16T14:42:42.155Z"
+    "lastFetched": "2026-01-17T09:14:11.252Z"
   },
   {
     "slug": "mastering-aws-cli",
@@ -2808,7 +2757,7 @@
     "license": null,
     "createdAt": "2025-12-26T04:52:41Z",
     "updatedAt": "2026-01-07T23:38:34Z",
-    "lastFetched": "2026-01-16T14:42:42.865Z"
+    "lastFetched": "2026-01-17T09:14:12.216Z"
   },
   {
     "slug": "claude-code-prompts",
@@ -2820,19 +2769,19 @@
     "license": null,
     "createdAt": "2026-01-07T11:54:47Z",
     "updatedAt": "2026-01-15T08:56:27Z",
-    "lastFetched": "2026-01-16T14:42:43.867Z"
+    "lastFetched": "2026-01-17T09:14:13.670Z"
   },
   {
     "slug": "spacy-nlp-agentic-skill",
     "aiDescription": "",
-    "stars": 0,
-    "forks": 0,
-    "watchers": 0,
+    "stars": 1,
+    "forks": 1,
+    "watchers": 1,
     "language": "Python",
     "license": null,
     "createdAt": "2026-01-05T03:20:54Z",
-    "updatedAt": "2026-01-07T23:19:37Z",
-    "lastFetched": "2026-01-16T14:42:44.597Z"
+    "updatedAt": "2026-01-17T05:23:45Z",
+    "lastFetched": "2026-01-17T09:14:14.585Z"
   },
   {
     "slug": "video-to-gif-skill",
@@ -2844,6 +2793,6 @@
     "license": null,
     "createdAt": "2026-01-04T08:58:02Z",
     "updatedAt": "2026-01-04T09:01:47Z",
-    "lastFetched": "2026-01-16T14:42:45.199Z"
+    "lastFetched": "2026-01-17T09:14:15.438Z"
   }
 ]

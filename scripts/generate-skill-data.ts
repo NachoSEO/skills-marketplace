@@ -1,6 +1,7 @@
+import 'dotenv/config';
 import * as fs from 'fs';
 import * as path from 'path';
-import type { SkillRegistry, SkillCacheEntry, GitHubRepo, Skill, SkillsIndex } from '../types';
+import type { SkillRegistry, SkillCacheEntry, GitHubRepo, Skill, SkillsIndex, FileNode } from '../types';
 import { summarizeReadme } from './lib/summarize';
 
 const GITHUB_API_BASE = 'https://api.github.com';
@@ -78,6 +79,115 @@ async function getReadmeContent(
   return null;
 }
 
+interface GitHubTreeItem {
+  path: string;
+  type: 'blob' | 'tree';
+  sha: string;
+}
+
+async function getFileStructure(
+  owner: string,
+  repo: string,
+  skillPath?: string
+): Promise<FileNode[] | null> {
+  const MAX_DEPTH = 3;
+  const MAX_FILES = 50;
+
+  for (const branch of ['main', 'master']) {
+    try {
+      const url = `${GITHUB_API_BASE}/repos/${owner}/${repo}/git/trees/${branch}?recursive=1`;
+      const response = await fetch(url, { headers: getHeaders(), redirect: 'follow' });
+
+      if (!response.ok) continue;
+
+      const data = await response.json();
+      const tree: GitHubTreeItem[] = data.tree || [];
+
+      // Filter by skillPath if provided
+      let filteredTree = tree;
+      if (skillPath) {
+        const prefix = skillPath.endsWith('/') ? skillPath : `${skillPath}/`;
+        filteredTree = tree
+          .filter((item) => item.path.startsWith(prefix))
+          .map((item) => ({
+            ...item,
+            path: item.path.slice(prefix.length),
+          }));
+      }
+
+      // Filter by depth and limit count
+      const validItems = filteredTree.filter((item) => {
+        const depth = item.path.split('/').length;
+        return depth <= MAX_DEPTH && item.path.length > 0;
+      });
+
+      // Sort: directories first, then alphabetically
+      validItems.sort((a, b) => {
+        if (a.type !== b.type) {
+          return a.type === 'tree' ? -1 : 1;
+        }
+        return a.path.localeCompare(b.path);
+      });
+
+      // Limit total items
+      const limitedItems = validItems.slice(0, MAX_FILES);
+
+      // Build hierarchical structure
+      const root: FileNode[] = [];
+      const nodeMap = new Map<string, FileNode>();
+
+      for (const item of limitedItems) {
+        const parts = item.path.split('/');
+        const name = parts[parts.length - 1];
+        const node: FileNode = {
+          name,
+          type: item.type === 'tree' ? 'dir' : 'file',
+          path: item.path,
+          children: item.type === 'tree' ? [] : undefined,
+        };
+
+        nodeMap.set(item.path, node);
+
+        if (parts.length === 1) {
+          root.push(node);
+        } else {
+          const parentPath = parts.slice(0, -1).join('/');
+          const parent = nodeMap.get(parentPath);
+          if (parent && parent.children) {
+            parent.children.push(node);
+          } else {
+            // Parent doesn't exist yet, add to root
+            root.push(node);
+          }
+        }
+      }
+
+      // Sort children within each directory
+      const sortChildren = (nodes: FileNode[]) => {
+        nodes.sort((a, b) => {
+          if (a.type !== b.type) {
+            return a.type === 'dir' ? -1 : 1;
+          }
+          return a.name.localeCompare(b.name);
+        });
+        for (const node of nodes) {
+          if (node.children) {
+            sortChildren(node.children);
+          }
+        }
+      };
+
+      sortChildren(root);
+
+      return root.length > 0 ? root : null;
+    } catch {
+      continue;
+    }
+  }
+
+  return null;
+}
+
 function slugify(text: string): string {
   return text
     .toLowerCase()
@@ -95,6 +205,7 @@ function formatSkillName(name: string): string {
 interface SkillDataWithReadme extends SkillCacheEntry {
   readme?: string;
   skillName: string;
+  fileStructure?: FileNode[];
 }
 
 async function processSkill(
@@ -107,9 +218,14 @@ async function processSkill(
   const existing = existingCache.get(slug);
   const oneDayAgo = Date.now() - 24 * 60 * 60 * 1000;
 
-  if (existing && existing.aiDescription && new Date(existing.lastFetched).getTime() > oneDayAgo) {
-    console.log(`  [CACHED] ${name}`);
-    return { ...existing, skillName: formatSkillName(name) };
+  const isCached = existing && existing.aiDescription && new Date(existing.lastFetched).getTime() > oneDayAgo;
+
+  // Always fetch file structure, even for cached skills
+  const fileStructure = await getFileStructure(entry.owner, entry.repo, entry.path);
+
+  if (isCached) {
+    console.log(`  [CACHED] ${name} (files: ${fileStructure ? countFiles(fileStructure) : 0})`);
+    return { ...existing, skillName: formatSkillName(name), fileStructure: fileStructure || undefined };
   }
 
   console.log(`  [FETCH] ${name}...`);
@@ -117,17 +233,19 @@ async function processSkill(
   const repoInfo = await getRepoInfo(entry.owner, entry.repo);
   if (!repoInfo) {
     console.log(`    [WARN] Could not fetch repo info for ${entry.owner}/${entry.repo}`);
-    return existing ? { ...existing, skillName: formatSkillName(name) } : null;
+    return existing ? { ...existing, skillName: formatSkillName(name), fileStructure: fileStructure || undefined } : null;
   }
 
   const readme = await getReadmeContent(entry.owner, entry.repo, entry.path);
   console.log(`    [README] ${readme ? 'Found' : 'Not found'}`);
+  console.log(`    [FILES] ${fileStructure ? `${countFiles(fileStructure)} items` : 'Not found'}`);
 
   const cacheEntry: SkillDataWithReadme = {
     slug,
     skillName: formatSkillName(name),
     aiDescription: existing?.aiDescription || '',
     readme: readme || undefined,
+    fileStructure: fileStructure || undefined,
     stars: repoInfo.stargazers_count,
     forks: repoInfo.forks_count,
     watchers: repoInfo.watchers_count,
@@ -139,6 +257,16 @@ async function processSkill(
   };
 
   return cacheEntry;
+}
+
+function countFiles(nodes: FileNode[]): number {
+  let count = nodes.length;
+  for (const node of nodes) {
+    if (node.children) {
+      count += countFiles(node.children);
+    }
+  }
+  return count;
 }
 
 function generateInstallCommand(owner: string, repo: string, skillPath?: string): string {
@@ -281,8 +409,8 @@ async function main() {
   const rawDataPath = path.join(__dirname, '../data/skills-raw.json');
   fs.writeFileSync(rawDataPath, JSON.stringify(results, null, 2));
 
-  // Save cache without READMEs (for those that have aiDescription)
-  const cacheResults: SkillCacheEntry[] = results.map(({ readme, skillName, ...rest }) => rest);
+  // Save cache without READMEs and fileStructure (for those that have aiDescription)
+  const cacheResults: SkillCacheEntry[] = results.map(({ readme, skillName, fileStructure, ...rest }) => rest);
   fs.writeFileSync(cacheFilePath, JSON.stringify(cacheResults, null, 2));
 
   // Generate unified skills-data.json with full Skill objects
@@ -340,6 +468,7 @@ async function main() {
       pros: entry.pros,
       cons: entry.cons,
       rating,
+      fileStructure: cached?.fileStructure,
     };
   });
 
