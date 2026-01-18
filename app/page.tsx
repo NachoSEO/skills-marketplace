@@ -4,10 +4,14 @@ import { SkillCard } from '@/components/skills/SkillCard';
 import { CategoryCard } from '@/components/categories/CategoryCard';
 import { HeroSection } from '@/components/home/HeroSection';
 import { TerminalDemo } from '@/components/home/TerminalDemo';
+import { WhatIsSkillSection } from '@/components/home/WhatIsSkillSection';
+import { HowSkillsWorkSection } from '@/components/home/HowSkillsWorkSection';
+import { FAQSection } from '@/components/home/FAQSection';
 import {
   getSkillsSync,
   getCategories,
   getFeaturedSkills,
+  getLatestSkills,
   getSkillCountByCategory,
 } from '@/lib/skills';
 
@@ -15,6 +19,7 @@ export default function HomePage() {
   const skills = getSkillsSync();
   const categories = getCategories();
   const featuredSkills = getFeaturedSkills(skills);
+  const latestSkills = getLatestSkills(skills, 9);
   const skillCounts = getSkillCountByCategory(skills);
 
   return (
@@ -70,6 +75,9 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* What's a Skill */}
+      <WhatIsSkillSection />
+
       {/* Featured Skills */}
       <section className="py-20 bg-card/50 relative">
         <div className="absolute inset-0 noise" />
@@ -102,6 +110,9 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* How Skills Work */}
+      <HowSkillsWorkSection />
 
       {/* Categories */}
       <section className="py-20 relative overflow-hidden">
@@ -159,7 +170,7 @@ export default function HomePage() {
             </Link>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {skills.slice(0, 9).map((skill, index) => (
+            {latestSkills.map((skill, index) => (
               <div
                 key={skill.id}
                 className="opacity-0 fade-in-up"
@@ -171,6 +182,9 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* FAQ */}
+      <FAQSection />
 
       {/* CTA Section */}
       <section className="py-24 relative overflow-hidden">

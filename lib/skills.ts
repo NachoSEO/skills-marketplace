@@ -176,6 +176,16 @@ export function getFeaturedSkills(skills: Skill[]): Skill[] {
   return skills.filter((skill) => skill.featured);
 }
 
+export function getLatestSkills(skills: Skill[], limit = 9): Skill[] {
+  return [...skills]
+    .sort((a, b) => {
+      const dateA = a.createdAt ? new Date(a.createdAt).getTime() : 0;
+      const dateB = b.createdAt ? new Date(b.createdAt).getTime() : 0;
+      return dateB - dateA;
+    })
+    .slice(0, limit);
+}
+
 export function searchSkills(skills: Skill[], query: string): Skill[] {
   const lowerQuery = query.toLowerCase();
 
@@ -360,4 +370,50 @@ export function getLicensesWithCounts(skills: Skill[]): { license: string; count
 // Export index utilities for advanced use cases
 export function getSkillsIndex(): SkillsIndex | null {
   return loadSkillsIndex();
+}
+
+// Contributor-related utilities
+export interface ContributorStats {
+  author: string;
+  skillCount: number;
+  totalStars: number;
+  languages: string[];
+  categories: string[];
+}
+
+export function getContributorsWithStats(skills: Skill[]): ContributorStats[] {
+  const contributorMap = new Map<string, ContributorStats>();
+
+  for (const skill of skills) {
+    const existing = contributorMap.get(skill.author);
+    if (existing) {
+      existing.skillCount++;
+      existing.totalStars += skill.stars || 0;
+      if (skill.language && !existing.languages.includes(skill.language)) {
+        existing.languages.push(skill.language);
+      }
+      if (!existing.categories.includes(skill.category)) {
+        existing.categories.push(skill.category);
+      }
+    } else {
+      contributorMap.set(skill.author, {
+        author: skill.author,
+        skillCount: 1,
+        totalStars: skill.stars || 0,
+        languages: skill.language ? [skill.language] : [],
+        categories: [skill.category],
+      });
+    }
+  }
+
+  return Array.from(contributorMap.values());
+}
+
+export function getSkillsByAuthor(skills: Skill[], author: string): Skill[] {
+  return skills.filter((skill) => skill.author === author);
+}
+
+export function getContributorByAuthor(skills: Skill[], author: string): ContributorStats | undefined {
+  const contributors = getContributorsWithStats(skills);
+  return contributors.find((c) => c.author === author);
 }
