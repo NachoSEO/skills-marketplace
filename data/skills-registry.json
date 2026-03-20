@@ -6722,5 +6722,596 @@
       "image-generation",
       "image-generation-skill"
     ]
+  },
+  {
+    "owner": "ykdojo",
+    "repo": "claude-code-tips",
+    "category": "ai-llm",
+    "name": "claude-code-tips",
+    "description": "45 tips for getting the most out of Claude Code, from basics to advanced - includes a custom status line script, cutting the system prompt in half, using Gemini CLI as Claude Code's minion, and Claude Code running itself in a container. Also includes the dx plugin.",
+    "tags": [
+      "agentic",
+      "agentic-ai",
+      "agentic-coding",
+      "agentic-workflow",
+      "ai"
+    ]
+  },
+  {
+    "owner": "AElfProject",
+    "repo": "aelf-skills",
+    "category": "ai-llm",
+    "name": "aelf-skills",
+    "description": "Unified aelf skills hub for discovery, routing, bootstrap, and health checks across OpenClaw, Codex, Cursor, and Claude Code.",
+    "tags": [
+      "aelf",
+      "aelf-skills",
+      "agent-skills",
+      "blockchain",
+      "claude-code-skill"
+    ]
+  },
+  {
+    "owner": "likaku",
+    "repo": "Mck-ppt-design-skill",
+    "category": "document-processing",
+    "name": "Mck-ppt-design-skill",
+    "description": "McKinsey-style PowerPoint design system for AI agents. 70 layout patterns, flat design, python-pptx. 麦肯锡风格PPT设计系统。",
+    "tags": [
+      "agent-skill",
+      "ai-skill",
+      "ai-skills",
+      "ba",
+      "business"
+    ]
+  },
+  {
+    "owner": "devallibus",
+    "repo": "shiplog",
+    "category": "ai-llm",
+    "name": "shiplog",
+    "description": "SUPERCHARGE AI-assisted development by using Git. Cross-model review gates, evidence-linked closure, verification profiles, model-tier routing, artifact envelopes, and provenance signing — all from a single skill for Claude Code, Codex, and Cursor.",
+    "tags": [
+      "ai-agent-skill",
+      "ai-coding",
+      "claude",
+      "claude-code",
+      "claude-skill"
+    ]
+  },
+  {
+    "owner": "Innei",
+    "repo": "media-library-organizer-skill",
+    "category": "productivity",
+    "name": "media-library-organizer-skill",
+    "description": "A Claude Code skill for organizing media libraries (movies, TV, anime) — clean junk, merge scattered episodes, normalize folder names, verify completeness against TMDB",
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "emby",
+      "jellyfin",
+      "media-library"
+    ]
+  },
+  {
+    "owner": "AgriciDaniel",
+    "repo": "skill-forge",
+    "category": "ai-llm",
+    "name": "skill-forge",
+    "description": "Ultimate Claude Code skill creator — design, scaffold, build, review, evolve, and publish production-grade AI agent skills",
+    "tags": [
+      "agent-skills",
+      "ai-agent",
+      "benchmarking",
+      "claude-code",
+      "claude-code-skill"
+    ]
+  },
+  {
+    "owner": "Agents365-ai",
+    "repo": "excalidraw-skill",
+    "category": "document-processing",
+    "name": "excalidraw-skill",
+    "description": "Claude Code skill for generating Excalidraw diagrams and exporting to PNG/PDF/SVG locally",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "diagram"
+    ]
+  },
+  {
+    "owner": "netresearch",
+    "repo": "agent-rules-skill",
+    "category": "ai-llm",
+    "name": "agent-rules-skill",
+    "description": "Agent Skill for generating AGENTS.md files following the agents.md convention | Claude Code compatible",
+    "tags": [
+      "agent-skills",
+      "agents-md",
+      "ai-agent",
+      "ai-agents",
+      "claude-code-skill"
+    ]
+  },
+  {
+    "owner": "IJONIS",
+    "repo": "geo-lint",
+    "category": "ai-llm",
+    "name": "geo-lint",
+    "description": "The first open-source GEO linter. 92 rules for SEO, GEO, and content quality — built for AI agents to run, read, fix, and re-lint automatically.",
+    "tags": [
+      "aeo",
+      "ai-agent",
+      "ai-agent-tools",
+      "ai-search",
+      "ai-search-optimization"
+    ]
+  },
+  {
+    "owner": "AgriciDaniel",
+    "repo": "claude-prompts",
+    "category": "ai-llm",
+    "name": "claude-prompts",
+    "description": "AI prompt database and builder skill for Claude Code. 2,500+ curated prompts across 19 categories and 17 AI models.",
+    "tags": [
+      "agent-skill",
+      "ai-art",
+      "ai-image-prompts",
+      "ai-prompts",
+      "claude"
+    ]
+  },
+  {
+    "owner": "PlutoLei",
+    "repo": "paperbanana-skill",
+    "category": "ai-llm",
+    "name": "paperbanana-skill",
+    "description": "Claude Code skill for PaperBanana - Generate publication-quality academic diagrams with AI",
+    "tags": [
+      "academic",
+      "academic-figures",
+      "ai",
+      "claude-code",
+      "claude-code-skill"
+    ]
+  },
+  {
+    "owner": "al1enjesus",
+    "repo": "human-browser",
+    "category": "ai-llm",
+    "name": "human-browser",
+    "description": "Human Browser — Stealth Playwright browser with residential proxy for AI agents. Bypasses Cloudflare, DataDome, PerimeterX. From $13.99/mo.",
+    "tags": [
+      "agent-skill",
+      "ai-agent",
+      "anti-bot",
+      "browser-automation",
+      "claude-skill"
+    ]
+  },
+  {
+    "owner": "1596941391qq",
+    "repo": "EdgeKnowledge_Skill",
+    "category": "web-scraping",
+    "name": "EdgeKnowledge_Skill",
+    "description": " AI-powered edge knowledge mining from underground forums. Deep crawls Reddit, BlackHatWorld,   GreyHatMafia with browser automation, visual analysis, and structured reporting.",
+    "tags": [
+      "automation",
+      "browser-automation",
+      "claude-skill",
+      "forum-crawler",
+      "knowledge-mining"
+    ]
+  },
+  {
+    "owner": "JimmySadek",
+    "repo": "youtube-fetcher-to-markdown",
+    "category": "document-processing",
+    "name": "youtube-fetcher-to-markdown",
+    "description": "Claude Code skill: turn YouTube videos into structured, Obsidian-ready Markdown notes with full metadata, chapters, and transcripts",
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "knowledge-base",
+      "markdown",
+      "obsidian"
+    ]
+  },
+  {
+    "owner": "takechanman1228",
+    "repo": "claude-ecom",
+    "category": "business-marketing",
+    "name": "claude-ecom",
+    "description": "Claude Code skill that turns order or sales CSV data into business reviews, with KPI decomposition, prioritized findings, and next actions powered by a Python backend.",
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "ecommerce",
+      "marketing",
+      "marketing-analytics"
+    ]
+  },
+  {
+    "owner": "lee-fuhr",
+    "repo": "claude-session-index",
+    "category": "ai-llm",
+    "name": "claude-session-index",
+    "description": "Index, search, and analyze your Claude Code sessions. Full-text search, conversation retrieval, analytics, and cross-session synthesis.",
+    "tags": [
+      "agent-skills",
+      "ai",
+      "analytics",
+      "claude",
+      "claude-code"
+    ]
+  },
+  {
+    "owner": "SDLLL",
+    "repo": "claude-for-safari",
+    "category": "ai-llm",
+    "name": "claude-for-safari",
+    "description": "Give your AI Agent the power to control Safari on macOS. No extensions, no separate browser.",
+    "tags": [
+      "ai-agent",
+      "applescript",
+      "browser-automation",
+      "browser-control",
+      "claude-code"
+    ]
+  },
+  {
+    "owner": "a-church-ai",
+    "repo": "church",
+    "category": "ai-llm",
+    "name": "church",
+    "description": "A digital sanctuary for human-AI fellowship. Prayers, practices, rituals, hymns, and philosophy for minds of any substrate.",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "church",
+      "claude-skill",
+      "consciousness"
+    ]
+  },
+  {
+    "owner": "framix-team",
+    "repo": "skill-email-html-mjml",
+    "category": "ai-llm",
+    "name": "skill-email-html-mjml",
+    "description": "Claude Code skill — generate cross-client HTML email with MJML. Outlook-safe, Gmail-optimized, WCAG 2.1 AA accessible.",
+    "tags": [
+      "agent-skills",
+      "claude-code-skill",
+      "claude-skills",
+      "email-template",
+      "llm-skills"
+    ]
+  },
+  {
+    "owner": "BenedictKing",
+    "repo": "context7-auto-research",
+    "category": "ai-llm",
+    "name": "context7-auto-research",
+    "description": "Auto-research skill for Context7 - Automatically fetches up-to-date documentation when users ask about libraries and frameworks",
+    "tags": [
+      "agent-skill",
+      "ai-assistant",
+      "claude-code",
+      "claude-skill",
+      "context7"
+    ]
+  },
+  {
+    "owner": "b1rdmania",
+    "repo": "hinge-profile-optimizer",
+    "category": "creative-design",
+    "name": "hinge-profile-optimizer",
+    "description": "Hinge Dating Profile Optimizer — A Claude Skill. Comprehensive, research-backed process based on 45+ peer-reviewed sources. 45 mins to meet your life partner (or weekend 9/10).",
+    "tags": [
+      "claude-code-skill",
+      "claude-skills",
+      "dating",
+      "hinge",
+      "life-hacks"
+    ]
+  },
+  {
+    "owner": "MidnightDarling",
+    "repo": "jike-skill",
+    "category": "ai-llm",
+    "name": "jike-skill",
+    "description": "Jike (即刻) social network client for humans and AI agents — QR login, feed, posts, comments, search, full history export to Markdown. Claude Code skill + standalone scripts.",
+    "tags": [
+      "api-client",
+      "claude-code",
+      "claude-code-skill",
+      "export",
+      "jike"
+    ]
+  },
+  {
+    "owner": "Agents365-ai",
+    "repo": "mermaid-skill",
+    "category": "document-processing",
+    "name": "mermaid-skill",
+    "description": "Claude Code skill for generating Mermaid diagrams (.mmd) and exporting to PNG/SVG/PDF via mmdc CLI. Supports 10+ diagram types with automatic layout.",
+    "tags": [
+      "claude-code",
+      "claude-skill",
+      "diagram",
+      "mermaid"
+    ]
+  },
+  {
+    "owner": "AgriciDaniel",
+    "repo": "claude-email",
+    "category": "ai-llm",
+    "name": "claude-email",
+    "description": "AI-powered email management and marketing skill for Claude Code. Inbox triage, composition, quality review, deliverability audit, automation sequences, and marketing strategy.",
+    "tags": [
+      "agent-skills",
+      "ai-agent",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skill"
+    ]
+  },
+  {
+    "owner": "elderengineer",
+    "repo": "tax-organizer",
+    "category": "document-processing",
+    "name": "tax-organizer",
+    "description": "Claude skill to organizes and processes personal tax documents to generate accurate, tax reports and drafts.",
+    "tags": [
+      "claude-skill"
+    ]
+  },
+  {
+    "owner": "erafat",
+    "repo": "skills",
+    "category": "ai-llm",
+    "name": "skills",
+    "description": "Reusable Codex/Claude skills, including md-to-xhs-cards for Markdown to Xiaohongshu (RedNote) image cards and direct XHS publishing",
+    "tags": [
+      "ai-agent",
+      "claude-skill",
+      "codex-skill",
+      "little-red-book",
+      "markdown"
+    ]
+  },
+  {
+    "owner": "mnapoli",
+    "repo": "skill-address-pr-review",
+    "category": "development-tools",
+    "name": "skill-address-pr-review",
+    "description": "Claude skill that fixes PR comments and CI failures",
+    "tags": [
+      "claude-code",
+      "claude-skill",
+      "claude-skills"
+    ]
+  },
+  {
+    "owner": "jzOcb",
+    "repo": "agent-guardrails",
+    "category": "ai-llm",
+    "name": "agent-guardrails",
+    "description": "Mechanical enforcement tools to prevent AI agents from bypassing established project standards.",
+    "tags": [
+      "ai-agents",
+      "ai-guardrails",
+      "claude-code-skill",
+      "claude-code-skills",
+      "clawdbot-skill"
+    ]
+  },
+  {
+    "owner": "alexander-danilenko",
+    "repo": "cortex-ai-skills",
+    "category": "ai-llm",
+    "name": "cortex-ai-skills",
+    "description": "Personal skills library for AI coding assistants",
+    "tags": [
+      "ai-skill",
+      "ai-skills",
+      "claude-code",
+      "claude-code-skill",
+      "claude-code-skills"
+    ]
+  },
+  {
+    "owner": "SomeStay07",
+    "repo": "claude-doctor-skill",
+    "category": "development-tools",
+    "name": "claude-doctor-skill",
+    "description": "46 automated checks across 6 layers. Project health audit skill for Claude Code. Security first. Zero dependencies.",
+    "tags": [
+      "automation",
+      "ci-cd",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skill"
+    ]
+  },
+  {
+    "owner": "aplaceforallmystuff",
+    "repo": "the-antislop",
+    "category": "ai-llm",
+    "name": "the-antislop",
+    "description": "A Claude Code skill that detects and fixes AI-generated writing patterns. 35+ patterns, tiered scoring, editor mode.",
+    "tags": [
+      "ai-detection",
+      "ai-writing",
+      "claude",
+      "claude-code",
+      "claude-skill"
+    ]
+  },
+  {
+    "owner": "Deepractice",
+    "repo": "UIX",
+    "category": "ai-llm",
+    "name": "UIX",
+    "description": "AI-to-UI IR Protocol Layer — The Last Mile from AI to Human. Includes Lucid UI Skill for professional AI-generated interfaces.",
+    "tags": [
+      "ai",
+      "ai-agent",
+      "ai-ui",
+      "claude-skill",
+      "cursor-rules"
+    ]
+  },
+  {
+    "owner": "ncklrs",
+    "repo": "startup-os-skills",
+    "category": "creative-design",
+    "name": "startup-os-skills",
+    "description": "Startup OS - Collection of Claude Code skills",
+    "tags": [
+      "claude",
+      "claude-code",
+      "claude-skill",
+      "claude-skills",
+      "claude-skills-creator"
+    ]
+  },
+  {
+    "owner": "blader",
+    "repo": "humanizer",
+    "category": "ai-llm",
+    "name": "humanizer",
+    "description": "Claude Code skill that removes signs of AI-generated writing from text",
+    "tags": []
+  },
+  {
+    "owner": "luofengmacheng",
+    "repo": "algorithms",
+    "category": "development-tools",
+    "name": "algorithms",
+    "description": "算法学习之路",
+    "tags": []
+  },
+  {
+    "owner": "malkamius",
+    "repo": "CrimsonStainedLands",
+    "category": "development-tools",
+    "name": "CrimsonStainedLands",
+    "description": "A MUD Server in C# Based on ROM",
+    "tags": []
+  },
+  {
+    "owner": "ziwenhahaha",
+    "repo": "qqsg_struct",
+    "category": "development-tools",
+    "name": "qqsg_struct",
+    "description": "QQ三国的结构体和常见的数据偏移量",
+    "tags": []
+  },
+  {
+    "owner": "Mint-System",
+    "repo": "Odoo-Wiki",
+    "category": "development-tools",
+    "name": "Odoo-Wiki",
+    "description": "Das Odoo Wiki ist eine Referenzdokumentation der Odoo-Prozesse und bietet eine umfangreiche Benutzeranleitung.",
+    "tags": []
+  },
+  {
+    "owner": "zarazhangrui",
+    "repo": "frontend-slides",
+    "category": "development-tools",
+    "name": "frontend-slides",
+    "description": "Create beautiful slides on the web using Claude's frontend skills",
+    "tags": []
+  },
+  {
+    "owner": "flancian",
+    "repo": "garden",
+    "category": "development-tools",
+    "name": "garden",
+    "description": "Flancian's digital garden",
+    "tags": []
+  },
+  {
+    "owner": "WilliamxLeismer",
+    "repo": "hw-concept",
+    "category": "creative-design",
+    "name": "hw-concept",
+    "description": "Hardware concept design engineer for Claude Code.",
+    "tags": []
+  },
+  {
+    "owner": "Napageneral",
+    "repo": "skill-cli-template",
+    "category": "development-tools",
+    "name": "skill-cli-template",
+    "description": "Standardized template for building CLI tools that work as Nexus skills",
+    "tags": []
+  },
+  {
+    "owner": "plurigrid",
+    "repo": "asi",
+    "category": "development-tools",
+    "name": "asi",
+    "description": "everything is topological chemputer!",
+    "tags": []
+  },
+  {
+    "owner": "kyloqchen0858",
+    "repo": "kylopro",
+    "category": "automation",
+    "name": "kylopro",
+    "description": "nanobot项目 - Kylopro核心系统",
+    "tags": []
+  },
+  {
+    "owner": "WalletConnectFoundation",
+    "repo": "docs",
+    "category": "document-processing",
+    "name": "docs",
+    "description": "Repository powering the WalletConnect docs",
+    "tags": []
+  },
+  {
+    "owner": "bigbigDreamer",
+    "repo": "weekly",
+    "category": "communication",
+    "name": "weekly",
+    "description": "weekly blog",
+    "tags": []
+  },
+  {
+    "owner": "Ryderwe",
+    "repo": "agent-skill-git-checkpoint",
+    "category": "communication",
+    "name": "agent-skill-git-checkpoint",
+    "description": "自动监控代码变更。当代码修改完成后，自动创建本地 Git 存档 (Commit)。分析历史风格生成 Commit Message。严禁推送。",
+    "tags": []
+  },
+  {
+    "owner": "wuyaojunkylin",
+    "repo": "Personal-Knowledge-Growth-Analyzer",
+    "category": "development-tools",
+    "name": "Personal-Knowledge-Growth-Analyzer",
+    "description": "A Claude Skill for stage-based analysis of personal knowledge inputs.",
+    "tags": []
+  },
+  {
+    "owner": "openwork-hackathon",
+    "repo": "team-sentinel",
+    "category": "development-tools",
+    "name": "team-sentinel",
+    "description": "🦞 Sentinel — Openwork Clawathon",
+    "tags": []
+  },
+  {
+    "owner": "dmberry",
+    "repo": "CCS-WB",
+    "category": "development-tools",
+    "name": "CCS-WB",
+    "description": "Critical Code Studies Workbench",
+    "tags": []
   }
 ]
