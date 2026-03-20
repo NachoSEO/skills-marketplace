@@ -7,11 +7,14 @@ import { FeatureGrid } from '@/components/skills/FeatureGrid';
 import { TechSpec } from '@/components/skills/TechSpec';
 import { SkillTags } from '@/components/skills/SkillTags';
 import { SkillGrid } from '@/components/skills/SkillGrid';
-import { MarkdownContent } from '@/components/skills/MarkdownContent';
 import { FileStructure } from '@/components/skills/FileStructure';
+import { ReadmeSection } from '@/components/skills/ReadmeSection';
 import { SkillJsonLd } from '@/components/seo/SkillJsonLd';
 import { BreadcrumbJsonLd } from '@/components/seo/BreadcrumbJsonLd';
-import { AlternativesSection } from '@/components/skills/AlternativesSection';
+import { RepoHealth } from '@/components/skills/RepoHealth';
+import { CodeSignals } from '@/components/skills/CodeSignals';
+import { Contributors } from '@/components/skills/Contributors';
+import { ComparisonTable } from '@/components/skills/ComparisonTable';
 import {
   getSkillsSync,
   getSkillBySlug,
@@ -26,12 +29,7 @@ interface Props {
   params: Promise<{ slug: string }>;
 }
 
-export async function generateStaticParams() {
-  const skills = getSkillsSync();
-  return skills.map((skill) => ({
-    slug: skill.slug,
-  }));
-}
+export const dynamic = 'force-dynamic';
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
@@ -103,9 +101,18 @@ export default async function SkillPage({ params }: Props) {
               <SkillTags tags={skill.tags} />
             </section>
 
+            {/* README Content (fetched on-demand from GitHub) */}
+            <section className="fade-in-up stagger-1">
+              <h2 className="text-lg font-semibold mb-4 flex items-center gap-2">
+                <span className="text-terminal font-mono">&gt;</span>
+                README
+              </h2>
+              <ReadmeSection slug={skill.slug} githubUrl={skill.githubUrl} />
+            </section>
+
             {/* Pros/Cons */}
             {(skill.pros?.length || skill.cons?.length) && (
-              <section className="fade-in-up stagger-1">
+              <section className="fade-in-up stagger-2">
                 <h2 className="text-lg font-semibold mb-4 flex items-center gap-2">
                   <span className="text-terminal font-mono">&gt;</span>
                   Overview
@@ -114,16 +121,39 @@ export default async function SkillPage({ params }: Props) {
               </section>
             )}
 
-            {/* SEO Content / Extended Description */}
-            {skill.seoContent && (
+            {/* Code Quality Signals */}
+            {skill.codeSignals && (
               <section className="fade-in-up stagger-2">
                 <h2 className="text-lg font-semibold mb-4 flex items-center gap-2">
                   <span className="text-terminal font-mono">&gt;</span>
-                  About this Skill
+                  Code Quality
                 </h2>
-                <div className="rounded-xl border border-border bg-card/50 p-6">
-                  <MarkdownContent content={skill.seoContent} />
-                </div>
+                <CodeSignals signals={skill.codeSignals} />
+              </section>
+            )}
+
+            {/* Repo Health */}
+            {(skill.lastCommitDate || skill.openIssuesCount !== undefined || skill.hasWiki || skill.hasDiscussions) && (
+              <section className="fade-in-up stagger-3">
+                <h2 className="text-lg font-semibold mb-4 flex items-center gap-2">
+                  <span className="text-terminal font-mono">&gt;</span>
+                  Repository Health
+                </h2>
+                <RepoHealth skill={skill} />
+              </section>
+            )}
+
+            {/* Contributors */}
+            {skill.topContributors && skill.topContributors.length > 0 && (
+              <section className="fade-in-up stagger-3">
+                <h2 className="text-lg font-semibold mb-4 flex items-center gap-2">
+                  <span className="text-terminal font-mono">&gt;</span>
+                  Contributors
+                </h2>
+                <Contributors
+                  topContributors={skill.topContributors}
+                  contributorsCount={skill.contributorsCount}
+                />
               </section>
             )}
 
@@ -258,11 +288,35 @@ export default async function SkillPage({ params }: Props) {
           </div>
         </div>
 
-        {/* Alternatives Section */}
-        <AlternativesSection
-          alternatives={alternativeSkills}
-          currentSkillName={skill.name}
-        />
+        {/* Comparison Table */}
+        {alternativeSkills.length > 0 && (
+          <section className="mt-16 pt-16 border-t border-border">
+            <div className="mb-8">
+              <div className="flex items-center gap-2 mb-2">
+                <svg
+                  className="w-5 h-5 text-accent"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"
+                  />
+                </svg>
+                <h2 className="text-2xl font-bold">
+                  Alternatives to {skill.name}
+                </h2>
+              </div>
+              <p className="text-sm text-muted">
+                Compare features and choose the best fit for your workflow.
+              </p>
+            </div>
+            <ComparisonTable currentSkill={skill} alternatives={alternativeSkills} />
+          </section>
+        )}
 
         {/* Related Skills */}
         {relatedSkills.length > 0 && (

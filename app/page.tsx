@@ -7,6 +7,7 @@ import { TerminalDemo } from '@/components/home/TerminalDemo';
 import { WhatIsSkillSection } from '@/components/home/WhatIsSkillSection';
 import { HowSkillsWorkSection } from '@/components/home/HowSkillsWorkSection';
 import { FAQSection } from '@/components/home/FAQSection';
+import { RankingSection } from '@/components/home/RankingSection';
 import {
   getSkillsSync,
   getCategories,
@@ -26,6 +27,9 @@ export default function HomePage() {
     <div className="min-h-screen">
       {/* Hero Section */}
       <HeroSection skillCount={skills.length} categoryCount={categories.length} />
+
+      {/* Skill Rankings */}
+      <RankingSection skills={skills} />
 
       {/* Terminal Demo Section */}
       <section className="py-20 relative overflow-hidden">

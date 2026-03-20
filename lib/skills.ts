@@ -126,7 +126,6 @@ export function getSkillsSync(): Skill[] {
       slug,
       description: entry.description || '',
       aiDescription: cached?.aiDescription,
-      seoContent: cached?.seoContent,
       author: entry.owner,
       githubUrl: entry.path
         ? `https://github.com/${entry.owner}/${entry.repo}/tree/main/${entry.path}`

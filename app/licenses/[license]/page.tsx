@@ -29,11 +29,7 @@ const licenseDescriptions: Record<string, string> = {
   Unlicense: 'The Unlicense is a public domain dedication.',
 };
 
-export async function generateStaticParams() {
-  const skills = getSkillsSync();
-  const licenses = getUniqueLicenses(skills);
-  return licenses.map((license) => ({ license: slugify(license) }));
-}
+export const dynamic = 'force-dynamic';
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { license: licenseSlug } = await params;

@@ -2,7 +2,6 @@ import 'dotenv/config';
 import * as fs from 'fs';
 import * as path from 'path';
 import type { SkillRegistry, SkillCacheEntry, GitHubRepo, Skill, SkillsIndex, FileNode } from '../types';
-import { summarizeReadme } from './lib/summarize';
 
 const GITHUB_API_BASE = 'https://api.github.com';
 const GITHUB_RAW_BASE = 'https://raw.githubusercontent.com';
@@ -11,6 +10,7 @@ const skillsRegistryPath = path.join(__dirname, '../data/skills-registry.json');
 const cacheFilePath = path.join(__dirname, '../data/skills-cache.json');
 const skillsDataPath = path.join(__dirname, '../data/skills-data.json');
 const skillsIndexPath = path.join(__dirname, '../data/skills-index.json');
+const skillsHistoryPath = path.join(__dirname, '../data/skills-history.json');
 
 function getHeaders(): HeadersInit {
   const headers: HeadersInit = {
@@ -25,7 +25,7 @@ function getHeaders(): HeadersInit {
   return headers;
 }
 
-async function getRepoInfo(owner: string, repo: string): Promise<GitHubRepo | null> {
+async function getRepoInfo(owner: string, repo: string): Promise<(GitHubRepo & { open_issues_count?: number; has_wiki?: boolean; has_discussions?: boolean }) | null> {
   try {
     const response = await fetch(`${GITHUB_API_BASE}/repos/${owner}/${repo}`, {
       headers: getHeaders(),
@@ -77,6 +77,59 @@ async function getReadmeContent(
   }
 
   return null;
+}
+
+async function getLastCommitDate(owner: string, repo: string): Promise<string | null> {
+  try {
+    const response = await fetch(
+      `${GITHUB_API_BASE}/repos/${owner}/${repo}/commits?per_page=1`,
+      { headers: getHeaders() }
+    );
+    if (!response.ok) return null;
+    const commits = await response.json();
+    if (commits.length > 0) {
+      return commits[0].commit?.committer?.date || commits[0].commit?.author?.date || null;
+    }
+    return null;
+  } catch {
+    return null;
+  }
+}
+
+async function getContributors(
+  owner: string,
+  repo: string
+): Promise<{ count: number; top: { login: string; avatarUrl: string; contributions: number }[] }> {
+  try {
+    const response = await fetch(
+      `${GITHUB_API_BASE}/repos/${owner}/${repo}/contributors?per_page=5`,
+      { headers: getHeaders() }
+    );
+    if (!response.ok) return { count: 0, top: [] };
+    const contributors = await response.json();
+    if (!Array.isArray(contributors)) return { count: 0, top: [] };
+
+    // Get total count from Link header
+    const linkHeader = response.headers.get('Link');
+    let totalCount = contributors.length;
+    if (linkHeader) {
+      const lastMatch = linkHeader.match(/page=(\d+)>; rel="last"/);
+      if (lastMatch) {
+        totalCount = parseInt(lastMatch[1], 10) * 5; // approximate
+      }
+    }
+
+    return {
+      count: totalCount,
+      top: contributors.slice(0, 5).map((c: { login: string; avatar_url: string; contributions: number }) => ({
+        login: c.login,
+        avatarUrl: c.avatar_url,
+        contributions: c.contributions,
+      })),
+    };
+  } catch {
+    return { count: 0, top: [] };
+  }
 }
 
 interface GitHubTreeItem {
@@ -202,10 +255,78 @@ function formatSkillName(name: string): string {
     .join(' ');
 }
 
+function extractDescriptionFromReadme(readme: string): string | null {
+  const lines = readme.split('\n');
+  for (const line of lines) {
+    const trimmed = line.trim();
+    // Skip empty lines, headings, badges, images, HTML tags
+    if (!trimmed) continue;
+    if (trimmed.startsWith('#')) continue;
+    if (trimmed.startsWith('![')) continue;
+    if (trimmed.startsWith('[![')) continue;
+    if (trimmed.startsWith('<')) continue;
+    if (trimmed.startsWith('---')) continue;
+    if (trimmed.match(/^\[!\[/)) continue;
+    // Found a paragraph
+    if (trimmed.length > 20) {
+      // Clean up markdown links
+      return trimmed.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').slice(0, 300);
+    }
+  }
+  return null;
+}
+
+function deriveCodeSignals(fileStructure: FileNode[] | null): {
+  hasTests: boolean;
+  hasCI: boolean;
+  hasDocker: boolean;
+  hasTypes: boolean;
+  hasSkillMd: boolean;
+} {
+  if (!fileStructure) {
+    return { hasTests: false, hasCI: false, hasDocker: false, hasTypes: false, hasSkillMd: false };
+  }
+
+  const allPaths: string[] = [];
+  const collectPaths = (nodes: FileNode[]) => {
+    for (const node of nodes) {
+      allPaths.push(node.path.toLowerCase());
+      if (node.name) allPaths.push(node.name.toLowerCase());
+      if (node.children) collectPaths(node.children);
+    }
+  };
+  collectPaths(fileStructure);
+
+  return {
+    hasTests: allPaths.some(p =>
+      p.includes('test/') || p.includes('__tests__/') || p.includes('tests/') ||
+      p.includes('.test.') || p.includes('.spec.') || p.includes('_test.')
+    ),
+    hasCI: allPaths.some(p =>
+      p.includes('.github/workflows') || p.includes('.circleci') ||
+      p.includes('.travis') || p.includes('jenkinsfile')
+    ),
+    hasDocker: allPaths.some(p =>
+      p.includes('dockerfile') || p.includes('docker-compose')
+    ),
+    hasTypes: allPaths.some(p =>
+      p.includes('tsconfig') || p.includes('.d.ts') || p.includes('.ts') ||
+      p.includes('types.') || p.includes('py.typed')
+    ),
+    hasSkillMd: allPaths.some(p => p === 'skill.md'),
+  };
+}
+
 interface SkillDataWithReadme extends SkillCacheEntry {
   readme?: string;
   skillName: string;
   fileStructure?: FileNode[];
+  lastCommitDate?: string;
+  openIssuesCount?: number;
+  hasWiki?: boolean;
+  hasDiscussions?: boolean;
+  contributorsCount?: number;
+  topContributors?: { login: string; avatarUrl: string; contributions: number }[];
 }
 
 async function processSkill(
@@ -236,9 +357,16 @@ async function processSkill(
     return existing ? { ...existing, skillName: formatSkillName(name), fileStructure: fileStructure || undefined } : null;
   }
 
-  const readme = await getReadmeContent(entry.owner, entry.repo, entry.path);
+  // Fetch README, last commit, and contributors in parallel
+  const [readme, lastCommitDate, contributors] = await Promise.all([
+    getReadmeContent(entry.owner, entry.repo, entry.path),
+    getLastCommitDate(entry.owner, entry.repo),
+    getContributors(entry.owner, entry.repo),
+  ]);
+
   console.log(`    [README] ${readme ? 'Found' : 'Not found'}`);
   console.log(`    [FILES] ${fileStructure ? `${countFiles(fileStructure)} items` : 'Not found'}`);
+  console.log(`    [CONTRIBUTORS] ${contributors.count}`);
 
   const cacheEntry: SkillDataWithReadme = {
     slug,
@@ -248,12 +376,18 @@ async function processSkill(
     fileStructure: fileStructure || undefined,
     stars: repoInfo.stargazers_count,
     forks: repoInfo.forks_count,
-    watchers: repoInfo.watchers_count,
+    watchers: (repoInfo as unknown as Record<string, number>).subscribers_count || 0,
     language: repoInfo.language,
     license: repoInfo.license?.spdx_id || repoInfo.license?.name || null,
     createdAt: repoInfo.created_at,
     updatedAt: repoInfo.updated_at,
     lastFetched: new Date().toISOString(),
+    lastCommitDate: lastCommitDate || undefined,
+    openIssuesCount: repoInfo.open_issues_count,
+    hasWiki: repoInfo.has_wiki,
+    hasDiscussions: repoInfo.has_discussions,
+    contributorsCount: contributors.count,
+    topContributors: contributors.top.length > 0 ? contributors.top : undefined,
   };
 
   return cacheEntry;
@@ -274,35 +408,6 @@ function generateInstallCommand(owner: string, repo: string, skillPath?: string)
     return `git clone https://github.com/${owner}/${repo}.git && cd ${repo}/${skillPath}`;
   }
   return `git clone https://github.com/${owner}/${repo}.git`;
-}
-
-function generateFallbackSeoContent(name: string, description: string, tags: string[]): string {
-  const tagList = tags.length > 0 ? tags.join(', ') : 'productivity';
-
-  return `## What is ${name}?
-
-${name} is a skill for Claude Code that helps you ${description ? description.toLowerCase() : 'enhance your development workflow'}. Install this skill to extend Claude's capabilities in your projects.
-
-## Key Features
-
-- Easy installation and setup
-- Seamless integration with Claude Code
-- Designed for developer productivity
-- Community-maintained and open source
-
-## Use Cases
-
-- **Development Workflows**: Integrate ${name} into your daily coding tasks
-- **Automation**: Automate repetitive tasks related to ${tagList}
-- **Productivity**: Save time with AI-powered assistance
-
-## How to Get Started
-
-Install ${name} by cloning the repository and placing it in your Claude Code skills directory. The skill will be automatically available in your next Claude Code session.
-
-## Why Use This Skill?
-
-${name} extends Claude Code's capabilities, making it easier to work with ${tagList}. Whether you're a beginner or an experienced developer, this skill can help streamline your workflow.`;
 }
 
 function buildSkillsIndex(skills: Skill[]): SkillsIndex {
@@ -373,6 +478,40 @@ function buildSkillsIndex(skills: Skill[]): SkillsIndex {
   };
 }
 
+function updateHistory(skills: Skill[]): void {
+  const today = new Date().toISOString().split('T')[0];
+
+  let history: Record<string, Record<string, { stars: number; forks: number }>> = {};
+  if (fs.existsSync(skillsHistoryPath)) {
+    try {
+      history = JSON.parse(fs.readFileSync(skillsHistoryPath, 'utf-8'));
+    } catch {
+      history = {};
+    }
+  }
+
+  // Add today's snapshot
+  const todaySnapshot: Record<string, { stars: number; forks: number }> = {};
+  for (const skill of skills) {
+    if (skill.stars !== undefined) {
+      todaySnapshot[skill.slug] = { stars: skill.stars, forks: skill.forks || 0 };
+    }
+  }
+  history[today] = todaySnapshot;
+
+  // Prune entries older than 90 days
+  const cutoff = new Date();
+  cutoff.setDate(cutoff.getDate() - 90);
+  const cutoffStr = cutoff.toISOString().split('T')[0];
+  for (const date of Object.keys(history)) {
+    if (date < cutoffStr) {
+      delete history[date];
+    }
+  }
+
+  fs.writeFileSync(skillsHistoryPath, JSON.stringify(history, null, 2));
+}
+
 async function main() {
   console.log('Starting skill data generation...\n');
 
@@ -405,37 +544,32 @@ async function main() {
     await new Promise((resolve) => setTimeout(resolve, 100));
   }
 
-  // Save raw data with READMEs for manual summarization
-  const rawDataPath = path.join(__dirname, '../data/skills-raw.json');
-  fs.writeFileSync(rawDataPath, JSON.stringify(results, null, 2));
-
   // Save cache without READMEs and fileStructure (for those that have aiDescription)
-  const cacheResults: SkillCacheEntry[] = results.map(({ readme, skillName, fileStructure, ...rest }) => rest);
+  const cacheResults: SkillCacheEntry[] = results.map(({ readme, skillName, fileStructure, lastCommitDate, openIssuesCount, hasWiki, hasDiscussions, contributorsCount, topContributors, ...rest }) => rest);
   fs.writeFileSync(cacheFilePath, JSON.stringify(cacheResults, null, 2));
 
   // Generate unified skills-data.json with full Skill objects
-  const skillsData: Skill[] = registry.map((entry, index) => {
+  const skillsData: Skill[] = registry.map((entry) => {
     const name = entry.name || entry.repo;
     const slug = slugify(name);
     const cached = results.find((r) => r.slug === slug);
     const formattedName = formatSkillName(name);
     const description = entry.description || '';
 
-    // Generate fallback AI description if missing
-    const aiDescription = cached?.aiDescription || (description
+    // Extract description from README instead of using AI
+    const readmeDescription = cached?.readme ? extractDescriptionFromReadme(cached.readme) : null;
+    const aiDescription = cached?.aiDescription || readmeDescription || (description
       ? `${formattedName} provides ${description.toLowerCase().replace(/^[a-z]/, c => c.toLowerCase())}`
       : `${formattedName} is a skill for Claude Code that enhances your development workflow.`
     );
 
-    // Generate fallback SEO content if missing
-    const seoContent = cached?.seoContent || generateFallbackSeoContent(formattedName, description, entry.tags || []);
+    // Derive code signals from file structure
+    const codeSignals = deriveCodeSignals(cached?.fileStructure || null);
 
     // Calculate a default rating based on stars if not provided in registry
-    // Normalized logarithmically: 100 stars = 3.5, 1000 = 4.0, 10000 = 4.5, 50000+ = 5.0
     const calculateDefaultRating = (stars: number | undefined): number => {
       if (!stars || stars <= 0) return 3.5;
       const logStars = Math.log10(stars);
-      // Scale: log10(100)=2 -> 3.5, log10(1000)=3 -> 4.0, log10(10000)=4 -> 4.5, log10(50000)=4.7 -> 4.9
       const rating = 3.0 + (logStars - 1) * 0.5;
       return Math.min(5.0, Math.max(3.0, Math.round(rating * 10) / 10));
     };
@@ -448,7 +582,7 @@ async function main() {
       slug,
       description,
       aiDescription,
-      seoContent,
+      // README fetched on-demand client-side to keep bundle small
       author: entry.owner,
       githubUrl: entry.path
         ? `https://github.com/${entry.owner}/${entry.repo}/tree/main/${entry.path}`
@@ -469,6 +603,13 @@ async function main() {
       cons: entry.cons,
       rating,
       fileStructure: cached?.fileStructure,
+      openIssuesCount: cached?.openIssuesCount,
+      lastCommitDate: cached?.lastCommitDate,
+      hasWiki: cached?.hasWiki,
+      hasDiscussions: cached?.hasDiscussions,
+      codeSignals,
+      contributorsCount: cached?.contributorsCount,
+      topContributors: cached?.topContributors,
     };
   });
 
@@ -477,17 +618,34 @@ async function main() {
 
   fs.writeFileSync(skillsDataPath, JSON.stringify(skillsData, null, 2));
 
+  // Write individual README files to public/readmes/ for CDN serving
+  const readmesDir = path.join(__dirname, '../public/readmes');
+  if (!fs.existsSync(readmesDir)) {
+    fs.mkdirSync(readmesDir, { recursive: true });
+  }
+  let readmeCount = 0;
+  for (const result of results) {
+    if (result.readme) {
+      fs.writeFileSync(path.join(readmesDir, `${result.slug}.md`), result.readme);
+      readmeCount++;
+    }
+  }
+  console.log(`  READMEs written: ${readmeCount} files to public/readmes/`);
+
   // Generate skills-index.json for O(1) lookups
   const skillsIndex = buildSkillsIndex(skillsData);
   fs.writeFileSync(skillsIndexPath, JSON.stringify(skillsIndex, null, 2));
 
+  // Update history for ranking
+  updateHistory(skillsData);
+
   console.log(`\nDone!`);
   console.log(`  Processed: ${processed}`);
   console.log(`  Failed: ${failed}`);
-  console.log(`  Raw data (with READMEs): ${rawDataPath}`);
   console.log(`  Cache: ${cacheFilePath}`);
   console.log(`  Skills data: ${skillsDataPath} (${skillsData.length} skills)`);
   console.log(`  Skills index: ${skillsIndexPath}`);
+  console.log(`  Skills history: ${skillsHistoryPath}`);
   console.log(`\nIndex stats:`);
   console.log(`  Categories: ${Object.keys(skillsIndex.categoryIndex).length}`);
   console.log(`  Tags: ${Object.keys(skillsIndex.tagIndex).length}`);

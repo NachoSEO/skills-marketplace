@@ -3,19 +3,13 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { SkillGrid } from '@/components/skills/SkillGrid';
-import { getSkillsSync, getSkillsByAuthor, getContributorsWithStats, getContributorByAuthor } from '@/lib/skills';
+import { getSkillsSync, getSkillsByAuthor, getContributorByAuthor } from '@/lib/skills';
 
 interface Props {
   params: Promise<{ author: string }>;
 }
 
-export async function generateStaticParams() {
-  const skills = getSkillsSync();
-  const contributors = getContributorsWithStats(skills);
-  return contributors.map((contributor) => ({
-    author: contributor.author,
-  }));
-}
+export const dynamic = 'force-dynamic';
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { author } = await params;

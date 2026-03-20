@@ -11,7 +11,7 @@ export interface Skill {
   slug: string;
   description: string;
   aiDescription?: string;
-  seoContent?: string;
+  readmeContent?: string;
   author: string;
   githubUrl: string;
   stars?: number;
@@ -30,6 +30,27 @@ export interface Skill {
   cons?: string[];
   rating?: number;
   fileStructure?: FileNode[];
+  // Repo health
+  openIssuesCount?: number;
+  lastCommitDate?: string;
+  hasWiki?: boolean;
+  hasDiscussions?: boolean;
+  // Code quality signals
+  codeSignals?: {
+    hasTests: boolean;
+    hasCI: boolean;
+    hasDocker: boolean;
+    hasTypes: boolean;
+    hasSkillMd: boolean;
+  };
+  // Contributors
+  contributorsCount?: number;
+  topContributors?: { login: string; avatarUrl: string; contributions: number }[];
+  // Ranking
+  rank?: number;
+  rankScore?: number;
+  trendingRank?: number;
+  isHot?: boolean;
 }
 
 export interface Category {
@@ -61,7 +82,6 @@ export interface GitHubRepo {
 export interface SkillCacheEntry {
   slug: string;
   aiDescription: string;
-  seoContent?: string;
   stars: number;
   forks: number;
   watchers: number;

@@ -3,18 +3,13 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { SkillGrid } from '@/components/skills/SkillGrid';
 import { SearchBar } from '@/components/search/SearchBar';
-import { getCategories, getCategoryBySlug, getSkillsSync, getSkillsByCategory } from '@/lib/skills';
+import { getCategoryBySlug, getSkillsSync, getSkillsByCategory } from '@/lib/skills';
 
 interface Props {
   params: Promise<{ slug: string }>;
 }
 
-export async function generateStaticParams() {
-  const categories = getCategories();
-  return categories.map((category) => ({
-    slug: category.slug,
-  }));
-}
+export const dynamic = 'force-dynamic';
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;

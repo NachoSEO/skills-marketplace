@@ -5963,5 +5963,764 @@
       "Setup required",
       "Learning curve"
     ]
+  },
+  {
+    "owner": "direktly",
+    "repo": "agent-skills",
+    "category": "ai-llm",
+    "name": "agent-skills",
+    "description": "Public repository for Agent Skills",
+    "tags": [
+      "best-practice",
+      "best-practices",
+      "claude-code-skill",
+      "claude-code-skills",
+      "go"
+    ]
+  },
+  {
+    "owner": "frmoretto",
+    "repo": "source-of-truth-creator",
+    "category": "document-processing",
+    "name": "source-of-truth-creator",
+    "description": "Claude skill & templates for creating epistemically honest Source of Truth documents. Prevents 6 failure modes: unqualified headers, unmarked estimates, self-assessment bias, absence-as-proof claims, illustrative-as-data, staleness. Companion to Clarity Gate.",
+    "tags": [
+      "ai-tools",
+      "claude-skill",
+      "documentation",
+      "epistemic-calibration",
+      "knowledge-management"
+    ]
+  },
+  {
+    "owner": "pauldelmann",
+    "repo": "parseium-skill",
+    "category": "web-scraping",
+    "name": "parseium-skill",
+    "description": "Agent skill for extracting data from social media via Parseium APIs",
+    "tags": [
+      "claude-code-skill"
+    ]
+  },
+  {
+    "owner": "SpillwaveSolutions",
+    "repo": "developing-with-docker-agentic-skill",
+    "category": "document-processing",
+    "name": "developing-with-docker-agentic-skill",
+    "description": "Debugging-first guidance for professional Docker development across CLI, Compose, Docker Desktop, and Rancher Desktop.",
+    "tags": [
+      "agentic-skill",
+      "claude-code-skill",
+      "docker-desktop",
+      "rancher-desktop"
+    ]
+  },
+  {
+    "owner": "massimodeluisa",
+    "repo": "recursive-decomposition-skill",
+    "category": "ai-llm",
+    "name": "recursive-decomposition-skill",
+    "description": "Claude Code skill for handling long-context tasks through recursive decomposition",
+    "tags": [
+      "ai-agents",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "claude-code-skills",
+      "claude-skills"
+    ]
+  },
+  {
+    "owner": "affaan-m",
+    "repo": "everything-claude-code",
+    "category": "ai-llm",
+    "name": "everything-claude-code",
+    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+    "tags": [
+      "ai-agents",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "developer-tools"
+    ]
+  },
+  {
+    "owner": "code-yeongyu",
+    "repo": "oh-my-openagent",
+    "category": "ai-llm",
+    "name": "oh-my-openagent",
+    "description": "omo; the best agent harness - previously oh-my-opencode",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "amp",
+      "anthropic",
+      "chatgpt"
+    ]
+  },
+  {
+    "owner": "gsd-build",
+    "repo": "get-shit-done",
+    "category": "ai-llm",
+    "name": "get-shit-done",
+    "description": "A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code by TÂCHES.",
+    "tags": [
+      "claude-code",
+      "context-engineering",
+      "meta-prompting",
+      "spec-driven-development"
+    ]
+  },
+  {
+    "owner": "sickn33",
+    "repo": "antigravity-awesome-skills",
+    "category": "ai-llm",
+    "name": "antigravity-awesome-skills",
+    "description": "The Ultimate Collection of 1000+ Agentic Skills for Claude Code/Antigravity/Cursor. Battle-tested, high-performance skills for AI agents including official skills from Anthropic and Vercel.",
+    "tags": [
+      "agentic-skills",
+      "ai-agents",
+      "ai-workflows",
+      "antigravity",
+      "autonomous-coding"
+    ]
+  },
+  {
+    "owner": "qwibitai",
+    "repo": "nanoclaw",
+    "category": "ai-llm",
+    "name": "nanoclaw",
+    "description": "A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has memory, scheduled jobs, and runs directly on Anthropic's Agents SDK",
+    "tags": [
+      "ai-agents",
+      "ai-assistant",
+      "claude-code",
+      "claude-skills",
+      "openclaw"
+    ]
+  },
+  {
+    "owner": "ruvnet",
+    "repo": "ruflo",
+    "category": "ai-llm",
+    "name": "ruflo",
+    "description": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
+    "tags": [
+      "agentic-ai",
+      "agentic-engineering",
+      "agentic-framework",
+      "agentic-rag",
+      "agentic-workflow"
+    ]
+  },
+  {
+    "owner": "shanraisshan",
+    "repo": "claude-code-best-practice",
+    "category": "ai-llm",
+    "name": "claude-code-best-practice",
+    "description": "practice made claude perfect",
+    "tags": [
+      "agentic-engineering",
+      "best-practices",
+      "claude-ai",
+      "claude-code",
+      "vibe-coding"
+    ]
+  },
+  {
+    "owner": "VoltAgent",
+    "repo": "awesome-agent-skills",
+    "category": "ai-llm",
+    "name": "awesome-agent-skills",
+    "description": "Claude Code Skills and 500+ agent skills from official dev teams and the community, compatible with Codex, Antigravity, Gemini CLI, Cursor and others.",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "antigravity-skills",
+      "awesome",
+      "awesome-list"
+    ]
+  },
+  {
+    "owner": "Yeachan-Heo",
+    "repo": "oh-my-claudecode",
+    "category": "ai-llm",
+    "name": "oh-my-claudecode",
+    "description": "Teams-first Multi-agent orchestration for Claude Code",
+    "tags": [
+      "agentic-coding",
+      "ai-agents",
+      "automation",
+      "claude",
+      "claude-code"
+    ]
+  },
+  {
+    "owner": "aden-hive",
+    "repo": "hive",
+    "category": "ai-llm",
+    "name": "hive",
+    "description": "Outcome driven agent development framework that evolves",
+    "tags": [
+      "agent",
+      "agent-framework",
+      "agent-skills",
+      "ai-evaluation",
+      "anthropic"
+    ]
+  },
+  {
+    "owner": "Panniantong",
+    "repo": "Agent-Reach",
+    "category": "ai-llm",
+    "name": "Agent-Reach",
+    "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+    "tags": [
+      "agent-infrastructure",
+      "ai-agent",
+      "ai-search",
+      "automation",
+      "bilibili"
+    ]
+  },
+  {
+    "owner": "rowboatlabs",
+    "repo": "rowboat",
+    "category": "ai-llm",
+    "name": "rowboat",
+    "description": "Open-source AI coworker, with memory",
+    "tags": [
+      "agents",
+      "agents-sdk",
+      "ai",
+      "ai-agents",
+      "ai-agents-automation"
+    ]
+  },
+  {
+    "owner": "xonsh",
+    "repo": "xonsh",
+    "category": "ai-llm",
+    "name": "xonsh",
+    "description": "🐚 Python-powered shell. Full-featured, cross-platform and AI-friendly.",
+    "tags": [
+      "alacritty",
+      "anthropic",
+      "chatgpt",
+      "claude",
+      "claude-code"
+    ]
+  },
+  {
+    "owner": "rtk-ai",
+    "repo": "rtk",
+    "category": "ai-llm",
+    "name": "rtk",
+    "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+    "tags": [
+      "agentic-coding",
+      "ai-coding",
+      "anthropic",
+      "claude-code",
+      "cli"
+    ]
+  },
+  {
+    "owner": "NousResearch",
+    "repo": "hermes-agent",
+    "category": "ai-llm",
+    "name": "hermes-agent",
+    "description": "The agent that grows with you",
+    "tags": [
+      "ai",
+      "ai-agent",
+      "ai-agents",
+      "anthropic",
+      "chatgpt"
+    ]
+  },
+  {
+    "owner": "superset-sh",
+    "repo": "superset",
+    "category": "ai-llm",
+    "name": "superset",
+    "description": "IDE for the AI Agents Era - Run an army of Claude Code, Codex, etc. on your machine",
+    "tags": [
+      "agentic-ai",
+      "ai-agents",
+      "claude-code",
+      "cli",
+      "codex"
+    ]
+  },
+  {
+    "owner": "Jeffallan",
+    "repo": "claude-skills",
+    "category": "ai-llm",
+    "name": "claude-skills",
+    "description": "66 Specialized Skills for Full-Stack Developers. Transform Claude Code into your expert pair programmer.",
+    "tags": [
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "claude-marketplace",
+      "claude-skills"
+    ]
+  },
+  {
+    "owner": "manaflow-ai",
+    "repo": "cmux",
+    "category": "ai-llm",
+    "name": "cmux",
+    "description": "Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents",
+    "tags": [
+      "amp",
+      "claude-code",
+      "codex",
+      "gemini",
+      "ghostty"
+    ]
+  },
+  {
+    "owner": "Wei-Shaw",
+    "repo": "sub2api",
+    "category": "ai-llm",
+    "name": "sub2api",
+    "description": "Sub2API-CRS2 一站式开源中转服务，让 Claude、Openai 、Gemini、Antigravity订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+    "tags": [
+      "2api",
+      "antigravity2api",
+      "cc2api",
+      "claude",
+      "claude-code"
+    ]
+  },
+  {
+    "owner": "YouMind-OpenLab",
+    "repo": "nano-banana-pro-prompts-recommend-skill",
+    "category": "ai-llm",
+    "name": "nano-banana-pro-prompts-recommend-skill",
+    "description": "AI skill for OpenClaw & Claude Code — recommend from 10000+ Nano Banana Pro (Gemini) image prompts. Smart search by use case, content remix, sample images.",
+    "tags": [
+      "ai-agent",
+      "ai-image",
+      "claude-code-skill",
+      "clawhub",
+      "content-creation"
+    ]
+  },
+  {
+    "owner": "AgriciDaniel",
+    "repo": "claude-ads",
+    "category": "business-marketing",
+    "name": "claude-ads",
+    "description": "Comprehensive paid advertising audit & optimization skill for Claude Code. 186 checks across Google, Meta, YouTube, LinkedIn, TikTok & Microsoft Ads with weighted scoring, parallel agents, and industry templates.",
+    "tags": [
+      "advertising-audit",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "claude-code-skill"
+    ]
+  },
+  {
+    "owner": "AgriciDaniel",
+    "repo": "claude-blog",
+    "category": "creative-design",
+    "name": "claude-blog",
+    "description": "Claude Code skill ecosystem for blog content creation, optimization, and management. Dual-optimized for Google rankings and AI citations.",
+    "tags": [
+      "ai-agent",
+      "ai-citations",
+      "blog",
+      "blog-writing",
+      "claude-code"
+    ]
+  },
+  {
+    "owner": "aaronjmars",
+    "repo": "soul.md",
+    "category": "ai-llm",
+    "name": "soul.md",
+    "description": "The best way to build a personality for your agent. Let Claude Code / OpenClaw ingest your data & build your AI soul.",
+    "tags": [
+      "agents",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "openclaw"
+    ]
+  },
+  {
+    "owner": "Crestdrasnip",
+    "repo": "Claude-Zeroclaw",
+    "category": "document-processing",
+    "name": "Claude-Zeroclaw",
+    "description": "Claude-Zeroclaw — claude zeroclaw keyword code research. Open-source tool for automation and enhancement.",
+    "tags": [
+      "awesome-claude-code",
+      "claude",
+      "claude-4-5-sonnet",
+      "claude-code",
+      "claude-code-claw"
+    ]
+  },
+  {
+    "owner": "assafelovic",
+    "repo": "skyll",
+    "category": "ai-llm",
+    "name": "skyll",
+    "description": "A tool for AI agents to discover and learn skills autonomously",
+    "tags": [
+      "claude-skill",
+      "mcp",
+      "skills"
+    ]
+  },
+  {
+    "owner": "harrymunro",
+    "repo": "nelson",
+    "category": "ai-llm",
+    "name": "nelson",
+    "description": "Coordinate agent teams in Claude Code using a Royal Navy inspired command structure and operating procedures. It provides structured sailing orders, battle plans, action stations, and a captain's log to manage complex tasks; from single-session work through to multi-agent squadrons.",
+    "tags": [
+      "agent-coordination",
+      "ai-agents",
+      "anthropic",
+      "claude-code",
+      "claude-code-skill"
+    ]
+  },
+  {
+    "owner": "Bhanunamikaze",
+    "repo": "Agentic-SEO-Skill",
+    "category": "ai-llm",
+    "name": "Agentic-SEO-Skill",
+    "description": "An LLM-first SEO analysis skill for Antigravity, Codex, Claude with 16 specialized sub-skills, 10 specialist agents, and 33 optional utility scripts used as evidence collectors.",
+    "tags": [
+      "ai-skill",
+      "ai-skills",
+      "antigravity-ai",
+      "antigravity-skills",
+      "antigravity-tools"
+    ]
+  },
+  {
+    "owner": "greekr4",
+    "repo": "playwright-bot-bypass",
+    "category": "web-scraping",
+    "name": "playwright-bot-bypass",
+    "description": "Claude Code skill to bypass bot detection (Google CAPTCHA, etc.)",
+    "tags": [
+      "automation",
+      "bot-detection",
+      "claude-code-skill",
+      "playwright",
+      "stealth"
+    ]
+  },
+  {
+    "owner": "oaustegard",
+    "repo": "claude-skills",
+    "category": "development-tools",
+    "name": "claude-skills",
+    "description": "My collection of Claude skills",
+    "tags": [
+      "claude",
+      "claude-skill",
+      "claude-skills"
+    ]
+  },
+  {
+    "owner": "claude-world",
+    "repo": "notebooklm-skill",
+    "category": "ai-llm",
+    "name": "notebooklm-skill",
+    "description": "NotebookLM does the research, Claude writes the content. Research → Synthesis → Content Creation → Publishing. Claude Code Skill + MCP Server.",
+    "tags": [
+      "ai-research",
+      "claude-code",
+      "claude-code-skill",
+      "content-pipeline",
+      "mcp-server"
+    ]
+  },
+  {
+    "owner": "nokonoko1203",
+    "repo": "claude-code-settings",
+    "category": "ai-llm",
+    "name": "claude-code-settings",
+    "description": "Best Practices for Claude Code Configuration",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "claude-skill"
+    ]
+  },
+  {
+    "owner": "dpconde",
+    "repo": "claude-android-skill",
+    "category": "development-tools",
+    "name": "claude-android-skill",
+    "description": "Claude Code skill for building modern Android apps following best practices.",
+    "tags": [
+      "android",
+      "claude-code",
+      "claude-skill",
+      "mcp",
+      "now-in-android"
+    ]
+  },
+  {
+    "owner": "alexgreensh",
+    "repo": "token-optimizer",
+    "category": "security",
+    "name": "token-optimizer",
+    "description": "Find the ghost tokens. Audit your Claude Code context window overhead, see where tokens go, get them back.",
+    "tags": [
+      "agentskills",
+      "claude-code",
+      "claude-code-skill",
+      "claude-plugin",
+      "context-engineering"
+    ]
+  },
+  {
+    "owner": "opslane",
+    "repo": "verify",
+    "category": "development-tools",
+    "name": "verify",
+    "description": "Verification Layer for Claude Code",
+    "tags": [
+      "claude",
+      "claude-code",
+      "claude-code-plugins",
+      "claude-code-skill"
+    ]
+  },
+  {
+    "owner": "aelf-hzz780",
+    "repo": "AI-bounty-skill",
+    "category": "ai-llm",
+    "name": "AI-bounty-skill",
+    "description": "Public Codex skill for claiming AI bounty on aelf tDVV via RewardClaimContract, supporting EOA Claim() and Portkey CA ClaimByPortkeyToCa().",
+    "tags": [
+      "aelf",
+      "agent-skill",
+      "blockchain",
+      "claude-code-skill",
+      "claude-skills"
+    ]
+  },
+  {
+    "owner": "Bria-AI",
+    "repo": "bria-skill",
+    "category": "ai-llm",
+    "name": "bria-skill",
+    "description": "Claude Code skills for Bria AI - generate, edit, and transform images with Fibo, RMBG-2.0, and VGL structured prompts",
+    "tags": [
+      "agen",
+      "agent-skill",
+      "agent-skills",
+      "ai",
+      "ai-agents"
+    ]
+  },
+  {
+    "owner": "huhx0015",
+    "repo": "HXAudioPlayer",
+    "category": "creative-design",
+    "name": "HXAudioPlayer",
+    "description": "HX Audio Player: A custom audio wrapper library for Android 2.3 and above. Originally designed as an audio library for games, HX Audio Player is an easy-to-use, alternative approach to implementing music and sound playback into Android applications.",
+    "tags": [
+      "android",
+      "android-library",
+      "audio",
+      "audio-library",
+      "audio-player"
+    ]
+  },
+  {
+    "owner": "anhvt52",
+    "repo": "jetpack-compose-skills",
+    "category": "ai-llm",
+    "name": "jetpack-compose-skills",
+    "description": "Agent skill for modern Android development with Jetpack Compose — best practices for code generation and review",
+    "tags": [
+      "agent-skills",
+      "ai-coding",
+      "android",
+      "claude-skill",
+      "jetpack-compose"
+    ]
+  },
+  {
+    "owner": "snakeying",
+    "repo": "Textum",
+    "category": "ai-llm",
+    "name": "Textum",
+    "description": "Structured workflow that stops AI from forgetting your requirements. 4 phases with validation gates. Not smarter AI, just controllable process. Weave ideas into code that actually works.",
+    "tags": [
+      "claude-code",
+      "claude-skill",
+      "codex",
+      "codex-skill",
+      "skills"
+    ]
+  },
+  {
+    "owner": "felixrieseberg",
+    "repo": "claude-coach",
+    "category": "development-tools",
+    "name": "claude-coach",
+    "description": "Claude as your endurance coach for marathons, triathlons, Ironman events, and more",
+    "tags": [
+      "claude",
+      "claude-code",
+      "claude-skill",
+      "garmin",
+      "marathon"
+    ]
+  },
+  {
+    "owner": "faugustdev",
+    "repo": "git-context-controller",
+    "category": "ai-llm",
+    "name": "git-context-controller",
+    "description": "Structured context management framework for LLM agents. Implements Git-like operations (COMMIT, BRANCH, MERGE) to manage long-horizon agent memory.",
+    "tags": [
+      "agent-skill",
+      "agentic-workflows",
+      "ai-memory",
+      "claude-code-skill",
+      "context-management"
+    ]
+  },
+  {
+    "owner": "smixs",
+    "repo": "creative-director-skill",
+    "category": "ai-llm",
+    "name": "creative-director-skill",
+    "description": "AI Creative Director skill for Claude, GPT, Gemini — 20+ methodologies (SIT, TRIZ, Bisociation, SCAMPER), Cannes-calibrated scoring, recursive refinement. Insight → Ideation → Evaluation → Presentation.",
+    "tags": [
+      "advertising",
+      "agent-skill",
+      "ai-agent",
+      "ai-creative",
+      "brainstorming"
+    ]
+  },
+  {
+    "owner": "bitwize-music-studio",
+    "repo": "claude-ai-music-skills",
+    "category": "ai-llm",
+    "name": "claude-ai-music-skills",
+    "description": "Human + AI music production workflow for Suno - skills, templates, and tools",
+    "tags": [
+      "ai-music",
+      "ai-music-tools",
+      "audio-mastering",
+      "claude",
+      "claude-code"
+    ]
+  },
+  {
+    "owner": "echoVic",
+    "repo": "spec-flow",
+    "category": "document-processing",
+    "name": "spec-flow",
+    "description": "A Claude Code skill for structured, spec-driven development with phase-by-phase workflow and living documentation",
+    "tags": [
+      "ai-skill",
+      "claude",
+      "claude-code",
+      "claude-code-skills",
+      "claude-skill"
+    ]
+  },
+  {
+    "owner": "kromahlusenii-ops",
+    "repo": "ham",
+    "category": "ai-llm",
+    "name": "ham",
+    "description": "(HAM) Memory system for AI coding agents. Cut token usage by 50% by scoping context to directories.",
+    "tags": [
+      "agent-memory",
+      "agent-skills",
+      "ai-coding-assistant",
+      "claude-code",
+      "claude-code-skill"
+    ]
+  },
+  {
+    "owner": "PHY041",
+    "repo": "claude-skill-reddit",
+    "category": "automation",
+    "name": "claude-skill-reddit",
+    "description": "Claude Code skills for Reddit automation (AppleScript + Chrome). Build karma, post to subreddits — undetectable by anti-bot systems.",
+    "tags": [
+      "agent-skills",
+      "applescript",
+      "automation",
+      "chrome-automation",
+      "claude-code"
+    ]
+  },
+  {
+    "owner": "nikhilbhansali",
+    "repo": "dataforseo-skill-claude",
+    "category": "seo-search",
+    "name": "dataforseo-skill-claude",
+    "description": "DataForSEO API skill for Claude Code - Complete SEO data integration",
+    "tags": [
+      "backlink-analysis",
+      "claude-code",
+      "claude-skill",
+      "dataforseo",
+      "keyword-research"
+    ]
+  },
+  {
+    "owner": "AgriciDaniel",
+    "repo": "claude-shorts",
+    "category": "ai-llm",
+    "name": "claude-shorts",
+    "description": "Interactive longform-to-shortform video creator — Claude Code skill with Remotion-rendered animated captions, AI segment scoring, cursor tracking, and audio-aware boundary snapping",
+    "tags": [
+      "ai-agent",
+      "captions",
+      "claude",
+      "claude-code",
+      "claude-code-skill"
+    ]
+  },
+  {
+    "owner": "AgriciDaniel",
+    "repo": "claude-youtube",
+    "category": "ai-llm",
+    "name": "claude-youtube",
+    "description": "Claude Code skill for YouTube creators — channel audits, video SEO, retention scripts, thumbnails, content strategy, Shorts optimization, analytics, monetization, and more.",
+    "tags": [
+      "ai-tools",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "content-strategy"
+    ]
+  },
+  {
+    "owner": "ZeroLu",
+    "repo": "Ultimate-AI-Media-Generator-Skill",
+    "category": "ai-llm",
+    "name": "Ultimate-AI-Media-Generator-Skill",
+    "description": "Open-source ai image generator skill and ai video generator skill for Codex, Claude Code, OpenClaw, Cursor, and more. Powered by   CyberBara API with Nano Banana, Sora 2, Seedance, and Kling support. No need to master prompt, this skill optimize your prompt for all kinds of creations like slides, anime and much more.",
+    "tags": [
+      "claude-code-skill",
+      "codex-skill",
+      "cursor-skill",
+      "image-generation",
+      "image-generation-skill"
+    ]
   }
 ]

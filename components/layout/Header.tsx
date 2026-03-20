@@ -56,6 +56,13 @@ export function Header() {
                 <span className="font-mono text-terminal/50 mr-1">/</span>
                 categories
               </Link>
+              <Link
+                href="/contributors"
+                className="px-4 py-2 text-sm font-medium text-muted hover:text-terminal hover:bg-terminal/5 rounded-lg transition-all"
+              >
+                <span className="font-mono text-terminal/50 mr-1">/</span>
+                contributors
+              </Link>
             </nav>
           </div>
 
@@ -130,6 +137,14 @@ export function Header() {
               >
                 <span className="font-mono text-terminal/50 mr-2">/</span>
                 categories
+              </Link>
+              <Link
+                href="/contributors"
+                className="flex items-center px-4 py-2 text-sm font-medium text-muted hover:text-terminal hover:bg-terminal/5 rounded-lg transition-all"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                <span className="font-mono text-terminal/50 mr-2">/</span>
+                contributors
               </Link>
               <a
                 href="https://github.com/anthropics/skills"

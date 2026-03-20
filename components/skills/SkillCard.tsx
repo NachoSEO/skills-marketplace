@@ -21,12 +21,26 @@ export function SkillCard({ skill }: SkillCardProps) {
         {/* Header */}
         <div className="flex items-start justify-between gap-4 mb-3">
           <div className="flex items-center gap-2">
+            {/* Rank badge */}
+            {skill.rank && skill.rank <= 20 && (
+              <span className="text-[10px] font-mono font-bold px-1.5 py-0.5 rounded bg-terminal/15 text-terminal border border-terminal/30">
+                #{skill.rank}
+              </span>
+            )}
             <span className="text-terminal font-mono text-sm opacity-50 group-hover:opacity-100 transition-opacity">
               /
             </span>
             <h3 className="font-semibold text-card-foreground group-hover:text-terminal transition-colors line-clamp-1">
               {skill.name}
             </h3>
+            {/* Hot badge */}
+            {skill.isHot && (
+              <span className="text-orange-500 text-sm" title="Trending">
+                <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 23c-4.97 0-9-3.58-9-8 0-2.52.74-4.6 2.06-6.42.47-.65 1-1.26 1.58-1.82.25-.25.67-.08.68.28l.09 2.52c.01.32.42.47.62.22l3.59-4.53c.23-.29.64-.28.86.02 1.53 2.05 3.55 5.01 4.1 8.02.06.32.42.48.67.25.48-.44.89-.94 1.2-1.45.2-.33.66-.34.81.02C20.37 14.63 21 16.73 21 19c0 2.21-4.03 4-9 4z" />
+                </svg>
+              </span>
+            )}
           </div>
           {skill.stars !== undefined && skill.stars > 0 && (
             <div className="flex items-center gap-1 text-sm text-muted shrink-0">
