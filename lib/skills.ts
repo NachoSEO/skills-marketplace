@@ -1,4 +1,4 @@
-import type { Skill, Category, SkillRegistry, SkillCacheEntry, SkillsIndex } from '@/types';
+import type { Skill, Category, SkillRegistry, SkillCacheEntry, SkillsIndex, SkillSimilarities } from '@/types';
 import { getRepoInfo, getSkillMdContent, parseSkillMd, generateInstallCommand } from './github';
 import skillsRegistry from '@/data/skills-registry.json';
 import categoriesData from '@/data/categories.json';
@@ -6,6 +6,7 @@ import categoriesData from '@/data/categories.json';
 let skillsDataCache: Skill[] | null = null;
 let skillsIndexCache: SkillsIndex | null = null;
 let legacyCache: Map<string, SkillCacheEntry> = new Map();
+let similaritiesCache: SkillSimilarities | null = null;
 
 function loadSkillsData(): Skill[] {
   if (skillsDataCache) return skillsDataCache;
@@ -29,6 +30,18 @@ function loadSkillsIndex(): SkillsIndex | null {
   }
 
   return skillsIndexCache;
+}
+
+function loadSimilarities(): SkillSimilarities | null {
+  if (similaritiesCache) return similaritiesCache;
+
+  try {
+    similaritiesCache = require('@/data/skills-similarities.json') as SkillSimilarities;
+  } catch {
+    similaritiesCache = null;
+  }
+
+  return similaritiesCache;
 }
 
 function loadLegacyCache(): Map<string, SkillCacheEntry> {
@@ -218,17 +231,38 @@ export function getSkillCountByCategory(skills: Skill[]): Record<string, number>
   return counts;
 }
 
-export function getRelatedSkills(skills: Skill[], currentSkill: Skill, limit = 3): Skill[] {
+export function getRelatedSkills(
+  skills: Skill[],
+  currentSkill: Skill,
+  limit = 3
+): { skill: Skill; score: number; reason: string }[] {
+  const sims = loadSimilarities();
+  const entry = sims?.similarities[currentSkill.slug];
+
+  if (entry) {
+    const results: { skill: Skill; score: number; reason: string }[] = [];
+    for (const item of entry.related) {
+      if (results.length >= limit) break;
+      if (item.slug === currentSkill.slug) continue;
+      const skill = getSkillBySlug(skills, item.slug);
+      if (skill) {
+        results.push({ skill, score: item.score, reason: item.reason });
+      }
+    }
+    return results;
+  }
+
+  // Fallback: legacy scoring
   return skills
     .filter((skill) => skill.id !== currentSkill.id)
     .map((skill) => ({
       skill,
       score: calculateRelatedness(skill, currentSkill),
+      reason: skill.category === currentSkill.category ? 'Same category' : 'Related skill',
     }))
     .filter(({ score }) => score > 0)
     .sort((a, b) => b.score - a.score)
-    .slice(0, limit)
-    .map(({ skill }) => skill);
+    .slice(0, limit);
 }
 
 function calculateRelatedness(a: Skill, b: Skill): number {
@@ -251,22 +285,35 @@ export function getAlternativeSkills(
   currentSkill: Skill,
   relatedSkillIds: string[],
   limit = 3
-): Skill[] {
+): { skill: Skill; score: number; reason: string }[] {
+  const sims = loadSimilarities();
+  const entry = sims?.similarities[currentSkill.slug];
+
+  if (entry) {
+    const results: { skill: Skill; score: number; reason: string }[] = [];
+    for (const item of entry.alternatives) {
+      if (results.length >= limit) break;
+      if (item.slug === currentSkill.slug) continue;
+      const skill = getSkillBySlug(skills, item.slug);
+      if (skill && !relatedSkillIds.includes(skill.id)) {
+        results.push({ skill, score: item.score, reason: item.reason });
+      }
+    }
+    return results;
+  }
+
+  // Fallback: legacy category + stars logic
   return skills
     .filter((skill) => {
-      // Exclude the current skill
       if (skill.id === currentSkill.id) return false;
-      // Must be same category (solving similar problem)
       if (skill.category !== currentSkill.category) return false;
-      // Must be different author (competitor/alternative)
       if (skill.author === currentSkill.author) return false;
-      // Exclude skills already shown in related section
       if (relatedSkillIds.includes(skill.id)) return false;
       return true;
     })
-    // Sort by popularity (stars)
     .sort((a, b) => (b.stars || 0) - (a.stars || 0))
-    .slice(0, limit);
+    .slice(0, limit)
+    .map((skill) => ({ skill, score: 50, reason: 'Same category' }));
 }
 
 export function getUniqueTags(skills: Skill[]): string[] {

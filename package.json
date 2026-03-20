@@ -11,7 +11,8 @@
     "generate:all": "npm run generate:skills",
     "discover:skills": "tsx scripts/discover-skills.ts",
     "compute:rankings": "tsx scripts/compute-rankings.ts",
-    "ingest": "npm run discover:skills && npm run generate:skills && npm run compute:rankings",
+    "compute:similarities": "tsx scripts/compute-similarities.ts",
+    "ingest": "npm run discover:skills && npm run generate:skills && npm run compute:rankings && npm run compute:similarities",
     "build:cloudflare": "npx opennextjs-cloudflare build",
     "preview": "npx opennextjs-cloudflare build && npx wrangler dev",
     "deploy": "npx opennextjs-cloudflare build && npx wrangler deploy"

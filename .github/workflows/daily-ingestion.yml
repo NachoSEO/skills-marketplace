@@ -36,6 +36,9 @@ jobs:
       - name: Compute rankings
         run: npm run compute:rankings
 
+      - name: Compute skill similarities
+        run: npm run compute:similarities
+
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"

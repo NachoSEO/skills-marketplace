@@ -72,9 +72,9 @@ export default async function SkillPage({ params }: Props) {
   }
 
   const category = getCategoryBySlug(skill.category);
-  const relatedSkills = getRelatedSkills(skills, skill, 3);
-  const relatedSkillIds = relatedSkills.map((s) => s.id);
-  const alternativeSkills = getAlternativeSkills(skills, skill, relatedSkillIds, 3);
+  const relatedResults = getRelatedSkills(skills, skill, 3);
+  const relatedSkillIds = relatedResults.map((r) => r.skill.id);
+  const alternativeResults = getAlternativeSkills(skills, skill, relatedSkillIds, 3);
 
   const breadcrumbItems = [
     { name: 'Home', url: BASE_URL },
@@ -289,7 +289,7 @@ export default async function SkillPage({ params }: Props) {
         </div>
 
         {/* Comparison Table */}
-        {alternativeSkills.length > 0 && (
+        {alternativeResults.length > 0 && (
           <section className="mt-16 pt-16 border-t border-border">
             <div className="mb-8">
               <div className="flex items-center gap-2 mb-2">
@@ -314,12 +314,12 @@ export default async function SkillPage({ params }: Props) {
                 Compare features and choose the best fit for your workflow.
               </p>
             </div>
-            <ComparisonTable currentSkill={skill} alternatives={alternativeSkills} />
+            <ComparisonTable currentSkill={skill} alternatives={alternativeResults} />
           </section>
         )}
 
         {/* Related Skills */}
-        {relatedSkills.length > 0 && (
+        {relatedResults.length > 0 && (
           <section className="mt-16 pt-16 border-t border-border">
             <div className="flex items-center justify-between mb-8">
               <h2 className="text-2xl font-bold flex items-center gap-3">
@@ -333,7 +333,7 @@ export default async function SkillPage({ params }: Props) {
                 View all in category →
               </Link>
             </div>
-            <SkillGrid skills={relatedSkills} />
+            <SkillGrid skills={relatedResults.map((r) => r.skill)} />
           </section>
         )}
       </div>

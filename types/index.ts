@@ -106,6 +106,23 @@ export interface SkillRegistry {
   rating?: number;
 }
 
+export interface SkillSimilarityEntry {
+  slug: string;
+  score: number;
+  semanticScore: number;
+  reason: string;
+}
+
+export interface SkillSimilarities {
+  version: string;
+  generatedAt: string;
+  algorithm: string;
+  similarities: Record<string, {
+    alternatives: SkillSimilarityEntry[];
+    related: SkillSimilarityEntry[];
+  }>;
+}
+
 export interface SkillsIndex {
   version: string;
   generatedAt: string;
