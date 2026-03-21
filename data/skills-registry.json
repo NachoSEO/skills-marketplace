@@ -7313,5 +7313,601 @@
     "name": "CCS-WB",
     "description": "Critical Code Studies Workbench",
     "tags": []
+  },
+  {
+    "owner": "wells1137",
+    "repo": "media-skills",
+    "category": "development-tools",
+    "name": "media-skills",
+    "description": "A collection of open-source Agent Skills for content creation — images, audio, and video.",
+    "tags": [
+      "agent-skills",
+      "agentskills",
+      "audio-generation",
+      "claude-code",
+      "claude-code-marketplace"
+    ]
+  },
+  {
+    "owner": "shepsci",
+    "repo": "kaggle-skill",
+    "category": "ai-llm",
+    "name": "kaggle-skill",
+    "description": "Complete Kaggle integration skill for AI coding agents — account setup, competition reports, dataset/model downloads, notebook execution, submissions, and badge collection. Works with Claude Code, Gemini CLI, Cursor, Codex, and 35+ agents via skills.sh.",
+    "tags": [
+      "agent-skill",
+      "ai-coding-agent",
+      "claude-code",
+      "claude-code-skill",
+      "codex"
+    ]
+  },
+  {
+    "owner": "coreyhaines31",
+    "repo": "marketingskills",
+    "category": "business-marketing",
+    "name": "marketingskills",
+    "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+    "tags": [
+      "claude",
+      "codex",
+      "marketing"
+    ]
+  },
+  {
+    "owner": "wasp-lang",
+    "repo": "open-saas",
+    "category": "ai-llm",
+    "name": "open-saas",
+    "description": "A 100% free modern JS SaaS boilerplate (React, NodeJS, Prisma). Full-featured: Auth (email, google, github, slack, MS), Email sending, Background jobs, Landing page, Payments (Stripe, Polar.sh), Shadcn UI, S3 file upload. AI-ready with tailored AGENTS.md, skills, and Claude Code plugin. One cmd deploy. Powered by Wasp full-stack framework.",
+    "tags": [
+      "ai",
+      "authentication",
+      "aws-s3",
+      "boilerplate",
+      "chatgpt"
+    ]
+  },
+  {
+    "owner": "liyupi",
+    "repo": "ai-guide",
+    "category": "ai-llm",
+    "name": "ai-guide",
+    "description": "程序员鱼皮的 AI 资源大全 + Vibe Coding 零基础教程，分享 OpenClaw 保姆级教程、大模型玩法（DeepSeek / GPT / Gemini / Claude）、最新 AI 资讯、Prompt 提示词大全、AI 知识百科（Agent Skills / RAG / MCP / A2A）、AI 编程教程、AI 工具用法（Cursor / Claude Code / TRAE / Lovable / Copilot）、AI 开发框架教程（Spring AI / LangChain）、AI 产品变现指南，帮你快速掌握 AI 技术，走在时代前沿。本项目为开源文档，已升级为鱼皮 AI 导航网站",
+    "tags": [
+      "ai",
+      "algorithm",
+      "artificial-intelligence",
+      "chatgpt",
+      "claude"
+    ]
+  },
+  {
+    "owner": "diet103",
+    "repo": "claude-code-infrastructure-showcase",
+    "category": "development-tools",
+    "name": "claude-code-infrastructure-showcase",
+    "description": "Examples of my Claude Code infrastructure with skill auto-activation, hooks, and agents",
+    "tags": []
+  },
+  {
+    "owner": "refly-ai",
+    "repo": "refly",
+    "category": "automation",
+    "name": "refly",
+    "description": "The first open-source agent skills builder. Define skills by vibe workflow, run on Claude Code, Cursor, Codex & more. Build Clawdbot 🦞· APIs for Lovable · Bots for Slack & Lark/Feishu · Skills are infrastructure, not prompts.",
+    "tags": [
+      "agent",
+      "agent-skills",
+      "automation",
+      "claude",
+      "clawdbot"
+    ]
+  },
+  {
+    "owner": "teng-lin",
+    "repo": "notebooklm-py",
+    "category": "ai-llm",
+    "name": "notebooklm-py",
+    "description": "Unofficial Python API and agentic skill for Google NotebookLM. Full programmatic access to NotebookLM's features—including capabilities the web UI doesn't expose—via Python, CLI, and AI agents like Claude Code, Codex, and OpenClaw.",
+    "tags": [
+      "agentic-skill",
+      "api",
+      "claude",
+      "claude-skills",
+      "google-notebooklm"
+    ]
+  },
+  {
+    "owner": "alirezarezvani",
+    "repo": "claude-skills",
+    "category": "ai-llm",
+    "name": "claude-skills",
+    "description": "+192 Claude Code skills & agent plugins for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory.",
+    "tags": [
+      "agent-plugins",
+      "agent-skills",
+      "agentic-ai",
+      "ai-coding-agent",
+      "anthropic-claude"
+    ]
+  },
+  {
+    "owner": "ChrisWiles",
+    "repo": "claude-code-showcase",
+    "category": "development-tools",
+    "name": "claude-code-showcase",
+    "description": "Comprehensive Claude Code project configuration example with hooks, skills, agents, commands, and GitHub Actions workflows",
+    "tags": []
+  },
+  {
+    "owner": "Orchestra-Research",
+    "repo": "AI-Research-SKILLs",
+    "category": "ai-llm",
+    "name": "AI-Research-SKILLs",
+    "description": "Comprehensive open-source library of AI research and engineering skills for any AI model. Package the skills and your claude code/codex/gemini agent will be an AI research agent with full horsepower. Maintained by Orchestra Research.",
+    "tags": [
+      "ai",
+      "ai-research",
+      "claude",
+      "claude-code",
+      "claude-skills"
+    ]
+  },
+  {
+    "owner": "op7418",
+    "repo": "Humanizer-zh",
+    "category": "ai-llm",
+    "name": "Humanizer-zh",
+    "description": "Humanizer 的汉化版本，Claude Code Skills，旨在消除文本中 AI 生成的痕迹。",
+    "tags": []
+  },
+  {
+    "owner": "PleasePrompto",
+    "repo": "notebooklm-skill",
+    "category": "document-processing",
+    "name": "notebooklm-skill",
+    "description": "Use this skill to enable Claude Code to communicate directly with your Google NotebookLM notebooks. Query your uploaded documents and get source-grounded, citation-backed answers from Gemini. Features browser automation, library management, persistent authentication, and answers exclusively from your own knowledge base.",
+    "tags": []
+  },
+  {
+    "owner": "trailofbits",
+    "repo": "skills",
+    "category": "security",
+    "name": "skills",
+    "description": "Trail of Bits Claude Code skills for security research, vulnerability detection, and audit workflows",
+    "tags": [
+      "agent-skills"
+    ]
+  },
+  {
+    "owner": "mukul975",
+    "repo": "Anthropic-Cybersecurity-Skills",
+    "category": "ai-llm",
+    "name": "Anthropic-Cybersecurity-Skills",
+    "description": "734+ structured cybersecurity skills for AI agents · MITRE ATT&CK mapped · agentskills.io open standard · Works with Claude Code, GitHub Copilot, OpenAI Codex CLI, Cursor, Gemini CLI & 20+ platforms · Penetration testing, DFIR, threat intel, cloud security & more · Apache 2.0",
+    "tags": [
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "cloud-security",
+      "cybersecurity"
+    ]
+  },
+  {
+    "owner": "zubair-trabzada",
+    "repo": "geo-seo-claude",
+    "category": "business-marketing",
+    "name": "geo-seo-claude",
+    "description": "GEO-first SEO skill for Claude Code. Comprehensive AI search optimization for any website — citability scoring, AI crawler analysis, brand authority, schema markup, platform-specific optimization, and PDF reports.  If you want learn how to sell this to real businesses, check out the skool community",
+    "tags": []
+  },
+  {
+    "owner": "twostraws",
+    "repo": "SwiftUI-Agent-Skill",
+    "category": "ai-llm",
+    "name": "SwiftUI-Agent-Skill",
+    "description": "SwiftUI agent skill for Claude Code, Codex, and other AI tools.",
+    "tags": []
+  },
+  {
+    "owner": "SamurAIGPT",
+    "repo": "Generative-Media-Skills",
+    "category": "creative-design",
+    "name": "Generative-Media-Skills",
+    "description": "Multi-modal Generative Media Skills for AI Agents (Claude Code, Cursor, Gemini CLI). High-quality image, video, and audio generation powered by muapi.ai.",
+    "tags": [
+      "agent-tools",
+      "ai-agents",
+      "ai-art",
+      "ai-music",
+      "ai-video"
+    ]
+  },
+  {
+    "owner": "wanshuiyin",
+    "repo": "Auto-claude-code-research-in-sleep",
+    "category": "ai-llm",
+    "name": "Auto-claude-code-research-in-sleep",
+    "description": "ARIS ⚔️ (Auto-Research-In-Sleep) — Lightweight Markdown-only skills for autonomous ML research: cross-model review loops, idea discovery, and experiment automation. No framework, no lock-in — works with Claude Code, Codex, OpenClaw, or any LLM agent.",
+    "tags": [
+      "ai-research",
+      "ai-tools",
+      "aris",
+      "autonomous-agent",
+      "claude"
+    ]
+  },
+  {
+    "owner": "AgriciDaniel",
+    "repo": "claude-seo",
+    "category": "ai-llm",
+    "name": "claude-seo",
+    "description": "Universal SEO skill for Claude Code. 13 sub-skills, 7 subagents, extensions system with DataForSEO MCP integration. Technical SEO, E-E-A-T, schema, GEO/AEO, and strategic planning.",
+    "tags": [
+      "ai-search",
+      "ai-tools",
+      "claude",
+      "claude-code",
+      "core-web-vitals"
+    ]
+  },
+  {
+    "owner": "czlonkowski",
+    "repo": "n8n-mcp",
+    "category": "automation",
+    "name": "n8n-mcp",
+    "description": "A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you ",
+    "tags": [
+      "mcp",
+      "mcp-server",
+      "n8n",
+      "workflows"
+    ]
+  },
+  {
+    "owner": "tadata-org",
+    "repo": "fastapi_mcp",
+    "category": "ai-llm",
+    "name": "fastapi_mcp",
+    "description": "Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with Auth!",
+    "tags": [
+      "ai",
+      "authentication",
+      "authorization",
+      "claude",
+      "cursor"
+    ]
+  },
+  {
+    "owner": "BeehiveInnovations",
+    "repo": "pal-mcp-server",
+    "category": "ai-llm",
+    "name": "pal-mcp-server",
+    "description": "The power of Claude Code / GeminiCLI / CodexCLI + [Gemini / OpenAI / OpenRouter / Azure / Grok / Ollama / Custom Model / All Of The Above] working as one.",
+    "tags": []
+  },
+  {
+    "owner": "hangwin",
+    "repo": "mcp-chrome",
+    "category": "ai-llm",
+    "name": "mcp-chrome",
+    "description": "Chrome MCP Server is a Chrome extension-based Model Context Protocol (MCP) server that exposes your Chrome browser functionality to AI assistants like Claude, enabling complex browser automation, content analysis, and semantic search.",
+    "tags": []
+  },
+  {
+    "owner": "idosal",
+    "repo": "git-mcp",
+    "category": "ai-llm",
+    "name": "git-mcp",
+    "description": "Put an end to code hallucinations! GitMCP is a free, open-source, remote MCP server for any GitHub project",
+    "tags": [
+      "agentic-ai",
+      "agents",
+      "ai",
+      "claude",
+      "copilot"
+    ]
+  },
+  {
+    "owner": "0x4m4",
+    "repo": "hexstrike-ai",
+    "category": "ai-llm",
+    "name": "hexstrike-ai",
+    "description": "HexStrike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) autonomously run 150+ cybersecurity tools for automated pentesting, vulnerability discovery, bug bounty automation, and security research. Seamlessly bridge LLMs with real-world offensive security capabilities.",
+    "tags": [
+      "0x4m4",
+      "ai",
+      "ai-agents",
+      "ai-cybersecurity",
+      "ai-hacking"
+    ]
+  },
+  {
+    "owner": "yzfly",
+    "repo": "Awesome-MCP-ZH",
+    "category": "development-tools",
+    "name": "Awesome-MCP-ZH",
+    "description": "MCP 资源精选， MCP指南，Claude MCP，MCP Servers, MCP Clients",
+    "tags": [
+      "claude",
+      "claude-mcp",
+      "deepseek",
+      "deepseek-mcp",
+      "mcp"
+    ]
+  },
+  {
+    "owner": "BrowserMCP",
+    "repo": "mcp",
+    "category": "ai-llm",
+    "name": "mcp",
+    "description": "Browser MCP is a Model Context Provider (MCP) server that allows AI applications to control your browser",
+    "tags": [
+      "browser-automation",
+      "browser-extension",
+      "claude",
+      "cursor",
+      "mcp"
+    ]
+  },
+  {
+    "owner": "firecrawl",
+    "repo": "firecrawl-mcp-server",
+    "category": "ai-llm",
+    "name": "firecrawl-mcp-server",
+    "description": "🔥 Official Firecrawl MCP Server - Adds powerful web scraping and search to Cursor, Claude and any other LLM clients.",
+    "tags": [
+      "batch-processing",
+      "claude",
+      "content-extraction",
+      "data-collection",
+      "firecrawl"
+    ]
+  },
+  {
+    "owner": "wonderwhy-er",
+    "repo": "DesktopCommanderMCP",
+    "category": "ai-llm",
+    "name": "DesktopCommanderMCP",
+    "description": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
+    "tags": [
+      "agent",
+      "ai",
+      "code-analysis",
+      "code-generation",
+      "mcp"
+    ]
+  },
+  {
+    "owner": "archestra-ai",
+    "repo": "archestra",
+    "category": "ai-llm",
+    "name": "archestra",
+    "description": "Enterprise AI Platform with guardrails, MCP registry, gateway & orchestrator",
+    "tags": [
+      "a2a",
+      "a2a-mcp",
+      "acp",
+      "agent",
+      "ai"
+    ]
+  },
+  {
+    "owner": "bytebase",
+    "repo": "dbhub",
+    "category": "data-analysis",
+    "name": "dbhub",
+    "description": "Zero-dependency, token-efficient database MCP server for Postgres, MySQL, SQL Server, MariaDB, SQLite.",
+    "tags": [
+      "agents",
+      "ai",
+      "anthropic",
+      "claude",
+      "claude-ai"
+    ]
+  },
+  {
+    "owner": "jamubc",
+    "repo": "gemini-mcp-tool",
+    "category": "ai-llm",
+    "name": "gemini-mcp-tool",
+    "description": "MCP server that enables AI assistants to interact with Google Gemini CLI, leveraging Gemini's massive token window for large file analysis and codebase understanding",
+    "tags": [
+      "ai",
+      "claude",
+      "cli",
+      "codebase-analysis",
+      "file-analysis"
+    ]
+  },
+  {
+    "owner": "cyberagiinc",
+    "repo": "DevDocs",
+    "category": "web-scraping",
+    "name": "DevDocs",
+    "description": "Completely free, private, UI based Tech Documentation MCP server. Designed for coders and software developers in mind. Easily integrate into Cursor, Windsurf, Cline, Roo Code, Claude Desktop App ",
+    "tags": [
+      "cline",
+      "crawl4ai",
+      "cursor",
+      "documentation",
+      "llm"
+    ]
+  },
+  {
+    "owner": "timescale",
+    "repo": "pg-aiguide",
+    "category": "ai-llm",
+    "name": "pg-aiguide",
+    "description": "MCP server and Claude plugin for Postgres skills and documentation. Helps AI coding tools generate better PostgreSQL code.",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "ai-coding",
+      "claude-code-plugin",
+      "claude-code-plugins"
+    ]
+  },
+  {
+    "owner": "chongdashu",
+    "repo": "unreal-mcp",
+    "category": "ai-llm",
+    "name": "unreal-mcp",
+    "description": "Enable AI assistant clients like Cursor, Windsurf and Claude Desktop to control Unreal Engine through natural language using the Model Context Protocol (MCP).",
+    "tags": [
+      "mcp-server",
+      "modelcontextprotocol",
+      "unreal-engine-5"
+    ]
+  },
+  {
+    "owner": "doobidoo",
+    "repo": "mcp-memory-service",
+    "category": "ai-llm",
+    "name": "mcp-memory-service",
+    "description": "Open-source persistent memory for AI agent pipelines (LangGraph, CrewAI, AutoGen) and Claude. REST API + knowledge graph + autonomous consolidation.",
+    "tags": [
+      "agent-memory",
+      "agentic-ai",
+      "ai-agents",
+      "autogen",
+      "claude"
+    ]
+  },
+  {
+    "owner": "PleasePrompto",
+    "repo": "notebooklm-mcp",
+    "category": "ai-llm",
+    "name": "notebooklm-mcp",
+    "description": "MCP server for NotebookLM - Let your AI agents (Claude Code, Codex) research documentation directly with grounded, citation-backed answers from Gemini. Persistent auth, library management, cross-client sharing. Zero hallucinations, just your knowledge base.",
+    "tags": []
+  },
+  {
+    "owner": "yctimlin",
+    "repo": "mcp_excalidraw",
+    "category": "ai-llm",
+    "name": "mcp_excalidraw",
+    "description": "MCP server and Claude Code skill for Excalidraw — programmatic canvas toolkit to create, edit, and export diagrams via AI agents with real-time canvas sync.",
+    "tags": []
+  },
+  {
+    "owner": "IvanMurzak",
+    "repo": "Unity-MCP",
+    "category": "ai-llm",
+    "name": "Unity-MCP",
+    "description": "AI Skills, MCP Tools, and CLI for Unity Engine. Full AI develop and test loop. Use cli for quick setup. Efficient token usage, advanced tools. Any C# method may be turned into a tool by a single line. Works with Claude Code, Gemini, Copilot, Cursor and any other absolutely for free.",
+    "tags": [
+      "ai",
+      "ai-integration",
+      "anthropic",
+      "claude",
+      "claude-code"
+    ]
+  },
+  {
+    "owner": "wesammustafa",
+    "repo": "Claude-Code-Everything-You-Need-to-Know",
+    "category": "automation",
+    "name": "Claude-Code-Everything-You-Need-to-Know",
+    "description": "The ultimate all-in-one guide to mastering Claude Code. From setup, prompt engineering, commands, hooks, workflows, automation, and integrations, to MCP servers, tools, and the BMAD method—packed with step-by-step tutorials, real-world examples, and expert strategies to make this the global go-to repo for Claude mastery.",
+    "tags": []
+  },
+  {
+    "owner": "qdrant",
+    "repo": "mcp-server-qdrant",
+    "category": "ai-llm",
+    "name": "mcp-server-qdrant",
+    "description": "An official Qdrant Model Context Protocol (MCP) server implementation",
+    "tags": [
+      "claude",
+      "cursor",
+      "llm",
+      "mcp",
+      "mcp-server"
+    ]
+  },
+  {
+    "owner": "ComposioHQ",
+    "repo": "awesome-claude-plugins",
+    "category": "ai-llm",
+    "name": "awesome-claude-plugins",
+    "description": "A curated list of Plugins that let you extend Claude Code with custom commands, agents, hooks, and MCP servers through the plugin system.",
+    "tags": [
+      "anthropic",
+      "claude-ai",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-plugin-marketplace"
+    ]
+  },
+  {
+    "owner": "jgravelle",
+    "repo": "jcodemunch-mcp",
+    "category": "business-marketing",
+    "name": "jcodemunch-mcp",
+    "description": "The leading, most token-efficient MCP server for GitHub source code exploration via tree-sitter AST parsing",
+    "tags": [
+      "claude",
+      "claude-code",
+      "serena",
+      "token",
+      "token-savings"
+    ]
+  },
+  {
+    "owner": "anthropics",
+    "repo": "skills",
+    "path": "skills/claude-api",
+    "category": "ai-llm",
+    "name": "claude-api",
+    "description": "Skill from anthropics/skills",
+    "tags": [
+      "agent-skills"
+    ]
+  },
+  {
+    "owner": "anthropics",
+    "repo": "skills",
+    "path": "skills/doc-coauthoring",
+    "category": "security",
+    "name": "doc-coauthoring",
+    "description": "Skill from anthropics/skills",
+    "tags": [
+      "agent-skills"
+    ]
+  },
+  {
+    "owner": "anthropics",
+    "repo": "skills",
+    "path": "skills/theme-factory",
+    "category": "ai-llm",
+    "name": "theme-factory",
+    "description": "Skill from anthropics/skills",
+    "tags": [
+      "agent-skills"
+    ]
+  },
+  {
+    "owner": "anthropics",
+    "repo": "skills",
+    "path": "skills/web-artifacts-builder",
+    "category": "ai-llm",
+    "name": "web-artifacts-builder",
+    "description": "Skill from anthropics/skills",
+    "tags": [
+      "agent-skills"
+    ]
+  },
+  {
+    "owner": "anthropics",
+    "repo": "skills",
+    "path": "template",
+    "category": "ai-llm",
+    "name": "template",
+    "description": "Skill from anthropics/skills",
+    "tags": [
+      "agent-skills"
+    ]
   }
 ]
