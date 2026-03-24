@@ -7923,5 +7923,33 @@
       "codex-skills",
       "knowledge-graph"
     ]
+  },
+  {
+    "owner": "andyzengmath",
+    "repo": "quantum-loop",
+    "category": "ai-llm",
+    "name": "quantum-loop",
+    "description": "Spec-driven autonomous development loop for Claude Code. Combines structured PRD generation, dependency DAG execution, two-stage review gates, and Iron Law verification.",
+    "tags": [
+      "agent-skills",
+      "agentskills",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill"
+    ]
+  },
+  {
+    "owner": "Donchitos",
+    "repo": "Claude-Code-Game-Studios",
+    "category": "ai-llm",
+    "name": "Claude-Code-Game-Studios",
+    "description": "Turn Claude Code into a full game dev studio — 48 AI agents, 36 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
+    "tags": [
+      "ai-agents",
+      "ai-assisted-development",
+      "anthropic",
+      "claude",
+      "claude-code"
+    ]
   }
 ]

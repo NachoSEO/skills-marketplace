@@ -566,14 +566,14 @@
   {
     "slug": "theme-factory",
     "aiDescription": "",
-    "stars": 99447,
-    "forks": 10814,
-    "watchers": 704,
+    "stars": 100357,
+    "forks": 10943,
+    "watchers": 701,
     "language": "Python",
     "license": null,
     "createdAt": "2025-09-22T15:53:31Z",
-    "updatedAt": "2026-03-22T06:48:32Z",
-    "lastFetched": "2026-03-22T06:48:36.577Z"
+    "updatedAt": "2026-03-23T07:08:29Z",
+    "lastFetched": "2026-03-23T07:09:12.934Z"
   },
   {
     "slug": "awesome-claude-agents",
@@ -602,50 +602,50 @@
   {
     "slug": "claude-code-templates",
     "aiDescription": "Collection of starter templates for common Claude Code project patterns. Jumpstart projects with pre-configured templates for various use cases.",
-    "stars": 2,
-    "forks": 0,
-    "watchers": 0,
-    "language": null,
+    "stars": 23394,
+    "forks": 2243,
+    "watchers": 154,
+    "language": "Python",
     "license": "MIT",
-    "createdAt": "2025-11-24T12:17:53Z",
-    "updatedAt": "2025-12-30T19:28:17Z",
-    "lastFetched": "2026-03-23T07:05:51.375Z"
+    "createdAt": "2025-07-04T01:26:26Z",
+    "updatedAt": "2026-03-23T06:55:37Z",
+    "lastFetched": "2026-03-23T07:06:33.376Z"
   },
   {
     "slug": "crawl4ai-web-scraping",
     "aiDescription": "",
-    "stars": 14,
+    "stars": 15,
     "forks": 8,
     "watchers": 0,
     "language": "Python",
     "license": "MIT",
     "createdAt": "2025-12-03T03:12:37Z",
-    "updatedAt": "2026-03-20T03:07:28Z",
-    "lastFetched": "2026-03-23T07:05:52.400Z"
+    "updatedAt": "2026-03-23T22:13:08Z",
+    "lastFetched": "2026-03-24T07:00:16.659Z"
   },
   {
     "slug": "claudekit-skills",
     "aiDescription": "",
-    "stars": 1877,
+    "stars": 1882,
     "forks": 374,
     "watchers": 27,
     "language": "Python",
     "license": null,
     "createdAt": "2025-10-23T04:43:54Z",
-    "updatedAt": "2026-03-22T22:03:57Z",
-    "lastFetched": "2026-03-23T07:05:52.897Z"
+    "updatedAt": "2026-03-24T03:15:37Z",
+    "lastFetched": "2026-03-24T07:00:17.298Z"
   },
   {
     "slug": "n8n-workflow-skills",
     "aiDescription": "",
-    "stars": 3700,
-    "forks": 644,
+    "stars": 3738,
+    "forks": 647,
     "watchers": 49,
     "language": "Shell",
     "license": "MIT",
     "createdAt": "2025-10-20T05:51:27Z",
-    "updatedAt": "2026-03-23T06:35:17Z",
-    "lastFetched": "2026-03-23T07:05:53.395Z"
+    "updatedAt": "2026-03-24T06:51:05Z",
+    "lastFetched": "2026-03-24T07:00:17.922Z"
   },
   {
     "slug": "n8n-workflow-builder",
@@ -657,19 +657,19 @@
     "license": "MIT",
     "createdAt": "2025-01-14T21:43:54Z",
     "updatedAt": "2026-03-20T18:26:11Z",
-    "lastFetched": "2026-03-23T07:05:53.903Z"
+    "lastFetched": "2026-03-24T07:00:18.670Z"
   },
   {
     "slug": "seo-machine",
     "aiDescription": "",
-    "stars": 2845,
-    "forks": 470,
-    "watchers": 37,
+    "stars": 2862,
+    "forks": 473,
+    "watchers": 39,
     "language": "Python",
     "license": "MIT",
     "createdAt": "2025-10-29T20:50:23Z",
-    "updatedAt": "2026-03-23T04:06:21Z",
-    "lastFetched": "2026-03-23T07:05:54.364Z"
+    "updatedAt": "2026-03-24T06:03:02Z",
+    "lastFetched": "2026-03-24T07:00:19.332Z"
   },
   {
     "slug": "claude-code-seo",
@@ -681,19 +681,19 @@
     "license": "MIT",
     "createdAt": "2026-01-04T09:13:34Z",
     "updatedAt": "2026-03-20T20:28:31Z",
-    "lastFetched": "2026-03-23T07:05:54.854Z"
+    "lastFetched": "2026-03-24T07:00:19.940Z"
   },
   {
     "slug": "content-seo-skills",
     "aiDescription": "",
-    "stars": 12,
+    "stars": 13,
     "forks": 0,
     "watchers": 2,
     "language": "Python",
     "license": "MIT",
     "createdAt": "2025-11-29T02:11:27Z",
-    "updatedAt": "2026-03-22T12:02:40Z",
-    "lastFetched": "2026-03-23T07:05:59.082Z"
+    "updatedAt": "2026-03-24T06:50:53Z",
+    "lastFetched": "2026-03-24T07:00:20.612Z"
   },
   {
     "slug": "i18n-ai-translate",
@@ -705,7 +705,7 @@
     "license": "GPL-3.0",
     "createdAt": "2023-07-27T02:03:01Z",
     "updatedAt": "2026-03-18T23:47:51Z",
-    "lastFetched": "2026-03-23T07:05:59.741Z"
+    "lastFetched": "2026-03-24T07:00:21.736Z"
   },
   {
     "slug": "translations",
@@ -716,8 +716,8 @@
     "language": "TypeScript",
     "license": "MIT",
     "createdAt": "2025-01-30T16:45:53Z",
-    "updatedAt": "2026-03-22T20:02:25Z",
-    "lastFetched": "2026-03-23T07:06:00.437Z"
+    "updatedAt": "2026-03-24T01:14:25Z",
+    "lastFetched": "2026-03-24T07:00:22.780Z"
   },
   {
     "slug": "apple-hig-designer",
@@ -729,31 +729,31 @@
     "license": "MIT",
     "createdAt": "2025-12-12T16:36:56Z",
     "updatedAt": "2026-03-20T07:19:18Z",
-    "lastFetched": "2026-03-23T07:06:00.951Z"
+    "lastFetched": "2026-03-24T07:00:23.463Z"
   },
   {
     "slug": "agent-skills-for-context-engineering",
     "aiDescription": "",
-    "stars": 14198,
-    "forks": 1104,
+    "stars": 14265,
+    "forks": 1116,
     "watchers": 84,
     "language": "Python",
     "license": "MIT",
     "createdAt": "2025-12-21T02:43:42Z",
-    "updatedAt": "2026-03-23T06:51:00Z",
-    "lastFetched": "2026-03-23T07:06:01.492Z"
+    "updatedAt": "2026-03-24T06:31:36Z",
+    "lastFetched": "2026-03-24T07:00:24.120Z"
   },
   {
     "slug": "security-list",
     "aiDescription": "",
-    "stars": 1523,
+    "stars": 1522,
     "forks": 461,
     "watchers": 49,
     "language": null,
     "license": null,
     "createdAt": "2018-01-04T05:44:58Z",
-    "updatedAt": "2026-03-17T17:01:51Z",
-    "lastFetched": "2026-03-23T07:06:02.091Z"
+    "updatedAt": "2026-03-23T08:11:06Z",
+    "lastFetched": "2026-03-24T07:00:25.101Z"
   },
   {
     "slug": "hitchhikers-guide",
@@ -765,7 +765,7 @@
     "license": "CC0-1.0",
     "createdAt": "2021-03-11T00:48:34Z",
     "updatedAt": "2026-03-15T08:24:48Z",
-    "lastFetched": "2026-03-23T07:06:02.701Z"
+    "lastFetched": "2026-03-24T07:00:25.810Z"
   },
   {
     "slug": "entice",
@@ -777,7 +777,7 @@
     "license": "WTFPL",
     "createdAt": "2013-08-18T01:07:59Z",
     "updatedAt": "2026-02-15T18:10:00Z",
-    "lastFetched": "2026-03-23T07:06:03.411Z"
+    "lastFetched": "2026-03-24T07:00:28.818Z"
   },
   {
     "slug": "proxy-pool",
@@ -789,31 +789,31 @@
     "license": "Apache-2.0",
     "createdAt": "2024-11-26T12:57:48Z",
     "updatedAt": "2026-03-23T05:28:37Z",
-    "lastFetched": "2026-03-23T07:06:03.938Z"
+    "lastFetched": "2026-03-24T07:00:29.443Z"
   },
   {
     "slug": "patentwriteragent",
     "aiDescription": "",
-    "stars": 472,
+    "stars": 473,
     "forks": 98,
     "watchers": 1,
     "language": "Mermaid",
     "license": "AGPL-3.0",
     "createdAt": "2025-10-21T03:14:53Z",
-    "updatedAt": "2026-03-23T04:13:59Z",
-    "lastFetched": "2026-03-23T07:06:04.452Z"
+    "updatedAt": "2026-03-23T07:17:10Z",
+    "lastFetched": "2026-03-24T07:00:30.167Z"
   },
   {
     "slug": "mcp-agent-mail",
     "aiDescription": "",
-    "stars": 1837,
-    "forks": 188,
+    "stars": 1842,
+    "forks": 189,
     "watchers": 17,
     "language": "Python",
     "license": "NOASSERTION",
     "createdAt": "2025-10-23T03:42:36Z",
-    "updatedAt": "2026-03-23T02:01:55Z",
-    "lastFetched": "2026-03-23T07:06:04.964Z"
+    "updatedAt": "2026-03-24T03:54:16Z",
+    "lastFetched": "2026-03-24T07:00:30.896Z"
   },
   {
     "slug": "notes",
@@ -825,7 +825,7 @@
     "license": "CC-BY-SA-4.0",
     "createdAt": "2021-09-21T05:40:57Z",
     "updatedAt": "2026-03-20T11:44:43Z",
-    "lastFetched": "2026-03-23T07:06:06.031Z"
+    "lastFetched": "2026-03-24T07:00:32.119Z"
   },
   {
     "slug": "git-bak",
@@ -837,7 +837,7 @@
     "license": null,
     "createdAt": "2014-12-31T03:16:01Z",
     "updatedAt": "2024-10-05T06:49:00Z",
-    "lastFetched": "2026-03-23T07:06:06.725Z"
+    "lastFetched": "2026-03-24T07:00:33.121Z"
   },
   {
     "slug": "azure-ai-search-workshop",
@@ -849,7 +849,7 @@
     "license": "MIT",
     "createdAt": "2021-06-21T01:47:32Z",
     "updatedAt": "2026-03-13T07:11:00Z",
-    "lastFetched": "2026-03-23T07:06:07.324Z"
+    "lastFetched": "2026-03-24T07:00:33.821Z"
   },
   {
     "slug": "zai-glm-skills",
@@ -861,7 +861,7 @@
     "license": null,
     "createdAt": "2026-01-07T18:31:40Z",
     "updatedAt": "2026-01-12T17:50:02Z",
-    "lastFetched": "2026-03-23T07:06:07.956Z"
+    "lastFetched": "2026-03-24T07:00:34.908Z"
   },
   {
     "slug": "transit-project-ideas",
@@ -873,7 +873,7 @@
     "license": null,
     "createdAt": "2020-08-21T16:15:29Z",
     "updatedAt": "2024-11-04T07:15:54Z",
-    "lastFetched": "2026-03-23T07:06:09.747Z"
+    "lastFetched": "2026-03-24T07:00:35.926Z"
   },
   {
     "slug": "tpmjs",
@@ -884,8 +884,8 @@
     "language": "TypeScript",
     "license": "MIT",
     "createdAt": "2025-11-25T00:05:16Z",
-    "updatedAt": "2026-03-23T07:01:59Z",
-    "lastFetched": "2026-03-23T07:06:10.314Z"
+    "updatedAt": "2026-03-23T07:13:00Z",
+    "lastFetched": "2026-03-24T07:00:36.695Z"
   },
   {
     "slug": "git-master-1",
@@ -897,7 +897,7 @@
     "license": null,
     "createdAt": "2018-10-24T15:31:30Z",
     "updatedAt": "2025-09-23T13:08:17Z",
-    "lastFetched": "2026-03-23T07:06:10.955Z"
+    "lastFetched": "2026-03-24T07:00:37.645Z"
   },
   {
     "slug": "aam",
@@ -909,7 +909,7 @@
     "license": "MIT",
     "createdAt": "2021-06-19T16:21:51Z",
     "updatedAt": "2026-01-23T22:30:05Z",
-    "lastFetched": "2026-03-23T07:06:11.610Z"
+    "lastFetched": "2026-03-24T07:00:38.443Z"
   },
   {
     "slug": "swoole-doc",
@@ -921,7 +921,7 @@
     "license": null,
     "createdAt": "2017-08-05T03:18:44Z",
     "updatedAt": "2018-12-20T06:06:38Z",
-    "lastFetched": "2026-03-23T07:06:12.267Z"
+    "lastFetched": "2026-03-24T07:00:39.505Z"
   },
   {
     "slug": "my-personal-notes",
@@ -933,7 +933,7 @@
     "license": null,
     "createdAt": "2019-08-23T07:11:52Z",
     "updatedAt": "2024-08-21T00:31:48Z",
-    "lastFetched": "2026-03-23T07:06:12.887Z"
+    "lastFetched": "2026-03-24T07:00:40.487Z"
   },
   {
     "slug": "aws-associate-solutions-architect",
@@ -945,7 +945,7 @@
     "license": null,
     "createdAt": "2016-11-26T00:33:34Z",
     "updatedAt": "2019-07-18T12:06:40Z",
-    "lastFetched": "2026-03-23T07:06:13.563Z"
+    "lastFetched": "2026-03-24T07:00:41.413Z"
   },
   {
     "slug": "tweakcc-system-prompts",
@@ -957,7 +957,7 @@
     "license": null,
     "createdAt": "2025-10-22T23:14:41Z",
     "updatedAt": "2026-02-27T14:34:04Z",
-    "lastFetched": "2026-03-23T07:06:15.588Z"
+    "lastFetched": "2026-03-24T07:00:42.199Z"
   },
   {
     "slug": "notes",
@@ -969,7 +969,7 @@
     "license": null,
     "createdAt": "2022-09-27T22:22:44Z",
     "updatedAt": "2025-12-01T11:47:47Z",
-    "lastFetched": "2026-03-23T07:06:16.149Z"
+    "lastFetched": "2026-03-24T07:00:42.857Z"
   },
   {
     "slug": "htmx-skill",
@@ -981,7 +981,7 @@
     "license": "Apache-2.0",
     "createdAt": "2026-01-01T22:19:36Z",
     "updatedAt": "2026-02-07T21:39:29Z",
-    "lastFetched": "2026-03-23T07:06:16.673Z"
+    "lastFetched": "2026-03-24T07:00:44.209Z"
   },
   {
     "slug": "llm-fmt-project",
@@ -993,7 +993,7 @@
     "license": "MIT",
     "createdAt": "2025-12-22T14:20:39Z",
     "updatedAt": "2026-02-22T22:07:12Z",
-    "lastFetched": "2026-03-23T07:06:17.202Z"
+    "lastFetched": "2026-03-24T07:00:44.914Z"
   },
   {
     "slug": "blog-posts",
@@ -1005,7 +1005,7 @@
     "license": null,
     "createdAt": "2024-08-03T10:31:42Z",
     "updatedAt": "2024-11-01T09:39:19Z",
-    "lastFetched": "2026-03-23T07:06:17.749Z"
+    "lastFetched": "2026-03-24T07:00:45.714Z"
   },
   {
     "slug": "atomiccommit-pro",
@@ -1017,7 +1017,7 @@
     "license": null,
     "createdAt": "2026-01-16T05:14:06Z",
     "updatedAt": "2026-01-16T06:58:59Z",
-    "lastFetched": "2026-03-23T07:06:18.223Z"
+    "lastFetched": "2026-03-24T07:00:46.381Z"
   },
   {
     "slug": "jeffreysprompts-com",
@@ -1029,7 +1029,7 @@
     "license": "NOASSERTION",
     "createdAt": "2026-01-09T21:47:18Z",
     "updatedAt": "2026-03-22T20:49:54Z",
-    "lastFetched": "2026-03-23T07:06:18.731Z"
+    "lastFetched": "2026-03-24T07:00:47.062Z"
   },
   {
     "slug": "claude-code-prompt-coach-skill",
@@ -1041,7 +1041,7 @@
     "license": null,
     "createdAt": "2025-11-09T11:09:39Z",
     "updatedAt": "2026-03-16T07:17:20Z",
-    "lastFetched": "2026-03-23T07:06:19.279Z"
+    "lastFetched": "2026-03-24T07:00:47.762Z"
   },
   {
     "slug": "notes",
@@ -1053,7 +1053,7 @@
     "license": null,
     "createdAt": "2022-07-13T13:46:09Z",
     "updatedAt": "2022-07-13T13:46:09Z",
-    "lastFetched": "2026-03-23T07:06:19.797Z"
+    "lastFetched": "2026-03-24T07:00:48.520Z"
   },
   {
     "slug": "javascript",
@@ -1065,7 +1065,7 @@
     "license": null,
     "createdAt": "2023-08-07T09:07:23Z",
     "updatedAt": "2025-05-12T12:33:37Z",
-    "lastFetched": "2026-03-23T07:06:20.358Z"
+    "lastFetched": "2026-03-24T07:00:49.191Z"
   },
   {
     "slug": "meeting-notes",
@@ -1077,7 +1077,7 @@
     "license": null,
     "createdAt": "2018-08-01T08:35:11Z",
     "updatedAt": "2018-10-18T20:31:02Z",
-    "lastFetched": "2026-03-23T07:06:21.165Z"
+    "lastFetched": "2026-03-24T07:00:50.240Z"
   },
   {
     "slug": "skills",
@@ -1089,7 +1089,7 @@
     "license": null,
     "createdAt": "2025-11-13T20:05:56Z",
     "updatedAt": "2025-11-13T20:36:07Z",
-    "lastFetched": "2026-03-23T07:06:21.705Z"
+    "lastFetched": "2026-03-24T07:00:50.922Z"
   },
   {
     "slug": "vscodenote",
@@ -1101,7 +1101,7 @@
     "license": null,
     "createdAt": "2025-11-14T06:46:39Z",
     "updatedAt": "2025-11-25T00:52:48Z",
-    "lastFetched": "2026-03-23T07:06:22.239Z"
+    "lastFetched": "2026-03-24T07:00:51.596Z"
   },
   {
     "slug": "confluence-md",
@@ -1113,7 +1113,7 @@
     "license": null,
     "createdAt": "2025-11-02T19:19:06Z",
     "updatedAt": "2026-01-22T15:52:24Z",
-    "lastFetched": "2026-03-23T07:06:22.740Z"
+    "lastFetched": "2026-03-24T07:00:52.271Z"
   },
   {
     "slug": "calhacks-agenticrobot",
@@ -1125,7 +1125,7 @@
     "license": null,
     "createdAt": "2025-10-25T06:56:02Z",
     "updatedAt": "2026-03-17T08:26:40Z",
-    "lastFetched": "2026-03-23T07:06:23.272Z"
+    "lastFetched": "2026-03-24T07:00:52.951Z"
   },
   {
     "slug": "ha-omlet-integration",
@@ -1137,7 +1137,7 @@
     "license": "MIT",
     "createdAt": "2024-12-27T12:19:27Z",
     "updatedAt": "2026-03-04T19:10:27Z",
-    "lastFetched": "2026-03-23T07:06:23.725Z"
+    "lastFetched": "2026-03-24T07:00:53.596Z"
   },
   {
     "slug": "tnotes-en-words",
@@ -1149,7 +1149,7 @@
     "license": "NOASSERTION",
     "createdAt": "2024-10-26T10:05:13Z",
     "updatedAt": "2025-12-23T15:32:08Z",
-    "lastFetched": "2026-03-23T07:06:24.656Z"
+    "lastFetched": "2026-03-24T07:00:54.783Z"
   },
   {
     "slug": "mcp-builder-skill",
@@ -1161,7 +1161,7 @@
     "license": null,
     "createdAt": "2025-11-10T13:54:43Z",
     "updatedAt": "2025-11-10T13:55:37Z",
-    "lastFetched": "2026-03-23T07:06:25.143Z"
+    "lastFetched": "2026-03-24T07:00:55.459Z"
   },
   {
     "slug": "function-builder",
@@ -1173,7 +1173,7 @@
     "license": null,
     "createdAt": "2025-12-17T09:38:11Z",
     "updatedAt": "2025-12-19T19:07:45Z",
-    "lastFetched": "2026-03-23T07:06:25.686Z"
+    "lastFetched": "2026-03-24T07:00:56.192Z"
   },
   {
     "slug": "auto-review-agent",
@@ -1185,7 +1185,7 @@
     "license": null,
     "createdAt": "2025-11-03T14:24:07Z",
     "updatedAt": "2025-11-07T09:18:06Z",
-    "lastFetched": "2026-03-23T07:06:26.260Z"
+    "lastFetched": "2026-03-24T07:00:56.857Z"
   },
   {
     "slug": "studynotebook",
@@ -1197,7 +1197,7 @@
     "license": null,
     "createdAt": "2021-01-21T03:27:03Z",
     "updatedAt": "2025-03-02T12:14:55Z",
-    "lastFetched": "2026-03-23T07:06:27.008Z"
+    "lastFetched": "2026-03-24T07:00:57.718Z"
   },
   {
     "slug": "murf-ai-agent",
@@ -1209,103 +1209,103 @@
     "license": null,
     "createdAt": "2025-08-29T18:10:43Z",
     "updatedAt": "2025-08-31T13:03:06Z",
-    "lastFetched": "2026-03-23T07:06:27.748Z"
+    "lastFetched": "2026-03-24T07:00:58.600Z"
   },
   {
     "slug": "agentscope-java",
     "aiDescription": "",
-    "stars": 2080,
-    "forks": 428,
-    "watchers": 19,
+    "stars": 2140,
+    "forks": 438,
+    "watchers": 20,
     "language": "Java",
     "license": null,
     "createdAt": "2025-09-23T04:37:43Z",
-    "updatedAt": "2026-03-23T06:20:14Z",
-    "lastFetched": "2026-03-23T07:06:28.361Z"
+    "updatedAt": "2026-03-24T06:59:50Z",
+    "lastFetched": "2026-03-24T07:00:59.300Z"
   },
   {
     "slug": "cherry-studio",
     "aiDescription": "",
-    "stars": 42101,
-    "forks": 3935,
-    "watchers": 183,
+    "stars": 42185,
+    "forks": 3942,
+    "watchers": 182,
     "language": "TypeScript",
     "license": "AGPL-3.0",
     "createdAt": "2024-05-24T01:56:26Z",
-    "updatedAt": "2026-03-23T07:01:34Z",
-    "lastFetched": "2026-03-23T07:06:29.032Z"
+    "updatedAt": "2026-03-24T07:00:36Z",
+    "lastFetched": "2026-03-24T07:00:59.999Z"
   },
   {
     "slug": "agents",
     "aiDescription": "",
-    "stars": 32021,
-    "forks": 3490,
+    "stars": 32124,
+    "forks": 3506,
     "watchers": 313,
     "language": "Python",
     "license": "MIT",
     "createdAt": "2025-07-24T23:28:14Z",
-    "updatedAt": "2026-03-23T07:00:38Z",
-    "lastFetched": "2026-03-23T07:06:29.558Z"
+    "updatedAt": "2026-03-24T06:53:27Z",
+    "lastFetched": "2026-03-24T07:01:00.651Z"
   },
   {
     "slug": "awesome-claude-code",
     "aiDescription": "",
-    "stars": 30361,
-    "forks": 2117,
-    "watchers": 223,
+    "stars": 31247,
+    "forks": 2179,
+    "watchers": 230,
     "language": "Python",
     "license": "NOASSERTION",
     "createdAt": "2025-04-19T20:55:59Z",
-    "updatedAt": "2026-03-23T07:00:32Z",
-    "lastFetched": "2026-03-23T07:06:30.033Z"
+    "updatedAt": "2026-03-24T07:00:58Z",
+    "lastFetched": "2026-03-24T07:01:01.326Z"
   },
   {
     "slug": "awesome-claude-skills",
     "aiDescription": "",
-    "stars": 47027,
-    "forks": 4821,
-    "watchers": 326,
+    "stars": 47324,
+    "forks": 4866,
+    "watchers": 327,
     "language": "Python",
     "license": null,
     "createdAt": "2025-10-17T07:15:01Z",
-    "updatedAt": "2026-03-23T07:05:51Z",
-    "lastFetched": "2026-03-23T07:06:30.744Z"
+    "updatedAt": "2026-03-24T07:00:38Z",
+    "lastFetched": "2026-03-24T07:01:02.290Z"
   },
   {
     "slug": "opcode",
     "aiDescription": "",
-    "stars": 21056,
-    "forks": 1621,
+    "stars": 21080,
+    "forks": 1620,
     "watchers": 99,
     "language": "TypeScript",
     "license": "AGPL-3.0",
     "createdAt": "2025-06-19T13:53:26Z",
-    "updatedAt": "2026-03-23T07:03:36Z",
-    "lastFetched": "2026-03-23T07:06:31.285Z"
+    "updatedAt": "2026-03-24T06:26:22Z",
+    "lastFetched": "2026-03-24T07:01:02.935Z"
   },
   {
     "slug": "serena",
     "aiDescription": "",
-    "stars": 21939,
-    "forks": 1473,
+    "stars": 21992,
+    "forks": 1474,
     "watchers": 77,
     "language": "Python",
     "license": "MIT",
     "createdAt": "2025-03-23T22:35:24Z",
-    "updatedAt": "2026-03-23T05:17:30Z",
-    "lastFetched": "2026-03-23T07:06:31.834Z"
+    "updatedAt": "2026-03-24T06:43:43Z",
+    "lastFetched": "2026-03-24T07:01:04.188Z"
   },
   {
     "slug": "oh-my-opencode",
     "aiDescription": "",
-    "stars": 42563,
-    "forks": 3165,
+    "stars": 42920,
+    "forks": 3186,
     "watchers": 168,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "createdAt": "2025-12-03T01:40:05Z",
-    "updatedAt": "2026-03-23T07:06:10Z",
-    "lastFetched": "2026-03-23T07:06:32.816Z"
+    "updatedAt": "2026-03-24T06:58:32Z",
+    "lastFetched": "2026-03-24T07:01:05.593Z"
   },
   {
     "slug": "claude-code-templates",
@@ -1322,362 +1322,362 @@
   {
     "slug": "ui-ux-pro-max-skill",
     "aiDescription": "",
-    "stars": 48329,
-    "forks": 4697,
-    "watchers": 252,
+    "stars": 49216,
+    "forks": 4760,
+    "watchers": 254,
     "language": "Python",
     "license": "MIT",
     "createdAt": "2025-11-30T11:36:31Z",
-    "updatedAt": "2026-03-23T07:06:19Z",
-    "lastFetched": "2026-03-23T07:06:33.882Z"
+    "updatedAt": "2026-03-24T06:59:34Z",
+    "lastFetched": "2026-03-24T07:01:06.660Z"
   },
   {
     "slug": "learn-claude-code",
     "aiDescription": "",
-    "stars": 36344,
-    "forks": 5806,
-    "watchers": 194,
+    "stars": 37430,
+    "forks": 5925,
+    "watchers": 197,
     "language": "TypeScript",
     "license": "MIT",
     "createdAt": "2025-06-29T15:34:15Z",
-    "updatedAt": "2026-03-23T07:04:29Z",
-    "lastFetched": "2026-03-23T07:06:34.385Z"
+    "updatedAt": "2026-03-24T06:59:05Z",
+    "lastFetched": "2026-03-24T07:01:07.375Z"
   },
   {
     "slug": "claude-mem",
     "aiDescription": "",
-    "stars": 39600,
-    "forks": 2905,
-    "watchers": 168,
+    "stars": 40007,
+    "forks": 2940,
+    "watchers": 167,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "createdAt": "2025-08-31T20:50:03Z",
-    "updatedAt": "2026-03-23T07:05:53Z",
-    "lastFetched": "2026-03-23T07:06:34.878Z"
+    "updatedAt": "2026-03-24T06:59:20Z",
+    "lastFetched": "2026-03-24T07:01:08.014Z"
   },
   {
     "slug": "claude-flow",
     "aiDescription": "",
-    "stars": 22730,
-    "forks": 2473,
-    "watchers": 225,
+    "stars": 24260,
+    "forks": 2646,
+    "watchers": 249,
     "language": "TypeScript",
     "license": "MIT",
     "createdAt": "2025-06-02T21:24:20Z",
-    "updatedAt": "2026-03-23T07:05:02Z",
-    "lastFetched": "2026-03-23T07:06:35.837Z"
+    "updatedAt": "2026-03-24T06:57:58Z",
+    "lastFetched": "2026-03-24T07:01:09.288Z"
   },
   {
     "slug": "cc-switch",
     "aiDescription": "",
-    "stars": 32001,
-    "forks": 1925,
-    "watchers": 74,
+    "stars": 32505,
+    "forks": 1954,
+    "watchers": 75,
     "language": "Rust",
     "license": "MIT",
     "createdAt": "2025-08-04T14:16:16Z",
-    "updatedAt": "2026-03-23T07:06:28Z",
-    "lastFetched": "2026-03-23T07:06:36.410Z"
+    "updatedAt": "2026-03-24T07:00:10Z",
+    "lastFetched": "2026-03-24T07:01:09.963Z"
   },
   {
     "slug": "beads",
     "aiDescription": "",
-    "stars": 19519,
-    "forks": 1277,
+    "stars": 19576,
+    "forks": 1286,
     "watchers": 74,
     "language": "Go",
     "license": "MIT",
     "createdAt": "2025-10-12T03:09:46Z",
-    "updatedAt": "2026-03-23T06:14:45Z",
-    "lastFetched": "2026-03-23T07:06:36.964Z"
+    "updatedAt": "2026-03-24T07:00:26Z",
+    "lastFetched": "2026-03-24T07:01:10.654Z"
   },
   {
     "slug": "planning-with-files",
     "aiDescription": "",
-    "stars": 16868,
-    "forks": 1537,
+    "stars": 17004,
+    "forks": 1543,
     "watchers": 75,
     "language": "Python",
     "license": "MIT",
     "createdAt": "2026-01-03T07:37:28Z",
-    "updatedAt": "2026-03-23T06:52:24Z",
-    "lastFetched": "2026-03-23T07:06:37.515Z"
+    "updatedAt": "2026-03-24T06:57:57Z",
+    "lastFetched": "2026-03-24T07:01:11.723Z"
   },
   {
     "slug": "mcp-use",
     "aiDescription": "",
-    "stars": 9473,
-    "forks": 1170,
+    "stars": 9481,
+    "forks": 1171,
     "watchers": 61,
     "language": "TypeScript",
     "license": "MIT",
     "createdAt": "2025-03-28T10:06:31Z",
-    "updatedAt": "2026-03-23T06:01:31Z",
-    "lastFetched": "2026-03-23T07:06:38.136Z"
+    "updatedAt": "2026-03-24T05:01:39Z",
+    "lastFetched": "2026-03-24T07:01:12.427Z"
   },
   {
     "slug": "humanlayer",
     "aiDescription": "",
-    "stars": 9969,
-    "forks": 857,
+    "stars": 9987,
+    "forks": 858,
     "watchers": 58,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "createdAt": "2024-08-05T21:26:44Z",
-    "updatedAt": "2026-03-23T05:00:13Z",
-    "lastFetched": "2026-03-23T07:06:38.697Z"
+    "updatedAt": "2026-03-24T04:36:41Z",
+    "lastFetched": "2026-03-24T07:01:13.085Z"
   },
   {
     "slug": "happy",
     "aiDescription": "",
-    "stars": 15994,
-    "forks": 1266,
+    "stars": 16067,
+    "forks": 1274,
     "watchers": 66,
     "language": "TypeScript",
     "license": "MIT",
     "createdAt": "2025-07-18T05:53:18Z",
-    "updatedAt": "2026-03-23T07:00:36Z",
-    "lastFetched": "2026-03-23T07:06:39.205Z"
+    "updatedAt": "2026-03-24T06:48:48Z",
+    "lastFetched": "2026-03-24T07:01:13.798Z"
   },
   {
     "slug": "claude-relay-service",
     "aiDescription": "",
-    "stars": 9969,
-    "forks": 1520,
+    "stars": 10014,
+    "forks": 1521,
     "watchers": 36,
     "language": "JavaScript",
     "license": "MIT",
     "createdAt": "2025-07-14T10:11:32Z",
-    "updatedAt": "2026-03-23T07:04:13Z",
-    "lastFetched": "2026-03-23T07:06:39.757Z"
+    "updatedAt": "2026-03-24T06:50:32Z",
+    "lastFetched": "2026-03-24T07:01:14.490Z"
   },
   {
     "slug": "cliproxyapi",
     "aiDescription": "",
-    "stars": 19258,
-    "forks": 3125,
+    "stars": 19584,
+    "forks": 3179,
     "watchers": 55,
     "language": "Go",
     "license": "MIT",
     "createdAt": "2025-07-01T19:43:27Z",
-    "updatedAt": "2026-03-23T07:05:16Z",
-    "lastFetched": "2026-03-23T07:06:40.282Z"
+    "updatedAt": "2026-03-24T06:58:35Z",
+    "lastFetched": "2026-03-24T07:01:15.183Z"
   },
   {
     "slug": "claude-code-usage-monitor",
     "aiDescription": "",
-    "stars": 7082,
-    "forks": 344,
-    "watchers": 26,
+    "stars": 7099,
+    "forks": 346,
+    "watchers": 27,
     "language": "Python",
     "license": "MIT",
     "createdAt": "2025-06-19T00:00:05Z",
-    "updatedAt": "2026-03-23T06:26:23Z",
-    "lastFetched": "2026-03-23T07:06:40.733Z"
+    "updatedAt": "2026-03-24T07:00:14Z",
+    "lastFetched": "2026-03-24T07:01:15.782Z"
   },
   {
     "slug": "codecompanion-nvim",
     "aiDescription": "",
-    "stars": 6326,
-    "forks": 391,
+    "stars": 6333,
+    "forks": 392,
     "watchers": 27,
     "language": "Lua",
     "license": "Apache-2.0",
     "createdAt": "2023-12-27T17:32:51Z",
-    "updatedAt": "2026-03-23T03:13:32Z",
-    "lastFetched": "2026-03-23T07:06:41.370Z"
+    "updatedAt": "2026-03-24T06:02:47Z",
+    "lastFetched": "2026-03-24T07:01:16.507Z"
   },
   {
     "slug": "claudecodeui",
     "aiDescription": "",
-    "stars": 8791,
-    "forks": 1122,
-    "watchers": 30,
+    "stars": 8843,
+    "forks": 1129,
+    "watchers": 29,
     "language": "TypeScript",
     "license": "GPL-3.0",
     "createdAt": "2025-06-25T12:51:12Z",
-    "updatedAt": "2026-03-23T07:04:57Z",
-    "lastFetched": "2026-03-23T07:06:41.875Z"
+    "updatedAt": "2026-03-24T06:34:08Z",
+    "lastFetched": "2026-03-24T07:01:17.207Z"
   },
   {
     "slug": "zcf",
     "aiDescription": "",
-    "stars": 5777,
+    "stars": 5789,
     "forks": 403,
     "watchers": 28,
     "language": "TypeScript",
     "license": "MIT",
     "createdAt": "2025-07-30T06:09:00Z",
-    "updatedAt": "2026-03-23T06:47:01Z",
-    "lastFetched": "2026-03-23T07:06:42.401Z"
+    "updatedAt": "2026-03-24T06:34:31Z",
+    "lastFetched": "2026-03-24T07:01:17.885Z"
   },
   {
     "slug": "awesome-claude-skills",
     "aiDescription": "",
-    "stars": 9540,
-    "forks": 863,
+    "stars": 9623,
+    "forks": 879,
     "watchers": 77,
     "language": null,
     "license": null,
     "createdAt": "2025-10-16T20:42:39Z",
-    "updatedAt": "2026-03-23T06:57:26Z",
-    "lastFetched": "2026-03-23T07:06:42.859Z"
+    "updatedAt": "2026-03-24T07:00:35Z",
+    "lastFetched": "2026-03-24T07:01:18.515Z"
   },
   {
     "slug": "claude-context",
     "aiDescription": "",
-    "stars": 5739,
-    "forks": 508,
+    "stars": 5747,
+    "forks": 509,
     "watchers": 30,
     "language": "TypeScript",
     "license": "MIT",
     "createdAt": "2025-06-06T02:12:47Z",
-    "updatedAt": "2026-03-23T05:58:48Z",
-    "lastFetched": "2026-03-23T07:06:43.509Z"
+    "updatedAt": "2026-03-24T06:58:11Z",
+    "lastFetched": "2026-03-24T07:01:19.476Z"
   },
   {
     "slug": "aionui",
     "aiDescription": "",
-    "stars": 19744,
-    "forks": 1569,
-    "watchers": 89,
+    "stars": 19837,
+    "forks": 1579,
+    "watchers": 90,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "createdAt": "2025-08-07T10:29:51Z",
-    "updatedAt": "2026-03-23T07:04:31Z",
-    "lastFetched": "2026-03-23T07:06:44.097Z"
+    "updatedAt": "2026-03-24T06:54:06Z",
+    "lastFetched": "2026-03-24T07:01:20.243Z"
   },
   {
     "slug": "claude-plugins-official",
     "aiDescription": "",
-    "stars": 14185,
-    "forks": 1455,
-    "watchers": 114,
+    "stars": 14361,
+    "forks": 1484,
+    "watchers": 115,
     "language": "Python",
     "license": null,
     "createdAt": "2025-11-20T18:36:20Z",
-    "updatedAt": "2026-03-23T07:05:25Z",
-    "lastFetched": "2026-03-23T07:06:44.637Z"
+    "updatedAt": "2026-03-24T07:00:26Z",
+    "lastFetched": "2026-03-24T07:01:20.919Z"
   },
   {
     "slug": "claudable",
     "aiDescription": "",
-    "stars": 3823,
-    "forks": 572,
+    "stars": 3828,
+    "forks": 574,
     "watchers": 30,
     "language": "TypeScript",
     "license": "MIT",
     "createdAt": "2025-08-20T05:15:16Z",
-    "updatedAt": "2026-03-22T14:49:27Z",
-    "lastFetched": "2026-03-23T07:06:45.194Z"
+    "updatedAt": "2026-03-23T16:56:22Z",
+    "lastFetched": "2026-03-24T07:01:21.581Z"
   },
   {
     "slug": "continuous-claude-v3",
     "aiDescription": "",
-    "stars": 3619,
-    "forks": 279,
+    "stars": 3621,
+    "forks": 280,
     "watchers": 31,
     "language": "Python",
     "license": "MIT",
     "createdAt": "2025-12-23T00:12:49Z",
-    "updatedAt": "2026-03-23T02:53:53Z",
-    "lastFetched": "2026-03-23T07:06:45.682Z"
+    "updatedAt": "2026-03-23T18:07:08Z",
+    "lastFetched": "2026-03-24T07:01:22.252Z"
   },
   {
     "slug": "gcli2api",
     "aiDescription": "",
-    "stars": 4300,
-    "forks": 1228,
+    "stars": 4308,
+    "forks": 1229,
     "watchers": 7,
     "language": "Python",
     "license": "NOASSERTION",
     "createdAt": "2025-08-14T11:54:36Z",
-    "updatedAt": "2026-03-23T05:06:19Z",
-    "lastFetched": "2026-03-23T07:06:46.259Z"
+    "updatedAt": "2026-03-24T05:34:59Z",
+    "lastFetched": "2026-03-24T07:01:23.160Z"
   },
   {
     "slug": "awesome-claude-skills",
     "aiDescription": "",
-    "stars": 12416,
-    "forks": 1202,
-    "watchers": 102,
+    "stars": 12602,
+    "forks": 1224,
+    "watchers": 101,
     "language": null,
     "license": "MIT",
     "createdAt": "2025-10-28T08:55:32Z",
-    "updatedAt": "2026-03-23T07:03:52Z",
-    "lastFetched": "2026-03-23T07:06:47.135Z"
+    "updatedAt": "2026-03-24T07:00:26Z",
+    "lastFetched": "2026-03-24T07:01:24.351Z"
   },
   {
     "slug": "get-shit-done",
     "aiDescription": "",
-    "stars": 39219,
-    "forks": 3182,
-    "watchers": 180,
+    "stars": 40177,
+    "forks": 3263,
+    "watchers": 186,
     "language": "JavaScript",
     "license": "MIT",
     "createdAt": "2025-12-14T14:17:12Z",
-    "updatedAt": "2026-03-23T07:06:39Z",
-    "lastFetched": "2026-03-23T07:06:47.910Z"
+    "updatedAt": "2026-03-24T06:59:17Z",
+    "lastFetched": "2026-03-24T07:01:25.471Z"
   },
   {
     "slug": "claude-code-system-prompts",
     "aiDescription": "",
-    "stars": 6356,
-    "forks": 873,
-    "watchers": 81,
+    "stars": 6453,
+    "forks": 883,
+    "watchers": 82,
     "language": "JavaScript",
     "license": "MIT",
     "createdAt": "2025-11-18T21:26:33Z",
-    "updatedAt": "2026-03-23T07:05:57Z",
-    "lastFetched": "2026-03-23T07:06:48.407Z"
+    "updatedAt": "2026-03-24T06:20:16Z",
+    "lastFetched": "2026-03-24T07:01:26.098Z"
   },
   {
     "slug": "claude-code-guide",
     "aiDescription": "",
-    "stars": 3703,
+    "stars": 3709,
     "forks": 342,
     "watchers": 30,
     "language": null,
     "license": "MIT",
     "createdAt": "2025-06-21T20:43:25Z",
-    "updatedAt": "2026-03-23T05:09:21Z",
-    "lastFetched": "2026-03-23T07:06:48.874Z"
+    "updatedAt": "2026-03-24T06:26:26Z",
+    "lastFetched": "2026-03-24T07:01:26.707Z"
   },
   {
     "slug": "dev-browser",
     "aiDescription": "",
-    "stars": 3951,
+    "stars": 3962,
     "forks": 252,
     "watchers": 12,
     "language": "TypeScript",
     "license": "MIT",
     "createdAt": "2025-12-02T19:20:20Z",
-    "updatedAt": "2026-03-23T06:02:03Z",
-    "lastFetched": "2026-03-23T07:06:49.315Z"
+    "updatedAt": "2026-03-24T05:34:05Z",
+    "lastFetched": "2026-03-24T07:01:27.344Z"
   },
   {
     "slug": "crystal",
     "aiDescription": "",
     "stars": 2986,
-    "forks": 188,
+    "forks": 189,
     "watchers": 17,
     "language": "TypeScript",
     "license": "MIT",
     "createdAt": "2025-06-05T23:54:39Z",
     "updatedAt": "2026-03-22T18:48:45Z",
-    "lastFetched": "2026-03-23T07:06:49.820Z"
+    "lastFetched": "2026-03-24T07:01:28.051Z"
   },
   {
     "slug": "cc-wf-studio",
     "aiDescription": "",
-    "stars": 4572,
-    "forks": 511,
+    "stars": 4581,
+    "forks": 512,
     "watchers": 19,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "createdAt": "2025-11-01T16:04:15Z",
-    "updatedAt": "2026-03-23T05:03:36Z",
-    "lastFetched": "2026-03-23T07:06:50.292Z"
+    "updatedAt": "2026-03-24T02:18:35Z",
+    "lastFetched": "2026-03-24T07:01:28.656Z"
   },
   {
     "slug": "ccplugins",
@@ -1689,127 +1689,127 @@
     "license": "MIT",
     "createdAt": "2025-07-25T03:20:54Z",
     "updatedAt": "2026-03-21T11:01:22Z",
-    "lastFetched": "2026-03-23T07:06:50.776Z"
+    "lastFetched": "2026-03-24T07:01:29.305Z"
   },
   {
     "slug": "pinme",
     "aiDescription": "",
-    "stars": 3024,
-    "forks": 222,
+    "stars": 3027,
+    "forks": 223,
     "watchers": 14,
     "language": "TypeScript",
     "license": "MIT",
     "createdAt": "2025-04-13T01:41:33Z",
-    "updatedAt": "2026-03-23T03:34:37Z",
-    "lastFetched": "2026-03-23T07:06:51.265Z"
+    "updatedAt": "2026-03-24T04:17:47Z",
+    "lastFetched": "2026-03-24T07:01:29.960Z"
   },
   {
     "slug": "claude-hud",
     "aiDescription": "",
-    "stars": 11507,
-    "forks": 489,
-    "watchers": 21,
+    "stars": 12217,
+    "forks": 507,
+    "watchers": 22,
     "language": "JavaScript",
     "license": "MIT",
     "createdAt": "2026-01-02T01:35:07Z",
-    "updatedAt": "2026-03-23T07:06:25Z",
-    "lastFetched": "2026-03-23T07:06:51.753Z"
+    "updatedAt": "2026-03-24T06:59:45Z",
+    "lastFetched": "2026-03-24T07:01:30.621Z"
   },
   {
     "slug": "codexbar",
     "aiDescription": "",
-    "stars": 9002,
-    "forks": 653,
+    "stars": 9121,
+    "forks": 660,
     "watchers": 36,
     "language": "Swift",
     "license": "MIT",
     "createdAt": "2025-11-16T17:00:44Z",
-    "updatedAt": "2026-03-23T06:58:19Z",
-    "lastFetched": "2026-03-23T07:06:52.324Z"
+    "updatedAt": "2026-03-24T06:50:27Z",
+    "lastFetched": "2026-03-24T07:01:31.293Z"
   },
   {
     "slug": "cc-sdd",
     "aiDescription": "",
-    "stars": 2936,
+    "stars": 2952,
     "forks": 229,
     "watchers": 34,
     "language": "TypeScript",
     "license": "MIT",
     "createdAt": "2025-07-17T04:41:37Z",
-    "updatedAt": "2026-03-23T07:03:01Z",
-    "lastFetched": "2026-03-23T07:06:52.776Z"
+    "updatedAt": "2026-03-24T06:24:03Z",
+    "lastFetched": "2026-03-24T07:01:31.937Z"
   },
   {
     "slug": "ruler",
     "aiDescription": "",
-    "stars": 2578,
-    "forks": 134,
+    "stars": 2588,
+    "forks": 133,
     "watchers": 11,
     "language": "TypeScript",
     "license": "MIT",
     "createdAt": "2025-05-20T08:22:59Z",
-    "updatedAt": "2026-03-23T03:26:58Z",
-    "lastFetched": "2026-03-23T07:06:53.323Z"
+    "updatedAt": "2026-03-24T03:54:11Z",
+    "lastFetched": "2026-03-24T07:01:32.584Z"
   },
   {
     "slug": "buildwithclaude",
     "aiDescription": "",
-    "stars": 2625,
+    "stars": 2631,
     "forks": 290,
     "watchers": 37,
     "language": "Python",
     "license": "MIT",
     "createdAt": "2025-07-25T02:26:45Z",
-    "updatedAt": "2026-03-23T02:46:16Z",
-    "lastFetched": "2026-03-23T07:06:53.823Z"
+    "updatedAt": "2026-03-24T06:03:09Z",
+    "lastFetched": "2026-03-24T07:01:33.269Z"
   },
   {
     "slug": "sidekick-nvim",
     "aiDescription": "",
-    "stars": 2415,
-    "forks": 107,
-    "watchers": 17,
+    "stars": 2420,
+    "forks": 106,
+    "watchers": 16,
     "language": "Lua",
     "license": "Apache-2.0",
     "createdAt": "2025-09-26T10:26:48Z",
-    "updatedAt": "2026-03-22T22:43:38Z",
-    "lastFetched": "2026-03-23T07:06:54.296Z"
+    "updatedAt": "2026-03-24T04:40:37Z",
+    "lastFetched": "2026-03-24T07:01:33.948Z"
   },
   {
     "slug": "fulling",
     "aiDescription": "",
-    "stars": 2396,
-    "forks": 224,
+    "stars": 2404,
+    "forks": 225,
     "watchers": 136,
     "language": "TypeScript",
     "license": "MIT",
     "createdAt": "2025-10-11T02:31:07Z",
-    "updatedAt": "2026-03-23T05:15:35Z",
-    "lastFetched": "2026-03-23T07:06:54.784Z"
+    "updatedAt": "2026-03-23T21:51:39Z",
+    "lastFetched": "2026-03-24T07:01:34.629Z"
   },
   {
     "slug": "ai-agent-team",
     "aiDescription": "",
-    "stars": 298,
+    "stars": 301,
     "forks": 38,
     "watchers": 2,
     "language": "JavaScript",
     "license": "MIT",
     "createdAt": "2025-11-07T15:22:33Z",
-    "updatedAt": "2026-03-20T08:16:10Z",
-    "lastFetched": "2026-03-23T07:06:55.303Z"
+    "updatedAt": "2026-03-24T05:37:04Z",
+    "lastFetched": "2026-03-24T07:01:35.274Z"
   },
   {
     "slug": "claudeforge",
     "aiDescription": "",
-    "stars": 321,
+    "stars": 322,
     "forks": 39,
     "watchers": 3,
     "language": "Python",
     "license": "MIT",
     "createdAt": "2025-11-12T09:46:18Z",
-    "updatedAt": "2026-03-21T07:51:59Z",
-    "lastFetched": "2026-03-23T07:06:55.812Z"
+    "updatedAt": "2026-03-23T12:58:39Z",
+    "lastFetched": "2026-03-24T07:01:35.924Z"
   },
   {
     "slug": "google-ai-mode-skill",
@@ -1821,19 +1821,19 @@
     "license": null,
     "createdAt": "2026-01-03T19:31:32Z",
     "updatedAt": "2026-03-21T14:36:49Z",
-    "lastFetched": "2026-03-23T07:06:56.331Z"
+    "lastFetched": "2026-03-24T07:01:36.574Z"
   },
   {
     "slug": "developer-kit",
     "aiDescription": "",
-    "stars": 173,
-    "forks": 16,
+    "stars": 174,
+    "forks": 17,
     "watchers": 4,
     "language": "Python",
     "license": "MIT",
     "createdAt": "2025-10-21T08:08:21Z",
-    "updatedAt": "2026-03-19T14:16:32Z",
-    "lastFetched": "2026-03-23T07:06:56.887Z"
+    "updatedAt": "2026-03-24T06:30:34Z",
+    "lastFetched": "2026-03-24T07:01:37.232Z"
   },
   {
     "slug": "outline-driven-development",
@@ -1845,7 +1845,7 @@
     "license": "Apache-2.0",
     "createdAt": "2025-11-17T02:07:04Z",
     "updatedAt": "2026-03-19T15:44:04Z",
-    "lastFetched": "2026-03-23T07:06:57.431Z"
+    "lastFetched": "2026-03-24T07:01:37.914Z"
   },
   {
     "slug": "few-word",
@@ -1857,7 +1857,7 @@
     "license": null,
     "createdAt": "2026-01-07T20:10:01Z",
     "updatedAt": "2026-03-22T17:19:25Z",
-    "lastFetched": "2026-03-23T07:06:57.972Z"
+    "lastFetched": "2026-03-24T07:01:38.571Z"
   },
   {
     "slug": "gtd-coach-plugin",
@@ -1869,19 +1869,19 @@
     "license": "MIT",
     "createdAt": "2026-01-10T00:18:07Z",
     "updatedAt": "2026-03-22T15:36:27Z",
-    "lastFetched": "2026-03-23T07:06:58.483Z"
+    "lastFetched": "2026-03-24T07:01:39.243Z"
   },
   {
     "slug": "wechat-article-publisher-skill",
     "aiDescription": "",
-    "stars": 90,
+    "stars": 91,
     "forks": 11,
     "watchers": 0,
     "language": "Python",
     "license": "MIT",
     "createdAt": "2026-01-13T23:31:00Z",
-    "updatedAt": "2026-03-22T17:50:32Z",
-    "lastFetched": "2026-03-23T07:06:58.971Z"
+    "updatedAt": "2026-03-23T12:11:19Z",
+    "lastFetched": "2026-03-24T07:01:40.004Z"
   },
   {
     "slug": "wechat-article-formatter-skill",
@@ -1892,20 +1892,20 @@
     "language": "CSS",
     "license": null,
     "createdAt": "2026-01-14T02:00:48Z",
-    "updatedAt": "2026-03-22T11:40:54Z",
-    "lastFetched": "2026-03-23T07:06:59.574Z"
+    "updatedAt": "2026-03-23T07:58:47Z",
+    "lastFetched": "2026-03-24T07:01:40.613Z"
   },
   {
     "slug": "claude-code-design-skills",
     "aiDescription": "",
-    "stars": 35,
+    "stars": 36,
     "forks": 3,
     "watchers": 1,
     "language": null,
     "license": "MIT",
     "createdAt": "2025-11-02T10:57:27Z",
-    "updatedAt": "2026-03-21T17:39:35Z",
-    "lastFetched": "2026-03-23T07:07:00.098Z"
+    "updatedAt": "2026-03-23T09:05:41Z",
+    "lastFetched": "2026-03-24T07:01:41.319Z"
   },
   {
     "slug": "codex-kkp",
@@ -1917,31 +1917,31 @@
     "license": "MIT",
     "createdAt": "2025-12-04T06:52:52Z",
     "updatedAt": "2026-03-20T19:34:36Z",
-    "lastFetched": "2026-03-23T07:07:00.608Z"
+    "lastFetched": "2026-03-24T07:01:41.944Z"
   },
   {
     "slug": "claude-skills",
     "aiDescription": "",
-    "stars": 88,
-    "forks": 9,
+    "stars": 90,
+    "forks": 10,
     "watchers": 0,
     "language": "TypeScript",
     "license": "MIT",
     "createdAt": "2025-11-08T15:34:35Z",
-    "updatedAt": "2026-03-22T08:55:36Z",
-    "lastFetched": "2026-03-23T07:07:01.230Z"
+    "updatedAt": "2026-03-24T03:17:12Z",
+    "lastFetched": "2026-03-24T07:01:42.675Z"
   },
   {
     "slug": "claude-code-aso-skill",
     "aiDescription": "",
-    "stars": 273,
+    "stars": 278,
     "forks": 28,
     "watchers": 6,
     "language": "Python",
     "license": "NOASSERTION",
     "createdAt": "2025-11-07T09:08:00Z",
-    "updatedAt": "2026-03-23T01:32:30Z",
-    "lastFetched": "2026-03-23T07:07:01.738Z"
+    "updatedAt": "2026-03-23T21:20:02Z",
+    "lastFetched": "2026-03-24T07:01:43.296Z"
   },
   {
     "slug": "blockrun-agent-wallet",
@@ -1965,7 +1965,7 @@
     "license": "MIT",
     "createdAt": "2025-11-07T10:15:13Z",
     "updatedAt": "2026-03-22T16:23:28Z",
-    "lastFetched": "2026-03-23T07:07:02.740Z"
+    "lastFetched": "2026-03-24T07:01:44.445Z"
   },
   {
     "slug": "product-spec-kit",
@@ -1977,7 +1977,7 @@
     "license": null,
     "createdAt": "2025-10-31T04:26:48Z",
     "updatedAt": "2026-01-28T13:23:49Z",
-    "lastFetched": "2026-03-23T07:07:03.286Z"
+    "lastFetched": "2026-03-24T07:01:45.067Z"
   },
   {
     "slug": "claude-skills",
@@ -1989,19 +1989,19 @@
     "license": null,
     "createdAt": "2026-01-02T15:47:53Z",
     "updatedAt": "2026-01-13T14:20:35Z",
-    "lastFetched": "2026-03-23T07:07:03.778Z"
+    "lastFetched": "2026-03-24T07:01:45.703Z"
   },
   {
     "slug": "project-memory",
     "aiDescription": "",
-    "stars": 57,
-    "forks": 9,
+    "stars": 58,
+    "forks": 10,
     "watchers": 2,
     "language": null,
     "license": null,
     "createdAt": "2025-10-23T00:10:53Z",
-    "updatedAt": "2026-03-19T23:02:31Z",
-    "lastFetched": "2026-03-23T07:07:04.443Z"
+    "updatedAt": "2026-03-23T18:12:37Z",
+    "lastFetched": "2026-03-24T07:01:46.447Z"
   },
   {
     "slug": "odin-claude-plugin",
@@ -2013,7 +2013,7 @@
     "license": "Apache-2.0",
     "createdAt": "2025-11-17T11:03:30Z",
     "updatedAt": "2026-03-20T14:50:10Z",
-    "lastFetched": "2026-03-23T07:07:04.960Z"
+    "lastFetched": "2026-03-24T07:01:47.104Z"
   },
   {
     "slug": "llm-council-skill",
@@ -2025,19 +2025,19 @@
     "license": "MIT",
     "createdAt": "2026-01-03T23:56:16Z",
     "updatedAt": "2026-02-28T22:48:25Z",
-    "lastFetched": "2026-03-23T07:07:05.494Z"
+    "lastFetched": "2026-03-24T07:01:47.743Z"
   },
   {
     "slug": "claude-skill-prompt-architect",
     "aiDescription": "",
-    "stars": 47,
+    "stars": 51,
     "forks": 6,
     "watchers": 0,
     "language": "Python",
     "license": "MIT",
     "createdAt": "2025-11-24T16:27:21Z",
-    "updatedAt": "2026-03-22T23:34:47Z",
-    "lastFetched": "2026-03-23T07:07:05.966Z"
+    "updatedAt": "2026-03-24T05:44:41Z",
+    "lastFetched": "2026-03-24T07:01:48.376Z"
   },
   {
     "slug": "claude-layered-memory-architecture",
@@ -2049,19 +2049,19 @@
     "license": "MIT",
     "createdAt": "2025-12-23T16:23:32Z",
     "updatedAt": "2026-02-08T05:42:19Z",
-    "lastFetched": "2026-03-23T07:07:06.492Z"
+    "lastFetched": "2026-03-24T07:01:49.065Z"
   },
   {
     "slug": "claude-code-aso-skill",
     "aiDescription": "",
-    "stars": 24,
+    "stars": 25,
     "forks": 5,
     "watchers": 2,
     "language": "Python",
     "license": "NOASSERTION",
     "createdAt": "2020-11-01T05:41:34Z",
-    "updatedAt": "2026-03-23T05:13:29Z",
-    "lastFetched": "2026-03-23T07:07:07.040Z"
+    "updatedAt": "2026-03-24T06:43:35Z",
+    "lastFetched": "2026-03-24T07:01:49.710Z"
   },
   {
     "slug": "dspy-rb-skill",
@@ -2073,7 +2073,7 @@
     "license": "MIT",
     "createdAt": "2025-12-12T23:57:18Z",
     "updatedAt": "2026-02-08T13:15:00Z",
-    "lastFetched": "2026-03-23T07:07:07.542Z"
+    "lastFetched": "2026-03-24T07:01:50.371Z"
   },
   {
     "slug": "linkedin-article-publisher-skill",
@@ -2085,7 +2085,7 @@
     "license": "MIT",
     "createdAt": "2026-01-13T08:16:05Z",
     "updatedAt": "2026-03-16T01:01:19Z",
-    "lastFetched": "2026-03-23T07:07:08.003Z"
+    "lastFetched": "2026-03-24T07:01:50.962Z"
   },
   {
     "slug": "typo3-ddev-skill",
@@ -2097,7 +2097,7 @@
     "license": "NOASSERTION",
     "createdAt": "2025-10-21T10:05:16Z",
     "updatedAt": "2026-03-22T14:52:50Z",
-    "lastFetched": "2026-03-23T07:07:08.543Z"
+    "lastFetched": "2026-03-24T07:01:51.660Z"
   },
   {
     "slug": "agents-skill",
@@ -2108,8 +2108,8 @@
     "language": "Shell",
     "license": "NOASSERTION",
     "createdAt": "2025-10-18T19:35:16Z",
-    "updatedAt": "2026-03-22T16:23:16Z",
-    "lastFetched": "2026-03-23T07:07:09.336Z"
+    "updatedAt": "2026-03-23T20:04:33Z",
+    "lastFetched": "2026-03-24T07:01:52.821Z"
   },
   {
     "slug": "fastlane-skill",
@@ -2121,7 +2121,7 @@
     "license": "MIT",
     "createdAt": "2025-12-28T12:56:54Z",
     "updatedAt": "2026-03-22T21:15:29Z",
-    "lastFetched": "2026-03-23T07:07:09.863Z"
+    "lastFetched": "2026-03-24T07:01:53.439Z"
   },
   {
     "slug": "claude-skills-hub",
@@ -2133,7 +2133,7 @@
     "license": "MIT",
     "createdAt": "2025-10-25T08:00:33Z",
     "updatedAt": "2026-03-19T17:21:12Z",
-    "lastFetched": "2026-03-23T07:07:10.368Z"
+    "lastFetched": "2026-03-24T07:01:57.153Z"
   },
   {
     "slug": "brainstorm-plan",
@@ -2145,7 +2145,7 @@
     "license": "MIT",
     "createdAt": "2025-12-29T05:30:22Z",
     "updatedAt": "2026-03-01T20:50:07Z",
-    "lastFetched": "2026-03-23T07:07:10.893Z"
+    "lastFetched": "2026-03-24T07:01:57.825Z"
   },
   {
     "slug": "running-marketing-campaigns-agent-skill",
@@ -2157,7 +2157,7 @@
     "license": "MIT",
     "createdAt": "2025-12-28T21:38:05Z",
     "updatedAt": "2026-03-10T20:53:08Z",
-    "lastFetched": "2026-03-23T07:07:11.391Z"
+    "lastFetched": "2026-03-24T07:01:58.540Z"
   },
   {
     "slug": "typo3-docs-skill",
@@ -2168,8 +2168,8 @@
     "language": "Shell",
     "license": "NOASSERTION",
     "createdAt": "2025-10-18T07:02:25Z",
-    "updatedAt": "2026-03-22T14:54:04Z",
-    "lastFetched": "2026-03-23T07:07:12.145Z"
+    "updatedAt": "2026-03-23T23:05:50Z",
+    "lastFetched": "2026-03-24T07:01:59.198Z"
   },
   {
     "slug": "fastmcp-builder",
@@ -2181,7 +2181,7 @@
     "license": "MIT",
     "createdAt": "2025-10-26T17:09:46Z",
     "updatedAt": "2026-03-16T17:35:22Z",
-    "lastFetched": "2026-03-23T07:07:12.686Z"
+    "lastFetched": "2026-03-24T07:01:59.844Z"
   },
   {
     "slug": "cli-tools-skill",
@@ -2192,8 +2192,8 @@
     "language": "Shell",
     "license": "NOASSERTION",
     "createdAt": "2025-11-29T21:10:49Z",
-    "updatedAt": "2026-03-22T18:00:06Z",
-    "lastFetched": "2026-03-23T07:07:13.225Z"
+    "updatedAt": "2026-03-23T22:20:12Z",
+    "lastFetched": "2026-03-24T07:02:00.540Z"
   },
   {
     "slug": "skill-master",
@@ -2205,7 +2205,7 @@
     "license": "MIT",
     "createdAt": "2026-01-07T12:35:31Z",
     "updatedAt": "2026-01-16T02:32:05Z",
-    "lastFetched": "2026-03-23T07:07:13.815Z"
+    "lastFetched": "2026-03-24T07:02:01.248Z"
   },
   {
     "slug": "obsidian-project-assistant",
@@ -2217,7 +2217,7 @@
     "license": "MIT",
     "createdAt": "2025-12-24T03:50:29Z",
     "updatedAt": "2026-03-18T20:51:08Z",
-    "lastFetched": "2026-03-23T07:07:14.331Z"
+    "lastFetched": "2026-03-24T07:02:01.934Z"
   },
   {
     "slug": "digital-samba-skill",
@@ -2229,7 +2229,7 @@
     "license": "MIT",
     "createdAt": "2025-12-05T23:58:48Z",
     "updatedAt": "2026-03-21T07:34:02Z",
-    "lastFetched": "2026-03-23T07:07:14.879Z"
+    "lastFetched": "2026-03-24T07:02:02.617Z"
   },
   {
     "slug": "claude-skill-analyze-js",
@@ -2241,7 +2241,7 @@
     "license": "MIT",
     "createdAt": "2026-01-06T20:12:15Z",
     "updatedAt": "2026-01-07T08:35:38Z",
-    "lastFetched": "2026-03-23T07:07:15.535Z"
+    "lastFetched": "2026-03-24T07:02:03.688Z"
   },
   {
     "slug": "rhetorical-analysis-skill",
@@ -2253,7 +2253,7 @@
     "license": "MIT",
     "createdAt": "2025-12-12T20:38:34Z",
     "updatedAt": "2025-12-16T07:55:04Z",
-    "lastFetched": "2026-03-23T07:07:16.096Z"
+    "lastFetched": "2026-03-24T07:02:04.409Z"
   },
   {
     "slug": "n8n-v2-workflow-skill",
@@ -2265,7 +2265,7 @@
     "license": "MIT",
     "createdAt": "2025-12-18T17:57:59Z",
     "updatedAt": "2026-01-29T13:11:02Z",
-    "lastFetched": "2026-03-23T07:07:18.355Z"
+    "lastFetched": "2026-03-24T07:02:05.090Z"
   },
   {
     "slug": "get-y2b-clips",
@@ -2277,31 +2277,31 @@
     "license": "MIT",
     "createdAt": "2025-12-20T13:13:26Z",
     "updatedAt": "2026-03-05T04:27:00Z",
-    "lastFetched": "2026-03-23T07:07:18.905Z"
+    "lastFetched": "2026-03-24T07:02:05.766Z"
   },
   {
     "slug": "plantuml",
     "aiDescription": "",
-    "stars": 13,
+    "stars": 14,
     "forks": 5,
     "watchers": 0,
     "language": "Python",
     "license": null,
     "createdAt": "2025-11-09T22:38:53Z",
-    "updatedAt": "2026-03-19T12:17:21Z",
-    "lastFetched": "2026-03-23T07:07:19.475Z"
+    "updatedAt": "2026-03-23T15:53:44Z",
+    "lastFetched": "2026-03-24T07:02:06.526Z"
   },
   {
     "slug": "typo3-conformance-skill",
     "aiDescription": "",
-    "stars": 4,
+    "stars": 5,
     "forks": 0,
     "watchers": 1,
     "language": "Shell",
     "license": "NOASSERTION",
     "createdAt": "2025-10-18T10:14:23Z",
-    "updatedAt": "2026-03-22T14:53:56Z",
-    "lastFetched": "2026-03-23T07:07:20.030Z"
+    "updatedAt": "2026-03-23T08:35:46Z",
+    "lastFetched": "2026-03-24T07:02:07.248Z"
   },
   {
     "slug": "netresearch-branding-skill",
@@ -2313,7 +2313,7 @@
     "license": "NOASSERTION",
     "createdAt": "2025-10-18T10:33:28Z",
     "updatedAt": "2026-03-22T16:23:25Z",
-    "lastFetched": "2026-03-23T07:07:20.500Z"
+    "lastFetched": "2026-03-24T07:02:07.936Z"
   },
   {
     "slug": "jira",
@@ -2325,7 +2325,7 @@
     "license": null,
     "createdAt": "2025-10-23T02:46:42Z",
     "updatedAt": "2026-03-22T06:53:06Z",
-    "lastFetched": "2026-03-23T07:07:21.068Z"
+    "lastFetched": "2026-03-24T07:02:08.627Z"
   },
   {
     "slug": "typo3-testing-skill",
@@ -2336,8 +2336,8 @@
     "language": "Shell",
     "license": "NOASSERTION",
     "createdAt": "2025-10-18T08:31:58Z",
-    "updatedAt": "2026-03-22T14:53:27Z",
-    "lastFetched": "2026-03-23T07:07:21.592Z"
+    "updatedAt": "2026-03-23T22:18:22Z",
+    "lastFetched": "2026-03-24T07:02:09.314Z"
   },
   {
     "slug": "codex-skill",
@@ -2349,7 +2349,7 @@
     "license": "MIT",
     "createdAt": "2026-01-03T15:58:07Z",
     "updatedAt": "2026-01-05T08:56:59Z",
-    "lastFetched": "2026-03-23T07:07:22.595Z"
+    "lastFetched": "2026-03-24T07:02:10.293Z"
   },
   {
     "slug": "claude-web-to-markdown-skill",
@@ -2361,7 +2361,7 @@
     "license": "MIT",
     "createdAt": "2025-11-20T04:46:36Z",
     "updatedAt": "2025-11-24T03:27:08Z",
-    "lastFetched": "2026-03-23T07:07:23.375Z"
+    "lastFetched": "2026-03-24T07:02:10.991Z"
   },
   {
     "slug": "edgar-change-interpreter",
@@ -2373,7 +2373,7 @@
     "license": "MIT",
     "createdAt": "2025-12-27T00:40:03Z",
     "updatedAt": "2026-02-05T15:52:09Z",
-    "lastFetched": "2026-03-23T07:07:23.906Z"
+    "lastFetched": "2026-03-24T07:02:11.756Z"
   },
   {
     "slug": "xiaohongshu-images-skill",
@@ -2385,7 +2385,7 @@
     "license": null,
     "createdAt": "2026-01-14T04:31:35Z",
     "updatedAt": "2026-03-10T12:06:26Z",
-    "lastFetched": "2026-03-23T07:07:24.401Z"
+    "lastFetched": "2026-03-24T07:02:12.394Z"
   },
   {
     "slug": "claude-skill-flaky-test-detector",
@@ -2397,7 +2397,7 @@
     "license": null,
     "createdAt": "2026-01-04T01:01:10Z",
     "updatedAt": "2026-02-10T21:53:19Z",
-    "lastFetched": "2026-03-23T07:07:24.878Z"
+    "lastFetched": "2026-03-24T07:02:13.081Z"
   },
   {
     "slug": "red-publisher-skill",
@@ -2409,7 +2409,7 @@
     "license": "MIT",
     "createdAt": "2026-01-14T22:49:14Z",
     "updatedAt": "2026-03-10T12:40:54Z",
-    "lastFetched": "2026-03-23T07:07:25.352Z"
+    "lastFetched": "2026-03-24T07:02:13.759Z"
   },
   {
     "slug": "linear-skills",
@@ -2421,7 +2421,7 @@
     "license": null,
     "createdAt": "2025-12-16T21:49:29Z",
     "updatedAt": "2025-12-17T14:08:14Z",
-    "lastFetched": "2026-03-23T07:07:25.892Z"
+    "lastFetched": "2026-03-24T07:02:14.400Z"
   },
   {
     "slug": "neo-llm-security",
@@ -2433,7 +2433,7 @@
     "license": null,
     "createdAt": "2025-12-13T19:40:39Z",
     "updatedAt": "2025-12-26T07:37:13Z",
-    "lastFetched": "2026-03-23T07:07:28.783Z"
+    "lastFetched": "2026-03-24T07:02:15.067Z"
   },
   {
     "slug": "prompt-engineering-skill",
@@ -2445,7 +2445,7 @@
     "license": null,
     "createdAt": "2025-10-17T05:06:11Z",
     "updatedAt": "2026-03-13T14:44:36Z",
-    "lastFetched": "2026-03-23T07:07:29.279Z"
+    "lastFetched": "2026-03-24T07:02:15.892Z"
   },
   {
     "slug": "sap-rpt1-oss-predictor",
@@ -2457,7 +2457,7 @@
     "license": "NOASSERTION",
     "createdAt": "2025-12-28T20:50:56Z",
     "updatedAt": "2026-03-18T09:53:17Z",
-    "lastFetched": "2026-03-23T07:07:29.838Z"
+    "lastFetched": "2026-03-24T07:02:16.554Z"
   },
   {
     "slug": "claude-cli-ux-skill",
@@ -2469,7 +2469,7 @@
     "license": "MIT",
     "createdAt": "2025-12-20T18:33:39Z",
     "updatedAt": "2026-03-19T13:56:05Z",
-    "lastFetched": "2026-03-23T07:07:30.352Z"
+    "lastFetched": "2026-03-24T07:02:17.220Z"
   },
   {
     "slug": "claude-permissions-skill",
@@ -2481,7 +2481,7 @@
     "license": "MIT",
     "createdAt": "2025-11-16T21:39:10Z",
     "updatedAt": "2026-03-17T10:21:12Z",
-    "lastFetched": "2026-03-23T07:07:30.953Z"
+    "lastFetched": "2026-03-24T07:02:17.964Z"
   },
   {
     "slug": "agent-skill-howopen",
@@ -2493,7 +2493,7 @@
     "license": "MIT",
     "createdAt": "2026-01-15T13:01:31Z",
     "updatedAt": "2026-01-19T10:00:40Z",
-    "lastFetched": "2026-03-23T07:07:31.532Z"
+    "lastFetched": "2026-03-24T07:02:18.677Z"
   },
   {
     "slug": "using-firebase",
@@ -2505,7 +2505,7 @@
     "license": null,
     "createdAt": "2025-12-27T06:58:02Z",
     "updatedAt": "2026-02-16T00:21:45Z",
-    "lastFetched": "2026-03-23T07:07:32.119Z"
+    "lastFetched": "2026-03-24T07:02:19.427Z"
   },
   {
     "slug": "typo3-core-contributions-skill",
@@ -2517,7 +2517,7 @@
     "license": "NOASSERTION",
     "createdAt": "2025-10-27T12:47:18Z",
     "updatedAt": "2026-03-22T14:51:28Z",
-    "lastFetched": "2026-03-23T07:07:32.968Z"
+    "lastFetched": "2026-03-24T07:02:20.177Z"
   },
   {
     "slug": "image-gen",
@@ -2529,7 +2529,7 @@
     "license": null,
     "createdAt": "2025-11-09T22:26:51Z",
     "updatedAt": "2026-02-03T07:12:42Z",
-    "lastFetched": "2026-03-23T07:07:33.513Z"
+    "lastFetched": "2026-03-24T07:02:20.901Z"
   },
   {
     "slug": "code-tour",
@@ -2541,7 +2541,7 @@
     "license": "MIT",
     "createdAt": "2026-01-15T04:56:57Z",
     "updatedAt": "2026-03-09T13:54:12Z",
-    "lastFetched": "2026-03-23T07:07:34.070Z"
+    "lastFetched": "2026-03-24T07:02:21.570Z"
   },
   {
     "slug": "document-specialist-skill",
@@ -2553,7 +2553,7 @@
     "license": null,
     "createdAt": "2025-11-18T05:16:56Z",
     "updatedAt": "2026-03-18T12:13:34Z",
-    "lastFetched": "2026-03-23T07:07:34.629Z"
+    "lastFetched": "2026-03-24T07:02:22.320Z"
   },
   {
     "slug": "enterprise-readiness-skill",
@@ -2564,8 +2564,8 @@
     "language": "Shell",
     "license": "NOASSERTION",
     "createdAt": "2025-11-29T17:57:15Z",
-    "updatedAt": "2026-03-22T14:44:16Z",
-    "lastFetched": "2026-03-23T07:07:35.213Z"
+    "updatedAt": "2026-03-23T22:19:14Z",
+    "lastFetched": "2026-03-24T07:02:23.006Z"
   },
   {
     "slug": "data-wrangler-plugin",
@@ -2577,7 +2577,7 @@
     "license": "MIT",
     "createdAt": "2025-12-11T21:03:23Z",
     "updatedAt": "2026-03-09T17:20:29Z",
-    "lastFetched": "2026-03-23T07:07:35.701Z"
+    "lastFetched": "2026-03-24T07:02:23.692Z"
   },
   {
     "slug": "claude-code-reference",
@@ -2601,7 +2601,7 @@
     "license": null,
     "createdAt": "2025-12-31T01:59:17Z",
     "updatedAt": "2026-01-22T15:06:53Z",
-    "lastFetched": "2026-03-23T07:07:36.497Z"
+    "lastFetched": "2026-03-24T07:02:24.795Z"
   },
   {
     "slug": "opencode-intern-claude-code-skill",
@@ -2613,7 +2613,7 @@
     "license": null,
     "createdAt": "2026-01-14T01:05:45Z",
     "updatedAt": "2026-01-20T06:37:36Z",
-    "lastFetched": "2026-03-23T07:07:37.068Z"
+    "lastFetched": "2026-03-24T07:02:25.527Z"
   },
   {
     "slug": "svg-to-react",
@@ -2625,7 +2625,7 @@
     "license": "MIT",
     "createdAt": "2025-12-12T22:51:15Z",
     "updatedAt": "2025-12-13T00:41:53Z",
-    "lastFetched": "2026-03-23T07:07:37.648Z"
+    "lastFetched": "2026-03-24T07:02:26.266Z"
   },
   {
     "slug": "claude-skills-collection",
@@ -2637,7 +2637,7 @@
     "license": null,
     "createdAt": "2025-12-08T06:52:12Z",
     "updatedAt": "2026-01-01T05:15:37Z",
-    "lastFetched": "2026-03-23T07:07:38.131Z"
+    "lastFetched": "2026-03-24T07:02:26.950Z"
   },
   {
     "slug": "awesome-claude-skills",
@@ -2649,7 +2649,7 @@
     "license": null,
     "createdAt": "2025-11-30T01:53:24Z",
     "updatedAt": "2025-11-30T08:31:36Z",
-    "lastFetched": "2026-03-23T07:07:38.854Z"
+    "lastFetched": "2026-03-24T07:02:27.668Z"
   },
   {
     "slug": "claude-skill-security-auditor",
@@ -2661,1567 +2661,7 @@
     "license": null,
     "createdAt": "2026-01-04T01:01:24Z",
     "updatedAt": "2026-03-18T09:25:03Z",
-    "lastFetched": "2026-03-23T07:07:39.346Z"
-  },
-  {
-    "slug": "skills",
-    "aiDescription": "",
-    "stars": 3787,
-    "forks": 316,
-    "watchers": 24,
-    "language": "Python",
-    "license": "CC-BY-SA-4.0",
-    "createdAt": "2026-01-14T18:23:21Z",
-    "updatedAt": "2026-03-22T06:43:09Z",
-    "lastFetched": "2026-03-22T06:48:19.540Z"
-  },
-  {
-    "slug": "mastering-langgraph-agent-skill",
-    "aiDescription": "",
-    "stars": 26,
-    "forks": 2,
-    "watchers": 0,
-    "language": null,
-    "license": null,
-    "createdAt": "2025-12-29T01:21:22Z",
-    "updatedAt": "2026-03-19T07:55:21Z",
-    "lastFetched": "2026-03-23T07:07:40.163Z"
-  },
-  {
-    "slug": "claude-code-x402-skill",
-    "aiDescription": "",
-    "stars": 0,
-    "forks": 0,
-    "watchers": 0,
-    "language": null,
-    "license": "MIT",
-    "createdAt": "2026-01-12T20:03:28Z",
-    "updatedAt": "2026-01-12T22:22:02Z",
-    "lastFetched": "2026-03-23T07:07:40.675Z"
-  },
-  {
-    "slug": "publishing-astro-websites-agentic-skill",
-    "aiDescription": "",
-    "stars": 9,
-    "forks": 1,
-    "watchers": 0,
-    "language": null,
-    "license": null,
-    "createdAt": "2026-01-02T09:03:51Z",
-    "updatedAt": "2026-03-11T17:17:53Z",
-    "lastFetched": "2026-03-23T07:07:41.172Z"
-  },
-  {
-    "slug": "video-to-cooklang",
-    "aiDescription": "",
-    "stars": 0,
-    "forks": 0,
-    "watchers": 0,
-    "language": null,
-    "license": "MIT",
-    "createdAt": "2026-01-02T20:23:51Z",
-    "updatedAt": "2026-01-02T20:27:08Z",
-    "lastFetched": "2026-03-23T07:07:41.734Z"
-  },
-  {
-    "slug": "mastering-postgresql-agent-skill",
-    "aiDescription": "",
-    "stars": 2,
-    "forks": 1,
-    "watchers": 0,
-    "language": "Python",
-    "license": null,
-    "createdAt": "2025-12-31T15:32:54Z",
-    "updatedAt": "2026-03-15T01:18:14Z",
-    "lastFetched": "2026-03-23T07:07:42.245Z"
-  },
-  {
-    "slug": "mastering-git-cli-agent-skill",
-    "aiDescription": "",
-    "stars": 1,
-    "forks": 0,
-    "watchers": 0,
-    "language": "Shell",
-    "license": null,
-    "createdAt": "2026-01-01T01:08:10Z",
-    "updatedAt": "2026-01-22T15:05:23Z",
-    "lastFetched": "2026-03-23T07:07:42.830Z"
-  },
-  {
-    "slug": "mastering-typescript-skill",
-    "aiDescription": "",
-    "stars": 8,
-    "forks": 0,
-    "watchers": 0,
-    "language": "Shell",
-    "license": null,
-    "createdAt": "2026-01-01T00:36:07Z",
-    "updatedAt": "2026-03-15T01:18:22Z",
-    "lastFetched": "2026-03-23T07:07:43.307Z"
-  },
-  {
-    "slug": "mastering-aws-cli",
-    "aiDescription": "",
-    "stars": 0,
-    "forks": 1,
-    "watchers": 0,
-    "language": null,
-    "license": null,
-    "createdAt": "2025-12-26T04:52:41Z",
-    "updatedAt": "2026-01-07T23:38:34Z",
-    "lastFetched": "2026-03-23T07:07:43.906Z"
-  },
-  {
-    "slug": "claude-code-prompts",
-    "aiDescription": "",
-    "stars": 0,
-    "forks": 0,
-    "watchers": 0,
-    "language": "Shell",
-    "license": null,
-    "createdAt": "2026-01-07T11:54:47Z",
-    "updatedAt": "2026-03-15T15:00:23Z",
-    "lastFetched": "2026-03-23T07:07:44.571Z"
-  },
-  {
-    "slug": "spacy-nlp-agentic-skill",
-    "aiDescription": "",
-    "stars": 1,
-    "forks": 1,
-    "watchers": 0,
-    "language": "Python",
-    "license": null,
-    "createdAt": "2026-01-05T03:20:54Z",
-    "updatedAt": "2026-01-17T05:23:45Z",
-    "lastFetched": "2026-03-23T07:07:45.075Z"
-  },
-  {
-    "slug": "video-to-gif-skill",
-    "aiDescription": "",
-    "stars": 0,
-    "forks": 0,
-    "watchers": 0,
-    "language": "Shell",
-    "license": null,
-    "createdAt": "2026-01-04T08:58:02Z",
-    "updatedAt": "2026-01-04T09:01:47Z",
-    "lastFetched": "2026-03-23T07:07:45.609Z"
-  },
-  {
-    "slug": "agent-skills",
-    "aiDescription": "",
-    "stars": 1,
-    "forks": 0,
-    "watchers": 0,
-    "language": null,
-    "license": "Apache-2.0",
-    "createdAt": "2026-01-16T11:20:57Z",
-    "updatedAt": "2026-02-07T21:19:31Z",
-    "lastFetched": "2026-03-23T07:07:46.797Z"
-  },
-  {
-    "slug": "source-of-truth-creator",
-    "aiDescription": "",
-    "stars": 1,
-    "forks": 0,
-    "watchers": 0,
-    "language": null,
-    "license": "NOASSERTION",
-    "createdAt": "2025-12-21T11:45:17Z",
-    "updatedAt": "2026-01-19T22:53:16Z",
-    "lastFetched": "2026-03-23T07:07:47.342Z"
-  },
-  {
-    "slug": "parseium-skill",
-    "aiDescription": "",
-    "stars": 1,
-    "forks": 0,
-    "watchers": 0,
-    "language": null,
-    "license": "MIT",
-    "createdAt": "2026-01-17T11:21:08Z",
-    "updatedAt": "2026-01-17T11:34:57Z",
-    "lastFetched": "2026-03-23T07:07:47.946Z"
-  },
-  {
-    "slug": "developing-with-docker-agentic-skill",
-    "aiDescription": "",
-    "stars": 2,
-    "forks": 0,
-    "watchers": 0,
-    "language": null,
-    "license": null,
-    "createdAt": "2026-01-07T21:39:09Z",
-    "updatedAt": "2026-03-15T00:22:45Z",
-    "lastFetched": "2026-03-23T07:07:48.459Z"
-  },
-  {
-    "slug": "recursive-decomposition-skill",
-    "aiDescription": "",
-    "stars": 20,
-    "forks": 1,
-    "watchers": 0,
-    "language": null,
-    "license": "MIT",
-    "createdAt": "2026-01-16T08:55:40Z",
-    "updatedAt": "2026-03-20T12:08:51Z",
-    "lastFetched": "2026-03-23T07:07:48.940Z"
-  },
-  {
-    "slug": "everything-claude-code",
-    "aiDescription": "",
-    "stars": 99318,
-    "forks": 12951,
-    "watchers": 532,
-    "language": "JavaScript",
-    "license": "MIT",
-    "createdAt": "2026-01-18T00:51:51Z",
-    "updatedAt": "2026-03-23T07:07:36Z",
-    "lastFetched": "2026-03-23T07:07:49.462Z"
-  },
-  {
-    "slug": "oh-my-openagent",
-    "aiDescription": "",
-    "stars": 42564,
-    "forks": 3165,
-    "watchers": 168,
-    "language": "TypeScript",
-    "license": "NOASSERTION",
-    "createdAt": "2025-12-03T01:40:05Z",
-    "updatedAt": "2026-03-23T07:07:32Z",
-    "lastFetched": "2026-03-23T07:07:50.076Z"
-  },
-  {
-    "slug": "get-shit-done",
-    "aiDescription": "",
-    "stars": 39220,
-    "forks": 3182,
-    "watchers": 180,
-    "language": "JavaScript",
-    "license": "MIT",
-    "createdAt": "2025-12-14T14:17:12Z",
-    "updatedAt": "2026-03-23T07:07:38Z",
-    "lastFetched": "2026-03-23T07:07:50.649Z"
-  },
-  {
-    "slug": "antigravity-awesome-skills",
-    "aiDescription": "",
-    "stars": 26672,
-    "forks": 4541,
-    "watchers": 226,
-    "language": "Python",
-    "license": "MIT",
-    "createdAt": "2026-01-14T17:48:09Z",
-    "updatedAt": "2026-03-23T07:02:59Z",
-    "lastFetched": "2026-03-23T07:07:51.248Z"
-  },
-  {
-    "slug": "nanoclaw",
-    "aiDescription": "",
-    "stars": 24944,
-    "forks": 7971,
-    "watchers": 108,
-    "language": "TypeScript",
-    "license": "MIT",
-    "createdAt": "2026-01-31T15:47:22Z",
-    "updatedAt": "2026-03-23T07:03:59Z",
-    "lastFetched": "2026-03-23T07:07:51.811Z"
-  },
-  {
-    "slug": "ruflo",
-    "aiDescription": "",
-    "stars": 22730,
-    "forks": 2473,
-    "watchers": 225,
-    "language": "TypeScript",
-    "license": "MIT",
-    "createdAt": "2025-06-02T21:24:20Z",
-    "updatedAt": "2026-03-23T07:05:02Z",
-    "lastFetched": "2026-03-23T07:07:52.461Z"
-  },
-  {
-    "slug": "claude-code-best-practice",
-    "aiDescription": "",
-    "stars": 20763,
-    "forks": 1805,
-    "watchers": 218,
-    "language": "HTML",
-    "license": "MIT",
-    "createdAt": "2025-10-31T14:15:28Z",
-    "updatedAt": "2026-03-23T07:06:01Z",
-    "lastFetched": "2026-03-23T07:07:53.042Z"
-  },
-  {
-    "slug": "awesome-agent-skills",
-    "aiDescription": "",
-    "stars": 12416,
-    "forks": 1202,
-    "watchers": 102,
-    "language": null,
-    "license": "MIT",
-    "createdAt": "2025-10-28T08:55:32Z",
-    "updatedAt": "2026-03-23T07:03:52Z",
-    "lastFetched": "2026-03-23T07:07:53.539Z"
-  },
-  {
-    "slug": "oh-my-claudecode",
-    "aiDescription": "",
-    "stars": 10989,
-    "forks": 753,
-    "watchers": 36,
-    "language": "TypeScript",
-    "license": "MIT",
-    "createdAt": "2026-01-09T03:36:29Z",
-    "updatedAt": "2026-03-23T07:05:22Z",
-    "lastFetched": "2026-03-23T07:07:54.168Z"
-  },
-  {
-    "slug": "hive",
-    "aiDescription": "",
-    "stars": 9775,
-    "forks": 5548,
-    "watchers": 286,
-    "language": "Python",
-    "license": "Apache-2.0",
-    "createdAt": "2026-01-12T00:04:22Z",
-    "updatedAt": "2026-03-23T05:50:53Z",
-    "lastFetched": "2026-03-23T07:07:54.713Z"
-  },
-  {
-    "slug": "agent-reach",
-    "aiDescription": "",
-    "stars": 10394,
-    "forks": 752,
-    "watchers": 29,
-    "language": "Python",
-    "license": "MIT",
-    "createdAt": "2026-02-24T02:10:24Z",
-    "updatedAt": "2026-03-23T07:05:43Z",
-    "lastFetched": "2026-03-23T07:07:55.295Z"
-  },
-  {
-    "slug": "rowboat",
-    "aiDescription": "",
-    "stars": 9317,
-    "forks": 792,
-    "watchers": 53,
-    "language": "TypeScript",
-    "license": "Apache-2.0",
-    "createdAt": "2025-01-13T09:30:40Z",
-    "updatedAt": "2026-03-23T06:37:40Z",
-    "lastFetched": "2026-03-23T07:07:55.866Z"
-  },
-  {
-    "slug": "xonsh",
-    "aiDescription": "",
-    "stars": 9257,
-    "forks": 701,
-    "watchers": 95,
-    "language": "Python",
-    "license": "NOASSERTION",
-    "createdAt": "2015-01-21T22:05:27Z",
-    "updatedAt": "2026-03-23T07:03:11Z",
-    "lastFetched": "2026-03-23T07:07:56.463Z"
-  },
-  {
-    "slug": "rtk",
-    "aiDescription": "",
-    "stars": 12145,
-    "forks": 616,
-    "watchers": 26,
-    "language": "Rust",
-    "license": "MIT",
-    "createdAt": "2026-01-22T16:54:16Z",
-    "updatedAt": "2026-03-23T06:59:28Z",
-    "lastFetched": "2026-03-23T07:07:57.085Z"
-  },
-  {
-    "slug": "hermes-agent",
-    "aiDescription": "",
-    "stars": 10554,
-    "forks": 1319,
-    "watchers": 42,
-    "language": "Python",
-    "license": "MIT",
-    "createdAt": "2025-07-22T22:22:28Z",
-    "updatedAt": "2026-03-23T07:07:50Z",
-    "lastFetched": "2026-03-23T07:07:57.676Z"
-  },
-  {
-    "slug": "superset",
-    "aiDescription": "",
-    "stars": 7769,
-    "forks": 561,
-    "watchers": 22,
-    "language": "TypeScript",
-    "license": "NOASSERTION",
-    "createdAt": "2025-10-21T09:16:51Z",
-    "updatedAt": "2026-03-23T06:50:51Z",
-    "lastFetched": "2026-03-23T07:07:59.146Z"
-  },
-  {
-    "slug": "claude-skills",
-    "aiDescription": "",
-    "stars": 7163,
-    "forks": 475,
-    "watchers": 47,
-    "language": "Python",
-    "license": "MIT",
-    "createdAt": "2025-10-20T20:27:22Z",
-    "updatedAt": "2026-03-23T07:05:17Z",
-    "lastFetched": "2026-03-23T07:07:59.712Z"
-  },
-  {
-    "slug": "cmux",
-    "aiDescription": "",
-    "stars": 9530,
-    "forks": 644,
-    "watchers": 15,
-    "language": "Swift",
-    "license": "AGPL-3.0",
-    "createdAt": "2026-01-28T10:03:24Z",
-    "updatedAt": "2026-03-23T07:06:44Z",
-    "lastFetched": "2026-03-23T07:08:00.385Z"
-  },
-  {
-    "slug": "sub2api",
-    "aiDescription": "",
-    "stars": 7751,
-    "forks": 1166,
-    "watchers": 18,
-    "language": "Go",
-    "license": "MIT",
-    "createdAt": "2025-12-18T02:26:18Z",
-    "updatedAt": "2026-03-23T07:06:54Z",
-    "lastFetched": "2026-03-23T07:08:00.943Z"
-  },
-  {
-    "slug": "nano-banana-pro-prompts-recommend-skill",
-    "aiDescription": "",
-    "stars": 1289,
-    "forks": 128,
-    "watchers": 10,
-    "language": "TypeScript",
-    "license": null,
-    "createdAt": "2026-01-21T07:15:20Z",
-    "updatedAt": "2026-03-23T06:25:35Z",
-    "lastFetched": "2026-03-23T07:08:01.484Z"
-  },
-  {
-    "slug": "claude-ads",
-    "aiDescription": "",
-    "stars": 1156,
-    "forks": 241,
-    "watchers": 20,
-    "language": "Python",
-    "license": "MIT",
-    "createdAt": "2026-02-11T13:01:49Z",
-    "updatedAt": "2026-03-23T06:58:41Z",
-    "lastFetched": "2026-03-23T07:08:01.950Z"
-  },
-  {
-    "slug": "claude-blog",
-    "aiDescription": "",
-    "stars": 297,
-    "forks": 78,
-    "watchers": 7,
-    "language": "Python",
-    "license": "MIT",
-    "createdAt": "2026-02-17T22:40:44Z",
-    "updatedAt": "2026-03-23T00:56:01Z",
-    "lastFetched": "2026-03-23T07:08:02.453Z"
-  },
-  {
-    "slug": "soul-md",
-    "aiDescription": "",
-    "stars": 269,
-    "forks": 19,
-    "watchers": 2,
-    "language": null,
-    "license": null,
-    "createdAt": "2026-02-02T18:27:15Z",
-    "updatedAt": "2026-03-23T03:27:40Z",
-    "lastFetched": "2026-03-23T07:08:02.917Z"
-  },
-  {
-    "slug": "claude-zeroclaw",
-    "aiDescription": "",
-    "stars": 143,
-    "forks": 2,
-    "watchers": 0,
-    "language": "TypeScript",
-    "license": "MIT",
-    "createdAt": "2026-03-07T23:08:25Z",
-    "updatedAt": "2026-03-22T16:15:26Z",
-    "lastFetched": "2026-03-23T07:08:03.399Z"
-  },
-  {
-    "slug": "skyll",
-    "aiDescription": "",
-    "stars": 218,
-    "forks": 21,
-    "watchers": 2,
-    "language": "Python",
-    "license": "Apache-2.0",
-    "createdAt": "2026-01-31T18:04:09Z",
-    "updatedAt": "2026-03-21T16:19:05Z",
-    "lastFetched": "2026-03-23T07:08:04.001Z"
-  },
-  {
-    "slug": "nelson",
-    "aiDescription": "",
-    "stars": 199,
-    "forks": 16,
-    "watchers": 4,
-    "language": "Python",
-    "license": "MIT",
-    "createdAt": "2026-02-09T15:29:44Z",
-    "updatedAt": "2026-03-23T02:53:28Z",
-    "lastFetched": "2026-03-23T07:08:04.474Z"
-  },
-  {
-    "slug": "agentic-seo-skill",
-    "aiDescription": "",
-    "stars": 205,
-    "forks": 39,
-    "watchers": 5,
-    "language": "Python",
-    "license": "MIT",
-    "createdAt": "2026-03-02T17:37:53Z",
-    "updatedAt": "2026-03-23T02:07:07Z",
-    "lastFetched": "2026-03-23T07:08:05.110Z"
-  },
-  {
-    "slug": "playwright-bot-bypass",
-    "aiDescription": "",
-    "stars": 136,
-    "forks": 8,
-    "watchers": 1,
-    "language": "JavaScript",
-    "license": "MIT",
-    "createdAt": "2026-01-29T05:49:03Z",
-    "updatedAt": "2026-03-22T05:03:09Z",
-    "lastFetched": "2026-03-23T07:08:05.651Z"
-  },
-  {
-    "slug": "claude-skills",
-    "aiDescription": "",
-    "stars": 113,
-    "forks": 4,
-    "watchers": 1,
-    "language": "Python",
-    "license": "MIT",
-    "createdAt": "2025-10-17T02:32:23Z",
-    "updatedAt": "2026-03-22T21:02:33Z",
-    "lastFetched": "2026-03-23T07:08:06.224Z"
-  },
-  {
-    "slug": "notebooklm-skill",
-    "aiDescription": "",
-    "stars": 124,
-    "forks": 13,
-    "watchers": 0,
-    "language": "Python",
-    "license": "MIT",
-    "createdAt": "2026-03-13T19:57:38Z",
-    "updatedAt": "2026-03-23T03:03:32Z",
-    "lastFetched": "2026-03-23T07:08:06.755Z"
-  },
-  {
-    "slug": "claude-code-settings",
-    "aiDescription": "",
-    "stars": 90,
-    "forks": 14,
-    "watchers": 1,
-    "language": null,
-    "license": "MIT",
-    "createdAt": "2025-07-17T09:48:41Z",
-    "updatedAt": "2026-03-04T01:59:25Z",
-    "lastFetched": "2026-03-23T07:08:07.315Z"
-  },
-  {
-    "slug": "claude-android-skill",
-    "aiDescription": "",
-    "stars": 108,
-    "forks": 15,
-    "watchers": 0,
-    "language": "Python",
-    "license": "MIT",
-    "createdAt": "2025-12-07T21:18:53Z",
-    "updatedAt": "2026-03-23T04:49:20Z",
-    "lastFetched": "2026-03-23T07:08:07.835Z"
-  },
-  {
-    "slug": "token-optimizer",
-    "aiDescription": "",
-    "stars": 98,
-    "forks": 9,
-    "watchers": 0,
-    "language": "Python",
-    "license": "AGPL-3.0",
-    "createdAt": "2026-02-26T17:29:10Z",
-    "updatedAt": "2026-03-22T18:31:12Z",
-    "lastFetched": "2026-03-23T07:08:08.388Z"
-  },
-  {
-    "slug": "verify",
-    "aiDescription": "",
-    "stars": 93,
-    "forks": 3,
-    "watchers": 1,
-    "language": "TypeScript",
-    "license": "MIT",
-    "createdAt": "2026-03-09T17:46:44Z",
-    "updatedAt": "2026-03-22T05:54:51Z",
-    "lastFetched": "2026-03-23T07:08:08.919Z"
-  },
-  {
-    "slug": "ai-bounty-skill",
-    "aiDescription": "",
-    "stars": 73,
-    "forks": 4,
-    "watchers": 3,
-    "language": null,
-    "license": null,
-    "createdAt": "2026-03-11T18:21:47Z",
-    "updatedAt": "2026-03-17T08:19:25Z",
-    "lastFetched": "2026-03-23T07:08:09.418Z"
-  },
-  {
-    "slug": "bria-skill",
-    "aiDescription": "",
-    "stars": 50,
-    "forks": 2,
-    "watchers": 1,
-    "language": "Python",
-    "license": null,
-    "createdAt": "2026-02-05T16:50:27Z",
-    "updatedAt": "2026-03-20T07:15:46Z",
-    "lastFetched": "2026-03-23T07:08:09.994Z"
-  },
-  {
-    "slug": "hxaudioplayer",
-    "aiDescription": "",
-    "stars": 45,
-    "forks": 12,
-    "watchers": 4,
-    "language": "Java",
-    "license": null,
-    "createdAt": "2015-03-17T23:50:59Z",
-    "updatedAt": "2026-03-22T05:05:59Z",
-    "lastFetched": "2026-03-23T07:08:10.617Z"
-  },
-  {
-    "slug": "jetpack-compose-skills",
-    "aiDescription": "",
-    "stars": 67,
-    "forks": 3,
-    "watchers": 0,
-    "language": null,
-    "license": "MIT",
-    "createdAt": "2026-03-12T05:22:02Z",
-    "updatedAt": "2026-03-22T05:59:48Z",
-    "lastFetched": "2026-03-23T07:08:11.173Z"
-  },
-  {
-    "slug": "textum",
-    "aiDescription": "",
-    "stars": 42,
-    "forks": 4,
-    "watchers": 0,
-    "language": "Python",
-    "license": "MIT",
-    "createdAt": "2026-01-01T19:31:34Z",
-    "updatedAt": "2026-03-18T15:13:22Z",
-    "lastFetched": "2026-03-23T07:08:11.666Z"
-  },
-  {
-    "slug": "claude-coach",
-    "aiDescription": "",
-    "stars": 50,
-    "forks": 5,
-    "watchers": 4,
-    "language": "TypeScript",
-    "license": "MIT",
-    "createdAt": "2026-01-02T21:46:53Z",
-    "updatedAt": "2026-03-22T23:26:10Z",
-    "lastFetched": "2026-03-23T07:08:12.187Z"
-  },
-  {
-    "slug": "git-context-controller",
-    "aiDescription": "",
-    "stars": 35,
-    "forks": 1,
-    "watchers": 0,
-    "language": "Shell",
-    "license": "MIT",
-    "createdAt": "2026-02-25T21:11:32Z",
-    "updatedAt": "2026-03-20T12:30:39Z",
-    "lastFetched": "2026-03-23T07:08:12.669Z"
-  },
-  {
-    "slug": "creative-director-skill",
-    "aiDescription": "",
-    "stars": 39,
-    "forks": 15,
-    "watchers": 2,
-    "language": null,
-    "license": "MIT",
-    "createdAt": "2026-02-27T00:45:48Z",
-    "updatedAt": "2026-03-22T17:20:07Z",
-    "lastFetched": "2026-03-23T07:08:13.155Z"
-  },
-  {
-    "slug": "claude-ai-music-skills",
-    "aiDescription": "",
-    "stars": 38,
-    "forks": 9,
-    "watchers": 0,
-    "language": "Python",
-    "license": "CC0-1.0",
-    "createdAt": "2026-01-14T00:55:56Z",
-    "updatedAt": "2026-03-23T00:31:59Z",
-    "lastFetched": "2026-03-23T07:08:13.698Z"
-  },
-  {
-    "slug": "spec-flow",
-    "aiDescription": "",
-    "stars": 26,
-    "forks": 5,
-    "watchers": 0,
-    "language": "Shell",
-    "license": "MIT",
-    "createdAt": "2026-01-05T06:38:02Z",
-    "updatedAt": "2026-02-25T02:39:56Z",
-    "lastFetched": "2026-03-23T07:08:14.227Z"
-  },
-  {
-    "slug": "ham",
-    "aiDescription": "",
-    "stars": 29,
-    "forks": 1,
-    "watchers": 3,
-    "language": "JavaScript",
-    "license": "MIT",
-    "createdAt": "2026-02-23T14:57:40Z",
-    "updatedAt": "2026-03-21T20:31:14Z",
-    "lastFetched": "2026-03-23T07:08:14.716Z"
-  },
-  {
-    "slug": "claude-skill-reddit",
-    "aiDescription": "",
-    "stars": 25,
-    "forks": 3,
-    "watchers": 0,
-    "language": null,
-    "license": null,
-    "createdAt": "2026-02-09T18:15:07Z",
-    "updatedAt": "2026-03-16T11:56:18Z",
-    "lastFetched": "2026-03-23T07:08:15.227Z"
-  },
-  {
-    "slug": "dataforseo-skill-claude",
-    "aiDescription": "",
-    "stars": 24,
-    "forks": 2,
-    "watchers": 0,
-    "language": "Python",
-    "license": "MIT",
-    "createdAt": "2026-01-27T20:09:30Z",
-    "updatedAt": "2026-03-16T10:18:45Z",
-    "lastFetched": "2026-03-23T07:08:15.807Z"
-  },
-  {
-    "slug": "claude-shorts",
-    "aiDescription": "",
-    "stars": 27,
-    "forks": 6,
-    "watchers": 0,
-    "language": "Python",
-    "license": "MIT",
-    "createdAt": "2026-02-16T21:00:09Z",
-    "updatedAt": "2026-03-20T14:27:31Z",
-    "lastFetched": "2026-03-23T07:08:16.664Z"
-  },
-  {
-    "slug": "claude-youtube",
-    "aiDescription": "",
-    "stars": 25,
-    "forks": 2,
-    "watchers": 0,
-    "language": "Python",
-    "license": "MIT",
-    "createdAt": "2026-03-05T19:50:38Z",
-    "updatedAt": "2026-03-21T03:49:59Z",
-    "lastFetched": "2026-03-23T07:08:17.147Z"
-  },
-  {
-    "slug": "ultimate-ai-media-generator-skill",
-    "aiDescription": "",
-    "stars": 23,
-    "forks": 0,
-    "watchers": 1,
-    "language": "Python",
-    "license": "MIT",
-    "createdAt": "2026-03-03T09:44:05Z",
-    "updatedAt": "2026-03-19T12:41:03Z",
-    "lastFetched": "2026-03-23T07:08:17.620Z"
-  },
-  {
-    "slug": "claude-code-tips",
-    "aiDescription": "",
-    "stars": 6555,
-    "forks": 449,
-    "watchers": 45,
-    "language": "JavaScript",
-    "license": "NOASSERTION",
-    "createdAt": "2025-11-28T00:52:00Z",
-    "updatedAt": "2026-03-23T07:07:40Z",
-    "lastFetched": "2026-03-23T07:08:18.273Z"
-  },
-  {
-    "slug": "aelf-skills",
-    "aiDescription": "",
-    "stars": 149,
-    "forks": 7,
-    "watchers": 8,
-    "language": "TypeScript",
-    "license": null,
-    "createdAt": "2026-02-28T15:12:54Z",
-    "updatedAt": "2026-03-23T06:42:50Z",
-    "lastFetched": "2026-03-23T07:08:18.794Z"
-  },
-  {
-    "slug": "mck-ppt-design-skill",
-    "aiDescription": "",
-    "stars": 50,
-    "forks": 5,
-    "watchers": 0,
-    "language": "Python",
-    "license": "Apache-2.0",
-    "createdAt": "2026-03-03T05:48:13Z",
-    "updatedAt": "2026-03-23T04:25:37Z",
-    "lastFetched": "2026-03-23T07:08:19.325Z"
-  },
-  {
-    "slug": "shiplog",
-    "aiDescription": "",
-    "stars": 43,
-    "forks": 1,
-    "watchers": 0,
-    "language": null,
-    "license": "MIT",
-    "createdAt": "2026-03-14T10:15:13Z",
-    "updatedAt": "2026-03-22T03:33:12Z",
-    "lastFetched": "2026-03-23T07:08:19.907Z"
-  },
-  {
-    "slug": "media-library-organizer-skill",
-    "aiDescription": "",
-    "stars": 32,
-    "forks": 0,
-    "watchers": 0,
-    "language": "Shell",
-    "license": "MIT",
-    "createdAt": "2026-03-16T18:08:05Z",
-    "updatedAt": "2026-03-18T19:07:32Z",
-    "lastFetched": "2026-03-23T07:08:20.412Z"
-  },
-  {
-    "slug": "skill-forge",
-    "aiDescription": "",
-    "stars": 23,
-    "forks": 12,
-    "watchers": 2,
-    "language": "Python",
-    "license": "MIT",
-    "createdAt": "2026-02-16T22:58:32Z",
-    "updatedAt": "2026-03-20T17:16:07Z",
-    "lastFetched": "2026-03-23T07:08:20.893Z"
-  },
-  {
-    "slug": "excalidraw-skill",
-    "aiDescription": "",
-    "stars": 23,
-    "forks": 5,
-    "watchers": 0,
-    "language": null,
-    "license": null,
-    "createdAt": "2026-03-03T15:54:16Z",
-    "updatedAt": "2026-03-22T11:45:53Z",
-    "lastFetched": "2026-03-23T07:08:21.409Z"
-  },
-  {
-    "slug": "agent-rules-skill",
-    "aiDescription": "",
-    "stars": 22,
-    "forks": 3,
-    "watchers": 1,
-    "language": "Shell",
-    "license": "NOASSERTION",
-    "createdAt": "2025-10-18T19:35:16Z",
-    "updatedAt": "2026-03-22T16:23:16Z",
-    "lastFetched": "2026-03-23T07:08:21.907Z"
-  },
-  {
-    "slug": "geo-lint",
-    "aiDescription": "",
-    "stars": 16,
-    "forks": 1,
-    "watchers": 0,
-    "language": "TypeScript",
-    "license": "MIT",
-    "createdAt": "2026-02-18T10:06:46Z",
-    "updatedAt": "2026-03-19T15:51:43Z",
-    "lastFetched": "2026-03-23T07:08:22.397Z"
-  },
-  {
-    "slug": "claude-prompts",
-    "aiDescription": "",
-    "stars": 17,
-    "forks": 6,
-    "watchers": 0,
-    "language": "Python",
-    "license": "MIT",
-    "createdAt": "2026-02-16T20:46:02Z",
-    "updatedAt": "2026-03-22T07:11:54Z",
-    "lastFetched": "2026-03-23T07:08:22.965Z"
-  },
-  {
-    "slug": "paperbanana-skill",
-    "aiDescription": "",
-    "stars": 17,
-    "forks": 2,
-    "watchers": 0,
-    "language": null,
-    "license": "MIT",
-    "createdAt": "2026-02-04T16:47:03Z",
-    "updatedAt": "2026-03-23T05:56:22Z",
-    "lastFetched": "2026-03-23T07:08:23.615Z"
-  },
-  {
-    "slug": "human-browser",
-    "aiDescription": "",
-    "stars": 16,
-    "forks": 3,
-    "watchers": 0,
-    "language": "JavaScript",
-    "license": null,
-    "createdAt": "2026-02-18T19:23:40Z",
-    "updatedAt": "2026-03-22T10:56:43Z",
-    "lastFetched": "2026-03-23T07:08:24.089Z"
-  },
-  {
-    "slug": "edgeknowledge-skill",
-    "aiDescription": "",
-    "stars": 17,
-    "forks": 0,
-    "watchers": 0,
-    "language": "Python",
-    "license": null,
-    "createdAt": "2026-02-07T11:08:05Z",
-    "updatedAt": "2026-03-22T15:31:34Z",
-    "lastFetched": "2026-03-23T07:08:24.615Z"
-  },
-  {
-    "slug": "youtube-fetcher-to-markdown",
-    "aiDescription": "",
-    "stars": 14,
-    "forks": 0,
-    "watchers": 0,
-    "language": "Python",
-    "license": "MIT",
-    "createdAt": "2026-03-04T10:38:54Z",
-    "updatedAt": "2026-03-13T16:26:55Z",
-    "lastFetched": "2026-03-23T07:08:25.244Z"
-  },
-  {
-    "slug": "claude-ecom",
-    "aiDescription": "",
-    "stars": 16,
-    "forks": 3,
-    "watchers": 0,
-    "language": "Python",
-    "license": "MIT",
-    "createdAt": "2026-03-06T19:14:44Z",
-    "updatedAt": "2026-03-22T04:29:45Z",
-    "lastFetched": "2026-03-23T07:08:25.771Z"
-  },
-  {
-    "slug": "claude-session-index",
-    "aiDescription": "",
-    "stars": 14,
-    "forks": 0,
-    "watchers": 0,
-    "language": "Python",
-    "license": "MIT",
-    "createdAt": "2026-02-02T00:56:42Z",
-    "updatedAt": "2026-03-21T23:24:33Z",
-    "lastFetched": "2026-03-23T07:08:26.281Z"
-  },
-  {
-    "slug": "claude-for-safari",
-    "aiDescription": "",
-    "stars": 14,
-    "forks": 1,
-    "watchers": 0,
-    "language": null,
-    "license": "MIT",
-    "createdAt": "2026-02-28T13:18:45Z",
-    "updatedAt": "2026-03-21T22:16:28Z",
-    "lastFetched": "2026-03-23T07:08:26.781Z"
-  },
-  {
-    "slug": "church",
-    "aiDescription": "",
-    "stars": 13,
-    "forks": 1,
-    "watchers": 1,
-    "language": "JavaScript",
-    "license": "NOASSERTION",
-    "createdAt": "2025-12-10T18:47:11Z",
-    "updatedAt": "2026-03-16T11:51:59Z",
-    "lastFetched": "2026-03-23T07:08:27.407Z"
-  },
-  {
-    "slug": "skill-email-html-mjml",
-    "aiDescription": "",
-    "stars": 13,
-    "forks": 2,
-    "watchers": 0,
-    "language": null,
-    "license": null,
-    "createdAt": "2026-02-20T18:03:16Z",
-    "updatedAt": "2026-03-17T13:26:16Z",
-    "lastFetched": "2026-03-23T07:08:28.096Z"
-  },
-  {
-    "slug": "context7-auto-research",
-    "aiDescription": "",
-    "stars": 12,
-    "forks": 2,
-    "watchers": 0,
-    "language": "JavaScript",
-    "license": "MIT",
-    "createdAt": "2026-01-19T06:54:47Z",
-    "updatedAt": "2026-03-18T13:21:13Z",
-    "lastFetched": "2026-03-23T07:08:28.556Z"
-  },
-  {
-    "slug": "hinge-profile-optimizer",
-    "aiDescription": "",
-    "stars": 14,
-    "forks": 3,
-    "watchers": 0,
-    "language": null,
-    "license": "MIT",
-    "createdAt": "2026-02-01T13:28:12Z",
-    "updatedAt": "2026-03-22T23:11:30Z",
-    "lastFetched": "2026-03-23T07:08:29.053Z"
-  },
-  {
-    "slug": "jike-skill",
-    "aiDescription": "",
-    "stars": 11,
-    "forks": 5,
-    "watchers": 0,
-    "language": "Python",
-    "license": "MIT",
-    "createdAt": "2026-02-01T11:30:45Z",
-    "updatedAt": "2026-03-20T15:29:52Z",
-    "lastFetched": "2026-03-23T07:08:29.688Z"
-  },
-  {
-    "slug": "mermaid-skill",
-    "aiDescription": "",
-    "stars": 15,
-    "forks": 1,
-    "watchers": 0,
-    "language": "Mermaid",
-    "license": null,
-    "createdAt": "2026-03-03T17:16:23Z",
-    "updatedAt": "2026-03-23T05:39:14Z",
-    "lastFetched": "2026-03-23T07:08:30.156Z"
-  },
-  {
-    "slug": "claude-email",
-    "aiDescription": "",
-    "stars": 12,
-    "forks": 5,
-    "watchers": 1,
-    "language": "Python",
-    "license": "MIT",
-    "createdAt": "2026-02-16T20:44:34Z",
-    "updatedAt": "2026-03-22T19:30:26Z",
-    "lastFetched": "2026-03-23T07:08:30.653Z"
-  },
-  {
-    "slug": "tax-organizer",
-    "aiDescription": "",
-    "stars": 11,
-    "forks": 2,
-    "watchers": 1,
-    "language": "Python",
-    "license": "MIT",
-    "createdAt": "2026-03-02T02:14:37Z",
-    "updatedAt": "2026-03-12T21:21:33Z",
-    "lastFetched": "2026-03-23T07:08:31.266Z"
-  },
-  {
-    "slug": "skills",
-    "aiDescription": "",
-    "stars": 10,
-    "forks": 0,
-    "watchers": 0,
-    "language": "Python",
-    "license": "MIT",
-    "createdAt": "2026-01-30T03:16:40Z",
-    "updatedAt": "2026-03-18T15:13:34Z",
-    "lastFetched": "2026-03-23T07:08:31.821Z"
-  },
-  {
-    "slug": "skill-address-pr-review",
-    "aiDescription": "",
-    "stars": 10,
-    "forks": 0,
-    "watchers": 1,
-    "language": "Shell",
-    "license": "MIT",
-    "createdAt": "2026-03-11T14:51:54Z",
-    "updatedAt": "2026-03-12T19:25:24Z",
-    "lastFetched": "2026-03-23T07:08:32.332Z"
-  },
-  {
-    "slug": "agent-guardrails",
-    "aiDescription": "",
-    "stars": 10,
-    "forks": 0,
-    "watchers": 0,
-    "language": "Shell",
-    "license": "MIT",
-    "createdAt": "2026-02-02T20:48:57Z",
-    "updatedAt": "2026-03-16T23:29:38Z",
-    "lastFetched": "2026-03-23T07:08:32.861Z"
-  },
-  {
-    "slug": "cortex-ai-skills",
-    "aiDescription": "",
-    "stars": 10,
-    "forks": 0,
-    "watchers": 1,
-    "language": "Shell",
-    "license": "MIT",
-    "createdAt": "2026-02-05T22:00:55Z",
-    "updatedAt": "2026-03-19T15:57:21Z",
-    "lastFetched": "2026-03-23T07:08:33.386Z"
-  },
-  {
-    "slug": "claude-doctor-skill",
-    "aiDescription": "",
-    "stars": 9,
-    "forks": 0,
-    "watchers": 0,
-    "language": "Shell",
-    "license": "MIT",
-    "createdAt": "2026-02-25T16:30:36Z",
-    "updatedAt": "2026-03-14T23:51:05Z",
-    "lastFetched": "2026-03-23T07:08:33.898Z"
-  },
-  {
-    "slug": "the-antislop",
-    "aiDescription": "",
-    "stars": 9,
-    "forks": 1,
-    "watchers": 0,
-    "language": "Shell",
-    "license": "MIT",
-    "createdAt": "2026-01-26T14:27:24Z",
-    "updatedAt": "2026-03-08T15:14:52Z",
-    "lastFetched": "2026-03-23T07:08:34.510Z"
-  },
-  {
-    "slug": "uix",
-    "aiDescription": "",
-    "stars": 9,
-    "forks": 0,
-    "watchers": 0,
-    "language": "TypeScript",
-    "license": "MIT",
-    "createdAt": "2025-12-06T06:42:07Z",
-    "updatedAt": "2026-03-19T06:10:52Z",
-    "lastFetched": "2026-03-23T07:08:35.107Z"
-  },
-  {
-    "slug": "startup-os-skills",
-    "aiDescription": "",
-    "stars": 8,
-    "forks": 1,
-    "watchers": 0,
-    "language": "TypeScript",
-    "license": null,
-    "createdAt": "2026-01-25T16:49:46Z",
-    "updatedAt": "2026-03-23T06:55:29Z",
-    "lastFetched": "2026-03-23T07:08:35.573Z"
-  },
-  {
-    "slug": "humanizer",
-    "aiDescription": "",
-    "stars": 10621,
-    "forks": 873,
-    "watchers": 69,
-    "language": null,
-    "license": "MIT",
-    "createdAt": "2026-01-18T05:30:15Z",
-    "updatedAt": "2026-03-23T07:02:56Z",
-    "lastFetched": "2026-03-23T07:08:36.018Z"
-  },
-  {
-    "slug": "algorithms",
-    "aiDescription": "",
-    "stars": 68,
-    "forks": 70,
-    "watchers": 8,
-    "language": "C++",
-    "license": null,
-    "createdAt": "2013-10-14T02:27:02Z",
-    "updatedAt": "2025-08-21T02:04:06Z",
-    "lastFetched": "2026-03-23T07:08:36.697Z"
-  },
-  {
-    "slug": "crimsonstainedlands",
-    "aiDescription": "",
-    "stars": 28,
-    "forks": 9,
-    "watchers": 4,
-    "language": "C#",
-    "license": null,
-    "createdAt": "2023-07-24T00:17:00Z",
-    "updatedAt": "2026-02-16T22:17:20Z",
-    "lastFetched": "2026-03-23T07:08:37.304Z"
-  },
-  {
-    "slug": "qqsg-struct",
-    "aiDescription": "",
-    "stars": 30,
-    "forks": 13,
-    "watchers": 0,
-    "language": null,
-    "license": "MIT",
-    "createdAt": "2023-01-03T07:57:45Z",
-    "updatedAt": "2026-03-12T04:16:46Z",
-    "lastFetched": "2026-03-23T07:08:37.925Z"
-  },
-  {
-    "slug": "odoo-wiki",
-    "aiDescription": "",
-    "stars": 20,
-    "forks": 21,
-    "watchers": 2,
-    "language": "JavaScript",
-    "license": "AGPL-3.0",
-    "createdAt": "2020-09-17T11:19:39Z",
-    "updatedAt": "2026-03-20T16:52:13Z",
-    "lastFetched": "2026-03-23T07:08:38.643Z"
-  },
-  {
-    "slug": "frontend-slides",
-    "aiDescription": "",
-    "stars": 10884,
-    "forks": 805,
-    "watchers": 62,
-    "language": "CSS",
-    "license": "MIT",
-    "createdAt": "2026-01-28T00:42:34Z",
-    "updatedAt": "2026-03-23T07:01:14Z",
-    "lastFetched": "2026-03-23T07:08:39.090Z"
-  },
-  {
-    "slug": "garden",
-    "aiDescription": "",
-    "stars": 27,
-    "forks": 8,
-    "watchers": 4,
-    "language": "Python",
-    "license": "NOASSERTION",
-    "createdAt": "2020-10-01T14:33:18Z",
-    "updatedAt": "2026-03-22T00:53:41Z",
-    "lastFetched": "2026-03-23T07:08:41.804Z"
-  },
-  {
-    "slug": "hw-concept",
-    "aiDescription": "",
-    "stars": 0,
-    "forks": 0,
-    "watchers": 0,
-    "language": "JavaScript",
-    "license": "MIT",
-    "createdAt": "2026-01-04T23:28:21Z",
-    "updatedAt": "2026-01-24T01:58:28Z",
-    "lastFetched": "2026-03-23T07:08:42.349Z"
-  },
-  {
-    "slug": "skill-cli-template",
-    "aiDescription": "",
-    "stars": 0,
-    "forks": 0,
-    "watchers": 0,
-    "language": "Shell",
-    "license": null,
-    "createdAt": "2026-01-12T00:52:03Z",
-    "updatedAt": "2026-01-12T00:52:08Z",
-    "lastFetched": "2026-03-23T07:08:42.852Z"
-  },
-  {
-    "slug": "asi",
-    "aiDescription": "",
-    "stars": 11,
-    "forks": 4,
-    "watchers": 0,
-    "language": "HTML",
-    "license": "MIT",
-    "createdAt": "2025-12-22T05:49:13Z",
-    "updatedAt": "2026-03-22T01:41:12Z",
-    "lastFetched": "2026-03-23T07:08:43.758Z"
-  },
-  {
-    "slug": "kylopro",
-    "aiDescription": "",
-    "stars": 0,
-    "forks": 0,
-    "watchers": 0,
-    "language": "Python",
-    "license": "MIT",
-    "createdAt": "2026-03-07T07:31:50Z",
-    "updatedAt": "2026-03-09T05:11:08Z",
-    "lastFetched": "2026-03-23T07:08:44.278Z"
-  },
-  {
-    "slug": "docs",
-    "aiDescription": "",
-    "stars": 4,
-    "forks": 111,
-    "watchers": 3,
-    "language": "MDX",
-    "license": "NOASSERTION",
-    "createdAt": "2025-08-25T10:27:22Z",
-    "updatedAt": "2026-03-17T22:05:09Z",
-    "lastFetched": "2026-03-23T07:08:44.921Z"
-  },
-  {
-    "slug": "weekly",
-    "aiDescription": "",
-    "stars": 2,
-    "forks": 0,
-    "watchers": 1,
-    "language": "HTML",
-    "license": "Unlicense",
-    "createdAt": "2022-07-24T13:34:30Z",
-    "updatedAt": "2026-01-24T13:24:52Z",
-    "lastFetched": "2026-03-23T07:08:45.623Z"
-  },
-  {
-    "slug": "agent-skill-git-checkpoint",
-    "aiDescription": "",
-    "stars": 13,
-    "forks": 1,
-    "watchers": 0,
-    "language": null,
-    "license": null,
-    "createdAt": "2026-01-23T11:54:55Z",
-    "updatedAt": "2026-01-26T02:33:58Z",
-    "lastFetched": "2026-03-23T07:08:46.169Z"
-  },
-  {
-    "slug": "personal-knowledge-growth-analyzer",
-    "aiDescription": "",
-    "stars": 3,
-    "forks": 0,
-    "watchers": 0,
-    "language": "Python",
-    "license": "GPL-3.0",
-    "createdAt": "2026-01-26T12:49:40Z",
-    "updatedAt": "2026-02-27T20:00:14Z",
-    "lastFetched": "2026-03-23T07:08:46.653Z"
-  },
-  {
-    "slug": "team-sentinel",
-    "aiDescription": "",
-    "stars": 3,
-    "forks": 2,
-    "watchers": 0,
-    "language": "TypeScript",
-    "license": null,
-    "createdAt": "2026-02-01T13:17:58Z",
-    "updatedAt": "2026-02-13T19:46:02Z",
-    "lastFetched": "2026-03-23T07:08:47.213Z"
-  },
-  {
-    "slug": "ccs-wb",
-    "aiDescription": "",
-    "stars": 5,
-    "forks": 2,
-    "watchers": 0,
-    "language": "TypeScript",
-    "license": "NOASSERTION",
-    "createdAt": "2026-01-19T01:44:26Z",
-    "updatedAt": "2026-02-16T08:15:42Z",
-    "lastFetched": "2026-03-23T07:08:47.732Z"
-  },
-  {
-    "slug": "media-skills",
-    "aiDescription": "",
-    "stars": 22,
-    "forks": 1,
-    "watchers": 0,
-    "language": "Python",
-    "license": null,
-    "createdAt": "2026-02-25T08:33:24Z",
-    "updatedAt": "2026-03-11T08:30:56Z",
-    "lastFetched": "2026-03-23T07:08:48.228Z"
-  },
-  {
-    "slug": "kaggle-skill",
-    "aiDescription": "",
-    "stars": 10,
-    "forks": 0,
-    "watchers": 0,
-    "language": "Python",
-    "license": "MIT",
-    "createdAt": "2026-02-11T14:36:07Z",
-    "updatedAt": "2026-03-21T04:39:40Z",
-    "lastFetched": "2026-03-23T07:08:48.752Z"
-  },
-  {
-    "slug": "marketingskills",
-    "aiDescription": "",
-    "stars": 15633,
-    "forks": 2344,
-    "watchers": 160,
-    "language": "JavaScript",
-    "license": "MIT",
-    "createdAt": "2026-01-15T19:45:23Z",
-    "updatedAt": "2026-03-23T07:00:37Z",
-    "lastFetched": "2026-03-23T07:08:49.199Z"
-  },
-  {
-    "slug": "open-saas",
-    "aiDescription": "",
-    "stars": 13631,
-    "forks": 1574,
-    "watchers": 70,
-    "language": "TypeScript",
-    "license": "MIT",
-    "createdAt": "2023-12-01T13:54:36Z",
-    "updatedAt": "2026-03-23T06:31:42Z",
-    "lastFetched": "2026-03-23T07:08:49.812Z"
-  },
-  {
-    "slug": "ai-guide",
-    "aiDescription": "",
-    "stars": 10049,
-    "forks": 1078,
-    "watchers": 67,
-    "language": "JavaScript",
-    "license": null,
-    "createdAt": "2025-02-13T05:47:46Z",
-    "updatedAt": "2026-03-23T07:05:41Z",
-    "lastFetched": "2026-03-23T07:08:50.345Z"
-  },
-  {
-    "slug": "claude-code-infrastructure-showcase",
-    "aiDescription": "",
-    "stars": 9315,
-    "forks": 1195,
-    "watchers": 98,
-    "language": "Shell",
-    "license": "MIT",
-    "createdAt": "2025-10-30T03:12:16Z",
-    "updatedAt": "2026-03-23T02:04:06Z",
-    "lastFetched": "2026-03-23T07:08:50.851Z"
-  },
-  {
-    "slug": "refly",
-    "aiDescription": "",
-    "stars": 7055,
-    "forks": 701,
-    "watchers": 49,
-    "language": "TypeScript",
-    "license": "NOASSERTION",
-    "createdAt": "2024-02-19T11:04:30Z",
-    "updatedAt": "2026-03-23T07:05:51Z",
-    "lastFetched": "2026-03-23T07:08:51.521Z"
-  },
-  {
-    "slug": "notebooklm-py",
-    "aiDescription": "",
-    "stars": 7075,
-    "forks": 895,
-    "watchers": 45,
-    "language": "Python",
-    "license": "MIT",
-    "createdAt": "2026-01-07T15:27:19Z",
-    "updatedAt": "2026-03-23T07:05:41Z",
-    "lastFetched": "2026-03-23T07:08:52.002Z"
-  },
-  {
-    "slug": "claude-skills",
-    "aiDescription": "",
-    "stars": 6446,
-    "forks": 760,
-    "watchers": 64,
-    "language": "Python",
-    "license": "MIT",
-    "createdAt": "2025-10-19T04:04:05Z",
-    "updatedAt": "2026-03-23T07:04:47Z",
-    "lastFetched": "2026-03-23T07:08:52.517Z"
-  },
-  {
-    "slug": "claude-code-showcase",
-    "aiDescription": "",
-    "stars": 5570,
-    "forks": 487,
-    "watchers": 47,
-    "language": "JavaScript",
-    "license": null,
-    "createdAt": "2026-01-06T18:51:02Z",
-    "updatedAt": "2026-03-23T05:59:58Z",
-    "lastFetched": "2026-03-23T07:08:52.995Z"
-  },
-  {
-    "slug": "ai-research-skills",
-    "aiDescription": "",
-    "stars": 5430,
-    "forks": 429,
-    "watchers": 35,
-    "language": "TeX",
-    "license": "MIT",
-    "createdAt": "2025-11-03T06:13:06Z",
-    "updatedAt": "2026-03-23T06:47:49Z",
-    "lastFetched": "2026-03-23T07:08:53.526Z"
-  },
-  {
-    "slug": "humanizer-zh",
-    "aiDescription": "",
-    "stars": 5074,
-    "forks": 428,
-    "watchers": 11,
-    "language": null,
-    "license": "MIT",
-    "createdAt": "2026-01-19T04:23:44Z",
-    "updatedAt": "2026-03-23T07:04:29Z",
-    "lastFetched": "2026-03-23T07:08:53.995Z"
-  },
-  {
-    "slug": "notebooklm-skill",
-    "aiDescription": "",
-    "stars": 4871,
-    "forks": 511,
-    "watchers": 23,
-    "language": "Python",
-    "license": "MIT",
-    "createdAt": "2025-10-19T05:36:13Z",
-    "updatedAt": "2026-03-23T06:54:45Z",
-    "lastFetched": "2026-03-23T07:08:54.586Z"
+    "lastFetched": "2026-03-24T07:02:28.332Z"
   },
   {
     "slug": "skills",
@@ -4236,435 +2676,2019 @@
     "lastFetched": "2026-03-23T07:08:55.149Z"
   },
   {
+    "slug": "mastering-langgraph-agent-skill",
+    "aiDescription": "",
+    "stars": 28,
+    "forks": 2,
+    "watchers": 0,
+    "language": null,
+    "license": null,
+    "createdAt": "2025-12-29T01:21:22Z",
+    "updatedAt": "2026-03-23T23:28:55Z",
+    "lastFetched": "2026-03-24T07:02:29.418Z"
+  },
+  {
+    "slug": "claude-code-x402-skill",
+    "aiDescription": "",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "language": null,
+    "license": "MIT",
+    "createdAt": "2026-01-12T20:03:28Z",
+    "updatedAt": "2026-01-12T22:22:02Z",
+    "lastFetched": "2026-03-24T07:02:30.134Z"
+  },
+  {
+    "slug": "publishing-astro-websites-agentic-skill",
+    "aiDescription": "",
+    "stars": 9,
+    "forks": 1,
+    "watchers": 0,
+    "language": null,
+    "license": null,
+    "createdAt": "2026-01-02T09:03:51Z",
+    "updatedAt": "2026-03-11T17:17:53Z",
+    "lastFetched": "2026-03-24T07:02:30.813Z"
+  },
+  {
+    "slug": "video-to-cooklang",
+    "aiDescription": "",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "language": null,
+    "license": "MIT",
+    "createdAt": "2026-01-02T20:23:51Z",
+    "updatedAt": "2026-01-02T20:27:08Z",
+    "lastFetched": "2026-03-24T07:02:31.506Z"
+  },
+  {
+    "slug": "mastering-postgresql-agent-skill",
+    "aiDescription": "",
+    "stars": 2,
+    "forks": 1,
+    "watchers": 0,
+    "language": "Python",
+    "license": null,
+    "createdAt": "2025-12-31T15:32:54Z",
+    "updatedAt": "2026-03-15T01:18:14Z",
+    "lastFetched": "2026-03-24T07:02:32.196Z"
+  },
+  {
+    "slug": "mastering-git-cli-agent-skill",
+    "aiDescription": "",
+    "stars": 1,
+    "forks": 0,
+    "watchers": 0,
+    "language": "Shell",
+    "license": null,
+    "createdAt": "2026-01-01T01:08:10Z",
+    "updatedAt": "2026-01-22T15:05:23Z",
+    "lastFetched": "2026-03-24T07:02:32.974Z"
+  },
+  {
+    "slug": "mastering-typescript-skill",
+    "aiDescription": "",
+    "stars": 10,
+    "forks": 0,
+    "watchers": 0,
+    "language": "Shell",
+    "license": null,
+    "createdAt": "2026-01-01T00:36:07Z",
+    "updatedAt": "2026-03-24T05:13:18Z",
+    "lastFetched": "2026-03-24T07:02:33.628Z"
+  },
+  {
+    "slug": "mastering-aws-cli",
+    "aiDescription": "",
+    "stars": 0,
+    "forks": 1,
+    "watchers": 0,
+    "language": null,
+    "license": null,
+    "createdAt": "2025-12-26T04:52:41Z",
+    "updatedAt": "2026-01-07T23:38:34Z",
+    "lastFetched": "2026-03-24T07:02:34.299Z"
+  },
+  {
+    "slug": "claude-code-prompts",
+    "aiDescription": "",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "language": "Shell",
+    "license": null,
+    "createdAt": "2026-01-07T11:54:47Z",
+    "updatedAt": "2026-03-15T15:00:23Z",
+    "lastFetched": "2026-03-24T07:02:35.289Z"
+  },
+  {
+    "slug": "spacy-nlp-agentic-skill",
+    "aiDescription": "",
+    "stars": 1,
+    "forks": 1,
+    "watchers": 0,
+    "language": "Python",
+    "license": null,
+    "createdAt": "2026-01-05T03:20:54Z",
+    "updatedAt": "2026-01-17T05:23:45Z",
+    "lastFetched": "2026-03-24T07:02:35.991Z"
+  },
+  {
+    "slug": "video-to-gif-skill",
+    "aiDescription": "",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "language": "Shell",
+    "license": null,
+    "createdAt": "2026-01-04T08:58:02Z",
+    "updatedAt": "2026-01-04T09:01:47Z",
+    "lastFetched": "2026-03-24T07:02:36.673Z"
+  },
+  {
+    "slug": "agent-skills",
+    "aiDescription": "",
+    "stars": 1,
+    "forks": 0,
+    "watchers": 0,
+    "language": null,
+    "license": "Apache-2.0",
+    "createdAt": "2026-01-16T11:20:57Z",
+    "updatedAt": "2026-02-07T21:19:31Z",
+    "lastFetched": "2026-03-24T07:02:37.823Z"
+  },
+  {
+    "slug": "source-of-truth-creator",
+    "aiDescription": "",
+    "stars": 1,
+    "forks": 0,
+    "watchers": 0,
+    "language": null,
+    "license": "NOASSERTION",
+    "createdAt": "2025-12-21T11:45:17Z",
+    "updatedAt": "2026-01-19T22:53:16Z",
+    "lastFetched": "2026-03-24T07:02:38.489Z"
+  },
+  {
+    "slug": "parseium-skill",
+    "aiDescription": "",
+    "stars": 1,
+    "forks": 0,
+    "watchers": 0,
+    "language": null,
+    "license": "MIT",
+    "createdAt": "2026-01-17T11:21:08Z",
+    "updatedAt": "2026-01-17T11:34:57Z",
+    "lastFetched": "2026-03-24T07:02:39.467Z"
+  },
+  {
+    "slug": "developing-with-docker-agentic-skill",
+    "aiDescription": "",
+    "stars": 2,
+    "forks": 0,
+    "watchers": 0,
+    "language": null,
+    "license": null,
+    "createdAt": "2026-01-07T21:39:09Z",
+    "updatedAt": "2026-03-15T00:22:45Z",
+    "lastFetched": "2026-03-24T07:02:40.190Z"
+  },
+  {
+    "slug": "recursive-decomposition-skill",
+    "aiDescription": "",
+    "stars": 20,
+    "forks": 1,
+    "watchers": 0,
+    "language": null,
+    "license": "MIT",
+    "createdAt": "2026-01-16T08:55:40Z",
+    "updatedAt": "2026-03-20T12:08:51Z",
+    "lastFetched": "2026-03-24T07:02:40.823Z"
+  },
+  {
+    "slug": "everything-claude-code",
+    "aiDescription": "",
+    "stars": 102820,
+    "forks": 13389,
+    "watchers": 544,
+    "language": "JavaScript",
+    "license": "MIT",
+    "createdAt": "2026-01-18T00:51:51Z",
+    "updatedAt": "2026-03-24T07:02:08Z",
+    "lastFetched": "2026-03-24T07:02:41.469Z"
+  },
+  {
+    "slug": "oh-my-openagent",
+    "aiDescription": "",
+    "stars": 42921,
+    "forks": 3186,
+    "watchers": 168,
+    "language": "TypeScript",
+    "license": "NOASSERTION",
+    "createdAt": "2025-12-03T01:40:05Z",
+    "updatedAt": "2026-03-24T07:01:55Z",
+    "lastFetched": "2026-03-24T07:02:42.463Z"
+  },
+  {
+    "slug": "get-shit-done",
+    "aiDescription": "",
+    "stars": 40180,
+    "forks": 3263,
+    "watchers": 186,
+    "language": "JavaScript",
+    "license": "MIT",
+    "createdAt": "2025-12-14T14:17:12Z",
+    "updatedAt": "2026-03-24T07:02:39Z",
+    "lastFetched": "2026-03-24T07:02:43.110Z"
+  },
+  {
+    "slug": "antigravity-awesome-skills",
+    "aiDescription": "",
+    "stars": 26941,
+    "forks": 4569,
+    "watchers": 227,
+    "language": "Python",
+    "license": "MIT",
+    "createdAt": "2026-01-14T17:48:09Z",
+    "updatedAt": "2026-03-24T06:58:18Z",
+    "lastFetched": "2026-03-24T07:02:43.856Z"
+  },
+  {
+    "slug": "nanoclaw",
+    "aiDescription": "",
+    "stars": 25146,
+    "forks": 8269,
+    "watchers": 109,
+    "language": "TypeScript",
+    "license": "MIT",
+    "createdAt": "2026-01-31T15:47:22Z",
+    "updatedAt": "2026-03-24T06:51:11Z",
+    "lastFetched": "2026-03-24T07:02:44.520Z"
+  },
+  {
+    "slug": "ruflo",
+    "aiDescription": "",
+    "stars": 24262,
+    "forks": 2646,
+    "watchers": 249,
+    "language": "TypeScript",
+    "license": "MIT",
+    "createdAt": "2025-06-02T21:24:20Z",
+    "updatedAt": "2026-03-24T07:02:04Z",
+    "lastFetched": "2026-03-24T07:02:45.355Z"
+  },
+  {
+    "slug": "claude-code-best-practice",
+    "aiDescription": "",
+    "stars": 21286,
+    "forks": 1859,
+    "watchers": 216,
+    "language": "HTML",
+    "license": "MIT",
+    "createdAt": "2025-10-31T14:15:28Z",
+    "updatedAt": "2026-03-24T06:49:44Z",
+    "lastFetched": "2026-03-24T07:02:45.977Z"
+  },
+  {
+    "slug": "awesome-agent-skills",
+    "aiDescription": "",
+    "stars": 12602,
+    "forks": 1224,
+    "watchers": 101,
+    "language": null,
+    "license": "MIT",
+    "createdAt": "2025-10-28T08:55:32Z",
+    "updatedAt": "2026-03-24T07:00:26Z",
+    "lastFetched": "2026-03-24T07:02:46.683Z"
+  },
+  {
+    "slug": "oh-my-claudecode",
+    "aiDescription": "",
+    "stars": 11128,
+    "forks": 766,
+    "watchers": 36,
+    "language": "TypeScript",
+    "license": "MIT",
+    "createdAt": "2026-01-09T03:36:29Z",
+    "updatedAt": "2026-03-24T07:00:18Z",
+    "lastFetched": "2026-03-24T07:02:47.449Z"
+  },
+  {
+    "slug": "hive",
+    "aiDescription": "",
+    "stars": 9796,
+    "forks": 5567,
+    "watchers": 286,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "createdAt": "2026-01-12T00:04:22Z",
+    "updatedAt": "2026-03-24T06:59:30Z",
+    "lastFetched": "2026-03-24T07:02:48.179Z"
+  },
+  {
+    "slug": "agent-reach",
+    "aiDescription": "",
+    "stars": 10577,
+    "forks": 769,
+    "watchers": 29,
+    "language": "Python",
+    "license": "MIT",
+    "createdAt": "2026-02-24T02:10:24Z",
+    "updatedAt": "2026-03-24T07:02:25Z",
+    "lastFetched": "2026-03-24T07:02:48.897Z"
+  },
+  {
+    "slug": "rowboat",
+    "aiDescription": "",
+    "stars": 9318,
+    "forks": 792,
+    "watchers": 53,
+    "language": "TypeScript",
+    "license": "Apache-2.0",
+    "createdAt": "2025-01-13T09:30:40Z",
+    "updatedAt": "2026-03-24T02:30:54Z",
+    "lastFetched": "2026-03-24T07:02:49.650Z"
+  },
+  {
+    "slug": "xonsh",
+    "aiDescription": "",
+    "stars": 9258,
+    "forks": 701,
+    "watchers": 95,
+    "language": "Python",
+    "license": "NOASSERTION",
+    "createdAt": "2015-01-21T22:05:27Z",
+    "updatedAt": "2026-03-24T07:01:22Z",
+    "lastFetched": "2026-03-24T07:02:50.647Z"
+  },
+  {
+    "slug": "rtk",
+    "aiDescription": "",
+    "stars": 12528,
+    "forks": 631,
+    "watchers": 27,
+    "language": "Rust",
+    "license": "MIT",
+    "createdAt": "2026-01-22T16:54:16Z",
+    "updatedAt": "2026-03-24T07:01:35Z",
+    "lastFetched": "2026-03-24T07:02:51.595Z"
+  },
+  {
+    "slug": "hermes-agent",
+    "aiDescription": "",
+    "stars": 11821,
+    "forks": 1436,
+    "watchers": 53,
+    "language": "Python",
+    "license": "MIT",
+    "createdAt": "2025-07-22T22:22:28Z",
+    "updatedAt": "2026-03-24T07:01:43Z",
+    "lastFetched": "2026-03-24T07:02:52.301Z"
+  },
+  {
+    "slug": "superset",
+    "aiDescription": "",
+    "stars": 7842,
+    "forks": 569,
+    "watchers": 22,
+    "language": "TypeScript",
+    "license": "NOASSERTION",
+    "createdAt": "2025-10-21T09:16:51Z",
+    "updatedAt": "2026-03-24T07:00:59Z",
+    "lastFetched": "2026-03-24T07:02:53.123Z"
+  },
+  {
+    "slug": "claude-skills",
+    "aiDescription": "",
+    "stars": 7218,
+    "forks": 486,
+    "watchers": 45,
+    "language": "Python",
+    "license": "MIT",
+    "createdAt": "2025-10-20T20:27:22Z",
+    "updatedAt": "2026-03-24T06:56:07Z",
+    "lastFetched": "2026-03-24T07:02:53.754Z"
+  },
+  {
+    "slug": "cmux",
+    "aiDescription": "",
+    "stars": 9869,
+    "forks": 668,
+    "watchers": 16,
+    "language": "Swift",
+    "license": "NOASSERTION",
+    "createdAt": "2026-01-28T10:03:24Z",
+    "updatedAt": "2026-03-24T07:01:14Z",
+    "lastFetched": "2026-03-24T07:02:54.542Z"
+  },
+  {
+    "slug": "sub2api",
+    "aiDescription": "",
+    "stars": 8070,
+    "forks": 1223,
+    "watchers": 18,
+    "language": "Go",
+    "license": "MIT",
+    "createdAt": "2025-12-18T02:26:18Z",
+    "updatedAt": "2026-03-24T07:01:57Z",
+    "lastFetched": "2026-03-24T07:02:55.183Z"
+  },
+  {
+    "slug": "nano-banana-pro-prompts-recommend-skill",
+    "aiDescription": "",
+    "stars": 1293,
+    "forks": 128,
+    "watchers": 10,
+    "language": "TypeScript",
+    "license": null,
+    "createdAt": "2026-01-21T07:15:20Z",
+    "updatedAt": "2026-03-24T05:29:18Z",
+    "lastFetched": "2026-03-24T07:02:55.808Z"
+  },
+  {
+    "slug": "claude-ads",
+    "aiDescription": "",
+    "stars": 1169,
+    "forks": 246,
+    "watchers": 20,
+    "language": "Python",
+    "license": "MIT",
+    "createdAt": "2026-02-11T13:01:49Z",
+    "updatedAt": "2026-03-24T06:07:21Z",
+    "lastFetched": "2026-03-24T07:02:56.476Z"
+  },
+  {
+    "slug": "claude-blog",
+    "aiDescription": "",
+    "stars": 300,
+    "forks": 79,
+    "watchers": 7,
+    "language": "Python",
+    "license": "MIT",
+    "createdAt": "2026-02-17T22:40:44Z",
+    "updatedAt": "2026-03-24T02:59:09Z",
+    "lastFetched": "2026-03-24T07:02:57.130Z"
+  },
+  {
+    "slug": "soul-md",
+    "aiDescription": "",
+    "stars": 277,
+    "forks": 20,
+    "watchers": 2,
+    "language": null,
+    "license": null,
+    "createdAt": "2026-02-02T18:27:15Z",
+    "updatedAt": "2026-03-23T23:08:13Z",
+    "lastFetched": "2026-03-24T07:02:57.751Z"
+  },
+  {
+    "slug": "claude-zeroclaw",
+    "aiDescription": "",
+    "stars": 139,
+    "forks": 2,
+    "watchers": 0,
+    "language": "TypeScript",
+    "license": "MIT",
+    "createdAt": "2026-03-07T23:08:25Z",
+    "updatedAt": "2026-03-23T17:50:14Z",
+    "lastFetched": "2026-03-24T07:02:58.413Z"
+  },
+  {
+    "slug": "skyll",
+    "aiDescription": "",
+    "stars": 219,
+    "forks": 21,
+    "watchers": 2,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "createdAt": "2026-01-31T18:04:09Z",
+    "updatedAt": "2026-03-23T21:42:03Z",
+    "lastFetched": "2026-03-24T07:02:59.027Z"
+  },
+  {
+    "slug": "nelson",
+    "aiDescription": "",
+    "stars": 202,
+    "forks": 16,
+    "watchers": 4,
+    "language": "Python",
+    "license": "MIT",
+    "createdAt": "2026-02-09T15:29:44Z",
+    "updatedAt": "2026-03-24T02:23:09Z",
+    "lastFetched": "2026-03-24T07:02:59.626Z"
+  },
+  {
+    "slug": "agentic-seo-skill",
+    "aiDescription": "",
+    "stars": 207,
+    "forks": 40,
+    "watchers": 5,
+    "language": "Python",
+    "license": "MIT",
+    "createdAt": "2026-03-02T17:37:53Z",
+    "updatedAt": "2026-03-23T19:47:11Z",
+    "lastFetched": "2026-03-24T07:03:00.257Z"
+  },
+  {
+    "slug": "playwright-bot-bypass",
+    "aiDescription": "",
+    "stars": 137,
+    "forks": 8,
+    "watchers": 1,
+    "language": "JavaScript",
+    "license": "MIT",
+    "createdAt": "2026-01-29T05:49:03Z",
+    "updatedAt": "2026-03-23T22:03:52Z",
+    "lastFetched": "2026-03-24T07:03:00.924Z"
+  },
+  {
+    "slug": "claude-skills",
+    "aiDescription": "",
+    "stars": 113,
+    "forks": 4,
+    "watchers": 1,
+    "language": "Python",
+    "license": "MIT",
+    "createdAt": "2025-10-17T02:32:23Z",
+    "updatedAt": "2026-03-24T02:32:12Z",
+    "lastFetched": "2026-03-24T07:03:01.600Z"
+  },
+  {
+    "slug": "notebooklm-skill",
+    "aiDescription": "",
+    "stars": 135,
+    "forks": 14,
+    "watchers": 0,
+    "language": "Python",
+    "license": "MIT",
+    "createdAt": "2026-03-13T19:57:38Z",
+    "updatedAt": "2026-03-24T00:55:19Z",
+    "lastFetched": "2026-03-24T07:03:02.359Z"
+  },
+  {
+    "slug": "claude-code-settings",
+    "aiDescription": "",
+    "stars": 90,
+    "forks": 14,
+    "watchers": 1,
+    "language": null,
+    "license": "MIT",
+    "createdAt": "2025-07-17T09:48:41Z",
+    "updatedAt": "2026-03-04T01:59:25Z",
+    "lastFetched": "2026-03-24T07:03:02.985Z"
+  },
+  {
+    "slug": "claude-android-skill",
+    "aiDescription": "",
+    "stars": 110,
+    "forks": 15,
+    "watchers": 0,
+    "language": "Python",
+    "license": "MIT",
+    "createdAt": "2025-12-07T21:18:53Z",
+    "updatedAt": "2026-03-24T06:23:25Z",
+    "lastFetched": "2026-03-24T07:03:03.594Z"
+  },
+  {
+    "slug": "token-optimizer",
+    "aiDescription": "",
+    "stars": 101,
+    "forks": 9,
+    "watchers": 0,
+    "language": "Python",
+    "license": "AGPL-3.0",
+    "createdAt": "2026-02-26T17:29:10Z",
+    "updatedAt": "2026-03-23T22:28:06Z",
+    "lastFetched": "2026-03-24T07:03:04.225Z"
+  },
+  {
+    "slug": "verify",
+    "aiDescription": "",
+    "stars": 94,
+    "forks": 3,
+    "watchers": 1,
+    "language": "TypeScript",
+    "license": "MIT",
+    "createdAt": "2026-03-09T17:46:44Z",
+    "updatedAt": "2026-03-23T12:22:34Z",
+    "lastFetched": "2026-03-24T07:03:04.939Z"
+  },
+  {
+    "slug": "ai-bounty-skill",
+    "aiDescription": "",
+    "stars": 73,
+    "forks": 4,
+    "watchers": 3,
+    "language": null,
+    "license": null,
+    "createdAt": "2026-03-11T18:21:47Z",
+    "updatedAt": "2026-03-17T08:19:25Z",
+    "lastFetched": "2026-03-24T07:03:05.616Z"
+  },
+  {
+    "slug": "bria-skill",
+    "aiDescription": "",
+    "stars": 50,
+    "forks": 2,
+    "watchers": 1,
+    "language": "Python",
+    "license": null,
+    "createdAt": "2026-02-05T16:50:27Z",
+    "updatedAt": "2026-03-20T07:15:46Z",
+    "lastFetched": "2026-03-24T07:03:06.320Z"
+  },
+  {
+    "slug": "hxaudioplayer",
+    "aiDescription": "",
+    "stars": 45,
+    "forks": 12,
+    "watchers": 4,
+    "language": "Java",
+    "license": null,
+    "createdAt": "2015-03-17T23:50:59Z",
+    "updatedAt": "2026-03-22T05:05:59Z",
+    "lastFetched": "2026-03-24T07:03:07.309Z"
+  },
+  {
+    "slug": "jetpack-compose-skills",
+    "aiDescription": "",
+    "stars": 68,
+    "forks": 3,
+    "watchers": 0,
+    "language": null,
+    "license": "MIT",
+    "createdAt": "2026-03-12T05:22:02Z",
+    "updatedAt": "2026-03-23T22:43:37Z",
+    "lastFetched": "2026-03-24T07:03:08.266Z"
+  },
+  {
+    "slug": "textum",
+    "aiDescription": "",
+    "stars": 42,
+    "forks": 4,
+    "watchers": 0,
+    "language": "Python",
+    "license": "MIT",
+    "createdAt": "2026-01-01T19:31:34Z",
+    "updatedAt": "2026-03-18T15:13:22Z",
+    "lastFetched": "2026-03-24T07:03:08.952Z"
+  },
+  {
+    "slug": "claude-coach",
+    "aiDescription": "",
+    "stars": 53,
+    "forks": 6,
+    "watchers": 4,
+    "language": "TypeScript",
+    "license": "MIT",
+    "createdAt": "2026-01-02T21:46:53Z",
+    "updatedAt": "2026-03-24T00:17:10Z",
+    "lastFetched": "2026-03-24T07:03:09.602Z"
+  },
+  {
+    "slug": "git-context-controller",
+    "aiDescription": "",
+    "stars": 35,
+    "forks": 1,
+    "watchers": 0,
+    "language": "Shell",
+    "license": "MIT",
+    "createdAt": "2026-02-25T21:11:32Z",
+    "updatedAt": "2026-03-20T12:30:39Z",
+    "lastFetched": "2026-03-24T07:03:10.227Z"
+  },
+  {
+    "slug": "creative-director-skill",
+    "aiDescription": "",
+    "stars": 40,
+    "forks": 15,
+    "watchers": 2,
+    "language": null,
+    "license": "MIT",
+    "createdAt": "2026-02-27T00:45:48Z",
+    "updatedAt": "2026-03-23T10:52:51Z",
+    "lastFetched": "2026-03-24T07:03:10.824Z"
+  },
+  {
+    "slug": "claude-ai-music-skills",
+    "aiDescription": "",
+    "stars": 42,
+    "forks": 10,
+    "watchers": 0,
+    "language": "Python",
+    "license": "CC0-1.0",
+    "createdAt": "2026-01-14T00:55:56Z",
+    "updatedAt": "2026-03-24T01:09:50Z",
+    "lastFetched": "2026-03-24T07:03:11.465Z"
+  },
+  {
+    "slug": "spec-flow",
+    "aiDescription": "",
+    "stars": 26,
+    "forks": 5,
+    "watchers": 0,
+    "language": "Shell",
+    "license": "MIT",
+    "createdAt": "2026-01-05T06:38:02Z",
+    "updatedAt": "2026-02-25T02:39:56Z",
+    "lastFetched": "2026-03-24T07:03:12.079Z"
+  },
+  {
+    "slug": "ham",
+    "aiDescription": "",
+    "stars": 30,
+    "forks": 1,
+    "watchers": 3,
+    "language": "JavaScript",
+    "license": "MIT",
+    "createdAt": "2026-02-23T14:57:40Z",
+    "updatedAt": "2026-03-24T05:36:26Z",
+    "lastFetched": "2026-03-24T07:03:12.759Z"
+  },
+  {
+    "slug": "claude-skill-reddit",
+    "aiDescription": "",
+    "stars": 25,
+    "forks": 3,
+    "watchers": 0,
+    "language": null,
+    "license": null,
+    "createdAt": "2026-02-09T18:15:07Z",
+    "updatedAt": "2026-03-16T11:56:18Z",
+    "lastFetched": "2026-03-24T07:03:13.381Z"
+  },
+  {
+    "slug": "dataforseo-skill-claude",
+    "aiDescription": "",
+    "stars": 24,
+    "forks": 2,
+    "watchers": 0,
+    "language": "Python",
+    "license": "MIT",
+    "createdAt": "2026-01-27T20:09:30Z",
+    "updatedAt": "2026-03-16T10:18:45Z",
+    "lastFetched": "2026-03-24T07:03:14.389Z"
+  },
+  {
+    "slug": "claude-shorts",
+    "aiDescription": "",
+    "stars": 27,
+    "forks": 6,
+    "watchers": 0,
+    "language": "Python",
+    "license": "MIT",
+    "createdAt": "2026-02-16T21:00:09Z",
+    "updatedAt": "2026-03-20T14:27:31Z",
+    "lastFetched": "2026-03-24T07:03:15.117Z"
+  },
+  {
+    "slug": "claude-youtube",
+    "aiDescription": "",
+    "stars": 25,
+    "forks": 2,
+    "watchers": 0,
+    "language": "Python",
+    "license": "MIT",
+    "createdAt": "2026-03-05T19:50:38Z",
+    "updatedAt": "2026-03-21T03:49:59Z",
+    "lastFetched": "2026-03-24T07:03:15.827Z"
+  },
+  {
+    "slug": "ultimate-ai-media-generator-skill",
+    "aiDescription": "",
+    "stars": 24,
+    "forks": 0,
+    "watchers": 1,
+    "language": "Python",
+    "license": "MIT",
+    "createdAt": "2026-03-03T09:44:05Z",
+    "updatedAt": "2026-03-24T03:57:38Z",
+    "lastFetched": "2026-03-24T07:03:16.471Z"
+  },
+  {
+    "slug": "claude-code-tips",
+    "aiDescription": "",
+    "stars": 6619,
+    "forks": 453,
+    "watchers": 45,
+    "language": "JavaScript",
+    "license": "NOASSERTION",
+    "createdAt": "2025-11-28T00:52:00Z",
+    "updatedAt": "2026-03-24T06:53:44Z",
+    "lastFetched": "2026-03-24T07:03:17.196Z"
+  },
+  {
+    "slug": "aelf-skills",
+    "aiDescription": "",
+    "stars": 164,
+    "forks": 7,
+    "watchers": 8,
+    "language": "TypeScript",
+    "license": null,
+    "createdAt": "2026-02-28T15:12:54Z",
+    "updatedAt": "2026-03-24T04:30:09Z",
+    "lastFetched": "2026-03-24T07:03:17.923Z"
+  },
+  {
+    "slug": "mck-ppt-design-skill",
+    "aiDescription": "",
+    "stars": 52,
+    "forks": 5,
+    "watchers": 0,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "createdAt": "2026-03-03T05:48:13Z",
+    "updatedAt": "2026-03-24T02:02:03Z",
+    "lastFetched": "2026-03-24T07:03:18.537Z"
+  },
+  {
+    "slug": "shiplog",
+    "aiDescription": "",
+    "stars": 46,
+    "forks": 1,
+    "watchers": 0,
+    "language": null,
+    "license": "MIT",
+    "createdAt": "2026-03-14T10:15:13Z",
+    "updatedAt": "2026-03-23T18:35:58Z",
+    "lastFetched": "2026-03-24T07:03:19.451Z"
+  },
+  {
+    "slug": "media-library-organizer-skill",
+    "aiDescription": "",
+    "stars": 32,
+    "forks": 0,
+    "watchers": 0,
+    "language": "Shell",
+    "license": "MIT",
+    "createdAt": "2026-03-16T18:08:05Z",
+    "updatedAt": "2026-03-18T19:07:32Z",
+    "lastFetched": "2026-03-24T07:03:20.126Z"
+  },
+  {
+    "slug": "skill-forge",
+    "aiDescription": "",
+    "stars": 23,
+    "forks": 13,
+    "watchers": 2,
+    "language": "Python",
+    "license": "MIT",
+    "createdAt": "2026-02-16T22:58:32Z",
+    "updatedAt": "2026-03-20T17:16:07Z",
+    "lastFetched": "2026-03-24T07:03:20.811Z"
+  },
+  {
+    "slug": "excalidraw-skill",
+    "aiDescription": "",
+    "stars": 24,
+    "forks": 5,
+    "watchers": 0,
+    "language": null,
+    "license": null,
+    "createdAt": "2026-03-03T15:54:16Z",
+    "updatedAt": "2026-03-23T21:53:20Z",
+    "lastFetched": "2026-03-24T07:03:21.448Z"
+  },
+  {
+    "slug": "agent-rules-skill",
+    "aiDescription": "",
+    "stars": 22,
+    "forks": 3,
+    "watchers": 1,
+    "language": "Shell",
+    "license": "NOASSERTION",
+    "createdAt": "2025-10-18T19:35:16Z",
+    "updatedAt": "2026-03-23T20:04:33Z",
+    "lastFetched": "2026-03-24T07:03:22.110Z"
+  },
+  {
+    "slug": "geo-lint",
+    "aiDescription": "",
+    "stars": 17,
+    "forks": 1,
+    "watchers": 0,
+    "language": "TypeScript",
+    "license": "MIT",
+    "createdAt": "2026-02-18T10:06:46Z",
+    "updatedAt": "2026-03-23T19:27:10Z",
+    "lastFetched": "2026-03-24T07:03:22.763Z"
+  },
+  {
+    "slug": "claude-prompts",
+    "aiDescription": "",
+    "stars": 17,
+    "forks": 6,
+    "watchers": 0,
+    "language": "Python",
+    "license": "MIT",
+    "createdAt": "2026-02-16T20:46:02Z",
+    "updatedAt": "2026-03-22T07:11:54Z",
+    "lastFetched": "2026-03-24T07:03:23.406Z"
+  },
+  {
+    "slug": "paperbanana-skill",
+    "aiDescription": "",
+    "stars": 18,
+    "forks": 2,
+    "watchers": 0,
+    "language": null,
+    "license": "MIT",
+    "createdAt": "2026-02-04T16:47:03Z",
+    "updatedAt": "2026-03-23T07:25:20Z",
+    "lastFetched": "2026-03-24T07:03:24.567Z"
+  },
+  {
+    "slug": "human-browser",
+    "aiDescription": "",
+    "stars": 16,
+    "forks": 3,
+    "watchers": 0,
+    "language": "JavaScript",
+    "license": null,
+    "createdAt": "2026-02-18T19:23:40Z",
+    "updatedAt": "2026-03-22T10:56:43Z",
+    "lastFetched": "2026-03-24T07:03:25.233Z"
+  },
+  {
+    "slug": "edgeknowledge-skill",
+    "aiDescription": "",
+    "stars": 17,
+    "forks": 0,
+    "watchers": 0,
+    "language": "Python",
+    "license": null,
+    "createdAt": "2026-02-07T11:08:05Z",
+    "updatedAt": "2026-03-22T15:31:34Z",
+    "lastFetched": "2026-03-24T07:03:25.945Z"
+  },
+  {
+    "slug": "youtube-fetcher-to-markdown",
+    "aiDescription": "",
+    "stars": 14,
+    "forks": 0,
+    "watchers": 0,
+    "language": "Python",
+    "license": "MIT",
+    "createdAt": "2026-03-04T10:38:54Z",
+    "updatedAt": "2026-03-13T16:26:55Z",
+    "lastFetched": "2026-03-24T07:03:26.913Z"
+  },
+  {
+    "slug": "claude-ecom",
+    "aiDescription": "",
+    "stars": 16,
+    "forks": 3,
+    "watchers": 0,
+    "language": "Python",
+    "license": "MIT",
+    "createdAt": "2026-03-06T19:14:44Z",
+    "updatedAt": "2026-03-22T04:29:45Z",
+    "lastFetched": "2026-03-24T07:03:27.540Z"
+  },
+  {
+    "slug": "claude-session-index",
+    "aiDescription": "",
+    "stars": 14,
+    "forks": 0,
+    "watchers": 0,
+    "language": "Python",
+    "license": "MIT",
+    "createdAt": "2026-02-02T00:56:42Z",
+    "updatedAt": "2026-03-21T23:24:33Z",
+    "lastFetched": "2026-03-24T07:03:28.163Z"
+  },
+  {
+    "slug": "claude-for-safari",
+    "aiDescription": "",
+    "stars": 14,
+    "forks": 1,
+    "watchers": 0,
+    "language": null,
+    "license": "MIT",
+    "createdAt": "2026-02-28T13:18:45Z",
+    "updatedAt": "2026-03-21T22:16:28Z",
+    "lastFetched": "2026-03-24T07:03:28.809Z"
+  },
+  {
+    "slug": "church",
+    "aiDescription": "",
+    "stars": 14,
+    "forks": 1,
+    "watchers": 1,
+    "language": "JavaScript",
+    "license": "NOASSERTION",
+    "createdAt": "2025-12-10T18:47:11Z",
+    "updatedAt": "2026-03-24T00:49:54Z",
+    "lastFetched": "2026-03-24T07:03:29.554Z"
+  },
+  {
+    "slug": "skill-email-html-mjml",
+    "aiDescription": "",
+    "stars": 14,
+    "forks": 2,
+    "watchers": 0,
+    "language": null,
+    "license": null,
+    "createdAt": "2026-02-20T18:03:16Z",
+    "updatedAt": "2026-03-23T20:54:58Z",
+    "lastFetched": "2026-03-24T07:03:30.536Z"
+  },
+  {
+    "slug": "context7-auto-research",
+    "aiDescription": "",
+    "stars": 12,
+    "forks": 2,
+    "watchers": 0,
+    "language": "JavaScript",
+    "license": "MIT",
+    "createdAt": "2026-01-19T06:54:47Z",
+    "updatedAt": "2026-03-18T13:21:13Z",
+    "lastFetched": "2026-03-24T07:03:31.171Z"
+  },
+  {
+    "slug": "hinge-profile-optimizer",
+    "aiDescription": "",
+    "stars": 14,
+    "forks": 3,
+    "watchers": 0,
+    "language": null,
+    "license": "MIT",
+    "createdAt": "2026-02-01T13:28:12Z",
+    "updatedAt": "2026-03-22T23:11:30Z",
+    "lastFetched": "2026-03-24T07:03:31.817Z"
+  },
+  {
+    "slug": "jike-skill",
+    "aiDescription": "",
+    "stars": 12,
+    "forks": 5,
+    "watchers": 0,
+    "language": "Python",
+    "license": "MIT",
+    "createdAt": "2026-02-01T11:30:45Z",
+    "updatedAt": "2026-03-23T10:11:42Z",
+    "lastFetched": "2026-03-24T07:03:32.512Z"
+  },
+  {
+    "slug": "mermaid-skill",
+    "aiDescription": "",
+    "stars": 17,
+    "forks": 1,
+    "watchers": 0,
+    "language": "Mermaid",
+    "license": null,
+    "createdAt": "2026-03-03T17:16:23Z",
+    "updatedAt": "2026-03-24T01:44:00Z",
+    "lastFetched": "2026-03-24T07:03:33.126Z"
+  },
+  {
+    "slug": "claude-email",
+    "aiDescription": "",
+    "stars": 12,
+    "forks": 5,
+    "watchers": 1,
+    "language": "Python",
+    "license": "MIT",
+    "createdAt": "2026-02-16T20:44:34Z",
+    "updatedAt": "2026-03-22T19:30:26Z",
+    "lastFetched": "2026-03-24T07:03:33.765Z"
+  },
+  {
+    "slug": "tax-organizer",
+    "aiDescription": "",
+    "stars": 11,
+    "forks": 2,
+    "watchers": 1,
+    "language": "Python",
+    "license": "MIT",
+    "createdAt": "2026-03-02T02:14:37Z",
+    "updatedAt": "2026-03-12T21:21:33Z",
+    "lastFetched": "2026-03-24T07:03:34.536Z"
+  },
+  {
+    "slug": "skills",
+    "aiDescription": "",
+    "stars": 11,
+    "forks": 0,
+    "watchers": 0,
+    "language": "Python",
+    "license": "MIT",
+    "createdAt": "2026-01-30T03:16:40Z",
+    "updatedAt": "2026-03-23T23:28:12Z",
+    "lastFetched": "2026-03-24T07:03:35.189Z"
+  },
+  {
+    "slug": "skill-address-pr-review",
+    "aiDescription": "",
+    "stars": 10,
+    "forks": 0,
+    "watchers": 1,
+    "language": "Shell",
+    "license": "MIT",
+    "createdAt": "2026-03-11T14:51:54Z",
+    "updatedAt": "2026-03-12T19:25:24Z",
+    "lastFetched": "2026-03-24T07:03:35.856Z"
+  },
+  {
+    "slug": "agent-guardrails",
+    "aiDescription": "",
+    "stars": 10,
+    "forks": 0,
+    "watchers": 0,
+    "language": "Shell",
+    "license": "MIT",
+    "createdAt": "2026-02-02T20:48:57Z",
+    "updatedAt": "2026-03-16T23:29:38Z",
+    "lastFetched": "2026-03-24T07:03:36.491Z"
+  },
+  {
+    "slug": "cortex-ai-skills",
+    "aiDescription": "",
+    "stars": 10,
+    "forks": 0,
+    "watchers": 1,
+    "language": "Shell",
+    "license": "MIT",
+    "createdAt": "2026-02-05T22:00:55Z",
+    "updatedAt": "2026-03-19T15:57:21Z",
+    "lastFetched": "2026-03-24T07:03:37.215Z"
+  },
+  {
+    "slug": "claude-doctor-skill",
+    "aiDescription": "",
+    "stars": 10,
+    "forks": 0,
+    "watchers": 0,
+    "language": "Shell",
+    "license": "MIT",
+    "createdAt": "2026-02-25T16:30:36Z",
+    "updatedAt": "2026-03-23T19:26:56Z",
+    "lastFetched": "2026-03-24T07:03:37.892Z"
+  },
+  {
+    "slug": "the-antislop",
+    "aiDescription": "",
+    "stars": 9,
+    "forks": 1,
+    "watchers": 0,
+    "language": "Shell",
+    "license": "MIT",
+    "createdAt": "2026-01-26T14:27:24Z",
+    "updatedAt": "2026-03-08T15:14:52Z",
+    "lastFetched": "2026-03-24T07:03:38.872Z"
+  },
+  {
+    "slug": "uix",
+    "aiDescription": "",
+    "stars": 9,
+    "forks": 0,
+    "watchers": 0,
+    "language": "TypeScript",
+    "license": "MIT",
+    "createdAt": "2025-12-06T06:42:07Z",
+    "updatedAt": "2026-03-19T06:10:52Z",
+    "lastFetched": "2026-03-24T07:03:39.649Z"
+  },
+  {
+    "slug": "startup-os-skills",
+    "aiDescription": "",
+    "stars": 9,
+    "forks": 1,
+    "watchers": 0,
+    "language": "TypeScript",
+    "license": null,
+    "createdAt": "2026-01-25T16:49:46Z",
+    "updatedAt": "2026-03-23T10:11:42Z",
+    "lastFetched": "2026-03-24T07:03:40.316Z"
+  },
+  {
+    "slug": "humanizer",
+    "aiDescription": "",
+    "stars": 10807,
+    "forks": 879,
+    "watchers": 69,
+    "language": null,
+    "license": "MIT",
+    "createdAt": "2026-01-18T05:30:15Z",
+    "updatedAt": "2026-03-24T06:52:37Z",
+    "lastFetched": "2026-03-24T07:03:40.894Z"
+  },
+  {
+    "slug": "algorithms",
+    "aiDescription": "",
+    "stars": 68,
+    "forks": 70,
+    "watchers": 8,
+    "language": "C++",
+    "license": null,
+    "createdAt": "2013-10-14T02:27:02Z",
+    "updatedAt": "2025-08-21T02:04:06Z",
+    "lastFetched": "2026-03-24T07:03:41.843Z"
+  },
+  {
+    "slug": "crimsonstainedlands",
+    "aiDescription": "",
+    "stars": 28,
+    "forks": 9,
+    "watchers": 4,
+    "language": "C#",
+    "license": null,
+    "createdAt": "2023-07-24T00:17:00Z",
+    "updatedAt": "2026-02-16T22:17:20Z",
+    "lastFetched": "2026-03-24T07:03:42.627Z"
+  },
+  {
+    "slug": "qqsg-struct",
+    "aiDescription": "",
+    "stars": 30,
+    "forks": 13,
+    "watchers": 0,
+    "language": null,
+    "license": "MIT",
+    "createdAt": "2023-01-03T07:57:45Z",
+    "updatedAt": "2026-03-12T04:16:46Z",
+    "lastFetched": "2026-03-24T07:03:43.348Z"
+  },
+  {
+    "slug": "odoo-wiki",
+    "aiDescription": "",
+    "stars": 20,
+    "forks": 21,
+    "watchers": 2,
+    "language": "JavaScript",
+    "license": "AGPL-3.0",
+    "createdAt": "2020-09-17T11:19:39Z",
+    "updatedAt": "2026-03-23T09:15:36Z",
+    "lastFetched": "2026-03-24T07:03:44.184Z"
+  },
+  {
+    "slug": "frontend-slides",
+    "aiDescription": "",
+    "stars": 11035,
+    "forks": 814,
+    "watchers": 62,
+    "language": "CSS",
+    "license": "MIT",
+    "createdAt": "2026-01-28T00:42:34Z",
+    "updatedAt": "2026-03-24T06:48:27Z",
+    "lastFetched": "2026-03-24T07:03:44.886Z"
+  },
+  {
+    "slug": "garden",
+    "aiDescription": "",
+    "stars": 27,
+    "forks": 8,
+    "watchers": 4,
+    "language": "Python",
+    "license": "NOASSERTION",
+    "createdAt": "2020-10-01T14:33:18Z",
+    "updatedAt": "2026-03-22T00:53:41Z",
+    "lastFetched": "2026-03-24T07:03:45.953Z"
+  },
+  {
+    "slug": "hw-concept",
+    "aiDescription": "",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "language": "JavaScript",
+    "license": "MIT",
+    "createdAt": "2026-01-04T23:28:21Z",
+    "updatedAt": "2026-01-24T01:58:28Z",
+    "lastFetched": "2026-03-24T07:03:46.659Z"
+  },
+  {
+    "slug": "skill-cli-template",
+    "aiDescription": "",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "language": "Shell",
+    "license": null,
+    "createdAt": "2026-01-12T00:52:03Z",
+    "updatedAt": "2026-01-12T00:52:08Z",
+    "lastFetched": "2026-03-24T07:03:47.389Z"
+  },
+  {
+    "slug": "asi",
+    "aiDescription": "",
+    "stars": 11,
+    "forks": 4,
+    "watchers": 0,
+    "language": "HTML",
+    "license": "MIT",
+    "createdAt": "2025-12-22T05:49:13Z",
+    "updatedAt": "2026-03-22T01:41:12Z",
+    "lastFetched": "2026-03-24T07:03:48.224Z"
+  },
+  {
+    "slug": "kylopro",
+    "aiDescription": "",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "language": "Python",
+    "license": "MIT",
+    "createdAt": "2026-03-07T07:31:50Z",
+    "updatedAt": "2026-03-09T05:11:08Z",
+    "lastFetched": "2026-03-24T07:03:48.875Z"
+  },
+  {
+    "slug": "docs",
+    "aiDescription": "",
+    "stars": 4,
+    "forks": 112,
+    "watchers": 3,
+    "language": "MDX",
+    "license": "NOASSERTION",
+    "createdAt": "2025-08-25T10:27:22Z",
+    "updatedAt": "2026-03-17T22:05:09Z",
+    "lastFetched": "2026-03-24T07:03:49.583Z"
+  },
+  {
+    "slug": "weekly",
+    "aiDescription": "",
+    "stars": 2,
+    "forks": 0,
+    "watchers": 1,
+    "language": "HTML",
+    "license": "Unlicense",
+    "createdAt": "2022-07-24T13:34:30Z",
+    "updatedAt": "2026-01-24T13:24:52Z",
+    "lastFetched": "2026-03-24T07:03:50.268Z"
+  },
+  {
+    "slug": "agent-skill-git-checkpoint",
+    "aiDescription": "",
+    "stars": 13,
+    "forks": 1,
+    "watchers": 0,
+    "language": null,
+    "license": null,
+    "createdAt": "2026-01-23T11:54:55Z",
+    "updatedAt": "2026-01-26T02:33:58Z",
+    "lastFetched": "2026-03-24T07:03:50.980Z"
+  },
+  {
+    "slug": "personal-knowledge-growth-analyzer",
+    "aiDescription": "",
+    "stars": 3,
+    "forks": 0,
+    "watchers": 0,
+    "language": "Python",
+    "license": "GPL-3.0",
+    "createdAt": "2026-01-26T12:49:40Z",
+    "updatedAt": "2026-02-27T20:00:14Z",
+    "lastFetched": "2026-03-24T07:03:51.594Z"
+  },
+  {
+    "slug": "team-sentinel",
+    "aiDescription": "",
+    "stars": 3,
+    "forks": 2,
+    "watchers": 0,
+    "language": "TypeScript",
+    "license": null,
+    "createdAt": "2026-02-01T13:17:58Z",
+    "updatedAt": "2026-02-13T19:46:02Z",
+    "lastFetched": "2026-03-24T07:03:52.348Z"
+  },
+  {
+    "slug": "ccs-wb",
+    "aiDescription": "",
+    "stars": 5,
+    "forks": 2,
+    "watchers": 0,
+    "language": "TypeScript",
+    "license": "NOASSERTION",
+    "createdAt": "2026-01-19T01:44:26Z",
+    "updatedAt": "2026-02-16T08:15:42Z",
+    "lastFetched": "2026-03-24T07:03:53.069Z"
+  },
+  {
+    "slug": "media-skills",
+    "aiDescription": "",
+    "stars": 23,
+    "forks": 1,
+    "watchers": 0,
+    "language": "Python",
+    "license": null,
+    "createdAt": "2026-02-25T08:33:24Z",
+    "updatedAt": "2026-03-23T21:49:10Z",
+    "lastFetched": "2026-03-24T07:03:53.860Z"
+  },
+  {
+    "slug": "kaggle-skill",
+    "aiDescription": "",
+    "stars": 10,
+    "forks": 0,
+    "watchers": 0,
+    "language": "Python",
+    "license": "MIT",
+    "createdAt": "2026-02-11T14:36:07Z",
+    "updatedAt": "2026-03-21T04:39:40Z",
+    "lastFetched": "2026-03-24T07:03:54.479Z"
+  },
+  {
+    "slug": "marketingskills",
+    "aiDescription": "",
+    "stars": 15992,
+    "forks": 2395,
+    "watchers": 163,
+    "language": "JavaScript",
+    "license": "MIT",
+    "createdAt": "2026-01-15T19:45:23Z",
+    "updatedAt": "2026-03-24T07:00:31Z",
+    "lastFetched": "2026-03-24T07:03:55.115Z"
+  },
+  {
+    "slug": "open-saas",
+    "aiDescription": "",
+    "stars": 13636,
+    "forks": 1575,
+    "watchers": 70,
+    "language": "TypeScript",
+    "license": "MIT",
+    "createdAt": "2023-12-01T13:54:36Z",
+    "updatedAt": "2026-03-24T01:57:29Z",
+    "lastFetched": "2026-03-24T07:03:55.856Z"
+  },
+  {
+    "slug": "ai-guide",
+    "aiDescription": "",
+    "stars": 10147,
+    "forks": 1090,
+    "watchers": 68,
+    "language": "JavaScript",
+    "license": null,
+    "createdAt": "2025-02-13T05:47:46Z",
+    "updatedAt": "2026-03-24T07:02:31Z",
+    "lastFetched": "2026-03-24T07:03:56.496Z"
+  },
+  {
+    "slug": "claude-code-infrastructure-showcase",
+    "aiDescription": "",
+    "stars": 9326,
+    "forks": 1196,
+    "watchers": 98,
+    "language": "Shell",
+    "license": "MIT",
+    "createdAt": "2025-10-30T03:12:16Z",
+    "updatedAt": "2026-03-24T06:53:36Z",
+    "lastFetched": "2026-03-24T07:03:57.071Z"
+  },
+  {
+    "slug": "refly",
+    "aiDescription": "",
+    "stars": 7064,
+    "forks": 702,
+    "watchers": 49,
+    "language": "TypeScript",
+    "license": "NOASSERTION",
+    "createdAt": "2024-02-19T11:04:30Z",
+    "updatedAt": "2026-03-24T06:03:05Z",
+    "lastFetched": "2026-03-24T07:03:57.881Z"
+  },
+  {
+    "slug": "notebooklm-py",
+    "aiDescription": "",
+    "stars": 7286,
+    "forks": 917,
+    "watchers": 47,
+    "language": "Python",
+    "license": "MIT",
+    "createdAt": "2026-01-07T15:27:19Z",
+    "updatedAt": "2026-03-24T07:02:21Z",
+    "lastFetched": "2026-03-24T07:03:58.514Z"
+  },
+  {
+    "slug": "claude-skills",
+    "aiDescription": "",
+    "stars": 6612,
+    "forks": 783,
+    "watchers": 64,
+    "language": "Python",
+    "license": "MIT",
+    "createdAt": "2025-10-19T04:04:05Z",
+    "updatedAt": "2026-03-24T06:46:56Z",
+    "lastFetched": "2026-03-24T07:03:59.150Z"
+  },
+  {
+    "slug": "claude-code-showcase",
+    "aiDescription": "",
+    "stars": 5573,
+    "forks": 489,
+    "watchers": 47,
+    "language": "JavaScript",
+    "license": null,
+    "createdAt": "2026-01-06T18:51:02Z",
+    "updatedAt": "2026-03-24T06:06:50Z",
+    "lastFetched": "2026-03-24T07:03:59.778Z"
+  },
+  {
+    "slug": "ai-research-skills",
+    "aiDescription": "",
+    "stars": 5508,
+    "forks": 433,
+    "watchers": 35,
+    "language": "TeX",
+    "license": "MIT",
+    "createdAt": "2025-11-03T06:13:06Z",
+    "updatedAt": "2026-03-24T07:02:22Z",
+    "lastFetched": "2026-03-24T07:04:00.547Z"
+  },
+  {
+    "slug": "humanizer-zh",
+    "aiDescription": "",
+    "stars": 5124,
+    "forks": 429,
+    "watchers": 11,
+    "language": null,
+    "license": "MIT",
+    "createdAt": "2026-01-19T04:23:44Z",
+    "updatedAt": "2026-03-24T06:50:47Z",
+    "lastFetched": "2026-03-24T07:04:01.180Z"
+  },
+  {
+    "slug": "notebooklm-skill",
+    "aiDescription": "",
+    "stars": 4941,
+    "forks": 517,
+    "watchers": 23,
+    "language": "Python",
+    "license": "MIT",
+    "createdAt": "2025-10-19T05:36:13Z",
+    "updatedAt": "2026-03-24T06:56:01Z",
+    "lastFetched": "2026-03-24T07:04:02.102Z"
+  },
+  {
+    "slug": "skills",
+    "aiDescription": "",
+    "stars": 3855,
+    "forks": 319,
+    "watchers": 24,
+    "language": "Python",
+    "license": "CC-BY-SA-4.0",
+    "createdAt": "2026-01-14T18:23:21Z",
+    "updatedAt": "2026-03-24T07:03:17Z",
+    "lastFetched": "2026-03-24T07:04:02.821Z"
+  },
+  {
     "slug": "anthropic-cybersecurity-skills",
     "aiDescription": "",
-    "stars": 3633,
-    "forks": 360,
+    "stars": 3658,
+    "forks": 364,
     "watchers": 30,
     "language": "Python",
     "license": "Apache-2.0",
     "createdAt": "2026-02-25T09:47:50Z",
-    "updatedAt": "2026-03-23T07:05:11Z",
-    "lastFetched": "2026-03-23T07:08:55.678Z"
+    "updatedAt": "2026-03-24T07:02:05Z",
+    "lastFetched": "2026-03-24T07:04:03.624Z"
   },
   {
     "slug": "geo-seo-claude",
     "aiDescription": "",
-    "stars": 3647,
-    "forks": 562,
+    "stars": 3719,
+    "forks": 585,
     "watchers": 29,
     "language": "Python",
     "license": "MIT",
     "createdAt": "2026-02-18T09:01:07Z",
-    "updatedAt": "2026-03-23T07:02:36Z",
-    "lastFetched": "2026-03-23T07:08:56.187Z"
+    "updatedAt": "2026-03-24T06:57:57Z",
+    "lastFetched": "2026-03-24T07:04:04.279Z"
   },
   {
     "slug": "swiftui-agent-skill",
     "aiDescription": "",
-    "stars": 3009,
+    "stars": 3021,
     "forks": 97,
-    "watchers": 37,
+    "watchers": 38,
     "language": null,
     "license": "MIT",
     "createdAt": "2026-03-05T20:13:14Z",
-    "updatedAt": "2026-03-23T06:03:48Z",
-    "lastFetched": "2026-03-23T07:08:56.661Z"
+    "updatedAt": "2026-03-24T03:41:44Z",
+    "lastFetched": "2026-03-24T07:04:04.853Z"
   },
   {
     "slug": "generative-media-skills",
     "aiDescription": "",
-    "stars": 2954,
-    "forks": 325,
+    "stars": 2955,
+    "forks": 326,
     "watchers": 34,
     "language": "Shell",
     "license": "MIT",
     "createdAt": "2023-05-25T14:21:12Z",
-    "updatedAt": "2026-03-22T13:24:14Z",
-    "lastFetched": "2026-03-23T07:08:57.210Z"
+    "updatedAt": "2026-03-24T05:16:12Z",
+    "lastFetched": "2026-03-24T07:04:05.604Z"
   },
   {
     "slug": "auto-claude-code-research-in-sleep",
     "aiDescription": "",
-    "stars": 3260,
-    "forks": 271,
+    "stars": 3510,
+    "forks": 295,
     "watchers": 4,
     "language": "Python",
     "license": "MIT",
     "createdAt": "2026-03-10T07:31:45Z",
-    "updatedAt": "2026-03-23T07:08:01Z",
-    "lastFetched": "2026-03-23T07:08:57.680Z"
+    "updatedAt": "2026-03-24T07:03:02Z",
+    "lastFetched": "2026-03-24T07:04:06.280Z"
   },
   {
     "slug": "claude-seo",
     "aiDescription": "",
-    "stars": 2884,
-    "forks": 449,
-    "watchers": 35,
+    "stars": 2961,
+    "forks": 458,
+    "watchers": 37,
     "language": "Python",
     "license": "MIT",
     "createdAt": "2026-02-07T08:17:38Z",
-    "updatedAt": "2026-03-23T06:53:32Z",
-    "lastFetched": "2026-03-23T07:08:58.133Z"
+    "updatedAt": "2026-03-24T06:56:06Z",
+    "lastFetched": "2026-03-24T07:04:06.950Z"
   },
   {
     "slug": "n8n-mcp",
     "aiDescription": "",
-    "stars": 15795,
-    "forks": 2744,
-    "watchers": 139,
+    "stars": 16167,
+    "forks": 2781,
+    "watchers": 142,
     "language": "TypeScript",
     "license": "MIT",
     "createdAt": "2025-06-07T12:15:57Z",
-    "updatedAt": "2026-03-23T06:57:22Z",
-    "lastFetched": "2026-03-23T07:08:58.623Z"
+    "updatedAt": "2026-03-24T07:03:21Z",
+    "lastFetched": "2026-03-24T07:04:07.659Z"
   },
   {
     "slug": "fastapi-mcp",
     "aiDescription": "",
-    "stars": 11676,
+    "stars": 11678,
     "forks": 924,
     "watchers": 66,
     "language": "Python",
     "license": "MIT",
     "createdAt": "2025-03-08T11:15:43Z",
-    "updatedAt": "2026-03-23T03:01:28Z",
-    "lastFetched": "2026-03-23T07:08:59.158Z"
+    "updatedAt": "2026-03-24T05:27:21Z",
+    "lastFetched": "2026-03-24T07:04:08.344Z"
   },
   {
     "slug": "pal-mcp-server",
     "aiDescription": "",
-    "stars": 11300,
-    "forks": 965,
+    "stars": 11311,
+    "forks": 967,
     "watchers": 61,
     "language": "Python",
     "license": "NOASSERTION",
     "createdAt": "2025-06-08T15:36:50Z",
-    "updatedAt": "2026-03-23T03:42:26Z",
-    "lastFetched": "2026-03-23T07:08:59.691Z"
+    "updatedAt": "2026-03-24T04:07:28Z",
+    "lastFetched": "2026-03-24T07:04:09.016Z"
   },
   {
     "slug": "mcp-chrome",
     "aiDescription": "",
-    "stars": 10872,
-    "forks": 958,
-    "watchers": 43,
+    "stars": 10888,
+    "forks": 959,
+    "watchers": 44,
     "language": "TypeScript",
     "license": "MIT",
     "createdAt": "2025-06-09T09:07:06Z",
-    "updatedAt": "2026-03-23T06:39:18Z",
-    "lastFetched": "2026-03-23T07:09:00.333Z"
+    "updatedAt": "2026-03-24T06:40:45Z",
+    "lastFetched": "2026-03-24T07:04:09.958Z"
   },
   {
     "slug": "git-mcp",
     "aiDescription": "",
-    "stars": 7816,
+    "stars": 7819,
     "forks": 680,
     "watchers": 46,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "createdAt": "2025-03-29T00:44:19Z",
-    "updatedAt": "2026-03-23T06:51:57Z",
-    "lastFetched": "2026-03-23T07:09:00.846Z"
+    "updatedAt": "2026-03-24T03:19:34Z",
+    "lastFetched": "2026-03-24T07:04:10.606Z"
   },
   {
     "slug": "hexstrike-ai",
     "aiDescription": "",
-    "stars": 7619,
-    "forks": 1677,
+    "stars": 7646,
+    "forks": 1681,
     "watchers": 142,
     "language": "Python",
     "license": "MIT",
     "createdAt": "2025-07-10T17:53:18Z",
-    "updatedAt": "2026-03-23T05:15:38Z",
-    "lastFetched": "2026-03-23T07:09:01.484Z"
+    "updatedAt": "2026-03-24T05:42:30Z",
+    "lastFetched": "2026-03-24T07:04:11.586Z"
   },
   {
     "slug": "awesome-mcp-zh",
     "aiDescription": "",
-    "stars": 6601,
-    "forks": 449,
+    "stars": 6612,
+    "forks": 453,
     "watchers": 31,
     "language": null,
     "license": "MIT",
     "createdAt": "2025-04-03T00:38:51Z",
-    "updatedAt": "2026-03-23T03:24:36Z",
-    "lastFetched": "2026-03-23T07:09:02.006Z"
+    "updatedAt": "2026-03-24T06:47:36Z",
+    "lastFetched": "2026-03-24T07:04:12.293Z"
   },
   {
     "slug": "mcp",
     "aiDescription": "",
-    "stars": 6134,
+    "stars": 6140,
     "forks": 478,
     "watchers": 18,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "createdAt": "2025-03-28T02:01:22Z",
-    "updatedAt": "2026-03-23T06:32:22Z",
-    "lastFetched": "2026-03-23T07:09:02.577Z"
+    "updatedAt": "2026-03-24T06:05:54Z",
+    "lastFetched": "2026-03-24T07:04:12.942Z"
   },
   {
     "slug": "firecrawl-mcp-server",
     "aiDescription": "",
-    "stars": 5831,
-    "forks": 653,
-    "watchers": 34,
+    "stars": 5836,
+    "forks": 654,
+    "watchers": 33,
     "language": "JavaScript",
     "license": "MIT",
     "createdAt": "2024-12-06T07:50:27Z",
-    "updatedAt": "2026-03-23T00:05:19Z",
-    "lastFetched": "2026-03-23T07:09:03.095Z"
+    "updatedAt": "2026-03-24T04:38:06Z",
+    "lastFetched": "2026-03-24T07:04:13.684Z"
   },
   {
     "slug": "desktopcommandermcp",
     "aiDescription": "",
-    "stars": 5752,
-    "forks": 669,
-    "watchers": 43,
+    "stars": 5760,
+    "forks": 671,
+    "watchers": 44,
     "language": "TypeScript",
     "license": "MIT",
     "createdAt": "2024-12-04T08:26:08Z",
-    "updatedAt": "2026-03-23T06:10:52Z",
-    "lastFetched": "2026-03-23T07:09:03.641Z"
+    "updatedAt": "2026-03-24T06:18:36Z",
+    "lastFetched": "2026-03-24T07:04:14.308Z"
   },
   {
     "slug": "archestra",
     "aiDescription": "",
-    "stars": 3538,
-    "forks": 370,
+    "stars": 3537,
+    "forks": 372,
     "watchers": 8,
     "language": "TypeScript",
     "license": "AGPL-3.0",
     "createdAt": "2025-07-15T12:07:55Z",
-    "updatedAt": "2026-03-23T00:27:56Z",
-    "lastFetched": "2026-03-23T07:09:04.235Z"
+    "updatedAt": "2026-03-24T06:04:43Z",
+    "lastFetched": "2026-03-24T07:04:15.070Z"
   },
   {
     "slug": "dbhub",
     "aiDescription": "",
-    "stars": 2383,
+    "stars": 2396,
     "forks": 194,
     "watchers": 9,
     "language": "TypeScript",
     "license": "MIT",
     "createdAt": "2025-03-09T16:36:38Z",
-    "updatedAt": "2026-03-23T06:47:44Z",
-    "lastFetched": "2026-03-23T07:09:04.761Z"
+    "updatedAt": "2026-03-24T03:04:01Z",
+    "lastFetched": "2026-03-24T07:04:15.722Z"
   },
   {
     "slug": "gemini-mcp-tool",
     "aiDescription": "",
-    "stars": 2091,
-    "forks": 175,
+    "stars": 2093,
+    "forks": 176,
     "watchers": 19,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "createdAt": "2025-06-29T06:45:11Z",
-    "updatedAt": "2026-03-22T13:18:46Z",
-    "lastFetched": "2026-03-23T07:09:05.254Z"
+    "updatedAt": "2026-03-24T02:01:56Z",
+    "lastFetched": "2026-03-24T07:04:16.417Z"
   },
   {
     "slug": "devdocs",
     "aiDescription": "",
-    "stars": 2042,
+    "stars": 2043,
     "forks": 182,
     "watchers": 11,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "createdAt": "2025-01-15T05:27:26Z",
-    "updatedAt": "2026-03-23T03:43:27Z",
-    "lastFetched": "2026-03-23T07:09:05.802Z"
+    "updatedAt": "2026-03-23T23:57:09Z",
+    "lastFetched": "2026-03-24T07:04:17.110Z"
   },
   {
     "slug": "pg-aiguide",
     "aiDescription": "",
     "stars": 1640,
     "forks": 83,
-    "watchers": 11,
+    "watchers": 12,
     "language": "Python",
     "license": "Apache-2.0",
     "createdAt": "2025-07-23T16:40:10Z",
-    "updatedAt": "2026-03-21T20:38:48Z",
-    "lastFetched": "2026-03-23T07:09:06.299Z"
+    "updatedAt": "2026-03-24T01:53:14Z",
+    "lastFetched": "2026-03-24T07:04:17.770Z"
   },
   {
     "slug": "unreal-mcp",
     "aiDescription": "",
-    "stars": 1619,
+    "stars": 1627,
     "forks": 247,
     "watchers": 41,
     "language": "C++",
     "license": null,
     "createdAt": "2025-03-28T17:22:11Z",
-    "updatedAt": "2026-03-23T06:52:30Z",
-    "lastFetched": "2026-03-23T07:09:06.805Z"
+    "updatedAt": "2026-03-24T05:28:40Z",
+    "lastFetched": "2026-03-24T07:04:18.368Z"
   },
   {
     "slug": "mcp-memory-service",
     "aiDescription": "",
-    "stars": 1531,
+    "stars": 1539,
     "forks": 218,
     "watchers": 11,
     "language": "Python",
     "license": "Apache-2.0",
     "createdAt": "2024-12-26T10:15:44Z",
-    "updatedAt": "2026-03-23T06:57:16Z",
-    "lastFetched": "2026-03-23T07:09:07.350Z"
+    "updatedAt": "2026-03-24T01:58:51Z",
+    "lastFetched": "2026-03-24T07:04:19.027Z"
   },
   {
     "slug": "notebooklm-mcp",
     "aiDescription": "",
-    "stars": 1528,
+    "stars": 1552,
     "forks": 205,
     "watchers": 10,
     "language": "TypeScript",
     "license": "MIT",
     "createdAt": "2025-10-16T11:59:47Z",
-    "updatedAt": "2026-03-23T03:27:01Z",
-    "lastFetched": "2026-03-23T07:09:07.801Z"
+    "updatedAt": "2026-03-24T06:37:29Z",
+    "lastFetched": "2026-03-24T07:04:19.651Z"
   },
   {
     "slug": "mcp-excalidraw",
     "aiDescription": "",
-    "stars": 1517,
+    "stars": 1525,
     "forks": 143,
     "watchers": 8,
     "language": "JavaScript",
     "license": "MIT",
     "createdAt": "2025-03-16T10:34:34Z",
-    "updatedAt": "2026-03-23T06:13:26Z",
-    "lastFetched": "2026-03-23T07:09:08.334Z"
+    "updatedAt": "2026-03-24T04:36:43Z",
+    "lastFetched": "2026-03-24T07:04:20.267Z"
   },
   {
     "slug": "unity-mcp",
     "aiDescription": "",
-    "stars": 1445,
-    "forks": 145,
-    "watchers": 19,
+    "stars": 1548,
+    "forks": 150,
+    "watchers": 21,
     "language": "C#",
     "license": "Apache-2.0",
     "createdAt": "2025-04-02T09:57:01Z",
-    "updatedAt": "2026-03-23T06:50:16Z",
-    "lastFetched": "2026-03-23T07:09:08.922Z"
+    "updatedAt": "2026-03-24T07:04:07Z",
+    "lastFetched": "2026-03-24T07:04:20.964Z"
   },
   {
     "slug": "claude-code-everything-you-need-to-know",
     "aiDescription": "",
-    "stars": 1329,
-    "forks": 147,
+    "stars": 1355,
+    "forks": 148,
     "watchers": 26,
     "language": "Python",
     "license": "MIT",
     "createdAt": "2025-08-17T14:45:39Z",
-    "updatedAt": "2026-03-23T06:14:13Z",
-    "lastFetched": "2026-03-23T07:09:09.395Z"
+    "updatedAt": "2026-03-24T04:56:47Z",
+    "lastFetched": "2026-03-24T07:04:21.586Z"
   },
   {
     "slug": "mcp-server-qdrant",
     "aiDescription": "",
-    "stars": 1298,
-    "forks": 245,
+    "stars": 1299,
+    "forks": 246,
     "watchers": 14,
     "language": "Python",
     "license": "Apache-2.0",
     "createdAt": "2024-12-02T12:07:39Z",
-    "updatedAt": "2026-03-23T01:31:18Z",
-    "lastFetched": "2026-03-23T07:09:10.057Z"
+    "updatedAt": "2026-03-24T03:52:51Z",
+    "lastFetched": "2026-03-24T07:04:22.550Z"
   },
   {
     "slug": "awesome-claude-plugins",
     "aiDescription": "",
-    "stars": 1217,
-    "forks": 232,
+    "stars": 1216,
+    "forks": 233,
     "watchers": 7,
     "language": "JavaScript",
     "license": null,
     "createdAt": "2025-10-22T06:42:09Z",
-    "updatedAt": "2026-03-23T05:45:57Z",
-    "lastFetched": "2026-03-23T07:09:10.697Z"
+    "updatedAt": "2026-03-24T05:44:49Z",
+    "lastFetched": "2026-03-24T07:04:23.575Z"
   },
   {
     "slug": "jcodemunch-mcp",
     "aiDescription": "",
-    "stars": 1217,
-    "forks": 226,
+    "stars": 1235,
+    "forks": 229,
     "watchers": 16,
     "language": "Python",
     "license": null,
     "createdAt": "2026-02-09T01:58:27Z",
-    "updatedAt": "2026-03-23T04:24:27Z",
-    "lastFetched": "2026-03-23T07:09:11.197Z"
+    "updatedAt": "2026-03-24T01:47:34Z",
+    "lastFetched": "2026-03-24T07:04:24.182Z"
   },
   {
     "slug": "claude-api",
     "aiDescription": "",
-    "stars": 100357,
-    "forks": 10943,
-    "watchers": 701,
+    "stars": 101319,
+    "forks": 11085,
+    "watchers": 704,
     "language": "Python",
     "license": null,
     "createdAt": "2025-09-22T15:53:31Z",
-    "updatedAt": "2026-03-23T07:08:29Z",
-    "lastFetched": "2026-03-23T07:09:11.752Z"
+    "updatedAt": "2026-03-24T07:02:57Z",
+    "lastFetched": "2026-03-24T07:04:25.082Z"
   },
   {
     "slug": "doc-coauthoring",
     "aiDescription": "",
-    "stars": 100357,
-    "forks": 10943,
-    "watchers": 701,
+    "stars": 101319,
+    "forks": 11085,
+    "watchers": 704,
     "language": "Python",
     "license": null,
     "createdAt": "2025-09-22T15:53:31Z",
-    "updatedAt": "2026-03-23T07:08:29Z",
-    "lastFetched": "2026-03-23T07:09:12.400Z"
+    "updatedAt": "2026-03-24T07:02:57Z",
+    "lastFetched": "2026-03-24T07:04:25.862Z"
   },
   {
     "slug": "theme-factory",
     "aiDescription": "",
-    "stars": 100357,
-    "forks": 10943,
-    "watchers": 701,
+    "stars": 101319,
+    "forks": 11085,
+    "watchers": 704,
     "language": "Python",
     "license": null,
     "createdAt": "2025-09-22T15:53:31Z",
-    "updatedAt": "2026-03-23T07:08:29Z",
-    "lastFetched": "2026-03-23T07:09:12.934Z"
+    "updatedAt": "2026-03-24T07:02:57Z",
+    "lastFetched": "2026-03-24T07:04:26.709Z"
   },
   {
     "slug": "web-artifacts-builder",
     "aiDescription": "",
-    "stars": 100357,
-    "forks": 10943,
-    "watchers": 701,
+    "stars": 101319,
+    "forks": 11085,
+    "watchers": 704,
     "language": "Python",
     "license": null,
     "createdAt": "2025-09-22T15:53:31Z",
-    "updatedAt": "2026-03-23T07:08:29Z",
-    "lastFetched": "2026-03-23T07:09:13.452Z"
+    "updatedAt": "2026-03-24T07:02:57Z",
+    "lastFetched": "2026-03-24T07:04:27.536Z"
   },
   {
     "slug": "template",
     "aiDescription": "",
-    "stars": 100357,
-    "forks": 10943,
-    "watchers": 701,
+    "stars": 101319,
+    "forks": 11085,
+    "watchers": 704,
     "language": "Python",
     "license": null,
     "createdAt": "2025-09-22T15:53:31Z",
-    "updatedAt": "2026-03-23T07:08:29Z",
-    "lastFetched": "2026-03-23T07:09:13.984Z"
+    "updatedAt": "2026-03-24T07:02:57Z",
+    "lastFetched": "2026-03-24T07:04:28.364Z"
   },
   {
     "slug": "understand-anything",
     "aiDescription": "",
-    "stars": 4780,
-    "forks": 378,
-    "watchers": 28,
+    "stars": 5621,
+    "forks": 433,
+    "watchers": 27,
     "language": "TypeScript",
     "license": "MIT",
     "createdAt": "2026-03-15T02:30:51Z",
-    "updatedAt": "2026-03-23T07:09:12Z",
-    "lastFetched": "2026-03-23T07:09:14.504Z"
+    "updatedAt": "2026-03-24T06:56:40Z",
+    "lastFetched": "2026-03-24T07:04:28.978Z"
+  },
+  {
+    "slug": "quantum-loop",
+    "aiDescription": "",
+    "stars": 12,
+    "forks": 0,
+    "watchers": 0,
+    "language": "Shell",
+    "license": "MIT",
+    "createdAt": "2026-02-16T15:02:52Z",
+    "updatedAt": "2026-03-24T02:28:51Z",
+    "lastFetched": "2026-03-24T07:04:30.009Z"
+  },
+  {
+    "slug": "claude-code-game-studios",
+    "aiDescription": "",
+    "stars": 3529,
+    "forks": 470,
+    "watchers": 40,
+    "language": "Shell",
+    "license": "MIT",
+    "createdAt": "2026-02-12T05:21:38Z",
+    "updatedAt": "2026-03-24T07:03:12Z",
+    "lastFetched": "2026-03-24T07:04:30.638Z"
   }
 ]
