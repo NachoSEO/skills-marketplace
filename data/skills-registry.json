@@ -7951,5 +7951,33 @@
       "claude",
       "claude-code"
     ]
+  },
+  {
+    "owner": "ckelsoe",
+    "repo": "prompt-architect",
+    "category": "ai-llm",
+    "name": "prompt-architect",
+    "description": "Claude Code skill that transforms vague prompts into structured, expert-level prompts using 7 research-backed   frameworks (CO-STAR, RISEN, RISE, TIDD-EC, RTF, CoT, CoD)",
+    "tags": [
+      "agent-skills",
+      "ai-coding-agents",
+      "ai-tools",
+      "chain-of-thought",
+      "chatgpt"
+    ]
+  },
+  {
+    "owner": "0xE1337",
+    "repo": "thesis-figure-skill",
+    "category": "ai-llm",
+    "name": "thesis-figure-skill",
+    "description": "🎓 Claude Skill: Paste your paper text, auto-generate publication-ready LaTeX/TikZ diagrams. 粘贴论文文案，自动生成学术级配图。",
+    "tags": [
+      "academic-paper",
+      "ai-tools",
+      "claude-skill",
+      "diagram",
+      "figure-generation"
+    ]
   }
 ]
