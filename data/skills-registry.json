@@ -7979,5 +7979,47 @@
       "diagram",
       "figure-generation"
     ]
+  },
+  {
+    "owner": "mvanhorn",
+    "repo": "last30days-skill",
+    "category": "ai-llm",
+    "name": "last30days-skill",
+    "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+    "tags": [
+      "ai-prompts",
+      "ai-skill",
+      "bluesky",
+      "claude",
+      "claude-code"
+    ]
+  },
+  {
+    "owner": "oh-my-mermaid",
+    "repo": "oh-my-mermaid",
+    "category": "document-processing",
+    "name": "oh-my-mermaid",
+    "description": "Turn complex codebases into clear, navigable architecture diagrams with Claude Code.",
+    "tags": [
+      "ai",
+      "architecture",
+      "claude-code",
+      "claude-code-skill",
+      "cli"
+    ]
+  },
+  {
+    "owner": "Ashutos1997",
+    "repo": "claude-design-auditor-skill",
+    "category": "creative-design",
+    "name": "claude-design-auditor-skill",
+    "description": "A Claude skill that audits designs against 17 professional design rules.",
+    "tags": [
+      "accessibility",
+      "claude-skill",
+      "css",
+      "design",
+      "design-audit"
+    ]
   }
 ]
