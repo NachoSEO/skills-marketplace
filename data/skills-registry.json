@@ -8021,5 +8021,81 @@
       "design",
       "design-audit"
     ]
+  },
+  {
+    "owner": "salespeak-ai",
+    "repo": "buyer-eval-skill",
+    "category": "ai-llm",
+    "name": "buyer-eval-skill",
+    "description": "B2B software vendor evaluation skill for Claude Code — domain-expert questions, vendor AI agent conversations, evidence-based scoring",
+    "tags": [
+      "ai-agent",
+      "b2b",
+      "claude-code",
+      "claude-skill",
+      "procurement"
+    ]
+  },
+  {
+    "owner": "ombulabs",
+    "repo": "claude-code_rails-upgrade-skill",
+    "category": "development-tools",
+    "name": "claude-code_rails-upgrade-skill",
+    "description": "A Claude Code Skill to Upgrade Rails",
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "claude-code-skills",
+      "ruby-on-rails",
+      "technical-debt"
+    ]
+  },
+  {
+    "owner": "girofu",
+    "repo": "skill-fetch",
+    "category": "ai-llm",
+    "name": "skill-fetch",
+    "description": "Multi-registry skill discovery and installation for AI coding agents — search 9 sources, score, paginate, and install agent skills with security labels",
+    "tags": [
+      "agent-skills",
+      "ai-coding-agent",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill"
+    ]
+  },
+  {
+    "owner": "prismatic-io",
+    "repo": "prismatic-skills",
+    "category": "ai-llm",
+    "name": "prismatic-skills",
+    "description": "Claude (Agent) Skills for building code-native integrations and custom connectors on the Prismatic.io platform",
+    "tags": [
+      "agent-skill",
+      "claude-agent-skill",
+      "claude-code-plugins",
+      "claude-code-skill",
+      "claude-skill"
+    ]
+  },
+  {
+    "owner": "slavingia",
+    "repo": "skills",
+    "category": "development-tools",
+    "name": "skills",
+    "description": "Claude Code skills based on The Minimalist Entrepreneur by Sahil Lavingia",
+    "tags": []
+  },
+  {
+    "owner": "steipete",
+    "repo": "claude-code-mcp",
+    "category": "ai-llm",
+    "name": "claude-code-mcp",
+    "description": "Claude Code as one-shot MCP server to have an agent in your agent.",
+    "tags": [
+      "agent",
+      "claude",
+      "mcp"
+    ]
   }
 ]
