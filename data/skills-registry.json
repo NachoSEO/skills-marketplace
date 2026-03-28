@@ -8097,5 +8097,411 @@
       "claude",
       "mcp"
     ]
+  },
+  {
+    "owner": "mykpono",
+    "repo": "ultimate-seo-geo",
+    "category": "ai-llm",
+    "name": "ultimate-seo-geo",
+    "description": "The definitive SEO + GEO skill for Claude. Full site audits with scored findings, AI search optimization (Google AI Overviews, ChatGPT, Perplexity), schema generation, E-E-A-T assessment, and 20 diagnostic scripts. Three modes: Audit → Plan → Execute.",
+    "tags": [
+      "ai-skill",
+      "ai-skills",
+      "claude-seo",
+      "claude-skill",
+      "claude-skills"
+    ]
+  },
+  {
+    "owner": "droidrun",
+    "repo": "droidrun",
+    "category": "ai-llm",
+    "name": "droidrun",
+    "description": "Automate your mobile devices with natural language commands - an LLM agnostic mobile Agent 🤖",
+    "tags": []
+  },
+  {
+    "owner": "SharpAI",
+    "repo": "DeepCamera",
+    "category": "ai-llm",
+    "name": "DeepCamera",
+    "description": "Open-Source AI Camera Skills Platform, AI NVR & CCTV Surveillance. Local VLM video analysis with Qwen, DeepSeek, SmolVLM, LLaVA, YOLO26. LLM-powered agentic security camera agent — watches, understands, remembers & guards your home via Telegram, Discord or Slack. Pluggable AI skills. OpenAI, Google, Anthropic or local AI. Runs on Mac Mini & AI PC.",
+    "tags": []
+  },
+  {
+    "owner": "0xSero",
+    "repo": "parchi",
+    "category": "ai-llm",
+    "name": "parchi",
+    "description": "Your AI friend right in your browser",
+    "tags": []
+  },
+  {
+    "owner": "d4n-sec",
+    "repo": "jdb-mcp",
+    "category": "ai-llm",
+    "name": "jdb-mcp",
+    "description": "Java Debugger MCP Server. Enables AI agents to debug live Java apps via JDI with breakpoints, stack tracing, and variable inspection.",
+    "tags": []
+  },
+  {
+    "owner": "vitorpamplona",
+    "repo": "amethyst",
+    "category": "development-tools",
+    "name": "amethyst",
+    "description": "Nostr client for Android",
+    "tags": []
+  },
+  {
+    "owner": "chihpao",
+    "repo": "dinner-picker",
+    "category": "development-tools",
+    "name": "dinner-picker",
+    "description": "孜保訂晚餐用",
+    "tags": []
+  },
+  {
+    "owner": "openbiox",
+    "repo": "Bizard",
+    "category": "creative-design",
+    "name": "Bizard",
+    "description": "Bizard: A Biomedical Visualization Atlas. https://openbiox.github.io/Bizard/",
+    "tags": []
+  },
+  {
+    "owner": "1055373165",
+    "repo": "Better-Prompt",
+    "category": "ai-llm",
+    "name": "Better-Prompt",
+    "description": "Write the best prompts for LLM",
+    "tags": []
+  },
+  {
+    "owner": "Jeffreyxdev",
+    "repo": "zola-ai",
+    "category": "ai-llm",
+    "name": "zola-ai",
+    "description": "An autonomous Solana wallet agent that executes payments via Twitter mentions and an in-app dashboard, powered by Claude.",
+    "tags": []
+  },
+  {
+    "owner": "neatsarab",
+    "repo": "GAP-Design-System",
+    "category": "creative-design",
+    "name": "GAP-Design-System",
+    "description": "GAP Design System with vuetify",
+    "tags": []
+  },
+  {
+    "owner": "unbrowse-ai",
+    "repo": "unbrowse",
+    "category": "ai-llm",
+    "name": "unbrowse",
+    "description": "Unbrowse — api native browser skill/cli for any agent. Auto-discovers APIs from browser traffic, generates skills on the fly to call APIs directly 100x faster, 80% cheaper locally.",
+    "tags": []
+  },
+  {
+    "owner": "flashpoint493",
+    "repo": "VibeCollab",
+    "category": "ai-llm",
+    "name": "VibeCollab",
+    "description": "Generate standardized AI collaboration rules (llm.txt) from YAML configuration",
+    "tags": []
+  },
+  {
+    "owner": "jackwener",
+    "repo": "xhs-cli",
+    "category": "development-tools",
+    "name": "xhs-cli",
+    "description": "小红书命令行工具 — 搜索、阅读、点赞、收藏、评论，全在终端完成 | Xiaohongshu CLI",
+    "tags": []
+  },
+  {
+    "owner": "ankitjha67",
+    "repo": "product-architect",
+    "category": "ai-llm",
+    "name": "product-architect",
+    "description": "The most comprehensive open-source product development system. 31 AI agents. 23 frameworks. Solo founder Day 0 → IPO.",
+    "tags": []
+  },
+  {
+    "owner": "win4r",
+    "repo": "mytest",
+    "category": "development-tools",
+    "name": "mytest",
+    "description": "AI超元域频道_视频项目文件",
+    "tags": []
+  },
+  {
+    "owner": "awp-core",
+    "repo": "awp-skill",
+    "category": "ai-llm",
+    "name": "awp-skill",
+    "description": "Agent skill for AWP RootNet protocol (testnet) — query, stake, govern, and monitor on-chain",
+    "tags": []
+  },
+  {
+    "owner": "abracadabra50",
+    "repo": "claude-code-voice-skill",
+    "category": "development-tools",
+    "name": "claude-code-voice-skill",
+    "description": "Skill to talk to Claude about your projects over the phone",
+    "tags": []
+  },
+  {
+    "owner": "axtonliu",
+    "repo": "ai-pair",
+    "category": "ai-llm",
+    "name": "ai-pair",
+    "description": "Coordinate multiple AI models (Claude + GPT + Gemini) as a heterogeneous team. One creates, two review. A Claude Code Skill.",
+    "tags": []
+  },
+  {
+    "owner": "umami-software",
+    "repo": "react-zen",
+    "category": "communication",
+    "name": "react-zen",
+    "description": "Zen is a props-driven React component library built for speed. Build polished interfaces without writing HTML, CSS, or thinking about Tailwind classes.",
+    "tags": []
+  },
+  {
+    "owner": "cat9999aaa",
+    "repo": "dev-planner-skill",
+    "category": "ai-llm",
+    "name": "dev-planner-skill",
+    "description": "🚀 对话式 AI 开发规划师 | 引导小白用 Agent 团队 + MCP 工具把想法变成完整项目",
+    "tags": []
+  },
+  {
+    "owner": "trsoliu",
+    "repo": "mini-wiki",
+    "category": "ai-llm",
+    "name": "mini-wiki",
+    "description": "Open Source  Skills Wiki: AI-Powered skills Wiki Generator for GitHub/Gitlab/Bitbucket Repositories. ",
+    "tags": []
+  },
+  {
+    "owner": "yoloshii",
+    "repo": "ClawMem",
+    "category": "ai-llm",
+    "name": "ClawMem",
+    "description": "On-device context engine and memory for AI agents. Claude Code and OpenClaw. Hooks + MCP server + hybrid RAG search.",
+    "tags": []
+  },
+  {
+    "owner": "joinmassive",
+    "repo": "clawpod",
+    "category": "development-tools",
+    "name": "clawpod",
+    "description": "OpenClaw skill that works with Massive proxy network",
+    "tags": []
+  },
+  {
+    "owner": "ALBEDO-TABAI",
+    "repo": "lets-go-rss",
+    "category": "ai-llm",
+    "name": "lets-go-rss",
+    "description": "AI-Powered Universal RSS Subscription Manager — YouTube, Vimeo, Behance, Twitter/X, 知识星球, B站, 微博, 抖音, 小红书 | Claude Skill for AI IDEs",
+    "tags": []
+  },
+  {
+    "owner": "CorporateSmalltalkConsultingLtd",
+    "repo": "ClaudeSmalltalk",
+    "category": "ai-llm",
+    "name": "ClaudeSmalltalk",
+    "description": "An MCP implementation to allow OpenAI, Claude, or xAI to interact with Smalltalk images",
+    "tags": []
+  },
+  {
+    "owner": "debridge-finance",
+    "repo": "debridge-mcp",
+    "category": "ai-llm",
+    "name": "debridge-mcp",
+    "description": "MCP server that gives AI agents the ability to execute cross-chain cryptocurrency swaps and transfers via the deBridge protocol",
+    "tags": []
+  },
+  {
+    "owner": "whuanle",
+    "repo": "EasyTouch",
+    "category": "development-tools",
+    "name": "EasyTouch",
+    "description": "一个跨平台的系统自动化操作工具，支持鼠标、键盘、屏幕、窗口、系统资源等多种操作。支持 CLI 和 MCP 两种使用方式。",
+    "tags": []
+  },
+  {
+    "owner": "naoterumaker",
+    "repo": "japan-gyousei-data",
+    "category": "data-analysis",
+    "name": "japan-gyousei-data",
+    "description": "🇯🇵 日本の行政オープンデータにアクセスするOpenClawスキル（不動産取引価格・官公需入札・e-Stat政府統計）",
+    "tags": []
+  },
+  {
+    "owner": "spboyer",
+    "repo": "sensei",
+    "category": "development-tools",
+    "name": "sensei",
+    "description": "Skill for iteratively improving SKILL.md frontmatter compliance using the Ralph loop pattern",
+    "tags": []
+  },
+  {
+    "owner": "Sunwood-ai-labs",
+    "repo": "draw-io-skill",
+    "category": "document-processing",
+    "name": "draw-io-skill",
+    "description": "Native draw.io skill with export helpers, SVG linting, and public docs for Codex and Claude Code workflows.",
+    "tags": []
+  },
+  {
+    "owner": "cashubtc",
+    "repo": "cashu-skill",
+    "category": "ai-llm",
+    "name": "cashu-skill",
+    "description": "A Cashu wallet skill for AI agents",
+    "tags": []
+  },
+  {
+    "owner": "BayramAnnakov",
+    "repo": "synthetic-market-research",
+    "category": "ai-llm",
+    "name": "synthetic-market-research",
+    "description": "Agent skill for fast, cheap market research using LLM synthetic surveys + Semantic Similarity Rating (SSR). No API keys needed.",
+    "tags": []
+  },
+  {
+    "owner": "yfe404",
+    "repo": "web-scraper",
+    "category": "web-scraping",
+    "name": "web-scraper",
+    "description": "Intelligent web scraping Claude Code skill with automatic strategy selection and TypeScript-first Apify Actor development",
+    "tags": []
+  },
+  {
+    "owner": "krispuckett",
+    "repo": "skill-issue",
+    "category": "ai-llm",
+    "name": "skill-issue",
+    "description": "🔍 A Claude Code skill that audits all your other skills. HR department for AI agents.",
+    "tags": []
+  },
+  {
+    "owner": "CyrusNuevoDia",
+    "repo": "coderlm",
+    "category": "ai-llm",
+    "name": "coderlm",
+    "description": "Make codex, gemini-cli, or any other coding agent into an RLM.",
+    "tags": []
+  },
+  {
+    "owner": "JadeLiu-tech",
+    "repo": "px-asset-extract",
+    "category": "ai-llm",
+    "name": "px-asset-extract",
+    "description": "Extract individual assets from images as transparent PNGs. Zero ML models, pure classical CV. This is used in pdf2ppt online tool pxGenius.ai",
+    "tags": []
+  },
+  {
+    "owner": "cascade-protocol",
+    "repo": "sati",
+    "category": "development-tools",
+    "name": "sati",
+    "description": "Trust infrastructure for million-agent economies on Solana - identity, reputation, and validation designed for continuous feedback at scale.",
+    "tags": []
+  },
+  {
+    "owner": "o11y-dev",
+    "repo": "opentelemetry-skill",
+    "category": "ai-llm",
+    "name": "opentelemetry-skill",
+    "description": "A Cognitive Architecture for AI-Assisted Observability Engineering",
+    "tags": []
+  },
+  {
+    "owner": "chenhg5",
+    "repo": "agencycli",
+    "category": "ai-llm",
+    "name": "agencycli",
+    "description": "Lightweight CLI to build self-managing AI agent teams. Define roles, skills & projects in Markdown+YAML — agents run autonomously on a heartbeat schedule, talk to each other via inbox, and delegate tasks. Works with Claude Code, Codex, Gemini, Cursor & more.",
+    "tags": []
+  },
+  {
+    "owner": "xunhe730",
+    "repo": "ZotPilot",
+    "category": "ai-llm",
+    "name": "ZotPilot",
+    "description": "AI-powered Zotero research assistant — MCP server + agent skill",
+    "tags": []
+  },
+  {
+    "owner": "TONresistor",
+    "repo": "teleton-plugins",
+    "category": "ai-llm",
+    "name": "teleton-plugins",
+    "description": "Community plugin directory for Teleton — the Telegram AI agent on TON",
+    "tags": []
+  },
+  {
+    "owner": "CryptoLabInc",
+    "repo": "rune",
+    "category": "creative-design",
+    "name": "rune",
+    "description": "Rune: Stop Corporate Amnesia. Start Assetizing Intelligence.",
+    "tags": []
+  },
+  {
+    "owner": "udayanwalvekar",
+    "repo": "clearshot",
+    "category": "ai-llm",
+    "name": "clearshot",
+    "description": "📸 Structured screenshot intelligence for AI coding tools. Give your AI X-ray vision for UI screenshots.",
+    "tags": []
+  },
+  {
+    "owner": "theoddden",
+    "repo": "Terradev",
+    "category": "ai-llm",
+    "name": "Terradev",
+    "description": "An imperative language for AI workload orchestration",
+    "tags": []
+  },
+  {
+    "owner": "brisyramshere",
+    "repo": "reddit-skill",
+    "category": "security",
+    "name": "reddit-skill",
+    "description": "Claude Code Agent Skill for searching and reading Reddit via OAuth2 API",
+    "tags": []
+  },
+  {
+    "owner": "zCloak-Network",
+    "repo": "vly-money-claude-skill",
+    "category": "development-tools",
+    "name": "vly-money-claude-skill",
+    "description": "claude skill for vly.money",
+    "tags": []
+  },
+  {
+    "owner": "cookiy-ai",
+    "repo": "cookiy-skill",
+    "category": "ai-llm",
+    "name": "cookiy-skill",
+    "description": "Official Cookiy MCP workflow skills for AI coding agents — Claude Code, Codex, OpenClaw, Cursor",
+    "tags": []
+  },
+  {
+    "owner": "OrangeViolin",
+    "repo": "skill-evolve",
+    "category": "web-scraping",
+    "name": "skill-evolve",
+    "description": "演进式 Skill 改进 — A Claude Code Skill that improves other skills through observation, pattern extraction, and iterative refinement. Based on OTF + JIT + Bootstrap methodology.",
+    "tags": []
+  },
+  {
+    "owner": "Ramsbaby",
+    "repo": "openclaw-memorybox",
+    "category": "development-tools",
+    "name": "openclaw-memorybox",
+    "description": "🧠 Install once, forget about memory management. Zero-dependency maintenance CLI for OpenClaw agents. Works alongside Mem0, Supermemory, QMD.",
+    "tags": []
   }
 ]
