@@ -8503,5 +8503,405 @@
     "name": "openclaw-memorybox",
     "description": "🧠 Install once, forget about memory management. Zero-dependency maintenance CLI for OpenClaw agents. Works alongside Mem0, Supermemory, QMD.",
     "tags": []
+  },
+  {
+    "owner": "notoriouslab",
+    "repo": "doc-cleaner",
+    "category": "document-processing",
+    "name": "doc-cleaner",
+    "description": "doc-cleaner：一個為繁體中文金融文件設計的開源文件清洗工具，支援完全離線運行，你的文件，不該為了整理而離開你的電腦 :)",
+    "tags": []
+  },
+  {
+    "owner": "OrangeViolin",
+    "repo": "content-pipeline",
+    "category": "communication",
+    "name": "content-pipeline",
+    "description": "Claude Code Skill：内容生产线",
+    "tags": []
+  },
+  {
+    "owner": "OEN-Tech",
+    "repo": "incident-report-skill",
+    "category": "development-tools",
+    "name": "incident-report-skill",
+    "description": "Claude Code skill: Taiwan cybersecurity incident report generator (個人資料侵害事故通報與紀錄表)",
+    "tags": []
+  },
+  {
+    "owner": "AIPMAndy",
+    "repo": "dna-memory",
+    "category": "ai-llm",
+    "name": "dna-memory",
+    "description": "🧬 让 AI Agent 像人脑一样学习成长 | Memory that learns, forgets, and evolves",
+    "tags": []
+  },
+  {
+    "owner": "na57",
+    "repo": "chinese-copyright-application-skill",
+    "category": "development-tools",
+    "name": "chinese-copyright-application-skill",
+    "description": "用于生成中国软件著作权申请材料的完整工具包。支持从项目代码、文档等自动提取信息，生成软件著作权登记申请表、源代码文档（前后各30页）、用户手册和设计说明书。适用于微信小程序、Web应用、移动App、桌面应用等各类软件项目。",
+    "tags": []
+  },
+  {
+    "owner": "KimYx0207",
+    "repo": "SkillSemgrep",
+    "category": "security",
+    "name": "SkillSemgrep",
+    "description": "Claude Code安全扫描Skill：说句中文就能扫漏洞，基于Semgrep | Security scanning skill for Claude Code, powered by Semgrep",
+    "tags": []
+  },
+  {
+    "owner": "yxp934",
+    "repo": "crushable-wingman-skill",
+    "category": "development-tools",
+    "name": "crushable-wingman-skill",
+    "description": "clone但是不给star的是gay",
+    "tags": []
+  },
+  {
+    "owner": "dkyazzentwatwa",
+    "repo": "osint-ai",
+    "category": "ai-llm",
+    "name": "osint-ai",
+    "description": "The ultimate OSINT Skill for AI -- Find Anyone / Anything",
+    "tags": []
+  },
+  {
+    "owner": "simplexlabs",
+    "repo": "montage",
+    "category": "development-tools",
+    "name": "montage",
+    "description": "Agentic motion videos built with Remotion",
+    "tags": []
+  },
+  {
+    "owner": "crazygit",
+    "repo": "kube-audit-kit",
+    "category": "security",
+    "name": "kube-audit-kit",
+    "description": "A Claude Code Skill for non-intrusive security audits of Kubernetes clusters.",
+    "tags": []
+  },
+  {
+    "owner": "unclebob",
+    "repo": "crap4clj",
+    "category": "development-tools",
+    "name": "crap4clj",
+    "description": "A skill implementing the CRAP formula for clojure with speclj.  Easy to adjust to other testers.",
+    "tags": []
+  },
+  {
+    "owner": "viktorvuka",
+    "repo": "claude-things-skill",
+    "category": "development-tools",
+    "name": "claude-things-skill",
+    "description": "Things 3 link to add anything from Claude",
+    "tags": []
+  },
+  {
+    "owner": "yoloshii",
+    "repo": "better-browser-use",
+    "category": "creative-design",
+    "name": "better-browser-use",
+    "description": "A hybrid SOTA browser use skill with tiered stealth escalation and turnstyle captcha trigger-avoidance. Includes early WebMCP functionality.",
+    "tags": []
+  },
+  {
+    "owner": "varunchopra",
+    "repo": "postkit",
+    "category": "development-tools",
+    "name": "postkit",
+    "description": "Postgres-native identity, configuration, metering, and job queues. ",
+    "tags": []
+  },
+  {
+    "owner": "ercan-er",
+    "repo": "htmx-claude-skill",
+    "category": "ai-llm",
+    "name": "htmx-claude-skill",
+    "description": "Strict production-grade HTMX skill for Claude, Cursor & Codex. Enforces HTML-over-the-wire, server-driven UI, fragment architecture and anti-SPA best practices.",
+    "tags": []
+  },
+  {
+    "owner": "momo2young",
+    "repo": "humanize-academic-writing",
+    "category": "ai-llm",
+    "name": "humanize-academic-writing",
+    "description": "An AI skill (Cursor/ Claude) for transforming AI-generated academic text into natural, human-like scholarly writing/ 一个专为社科学者设计的 Cursor AI Skills (Claude可用)，帮助将 AI 生成的英文学术文本转化为自然、人性化的学术写作。",
+    "tags": []
+  },
+  {
+    "owner": "ZhenHuangLab",
+    "repo": "collaborating-with-claude-code",
+    "category": "ai-llm",
+    "name": "collaborating-with-claude-code",
+    "description": "Let codex (main agent) collaborate with claude code Through codex skills",
+    "tags": []
+  },
+  {
+    "owner": "3li7alaki",
+    "repo": "mint",
+    "category": "ai-llm",
+    "name": "mint",
+    "description": "Disciplined agentic development for Claude Code. Auto-routing orchestrator with XML specs, atomic commits, multi-stage review pipeline, and zero slop.",
+    "tags": []
+  },
+  {
+    "owner": "Boos4721",
+    "repo": "netops-asset-manager-skill",
+    "category": "devops-cicd",
+    "name": "netops-asset-manager-skill",
+    "description": "netops and devops by openclaw",
+    "tags": []
+  },
+  {
+    "owner": "ImL1s",
+    "repo": "openclaw-ops",
+    "category": "ai-llm",
+    "name": "openclaw-ops",
+    "description": "OpenClaw 運維知識庫 — Operational knowledge base for OpenClaw AI agent on macOS",
+    "tags": []
+  },
+  {
+    "owner": "standardhuman",
+    "repo": "deep-research-skill",
+    "category": "data-analysis",
+    "name": "deep-research-skill",
+    "description": "7-phase deep research system for Claude Code. Multi-source verification, Graph of Thoughts methodology, domain overlays for healthcare/financial/legal/market research.",
+    "tags": []
+  },
+  {
+    "owner": "nielskaspers",
+    "repo": "bold-designs",
+    "category": "development-tools",
+    "name": "bold-designs",
+    "description": "A practical guide to creating interfaces that actually stand out",
+    "tags": []
+  },
+  {
+    "owner": "wkyleg",
+    "repo": "personal-genomics",
+    "category": "development-tools",
+    "name": "personal-genomics",
+    "description": "Analyze your DNA with OpenClaw",
+    "tags": []
+  },
+  {
+    "owner": "mr-kelly",
+    "repo": "wxclaw2026",
+    "category": "development-tools",
+    "name": "wxclaw2026",
+    "description": "🧧 2026 微信春节祝福 Skill for OpenClaw",
+    "tags": []
+  },
+  {
+    "owner": "jzOcb",
+    "repo": "config-guard",
+    "category": "ai-llm",
+    "name": "config-guard",
+    "description": "Stop AI agents from crashing OpenClaw by validating config changes. Auto-backup, schema validation, and auto-rollback.",
+    "tags": []
+  },
+  {
+    "owner": "velumkai",
+    "repo": "metacognition-skill",
+    "category": "ai-llm",
+    "name": "metacognition-skill",
+    "description": "Self-evolving metacognitive lens for OpenClaw agents. Hebbian learning from every experience.",
+    "tags": []
+  },
+  {
+    "owner": "gmickel",
+    "repo": "raindrop-skill",
+    "category": "ai-llm",
+    "name": "raindrop-skill",
+    "description": "AI-powered bookmark management for Raindrop.io - works with Claude Code, Codex, Amp, OpenCode",
+    "tags": []
+  },
+  {
+    "owner": "VirtusLab",
+    "repo": "cellar",
+    "category": "development-tools",
+    "name": "cellar",
+    "description": "CLI tool for coding agents and developers to query the public API of any Maven JVM dependency — get symbol signatures, list packages, search by name, and inspect dependency trees. Powered by Coursier and tasty-query.",
+    "tags": []
+  },
+  {
+    "owner": "cathrynlavery",
+    "repo": "voice-memo-organizer",
+    "category": "communication",
+    "name": "voice-memo-organizer",
+    "description": "Claude Code skill that organizes hundreds of Apple Voice Memos into a searchable archive with transcriptions, summaries, and key quotes. No API keys needed.",
+    "tags": []
+  },
+  {
+    "owner": "CommonPaper",
+    "repo": "claude-skill",
+    "category": "ai-llm",
+    "name": "claude-skill",
+    "description": "Official Common Paper skill for Claude and other agents",
+    "tags": []
+  },
+  {
+    "owner": "cathrynlavery",
+    "repo": "spend-optimizer",
+    "category": "security",
+    "name": "spend-optimizer",
+    "description": "Audit subscriptions and optimize credit card rewards. Claude Code skill.",
+    "tags": []
+  },
+  {
+    "owner": "0x2kNJ",
+    "repo": "cpo",
+    "category": "development-tools",
+    "name": "cpo",
+    "description": "The product decision layer for Claude Code — decides what to build, what to kill, and whether you were right.",
+    "tags": []
+  },
+  {
+    "owner": "madeyexz",
+    "repo": "heptabase-cli",
+    "category": "development-tools",
+    "name": "heptabase-cli",
+    "description": "CLI for Heptabase MCP server, built with mcporter; including skills",
+    "tags": []
+  },
+  {
+    "owner": "lightninglabs",
+    "repo": "lnget",
+    "category": "development-tools",
+    "name": "lnget",
+    "description": "wget for the pay-per-request web (powered by Lightning Lab's L402 protocol)",
+    "tags": []
+  },
+  {
+    "owner": "SarveshPatkr",
+    "repo": "claw-browser",
+    "category": "productivity",
+    "name": "claw-browser",
+    "description": "Self-hosted browser runtime with CLI agent control and web client handoff.",
+    "tags": []
+  },
+  {
+    "owner": "6missedcalls",
+    "repo": "erpnext-skill",
+    "category": "ai-llm",
+    "name": "erpnext-skill",
+    "description": "Claude Code skill with comprehensive Frappe Framework & ERPNext v15 API reference. Gives your AI assistant full context on DocTypes, controllers, hooks, REST APIs, form scripts, and 14+ module references.",
+    "tags": []
+  },
+  {
+    "owner": "danielkwapien",
+    "repo": "google-docs-skill",
+    "category": "document-processing",
+    "name": "google-docs-skill",
+    "description": "Google Docs & Drive skill for AI coding assistants (Claude Code, gemini-cli, Codex, Cursor). Fork of robtaylor/google-docs-skill with Markdown support & large doc insertion.",
+    "tags": []
+  },
+  {
+    "owner": "NextronSystems",
+    "repo": "thor-skill",
+    "category": "ai-llm",
+    "name": "thor-skill",
+    "description": "THOR Skills for LLMs",
+    "tags": []
+  },
+  {
+    "owner": "NeuroSkill-com",
+    "repo": "skills",
+    "category": "document-processing",
+    "name": "skills",
+    "description": "NeuroSkill™ and NeuroLoop™ markdown files",
+    "tags": []
+  },
+  {
+    "owner": "wbin0001",
+    "repo": "Memory-Compass",
+    "category": "development-tools",
+    "name": "Memory-Compass",
+    "description": "在数字沧海中，找到你的方向 - Memory Management Skill for OpenClaw",
+    "tags": []
+  },
+  {
+    "owner": "wadim",
+    "repo": "haveibeenclawned",
+    "category": "security",
+    "name": "haveibeenclawned",
+    "description": "Security audit for OpenClaw agents — 72 checks, one command",
+    "tags": []
+  },
+  {
+    "owner": "DataEval",
+    "repo": "dingo-marketing",
+    "category": "business-marketing",
+    "name": "dingo-marketing",
+    "description": "AI-powered marketing automation platform for GitHub-based projects.",
+    "tags": []
+  },
+  {
+    "owner": "artmsilva",
+    "repo": "lit-best-practices",
+    "category": "ai-llm",
+    "name": "lit-best-practices",
+    "description": "Lit web components best practices for AI agents and LLMs. Contains 27 rules across 7 categories, prioritized by impact.",
+    "tags": []
+  },
+  {
+    "owner": "ragnvald",
+    "repo": "paperskill",
+    "category": "document-processing",
+    "name": "paperskill",
+    "description": "OpenClaw skill for fetching/searching/linking docs in Paperless",
+    "tags": []
+  },
+  {
+    "owner": "llh315434220",
+    "repo": "claude-skill-architect",
+    "category": "ai-llm",
+    "name": "claude-skill-architect",
+    "description": "Build high-quality Claude Skills following Anthropic official best practices.",
+    "tags": []
+  },
+  {
+    "owner": "beeemT",
+    "repo": "git-work",
+    "category": "ai-llm",
+    "name": "git-work",
+    "description": "Opinionated Git Worktree wrapper optimized for the AI TUI harness age",
+    "tags": []
+  },
+  {
+    "owner": "Garfield1002",
+    "repo": "tg-rs",
+    "category": "communication",
+    "name": "tg-rs",
+    "description": "A \"unix-like\" utility for sending yourself Telegram messages from the terminal",
+    "tags": []
+  },
+  {
+    "owner": "willmot",
+    "repo": "wordpress-com-codex-skill",
+    "category": "document-processing",
+    "name": "wordpress-com-codex-skill",
+    "description": "A Codex Skill to connect to the WordPress.com MCE",
+    "tags": []
+  },
+  {
+    "owner": "sunrisever",
+    "repo": "bilibili-follow",
+    "category": "ai-llm",
+    "name": "bilibili-follow",
+    "description": "Export Bilibili follows, classify with ChatGPT/Claude/Gemini or other frontier LLMs, then sync groups back | 导出B站关注列表，交给ChatGPT/Claude/Gemini等通用大模型分类，再同步回分组",
+    "tags": []
+  },
+  {
+    "owner": "richlander",
+    "repo": "markout",
+    "category": "document-processing",
+    "name": "markout",
+    "description": "Objects to Structured Logs Serializer (markdown, oneline, TSV, ANSI, tree, ...)",
+    "tags": []
   }
 ]
