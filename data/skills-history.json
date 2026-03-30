@@ -17710,5 +17710,1951 @@
       "stars": 0,
       "forks": 1
     }
+  },
+  "2026-03-30": {
+    "superpowers": {
+      "stars": 123910,
+      "forks": 10094
+    },
+    "everything-claude-code": {
+      "stars": 117348,
+      "forks": 15239
+    },
+    "claude-api": {
+      "stars": 106063,
+      "forks": 11734
+    },
+    "doc-coauthoring": {
+      "stars": 106063,
+      "forks": 11734
+    },
+    "web-artifacts-builder": {
+      "stars": 106063,
+      "forks": 11734
+    },
+    "template": {
+      "stars": 106063,
+      "forks": 11734
+    },
+    "docx": {
+      "stars": 106054,
+      "forks": 11734
+    },
+    "pdf": {
+      "stars": 106054,
+      "forks": 11734
+    },
+    "pptx": {
+      "stars": 106054,
+      "forks": 11734
+    },
+    "xlsx": {
+      "stars": 106054,
+      "forks": 11734
+    },
+    "algorithmic-art": {
+      "stars": 106054,
+      "forks": 11734
+    },
+    "canvas-design": {
+      "stars": 106054,
+      "forks": 11734
+    },
+    "slack-gif-creator": {
+      "stars": 106054,
+      "forks": 11734
+    },
+    "frontend-design": {
+      "stars": 106054,
+      "forks": 11734
+    },
+    "artifacts-builder": {
+      "stars": 106054,
+      "forks": 11734
+    },
+    "mcp-builder": {
+      "stars": 106054,
+      "forks": 11734
+    },
+    "webapp-testing": {
+      "stars": 106054,
+      "forks": 11734
+    },
+    "brand-guidelines": {
+      "stars": 106054,
+      "forks": 11734
+    },
+    "internal-comms": {
+      "stars": 106054,
+      "forks": 11734
+    },
+    "skill-creator": {
+      "stars": 106054,
+      "forks": 11734
+    },
+    "theme-factory": {
+      "stars": 105260,
+      "forks": 11633
+    },
+    "ui-ux-pro-max-skill": {
+      "stars": 54511,
+      "forks": 5283
+    },
+    "awesome-claude-skills": {
+      "stars": 49255,
+      "forks": 5094
+    },
+    "get-shit-done": {
+      "stars": 44865,
+      "forks": 3623
+    },
+    "oh-my-openagent": {
+      "stars": 44779,
+      "forks": 3342
+    },
+    "oh-my-opencode": {
+      "stars": 44777,
+      "forks": 3342
+    },
+    "learn-claude-code": {
+      "stars": 43215,
+      "forks": 6640
+    },
+    "claude-mem": {
+      "stars": 42995,
+      "forks": 3193
+    },
+    "cherry-studio": {
+      "stars": 42581,
+      "forks": 3980
+    },
+    "cc-switch": {
+      "stars": 35382,
+      "forks": 2107
+    },
+    "awesome-claude-code": {
+      "stars": 34212,
+      "forks": 2476
+    },
+    "agents": {
+      "stars": 32544,
+      "forks": 3545
+    },
+    "antigravity-awesome-skills": {
+      "stars": 28621,
+      "forks": 4799
+    },
+    "claude-flow": {
+      "stars": 28435,
+      "forks": 3113
+    },
+    "ruflo": {
+      "stars": 28435,
+      "forks": 3113
+    },
+    "composio-connect": {
+      "stars": 27578,
+      "forks": 4497
+    },
+    "nanoclaw": {
+      "stars": 25934,
+      "forks": 9656
+    },
+    "claude-code-best-practice": {
+      "stars": 24710,
+      "forks": 2121
+    },
+    "serena": {
+      "stars": 22244,
+      "forks": 1486
+    },
+    "cliproxyapi": {
+      "stars": 21200,
+      "forks": 3483
+    },
+    "opcode": {
+      "stars": 21192,
+      "forks": 1626
+    },
+    "aionui": {
+      "stars": 20494,
+      "forks": 1635
+    },
+    "beads": {
+      "stars": 19943,
+      "forks": 1317
+    },
+    "planning-with-files": {
+      "stars": 17617,
+      "forks": 1589
+    },
+    "marketingskills": {
+      "stars": 17476,
+      "forks": 2627
+    },
+    "hermes-agent": {
+      "stars": 17298,
+      "forks": 2105
+    },
+    "n8n-mcp": {
+      "stars": 16966,
+      "forks": 2861
+    },
+    "scientific-skills": {
+      "stars": 16690,
+      "forks": 1824
+    },
+    "happy": {
+      "stars": 16660,
+      "forks": 1324
+    },
+    "oh-my-claudecode": {
+      "stars": 16561,
+      "forks": 1168
+    },
+    "last30days-skill": {
+      "stars": 15850,
+      "forks": 1258
+    },
+    "claude-code-subagents": {
+      "stars": 15611,
+      "forks": 1754
+    },
+    "rtk": {
+      "stars": 15358,
+      "forks": 775
+    },
+    "claude-plugins-official": {
+      "stars": 15337,
+      "forks": 1664
+    },
+    "claude-hud": {
+      "stars": 15138,
+      "forks": 620
+    },
+    "agent-skills-for-context-engineering": {
+      "stars": 14486,
+      "forks": 1130
+    },
+    "open-saas": {
+      "stars": 13680,
+      "forks": 1579
+    },
+    "agent-reach": {
+      "stars": 13384,
+      "forks": 1050
+    },
+    "awesome-agent-skills": {
+      "stars": 13357,
+      "forks": 1355
+    },
+    "cc-usage": {
+      "stars": 12116,
+      "forks": 442
+    },
+    "fastapi-mcp": {
+      "stars": 11741,
+      "forks": 928
+    },
+    "frontend-slides": {
+      "stars": 11673,
+      "forks": 865
+    },
+    "humanizer": {
+      "stars": 11594,
+      "forks": 957
+    },
+    "cmux": {
+      "stars": 11522,
+      "forks": 799
+    },
+    "skill-seekers": {
+      "stars": 11461,
+      "forks": 1125
+    },
+    "pal-mcp-server": {
+      "stars": 11335,
+      "forks": 973
+    },
+    "mcp-chrome": {
+      "stars": 11023,
+      "forks": 971
+    },
+    "ai-guide": {
+      "stars": 10728,
+      "forks": 1157
+    },
+    "claude-relay-service": {
+      "stars": 10320,
+      "forks": 1553
+    },
+    "humanlayer": {
+      "stars": 10130,
+      "forks": 872
+    },
+    "hive": {
+      "stars": 9940,
+      "forks": 5601
+    },
+    "codexbar": {
+      "stars": 9574,
+      "forks": 697
+    },
+    "mcp-use": {
+      "stars": 9567,
+      "forks": 1203
+    },
+    "claude-code-infrastructure-showcase": {
+      "stars": 9372,
+      "forks": 1200
+    },
+    "rowboat": {
+      "stars": 9333,
+      "forks": 797
+    },
+    "xonsh": {
+      "stars": 9263,
+      "forks": 704
+    },
+    "sub2api": {
+      "stars": 9230,
+      "forks": 1425
+    },
+    "claudecodeui": {
+      "stars": 9126,
+      "forks": 1168
+    },
+    "ralph-for-claude-code": {
+      "stars": 8265,
+      "forks": 603
+    },
+    "superset": {
+      "stars": 8249,
+      "forks": 616
+    },
+    "notebooklm-py": {
+      "stars": 8217,
+      "forks": 1024
+    },
+    "claude-howto": {
+      "stars": 8060,
+      "forks": 849
+    },
+    "droidrun": {
+      "stars": 8053,
+      "forks": 828
+    },
+    "git-mcp": {
+      "stars": 7846,
+      "forks": 682
+    },
+    "claude-code-pm": {
+      "stars": 7832,
+      "forks": 790
+    },
+    "hexstrike-ai": {
+      "stars": 7759,
+      "forks": 1702
+    },
+    "claude-code-game-studios": {
+      "stars": 7324,
+      "forks": 1062
+    },
+    "claude-code-usage-monitor": {
+      "stars": 7195,
+      "forks": 350
+    },
+    "refly": {
+      "stars": 7122,
+      "forks": 706
+    },
+    "claude-code-system-prompts": {
+      "stars": 7047,
+      "forks": 951
+    },
+    "understand-anything": {
+      "stars": 7045,
+      "forks": 553
+    },
+    "claude-code-tips": {
+      "stars": 6910,
+      "forks": 478
+    },
+    "claude-squad": {
+      "stars": 6718,
+      "forks": 470
+    },
+    "awesome-mcp-zh": {
+      "stars": 6709,
+      "forks": 477
+    },
+    "codecompanion-nvim": {
+      "stars": 6376,
+      "forks": 392
+    },
+    "cc-statusline": {
+      "stars": 6202,
+      "forks": 250
+    },
+    "mcp": {
+      "stars": 6196,
+      "forks": 485
+    },
+    "firecrawl-mcp-server": {
+      "stars": 5902,
+      "forks": 664
+    },
+    "ai-research-skills": {
+      "stars": 5836,
+      "forks": 453
+    },
+    "zcf": {
+      "stars": 5829,
+      "forks": 406
+    },
+    "desktopcommandermcp": {
+      "stars": 5811,
+      "forks": 679
+    },
+    "claude-context": {
+      "stars": 5789,
+      "forks": 517
+    },
+    "claude-code-showcase": {
+      "stars": 5606,
+      "forks": 491
+    },
+    "humanizer-zh": {
+      "stars": 5298,
+      "forks": 445
+    },
+    "dev-browser": {
+      "stars": 5096,
+      "forks": 317
+    },
+    "auto-claude-code-research-in-sleep": {
+      "stars": 4717,
+      "forks": 376
+    },
+    "cc-wf-studio": {
+      "stars": 4631,
+      "forks": 519
+    },
+    "geo-seo-claude": {
+      "stars": 4495,
+      "forks": 718
+    },
+    "gcli2api": {
+      "stars": 4363,
+      "forks": 1239
+    },
+    "awesome-claude-agents": {
+      "stars": 4110,
+      "forks": 485
+    },
+    "n8n-workflow-skills": {
+      "stars": 3904,
+      "forks": 681
+    },
+    "anthropic-cybersecurity-skills": {
+      "stars": 3855,
+      "forks": 398
+    },
+    "claudable": {
+      "stars": 3844,
+      "forks": 575
+    },
+    "claude-code-guide": {
+      "stars": 3755,
+      "forks": 348
+    },
+    "continuous-claude-v3": {
+      "stars": 3643,
+      "forks": 284
+    },
+    "archestra": {
+      "stars": 3536,
+      "forks": 397
+    },
+    "claude-seo": {
+      "stars": 3511,
+      "forks": 548
+    },
+    "swiftui-agent-skill": {
+      "stars": 3243,
+      "forks": 107
+    },
+    "pinme": {
+      "stars": 3103,
+      "forks": 222
+    },
+    "crystal": {
+      "stars": 3000,
+      "forks": 191
+    },
+    "cc-sdd": {
+      "stars": 2993,
+      "forks": 232
+    },
+    "generative-media-skills": {
+      "stars": 2973,
+      "forks": 328
+    },
+    "seo-machine": {
+      "stars": 2907,
+      "forks": 489
+    },
+    "ccplugins": {
+      "stars": 2697,
+      "forks": 159
+    },
+    "buildwithclaude": {
+      "stars": 2659,
+      "forks": 297
+    },
+    "deepcamera": {
+      "stars": 2610,
+      "forks": 415
+    },
+    "ruler": {
+      "stars": 2600,
+      "forks": 135
+    },
+    "dbhub": {
+      "stars": 2448,
+      "forks": 199
+    },
+    "sidekick-nvim": {
+      "stars": 2443,
+      "forks": 107
+    },
+    "ccometixline": {
+      "stars": 2428,
+      "forks": 140
+    },
+    "fulling": {
+      "stars": 2410,
+      "forks": 227
+    },
+    "agentscope-java": {
+      "stars": 2293,
+      "forks": 464
+    },
+    "playwright-skill": {
+      "stars": 2244,
+      "forks": 140
+    },
+    "gemini-mcp-tool": {
+      "stars": 2108,
+      "forks": 176
+    },
+    "devdocs": {
+      "stars": 2047,
+      "forks": 182
+    },
+    "tdd-guard": {
+      "stars": 1948,
+      "forks": 146
+    },
+    "claudekit-skills": {
+      "stars": 1917,
+      "forks": 380
+    },
+    "mcp-agent-mail": {
+      "stars": 1855,
+      "forks": 191
+    },
+    "unity-mcp": {
+      "stars": 1777,
+      "forks": 171
+    },
+    "notebooklm-mcp": {
+      "stars": 1696,
+      "forks": 221
+    },
+    "unreal-mcp": {
+      "stars": 1664,
+      "forks": 254
+    },
+    "pg-aiguide": {
+      "stars": 1661,
+      "forks": 82
+    },
+    "mcp-memory-service": {
+      "stars": 1576,
+      "forks": 224
+    },
+    "mcp-excalidraw": {
+      "stars": 1569,
+      "forks": 149
+    },
+    "security-list": {
+      "stars": 1520,
+      "forks": 461
+    },
+    "amethyst": {
+      "stars": 1493,
+      "forks": 187
+    },
+    "claude-ads": {
+      "stars": 1467,
+      "forks": 286
+    },
+    "claude-code-everything-you-need-to-know": {
+      "stars": 1450,
+      "forks": 158
+    },
+    "nano-banana-pro-prompts-recommend-skill": {
+      "stars": 1330,
+      "forks": 133
+    },
+    "jcodemunch-mcp": {
+      "stars": 1318,
+      "forks": 240
+    },
+    "mcp-server-qdrant": {
+      "stars": 1307,
+      "forks": 251
+    },
+    "claude-code-mcp": {
+      "stars": 1207,
+      "forks": 150
+    },
+    "awesome-claude-plugins": {
+      "stars": 1206,
+      "forks": 246
+    },
+    "linear-todo-sync": {
+      "stars": 1094,
+      "forks": 120
+    },
+    "cloudflare-manager": {
+      "stars": 1094,
+      "forks": 120
+    },
+    "ccflare": {
+      "stars": 928,
+      "forks": 96
+    },
+    "loki-mode": {
+      "stars": 793,
+      "forks": 159
+    },
+    "context-engineering-kit": {
+      "stars": 731,
+      "forks": 62
+    },
+    "ios-simulator": {
+      "stars": 699,
+      "forks": 43
+    },
+    "claudekit": {
+      "stars": 643,
+      "forks": 102
+    },
+    "unbrowse": {
+      "stars": 604,
+      "forks": 54
+    },
+    "codex-settings": {
+      "stars": 551,
+      "forks": 50
+    },
+    "n8n-workflow-builder": {
+      "stars": 503,
+      "forks": 127
+    },
+    "patentwriteragent": {
+      "stars": 477,
+      "forks": 100
+    },
+    "parchi": {
+      "stars": 474,
+      "forks": 46
+    },
+    "xhs-cli": {
+      "stars": 428,
+      "forks": 40
+    },
+    "claude-blog": {
+      "stars": 342,
+      "forks": 91
+    },
+    "claudeforge": {
+      "stars": 328,
+      "forks": 39
+    },
+    "ai-agent-team": {
+      "stars": 307,
+      "forks": 40
+    },
+    "soul-md": {
+      "stars": 305,
+      "forks": 23
+    },
+    "claude-code-aso-skill": {
+      "stars": 282,
+      "forks": 30
+    },
+    "awp-skill": {
+      "stars": 273,
+      "forks": 41
+    },
+    "web-asset-generator": {
+      "stars": 259,
+      "forks": 16
+    },
+    "ccexp": {
+      "stars": 259,
+      "forks": 9
+    },
+    "superpowers-lab": {
+      "stars": 257,
+      "forks": 17
+    },
+    "agentic-seo-skill": {
+      "stars": 256,
+      "forks": 46
+    },
+    "agentic-workflow-patterns": {
+      "stars": 223,
+      "forks": 28
+    },
+    "hitchhikers-guide": {
+      "stars": 222,
+      "forks": 37
+    },
+    "skyll": {
+      "stars": 221,
+      "forks": 21
+    },
+    "nelson": {
+      "stars": 215,
+      "forks": 18
+    },
+    "aelf-skills": {
+      "stars": 187,
+      "forks": 9
+    },
+    "developer-kit": {
+      "stars": 185,
+      "forks": 19
+    },
+    "recall": {
+      "stars": 165,
+      "forks": 15
+    },
+    "blockrun-agent-wallet": {
+      "stars": 165,
+      "forks": 16
+    },
+    "claude-code-voice-skill": {
+      "stars": 160,
+      "forks": 18
+    },
+    "ab-method": {
+      "stars": 156,
+      "forks": 12
+    },
+    "doc-cleaner": {
+      "stars": 156,
+      "forks": 16
+    },
+    "tsk": {
+      "stars": 155,
+      "forks": 16
+    },
+    "notebooklm-skill": {
+      "stars": 147,
+      "forks": 16
+    },
+    "ai-pair": {
+      "stars": 145,
+      "forks": 23
+    },
+    "token-optimizer": {
+      "stars": 142,
+      "forks": 11
+    },
+    "d3-js-visualization": {
+      "stars": 138,
+      "forks": 12
+    },
+    "playwright-bot-bypass": {
+      "stars": 137,
+      "forks": 7
+    },
+    "claude-code-prompt-coach-skill": {
+      "stars": 135,
+      "forks": 11
+    },
+    "proxy-pool": {
+      "stars": 131,
+      "forks": 29
+    },
+    "ffuf-web-fuzzing": {
+      "stars": 130,
+      "forks": 7
+    },
+    "google-ai-mode-skill": {
+      "stars": 127,
+      "forks": 16
+    },
+    "claude-android-skill": {
+      "stars": 126,
+      "forks": 19
+    },
+    "cc-hooks": {
+      "stars": 125,
+      "forks": 9
+    },
+    "entice": {
+      "stars": 122,
+      "forks": 12
+    },
+    "claude-code-rails-upgrade-skill": {
+      "stars": 119,
+      "forks": 1
+    },
+    "clearshot": {
+      "stars": 118,
+      "forks": 10
+    },
+    "claude-zeroclaw": {
+      "stars": 113,
+      "forks": 3
+    },
+    "notes": {
+      "stars": 109,
+      "forks": 24
+    },
+    "dev-planner-skill": {
+      "stars": 107,
+      "forks": 17
+    },
+    "translations": {
+      "stars": 104,
+      "forks": 8
+    },
+    "claude-code-seo": {
+      "stars": 103,
+      "forks": 5
+    },
+    "apple-hig-designer": {
+      "stars": 102,
+      "forks": 5
+    },
+    "wechat-article-publisher-skill": {
+      "stars": 100,
+      "forks": 13
+    },
+    "verify": {
+      "stars": 98,
+      "forks": 3
+    },
+    "jeffreysprompts-com": {
+      "stars": 95,
+      "forks": 7
+    },
+    "claude-skills": {
+      "stars": 94,
+      "forks": 11
+    },
+    "i18n-ai-translate": {
+      "stars": 90,
+      "forks": 7
+    },
+    "claude-code-settings": {
+      "stars": 90,
+      "forks": 13
+    },
+    "product-architect": {
+      "stars": 89,
+      "forks": 20
+    },
+    "content-pipeline": {
+      "stars": 83,
+      "forks": 17
+    },
+    "oh-my-mermaid": {
+      "stars": 82,
+      "forks": 6
+    },
+    "ai-bounty-skill": {
+      "stars": 73,
+      "forks": 4
+    },
+    "clawpod": {
+      "stars": 73,
+      "forks": 11
+    },
+    "lets-go-rss": {
+      "stars": 70,
+      "forks": 10
+    },
+    "jetpack-compose-skills": {
+      "stars": 69,
+      "forks": 4
+    },
+    "claude-skill-prompt-architect": {
+      "stars": 68,
+      "forks": 7
+    },
+    "algorithms": {
+      "stars": 68,
+      "forks": 70
+    },
+    "prompt-architect": {
+      "stars": 68,
+      "forks": 7
+    },
+    "project-memory": {
+      "stars": 67,
+      "forks": 13
+    },
+    "mck-ppt-design-skill": {
+      "stars": 66,
+      "forks": 6
+    },
+    "incident-report-skill": {
+      "stars": 59,
+      "forks": 10
+    },
+    "claude-coach": {
+      "stars": 58,
+      "forks": 7
+    },
+    "chinese-copyright-application-skill": {
+      "stars": 58,
+      "forks": 13
+    },
+    "claude-ai-music-skills": {
+      "stars": 54,
+      "forks": 13
+    },
+    "japan-gyousei-data": {
+      "stars": 53,
+      "forks": 2
+    },
+    "wechat-article-formatter-skill": {
+      "stars": 52,
+      "forks": 7
+    },
+    "bria-skill": {
+      "stars": 51,
+      "forks": 2
+    },
+    "mini-wiki": {
+      "stars": 51,
+      "forks": 1
+    },
+    "clawmem": {
+      "stars": 51,
+      "forks": 5
+    },
+    "cc-tools": {
+      "stars": 48,
+      "forks": 6
+    },
+    "buyer-eval-skill": {
+      "stars": 48,
+      "forks": 2
+    },
+    "shiplog": {
+      "stars": 46,
+      "forks": 1
+    },
+    "react-zen": {
+      "stars": 46,
+      "forks": 6
+    },
+    "hxaudioplayer": {
+      "stars": 45,
+      "forks": 12
+    },
+    "creative-director-skill": {
+      "stars": 45,
+      "forks": 16
+    },
+    "outline-driven-development": {
+      "stars": 44,
+      "forks": 8
+    },
+    "textum": {
+      "stars": 43,
+      "forks": 4
+    },
+    "azure-ai-search-workshop": {
+      "stars": 42,
+      "forks": 10
+    },
+    "dna-memory": {
+      "stars": 41,
+      "forks": 13
+    },
+    "thesis-figure-skill": {
+      "stars": 38,
+      "forks": 1
+    },
+    "bizard": {
+      "stars": 38,
+      "forks": 10
+    },
+    "claude-code-design-skills": {
+      "stars": 37,
+      "forks": 3
+    },
+    "jira-skill": {
+      "stars": 37,
+      "forks": 11
+    },
+    "crushable-wingman-skill": {
+      "stars": 37,
+      "forks": 9
+    },
+    "git-context-controller": {
+      "stars": 36,
+      "forks": 1
+    },
+    "few-word": {
+      "stars": 35,
+      "forks": 4
+    },
+    "tweakcc-system-prompts": {
+      "stars": 34,
+      "forks": 3
+    },
+    "excalidraw-skill": {
+      "stars": 34,
+      "forks": 6
+    },
+    "claude-shorts": {
+      "stars": 33,
+      "forks": 7
+    },
+    "media-library-organizer-skill": {
+      "stars": 33,
+      "forks": 2
+    },
+    "ham": {
+      "stars": 32,
+      "forks": 1
+    },
+    "collaborating-with-claude-code": {
+      "stars": 32,
+      "forks": 2
+    },
+    "gtd-coach-plugin": {
+      "stars": 31,
+      "forks": 6
+    },
+    "claude-youtube": {
+      "stars": 31,
+      "forks": 5
+    },
+    "ha-omlet-integration": {
+      "stars": 30,
+      "forks": 0
+    },
+    "skill-forge": {
+      "stars": 30,
+      "forks": 15
+    },
+    "qqsg-struct": {
+      "stars": 30,
+      "forks": 14
+    },
+    "sensei": {
+      "stars": 30,
+      "forks": 5
+    },
+    "web-scraper": {
+      "stars": 30,
+      "forks": 6
+    },
+    "mastering-langgraph-agent-skill": {
+      "stars": 29,
+      "forks": 2
+    },
+    "debridge-mcp": {
+      "stars": 29,
+      "forks": 4
+    },
+    "easytouch": {
+      "stars": 29,
+      "forks": 10
+    },
+    "kube-audit-kit": {
+      "stars": 29,
+      "forks": 0
+    },
+    "crimsonstainedlands": {
+      "stars": 28,
+      "forks": 9
+    },
+    "draw-io-skill": {
+      "stars": 28,
+      "forks": 0
+    },
+    "agencycli": {
+      "stars": 28,
+      "forks": 0
+    },
+    "claude-skill-reddit": {
+      "stars": 27,
+      "forks": 3
+    },
+    "ultimate-ai-media-generator-skill": {
+      "stars": 27,
+      "forks": 1
+    },
+    "garden": {
+      "stars": 27,
+      "forks": 8
+    },
+    "spec-flow": {
+      "stars": 26,
+      "forks": 5
+    },
+    "codex-kkp": {
+      "stars": 25,
+      "forks": 2
+    },
+    "tpmjs": {
+      "stars": 24,
+      "forks": 6
+    },
+    "dataforseo-skill-claude": {
+      "stars": 24,
+      "forks": 2
+    },
+    "jdb-mcp": {
+      "stars": 24,
+      "forks": 1
+    },
+    "cashu-skill": {
+      "stars": 24,
+      "forks": 4
+    },
+    "mountaineering-skills": {
+      "stars": 23,
+      "forks": 0
+    },
+    "recursive-decomposition-skill": {
+      "stars": 23,
+      "forks": 2
+    },
+    "media-skills": {
+      "stars": 23,
+      "forks": 1
+    },
+    "synthetic-market-research": {
+      "stars": 23,
+      "forks": 3
+    },
+    "crap4clj": {
+      "stars": 23,
+      "forks": 3
+    },
+    "git-bak": {
+      "stars": 22,
+      "forks": 24
+    },
+    "agents-skill": {
+      "stars": 22,
+      "forks": 3
+    },
+    "agent-rules-skill": {
+      "stars": 22,
+      "forks": 3
+    },
+    "skill-issue": {
+      "stars": 22,
+      "forks": 0
+    },
+    "skill-fetch": {
+      "stars": 21,
+      "forks": 1
+    },
+    "prismatic-skills": {
+      "stars": 21,
+      "forks": 0
+    },
+    "claude-ecom": {
+      "stars": 20,
+      "forks": 3
+    },
+    "odoo-wiki": {
+      "stars": 20,
+      "forks": 22
+    },
+    "coderlm": {
+      "stars": 20,
+      "forks": 2
+    },
+    "reddit-skill": {
+      "stars": 20,
+      "forks": 0
+    },
+    "skillsemgrep": {
+      "stars": 20,
+      "forks": 6
+    },
+    "claude-prompts": {
+      "stars": 19,
+      "forks": 7
+    },
+    "mermaid-skill": {
+      "stars": 19,
+      "forks": 3
+    },
+    "crawl4ai-web-scraping": {
+      "stars": 18,
+      "forks": 10
+    },
+    "paperbanana-skill": {
+      "stars": 18,
+      "forks": 2
+    },
+    "vly-money-claude-skill": {
+      "stars": 18,
+      "forks": 2
+    },
+    "osint-ai": {
+      "stars": 18,
+      "forks": 2
+    },
+    "odin-claude-plugin": {
+      "stars": 17,
+      "forks": 0
+    },
+    "geo-lint": {
+      "stars": 17,
+      "forks": 1
+    },
+    "human-browser": {
+      "stars": 17,
+      "forks": 3
+    },
+    "edgeknowledge-skill": {
+      "stars": 17,
+      "forks": 0
+    },
+    "skill-email-html-mjml": {
+      "stars": 17,
+      "forks": 2
+    },
+    "claude-email": {
+      "stars": 17,
+      "forks": 7
+    },
+    "deep-research-skill": {
+      "stars": 17,
+      "forks": 2
+    },
+    "c-r-i-s-p": {
+      "stars": 17,
+      "forks": 3
+    },
+    "plantuml": {
+      "stars": 16,
+      "forks": 6
+    },
+    "document-specialist-skill": {
+      "stars": 16,
+      "forks": 5
+    },
+    "claude-session-index": {
+      "stars": 16,
+      "forks": 0
+    },
+    "quantum-loop": {
+      "stars": 16,
+      "forks": 0
+    },
+    "sati": {
+      "stars": 16,
+      "forks": 1
+    },
+    "jira": {
+      "stars": 15,
+      "forks": 5
+    },
+    "youtube-fetcher-to-markdown": {
+      "stars": 15,
+      "forks": 0
+    },
+    "claude-for-safari": {
+      "stars": 15,
+      "forks": 1
+    },
+    "church": {
+      "stars": 15,
+      "forks": 1
+    },
+    "hinge-profile-optimizer": {
+      "stars": 15,
+      "forks": 3
+    },
+    "claudesmalltalk": {
+      "stars": 15,
+      "forks": 3
+    },
+    "opentelemetry-skill": {
+      "stars": 15,
+      "forks": 0
+    },
+    "zotpilot": {
+      "stars": 15,
+      "forks": 3
+    },
+    "montage": {
+      "stars": 15,
+      "forks": 0
+    },
+    "cellar": {
+      "stars": 15,
+      "forks": 0
+    },
+    "linkedin-article-publisher-skill": {
+      "stars": 14,
+      "forks": 4
+    },
+    "fastlane-skill": {
+      "stars": 14,
+      "forks": 2
+    },
+    "context7-auto-research": {
+      "stars": 14,
+      "forks": 2
+    },
+    "britfix": {
+      "stars": 13,
+      "forks": 2
+    },
+    "content-seo-skills": {
+      "stars": 13,
+      "forks": 0
+    },
+    "jike-skill": {
+      "stars": 13,
+      "forks": 5
+    },
+    "asi": {
+      "stars": 13,
+      "forks": 4
+    },
+    "agent-skill-git-checkpoint": {
+      "stars": 13,
+      "forks": 1
+    },
+    "mytest": {
+      "stars": 13,
+      "forks": 4
+    },
+    "teleton-plugins": {
+      "stars": 13,
+      "forks": 10
+    },
+    "rune": {
+      "stars": 13,
+      "forks": 3
+    },
+    "product-spec-kit": {
+      "stars": 12,
+      "forks": 2
+    },
+    "startup-os-skills": {
+      "stars": 12,
+      "forks": 1
+    },
+    "claude-design-auditor-skill": {
+      "stars": 12,
+      "forks": 0
+    },
+    "ultimate-seo-geo": {
+      "stars": 12,
+      "forks": 2
+    },
+    "claude-things-skill": {
+      "stars": 12,
+      "forks": 1
+    },
+    "wxclaw2026": {
+      "stars": 12,
+      "forks": 0
+    },
+    "mastering-typescript-skill": {
+      "stars": 11,
+      "forks": 1
+    },
+    "tax-organizer": {
+      "stars": 11,
+      "forks": 2
+    },
+    "kaggle-skill": {
+      "stars": 11,
+      "forks": 0
+    },
+    "skill-evolve": {
+      "stars": 11,
+      "forks": 1
+    },
+    "voice-memo-organizer": {
+      "stars": 11,
+      "forks": 0
+    },
+    "autostar": {
+      "stars": 11,
+      "forks": 0
+    },
+    "git-master-1": {
+      "stars": 10,
+      "forks": 2
+    },
+    "running-marketing-campaigns-agent-skill": {
+      "stars": 10,
+      "forks": 1
+    },
+    "skill-address-pr-review": {
+      "stars": 10,
+      "forks": 0
+    },
+    "agent-guardrails": {
+      "stars": 10,
+      "forks": 0
+    },
+    "cortex-ai-skills": {
+      "stars": 10,
+      "forks": 0
+    },
+    "claude-doctor-skill": {
+      "stars": 10,
+      "forks": 0
+    },
+    "terradev": {
+      "stars": 10,
+      "forks": 1
+    },
+    "htmx-claude-skill": {
+      "stars": 10,
+      "forks": 1
+    },
+    "metacognition-skill": {
+      "stars": 10,
+      "forks": 1
+    },
+    "spend-optimizer": {
+      "stars": 10,
+      "forks": 0
+    },
+    "heptabase-cli": {
+      "stars": 10,
+      "forks": 4
+    },
+    "claude-skill-security-auditor": {
+      "stars": 9,
+      "forks": 1
+    },
+    "publishing-astro-websites-agentic-skill": {
+      "stars": 9,
+      "forks": 1
+    },
+    "the-antislop": {
+      "stars": 9,
+      "forks": 1
+    },
+    "uix": {
+      "stars": 9,
+      "forks": 0
+    },
+    "vibecollab": {
+      "stars": 9,
+      "forks": 0
+    },
+    "cookiy-skill": {
+      "stars": 9,
+      "forks": 1
+    },
+    "better-browser-use": {
+      "stars": 9,
+      "forks": 1
+    },
+    "lnget": {
+      "stars": 9,
+      "forks": 1
+    },
+    "aws-associate-solutions-architect": {
+      "stars": 8,
+      "forks": 4
+    },
+    "claude-layered-memory-architecture": {
+      "stars": 8,
+      "forks": 0
+    },
+    "fastmcp-builder": {
+      "stars": 8,
+      "forks": 4
+    },
+    "red-publisher-skill": {
+      "stars": 8,
+      "forks": 0
+    },
+    "openclaw-memorybox": {
+      "stars": 8,
+      "forks": 3
+    },
+    "postkit": {
+      "stars": 8,
+      "forks": 0
+    },
+    "humanize-academic-writing": {
+      "stars": 8,
+      "forks": 0
+    },
+    "mint": {
+      "stars": 8,
+      "forks": 0
+    },
+    "thor-skill": {
+      "stars": 8,
+      "forks": 1
+    },
+    "lit-best-practices": {
+      "stars": 8,
+      "forks": 0
+    },
+    "swoole-doc": {
+      "stars": 7,
+      "forks": 2
+    },
+    "my-personal-notes": {
+      "stars": 7,
+      "forks": 0
+    },
+    "llm-council-skill": {
+      "stars": 7,
+      "forks": 1
+    },
+    "claude-skills-hub": {
+      "stars": 7,
+      "forks": 0
+    },
+    "netops-asset-manager-skill": {
+      "stars": 7,
+      "forks": 0
+    },
+    "openclaw-ops": {
+      "stars": 7,
+      "forks": 2
+    },
+    "bold-designs": {
+      "stars": 7,
+      "forks": 3
+    },
+    "personal-genomics": {
+      "stars": 7,
+      "forks": 0
+    },
+    "dingo-marketing": {
+      "stars": 7,
+      "forks": 0
+    },
+    "paperskill": {
+      "stars": 7,
+      "forks": 0
+    },
+    "transit-project-ideas": {
+      "stars": 6,
+      "forks": 0
+    },
+    "typo3-ddev-skill": {
+      "stars": 6,
+      "forks": 0
+    },
+    "typo3-docs-skill": {
+      "stars": 6,
+      "forks": 0
+    },
+    "px-asset-extract": {
+      "stars": 6,
+      "forks": 0
+    },
+    "config-guard": {
+      "stars": 6,
+      "forks": 2
+    },
+    "cpo": {
+      "stars": 6,
+      "forks": 0
+    },
+    "markout": {
+      "stars": 6,
+      "forks": 0
+    },
+    "dspy-rb-skill": {
+      "stars": 5,
+      "forks": 0
+    },
+    "brainstorm-plan": {
+      "stars": 5,
+      "forks": 0
+    },
+    "typo3-conformance-skill": {
+      "stars": 5,
+      "forks": 0
+    },
+    "xiaohongshu-images-skill": {
+      "stars": 5,
+      "forks": 0
+    },
+    "ccs-wb": {
+      "stars": 5,
+      "forks": 2
+    },
+    "raindrop-skill": {
+      "stars": 5,
+      "forks": 1
+    },
+    "claude-skill": {
+      "stars": 5,
+      "forks": 0
+    },
+    "aam": {
+      "stars": 4,
+      "forks": 0
+    },
+    "cli-tools-skill": {
+      "stars": 4,
+      "forks": 1
+    },
+    "typo3-testing-skill": {
+      "stars": 4,
+      "forks": 0
+    },
+    "docs": {
+      "stars": 4,
+      "forks": 113
+    },
+    "claw-browser": {
+      "stars": 4,
+      "forks": 0
+    },
+    "erpnext-skill": {
+      "stars": 4,
+      "forks": 0
+    },
+    "google-docs-skill": {
+      "stars": 4,
+      "forks": 1
+    },
+    "memory-compass": {
+      "stars": 4,
+      "forks": 1
+    },
+    "obsidian-project-assistant": {
+      "stars": 3,
+      "forks": 0
+    },
+    "n8n-v2-workflow-skill": {
+      "stars": 3,
+      "forks": 1
+    },
+    "get-y2b-clips": {
+      "stars": 3,
+      "forks": 0
+    },
+    "sap-rpt1-oss-predictor": {
+      "stars": 3,
+      "forks": 0
+    },
+    "claude-permissions-skill": {
+      "stars": 3,
+      "forks": 1
+    },
+    "code-tour": {
+      "stars": 3,
+      "forks": 0
+    },
+    "mastering-postgresql-agent-skill": {
+      "stars": 3,
+      "forks": 1
+    },
+    "developing-with-docker-agentic-skill": {
+      "stars": 3,
+      "forks": 0
+    },
+    "personal-knowledge-growth-analyzer": {
+      "stars": 3,
+      "forks": 0
+    },
+    "team-sentinel": {
+      "stars": 3,
+      "forks": 2
+    },
+    "zola-ai": {
+      "stars": 3,
+      "forks": 0
+    },
+    "haveibeenclawned": {
+      "stars": 3,
+      "forks": 0
+    },
+    "claude-skill-architect": {
+      "stars": 3,
+      "forks": 0
+    },
+    "git-work": {
+      "stars": 3,
+      "forks": 0
+    },
+    "tg-rs": {
+      "stars": 3,
+      "forks": 0
+    },
+    "wordpress-com-codex-skill": {
+      "stars": 3,
+      "forks": 0
+    },
+    "bilibili-follow": {
+      "stars": 3,
+      "forks": 1
+    },
+    "claude-code-templates": {
+      "stars": 2,
+      "forks": 0
+    },
+    "htmx-skill": {
+      "stars": 2,
+      "forks": 1
+    },
+    "confluence-md": {
+      "stars": 2,
+      "forks": 0
+    },
+    "tnotes-en-words": {
+      "stars": 2,
+      "forks": 1
+    },
+    "skill-master": {
+      "stars": 2,
+      "forks": 0
+    },
+    "digital-samba-skill": {
+      "stars": 2,
+      "forks": 0
+    },
+    "claude-skill-analyze-js": {
+      "stars": 2,
+      "forks": 0
+    },
+    "rhetorical-analysis-skill": {
+      "stars": 2,
+      "forks": 0
+    },
+    "netresearch-branding-skill": {
+      "stars": 2,
+      "forks": 0
+    },
+    "edgar-change-interpreter": {
+      "stars": 2,
+      "forks": 1
+    },
+    "prompt-engineering-skill": {
+      "stars": 2,
+      "forks": 1
+    },
+    "using-firebase": {
+      "stars": 2,
+      "forks": 3
+    },
+    "image-gen": {
+      "stars": 2,
+      "forks": 1
+    },
+    "enterprise-readiness-skill": {
+      "stars": 2,
+      "forks": 0
+    },
+    "data-wrangler-plugin": {
+      "stars": 2,
+      "forks": 0
+    },
+    "mastering-gemini-cli-agentic-skill": {
+      "stars": 2,
+      "forks": 0
+    },
+    "mastering-aws-cli": {
+      "stars": 2,
+      "forks": 2
+    },
+    "weekly": {
+      "stars": 2,
+      "forks": 0
+    },
+    "llm-fmt-project": {
+      "stars": 1,
+      "forks": 0
+    },
+    "javascript": {
+      "stars": 1,
+      "forks": 0
+    },
+    "calhacks-agenticrobot": {
+      "stars": 1,
+      "forks": 0
+    },
+    "codex-skill": {
+      "stars": 1,
+      "forks": 0
+    },
+    "claude-web-to-markdown-skill": {
+      "stars": 1,
+      "forks": 1
+    },
+    "claude-skill-flaky-test-detector": {
+      "stars": 1,
+      "forks": 0
+    },
+    "linear-skills": {
+      "stars": 1,
+      "forks": 0
+    },
+    "neo-llm-security": {
+      "stars": 1,
+      "forks": 0
+    },
+    "claude-cli-ux-skill": {
+      "stars": 1,
+      "forks": 0
+    },
+    "agent-skill-howopen": {
+      "stars": 1,
+      "forks": 0
+    },
+    "typo3-core-contributions-skill": {
+      "stars": 1,
+      "forks": 0
+    },
+    "claude-code-reference": {
+      "stars": 1,
+      "forks": 0
+    },
+    "opencode-intern-claude-code-skill": {
+      "stars": 1,
+      "forks": 0
+    },
+    "mastering-git-cli-agent-skill": {
+      "stars": 1,
+      "forks": 0
+    },
+    "spacy-nlp-agentic-skill": {
+      "stars": 1,
+      "forks": 1
+    },
+    "source-of-truth-creator": {
+      "stars": 1,
+      "forks": 0
+    },
+    "parseium-skill": {
+      "stars": 1,
+      "forks": 0
+    },
+    "zai-glm-skills": {
+      "stars": 0,
+      "forks": 0
+    },
+    "blog-posts": {
+      "stars": 0,
+      "forks": 0
+    },
+    "atomiccommit-pro": {
+      "stars": 0,
+      "forks": 0
+    },
+    "meeting-notes": {
+      "stars": 0,
+      "forks": 0
+    },
+    "skills": {
+      "stars": 0,
+      "forks": 0
+    },
+    "vscodenote": {
+      "stars": 0,
+      "forks": 0
+    },
+    "mcp-builder-skill": {
+      "stars": 0,
+      "forks": 1
+    },
+    "function-builder": {
+      "stars": 0,
+      "forks": 0
+    },
+    "auto-review-agent": {
+      "stars": 0,
+      "forks": 1
+    },
+    "studynotebook": {
+      "stars": 0,
+      "forks": 0
+    },
+    "murf-ai-agent": {
+      "stars": 0,
+      "forks": 0
+    },
+    "svg-to-react": {
+      "stars": 0,
+      "forks": 0
+    },
+    "claude-skills-collection": {
+      "stars": 0,
+      "forks": 0
+    },
+    "claude-code-x402-skill": {
+      "stars": 0,
+      "forks": 0
+    },
+    "video-to-cooklang": {
+      "stars": 0,
+      "forks": 0
+    },
+    "claude-code-prompts": {
+      "stars": 0,
+      "forks": 0
+    },
+    "video-to-gif-skill": {
+      "stars": 0,
+      "forks": 0
+    },
+    "agent-skills": {
+      "stars": 0,
+      "forks": 0
+    },
+    "hw-concept": {
+      "stars": 0,
+      "forks": 0
+    },
+    "skill-cli-template": {
+      "stars": 0,
+      "forks": 0
+    },
+    "kylopro": {
+      "stars": 0,
+      "forks": 0
+    },
+    "dinner-picker": {
+      "stars": 0,
+      "forks": 0
+    },
+    "better-prompt": {
+      "stars": 0,
+      "forks": 0
+    },
+    "gap-design-system": {
+      "stars": 0,
+      "forks": 1
+    }
   }
 }
