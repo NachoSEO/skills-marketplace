@@ -4,7 +4,7 @@ import { useState, useMemo, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { SkillGrid } from '@/components/skills/SkillGrid';
 import { SearchBar } from '@/components/search/SearchBar';
-import { getSkillsSync, getCategories, searchSkills, getFeaturedSkills } from '@/lib/skills';
+import { getSkillsSync, getCategories, fuzzySearchSkills, getFeaturedSkills } from '@/lib/skills';
 import type { Skill } from '@/types';
 
 type SortOption = 'rank' | 'stars' | 'name' | 'date';
@@ -34,7 +34,7 @@ function SkillsContent() {
     }
 
     if (queryParam) {
-      skills = searchSkills(skills, queryParam);
+      skills = fuzzySearchSkills(skills, queryParam);
     }
 
     // Apply filter tab

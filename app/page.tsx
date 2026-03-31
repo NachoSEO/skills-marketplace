@@ -8,12 +8,15 @@ import { WhatIsSkillSection } from '@/components/home/WhatIsSkillSection';
 import { HowSkillsWorkSection } from '@/components/home/HowSkillsWorkSection';
 import { FAQSection } from '@/components/home/FAQSection';
 import { RankingSection } from '@/components/home/RankingSection';
+import { CollectionCarousel } from '@/components/home/CollectionCarousel';
 import {
   getSkillsSync,
   getCategories,
   getFeaturedSkills,
   getLatestSkills,
   getSkillCountByCategory,
+  getCollections,
+  getSkillsByCollection,
 } from '@/lib/skills';
 
 export default function HomePage() {
@@ -23,6 +26,14 @@ export default function HomePage() {
   const latestSkills = getLatestSkills(skills, 9);
   const skillCounts = getSkillCountByCategory(skills);
 
+  // Pick 3 featured collections for homepage carousels
+  const allCollections = getCollections();
+  const homepageCollections = allCollections.filter((c) => c.featured).slice(0, 3);
+  const homepageCollectionSkills = homepageCollections.map((c) => ({
+    collection: c,
+    skills: getSkillsByCollection(skills, c).slice(0, 3),
+  }));
+
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
@@ -30,6 +41,34 @@ export default function HomePage() {
 
       {/* Skill Rankings */}
       <RankingSection skills={skills} />
+
+      {/* Collection Carousels */}
+      {homepageCollectionSkills.some(({ skills: s }) => s.length > 0) && (
+        <section className="py-20 bg-card/50 relative">
+          <div className="absolute inset-0 noise" />
+          <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="flex items-end justify-between mb-12">
+              <div>
+                <div className="font-mono text-terminal text-sm mb-2">// collections</div>
+                <h2 className="text-3xl font-bold">Curated Collections</h2>
+                <p className="text-muted mt-2">Handpicked skill packs for specific workflows</p>
+              </div>
+              <a
+                href="/collections"
+                className="group flex items-center gap-2 text-sm font-medium text-muted hover:text-terminal transition-colors"
+              >
+                All collections
+                <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+            </div>
+            {homepageCollectionSkills.map(({ collection, skills: collSkills }) => (
+              <CollectionCarousel key={collection.slug} collection={collection} skills={collSkills} />
+            ))}
+          </div>
+        </section>
+      )}
 
       {/* Terminal Demo Section */}
       <section className="py-20 relative overflow-hidden">

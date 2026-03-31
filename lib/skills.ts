@@ -7,6 +7,7 @@ import useCasesData from '@/data/use-cases.json';
 import rolesData from '@/data/roles.json';
 import collectionsData from '@/data/collections.json';
 import comparePairsData from '@/data/compare-pairs.json';
+import Fuse from 'fuse.js';
 
 let skillsDataCache: Skill[] | null = null;
 let skillsIndexCache: SkillsIndex | null = null;
@@ -214,6 +215,57 @@ export function searchSkills(skills: Skill[], query: string): Skill[] {
       skill.author.toLowerCase().includes(lowerQuery)
     );
   });
+}
+
+export interface ScoredSkill {
+  skill: Skill;
+  score: number;
+}
+
+const MAX_STARS = 5000;
+
+/**
+ * Fuzzy search with weighted ranking.
+ * Signals: exact title match (0.4), fuzzy match score (0.4), normalised star count (0.2).
+ * Returns skills sorted by combined score, highest first.
+ */
+export function fuzzySearchSkills(skills: Skill[], query: string): Skill[] {
+  if (!query.trim()) return skills;
+
+  const lowerQuery = query.toLowerCase();
+
+  const fuse = new Fuse(skills, {
+    keys: [
+      { name: 'name', weight: 0.5 },
+      { name: 'description', weight: 0.25 },
+      { name: 'tags', weight: 0.15 },
+      { name: 'author', weight: 0.1 },
+    ],
+    threshold: 0.4,
+    includeScore: true,
+    ignoreLocation: true,
+    minMatchCharLength: 2,
+  });
+
+  const fuseResults = fuse.search(query);
+
+  // Build a score map: fuse score is 0 (perfect) → 1 (no match), invert it
+  const scoreMap = new Map<string, number>();
+  for (const result of fuseResults) {
+    // fuseScore: 0 = perfect match, 1 = no match — invert to get relevance 0→1
+    const fuseRelevance = 1 - (result.score ?? 1);
+    const skill = result.item;
+
+    const exactTitleBonus = skill.name.toLowerCase().includes(lowerQuery) ? 1 : 0;
+    const normalizedStars = Math.min((skill.stars || 0) / MAX_STARS, 1);
+
+    const combined = exactTitleBonus * 0.35 + fuseRelevance * 0.45 + normalizedStars * 0.2;
+    scoreMap.set(skill.id, combined);
+  }
+
+  return fuseResults
+    .map((r) => r.item)
+    .sort((a, b) => (scoreMap.get(b.id) ?? 0) - (scoreMap.get(a.id) ?? 0));
 }
 
 export function getSkillCountByCategory(skills: Skill[]): Record<string, number> {
