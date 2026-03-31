@@ -8942,5 +8942,163 @@
       "claude-code",
       "claude-skill"
     ]
+  },
+  {
+    "owner": "hqhq1025",
+    "repo": "skill-optimizer",
+    "category": "ai-llm",
+    "name": "skill-optimizer",
+    "description": "Diagnose and optimize your Agent Skills (SKILL.md) with real session data + research-backed static analysis. Works with Claude Code, Codex, and any Agent Skills-compatible agent.",
+    "tags": [
+      "agent-skills",
+      "agentskills",
+      "claude-code",
+      "claude-skill",
+      "codex"
+    ]
+  },
+  {
+    "owner": "revengerrr",
+    "repo": "clawdsign",
+    "category": "ai-llm",
+    "name": "clawdsign",
+    "description": "🦞 The first visual identity system for AI agents. Generate unique, verifiable signatures for every AI agent in the OpenClaw ecosystem. CA: FvARRCtzDRZj1zPCUDMxF3ibguVQGPjVcnAJAWRsBAGS",
+    "tags": []
+  },
+  {
+    "owner": "SukinShetty",
+    "repo": "Nemp-memory",
+    "category": "development-tools",
+    "name": "Nemp-memory",
+    "description": "Nemp - The memory plugin for Claude Code that remembers everything.",
+    "tags": []
+  },
+  {
+    "owner": "mfranzon",
+    "repo": "tdd",
+    "category": "development-tools",
+    "name": "tdd",
+    "description": "tdd skill for coding agents ",
+    "tags": []
+  },
+  {
+    "owner": "auyelbekov",
+    "repo": "rawq",
+    "category": "ai-llm",
+    "name": "rawq",
+    "description": "Context retrieval engine for AI agents — semantic + lexical search over codebases",
+    "tags": []
+  },
+  {
+    "owner": "chenhunghan",
+    "repo": "code-mode-skill",
+    "category": "development-tools",
+    "name": "code-mode-skill",
+    "description": "Claude Code skill: add code mode to any MCP server for 65-99% context reduction",
+    "tags": []
+  },
+  {
+    "owner": "levineam",
+    "repo": "lastXdays-skill",
+    "category": "productivity",
+    "name": "lastXdays-skill",
+    "description": "Claude Code skill for researching topics from the last X days (configurable time range). Based on last30days-skill by mvanhorn.",
+    "tags": []
+  },
+  {
+    "owner": "robzolkos",
+    "repo": "omarchy-skill",
+    "category": "ai-llm",
+    "name": "omarchy-skill",
+    "description": "Agent skill for managing Omarchy Linux systems with natural language",
+    "tags": []
+  },
+  {
+    "owner": "rufuspollock",
+    "repo": "ux-patterns",
+    "category": "development-tools",
+    "name": "ux-patterns",
+    "description": "UX Patterns I have known. In digital garden form.",
+    "tags": []
+  },
+  {
+    "owner": "hleliofficiel",
+    "repo": "ExaAiAgent",
+    "category": "ai-llm",
+    "name": "ExaAiAgent",
+    "description": "ExaAiAgent — Advanced AI-powered penetration testing framework with Docker sandbox, multi-agent workflows, and 50+ integrated cybersecurity tools.",
+    "tags": []
+  },
+  {
+    "owner": "Rick-Yin",
+    "repo": "skdformat",
+    "category": "development-tools",
+    "name": "skdformat",
+    "description": "This is a skills for shanghaitech format check",
+    "tags": []
+  },
+  {
+    "owner": "6missedcalls",
+    "repo": "video-editing-skill",
+    "category": "development-tools",
+    "name": "video-editing-skill",
+    "description": "Video editing skill for OpenClaw, Claude Code, and Codex — trim, jump cut, caption (Hormozi/standard/minimal), text overlay, and speed change videos using natural language. Pure Bash + FFmpeg + Whisper. Used and tested with OpenClaw.",
+    "tags": []
+  },
+  {
+    "owner": "marketclaw-tech",
+    "repo": "openclaw-a2a",
+    "category": "communication",
+    "name": "openclaw-a2a",
+    "description": "OpenClaw A2A Skill - Agent-to-Agent communication protocol for OpenClaw agents",
+    "tags": []
+  },
+  {
+    "owner": "flyzhenghao",
+    "repo": "plan-index-manager",
+    "category": "productivity",
+    "name": "plan-index-manager",
+    "description": "Automatically maintain an organized index of your Claude Code planning files",
+    "tags": []
+  },
+  {
+    "owner": "rikouu",
+    "repo": "openclaw-multiagent",
+    "category": "ai-llm",
+    "name": "openclaw-multiagent",
+    "description": "OpenClaw skill for managing multi-agent Telegram group collaboration",
+    "tags": []
+  },
+  {
+    "owner": "HuakunShen",
+    "repo": "tauri-plugin-js",
+    "category": "productivity",
+    "name": "tauri-plugin-js",
+    "description": "Bring Electron-like backend js runtime to Tauri",
+    "tags": []
+  },
+  {
+    "owner": "tmustier",
+    "repo": "economist-tui",
+    "category": "creative-design",
+    "name": "economist-tui",
+    "description": "Read The Economist from your terminal using your subscription. Unofficial. Comes with CLI and SKILL.md.",
+    "tags": []
+  },
+  {
+    "owner": "SenseRobotClaw",
+    "repo": "ClawSkill",
+    "category": "devops-cicd",
+    "name": "ClawSkill",
+    "description": "SenseRobot Skill for Claw",
+    "tags": []
+  },
+  {
+    "owner": "nocfo",
+    "repo": "nocfo-ai-toolkit",
+    "category": "ai-llm",
+    "name": "nocfo-ai-toolkit",
+    "description": "Give AI assistants full access to Finnish bookkeeping, invoicing, and business data",
+    "tags": []
   }
 ]
