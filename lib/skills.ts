@@ -271,7 +271,7 @@ export function fuzzySearchSkills(skills: Skill[], query: string): Skill[] {
 export function getSkillCountByCategory(skills: Skill[]): Record<string, number> {
   // Use precomputed aggregates if available
   const index = loadSkillsIndex();
-  if (index) {
+  if (index?.aggregates?.categoryStats) {
     const counts: Record<string, number> = {};
     for (const [category, stats] of Object.entries(index.aggregates.categoryStats)) {
       counts[category] = stats.count;
@@ -554,7 +554,7 @@ export function getSkillsByLicense(skills: Skill[], license: string): Skill[] {
 export function getTagsWithCounts(skills: Skill[]): { tag: string; count: number }[] {
   // Use precomputed aggregates if available
   const index = loadSkillsIndex();
-  if (index) {
+  if (index?.aggregates?.tagCounts) {
     return Object.entries(index.aggregates.tagCounts)
       .map(([tag, count]) => ({ tag, count }))
       .sort((a, b) => b.count - a.count);
@@ -575,7 +575,7 @@ export function getTagsWithCounts(skills: Skill[]): { tag: string; count: number
 export function getLanguagesWithCounts(skills: Skill[]): { language: string; count: number }[] {
   // Use precomputed aggregates if available
   const index = loadSkillsIndex();
-  if (index) {
+  if (index?.aggregates?.languageCounts) {
     return Object.entries(index.aggregates.languageCounts)
       .map(([language, count]) => ({ language, count }))
       .sort((a, b) => b.count - a.count);
@@ -596,7 +596,7 @@ export function getLanguagesWithCounts(skills: Skill[]): { language: string; cou
 export function getLicensesWithCounts(skills: Skill[]): { license: string; count: number }[] {
   // Use precomputed aggregates if available
   const index = loadSkillsIndex();
-  if (index) {
+  if (index?.aggregates?.licenseCounts) {
     return Object.entries(index.aggregates.licenseCounts)
       .map(([license, count]) => ({ license, count }))
       .sort((a, b) => b.count - a.count);

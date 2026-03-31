@@ -132,11 +132,11 @@ export interface SkillsIndex {
   languageIndex: Record<string, string[]>;
   aggregates: {
     tagCounts: Record<string, number>;
-    languageCounts: Record<string, number>;
-    licenseCounts: Record<string, number>;
-    categoryStats: Record<string, { count: number; featured: number }>;
+    languageCounts?: Record<string, number>;
+    licenseCounts?: Record<string, number>;
+    categoryStats?: Record<string, { count: number; featured: number }>;
     totalSkills: number;
-    totalFeatured: number;
+    totalFeatured?: number;
   };
 }
 
