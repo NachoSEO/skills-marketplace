@@ -17875,7 +17875,13 @@
     "language": "Python",
     "license": "MIT",
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "agents",
+      "context-engineering",
+      "developer-tools",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering.git",
     "createdAt": "2025-12-21T02:43:42Z",
     "updatedAt": "2026-03-31T06:59:18Z",
@@ -19423,7 +19429,14 @@
     "language": "Shell",
     "license": "MIT",
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "claude",
+      "developer-tools",
+      "frontend",
+      "github",
+      "web"
+    ],
     "installCommand": "git clone https://github.com/zarazhangrui/frontend-slides.git",
     "createdAt": "2026-01-28T00:42:34Z",
     "updatedAt": "2026-03-31T06:58:22Z",
@@ -20287,7 +20300,16 @@
     "language": null,
     "license": "MIT",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "claude",
+      "llm",
+      "ai",
+      "ai-content",
+      "github",
+      "writing"
+    ],
     "installCommand": "git clone https://github.com/blader/humanizer.git",
     "createdAt": "2026-01-18T05:30:15Z",
     "updatedAt": "2026-03-31T07:05:29Z",
@@ -20718,7 +20740,16 @@
     "language": "Python",
     "license": "NOASSERTION",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "mcp",
+      "mcp-server",
+      "claude",
+      "llm",
+      "ai",
+      "azure",
+      "cloud"
+    ],
     "installCommand": "git clone https://github.com/BeehiveInnovations/pal-mcp-server.git",
     "createdAt": "2025-06-08T15:36:50Z",
     "updatedAt": "2026-03-31T06:42:07Z",
@@ -21080,7 +21111,16 @@
     "language": "TypeScript",
     "license": "MIT",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "mcp",
+      "mcp-server",
+      "claude",
+      "llm",
+      "ai",
+      "browser",
+      "chrome",
+      "content"
+    ],
     "installCommand": "git clone https://github.com/hangwin/mcp-chrome.git",
     "createdAt": "2025-06-09T09:07:06Z",
     "updatedAt": "2026-03-31T06:53:17Z",
@@ -24482,7 +24522,12 @@
     "language": "Shell",
     "license": "MIT",
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "claude",
+      "developer-tools",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/diet103/claude-code-infrastructure-showcase.git",
     "createdAt": "2025-10-30T03:12:16Z",
     "updatedAt": "2026-03-31T05:42:06Z",
@@ -26987,7 +27032,14 @@
     "language": "Python",
     "license": "MIT",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "agents",
+      "llm",
+      "ai",
+      "github",
+      "mobile"
+    ],
     "installCommand": "git clone https://github.com/droidrun/droidrun.git",
     "createdAt": "2025-04-12T22:03:47Z",
     "updatedAt": "2026-03-31T04:01:23Z",
@@ -33216,7 +33268,13 @@
     "language": "JavaScript",
     "license": null,
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "claude",
+      "developer-tools",
+      "github",
+      "github-actions"
+    ],
     "installCommand": "git clone https://github.com/ChrisWiles/claude-code-showcase.git",
     "createdAt": "2026-01-06T18:51:02Z",
     "updatedAt": "2026-03-31T05:51:04Z",
@@ -33466,7 +33524,15 @@
     "language": null,
     "license": "MIT",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "claude",
+      "llm",
+      "ai",
+      "ai-content",
+      "github",
+      "writing"
+    ],
     "installCommand": "git clone https://github.com/op7418/Humanizer-zh.git",
     "createdAt": "2026-01-19T04:23:44Z",
     "updatedAt": "2026-03-31T07:10:09Z",
@@ -34655,7 +34721,16 @@
     "language": "Python",
     "license": "MIT",
     "category": "business-marketing",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "claude",
+      "ai",
+      "business",
+      "github",
+      "marketing",
+      "pdf",
+      "seo"
+    ],
     "installCommand": "git clone https://github.com/zubair-trabzada/geo-seo-claude.git",
     "createdAt": "2026-02-18T09:01:07Z",
     "updatedAt": "2026-03-31T07:13:42Z",
@@ -38180,7 +38255,16 @@
     "language": null,
     "license": "MIT",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "claude",
+      "agents",
+      "llm",
+      "ai",
+      "agent-skills",
+      "codex",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/twostraws/SwiftUI-Agent-Skill.git",
     "createdAt": "2026-03-05T20:13:14Z",
     "updatedAt": "2026-03-31T05:46:21Z",
@@ -40708,7 +40792,16 @@
     "language": "JavaScript",
     "license": "MIT",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "anthropic",
+      "agents",
+      "agentic-ai",
+      "llm",
+      "ai",
+      "computer-vision",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/SharpAI/DeepCamera.git",
     "createdAt": "2019-03-05T14:29:23Z",
     "updatedAt": "2026-03-31T05:30:02Z",
@@ -42916,7 +43009,14 @@
     "language": "Java",
     "license": null,
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "agents",
+      "llm",
+      "ai",
+      "github",
+      "java"
+    ],
     "installCommand": "git clone https://github.com/agentscope-ai/agentscope-java.git",
     "createdAt": "2025-09-23T04:37:43Z",
     "updatedAt": "2026-03-31T07:00:53Z",
@@ -44864,7 +44964,16 @@
     "language": "Python",
     "license": "NOASSERTION",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "mcp",
+      "claude",
+      "agents",
+      "llm",
+      "ai",
+      "email",
+      "github",
+      "gmail"
+    ],
     "installCommand": "git clone https://github.com/Dicklesworthstone/mcp_agent_mail.git",
     "createdAt": "2025-10-23T03:42:36Z",
     "updatedAt": "2026-03-31T02:41:54Z",
@@ -45601,7 +45710,16 @@
     "language": "TypeScript",
     "license": "MIT",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "mcp",
+      "mcp-server",
+      "claude",
+      "llm",
+      "ai",
+      "authentication",
+      "codex"
+    ],
     "installCommand": "git clone https://github.com/PleasePrompto/notebooklm-mcp.git",
     "createdAt": "2025-10-16T11:59:47Z",
     "updatedAt": "2026-03-31T06:19:03Z",
@@ -46942,7 +47060,16 @@
     "language": "JavaScript",
     "license": "MIT",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "mcp",
+      "mcp-server",
+      "claude",
+      "llm",
+      "ai",
+      "canvas"
+    ],
     "installCommand": "git clone https://github.com/yctimlin/mcp_excalidraw.git",
     "createdAt": "2025-03-16T10:34:34Z",
     "updatedAt": "2026-03-31T02:43:28Z",
@@ -47207,7 +47334,12 @@
     "language": null,
     "license": null,
     "category": "creative-design",
-    "tags": [],
+    "tags": [
+      "creative",
+      "design",
+      "github",
+      "security"
+    ],
     "installCommand": "git clone https://github.com/euphrat1ca/Security-List.git",
     "createdAt": "2018-01-04T05:44:58Z",
     "updatedAt": "2026-03-29T19:52:35Z",
@@ -47726,7 +47858,15 @@
     "language": "Kotlin",
     "license": "MIT",
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "android",
+      "decentralized",
+      "developer-tools",
+      "github",
+      "mobile",
+      "nostr"
+    ],
     "installCommand": "git clone https://github.com/vitorpamplona/amethyst.git",
     "createdAt": "2023-01-11T18:28:30Z",
     "updatedAt": "2026-03-31T07:06:45Z",
@@ -48105,7 +48245,16 @@
     "language": "Python",
     "license": "MIT",
     "category": "automation",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "mcp",
+      "claude",
+      "agents",
+      "automation",
+      "github",
+      "golang",
+      "make-com"
+    ],
     "installCommand": "git clone https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know.git",
     "createdAt": "2025-08-17T14:45:39Z",
     "updatedAt": "2026-03-31T06:13:24Z",
@@ -51764,7 +51913,16 @@
     "language": "TypeScript",
     "license": "AGPL-3.0",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "agents",
+      "llm",
+      "ai",
+      "api",
+      "browser",
+      "cli",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/unbrowse-ai/unbrowse.git",
     "createdAt": "2026-01-27T15:30:07Z",
     "updatedAt": "2026-03-31T05:22:13Z",
@@ -52805,7 +52963,12 @@
     "language": "Mermaid",
     "license": "AGPL-3.0",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "llm",
+      "ai",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/ninehills/PatentWriterAgent.git",
     "createdAt": "2025-10-21T03:14:53Z",
     "updatedAt": "2026-03-30T13:58:11Z",
@@ -53040,7 +53203,13 @@
     "language": "TypeScript",
     "license": "MIT",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "llm",
+      "ai",
+      "browser",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/0xSero/parchi.git",
     "createdAt": "2025-11-07T14:16:02Z",
     "updatedAt": "2026-03-31T04:33:16Z",
@@ -53405,7 +53574,12 @@
     "language": "Python",
     "license": "Apache-2.0",
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "cli",
+      "developer-tools",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/jackwener/xhs-cli.git",
     "createdAt": "2026-03-04T08:01:48Z",
     "updatedAt": "2026-03-30T01:20:49Z",
@@ -54761,7 +54935,14 @@
     "language": "Python",
     "license": "MIT",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "agents",
+      "llm",
+      "ai",
+      "agent-skills",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/awp-core/awp-skill.git",
     "createdAt": "2026-03-17T11:30:07Z",
     "updatedAt": "2026-03-31T06:45:33Z",
@@ -56930,7 +57111,11 @@
     "language": null,
     "license": "CC0-1.0",
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "developer-tools",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/innovationacademy-kr/hitchhikers_guide.git",
     "createdAt": "2021-03-11T00:48:34Z",
     "updatedAt": "2026-03-15T08:24:48Z",
@@ -58833,7 +59018,14 @@
     "language": "Python",
     "license": "MIT",
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "claude",
+      "audio",
+      "developer-tools",
+      "github",
+      "voice"
+    ],
     "installCommand": "git clone https://github.com/abracadabra50/claude-code-voice-skill.git",
     "createdAt": "2026-01-04T18:06:57Z",
     "updatedAt": "2026-03-29T18:03:09Z",
@@ -59258,7 +59450,11 @@
     "language": "Python",
     "license": "MIT",
     "category": "document-processing",
-    "tags": [],
+    "tags": [
+      "document-processing",
+      "documents",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/notoriouslab/doc-cleaner.git",
     "createdAt": "2026-03-09T15:05:03Z",
     "updatedAt": "2026-03-29T10:30:54Z",
@@ -60308,7 +60504,15 @@
     "language": null,
     "license": "MIT",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "claude",
+      "llm",
+      "ai",
+      "github",
+      "openai"
+    ],
     "installCommand": "git clone https://github.com/axtonliu/ai-pair.git",
     "createdAt": "2026-03-08T04:36:36Z",
     "updatedAt": "2026-03-31T03:57:37Z",
@@ -60716,7 +60920,16 @@
     "language": "Python",
     "license": "MIT",
     "category": "document-processing",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "claude",
+      "authentication",
+      "browser",
+      "document-processing",
+      "documents",
+      "github",
+      "google"
+    ],
     "installCommand": "git clone https://github.com/PleasePrompto/notebooklm-skill.git",
     "createdAt": "2026-03-13T19:57:38Z",
     "updatedAt": "2026-03-30T01:40:17Z",
@@ -61619,7 +61832,13 @@
     "language": null,
     "license": null,
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "developer-tools",
+      "github",
+      "tdd",
+      "testing"
+    ],
     "installCommand": "git clone https://github.com/mfranzon/tdd.git",
     "createdAt": "2026-02-21T14:29:29Z",
     "updatedAt": "2026-03-27T22:26:22Z",
@@ -61681,7 +61900,7 @@
     "id": "hancengiz-claude-code-prompt-coach-skill",
     "name": "Claude Code Prompt Coach Skill",
     "slug": "claude-code-prompt-coach-skill",
-    "description": "",
+    "description": "A Claude Code skill that analyzes your session logs to provide insights about your coding patterns, token usage, productivity, and prompt quality.",
     "aiDescription": "A Claude Code skill that analyzes your session logs to provide insights about your coding patterns, token usage, productivity, and prompt quality.",
     "author": "hancengiz",
     "githubUrl": "https://github.com/hancengiz/claude-code-prompt-coach-skill",
@@ -61691,7 +61910,14 @@
     "language": "Shell",
     "license": null,
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "claude",
+      "llm",
+      "ai",
+      "github",
+      "prompt-engineering"
+    ],
     "installCommand": "git clone https://github.com/hancengiz/claude-code-prompt-coach-skill.git",
     "createdAt": "2025-11-09T11:09:39Z",
     "updatedAt": "2026-03-16T07:17:20Z",
@@ -61792,7 +62018,13 @@
     "language": "Python",
     "license": "Apache-2.0",
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "developer-tools",
+      "github",
+      "python",
+      "web"
+    ],
     "installCommand": "git clone https://github.com/XiaomingX/proxy-pool.git",
     "createdAt": "2024-11-26T12:57:48Z",
     "updatedAt": "2026-03-30T08:25:08Z",
@@ -63059,7 +63291,12 @@
     "language": null,
     "license": "WTFPL",
     "category": "document-processing",
-    "tags": [],
+    "tags": [
+      "document-processing",
+      "documentation",
+      "documents",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/entice/entice.git",
     "createdAt": "2013-08-18T01:07:59Z",
     "updatedAt": "2026-02-15T18:10:00Z",
@@ -63198,7 +63435,13 @@
     "language": "Shell",
     "license": "MIT",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "llm",
+      "ai",
+      "computer-vision",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/udayanwalvekar/clearshot.git",
     "createdAt": "2026-03-24T10:35:09Z",
     "updatedAt": "2026-03-30T22:15:23Z",
@@ -63619,7 +63862,7 @@
     "id": "doongz-notes",
     "name": "Notes",
     "slug": "notes",
-    "description": "算法｜技能｜知识｜数学",
+    "description": "* Software Engineering",
     "aiDescription": ">所有的写作和整理工作，于「家中」并「空闲时间」独自完成，未曾产生收益，也不谋求收益；",
     "author": "doongz",
     "githubUrl": "https://github.com/doongz/notes",
@@ -63629,7 +63872,12 @@
     "language": "Markdown",
     "license": "CC-BY-SA-4.0",
     "category": "productivity",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "github",
+      "notes",
+      "productivity"
+    ],
     "installCommand": "git clone https://github.com/doongz/notes.git",
     "createdAt": "2021-09-21T05:40:57Z",
     "updatedAt": "2026-03-31T04:43:16Z",
@@ -63981,7 +64229,7 @@
     "id": "parsaeisa-Notes",
     "name": "Notes",
     "slug": "notes",
-    "description": "",
+    "description": "A personal notes collection and software engineering reference repository for Claude Code agents.",
     "aiDescription": ">所有的写作和整理工作，于「家中」并「空闲时间」独自完成，未曾产生收益，也不谋求收益；",
     "author": "parsaeisa",
     "githubUrl": "https://github.com/parsaeisa/Notes",
@@ -63991,7 +64239,12 @@
     "language": "Markdown",
     "license": "CC-BY-SA-4.0",
     "category": "productivity",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "github",
+      "notes",
+      "productivity"
+    ],
     "installCommand": "git clone https://github.com/parsaeisa/Notes.git",
     "createdAt": "2021-09-21T05:40:57Z",
     "updatedAt": "2026-03-31T04:43:16Z",
@@ -64343,7 +64596,7 @@
     "id": "xsjlmzs-Notes",
     "name": "Notes",
     "slug": "notes",
-    "description": "some learning notes",
+    "description": "* Software Engineering",
     "aiDescription": ">所有的写作和整理工作，于「家中」并「空闲时间」独自完成，未曾产生收益，也不谋求收益；",
     "author": "xsjlmzs",
     "githubUrl": "https://github.com/xsjlmzs/Notes",
@@ -64353,7 +64606,12 @@
     "language": "Markdown",
     "license": "CC-BY-SA-4.0",
     "category": "productivity",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "github",
+      "notes",
+      "productivity"
+    ],
     "installCommand": "git clone https://github.com/xsjlmzs/Notes.git",
     "createdAt": "2021-09-21T05:40:57Z",
     "updatedAt": "2026-03-31T04:43:16Z",
@@ -64715,7 +64973,14 @@
     "language": null,
     "license": null,
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "mcp",
+      "claude",
+      "agents",
+      "llm",
+      "ai",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/cat9999aaa/dev-planner-skill.git",
     "createdAt": "2026-03-03T13:07:47Z",
     "updatedAt": "2026-03-31T03:06:09Z",
@@ -67790,7 +68055,14 @@
     "language": "TypeScript",
     "license": "NOASSERTION",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "claude",
+      "agentic-ai",
+      "llm",
+      "ai",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/Dicklesworthstone/jeffreysprompts.com.git",
     "createdAt": "2026-01-09T21:47:18Z",
     "updatedAt": "2026-03-22T20:49:54Z",
@@ -68627,7 +68899,12 @@
     "language": "JavaScript",
     "license": "MIT",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "llm",
+      "ai",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/ankitjha67/product-architect.git",
     "createdAt": "2026-03-11T03:31:37Z",
     "updatedAt": "2026-03-22T16:54:50Z",
@@ -68930,7 +69207,15 @@
     "language": "TypeScript",
     "license": "MIT",
     "category": "communication",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "claude",
+      "communication",
+      "content",
+      "github",
+      "writing"
+    ],
     "installCommand": "git clone https://github.com/OrangeViolin/content-pipeline.git",
     "createdAt": "2026-03-02T14:51:39Z",
     "updatedAt": "2026-03-31T06:20:05Z",
@@ -69169,7 +69454,14 @@
     "language": "PowerShell",
     "license": "MIT",
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "claude",
+      "context-engineering",
+      "developer-tools",
+      "github",
+      "memory"
+    ],
     "installCommand": "git clone https://github.com/SukinShetty/Nemp-memory.git",
     "createdAt": "2026-01-30T06:35:19Z",
     "updatedAt": "2026-03-30T08:52:44Z",
@@ -69609,7 +69901,11 @@
     "language": null,
     "license": null,
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "developer-tools",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/joinmassive/clawpod.git",
     "createdAt": "2026-02-09T18:05:36Z",
     "updatedAt": "2026-03-20T08:28:31Z",
@@ -69679,7 +69975,15 @@
     "language": "Python",
     "license": null,
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "llm",
+      "ai",
+      "github",
+      "golang",
+      "twitter",
+      "youtube"
+    ],
     "installCommand": "git clone https://github.com/ALBEDO-TABAI/lets-go-rss.git",
     "createdAt": "2026-02-10T10:18:00Z",
     "updatedAt": "2026-03-30T12:44:42Z",
@@ -70418,7 +70722,11 @@
     "language": "C++",
     "license": null,
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "developer-tools",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/luofengmacheng/algorithms.git",
     "createdAt": "2013-10-14T02:27:02Z",
     "updatedAt": "2025-08-21T02:04:06Z",
@@ -71184,7 +71492,16 @@
     "language": "TypeScript",
     "license": "MIT",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "mcp",
+      "mcp-server",
+      "claude",
+      "llm",
+      "ai",
+      "context-engineering",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/yoloshii/ClawMem.git",
     "createdAt": "2026-02-06T14:34:04Z",
     "updatedAt": "2026-03-31T04:53:06Z",
@@ -71838,7 +72155,13 @@
     "language": "Python",
     "license": "MIT",
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "claude",
+      "developer-tools",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/OEN-Tech/incident-report-skill.git",
     "createdAt": "2026-03-09T22:43:45Z",
     "updatedAt": "2026-03-21T02:05:02Z",
@@ -71913,7 +72236,11 @@
     "language": "Python",
     "license": null,
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "developer-tools",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/na57/chinese-copyright-application-skill.git",
     "createdAt": "2026-01-28T05:24:57Z",
     "updatedAt": "2026-03-31T06:07:52Z",
@@ -72492,7 +72819,11 @@
     "language": "Shell",
     "license": null,
     "category": "data-analysis",
-    "tags": [],
+    "tags": [
+      "analytics",
+      "data",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/naoterumaker/japan-gyousei-data.git",
     "createdAt": "2026-02-12T08:10:04Z",
     "updatedAt": "2026-03-24T15:28:59Z",
@@ -72873,7 +73204,13 @@
     "language": "Python",
     "license": "MIT",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "llm",
+      "ai",
+      "github",
+      "wiki"
+    ],
     "installCommand": "git clone https://github.com/trsoliu/mini-wiki.git",
     "createdAt": "2026-01-26T14:45:47Z",
     "updatedAt": "2026-03-30T03:26:33Z",
@@ -74178,7 +74515,15 @@
     "language": "CSS",
     "license": "MIT",
     "category": "communication",
-    "tags": [],
+    "tags": [
+      "communication",
+      "css",
+      "github",
+      "html",
+      "react",
+      "tailwind",
+      "writing"
+    ],
     "installCommand": "git clone https://github.com/umami-software/react-zen.git",
     "createdAt": "2024-03-02T07:47:46Z",
     "updatedAt": "2026-03-16T06:52:04Z",
@@ -74502,7 +74847,14 @@
     "language": "Rust",
     "license": "MIT",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "llm",
+      "ai",
+      "context-engineering",
+      "github",
+      "semantic-search"
+    ],
     "installCommand": "git clone https://github.com/auyelbekov/rawq.git",
     "createdAt": "2026-03-19T11:24:34Z",
     "updatedAt": "2026-03-30T07:48:32Z",
@@ -75451,7 +75803,7 @@
     "id": "nohanaga-Azure-AI-Search-Workshop",
     "name": "Azure AI Search Workshop",
     "slug": "azure-ai-search-workshop",
-    "description": "",
+    "description": "Azure AI Search Workshop は、ノーコードでナレッジマイニングを存分に体験することができるハンズオンコンテンツです。本コンテンツは Azure AI Search の検索機能を重点的に理解することにフォーカスを当てているため、インフラや周辺サービスを学びたい方についてはナレッジマイニングソリューションアクセラレーターを受講してください。",
     "aiDescription": "Azure AI Search Workshop は、ノーコードでナレッジマイニングを存分に体験することができるハンズオンコンテンツです。本コンテンツは Azure AI Search の検索機能を重点的に理解することにフォーカスを当てているため、インフラや周辺サービスを学びたい方についてはナレッジマイニングソリューションアクセラレーターを受講してください。",
     "author": "nohanaga",
     "githubUrl": "https://github.com/nohanaga/Azure-AI-Search-Workshop",
@@ -75461,7 +75813,14 @@
     "language": null,
     "license": "MIT",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "llm",
+      "ai",
+      "azure",
+      "cloud",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/nohanaga/Azure-AI-Search-Workshop.git",
     "createdAt": "2021-06-21T01:47:32Z",
     "updatedAt": "2026-03-13T07:11:00Z",
@@ -75775,7 +76134,16 @@
     "language": "Python",
     "license": "Apache-2.0",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "ai-agents",
+      "agents",
+      "llm",
+      "ai",
+      "context-engineering",
+      "github",
+      "memory"
+    ],
     "installCommand": "git clone https://github.com/AIPMAndy/dna-memory.git",
     "createdAt": "2026-03-01T06:41:33Z",
     "updatedAt": "2026-03-30T15:40:02Z",
@@ -76165,7 +76533,12 @@
     "language": "R",
     "license": null,
     "category": "creative-design",
-    "tags": [],
+    "tags": [
+      "creative",
+      "data-visualization",
+      "design",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/openbiox/Bizard.git",
     "createdAt": "2024-11-29T02:20:10Z",
     "updatedAt": "2026-03-24T06:36:08Z",
@@ -77158,7 +77531,11 @@
     "language": "Python",
     "license": null,
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "developer-tools",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/yxp934/crushable-wingman-skill.git",
     "createdAt": "2026-02-20T16:15:14Z",
     "updatedAt": "2026-03-23T15:30:29Z",
@@ -77539,7 +77916,13 @@
     "language": null,
     "license": null,
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "claude",
+      "llm",
+      "ai",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/bl-ue/tweakcc-system-prompts.git",
     "createdAt": "2025-10-22T23:14:41Z",
     "updatedAt": "2026-02-27T14:34:04Z",
@@ -78618,7 +79001,15 @@
     "language": "Python",
     "license": "MIT",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "claude",
+      "agents",
+      "llm",
+      "ai",
+      "codex",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/ZhenHuangLab/collaborating-with-claude-code.git",
     "createdAt": "2026-01-11T03:25:29Z",
     "updatedAt": "2026-03-26T03:34:10Z",
@@ -79030,7 +79421,11 @@
     "language": null,
     "license": "MIT",
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "developer-tools",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/ziwenhahaha/qqsg_struct.git",
     "createdAt": "2023-01-03T07:57:45Z",
     "updatedAt": "2026-03-31T02:28:05Z",
@@ -79160,7 +79555,13 @@
     "language": "Python",
     "license": "MIT",
     "category": "creative-design",
-    "tags": [],
+    "tags": [
+      "api",
+      "creative",
+      "design",
+      "github",
+      "monitoring"
+    ],
     "installCommand": "git clone https://github.com/krozgrov/ha-omlet-integration.git",
     "createdAt": "2024-12-27T12:19:27Z",
     "updatedAt": "2026-03-04T19:10:27Z",
@@ -79754,7 +80155,11 @@
     "language": "TypeScript",
     "license": "MIT",
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "developer-tools",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/spboyer/sensei.git",
     "createdAt": "2026-02-02T18:32:09Z",
     "updatedAt": "2026-03-30T05:25:39Z",
@@ -80105,7 +80510,16 @@
     "language": "TypeScript",
     "license": "MIT",
     "category": "web-scraping",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "claude",
+      "automation",
+      "github",
+      "typescript",
+      "web",
+      "web-scraping"
+    ],
     "installCommand": "git clone https://github.com/yfe404/web-scraper.git",
     "createdAt": "2025-10-22T18:45:00Z",
     "updatedAt": "2026-03-30T04:12:20Z",
@@ -80543,7 +80957,14 @@
     "language": "TypeScript",
     "license": "MIT",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "mcp",
+      "mcp-server",
+      "claude",
+      "llm",
+      "ai",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/debridge-finance/debridge-mcp.git",
     "createdAt": "2026-02-08T22:13:33Z",
     "updatedAt": "2026-02-26T19:08:41Z",
@@ -80807,7 +81228,13 @@
     "language": "C#",
     "license": "Apache-2.0",
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "mcp",
+      "cli",
+      "developer-tools",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/whuanle/EasyTouch.git",
     "createdAt": "2026-02-22T05:47:43Z",
     "updatedAt": "2026-03-03T09:21:05Z",
@@ -81151,7 +81578,15 @@
     "language": "Python",
     "license": null,
     "category": "security",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "claude",
+      "devops",
+      "github",
+      "kubernetes",
+      "security"
+    ],
     "installCommand": "git clone https://github.com/crazygit/kube-audit-kit.git",
     "createdAt": "2026-01-10T01:06:03Z",
     "updatedAt": "2026-03-17T01:38:47Z",
@@ -81550,7 +81985,11 @@
     "language": "C#",
     "license": null,
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "developer-tools",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/malkamius/CrimsonStainedLands.git",
     "createdAt": "2023-07-24T00:17:00Z",
     "updatedAt": "2026-03-25T18:08:53Z",
@@ -81869,7 +82308,16 @@
     "language": "JavaScript",
     "license": "MIT",
     "category": "document-processing",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "claude",
+      "ai",
+      "codex",
+      "document-processing",
+      "documentation",
+      "documents",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/Sunwood-ai-labs/draw-io-skill.git",
     "createdAt": "2026-03-14T05:15:55Z",
     "updatedAt": "2026-03-29T11:34:44Z",
@@ -82193,7 +82641,16 @@
     "language": "Go",
     "license": null,
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "claude",
+      "ai-agents",
+      "agents",
+      "llm",
+      "ai",
+      "cli",
+      "codex"
+    ],
     "installCommand": "git clone https://github.com/chenhg5/agencycli.git",
     "createdAt": "2026-03-16T09:45:14Z",
     "updatedAt": "2026-03-30T07:25:09Z",
@@ -82810,7 +83267,11 @@
     "language": "Python",
     "license": "NOASSERTION",
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "developer-tools",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/flancian/garden.git",
     "createdAt": "2020-10-01T14:33:18Z",
     "updatedAt": "2026-03-30T16:32:22Z",
@@ -83603,7 +84064,12 @@
     "language": "TypeScript",
     "license": "MIT",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "llm",
+      "ai",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/tpmjs/tpmjs.git",
     "createdAt": "2025-11-25T00:05:16Z",
     "updatedAt": "2026-03-30T07:28:22Z",
@@ -84094,7 +84560,15 @@
     "language": "Java",
     "license": "MIT",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "mcp",
+      "mcp-server",
+      "claude",
+      "llm",
+      "ai",
+      "github",
+      "java"
+    ],
     "installCommand": "git clone https://github.com/d4n-sec/jdb-mcp.git",
     "createdAt": "2026-01-29T14:29:30Z",
     "updatedAt": "2026-03-24T08:19:07Z",
@@ -84312,7 +84786,12 @@
     "language": "JavaScript",
     "license": "MIT",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "llm",
+      "ai",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/cashubtc/cashu-skill.git",
     "createdAt": "2026-01-30T23:50:23Z",
     "updatedAt": "2026-03-12T15:38:51Z",
@@ -84399,7 +84878,13 @@
     "language": "Scala",
     "license": "MPL-2.0",
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "api",
+      "cli",
+      "developer-tools",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/VirtusLab/cellar.git",
     "createdAt": "2026-02-22T20:48:36Z",
     "updatedAt": "2026-03-31T06:07:12Z",
@@ -85450,7 +85935,16 @@
     "language": "Python",
     "license": "MIT",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "agents",
+      "llm",
+      "ai",
+      "agent-skills",
+      "api",
+      "github",
+      "research"
+    ],
     "installCommand": "git clone https://github.com/BayramAnnakov/synthetic-market-research.git",
     "createdAt": "2026-02-14T06:24:36Z",
     "updatedAt": "2026-03-23T19:07:11Z",
@@ -85559,7 +86053,11 @@
     "language": "Clojure",
     "license": null,
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "developer-tools",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/unclebob/crap4clj.git",
     "createdAt": "2026-02-24T21:09:50Z",
     "updatedAt": "2026-03-13T18:20:05Z",
@@ -85697,7 +86195,12 @@
     "language": null,
     "license": null,
     "category": "devops-cicd",
-    "tags": [],
+    "tags": [
+      "ci-cd",
+      "devops",
+      "git",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/jikexueyuanwiki/git-bak.git",
     "createdAt": "2014-12-31T03:16:01Z",
     "updatedAt": "2024-10-05T06:49:00Z",
@@ -86723,7 +87226,14 @@
     "language": "JavaScript",
     "license": "MIT",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "claude",
+      "llm",
+      "ai",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/krispuckett/skill-issue.git",
     "createdAt": "2026-01-28T02:45:48Z",
     "updatedAt": "2026-03-23T09:13:34Z",
@@ -87348,7 +87858,14 @@
     "language": null,
     "license": null,
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "agents",
+      "llm",
+      "ai",
+      "agent-skills",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/robzolkos/omarchy-skill.git",
     "createdAt": "2025-12-31T15:49:43Z",
     "updatedAt": "2026-02-03T03:40:44Z",
@@ -87860,7 +88377,12 @@
     "language": "JavaScript",
     "license": "AGPL-3.0",
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "developer-tools",
+      "github",
+      "wiki"
+    ],
     "installCommand": "git clone https://github.com/Mint-System/Odoo-Wiki.git",
     "createdAt": "2020-09-17T11:19:39Z",
     "updatedAt": "2026-03-31T06:54:40Z",
@@ -88193,7 +88715,16 @@
     "language": "Shell",
     "license": "MIT",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "agents",
+      "llm",
+      "ai",
+      "automation",
+      "cli",
+      "codex",
+      "gemini-cli"
+    ],
     "installCommand": "git clone https://github.com/CyrusNuevoDia/coderlm.git",
     "createdAt": "2026-02-18T15:59:33Z",
     "updatedAt": "2026-03-17T22:11:29Z",
@@ -88383,7 +88914,15 @@
     "language": "Python",
     "license": null,
     "category": "security",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "claude",
+      "agents",
+      "agent-skills",
+      "api",
+      "github",
+      "security"
+    ],
     "installCommand": "git clone https://github.com/brisyramshere/reddit-skill.git",
     "createdAt": "2026-02-15T03:53:00Z",
     "updatedAt": "2026-03-16T00:53:09Z",
@@ -88467,7 +89006,12 @@
     "language": "PowerShell",
     "license": "MIT",
     "category": "security",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "claude",
+      "github",
+      "security"
+    ],
     "installCommand": "git clone https://github.com/KimYx0207/SkillSemgrep.git",
     "createdAt": "2026-02-24T01:41:43Z",
     "updatedAt": "2026-03-24T01:39:22Z",
@@ -88564,7 +89108,16 @@
     "language": null,
     "license": "MIT",
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "mcp",
+      "mcp-server",
+      "claude",
+      "context-engineering",
+      "developer-tools",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/chenhunghan/code-mode-skill.git",
     "createdAt": "2026-03-09T07:05:48Z",
     "updatedAt": "2026-03-15T09:23:12Z",
@@ -90194,7 +90747,12 @@
     "language": null,
     "license": null,
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "claude",
+      "developer-tools",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/zCloak-Network/vly-money-claude-skill.git",
     "createdAt": "2025-11-17T12:47:36Z",
     "updatedAt": "2025-12-24T06:27:31Z",
@@ -90249,7 +90807,12 @@
     "language": null,
     "license": "NOASSERTION",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "llm",
+      "ai",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/dkyazzentwatwa/osint-ai.git",
     "createdAt": "2026-02-27T21:55:51Z",
     "updatedAt": "2026-03-26T12:43:53Z",
@@ -92541,7 +93104,16 @@
     "language": "Python",
     "license": "MIT",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "mcp",
+      "mcp-server",
+      "claude",
+      "agents",
+      "llm",
+      "ai",
+      "agent-skills",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/xunhe730/ZotPilot.git",
     "createdAt": "2026-03-16T02:39:17Z",
     "updatedAt": "2026-03-31T05:48:54Z",
@@ -92860,7 +93432,14 @@
     "language": null,
     "license": null,
     "category": "data-analysis",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "claude",
+      "analytics",
+      "data",
+      "github",
+      "research"
+    ],
     "installCommand": "git clone https://github.com/standardhuman/deep-research-skill.git",
     "createdAt": "2025-12-19T20:29:39Z",
     "updatedAt": "2026-03-30T03:49:09Z",
@@ -92954,7 +93533,13 @@
     "language": "Python",
     "license": "NOASSERTION",
     "category": "productivity",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "claude",
+      "github",
+      "productivity"
+    ],
     "installCommand": "git clone https://github.com/levineam/lastXdays-skill.git",
     "createdAt": "2026-02-03T21:24:57Z",
     "updatedAt": "2026-03-27T07:46:12Z",
@@ -93594,7 +94179,14 @@
     "language": "TypeScript",
     "license": "Apache-2.0",
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "agents",
+      "blockchain",
+      "developer-tools",
+      "github",
+      "solana"
+    ],
     "installCommand": "git clone https://github.com/cascade-protocol/sati.git",
     "createdAt": "2025-11-11T04:00:20Z",
     "updatedAt": "2026-03-20T14:07:29Z",
@@ -94846,7 +95438,14 @@
     "language": "StringTemplate",
     "license": "MIT",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "mcp",
+      "claude",
+      "llm",
+      "ai",
+      "github",
+      "openai"
+    ],
     "installCommand": "git clone https://github.com/CorporateSmalltalkConsultingLtd/ClaudeSmalltalk.git",
     "createdAt": "2026-01-19T22:32:03Z",
     "updatedAt": "2026-03-22T22:56:10Z",
@@ -95149,7 +95748,12 @@
     "language": null,
     "license": "LGPL-2.1",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "llm",
+      "ai",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/o11y-dev/opentelemetry-skill.git",
     "createdAt": "2026-01-31T18:44:00Z",
     "updatedAt": "2026-03-25T17:10:02Z",
@@ -95381,7 +95985,12 @@
     "language": "TypeScript",
     "license": "MIT",
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "agentic-ai",
+      "developer-tools",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/simplexlabs/montage.git",
     "createdAt": "2026-03-02T19:53:55Z",
     "updatedAt": "2026-03-06T15:01:04Z",
@@ -95995,7 +96604,11 @@
     "language": "HTML",
     "license": "MIT",
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "developer-tools",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/plurigrid/asi.git",
     "createdAt": "2025-12-22T05:49:13Z",
     "updatedAt": "2026-03-31T06:57:23Z",
@@ -96989,7 +97602,14 @@
     "language": null,
     "license": null,
     "category": "communication",
-    "tags": [],
+    "tags": [
+      "agents",
+      "agent-skills",
+      "communication",
+      "git",
+      "github",
+      "writing"
+    ],
     "installCommand": "git clone https://github.com/Ryderwe/agent-skill-git-checkpoint.git",
     "createdAt": "2026-01-23T11:54:55Z",
     "updatedAt": "2026-01-26T02:33:58Z",
@@ -97073,7 +97693,11 @@
     "language": "Jupyter Notebook",
     "license": null,
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "developer-tools",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/win4r/mytest.git",
     "createdAt": "2024-07-03T13:51:55Z",
     "updatedAt": "2026-02-26T14:46:23Z",
@@ -97274,7 +97898,14 @@
     "language": "JavaScript",
     "license": "MIT",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "ai-agents",
+      "agents",
+      "llm",
+      "ai",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/TONresistor/teleton-plugins.git",
     "createdAt": "2026-02-10T15:11:45Z",
     "updatedAt": "2026-03-19T17:16:32Z",
@@ -97609,7 +98240,11 @@
     "language": "Python",
     "license": "Apache-2.0",
     "category": "creative-design",
-    "tags": [],
+    "tags": [
+      "creative",
+      "design",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/CryptoLabInc/rune.git",
     "createdAt": "2026-02-02T08:53:29Z",
     "updatedAt": "2026-03-31T06:32:46Z",
@@ -97963,7 +98598,15 @@
     "language": null,
     "license": "MIT",
     "category": "web-scraping",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "claude",
+      "automation",
+      "extraction",
+      "github",
+      "web-scraping"
+    ],
     "installCommand": "git clone https://github.com/OrangeViolin/skill-evolve.git",
     "createdAt": "2026-03-23T17:29:50Z",
     "updatedAt": "2026-03-31T06:21:06Z",
@@ -98023,7 +98666,11 @@
     "language": null,
     "license": null,
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "developer-tools",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/rufuspollock/ux-patterns.git",
     "createdAt": "2012-06-25T11:39:25Z",
     "updatedAt": "2026-03-29T10:35:27Z",
@@ -99264,7 +99911,12 @@
     "language": null,
     "license": "MIT",
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "claude",
+      "developer-tools",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/viktorvuka/claude-things-skill.git",
     "createdAt": "2026-03-14T09:55:43Z",
     "updatedAt": "2026-03-27T00:23:52Z",
@@ -99334,7 +99986,11 @@
     "language": "JavaScript",
     "license": null,
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "developer-tools",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/mr-kelly/wxclaw2026.git",
     "createdAt": "2026-02-16T14:52:47Z",
     "updatedAt": "2026-03-24T09:26:53Z",
@@ -99859,7 +100515,16 @@
     "language": null,
     "license": null,
     "category": "communication",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "claude",
+      "api",
+      "audio",
+      "communication",
+      "github",
+      "voice"
+    ],
     "installCommand": "git clone https://github.com/cathrynlavery/voice-memo-organizer.git",
     "createdAt": "2026-03-13T17:12:31Z",
     "updatedAt": "2026-03-29T02:45:43Z",
@@ -100240,7 +100905,15 @@
     "language": "JavaScript",
     "license": null,
     "category": "document-processing",
-    "tags": [],
+    "tags": [
+      "document-processing",
+      "documentation",
+      "documents",
+      "fullstack",
+      "git",
+      "github",
+      "web"
+    ],
     "installCommand": "git clone https://github.com/murffious/git-master-1.git",
     "createdAt": "2018-10-24T15:31:30Z",
     "updatedAt": "2025-09-23T13:08:17Z",
@@ -101606,7 +102279,12 @@
     "language": "Python",
     "license": "NOASSERTION",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "llm",
+      "ai",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/theoddden/Terradev.git",
     "createdAt": "2026-02-09T21:02:05Z",
     "updatedAt": "2026-03-11T01:40:23Z",
@@ -101964,7 +102642,14 @@
     "language": "JavaScript",
     "license": "MIT",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "llm",
+      "ai",
+      "codex",
+      "github",
+      "html"
+    ],
     "installCommand": "git clone https://github.com/ercan-er/htmx-claude-skill.git",
     "createdAt": "2026-02-17T14:18:32Z",
     "updatedAt": "2026-03-28T15:00:27Z",
@@ -102228,7 +102913,12 @@
     "language": "Python",
     "license": null,
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "llm",
+      "ai",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/velumkai/metacognition-skill.git",
     "createdAt": "2026-02-06T18:18:36Z",
     "updatedAt": "2026-03-05T14:47:34Z",
@@ -102327,7 +103017,13 @@
     "language": "HTML",
     "license": null,
     "category": "security",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "claude",
+      "github",
+      "security"
+    ],
     "installCommand": "git clone https://github.com/cathrynlavery/spend-optimizer.git",
     "createdAt": "2026-01-06T16:27:52Z",
     "updatedAt": "2026-03-19T18:18:38Z",
@@ -102436,7 +103132,14 @@
     "language": "TypeScript",
     "license": null,
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "mcp",
+      "mcp-server",
+      "cli",
+      "developer-tools",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/madeyexz/heptabase-cli.git",
     "createdAt": "2026-02-21T07:34:38Z",
     "updatedAt": "2026-03-29T15:51:37Z",
@@ -102547,7 +103250,12 @@
     "language": "Go",
     "license": null,
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "developer-tools",
+      "github",
+      "web"
+    ],
     "installCommand": "git clone https://github.com/lightninglabs/lnget.git",
     "createdAt": "2026-02-05T20:26:49Z",
     "updatedAt": "2026-03-30T12:35:31Z",
@@ -103558,7 +104266,12 @@
     "language": "Python",
     "license": "MIT",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "llm",
+      "ai",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/flashpoint493/VibeCollab.git",
     "createdAt": "2026-01-20T08:22:41Z",
     "updatedAt": "2026-03-30T08:06:37Z",
@@ -103892,7 +104605,16 @@
     "language": "JavaScript",
     "license": "MIT",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "mcp",
+      "claude",
+      "llm",
+      "ai",
+      "codex",
+      "github",
+      "workflows"
+    ],
     "installCommand": "git clone https://github.com/cookiy-ai/cookiy-skill.git",
     "createdAt": "2026-03-13T09:46:37Z",
     "updatedAt": "2026-03-29T14:33:17Z",
@@ -104242,7 +104964,12 @@
     "language": "Python",
     "license": "MIT",
     "category": "creative-design",
-    "tags": [],
+    "tags": [
+      "browser",
+      "creative",
+      "design",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/yoloshii/better-browser-use.git",
     "createdAt": "2026-02-13T21:47:36Z",
     "updatedAt": "2026-03-30T11:10:47Z",
@@ -104436,7 +105163,13 @@
     "language": "JavaScript",
     "license": null,
     "category": "devops-cicd",
-    "tags": [],
+    "tags": [
+      "aws",
+      "ci-cd",
+      "cloud",
+      "devops",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/calvinsettachatgul/aws_associate_solutions_architect.git",
     "createdAt": "2016-11-26T00:33:34Z",
     "updatedAt": "2019-07-18T12:06:40Z",
@@ -105310,7 +106043,14 @@
     "language": "Shell",
     "license": "MIT",
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "cli",
+      "context-engineering",
+      "developer-tools",
+      "github",
+      "memory"
+    ],
     "installCommand": "git clone https://github.com/Ramsbaby/openclaw-memorybox.git",
     "createdAt": "2026-02-10T04:30:25Z",
     "updatedAt": "2026-03-25T08:09:39Z",
@@ -105576,7 +106316,12 @@
     "language": "Python",
     "license": "Apache-2.0",
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "developer-tools",
+      "github",
+      "postgresql"
+    ],
     "installCommand": "git clone https://github.com/varunchopra/postkit.git",
     "createdAt": "2025-12-25T06:24:22Z",
     "updatedAt": "2026-02-19T21:04:54Z",
@@ -105932,7 +106677,14 @@
     "language": "Python",
     "license": "MIT",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "llm",
+      "ai",
+      "ai-content",
+      "github",
+      "writing"
+    ],
     "installCommand": "git clone https://github.com/momo2young/humanize-academic-writing.git",
     "createdAt": "2026-01-25T09:42:43Z",
     "updatedAt": "2026-03-22T11:06:46Z",
@@ -106106,7 +106858,14 @@
     "language": "JavaScript",
     "license": "MIT",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "claude",
+      "agentic-ai",
+      "llm",
+      "ai",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/3li7alaki/mint.git",
     "createdAt": "2026-03-04T12:56:21Z",
     "updatedAt": "2026-03-30T00:25:02Z",
@@ -106461,7 +107220,12 @@
     "language": "Python",
     "license": null,
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "llm",
+      "ai",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/NextronSystems/thor-skill.git",
     "createdAt": "2026-01-17T01:02:53Z",
     "updatedAt": "2026-02-26T16:48:45Z",
@@ -106798,7 +107562,13 @@
     "language": null,
     "license": null,
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "llm",
+      "ai",
+      "github",
+      "web"
+    ],
     "installCommand": "git clone https://github.com/artmsilva/lit-best-practices.git",
     "createdAt": "2026-01-21T05:31:17Z",
     "updatedAt": "2026-03-26T14:42:04Z",
@@ -107005,7 +107775,11 @@
     "language": "PHP",
     "license": null,
     "category": "document-processing",
-    "tags": [],
+    "tags": [
+      "document-processing",
+      "documents",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/fage1151/swoole-doc.git",
     "createdAt": "2017-08-05T03:18:44Z",
     "updatedAt": "2018-12-20T06:06:38Z",
@@ -107323,7 +108097,12 @@
     "language": "Shell",
     "license": null,
     "category": "productivity",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "github",
+      "notes",
+      "productivity"
+    ],
     "installCommand": "git clone https://github.com/Rowing0914/my_personal_notes.git",
     "createdAt": "2019-08-23T07:11:52Z",
     "updatedAt": "2024-08-21T00:31:48Z",
@@ -107729,7 +108508,11 @@
     "language": "Vue",
     "license": "NOASSERTION",
     "category": "devops-cicd",
-    "tags": [],
+    "tags": [
+      "ci-cd",
+      "devops",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/Boos4721/netops-asset-manager-skill.git",
     "createdAt": "2026-03-01T20:30:51Z",
     "updatedAt": "2026-03-16T06:19:13Z",
@@ -107970,7 +108753,14 @@
     "language": "Shell",
     "license": "NOASSERTION",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "ai-agents",
+      "agents",
+      "llm",
+      "ai",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/ImL1s/openclaw-ops.git",
     "createdAt": "2026-03-07T19:47:40Z",
     "updatedAt": "2026-03-23T10:10:43Z",
@@ -108149,7 +108939,11 @@
     "language": null,
     "license": "MIT",
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "developer-tools",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/nielskaspers/bold-designs.git",
     "createdAt": "2026-01-24T17:40:27Z",
     "updatedAt": "2026-03-09T09:02:21Z",
@@ -108219,7 +109013,12 @@
     "language": "Python",
     "license": "NOASSERTION",
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "data-analysis",
+      "developer-tools",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/wkyleg/personal-genomics.git",
     "createdAt": "2026-02-06T23:58:49Z",
     "updatedAt": "2026-03-23T23:29:33Z",
@@ -108541,7 +109340,12 @@
     "language": null,
     "license": null,
     "category": "business-marketing",
-    "tags": [],
+    "tags": [
+      "ai",
+      "business",
+      "github",
+      "marketing"
+    ],
     "installCommand": "git clone https://github.com/DataEval/dingo-marketing.git",
     "createdAt": "2025-05-27T06:13:10Z",
     "updatedAt": "2026-03-16T07:07:58Z",
@@ -108645,7 +109449,12 @@
     "language": "Python",
     "license": null,
     "category": "document-processing",
-    "tags": [],
+    "tags": [
+      "document-processing",
+      "documentation",
+      "documents",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/ragnvald/paperskill.git",
     "createdAt": "2026-02-26T08:38:54Z",
     "updatedAt": "2026-02-27T13:33:36Z",
@@ -108732,7 +109541,13 @@
     "language": "Shell",
     "license": null,
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "agents",
+      "llm",
+      "ai",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/rikouu/openclaw-multiagent.git",
     "createdAt": "2026-02-25T13:31:11Z",
     "updatedAt": "2026-03-23T09:49:59Z",
@@ -108821,7 +109636,13 @@
     "language": "Rust",
     "license": null,
     "category": "productivity",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "backend",
+      "github",
+      "javascript",
+      "productivity"
+    ],
     "installCommand": "git clone https://github.com/HuakunShen/tauri-plugin-js.git",
     "createdAt": "2026-02-14T17:55:30Z",
     "updatedAt": "2026-03-28T13:14:25Z",
@@ -109146,7 +109967,11 @@
     "language": null,
     "license": null,
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "developer-tools",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/mbta/transit_project_ideas.git",
     "createdAt": "2020-08-21T16:15:29Z",
     "updatedAt": "2024-11-04T07:15:54Z",
@@ -109881,7 +110706,12 @@
     "language": "Python",
     "license": "MIT",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "llm",
+      "ai",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/JadeLiu-tech/px-asset-extract.git",
     "createdAt": "2026-03-16T00:22:30Z",
     "updatedAt": "2026-03-23T04:53:02Z",
@@ -110154,7 +110984,12 @@
     "language": "Shell",
     "license": "MIT",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "llm",
+      "ai",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/jzOcb/config-guard.git",
     "createdAt": "2026-02-04T14:39:37Z",
     "updatedAt": "2026-03-16T23:29:44Z",
@@ -110241,7 +111076,12 @@
     "language": null,
     "license": "MIT",
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "claude",
+      "developer-tools",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/0x2kNJ/cpo.git",
     "createdAt": "2026-03-22T22:58:54Z",
     "updatedAt": "2026-03-26T12:00:08Z",
@@ -110374,7 +111214,13 @@
     "language": "C#",
     "license": null,
     "category": "document-processing",
-    "tags": [],
+    "tags": [
+      "document-processing",
+      "documents",
+      "github",
+      "logging",
+      "markdown"
+    ],
     "installCommand": "git clone https://github.com/richlander/markout.git",
     "createdAt": "2026-01-23T23:51:13Z",
     "updatedAt": "2026-03-20T07:08:01Z",
@@ -110726,7 +111572,16 @@
     "language": "Python",
     "license": "Apache-2.0",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "agents",
+      "llm",
+      "ai",
+      "devops",
+      "docker",
+      "github",
+      "sandboxing"
+    ],
     "installCommand": "git clone https://github.com/hleliofficiel/ExaAiAgent.git",
     "createdAt": "2025-12-04T19:41:18Z",
     "updatedAt": "2026-03-31T06:16:07Z",
@@ -111077,7 +111932,11 @@
     "language": "TeX",
     "license": "MIT",
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "developer-tools",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/Rick-Yin/skdformat.git",
     "createdAt": "2026-03-20T06:15:39Z",
     "updatedAt": "2026-03-23T03:14:05Z",
@@ -111176,7 +112035,14 @@
     "language": "Shell",
     "license": "MIT",
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "claude",
+      "codex",
+      "developer-tools",
+      "github",
+      "video"
+    ],
     "installCommand": "git clone https://github.com/6missedcalls/video-editing-skill.git",
     "createdAt": "2026-02-26T22:59:10Z",
     "updatedAt": "2026-03-26T09:51:11Z",
@@ -111921,7 +112787,11 @@
     "language": "TypeScript",
     "license": "NOASSERTION",
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "developer-tools",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/dmberry/CCS-WB.git",
     "createdAt": "2026-01-19T01:44:26Z",
     "updatedAt": "2026-02-16T08:15:42Z",
@@ -112274,7 +113144,14 @@
     "language": "Shell",
     "license": "MIT",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "claude",
+      "llm",
+      "ai",
+      "codex",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/gmickel/raindrop-skill.git",
     "createdAt": "2026-01-04T11:37:57Z",
     "updatedAt": "2026-03-22T16:01:23Z",
@@ -112380,7 +113257,12 @@
     "language": null,
     "license": "MIT",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "llm",
+      "ai",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/CommonPaper/claude-skill.git",
     "createdAt": "2026-02-23T18:44:57Z",
     "updatedAt": "2026-03-18T20:04:12Z",
@@ -112445,7 +113327,12 @@
     "language": "Shell",
     "license": "MIT",
     "category": "communication",
-    "tags": [],
+    "tags": [
+      "agents",
+      "communication",
+      "github",
+      "writing"
+    ],
     "installCommand": "git clone https://github.com/marketclaw-tech/openclaw-a2a.git",
     "createdAt": "2026-02-26T23:59:29Z",
     "updatedAt": "2026-03-19T09:05:17Z",
@@ -112607,7 +113494,13 @@
     "language": "JavaScript",
     "license": "MIT",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "agents",
+      "llm",
+      "ai",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/melvincarvalho/aam.git",
     "createdAt": "2021-06-19T16:21:51Z",
     "updatedAt": "2026-01-23T22:30:05Z",
@@ -113334,7 +114227,12 @@
     "language": "MDX",
     "license": "NOASSERTION",
     "category": "document-processing",
-    "tags": [],
+    "tags": [
+      "document-processing",
+      "documentation",
+      "documents",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/WalletConnectFoundation/docs.git",
     "createdAt": "2025-08-25T10:27:22Z",
     "updatedAt": "2026-03-25T14:09:55Z",
@@ -113710,7 +114608,15 @@
     "language": "JavaScript",
     "license": "MIT",
     "category": "productivity",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "agents",
+      "browser",
+      "cli",
+      "github",
+      "productivity",
+      "web"
+    ],
     "installCommand": "git clone https://github.com/SarveshPatkr/claw-browser.git",
     "createdAt": "2026-03-10T18:08:54Z",
     "updatedAt": "2026-03-13T01:21:01Z",
@@ -114039,7 +114945,16 @@
     "language": null,
     "license": "MIT",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "claude",
+      "llm",
+      "ai",
+      "api",
+      "context-engineering",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/6missedcalls/erpnext-skill.git",
     "createdAt": "2026-02-12T06:20:59Z",
     "updatedAt": "2026-03-22T12:34:48Z",
@@ -114343,7 +115258,16 @@
     "language": "Ruby",
     "license": "MIT",
     "category": "document-processing",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "claude",
+      "ai",
+      "cli",
+      "codex",
+      "document-processing",
+      "documentation",
+      "documents"
+    ],
     "installCommand": "git clone https://github.com/danielkwapien/google-docs-skill.git",
     "createdAt": "2026-02-20T14:37:41Z",
     "updatedAt": "2026-03-16T12:26:54Z",
@@ -114537,7 +115461,13 @@
     "language": "Python",
     "license": "MIT",
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "context-engineering",
+      "developer-tools",
+      "github",
+      "memory"
+    ],
     "installCommand": "git clone https://github.com/wbin0001/Memory-Compass.git",
     "createdAt": "2026-03-17T00:36:02Z",
     "updatedAt": "2026-03-18T02:04:51Z",
@@ -114779,7 +115709,12 @@
     "language": "Shell",
     "license": "MIT",
     "category": "productivity",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "claude",
+      "github",
+      "productivity"
+    ],
     "installCommand": "git clone https://github.com/flyzhenghao/plan-index-manager.git",
     "createdAt": "2026-01-17T21:39:53Z",
     "updatedAt": "2026-01-22T11:28:40Z",
@@ -116459,7 +117394,12 @@
     "language": "Python",
     "license": "GPL-3.0",
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "claude",
+      "developer-tools",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/wuyaojunkylin/Personal-Knowledge-Growth-Analyzer.git",
     "createdAt": "2026-01-26T12:49:40Z",
     "updatedAt": "2026-02-27T20:00:14Z",
@@ -116615,7 +117555,11 @@
     "language": "TypeScript",
     "license": null,
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "developer-tools",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/openwork-hackathon/team-sentinel.git",
     "createdAt": "2026-02-01T13:17:58Z",
     "updatedAt": "2026-02-13T19:46:02Z",
@@ -116939,7 +117883,16 @@
     "language": "TypeScript",
     "license": null,
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "agents",
+      "llm",
+      "ai",
+      "blockchain",
+      "github",
+      "solana",
+      "twitter"
+    ],
     "installCommand": "git clone https://github.com/Jeffreyxdev/zola-ai.git",
     "createdAt": "2026-03-02T10:21:24Z",
     "updatedAt": "2026-03-13T06:26:53Z",
@@ -117252,7 +118205,10 @@
     "language": "Shell",
     "license": "MIT",
     "category": "security",
-    "tags": [],
+    "tags": [
+      "github",
+      "security"
+    ],
     "installCommand": "git clone https://github.com/wadim/haveibeenclawned.git",
     "createdAt": "2026-02-08T08:19:43Z",
     "updatedAt": "2026-03-28T16:21:42Z",
@@ -117548,7 +118504,13 @@
     "language": null,
     "license": "MIT",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "anthropic",
+      "llm",
+      "ai",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/llh315434220/claude-skill-architect.git",
     "createdAt": "2026-03-03T07:24:22Z",
     "updatedAt": "2026-03-03T07:39:35Z",
@@ -117641,7 +118603,13 @@
     "language": "Elixir",
     "license": "MIT",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "llm",
+      "ai",
+      "git",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/beeemT/git-work.git",
     "createdAt": "2026-02-10T19:04:55Z",
     "updatedAt": "2026-03-28T09:14:47Z",
@@ -117862,7 +118830,13 @@
     "language": "Rust",
     "license": "Unlicense",
     "category": "communication",
-    "tags": [],
+    "tags": [
+      "cli",
+      "communication",
+      "github",
+      "terminal",
+      "writing"
+    ],
     "installCommand": "git clone https://github.com/Garfield1002/tg-rs.git",
     "createdAt": "2026-03-06T19:07:10Z",
     "updatedAt": "2026-03-23T10:11:51Z",
@@ -118010,7 +118984,12 @@
     "language": "Python",
     "license": "MIT",
     "category": "document-processing",
-    "tags": [],
+    "tags": [
+      "codex",
+      "document-processing",
+      "documents",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/willmot/wordpress-com-codex-skill.git",
     "createdAt": "2026-02-06T10:01:11Z",
     "updatedAt": "2026-03-02T05:56:41Z",
@@ -118111,7 +119090,12 @@
     "language": "Python",
     "license": "MIT",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "llm",
+      "ai",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/sunrisever/bilibili-follow.git",
     "createdAt": "2026-02-05T06:43:45Z",
     "updatedAt": "2026-03-23T05:52:53Z",
@@ -118255,7 +119239,13 @@
     "language": "Go",
     "license": "MIT",
     "category": "creative-design",
-    "tags": [],
+    "tags": [
+      "cli",
+      "creative",
+      "design",
+      "github",
+      "terminal"
+    ],
     "installCommand": "git clone https://github.com/tmustier/economist-tui.git",
     "createdAt": "2026-01-21T16:45:12Z",
     "updatedAt": "2026-03-24T11:23:06Z",
@@ -118585,7 +119575,11 @@
     "language": "Python",
     "license": "MIT",
     "category": "devops-cicd",
-    "tags": [],
+    "tags": [
+      "ci-cd",
+      "devops",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/SenseRobotClaw/ClawSkill.git",
     "createdAt": "2026-03-13T03:36:39Z",
     "updatedAt": "2026-03-23T09:38:36Z",
@@ -118679,7 +119673,12 @@
     "language": "Python",
     "license": "MIT",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "llm",
+      "ai",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/nocfo/nocfo-ai-toolkit.git",
     "createdAt": "2026-03-06T17:22:42Z",
     "updatedAt": "2026-03-30T08:35:01Z",
@@ -118965,7 +119964,14 @@
     "language": "Python",
     "license": "Apache-2.0",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "agents",
+      "llm",
+      "ai",
+      "agent-skills",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/DrZoot/htmx-skill.git",
     "createdAt": "2026-01-01T22:19:36Z",
     "updatedAt": "2026-03-24T12:56:06Z",
@@ -119278,7 +120284,12 @@
     "language": "Go",
     "license": null,
     "category": "document-processing",
-    "tags": [],
+    "tags": [
+      "document-processing",
+      "documents",
+      "github",
+      "markdown"
+    ],
     "installCommand": "git clone https://github.com/justinabrahms/confluence-md.git",
     "createdAt": "2025-11-02T19:19:06Z",
     "updatedAt": "2026-01-22T15:52:24Z",
@@ -119468,7 +120479,11 @@
     "language": "JavaScript",
     "license": "NOASSERTION",
     "category": "document-processing",
-    "tags": [],
+    "tags": [
+      "document-processing",
+      "documents",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/tnotesjs/TNotes.en-words.git",
     "createdAt": "2024-10-26T10:05:13Z",
     "updatedAt": "2025-12-23T15:32:08Z",
@@ -121182,7 +122197,7 @@
     "id": "kongyo2-prompt-engineering-skill",
     "name": "Prompt Engineering Skill",
     "slug": "prompt-engineering-skill",
-    "description": "",
+    "description": "[FLAGGED] No description available. Source: https://github.com/kongyo2/prompt-engineering-skill",
     "aiDescription": "Prompt Engineering Skill is a skill for Claude Code that enhances your development workflow.",
     "author": "kongyo2",
     "githubUrl": "https://github.com/kongyo2/prompt-engineering-skill",
@@ -122267,7 +123282,12 @@
     "language": "HTML",
     "license": "Unlicense",
     "category": "communication",
-    "tags": [],
+    "tags": [
+      "blogging",
+      "communication",
+      "github",
+      "writing"
+    ],
     "installCommand": "git clone https://github.com/bigbigDreamer/weekly.git",
     "createdAt": "2022-07-24T13:34:30Z",
     "updatedAt": "2026-01-24T13:24:52Z",
@@ -122625,7 +123645,14 @@
     "language": "HTML",
     "license": "MIT",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "ai-agents",
+      "agents",
+      "llm",
+      "ai",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/revengerrr/clawdsign.git",
     "createdAt": "2026-02-05T08:35:36Z",
     "updatedAt": "2026-02-17T05:25:27Z",
@@ -122808,7 +123835,14 @@
     "language": "Rust",
     "license": "MIT",
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "agents",
+      "llm",
+      "ai",
+      "github",
+      "json"
+    ],
     "installCommand": "git clone https://github.com/SerPeter/llm-fmt-project.git",
     "createdAt": "2025-12-22T14:20:39Z",
     "updatedAt": "2026-02-22T22:07:12Z",
@@ -123141,7 +124175,12 @@
     "language": null,
     "license": null,
     "category": "automation",
-    "tags": [],
+    "tags": [
+      "agents",
+      "automation",
+      "github",
+      "javascript"
+    ],
     "installCommand": "git clone https://github.com/KurshedKhan/JavaScript.git",
     "createdAt": "2023-08-07T09:07:23Z",
     "updatedAt": "2025-05-12T12:33:37Z",
@@ -123200,7 +124239,7 @@
     "id": "ahmad-kad-calhacks-agenticRobot",
     "name": "Calhacks AgenticRobot",
     "slug": "calhacks-agenticrobot",
-    "description": "",
+    "description": "Multi-Environment Robot Learning and Intelligence Network",
     "aiDescription": "**Multi-Environment Robot Learning and Intelligence Network**",
     "author": "ahmad-kad",
     "githubUrl": "https://github.com/ahmad-kad/calhacks-agenticRobot",
@@ -123210,7 +124249,12 @@
     "language": "Python",
     "license": null,
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "llm",
+      "ai",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/ahmad-kad/calhacks-agenticRobot.git",
     "createdAt": "2025-10-25T06:56:02Z",
     "updatedAt": "2026-03-17T08:26:40Z",
@@ -125562,7 +126606,8 @@
     "rank": 505,
     "rankScore": 17,
     "trendingRank": 506,
-    "isHot": false
+    "isHot": false,
+    "updatedAt": "2026-03-31T07:17:28.948Z"
   },
   {
     "id": "travisvn-video-downloader",
@@ -125600,7 +126645,8 @@
     "rank": 506,
     "rankScore": 17,
     "trendingRank": 507,
-    "isHot": false
+    "isHot": false,
+    "updatedAt": "2026-03-31T07:17:28.948Z"
   },
   {
     "id": "travisvn-imagen",
@@ -125638,7 +126684,8 @@
     "rank": 507,
     "rankScore": 17,
     "trendingRank": 508,
-    "isHot": false
+    "isHot": false,
+    "updatedAt": "2026-03-31T07:17:28.948Z"
   },
   {
     "id": "travisvn-article-extractor",
@@ -125676,7 +126723,8 @@
     "rank": 508,
     "rankScore": 17,
     "trendingRank": 509,
-    "isHot": false
+    "isHot": false,
+    "updatedAt": "2026-03-31T07:17:28.948Z"
   },
   {
     "id": "travisvn-csv-summarizer",
@@ -125714,7 +126762,8 @@
     "rank": 509,
     "rankScore": 17,
     "trendingRank": 510,
-    "isHot": false
+    "isHot": false,
+    "updatedAt": "2026-03-31T07:17:28.948Z"
   },
   {
     "id": "travisvn-postgres-skill",
@@ -125752,7 +126801,8 @@
     "rank": 510,
     "rankScore": 17,
     "trendingRank": 511,
-    "isHot": false
+    "isHot": false,
+    "updatedAt": "2026-03-31T07:17:28.948Z"
   },
   {
     "id": "travisvn-root-cause-tracing",
@@ -125790,7 +126840,8 @@
     "rank": 511,
     "rankScore": 17,
     "trendingRank": 512,
-    "isHot": false
+    "isHot": false,
+    "updatedAt": "2026-03-31T07:17:28.948Z"
   },
   {
     "id": "travisvn-competitive-ads-extractor",
@@ -125828,7 +126879,8 @@
     "rank": 512,
     "rankScore": 17,
     "trendingRank": 513,
-    "isHot": false
+    "isHot": false,
+    "updatedAt": "2026-03-31T07:17:28.948Z"
   },
   {
     "id": "travisvn-domain-brainstormer",
@@ -125865,7 +126917,8 @@
     "rank": 513,
     "rankScore": 17,
     "trendingRank": 514,
-    "isHot": false
+    "isHot": false,
+    "updatedAt": "2026-03-31T07:17:28.948Z"
   },
   {
     "id": "travisvn-lead-research",
@@ -125903,7 +126956,8 @@
     "rank": 514,
     "rankScore": 17,
     "trendingRank": 515,
-    "isHot": false
+    "isHot": false,
+    "updatedAt": "2026-03-31T07:17:28.948Z"
   },
   {
     "id": "travisvn-content-research-writer",
@@ -125941,7 +126995,8 @@
     "rank": 515,
     "rankScore": 17,
     "trendingRank": 516,
-    "isHot": false
+    "isHot": false,
+    "updatedAt": "2026-03-31T07:17:28.948Z"
   },
   {
     "id": "travisvn-brainstorming-skill",
@@ -125979,7 +127034,8 @@
     "rank": 516,
     "rankScore": 17,
     "trendingRank": 517,
-    "isHot": false
+    "isHot": false,
+    "updatedAt": "2026-03-31T07:17:28.948Z"
   },
   {
     "id": "travisvn-family-history-research",
@@ -126017,7 +127073,8 @@
     "rank": 517,
     "rankScore": 17,
     "trendingRank": 518,
-    "isHot": false
+    "isHot": false,
+    "updatedAt": "2026-03-31T07:17:28.948Z"
   },
   {
     "id": "travisvn-meeting-insights",
@@ -126055,7 +127112,8 @@
     "rank": 518,
     "rankScore": 17,
     "trendingRank": 519,
-    "isHot": false
+    "isHot": false,
+    "updatedAt": "2026-03-31T07:17:28.948Z"
   },
   {
     "id": "travisvn-notebooklm-integration",
@@ -126093,7 +127151,8 @@
     "rank": 519,
     "rankScore": 17,
     "trendingRank": 520,
-    "isHot": false
+    "isHot": false,
+    "updatedAt": "2026-03-31T07:17:28.948Z"
   },
   {
     "id": "travisvn-image-enhancer",
@@ -126131,7 +127190,8 @@
     "rank": 520,
     "rankScore": 17,
     "trendingRank": 521,
-    "isHot": false
+    "isHot": false,
+    "updatedAt": "2026-03-31T07:17:28.948Z"
   },
   {
     "id": "travisvn-file-organizer",
@@ -126169,7 +127229,8 @@
     "rank": 521,
     "rankScore": 17,
     "trendingRank": 522,
-    "isHot": false
+    "isHot": false,
+    "updatedAt": "2026-03-31T07:17:28.948Z"
   },
   {
     "id": "travisvn-invoice-organizer",
@@ -126207,7 +127268,8 @@
     "rank": 522,
     "rankScore": 17,
     "trendingRank": 523,
-    "isHot": false
+    "isHot": false,
+    "updatedAt": "2026-03-31T07:17:28.948Z"
   },
   {
     "id": "travisvn-kaizen-skill",
@@ -126245,7 +127307,8 @@
     "rank": 523,
     "rankScore": 17,
     "trendingRank": 524,
-    "isHot": false
+    "isHot": false,
+    "updatedAt": "2026-03-31T07:17:28.948Z"
   },
   {
     "id": "travisvn-n8n-skills",
@@ -126282,7 +127345,8 @@
     "rank": 524,
     "rankScore": 17,
     "trendingRank": 525,
-    "isHot": false
+    "isHot": false,
+    "updatedAt": "2026-03-31T07:17:28.948Z"
   },
   {
     "id": "travisvn-raffle-winner",
@@ -126320,7 +127384,8 @@
     "rank": 525,
     "rankScore": 17,
     "trendingRank": 526,
-    "isHot": false
+    "isHot": false,
+    "updatedAt": "2026-03-31T07:17:28.948Z"
   },
   {
     "id": "travisvn-tailored-resume",
@@ -126358,7 +127423,8 @@
     "rank": 526,
     "rankScore": 17,
     "trendingRank": 527,
-    "isHot": false
+    "isHot": false,
+    "updatedAt": "2026-03-31T07:17:28.948Z"
   },
   {
     "id": "travisvn-ship-learn-next",
@@ -126396,7 +127462,8 @@
     "rank": 527,
     "rankScore": 17,
     "trendingRank": 528,
-    "isHot": false
+    "isHot": false,
+    "updatedAt": "2026-03-31T07:17:28.948Z"
   },
   {
     "id": "travisvn-tapestry-skill",
@@ -126434,7 +127501,8 @@
     "rank": 528,
     "rankScore": 17,
     "trendingRank": 529,
-    "isHot": false
+    "isHot": false,
+    "updatedAt": "2026-03-31T07:17:28.948Z"
   },
   {
     "id": "travisvn-git-pushing",
@@ -126472,7 +127540,8 @@
     "rank": 529,
     "rankScore": 17,
     "trendingRank": 530,
-    "isHot": false
+    "isHot": false,
+    "updatedAt": "2026-03-31T07:17:28.948Z"
   },
   {
     "id": "travisvn-review-implementing",
@@ -126510,7 +127579,8 @@
     "rank": 530,
     "rankScore": 17,
     "trendingRank": 531,
-    "isHot": false
+    "isHot": false,
+    "updatedAt": "2026-03-31T07:17:28.949Z"
   },
   {
     "id": "travisvn-test-fixing",
@@ -126547,7 +127617,8 @@
     "rank": 531,
     "rankScore": 17,
     "trendingRank": 532,
-    "isHot": false
+    "isHot": false,
+    "updatedAt": "2026-03-31T07:17:28.949Z"
   },
   {
     "id": "travisvn-computer-forensics",
@@ -126585,7 +127656,8 @@
     "rank": 532,
     "rankScore": 17,
     "trendingRank": 533,
-    "isHot": false
+    "isHot": false,
+    "updatedAt": "2026-03-31T07:17:28.949Z"
   },
   {
     "id": "travisvn-file-deletion",
@@ -126623,7 +127695,8 @@
     "rank": 533,
     "rankScore": 17,
     "trendingRank": 534,
-    "isHot": false
+    "isHot": false,
+    "updatedAt": "2026-03-31T07:17:28.949Z"
   },
   {
     "id": "travisvn-metadata-extraction",
@@ -126661,7 +127734,8 @@
     "rank": 534,
     "rankScore": 17,
     "trendingRank": 535,
-    "isHot": false
+    "isHot": false,
+    "updatedAt": "2026-03-31T07:17:28.949Z"
   },
   {
     "id": "travisvn-sigma-rules",
@@ -126699,7 +127773,8 @@
     "rank": 535,
     "rankScore": 17,
     "trendingRank": 536,
-    "isHot": false
+    "isHot": false,
+    "updatedAt": "2026-03-31T07:17:28.949Z"
   },
   {
     "id": "travisvn-markdown-epub",
@@ -126737,7 +127812,8 @@
     "rank": 536,
     "rankScore": 17,
     "trendingRank": 537,
-    "isHot": false
+    "isHot": false,
+    "updatedAt": "2026-03-31T07:17:28.949Z"
   },
   {
     "id": "travisvn-changelog-generator",
@@ -126775,7 +127851,8 @@
     "rank": 537,
     "rankScore": 17,
     "trendingRank": 538,
-    "isHot": false
+    "isHot": false,
+    "updatedAt": "2026-03-31T07:17:28.949Z"
   },
   {
     "id": "travisvn-terminal-title",
@@ -126813,7 +127890,8 @@
     "rank": 538,
     "rankScore": 17,
     "trendingRank": 539,
-    "isHot": false
+    "isHot": false,
+    "updatedAt": "2026-03-31T07:17:28.949Z"
   },
   {
     "id": "travisvn-langsmith-fetch",
@@ -126851,7 +127929,8 @@
     "rank": 539,
     "rankScore": 17,
     "trendingRank": 540,
-    "isHot": false
+    "isHot": false,
+    "updatedAt": "2026-03-31T07:17:28.949Z"
   },
   {
     "id": "travisvn-move-code-quality",
@@ -126889,7 +127968,8 @@
     "rank": 540,
     "rankScore": 17,
     "trendingRank": 541,
-    "isHot": false
+    "isHot": false,
+    "updatedAt": "2026-03-31T07:17:28.949Z"
   },
   {
     "id": "travisvn-pypict",
@@ -126927,7 +128007,8 @@
     "rank": 541,
     "rankScore": 17,
     "trendingRank": 542,
-    "isHot": false
+    "isHot": false,
+    "updatedAt": "2026-03-31T07:17:28.949Z"
   },
   {
     "id": "travisvn-reddit-fetch",
@@ -126965,7 +128046,8 @@
     "rank": 542,
     "rankScore": 17,
     "trendingRank": 543,
-    "isHot": false
+    "isHot": false,
+    "updatedAt": "2026-03-31T07:17:28.949Z"
   },
   {
     "id": "travisvn-software-architecture",
@@ -127003,7 +128085,8 @@
     "rank": 543,
     "rankScore": 17,
     "trendingRank": 544,
-    "isHot": false
+    "isHot": false,
+    "updatedAt": "2026-03-31T07:17:28.949Z"
   },
   {
     "id": "travisvn-subagent-driven",
@@ -127041,7 +128124,8 @@
     "rank": 544,
     "rankScore": 17,
     "trendingRank": 545,
-    "isHot": false
+    "isHot": false,
+    "updatedAt": "2026-03-31T07:17:28.949Z"
   },
   {
     "id": "travisvn-tdd-skill",
@@ -127079,7 +128163,8 @@
     "rank": 545,
     "rankScore": 17,
     "trendingRank": 546,
-    "isHot": false
+    "isHot": false,
+    "updatedAt": "2026-03-31T07:17:28.949Z"
   },
   {
     "id": "travisvn-git-worktrees",
@@ -127117,7 +128202,8 @@
     "rank": 546,
     "rankScore": 17,
     "trendingRank": 547,
-    "isHot": false
+    "isHot": false,
+    "updatedAt": "2026-03-31T07:17:28.949Z"
   },
   {
     "id": "travisvn-prompt-engineering",
@@ -127155,7 +128241,8 @@
     "rank": 547,
     "rankScore": 17,
     "trendingRank": 548,
-    "isHot": false
+    "isHot": false,
+    "updatedAt": "2026-03-31T07:17:28.949Z"
   },
   {
     "id": "travisvn-aws-skills",
@@ -127193,7 +128280,8 @@
     "rank": 548,
     "rankScore": 17,
     "trendingRank": 549,
-    "isHot": false
+    "isHot": false,
+    "updatedAt": "2026-03-31T07:17:28.949Z"
   },
   {
     "id": "travisvn-finishing-branch",
@@ -127231,7 +128319,8 @@
     "rank": 549,
     "rankScore": 17,
     "trendingRank": 550,
-    "isHot": false
+    "isHot": false,
+    "updatedAt": "2026-03-31T07:17:28.949Z"
   },
   {
     "id": "diet103-claude-code-infrastructure",
@@ -127269,7 +128358,8 @@
     "rank": 550,
     "rankScore": 17,
     "trendingRank": 551,
-    "isHot": false
+    "isHot": false,
+    "updatedAt": "2026-03-31T07:17:28.949Z"
   },
   {
     "id": "prasad-chalasani-claude-code-tools",
@@ -127307,13 +128397,14 @@
     "rank": 551,
     "rankScore": 17,
     "trendingRank": 552,
-    "isHot": false
+    "isHot": false,
+    "updatedAt": "2026-03-31T07:17:28.949Z"
   },
   {
     "id": "Whamp-zai-glm-skills",
     "name": "Zai Glm Skills",
     "slug": "zai-glm-skills",
-    "description": "",
+    "description": "This is a Claude Code skill designed to help agents use ZAI MCP servers more successfully on their first attempt.",
     "aiDescription": "This is a Claude Code skill designed to help agents use ZAI MCP servers more successfully on their first attempt.",
     "author": "Whamp",
     "githubUrl": "https://github.com/Whamp/zai-glm-skills",
@@ -127323,7 +128414,12 @@
     "language": null,
     "license": null,
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "llm",
+      "ai",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/Whamp/zai-glm-skills.git",
     "createdAt": "2026-01-07T18:31:40Z",
     "updatedAt": "2026-01-12T17:50:02Z",
@@ -127387,7 +128483,7 @@
     "id": "bytifycorp-blog-posts",
     "name": "Blog Posts",
     "slug": "blog-posts",
-    "description": "",
+    "description": "[FLAGGED] No description available. Source: https://github.com/bytifycorp/blog-posts",
     "aiDescription": "Blog Posts is a skill for Claude Code that enhances your development workflow.",
     "author": "bytifycorp",
     "githubUrl": "https://github.com/bytifycorp/blog-posts",
@@ -127397,7 +128493,12 @@
     "language": "MDX",
     "license": null,
     "category": "communication",
-    "tags": [],
+    "tags": [
+      "blogging",
+      "communication",
+      "github",
+      "writing"
+    ],
     "installCommand": "git clone https://github.com/bytifycorp/blog-posts.git",
     "createdAt": "2024-08-03T10:31:42Z",
     "updatedAt": "2024-11-01T09:39:19Z",
@@ -127706,7 +128807,12 @@
     "language": null,
     "license": null,
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "llm",
+      "ai",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/milc3sar/AtomicCommit-Pro.git",
     "createdAt": "2026-01-16T05:14:06Z",
     "updatedAt": "2026-01-16T06:58:59Z",
@@ -127770,7 +128876,12 @@
     "language": null,
     "license": null,
     "category": "communication",
-    "tags": [],
+    "tags": [
+      "communication",
+      "github",
+      "notes",
+      "writing"
+    ],
     "installCommand": "git clone https://github.com/rugbylug/Meeting-notes.git",
     "createdAt": "2018-08-01T08:35:11Z",
     "updatedAt": "2018-10-18T20:31:02Z",
@@ -127842,7 +128953,14 @@
     "language": null,
     "license": null,
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "ai-agents",
+      "agents",
+      "llm",
+      "ai",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/vlmutolo/skills.git",
     "createdAt": "2025-11-13T20:05:56Z",
     "updatedAt": "2025-11-13T20:36:07Z",
@@ -127911,7 +129029,11 @@
     "language": null,
     "license": null,
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "developer-tools",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/FreeChase/VscodeNote.git",
     "createdAt": "2025-11-14T06:46:39Z",
     "updatedAt": "2025-11-25T00:52:48Z",
@@ -127975,7 +129097,12 @@
     "language": null,
     "license": null,
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "mcp",
+      "developer-tools",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/EduardoRemedios/MCP-Builder-Skill.git",
     "createdAt": "2025-11-10T13:54:43Z",
     "updatedAt": "2025-11-10T13:55:37Z",
@@ -128044,7 +129171,12 @@
     "language": null,
     "license": null,
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "llm",
+      "ai",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/NangoHQ/function-builder.git",
     "createdAt": "2025-12-17T09:38:11Z",
     "updatedAt": "2025-12-19T19:07:45Z",
@@ -128163,7 +129295,13 @@
     "language": "Shell",
     "license": null,
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "agents",
+      "llm",
+      "ai",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/mehdic/auto-review-agent.git",
     "createdAt": "2025-11-03T14:24:07Z",
     "updatedAt": "2025-11-07T09:18:06Z",
@@ -128505,7 +129643,11 @@
     "language": null,
     "license": null,
     "category": "productivity",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "github",
+      "productivity"
+    ],
     "installCommand": "git clone https://github.com/ljqdeGolang/Studynotebook.git",
     "createdAt": "2021-01-21T03:27:03Z",
     "updatedAt": "2025-03-02T12:14:55Z",
@@ -128801,7 +129943,7 @@
     "id": "venkatthirupathi-Murf_ai_Agent",
     "name": "Murf Ai Agent",
     "slug": "murf-ai-agent",
-    "description": "",
+    "description": "A full-stack conversational AI voice agent built as part of the #30DaysofVoiceAgents challenge with Murf AI! This project combines speech-to-text, powerful LLM conversation, and realistic voice synthesis, wrapped in a modern, voice-centric UI with real-time streaming capabilities.",
     "aiDescription": "A full-stack conversational AI voice agent built as part of the #30DaysofVoiceAgents challenge with Murf AI! This project combines speech-to-text, powerful LLM conversation, and realistic voice synthesis, wrapped in a modern, voice-centric UI with **real-time streaming capabilities**.",
     "author": "venkatthirupathi",
     "githubUrl": "https://github.com/venkatthirupathi/Murf_ai_Agent",
@@ -128811,7 +129953,14 @@
     "language": "Python",
     "license": null,
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "ai-agents",
+      "agents",
+      "llm",
+      "ai",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/venkatthirupathi/Murf_ai_Agent.git",
     "createdAt": "2025-08-29T18:10:43Z",
     "updatedAt": "2025-08-31T13:03:06Z",
@@ -130395,7 +131544,13 @@
     "language": "JavaScript",
     "license": "MIT",
     "category": "creative-design",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "claude",
+      "creative",
+      "design",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/WilliamxLeismer/hw-concept.git",
     "createdAt": "2026-01-04T23:28:21Z",
     "updatedAt": "2026-01-24T01:58:28Z",
@@ -130723,7 +131878,12 @@
     "language": "Shell",
     "license": null,
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "cli",
+      "developer-tools",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/Napageneral/skill-cli-template.git",
     "createdAt": "2026-01-12T00:52:03Z",
     "updatedAt": "2026-01-12T00:52:08Z",
@@ -130790,7 +131950,11 @@
     "language": "Python",
     "license": "MIT",
     "category": "automation",
-    "tags": [],
+    "tags": [
+      "agents",
+      "automation",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/kyloqchen0858/kylopro.git",
     "createdAt": "2026-03-07T07:31:50Z",
     "updatedAt": "2026-03-09T05:11:08Z",
@@ -131199,7 +132363,12 @@
     "language": null,
     "license": null,
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "claude",
+      "developer-tools",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/slavingia/skills.git",
     "createdAt": "2025-11-13T20:05:56Z",
     "updatedAt": "2025-11-13T20:36:07Z",
@@ -131259,7 +132428,11 @@
     "language": "Vue",
     "license": null,
     "category": "development-tools",
-    "tags": [],
+    "tags": [
+      "claude-code",
+      "developer-tools",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/chihpao/dinner-picker.git",
     "createdAt": "2025-10-22T06:20:56Z",
     "updatedAt": "2026-03-18T02:50:09Z",
@@ -131583,7 +132756,12 @@
     "language": "Python",
     "license": null,
     "category": "ai-llm",
-    "tags": [],
+    "tags": [
+      "claude",
+      "llm",
+      "ai",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/1055373165/Better-Prompt.git",
     "createdAt": "2026-03-10T04:49:14Z",
     "updatedAt": "2026-03-20T10:48:20Z",
@@ -131927,7 +133105,11 @@
     "language": "Vue",
     "license": null,
     "category": "creative-design",
-    "tags": [],
+    "tags": [
+      "creative",
+      "design",
+      "github"
+    ],
     "installCommand": "git clone https://github.com/neatsarab/GAP-Design-System.git",
     "createdAt": "2026-03-09T14:20:16Z",
     "updatedAt": "2026-03-24T06:39:56Z",
@@ -132267,7 +133449,12 @@
     "language": null,
     "license": null,
     "category": "document-processing",
-    "tags": [],
+    "tags": [
+      "document-processing",
+      "documents",
+      "github",
+      "markdown"
+    ],
     "installCommand": "git clone https://github.com/NeuroSkill-com/skills.git",
     "createdAt": "2025-11-13T20:05:56Z",
     "updatedAt": "2025-11-13T20:36:07Z",
