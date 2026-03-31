@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { FAQJsonLd } from '@/components/seo/FAQJsonLd';
 
 const faqs = [
   {
@@ -57,6 +58,8 @@ export function FAQSection() {
   };
 
   return (
+    <>
+    <FAQJsonLd items={faqs} />
     <section className="py-24 relative overflow-hidden">
       <div className="absolute inset-0 grid-bg opacity-30" />
 
@@ -163,5 +166,6 @@ export function FAQSection() {
         </div>
       </div>
     </section>
+    </>
   );
 }

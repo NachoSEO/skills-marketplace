@@ -35,7 +35,11 @@ const languageColors: Record<string, string> = {
   Lua: '#000080',
 };
 
-export const dynamic = 'force-dynamic';
+export function generateStaticParams() {
+  const skills = getSkillsSync();
+  const languages = getUniqueLanguages(skills);
+  return languages.map((lang) => ({ language: slugify(lang) }));
+}
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { language: languageSlug } = await params;

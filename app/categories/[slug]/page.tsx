@@ -3,13 +3,19 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { SkillGrid } from '@/components/skills/SkillGrid';
 import { SearchBar } from '@/components/search/SearchBar';
-import { getCategoryBySlug, getSkillsSync, getSkillsByCategory } from '@/lib/skills';
+import { BreadcrumbJsonLd } from '@/components/seo/BreadcrumbJsonLd';
+import { getCategoryBySlug, getSkillsSync, getSkillsByCategory, getCategories } from '@/lib/skills';
+
+const BASE_URL = 'https://skillsforge.dev';
 
 interface Props {
   params: Promise<{ slug: string }>;
 }
 
-export const dynamic = 'force-dynamic';
+export function generateStaticParams() {
+  const categories = getCategories();
+  return categories.map((cat) => ({ slug: cat.slug }));
+}
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
@@ -24,6 +30,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: category.name,
     description: category.description,
+    alternates: { canonical: `/categories/${slug}` },
+    openGraph: {
+      title: `Claude Skills for ${category.name} | SkillsForge`,
+      description: category.description,
+      type: 'website',
+      url: `${BASE_URL}/categories/${slug}`,
+    },
   };
 }
 
@@ -38,7 +51,15 @@ export default async function CategoryPage({ params }: Props) {
   const skills = getSkillsSync();
   const categorySkills = getSkillsByCategory(skills, slug);
 
+  const breadcrumbItems = [
+    { name: 'Home', url: BASE_URL },
+    { name: 'Categories', url: `${BASE_URL}/categories` },
+    { name: category.name, url: `${BASE_URL}/categories/${slug}` },
+  ];
+
   return (
+    <>
+    <BreadcrumbJsonLd items={breadcrumbItems} />
     <div className="min-h-screen py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <nav className="flex items-center gap-2 text-sm text-muted mb-8">
@@ -91,5 +112,6 @@ export default async function CategoryPage({ params }: Props) {
         />
       </div>
     </div>
+    </>
   );
 }

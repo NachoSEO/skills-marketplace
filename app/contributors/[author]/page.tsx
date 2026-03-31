@@ -3,13 +3,19 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { SkillGrid } from '@/components/skills/SkillGrid';
-import { getSkillsSync, getSkillsByAuthor, getContributorByAuthor } from '@/lib/skills';
+import { getSkillsSync, getSkillsByAuthor, getContributorByAuthor, getContributorsWithStats } from '@/lib/skills';
+
+const BASE_URL = 'https://skillsforge.dev';
 
 interface Props {
   params: Promise<{ author: string }>;
 }
 
-export const dynamic = 'force-dynamic';
+export function generateStaticParams() {
+  const skills = getSkillsSync();
+  const contributors = getContributorsWithStats(skills);
+  return contributors.map((c) => ({ author: c.author }));
+}
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { author } = await params;
@@ -25,6 +31,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${author} - Claude Code Skills Contributor`,
     description: `${author} has contributed ${contributor.skillCount} skill${contributor.skillCount !== 1 ? 's' : ''} with ${contributor.totalStars.toLocaleString()} total stars.`,
+    alternates: { canonical: `/contributors/${author}` },
+    openGraph: {
+      title: `${author} - Claude Code Skills Contributor | SkillsForge`,
+      description: `${author} has contributed ${contributor.skillCount} skill${contributor.skillCount !== 1 ? 's' : ''} with ${contributor.totalStars.toLocaleString()} total stars.`,
+      type: 'website',
+      url: `${BASE_URL}/contributors/${author}`,
+    },
   };
 }
 

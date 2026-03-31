@@ -29,7 +29,10 @@ interface Props {
   params: Promise<{ slug: string }>;
 }
 
-export const dynamic = 'force-dynamic';
+export async function generateStaticParams() {
+  const skills = getSkillsSync();
+  return skills.map((skill) => ({ slug: skill.slug }));
+}
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
