@@ -2,6 +2,7 @@ import 'dotenv/config';
 import * as fs from 'fs';
 import * as path from 'path';
 import type { SkillRegistry, SkillCacheEntry, GitHubRepo, Skill, SkillsIndex, FileNode } from '../types';
+import { sanitizeUserContent } from '../lib/guardrails';
 
 const GITHUB_API_BASE = 'https://api.github.com';
 const GITHUB_RAW_BASE = 'https://raw.githubusercontent.com';
@@ -556,12 +557,14 @@ async function main() {
     const formattedName = formatSkillName(name);
     const description = entry.description || '';
 
-    // Extract description from README instead of using AI
+    // Extract description from README instead of using AI.
+    // Sanitize to strip any prompt injection patterns before storing in data files.
     const readmeDescription = cached?.readme ? extractDescriptionFromReadme(cached.readme) : null;
-    const aiDescription = cached?.aiDescription || readmeDescription || (description
+    const rawAiDescription = cached?.aiDescription || readmeDescription || (description
       ? `${formattedName} provides ${description.toLowerCase().replace(/^[a-z]/, c => c.toLowerCase())}`
       : `${formattedName} is a skill for Claude Code that enhances your development workflow.`
     );
+    const aiDescription = sanitizeUserContent(rawAiDescription);
 
     // Derive code signals from file structure
     const codeSignals = deriveCodeSignals(cached?.fileStructure || null);

@@ -2,6 +2,7 @@ import 'dotenv/config';
 import * as fs from 'fs';
 import * as path from 'path';
 import type { Skill } from '../types';
+import { buildSafeSkillText } from '../lib/guardrails';
 
 const OPENAI_API_URL = 'https://api.openai.com/v1/embeddings';
 const MODEL = 'text-embedding-3-small';
@@ -17,14 +18,6 @@ interface EmbeddingsOutput {
   model: string;
   dimensions: number;
   embeddings: Record<string, number[]>;
-}
-
-function buildSkillText(skill: Skill): string {
-  const parts = [skill.name, skill.description];
-  if (skill.aiDescription) parts.push(skill.aiDescription);
-  if (skill.category) parts.push(`Category: ${skill.category}`);
-  if (skill.tags.length > 0) parts.push(`Tags: ${skill.tags.join(', ')}`);
-  return parts.filter(Boolean).join(' ');
 }
 
 async function fetchEmbeddingsBatch(texts: string[], apiKey: string): Promise<number[][]> {
@@ -99,7 +92,7 @@ async function main() {
 
   for (let i = 0; i < pending.length; i += BATCH_SIZE) {
     const batch = pending.slice(i, i + BATCH_SIZE);
-    const texts = batch.map(buildSkillText);
+    const texts = batch.map(buildSafeSkillText);
 
     try {
       const batchEmbeddings = await fetchEmbeddingsBatch(texts, apiKey);

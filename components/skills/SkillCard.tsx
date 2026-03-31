@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import type { Skill } from '@/types';
+import { sanitizeUserContent } from '@/lib/guardrails';
 
 interface SkillCardProps {
   skill: Skill;
@@ -63,7 +64,7 @@ export function SkillCard({ skill }: SkillCardProps) {
 
         {/* Description */}
         <p className="text-sm text-muted line-clamp-2 mb-4 group-hover:text-muted-foreground transition-colors">
-          {skill.description}
+          {sanitizeUserContent(skill.description)}
         </p>
 
         {/* Footer */}
