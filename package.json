@@ -14,6 +14,11 @@
     "compute:similarities": "tsx scripts/compute-similarities.ts",
     "compute:embeddings": "tsx scripts/compute-embeddings.ts",
     "ingest": "npm run discover:skills && npm run generate:skills && npm run compute:rankings && npm run compute:similarities && npm run compute:embeddings",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui",
     "build:cloudflare": "npx opennextjs-cloudflare build",
     "preview": "npx opennextjs-cloudflare build && npx wrangler dev",
     "deploy": "npx opennextjs-cloudflare build && npx wrangler deploy"
