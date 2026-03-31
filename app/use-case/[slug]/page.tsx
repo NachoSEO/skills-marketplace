@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { SkillGrid } from '@/components/skills/SkillGrid';
 import { BreadcrumbJsonLd } from '@/components/seo/BreadcrumbJsonLd';
 import { FAQJsonLd } from '@/components/seo/FAQJsonLd';
+import { ItemListJsonLd } from '@/components/seo/ItemListJsonLd';
 import { getSkillsSync, getUseCases, getUseCaseBySlug, getSkillsByUseCase } from '@/lib/skills';
 
 const BASE_URL = 'https://skillsforge.dev';
@@ -58,6 +59,11 @@ export default async function UseCasePage({ params }: Props) {
   return (
     <>
       <BreadcrumbJsonLd items={breadcrumbItems} />
+      <ItemListJsonLd
+        skills={useCaseSkills}
+        listName={useCase.headline}
+        listUrl={`${BASE_URL}/use-case/${slug}`}
+      />
       {useCase.faq.length > 0 && <FAQJsonLd items={useCase.faq} />}
 
       <div className="min-h-screen py-12">

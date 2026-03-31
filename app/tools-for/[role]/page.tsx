@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { SkillGrid } from '@/components/skills/SkillGrid';
 import { BreadcrumbJsonLd } from '@/components/seo/BreadcrumbJsonLd';
+import { ItemListJsonLd } from '@/components/seo/ItemListJsonLd';
 import { getSkillsSync, getRoles, getRoleBySlug, getSkillsByRole } from '@/lib/skills';
 
 const BASE_URL = 'https://skillsforge.dev';
@@ -57,6 +58,11 @@ export default async function ToolsForRolePage({ params }: Props) {
   return (
     <>
       <BreadcrumbJsonLd items={breadcrumbItems} />
+      <ItemListJsonLd
+        skills={roleSkills}
+        listName={role.headline}
+        listUrl={`${BASE_URL}/tools-for/${roleSlug}`}
+      />
 
       <div className="min-h-screen py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
