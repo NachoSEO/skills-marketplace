@@ -1,0 +1,102 @@
+[
+  {
+    "slug": "getting-started-with-claude-code",
+    "title": "Getting Started with Claude Code",
+    "headline": "Essential Skills for New Claude Code Users",
+    "description": "The best starter skills for developers new to Claude Code — carefully curated to get you productive in your first session.",
+    "intro": "New to Claude Code? These skills give you immediate value. From basic code generation to file management, debugging helpers, and workflow automation — this collection covers the fundamentals every Claude Code developer needs.",
+    "tags": ["claude-code", "getting-started", "beginner"],
+    "categories": ["development-tools"],
+    "featured": true
+  },
+  {
+    "slug": "top-ai-agents",
+    "title": "Top AI Agents & Agentic Skills",
+    "headline": "The Best Agentic AI Skills on SkillsForge",
+    "description": "Curated collection of the highest-rated agentic AI skills — skills that can plan, execute multi-step tasks, use tools, and work autonomously on your behalf.",
+    "intro": "Agentic skills go beyond single-turn assistance. These skills can plan tasks, use external tools, browse the web, write and execute code, and complete multi-step workflows with minimal supervision. This collection showcases the best of what AI agents can do.",
+    "tags": ["ai-agents", "agent", "agentic-ai", "autonomous"],
+    "categories": ["ai-llm"],
+    "featured": true
+  },
+  {
+    "slug": "mcp-tools",
+    "title": "Model Context Protocol (MCP) Tools",
+    "headline": "Best MCP Skills and Integrations",
+    "description": "The top Model Context Protocol skills — connecting Claude Code to databases, APIs, file systems, and external services through standardized tool interfaces.",
+    "intro": "MCP (Model Context Protocol) is the standard for giving AI agents access to external tools and data sources. This collection features the best MCP-compatible skills that extend what Claude Code can access and automate.",
+    "tags": ["mcp", "model-context-protocol", "tools"],
+    "categories": ["ai-llm", "automation"],
+    "featured": false
+  },
+  {
+    "slug": "automation-workflows",
+    "title": "Automation & Workflow Skills",
+    "headline": "Top Skills for Automating Repetitive Work",
+    "description": "Skills that automate your most repetitive workflows — from n8n automation to CI/CD pipelines, scheduled tasks, and multi-step business process automation.",
+    "intro": "Stop doing the same tasks repeatedly. This collection features skills that automate workflows, connect services, schedule tasks, and build automated pipelines — so you can focus on the work that actually requires human judgment.",
+    "tags": ["automation", "workflow", "n8n", "scheduling"],
+    "categories": ["automation"],
+    "featured": false
+  },
+  {
+    "slug": "seo-skills",
+    "title": "SEO & Search Optimization Skills",
+    "headline": "Best Claude Code Skills for SEO",
+    "description": "The top AI skills for SEO — technical audits, keyword research, content optimization, structured data generation, and programmatic SEO workflows.",
+    "intro": "Search engine optimization requires both technical precision and content strategy. This collection brings together the best skills for auditing sites, optimizing content, generating structured data, and building SEO-driven content at scale.",
+    "tags": ["seo", "search", "technical-seo", "content-optimization"],
+    "categories": ["seo-search", "business-marketing"],
+    "featured": false
+  },
+  {
+    "slug": "developer-productivity",
+    "title": "Developer Productivity Boosters",
+    "headline": "Skills That 10x Developer Productivity",
+    "description": "Handpicked skills that have the highest impact on developer productivity — from fast code generation to smart autocomplete, git helpers, and project scaffolding.",
+    "intro": "The most productive developers aren't working harder — they're using better tools. This collection features skills that provide the highest return on time invested: cutting boilerplate, automating repetitive tasks, and accelerating the slow parts of your workflow.",
+    "tags": ["productivity", "developer-tools", "automation", "claude-code"],
+    "categories": ["development-tools", "productivity"],
+    "featured": true
+  },
+  {
+    "slug": "creative-design",
+    "title": "Creative Design & UI Skills",
+    "headline": "Top AI Skills for Designers and UI Developers",
+    "description": "The best Claude Code skills for creative work — UI component generation, design system scaffolding, CSS/Tailwind helpers, and design-to-code workflows.",
+    "intro": "Design and development are converging. This collection features skills that bridge the gap — generating UI components from Figma designs, scaffolding design systems, writing accessible Tailwind CSS, and creating polished interfaces from natural language descriptions.",
+    "tags": ["design", "ui", "css", "tailwind", "react"],
+    "categories": ["creative-design"],
+    "featured": false
+  },
+  {
+    "slug": "community-favorites",
+    "title": "Community Favorites",
+    "headline": "Most-Starred Skills on SkillsForge",
+    "description": "The most popular and highest-starred Claude Code skills as voted by the SkillsForge community — battle-tested, well-documented, and widely trusted.",
+    "intro": "These are the skills the community keeps coming back to. Sorted by GitHub stars and real-world usage, this collection represents the best the SkillsForge community has built and vetted — perfect starting points for any Claude Code workflow.",
+    "tags": ["popular", "community", "featured", "top-rated"],
+    "categories": [],
+    "featured": true
+  },
+  {
+    "slug": "security-and-devops",
+    "title": "Security & DevOps Essentials",
+    "headline": "Essential Skills for Security and DevOps Teams",
+    "description": "The top skills for security and DevOps engineers — vulnerability scanning, CI/CD automation, secrets management, container security, and infrastructure hardening.",
+    "intro": "Security and reliability require constant vigilance. This collection brings together the best skills for scanning vulnerabilities, automating secure deployments, managing secrets, hardening containers, and monitoring infrastructure — so your team can ship fast without sacrificing security.",
+    "tags": ["security", "devops", "docker", "ci-cd", "vulnerability"],
+    "categories": ["security", "devops-cicd"],
+    "featured": false
+  },
+  {
+    "slug": "writing-and-content",
+    "title": "Writing & Content Creation",
+    "headline": "AI Skills for Writers and Content Teams",
+    "description": "The best skills for content creation — blog writing, marketing copy, email campaigns, social media content, and brand voice maintenance.",
+    "intro": "Great content takes time to craft. This collection features skills that accelerate every stage of the content lifecycle: ideation, drafting, editing, repurposing, and publishing — so your team publishes more without burning out.",
+    "tags": ["writing", "content", "copywriting", "marketing", "blog"],
+    "categories": ["business-marketing", "creative-design"],
+    "featured": false
+  }
+]

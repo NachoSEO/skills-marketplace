@@ -1,0 +1,202 @@
+[
+  {
+    "slugA": "n8n-workflow-skills",
+    "slugB": "n8n-workflow-builder",
+    "nameA": "N8n Workflow Skills",
+    "nameB": "N8n Workflow Builder",
+    "score": 78,
+    "reason": "Both tagged with n8n, automation. Same category"
+  },
+  {
+    "slugA": "notebooklm-mcp",
+    "slugB": "notebooklm-skill",
+    "nameA": "Notebooklm Mcp",
+    "nameB": "Notebooklm Skill",
+    "score": 77,
+    "reason": "Same category"
+  },
+  {
+    "slugA": "n8n-mcp",
+    "slugB": "n8n-workflow-builder",
+    "nameA": "N8n Mcp",
+    "nameB": "N8n Workflow Builder",
+    "score": 76,
+    "reason": "Both tagged with n8n. Same category"
+  },
+  {
+    "slugA": "notebooklm-integration",
+    "slugB": "notebooklm-skill",
+    "nameA": "NotebookLM Integration",
+    "nameB": "Notebooklm Skill",
+    "score": 76,
+    "reason": "Same category"
+  },
+  {
+    "slugA": "claude-seo",
+    "slugB": "agentic-seo-skill",
+    "nameA": "Claude Seo",
+    "nameB": "Agentic SEO Skill",
+    "score": 73,
+    "reason": "Same category. Both use Python"
+  },
+  {
+    "slugA": "claude-api",
+    "slugB": "theme-factory",
+    "nameA": "Claude Api",
+    "nameB": "Theme Factory",
+    "score": 69,
+    "reason": "Both use Python"
+  },
+  {
+    "slugA": "web-artifacts-builder",
+    "slugB": "theme-factory",
+    "nameA": "Web Artifacts Builder",
+    "nameB": "Theme Factory",
+    "score": 69,
+    "reason": "Both use Python"
+  },
+  {
+    "slugA": "template",
+    "slugB": "theme-factory",
+    "nameA": "Template",
+    "nameB": "Theme Factory",
+    "score": 69,
+    "reason": "Both use Python"
+  },
+  {
+    "slugA": "doc-coauthoring",
+    "slugB": "theme-factory",
+    "nameA": "Doc Coauthoring",
+    "nameB": "Theme Factory",
+    "score": 68,
+    "reason": "Both use Python"
+  },
+  {
+    "slugA": "htmx-claude-skill",
+    "slugB": "htmx-skill",
+    "nameA": "Htmx Claude Skill",
+    "nameB": "Htmx Skill",
+    "score": 68,
+    "reason": "Same category"
+  },
+  {
+    "slugA": "n8n-workflow-skills",
+    "slugB": "n8n-v2-workflow-skill",
+    "nameA": "N8n Workflow Skills",
+    "nameB": "N8n V2 Workflow Skill",
+    "score": 67,
+    "reason": "Both tagged with n8n. Same category"
+  },
+  {
+    "slugA": "n8n-workflow-builder",
+    "slugB": "n8n-v2-workflow-skill",
+    "nameA": "N8n Workflow Builder",
+    "nameB": "N8n V2 Workflow Skill",
+    "score": 67,
+    "reason": "Both tagged with n8n. Same category. Both use JavaScript"
+  },
+  {
+    "slugA": "jira-skill",
+    "slugB": "jira",
+    "nameA": "Jira Skill",
+    "nameB": "Jira",
+    "score": 67,
+    "reason": "Both tagged with claude-code-skill. Same category"
+  },
+  {
+    "slugA": "prompt-engineering",
+    "slugB": "prompt-engineering-skill",
+    "nameA": "Prompt Engineering",
+    "nameB": "Prompt Engineering Skill",
+    "score": 66,
+    "reason": "Same category"
+  },
+  {
+    "slugA": "notebooklm-mcp",
+    "slugB": "notebooklm-integration",
+    "nameA": "Notebooklm Mcp",
+    "nameB": "NotebookLM Integration",
+    "score": 65,
+    "reason": "Same category"
+  },
+  {
+    "slugA": "cc-hooks",
+    "slugB": "cc-tools",
+    "nameA": "CC Hooks",
+    "nameB": "CC Tools",
+    "score": 65,
+    "reason": "Both tagged with hooks. Same category"
+  },
+  {
+    "slugA": "n8n-mcp",
+    "slugB": "n8n-v2-workflow-skill",
+    "nameA": "N8n Mcp",
+    "nameB": "N8n V2 Workflow Skill",
+    "score": 64,
+    "reason": "Both tagged with n8n. Same category"
+  },
+  {
+    "slugA": "webapp-testing",
+    "slugB": "playwright-skill",
+    "nameA": "Webapp Testing",
+    "nameB": "Playwright Skill",
+    "score": 62,
+    "reason": "Both tagged with testing, playwright. Same category"
+  },
+  {
+    "slugA": "notebooklm-py",
+    "slugB": "notebooklm-mcp",
+    "nameA": "Notebooklm Py",
+    "nameB": "Notebooklm Mcp",
+    "score": 61,
+    "reason": "Same category"
+  },
+  {
+    "slugA": "mcp",
+    "slugB": "dev-browser",
+    "nameA": "Mcp",
+    "nameB": "Dev Browser",
+    "score": 61,
+    "reason": "Same category. Both use TypeScript"
+  },
+  {
+    "slugA": "seo-machine",
+    "slugB": "claude-code-seo",
+    "nameA": "SEO Machine",
+    "nameB": "Claude Code SEO",
+    "score": 61,
+    "reason": "Both tagged with seo. Same category"
+  },
+  {
+    "slugA": "tdd-guard",
+    "slugB": "test-driven-development",
+    "nameA": "TDD Guard",
+    "nameB": "Test Driven Development",
+    "score": 59,
+    "reason": "Both tagged with tdd, testing. Same category"
+  },
+  {
+    "slugA": "agentic-seo-skill",
+    "slugB": "ultimate-seo-geo",
+    "nameA": "Agentic SEO Skill",
+    "nameB": "Ultimate Seo Geo",
+    "score": 59,
+    "reason": "Both tagged with ai-skill, ai-skills. Same category. Both use Python"
+  },
+  {
+    "slugA": "n8n-skills",
+    "slugB": "n8n-v2-workflow-skill",
+    "nameA": "N8n Skills",
+    "nameB": "N8n V2 Workflow Skill",
+    "score": 59,
+    "reason": "Both tagged with n8n"
+  },
+  {
+    "slugA": "aws-skills",
+    "slugB": "aws-associate-solutions-architect",
+    "nameA": "AWS Skills",
+    "nameB": "Aws Associate Solutions Architect",
+    "score": 59,
+    "reason": "Same category"
+  }
+]

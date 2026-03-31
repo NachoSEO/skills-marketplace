@@ -1,0 +1,122 @@
+[
+  {
+    "slug": "software-engineer",
+    "title": "Software Engineer",
+    "headline": "Best Claude Code Skills for Software Engineers",
+    "description": "The top-rated Claude Code skills for software engineers — covering code review, refactoring, debugging, testing, documentation, and more.",
+    "intro": "Software engineers use Claude Code to write better code faster. Whether you need help with code review, generating tests, debugging tricky errors, or documenting your API — these are the skills trusted by developers shipping production software.",
+    "howTo": "Install a skill with the command shown on each listing. Most skills work inside your existing Claude Code session — just invoke the skill name and it picks up your current file context.",
+    "tags": ["claude-code", "development-tools", "testing", "debugging", "refactoring"],
+    "categories": ["development-tools"]
+  },
+  {
+    "slug": "devops-engineer",
+    "title": "DevOps Engineer",
+    "headline": "Best Claude Code Skills for DevOps Engineers",
+    "description": "Top Claude Code skills for DevOps engineers — Dockerfiles, CI/CD pipelines, Kubernetes manifests, infrastructure as code, and deployment automation.",
+    "intro": "DevOps engineers use these skills to automate repetitive infrastructure tasks: generating Dockerfiles, writing GitHub Actions pipelines, creating Kubernetes configs, and managing Terraform modules — all from plain language descriptions.",
+    "howTo": "Describe your infrastructure requirements in plain English and the skill generates the configuration files. Most DevOps skills also support iterative editing — paste existing config and ask for specific changes.",
+    "tags": ["devops", "docker", "kubernetes", "ci-cd", "terraform"],
+    "categories": ["devops-cicd"]
+  },
+  {
+    "slug": "data-scientist",
+    "title": "Data Scientist",
+    "headline": "Best Claude Code Skills for Data Scientists",
+    "description": "Discover the best AI skills for data scientists — data cleaning, exploratory analysis, visualization, ML model scaffolding, and pipeline automation.",
+    "intro": "Data scientists use these skills to accelerate the time from raw data to insights. Generate Pandas transformations, SQL queries, Matplotlib visualizations, and scikit-learn model scaffolding — all from natural language descriptions of what you want to analyze.",
+    "howTo": "Share your dataset schema or paste a sample CSV and describe your analysis goal. The skill writes the Python or SQL code, which you can run and iterate on. Works great with Jupyter notebooks.",
+    "tags": ["data-science", "python", "sql", "machine-learning", "data-analysis"],
+    "categories": ["data-analysis"]
+  },
+  {
+    "slug": "frontend-developer",
+    "title": "Frontend Developer",
+    "headline": "Best Claude Code Skills for Frontend Developers",
+    "description": "Top Claude Code skills for frontend developers — React components, CSS/Tailwind, accessibility auditing, performance optimization, and UI testing.",
+    "intro": "Frontend developers use these skills to build UI faster: generating React components, writing Tailwind styles, auditing accessibility, creating Storybook stories, and optimizing Core Web Vitals — all without leaving your editor.",
+    "howTo": "Describe the UI component or feature you need and the skill generates production-ready code. For design-to-code workflows, paste Figma specs or screenshots and let the skill translate them to components.",
+    "tags": ["react", "frontend", "css", "tailwind", "accessibility"],
+    "categories": ["development-tools", "creative-design"]
+  },
+  {
+    "slug": "backend-developer",
+    "title": "Backend Developer",
+    "headline": "Best Claude Code Skills for Backend Developers",
+    "description": "Best Claude Code skills for backend developers — API design, database queries, authentication, caching, and server-side architecture.",
+    "intro": "Backend developers use these skills to build robust services faster: designing REST and GraphQL APIs, writing optimized database queries, implementing auth flows, caching strategies, and generating OpenAPI specs from existing code.",
+    "howTo": "Describe your service requirements — endpoints, data models, auth rules — and the skill scaffolds the implementation. Works with Node.js, Python (FastAPI/Django), Go, and other popular backend stacks.",
+    "tags": ["api", "backend", "database", "authentication", "nodejs"],
+    "categories": ["development-tools"]
+  },
+  {
+    "slug": "product-manager",
+    "title": "Product Manager",
+    "headline": "Best Claude Code Skills for Product Managers",
+    "description": "Claude Code skills for product managers — user story writing, PRD generation, competitive analysis, roadmap planning, and stakeholder communication.",
+    "intro": "Product managers use these skills to work more efficiently across the product lifecycle: writing crisp user stories and acceptance criteria, generating product requirement documents, summarizing research, and translating technical complexity into stakeholder-friendly updates.",
+    "howTo": "Most PM skills work with unstructured input — paste raw notes, user feedback, or a feature idea and the skill structures it into a usable artifact (user story, PRD section, or stakeholder summary).",
+    "tags": ["product-management", "user-stories", "prd", "roadmap"],
+    "categories": ["productivity", "business-marketing"]
+  },
+  {
+    "slug": "security-engineer",
+    "title": "Security Engineer",
+    "headline": "Best Claude Code Skills for Security Engineers",
+    "description": "Top Claude Code skills for security engineers — vulnerability scanning, dependency auditing, threat modeling, penetration testing assistance, and secure code generation.",
+    "intro": "Security engineers use these skills to catch vulnerabilities early, audit dependencies for CVEs, model threat surfaces, and generate secure-by-default code patterns — shifting security left in the development process.",
+    "howTo": "Point the skill at a repository, file, or dependency manifest. Most security skills output findings in SARIF or structured JSON so you can integrate them into your existing security workflow or CI pipeline.",
+    "tags": ["security", "vulnerability", "audit", "pen-testing"],
+    "categories": ["security"]
+  },
+  {
+    "slug": "technical-writer",
+    "title": "Technical Writer",
+    "headline": "Best Claude Code Skills for Technical Writers",
+    "description": "Claude Code skills for technical writers — generating docs from code, API reference creation, README writing, style guide enforcement, and docs-as-code workflows.",
+    "intro": "Technical writers use these skills to produce accurate, up-to-date documentation at scale: auto-generating API reference from code, writing tutorials, enforcing style guides, and keeping docs in sync as the codebase evolves.",
+    "howTo": "Feed the skill a codebase, API spec, or draft document. It generates structured documentation you can refine. The best workflows integrate documentation skills into CI so docs update automatically with code.",
+    "tags": ["documentation", "technical-writing", "api-docs", "readme"],
+    "categories": ["document-processing"]
+  },
+  {
+    "slug": "ai-engineer",
+    "title": "AI / ML Engineer",
+    "headline": "Best Claude Code Skills for AI Engineers",
+    "description": "Top Claude Code skills for AI and ML engineers — prompt engineering, agent scaffolding, LLM evaluation, RAG pipelines, and model integration.",
+    "intro": "AI engineers use these skills to build, evaluate, and deploy AI systems: crafting effective prompts, scaffolding agentic workflows, building RAG pipelines, running LLM evaluations, and integrating models into production applications.",
+    "howTo": "Most AI engineering skills work within a Claude Code session where you describe the agent or pipeline behaviour you want. The skill generates the code structure, prompt templates, and evaluation harness.",
+    "tags": ["ai", "llm", "agents", "rag", "prompt-engineering"],
+    "categories": ["ai-llm"]
+  },
+  {
+    "slug": "startup-founder",
+    "title": "Startup Founder",
+    "headline": "Best Claude Code Skills for Startup Founders",
+    "description": "Claude Code skills for startup founders — MVP scaffolding, landing page copy, pitch deck content, SEO setup, and automating repetitive business tasks.",
+    "intro": "Startup founders use these skills to move fast with a small team: scaffolding an MVP codebase, writing landing page copy, generating pitch deck content, setting up basic SEO, and automating the repetitive tasks that would otherwise eat your day.",
+    "howTo": "Describe your startup idea, target audience, and specific need. These skills are designed for non-expert users — they take natural language input and produce usable output without requiring deep technical knowledge.",
+    "tags": ["startup", "mvp", "landing-page", "seo", "automation"],
+    "categories": ["business-marketing", "productivity"]
+  },
+  {
+    "slug": "content-creator",
+    "title": "Content Creator",
+    "headline": "Best Claude Code Skills for Content Creators",
+    "description": "AI skills for content creators — blog writing, social media content, YouTube scripts, newsletter drafts, and content repurposing across formats.",
+    "intro": "Content creators use these skills to produce more content without sacrificing quality: drafting blog posts, generating social media variants, writing YouTube scripts, repurposing long-form content into short clips, and maintaining consistent brand voice across channels.",
+    "howTo": "Share a topic, outline, or existing piece of content. The skill generates drafts, variants, or repurposed formats. Many content skills accept a brand voice guide or writing sample to match your existing style.",
+    "tags": ["content", "writing", "social-media", "blog", "copywriting"],
+    "categories": ["business-marketing", "creative-design"]
+  },
+  {
+    "slug": "marketing-manager",
+    "title": "Marketing Manager",
+    "headline": "Best Claude Code Skills for Marketing Managers",
+    "description": "Top AI skills for marketing managers — campaign copy, email sequences, SEO optimization, competitive analysis, and marketing analytics.",
+    "intro": "Marketing managers use these skills to run more effective campaigns: writing and A/B testing ad copy, creating email nurture sequences, auditing SEO, generating competitor analysis reports, and building marketing analytics dashboards.",
+    "howTo": "Describe your product, target audience, and campaign goal. The skill generates the marketing asset you need. For data-driven skills like SEO audits and analytics, provide your URL or data export.",
+    "tags": ["marketing", "seo", "email", "copywriting", "analytics"],
+    "categories": ["business-marketing", "seo-search"]
+  }
+]

@@ -1,7 +1,12 @@
 import type { Skill, Category, SkillRegistry, SkillCacheEntry, SkillsIndex, SkillSimilarities } from '@/types';
+import type { UseCase, Role, Collection, ComparePair } from '@/types/programmatic-seo';
 import { getRepoInfo, getSkillMdContent, parseSkillMd, generateInstallCommand } from './github';
 import skillsRegistry from '@/data/skills-registry.json';
 import categoriesData from '@/data/categories.json';
+import useCasesData from '@/data/use-cases.json';
+import rolesData from '@/data/roles.json';
+import collectionsData from '@/data/collections.json';
+import comparePairsData from '@/data/compare-pairs.json';
 
 let skillsDataCache: Skill[] | null = null;
 let skillsIndexCache: SkillsIndex | null = null;
@@ -315,6 +320,150 @@ export function getAlternativeSkills(
     .slice(0, limit)
     .map((skill) => ({ skill, score: 50, reason: 'Same category' }));
 }
+
+// --- Programmatic SEO helpers ---
+
+export function getUseCases(): UseCase[] {
+  return useCasesData as UseCase[];
+}
+
+export function getUseCaseBySlug(slug: string): UseCase | undefined {
+  return (useCasesData as UseCase[]).find((uc) => uc.slug === slug);
+}
+
+export function getSkillsByUseCase(skills: Skill[], useCase: UseCase): Skill[] {
+  const index = loadSkillsIndex();
+  const matchedSlugs = new Set<string>();
+
+  // Match by tags
+  for (const tag of useCase.tags) {
+    if (index?.tagIndex[tag]) {
+      for (const slug of index.tagIndex[tag]) matchedSlugs.add(slug);
+    } else {
+      for (const skill of skills) {
+        if (skill.tags.includes(tag)) matchedSlugs.add(skill.slug);
+      }
+    }
+  }
+
+  // Match by categories
+  for (const cat of useCase.categories) {
+    if (index?.categoryIndex[cat]) {
+      for (const slug of index.categoryIndex[cat]) matchedSlugs.add(slug);
+    } else {
+      for (const skill of skills) {
+        if (skill.category === cat) matchedSlugs.add(skill.slug);
+      }
+    }
+  }
+
+  return skills
+    .filter((s) => matchedSlugs.has(s.slug))
+    .sort((a, b) => (b.stars || 0) - (a.stars || 0));
+}
+
+export function getRoles(): Role[] {
+  return rolesData as Role[];
+}
+
+export function getRoleBySlug(slug: string): Role | undefined {
+  return (rolesData as Role[]).find((r) => r.slug === slug);
+}
+
+export function getSkillsByRole(skills: Skill[], role: Role): Skill[] {
+  const index = loadSkillsIndex();
+  const matchedSlugs = new Set<string>();
+
+  for (const tag of role.tags) {
+    if (index?.tagIndex[tag]) {
+      for (const slug of index.tagIndex[tag]) matchedSlugs.add(slug);
+    } else {
+      for (const skill of skills) {
+        if (skill.tags.includes(tag)) matchedSlugs.add(skill.slug);
+      }
+    }
+  }
+
+  for (const cat of role.categories) {
+    if (index?.categoryIndex[cat]) {
+      for (const slug of index.categoryIndex[cat]) matchedSlugs.add(slug);
+    } else {
+      for (const skill of skills) {
+        if (skill.category === cat) matchedSlugs.add(skill.slug);
+      }
+    }
+  }
+
+  return skills
+    .filter((s) => matchedSlugs.has(s.slug))
+    .sort((a, b) => (b.stars || 0) - (a.stars || 0));
+}
+
+export function getCollections(): Collection[] {
+  return collectionsData as Collection[];
+}
+
+export function getCollectionBySlug(slug: string): Collection | undefined {
+  return (collectionsData as Collection[]).find((c) => c.slug === slug);
+}
+
+export function getSkillsByCollection(skills: Skill[], collection: Collection): Skill[] {
+  if (collection.slug === 'community-favorites') {
+    return [...skills]
+      .filter((s) => (s.stars || 0) > 0)
+      .sort((a, b) => (b.stars || 0) - (a.stars || 0))
+      .slice(0, 30);
+  }
+
+  const index = loadSkillsIndex();
+  const matchedSlugs = new Set<string>();
+
+  for (const tag of collection.tags) {
+    if (index?.tagIndex[tag]) {
+      for (const slug of index.tagIndex[tag]) matchedSlugs.add(slug);
+    } else {
+      for (const skill of skills) {
+        if (skill.tags.includes(tag)) matchedSlugs.add(skill.slug);
+      }
+    }
+  }
+
+  for (const cat of collection.categories) {
+    if (index?.categoryIndex[cat]) {
+      for (const slug of index.categoryIndex[cat]) matchedSlugs.add(slug);
+    } else {
+      for (const skill of skills) {
+        if (skill.category === cat) matchedSlugs.add(skill.slug);
+      }
+    }
+  }
+
+  return skills
+    .filter((s) => matchedSlugs.has(s.slug))
+    .sort((a, b) => (b.rankScore || 0) - (a.rankScore || 0))
+    .slice(0, 30);
+}
+
+export function getComparePairs(): ComparePair[] {
+  return comparePairsData as ComparePair[];
+}
+
+export function getComparePairBySlug(slug: string): { pair: ComparePair; skillA: Skill; skillB: Skill } | null {
+  const skills = getSkillsSync();
+  const pairs = comparePairsData as ComparePair[];
+
+  for (const pair of pairs) {
+    const expectedSlug = `${pair.slugA}-vs-${pair.slugB}`;
+    if (expectedSlug === slug) {
+      const skillA = getSkillBySlug(skills, pair.slugA);
+      const skillB = getSkillBySlug(skills, pair.slugB);
+      if (skillA && skillB) return { pair, skillA, skillB };
+    }
+  }
+  return null;
+}
+
+// --- End programmatic SEO helpers ---
 
 export function getUniqueTags(skills: Skill[]): string[] {
   const tags = new Set<string>();

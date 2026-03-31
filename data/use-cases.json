@@ -1,0 +1,234 @@
+[
+  {
+    "slug": "code-review",
+    "title": "Code Review",
+    "headline": "AI Skills for Automated Code Review",
+    "description": "Discover the best Claude Code skills for automating code review, catching bugs, enforcing style guides, and shipping higher-quality code faster.",
+    "intro": "Code review is one of the highest-leverage activities in software development. These Claude Code skills bring AI-powered review to your workflow — catching bugs before they reach production, enforcing consistent style, and explaining complex changes to your team.",
+    "tags": ["testing", "code-review", "ci", "claude-code"],
+    "categories": ["development-tools"],
+    "faq": [
+      {
+        "question": "Can AI skills replace human code review?",
+        "answer": "AI code review skills are best used as a first pass — they catch common issues, enforce style, and flag potential bugs so human reviewers can focus on architecture and logic. They complement, rather than replace, human review."
+      },
+      {
+        "question": "Which code review skills work with GitHub PRs?",
+        "answer": "Several skills on SkillsForge integrate directly with GitHub pull requests, posting review comments automatically when you open or update a PR. Look for skills with CI/CD tags."
+      },
+      {
+        "question": "How do I install a code review skill?",
+        "answer": "Each skill listing shows an install command. For Claude Code skills, copy the command and run it in your project directory. The skill will be available for your next Claude Code session."
+      }
+    ]
+  },
+  {
+    "slug": "test-driven-development",
+    "title": "Test-Driven Development (TDD)",
+    "headline": "AI Skills for Test-Driven Development",
+    "description": "Find Claude Code skills that help you write tests first, generate test cases, and maintain high code coverage throughout your development workflow.",
+    "intro": "Test-driven development produces more reliable software but requires discipline and time. These AI skills make TDD faster by generating test stubs, suggesting edge cases, and running your tests in a tight feedback loop as you code.",
+    "tags": ["tdd", "testing", "test-driven-development"],
+    "categories": ["development-tools"],
+    "faq": [
+      {
+        "question": "Can AI generate meaningful test cases?",
+        "answer": "Yes — modern AI code skills can generate unit tests, integration tests, and edge case scenarios from your function signatures and existing code. They are especially good at covering boundary conditions humans often miss."
+      },
+      {
+        "question": "Do TDD skills work with Jest, Pytest, or other frameworks?",
+        "answer": "Most TDD skills are framework-agnostic and detect your test framework from the project. Many explicitly support Jest, Vitest, Pytest, RSpec, and Go's testing package."
+      }
+    ]
+  },
+  {
+    "slug": "documentation",
+    "title": "Documentation Generation",
+    "headline": "AI Skills for Automated Documentation",
+    "description": "Explore Claude Code skills that automatically write docstrings, generate API docs, create README files, and keep your documentation in sync with your code.",
+    "intro": "Good documentation is essential but time-consuming to write and maintain. These skills automate the tedious parts — generating docstrings from code, creating README files, building API references, and keeping docs updated as your codebase evolves.",
+    "tags": ["documentation", "readme", "api-docs"],
+    "categories": ["development-tools", "document-processing"],
+    "faq": [
+      {
+        "question": "Can documentation skills generate a full README?",
+        "answer": "Yes. Many skills can analyze your repository — code structure, package.json, existing docs — and produce a complete README covering installation, usage, API reference, and contributing guidelines."
+      },
+      {
+        "question": "Do documentation skills stay in sync with code changes?",
+        "answer": "Some skills run as a post-commit hook or CI step, updating docs automatically when relevant code changes. Others work on demand. Check the skill description for automation details."
+      }
+    ]
+  },
+  {
+    "slug": "debugging",
+    "title": "Debugging & Error Diagnosis",
+    "headline": "AI Skills for Faster Debugging",
+    "description": "Use Claude Code skills to trace bugs, analyze stack traces, identify root causes, and fix errors faster than ever before.",
+    "intro": "Debugging is where developers spend enormous amounts of time. These AI skills help you understand cryptic error messages, trace root causes through complex call stacks, and suggest targeted fixes — turning hours of debugging into minutes.",
+    "tags": ["debugging", "error-handling", "root-cause"],
+    "categories": ["development-tools"],
+    "faq": [
+      {
+        "question": "How do debugging skills handle runtime errors vs compile errors?",
+        "answer": "Most skills handle both. For compile errors they parse the error message and suggest a fix. For runtime errors they analyze the stack trace, inspect variable state if available, and reason about what went wrong."
+      },
+      {
+        "question": "Can debugging skills work with logs from production?",
+        "answer": "Yes — you can paste log output or stack traces directly into Claude Code and a debugging skill will analyze them. Some skills also integrate with log aggregators to pull context automatically."
+      }
+    ]
+  },
+  {
+    "slug": "refactoring",
+    "title": "Code Refactoring",
+    "headline": "AI Skills for Safe Code Refactoring",
+    "description": "Find Claude Code skills that help you safely refactor legacy code, modernize patterns, reduce complexity, and improve maintainability.",
+    "intro": "Refactoring large codebases is risky without the right tools. These AI skills identify code smells, suggest safer refactoring strategies, modernize outdated patterns, and generate tests before and after changes to ensure behaviour is preserved.",
+    "tags": ["refactoring", "clean-code", "code-quality"],
+    "categories": ["development-tools"],
+    "faq": [
+      {
+        "question": "How do refactoring skills avoid breaking existing behaviour?",
+        "answer": "The best skills generate a test harness before refactoring, make incremental changes, and verify tests still pass at each step. Always review generated diffs before committing."
+      },
+      {
+        "question": "Can refactoring skills handle large monolithic files?",
+        "answer": "Yes, though very large files benefit from being processed section by section. Many skills accept a file path or function name as a target so you can refactor incrementally."
+      }
+    ]
+  },
+  {
+    "slug": "api-integration",
+    "title": "API Integration",
+    "headline": "AI Skills for API Integration & Automation",
+    "description": "Discover skills that help you integrate third-party APIs, generate client code, handle authentication, and automate workflows between services.",
+    "intro": "Integrating APIs takes time you could spend building features. These skills generate typed API clients, handle OAuth flows, map data between schemas, and automate multi-step workflows — so you spend more time on your product and less on plumbing.",
+    "tags": ["api", "integration", "automation", "mcp"],
+    "categories": ["automation", "development-tools"],
+    "faq": [
+      {
+        "question": "Can these skills generate typed clients from an OpenAPI spec?",
+        "answer": "Yes. Provide a Swagger/OpenAPI spec and many skills will generate a fully typed client in TypeScript, Python, or Go with proper error handling and retry logic."
+      },
+      {
+        "question": "Do API integration skills handle authentication?",
+        "answer": "Most skills support common auth patterns (API keys, OAuth 2.0, JWT) and will scaffold the auth setup for you, including token refresh and secure credential storage patterns."
+      }
+    ]
+  },
+  {
+    "slug": "content-creation",
+    "title": "Content Creation & Copywriting",
+    "headline": "AI Skills for Content Creation",
+    "description": "Explore skills that help marketers, writers, and developers create blog posts, marketing copy, social media content, and more with AI assistance.",
+    "intro": "Creating quality content at scale is a challenge for every team. These AI skills help you draft blog posts, rewrite for different audiences, generate social media variants, maintain brand voice, and produce content in bulk — without sacrificing quality.",
+    "tags": ["content", "copywriting", "marketing", "writing"],
+    "categories": ["business-marketing", "creative-design"],
+    "faq": [
+      {
+        "question": "Can content creation skills maintain a consistent brand voice?",
+        "answer": "Yes. The best skills accept a brand guide, writing samples, or style instructions and generate content that matches your established voice. Some skills fine-tune on your existing content for better results."
+      },
+      {
+        "question": "Do content skills support multiple languages?",
+        "answer": "Many content skills support multilingual output — you can generate in one language and translate to others, or generate directly in your target language. Quality varies by language."
+      }
+    ]
+  },
+  {
+    "slug": "data-analysis",
+    "title": "Data Analysis & Visualization",
+    "headline": "AI Skills for Data Analysis",
+    "description": "Use Claude Code skills to analyze datasets, generate visualizations, write data pipelines, and extract insights from your data faster.",
+    "intro": "Data analysis is powerful but demands expertise in multiple tools. These AI skills help you clean messy data, write SQL queries, generate Python analysis scripts, create visualizations, and surface insights — without needing to be a data expert.",
+    "tags": ["data-analysis", "data-science", "sql", "python"],
+    "categories": ["data-analysis"],
+    "faq": [
+      {
+        "question": "Can data analysis skills work with CSV files and databases?",
+        "answer": "Yes. Most skills accept CSV, JSON, and database connection strings. They can write SQL queries, Pandas transformations, or statistical summaries depending on your use case."
+      },
+      {
+        "question": "Can these skills generate charts and graphs?",
+        "answer": "Many skills generate Matplotlib, Plotly, or D3.js visualizations from your data, including bar charts, scatter plots, heatmaps, and custom dashboards."
+      }
+    ]
+  },
+  {
+    "slug": "security-scanning",
+    "title": "Security Scanning & Hardening",
+    "headline": "AI Skills for Security Scanning",
+    "description": "Find Claude Code skills that scan for vulnerabilities, audit dependencies, enforce security best practices, and help you ship more secure software.",
+    "intro": "Security vulnerabilities are expensive to fix in production. These AI skills scan your code for common vulnerabilities (OWASP Top 10, CVEs, secrets in code), audit your dependencies, and suggest targeted remediations — shifting security left in your development process.",
+    "tags": ["security", "vulnerability", "audit"],
+    "categories": ["security"],
+    "faq": [
+      {
+        "question": "Can these skills detect hardcoded secrets in my codebase?",
+        "answer": "Yes. Security scanning skills use pattern matching and entropy analysis to detect hardcoded API keys, passwords, and tokens. They can scan your full git history, not just the current state."
+      },
+      {
+        "question": "Do security skills integrate with CI/CD pipelines?",
+        "answer": "Many security skills output in standardized formats (SARIF, JSON) that integrate with GitHub Actions, GitLab CI, and other pipelines to block insecure code from merging."
+      }
+    ]
+  },
+  {
+    "slug": "web-scraping",
+    "title": "Web Scraping & Data Extraction",
+    "headline": "AI Skills for Web Scraping",
+    "description": "Discover Claude Code skills that automate web scraping, parse HTML, handle dynamic JavaScript sites, and transform extracted data into structured formats.",
+    "intro": "Web scraping is essential for data collection, market research, and competitor monitoring. These AI skills write scrapers for static and JavaScript-heavy sites, handle pagination and rate limiting, parse complex HTML structures, and output clean structured data.",
+    "tags": ["web-scraping", "crawling", "playwright"],
+    "categories": ["web-scraping"],
+    "faq": [
+      {
+        "question": "Can these skills scrape JavaScript-rendered pages?",
+        "answer": "Yes. Many scraping skills use Playwright or Puppeteer under the hood to render JavaScript and interact with dynamic pages, including sites that require login or CAPTCHA solving."
+      },
+      {
+        "question": "How do scraping skills handle anti-bot measures?",
+        "answer": "Skills vary in their anti-bot capabilities. Basic skills handle rate limiting and rotating user agents. More advanced skills support proxy rotation, browser fingerprint evasion, and retry logic."
+      }
+    ]
+  },
+  {
+    "slug": "devops-automation",
+    "title": "DevOps & CI/CD Automation",
+    "headline": "AI Skills for DevOps Automation",
+    "description": "Find skills that automate your CI/CD pipeline, Dockerfile creation, infrastructure as code, deployment scripts, and cloud configuration.",
+    "intro": "DevOps work is critical but repetitive. These AI skills generate Dockerfiles, CI/CD pipeline configs (GitHub Actions, GitLab CI, CircleCI), Terraform modules, Kubernetes manifests, and deployment scripts — so your team spends less time on infrastructure and more on product.",
+    "tags": ["devops", "ci-cd", "docker", "kubernetes", "terraform"],
+    "categories": ["devops-cicd"],
+    "faq": [
+      {
+        "question": "Can DevOps skills generate a complete CI/CD pipeline?",
+        "answer": "Yes. Describe your stack (e.g., 'Node.js app, tests with Jest, deploy to AWS ECS') and many skills will generate a full GitHub Actions or GitLab CI pipeline with build, test, and deploy stages."
+      },
+      {
+        "question": "Do these skills work with Kubernetes?",
+        "answer": "Yes. Several skills generate Helm charts, Kubernetes deployment manifests, service configs, and ingress rules from a simple description of your service requirements."
+      }
+    ]
+  },
+  {
+    "slug": "translation-localization",
+    "title": "Translation & Localization",
+    "headline": "AI Skills for Translation & Localization",
+    "description": "Use Claude Code skills to translate content, manage i18n files, localize UI strings, and maintain translations across multiple languages.",
+    "intro": "Reaching a global audience requires accurate, culturally appropriate translations. These AI skills handle i18n file management, translate UI strings while preserving format tokens, detect missing translations, and maintain consistency across your localization workflow.",
+    "tags": ["translation", "localization", "i18n"],
+    "categories": ["translation-localization"],
+    "faq": [
+      {
+        "question": "Can translation skills handle i18n JSON files?",
+        "answer": "Yes. Most translation skills accept i18n JSON, YAML, or PO files and translate missing keys while preserving the file structure, interpolation tokens, and existing translations."
+      },
+      {
+        "question": "How accurate is AI translation for technical content?",
+        "answer": "AI translation is generally accurate for technical UI strings and documentation. For marketing copy and nuanced content, human review is recommended. Many skills include a review flag for uncertain translations."
+      }
+    ]
+  }
+]

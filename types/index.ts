@@ -139,3 +139,5 @@ export interface SkillsIndex {
     totalFeatured: number;
   };
 }
+
+export * from './programmatic-seo';
