@@ -9100,5 +9100,59 @@
     "name": "nocfo-ai-toolkit",
     "description": "Give AI assistants full access to Finnish bookkeeping, invoicing, and business data",
     "tags": []
+  },
+  {
+    "owner": "asgeirtj",
+    "repo": "system_prompts_leaks",
+    "category": "ai-llm",
+    "name": "system_prompts_leaks",
+    "description": "Extracted system prompts from ChatGPT (GPT-5.4, GPT-5.3, Codex), Claude (Opus 4.6, Sonnet 4.6, Claude Code), Gemini (3.1 Pro, 3 Flash, CLI), Grok (4.2, 4), Perplexity, and more. Updated regularly.",
+    "tags": [
+      "ai",
+      "ai-transparency",
+      "anthropic",
+      "chatgpt",
+      "claude"
+    ]
+  },
+  {
+    "owner": "gastownhall",
+    "repo": "beads",
+    "category": "business-marketing",
+    "name": "beads",
+    "description": "Beads - A memory upgrade for your coding agent",
+    "tags": [
+      "agents",
+      "claude-code",
+      "coding"
+    ]
+  },
+  {
+    "owner": "codeaashu",
+    "repo": "claude-code",
+    "category": "ai-llm",
+    "name": "claude-code",
+    "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+    "tags": [
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "claude-code-leaked",
+      "claude-code-skill"
+    ]
+  },
+  {
+    "owner": "stickerdaniel",
+    "repo": "linkedin-mcp-server",
+    "category": "ai-llm",
+    "name": "linkedin-mcp-server",
+    "description": "This MCP server allows Claude and other AI assistants to access your LinkedIn. Scrape LinkedIn profiles, companies and jobs, and manage your inbox.",
+    "tags": [
+      "anthropic",
+      "chatgpt",
+      "chatgpt-desktop",
+      "claude",
+      "claude-desktop"
+    ]
   }
 ]
