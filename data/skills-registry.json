@@ -9154,5 +9154,27 @@
       "claude",
       "claude-desktop"
     ]
+  },
+  {
+    "owner": "voidborne-d",
+    "repo": "humanize-chinese",
+    "category": "ai-llm",
+    "name": "humanize-chinese",
+    "description": "免费本地 AI 文本去痕迹工具 | Chinese AI text detection & humanization. N-gram perplexity analysis, 20+ detection patterns, academic AIGC reduction (知网/维普/万方), 7 style transforms. Zero dependencies, runs locally.",
+    "tags": [
+      "academic",
+      "agent-skill",
+      "ai-detection",
+      "aigc",
+      "chinese"
+    ]
+  },
+  {
+    "owner": "eze-is",
+    "repo": "web-access",
+    "category": "development-tools",
+    "name": "web-access",
+    "description": "给 Claude Code 装上完整联网能力的 skill：三层通道调度 + 浏览器 CDP + 并行分治",
+    "tags": []
   }
 ]
