@@ -9176,5 +9176,21 @@
     "name": "web-access",
     "description": "给 Claude Code 装上完整联网能力的 skill：三层通道调度 + 浏览器 CDP + 并行分治",
     "tags": []
+  },
+  {
+    "owner": "Xquik-dev",
+    "repo": "hermes-tweet",
+    "path": "skills/hermes-tweet",
+    "category": "communication",
+    "name": "Hermes Tweet",
+    "description": "Native Hermes Agent skill for X/Twitter search, monitoring, exports, and approval-gated posting through Xquik.",
+    "tags": [
+      "hermes-agent",
+      "xquik",
+      "twitter",
+      "x",
+      "social-media",
+      "automation"
+    ]
   }
 ]
