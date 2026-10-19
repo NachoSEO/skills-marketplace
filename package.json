@@ -21,7 +21,7 @@
     "test:e2e:ui": "playwright test --ui",
     "build:cloudflare": "npx opennextjs-cloudflare build",
     "preview": "npx opennextjs-cloudflare build && npx wrangler dev",
-    "deploy": "npx opennextjs-cloudflare build && npx wrangler deploy"
+    "deploy": "npx opennextjs-cloudflare build && npx opennextjs-cloudflare deploy"
   },
   "dependencies": {
     "clsx": "^2.1.1",

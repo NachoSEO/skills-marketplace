@@ -1,4 +1,5 @@
 import type { OpenNextConfig } from "@opennextjs/cloudflare";
+import staticAssetsIncrementalCache from "@opennextjs/cloudflare/overrides/incremental-cache/static-assets-incremental-cache";
 
 const config: OpenNextConfig = {
   default: {
@@ -6,7 +7,7 @@ const config: OpenNextConfig = {
       wrapper: "cloudflare-node",
       converter: "edge",
       proxyExternalRequest: "fetch",
-      incrementalCache: "dummy",
+      incrementalCache: async () => staticAssetsIncrementalCache,
       tagCache: "dummy",
       queue: "dummy",
     },
