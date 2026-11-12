@@ -19659,315 +19659,311 @@
   },
   "2026-03-31": {
     "superpowers": {
-      "stars": 123910,
-      "forks": 10094
+      "stars": 127280,
+      "forks": 10380
     },
     "everything-claude-code": {
-      "stars": 121455,
-      "forks": 15796
+      "stars": 123698,
+      "forks": 16290
     },
     "claude-api": {
-      "stars": 106962,
-      "forks": 11838
+      "stars": 107278,
+      "forks": 11879
     },
     "doc-coauthoring": {
-      "stars": 106962,
-      "forks": 11838
+      "stars": 107278,
+      "forks": 11879
     },
     "web-artifacts-builder": {
-      "stars": 106962,
-      "forks": 11838
+      "stars": 107278,
+      "forks": 11879
     },
     "template": {
+      "stars": 107278,
+      "forks": 11879
+    },
+    "docx": {
+      "stars": 107274,
+      "forks": 11878
+    },
+    "pdf": {
+      "stars": 107274,
+      "forks": 11878
+    },
+    "pptx": {
+      "stars": 107274,
+      "forks": 11878
+    },
+    "xlsx": {
+      "stars": 107274,
+      "forks": 11878
+    },
+    "algorithmic-art": {
+      "stars": 107274,
+      "forks": 11878
+    },
+    "canvas-design": {
+      "stars": 107274,
+      "forks": 11878
+    },
+    "slack-gif-creator": {
+      "stars": 107274,
+      "forks": 11878
+    },
+    "frontend-design": {
+      "stars": 107274,
+      "forks": 11878
+    },
+    "artifacts-builder": {
+      "stars": 107274,
+      "forks": 11878
+    },
+    "mcp-builder": {
+      "stars": 107274,
+      "forks": 11878
+    },
+    "webapp-testing": {
+      "stars": 107274,
+      "forks": 11878
+    },
+    "brand-guidelines": {
+      "stars": 107274,
+      "forks": 11878
+    },
+    "internal-comms": {
+      "stars": 107274,
+      "forks": 11878
+    },
+    "skill-creator": {
+      "stars": 107274,
+      "forks": 11878
+    },
+    "theme-factory": {
       "stars": 106962,
       "forks": 11838
     },
-    "theme-factory": {
-      "stars": 106063,
-      "forks": 11734
-    },
-    "docx": {
-      "stars": 106054,
-      "forks": 11734
-    },
-    "pdf": {
-      "stars": 106054,
-      "forks": 11734
-    },
-    "pptx": {
-      "stars": 106054,
-      "forks": 11734
-    },
-    "xlsx": {
-      "stars": 106054,
-      "forks": 11734
-    },
-    "algorithmic-art": {
-      "stars": 106054,
-      "forks": 11734
-    },
-    "canvas-design": {
-      "stars": 106054,
-      "forks": 11734
-    },
-    "slack-gif-creator": {
-      "stars": 106054,
-      "forks": 11734
-    },
-    "frontend-design": {
-      "stars": 106054,
-      "forks": 11734
-    },
-    "artifacts-builder": {
-      "stars": 106054,
-      "forks": 11734
-    },
-    "mcp-builder": {
-      "stars": 106054,
-      "forks": 11734
-    },
-    "webapp-testing": {
-      "stars": 106054,
-      "forks": 11734
-    },
-    "brand-guidelines": {
-      "stars": 106054,
-      "forks": 11734
-    },
-    "internal-comms": {
-      "stars": 106054,
-      "forks": 11734
-    },
-    "skill-creator": {
-      "stars": 106054,
-      "forks": 11734
-    },
     "ui-ux-pro-max-skill": {
-      "stars": 55402,
-      "forks": 5380
+      "stars": 55635,
+      "forks": 5406
     },
     "awesome-claude-skills": {
-      "stars": 49620,
-      "forks": 5147
+      "stars": 49725,
+      "forks": 5155
     },
     "get-shit-done": {
-      "stars": 45525,
-      "forks": 3666
+      "stars": 45727,
+      "forks": 3685
     },
     "oh-my-opencode": {
-      "stars": 45135,
-      "forks": 3363
+      "stars": 45250,
+      "forks": 3367
     },
     "oh-my-openagent": {
-      "stars": 45135,
-      "forks": 3363
+      "stars": 45250,
+      "forks": 3367
     },
     "learn-claude-code": {
-      "stars": 44245,
-      "forks": 6758
+      "stars": 44674,
+      "forks": 6834
     },
     "claude-mem": {
-      "stars": 43771,
-      "forks": 3261
+      "stars": 43896,
+      "forks": 3273
     },
     "cherry-studio": {
-      "stars": 42641,
-      "forks": 3983
+      "stars": 42658,
+      "forks": 3984
     },
     "cc-switch": {
-      "stars": 36011,
-      "forks": 2147
+      "stars": 36225,
+      "forks": 2164
     },
     "awesome-claude-code": {
-      "stars": 34702,
-      "forks": 2523
+      "stars": 34835,
+      "forks": 2541
     },
     "agents": {
-      "stars": 32610,
-      "forks": 3553
+      "stars": 32635,
+      "forks": 3552
     },
     "antigravity-awesome-skills": {
-      "stars": 29062,
-      "forks": 4846
+      "stars": 29188,
+      "forks": 4869
     },
     "claude-flow": {
-      "stars": 28764,
-      "forks": 3147
+      "stars": 28843,
+      "forks": 3158
     },
     "ruflo": {
-      "stars": 28764,
-      "forks": 3147
+      "stars": 28843,
+      "forks": 3158
     },
     "composio-connect": {
-      "stars": 27578,
-      "forks": 4497
+      "stars": 27594,
+      "forks": 4499
     },
     "claude-code-best-practice": {
-      "stars": 26902,
-      "forks": 2243
+      "stars": 27540,
+      "forks": 2281
     },
     "nanoclaw": {
-      "stars": 26033,
-      "forks": 9819
-    },
-    "claude-code-templates": {
-      "stars": 23796,
-      "forks": 2300
+      "stars": 26070,
+      "forks": 9874
     },
     "serena": {
-      "stars": 22288,
+      "stars": 22304,
       "forks": 1485
     },
     "cliproxyapi": {
-      "stars": 21503,
-      "forks": 3539
+      "stars": 21603,
+      "forks": 3557
     },
     "opcode": {
-      "stars": 21214,
-      "forks": 1625
+      "stars": 21216,
+      "forks": 1626
     },
     "aionui": {
-      "stars": 20586,
-      "forks": 1645
+      "stars": 20610,
+      "forks": 1651
     },
     "beads": {
-      "stars": 20008,
-      "forks": 1324
+      "stars": 20022,
+      "forks": 1325
     },
     "hermes-agent": {
-      "stars": 19157,
-      "forks": 2312
+      "stars": 19593,
+      "forks": 2372
     },
     "oh-my-claudecode": {
-      "stars": 17850,
-      "forks": 1251
+      "stars": 18146,
+      "forks": 1277
     },
     "marketingskills": {
-      "stars": 17732,
-      "forks": 2675
+      "stars": 17791,
+      "forks": 2687
     },
     "planning-with-files": {
-      "stars": 17691,
-      "forks": 1597
+      "stars": 17714,
+      "forks": 1598
     },
     "n8n-mcp": {
-      "stars": 17138,
-      "forks": 2893
-    },
-    "happy": {
-      "stars": 16747,
-      "forks": 1334
+      "stars": 17167,
+      "forks": 2896
     },
     "scientific-skills": {
-      "stars": 16690,
-      "forks": 1824
+      "stars": 16854,
+      "forks": 1836
+    },
+    "happy": {
+      "stars": 16778,
+      "forks": 1336
     },
     "last30days-skill": {
-      "stars": 16590,
-      "forks": 1318
+      "stars": 16720,
+      "forks": 1326
     },
     "rtk": {
-      "stars": 15842,
-      "forks": 801
+      "stars": 15961,
+      "forks": 812
     },
     "claude-code-subagents": {
-      "stars": 15611,
-      "forks": 1754
+      "stars": 15750,
+      "forks": 1770
     },
     "claude-hud": {
-      "stars": 15515,
-      "forks": 646
+      "stars": 15628,
+      "forks": 651
     },
     "claude-plugins-official": {
-      "stars": 15465,
-      "forks": 1683
+      "stars": 15507,
+      "forks": 1686
     },
     "agent-skills-for-context-engineering": {
-      "stars": 14517,
+      "stars": 14525,
       "forks": 1136
     },
     "agent-reach": {
-      "stars": 13986,
-      "forks": 1110
+      "stars": 14083,
+      "forks": 1123
     },
     "open-saas": {
-      "stars": 13701,
-      "forks": 1580
+      "stars": 13709,
+      "forks": 1581
     },
     "awesome-agent-skills": {
-      "stars": 13484,
-      "forks": 1365
+      "stars": 13521,
+      "forks": 1368
     },
     "cc-usage": {
-      "stars": 12116,
-      "forks": 442
+      "stars": 12174,
+      "forks": 443
     },
     "frontend-slides": {
-      "stars": 11790,
-      "forks": 874
+      "stars": 11821,
+      "forks": 878
     },
     "cmux": {
-      "stars": 11755,
-      "forks": 811
+      "stars": 11819,
+      "forks": 814
+    },
+    "humanizer": {
+      "stars": 11778,
+      "forks": 965
     },
     "fastapi-mcp": {
       "stars": 11740,
-      "forks": 929
-    },
-    "humanizer": {
-      "stars": 11734,
-      "forks": 966
-    },
-    "skill-seekers": {
-      "stars": 11461,
-      "forks": 1125
-    },
-    "pal-mcp-server": {
-      "stars": 11340,
-      "forks": 975
-    },
-    "mcp-chrome": {
-      "stars": 11031,
-      "forks": 972
-    },
-    "ai-guide": {
-      "stars": 10798,
-      "forks": 1168
+      "forks": 930
     },
     "claude-howto": {
-      "stars": 10764,
-      "forks": 1088
+      "stars": 11626,
+      "forks": 1192
+    },
+    "skill-seekers": {
+      "stars": 11533,
+      "forks": 1126
+    },
+    "pal-mcp-server": {
+      "stars": 11343,
+      "forks": 974
+    },
+    "mcp-chrome": {
+      "stars": 11032,
+      "forks": 971
+    },
+    "ai-guide": {
+      "stars": 10820,
+      "forks": 1168
     },
     "claude-relay-service": {
-      "stars": 10380,
-      "forks": 1560
+      "stars": 10407,
+      "forks": 1567
     },
     "humanlayer": {
-      "stars": 10172,
-      "forks": 873
+      "stars": 10180,
+      "forks": 872
     },
     "hive": {
-      "stars": 9959,
-      "forks": 5605
+      "stars": 9966,
+      "forks": 5604
     },
     "codexbar": {
-      "stars": 9630,
-      "forks": 705
+      "stars": 9644,
+      "forks": 707
     },
     "mcp-use": {
-      "stars": 9579,
-      "forks": 1209
+      "stars": 9581,
+      "forks": 1210
     },
     "sub2api": {
-      "stars": 9407,
-      "forks": 1460
+      "stars": 9468,
+      "forks": 1472
     },
     "claude-code-infrastructure-showcase": {
-      "stars": 9373,
-      "forks": 1200
+      "stars": 9377,
+      "forks": 1201
     },
     "rowboat": {
-      "stars": 9335,
+      "stars": 9337,
       "forks": 795
     },
     "xonsh": {
@@ -19975,163 +19971,163 @@
       "forks": 704
     },
     "claudecodeui": {
-      "stars": 9161,
+      "stars": 9176,
       "forks": 1176
     },
     "notebooklm-py": {
-      "stars": 8382,
-      "forks": 1043
+      "stars": 8419,
+      "forks": 1045
     },
     "superset": {
-      "stars": 8327,
-      "forks": 629
+      "stars": 8342,
+      "forks": 631
     },
     "ralph-for-claude-code": {
-      "stars": 8265,
+      "stars": 8294,
       "forks": 603
     },
     "droidrun": {
-      "stars": 8053,
+      "stars": 8056,
       "forks": 829
     },
     "git-mcp": {
-      "stars": 7848,
+      "stars": 7849,
       "forks": 683
     },
     "claude-code-pm": {
-      "stars": 7832,
-      "forks": 790
+      "stars": 7847,
+      "forks": 791
     },
     "hexstrike-ai": {
-      "stars": 7785,
+      "stars": 7792,
       "forks": 1705
     },
     "claude-code-game-studios": {
-      "stars": 7563,
-      "forks": 1103
+      "stars": 7614,
+      "forks": 1114
     },
     "understand-anything": {
-      "stars": 7261,
-      "forks": 571
+      "stars": 7327,
+      "forks": 577
     },
     "claude-code-usage-monitor": {
-      "stars": 7212,
+      "stars": 7225,
       "forks": 351
     },
     "claude-code-system-prompts": {
-      "stars": 7142,
-      "forks": 958
+      "stars": 7189,
+      "forks": 972
     },
     "refly": {
-      "stars": 7142,
-      "forks": 706
+      "stars": 7145,
+      "forks": 709
     },
     "claude-code-tips": {
-      "stars": 6955,
+      "stars": 6968,
       "forks": 480
     },
-    "awesome-mcp-zh": {
-      "stars": 6726,
-      "forks": 479
-    },
     "claude-squad": {
-      "stars": 6718,
+      "stars": 6743,
       "forks": 470
     },
-    "codecompanion-nvim": {
-      "stars": 6381,
-      "forks": 394
+    "awesome-mcp-zh": {
+      "stars": 6732,
+      "forks": 481
     },
-    "mcp": {
-      "stars": 6204,
-      "forks": 483
+    "codecompanion-nvim": {
+      "stars": 6383,
+      "forks": 393
     },
     "cc-statusline": {
-      "stars": 6202,
-      "forks": 250
+      "stars": 6294,
+      "forks": 257
+    },
+    "mcp": {
+      "stars": 6205,
+      "forks": 483
     },
     "firecrawl-mcp-server": {
-      "stars": 5911,
+      "stars": 5913,
       "forks": 665
     },
     "ai-research-skills": {
-      "stars": 5884,
-      "forks": 453
+      "stars": 5907,
+      "forks": 454
     },
     "zcf": {
-      "stars": 5837,
+      "stars": 5840,
       "forks": 407
     },
     "desktopcommandermcp": {
-      "stars": 5814,
+      "stars": 5818,
       "forks": 678
     },
     "claude-context": {
-      "stars": 5798,
-      "forks": 517
+      "stars": 5803,
+      "forks": 516
     },
     "claude-code-showcase": {
-      "stars": 5617,
-      "forks": 496
+      "stars": 5638,
+      "forks": 498
     },
     "humanizer-zh": {
-      "stars": 5353,
-      "forks": 446
+      "stars": 5371,
+      "forks": 447
     },
     "dev-browser": {
-      "stars": 5167,
+      "stars": 5185,
       "forks": 320
     },
     "auto-claude-code-research-in-sleep": {
-      "stars": 4919,
-      "forks": 400
+      "stars": 4977,
+      "forks": 407
     },
     "cc-wf-studio": {
-      "stars": 4639,
-      "forks": 519
+      "stars": 4643,
+      "forks": 518
     },
     "geo-seo-claude": {
-      "stars": 4572,
-      "forks": 729
+      "stars": 4593,
+      "forks": 732
     },
     "gcli2api": {
-      "stars": 4375,
+      "stars": 4378,
       "forks": 1243
     },
     "awesome-claude-agents": {
-      "stars": 4110,
-      "forks": 485
+      "stars": 4113,
+      "forks": 488
     },
     "n8n-workflow-skills": {
-      "stars": 3926,
-      "forks": 687
+      "stars": 3936,
+      "forks": 688
     },
     "anthropic-cybersecurity-skills": {
-      "stars": 3893,
-      "forks": 405
+      "stars": 3905,
+      "forks": 406
     },
     "claudable": {
-      "stars": 3845,
+      "stars": 3846,
       "forks": 575
     },
     "claude-code-guide": {
-      "stars": 3759,
-      "forks": 349
+      "stars": 3764,
+      "forks": 351
     },
     "continuous-claude-v3": {
-      "stars": 3647,
+      "stars": 3649,
       "forks": 284
     },
     "claude-seo": {
-      "stars": 3591,
-      "forks": 565
+      "stars": 3617,
+      "forks": 570
     },
     "archestra": {
       "stars": 3536,
-      "forks": 399
+      "forks": 401
     },
     "swiftui-agent-skill": {
-      "stars": 3267,
+      "stars": 3274,
       "forks": 107
     },
     "pinme": {
@@ -20139,63 +20135,63 @@
       "forks": 222
     },
     "crystal": {
-      "stars": 3001,
+      "stars": 3003,
       "forks": 191
     },
     "cc-sdd": {
-      "stars": 2999,
+      "stars": 3000,
       "forks": 232
     },
     "generative-media-skills": {
-      "stars": 2981,
+      "stars": 2982,
       "forks": 329
     },
     "seo-machine": {
       "stars": 2920,
-      "forks": 492
+      "forks": 494
     },
     "ccplugins": {
-      "stars": 2697,
+      "stars": 2698,
       "forks": 159
     },
     "buildwithclaude": {
       "stars": 2663,
-      "forks": 297
+      "forks": 298
     },
     "deepcamera": {
-      "stars": 2617,
+      "stars": 2620,
       "forks": 417
     },
     "ruler": {
-      "stars": 2602,
+      "stars": 2604,
       "forks": 135
     },
     "dbhub": {
-      "stars": 2455,
+      "stars": 2462,
       "forks": 200
     },
+    "ccometixline": {
+      "stars": 2458,
+      "forks": 142
+    },
     "sidekick-nvim": {
-      "stars": 2452,
+      "stars": 2454,
       "forks": 107
     },
-    "ccometixline": {
-      "stars": 2428,
-      "forks": 140
-    },
     "fulling": {
-      "stars": 2410,
+      "stars": 2411,
       "forks": 227
     },
     "agentscope-java": {
-      "stars": 2319,
-      "forks": 473
+      "stars": 2329,
+      "forks": 477
     },
     "playwright-skill": {
-      "stars": 2244,
-      "forks": 140
+      "stars": 2259,
+      "forks": 142
     },
     "gemini-mcp-tool": {
-      "stars": 2112,
+      "stars": 2113,
       "forks": 176
     },
     "devdocs": {
@@ -20203,39 +20199,39 @@
       "forks": 182
     },
     "tdd-guard": {
-      "stars": 1948,
+      "stars": 1952,
       "forks": 146
     },
     "claudekit-skills": {
-      "stars": 1926,
-      "forks": 383
+      "stars": 1928,
+      "forks": 384
     },
     "mcp-agent-mail": {
-      "stars": 1855,
+      "stars": 1856,
       "forks": 191
     },
     "unity-mcp": {
-      "stars": 1804,
+      "stars": 1814,
       "forks": 171
     },
     "notebooklm-mcp": {
-      "stars": 1709,
+      "stars": 1713,
       "forks": 221
     },
     "unreal-mcp": {
-      "stars": 1668,
-      "forks": 255
+      "stars": 1673,
+      "forks": 256
     },
     "pg-aiguide": {
       "stars": 1661,
       "forks": 82
     },
     "mcp-memory-service": {
-      "stars": 1584,
+      "stars": 1585,
       "forks": 226
     },
     "mcp-excalidraw": {
-      "stars": 1579,
+      "stars": 1582,
       "forks": 149
     },
     "security-list": {
@@ -20243,7 +20239,7 @@
       "forks": 461
     },
     "claude-ads": {
-      "stars": 1499,
+      "stars": 1506,
       "forks": 289
     },
     "amethyst": {
@@ -20251,63 +20247,63 @@
       "forks": 188
     },
     "claude-code-everything-you-need-to-know": {
-      "stars": 1471,
-      "forks": 158
+      "stars": 1479,
+      "forks": 159
     },
     "nano-banana-pro-prompts-recommend-skill": {
-      "stars": 1337,
-      "forks": 134
+      "stars": 1338,
+      "forks": 135
     },
     "jcodemunch-mcp": {
-      "stars": 1334,
+      "stars": 1336,
       "forks": 240
     },
     "mcp-server-qdrant": {
-      "stars": 1310,
+      "stars": 1311,
       "forks": 251
     },
     "awesome-claude-plugins": {
       "stars": 1215,
-      "forks": 247
+      "forks": 250
     },
     "claude-code-mcp": {
-      "stars": 1208,
+      "stars": 1209,
       "forks": 150
     },
     "linear-todo-sync": {
-      "stars": 1094,
+      "stars": 1097,
       "forks": 120
     },
     "cloudflare-manager": {
-      "stars": 1094,
+      "stars": 1097,
       "forks": 120
     },
     "ccflare": {
-      "stars": 928,
-      "forks": 96
+      "stars": 932,
+      "forks": 97
     },
     "loki-mode": {
-      "stars": 793,
-      "forks": 159
+      "stars": 796,
+      "forks": 160
     },
     "context-engineering-kit": {
-      "stars": 731,
-      "forks": 62
+      "stars": 739,
+      "forks": 61
     },
     "ios-simulator": {
-      "stars": 699,
-      "forks": 43
+      "stars": 708,
+      "forks": 44
     },
     "claudekit": {
       "stars": 643,
       "forks": 102
     },
     "unbrowse": {
-      "stars": 606,
+      "stars": 607,
       "forks": 54
     },
     "codex-settings": {
-      "stars": 551,
+      "stars": 557,
       "forks": 50
     },
     "n8n-workflow-builder": {
@@ -20315,59 +20311,59 @@
       "forks": 127
     },
     "patentwriteragent": {
-      "stars": 482,
+      "stars": 483,
       "forks": 100
     },
     "parchi": {
-      "stars": 478,
+      "stars": 479,
       "forks": 46
     },
     "xhs-cli": {
-      "stars": 428,
+      "stars": 431,
       "forks": 40
     },
     "claude-blog": {
-      "stars": 352,
-      "forks": 92
+      "stars": 355,
+      "forks": 91
     },
     "claudeforge": {
       "stars": 329,
       "forks": 39
+    },
+    "awp-skill": {
+      "stars": 318,
+      "forks": 48
     },
     "ai-agent-team": {
       "stars": 309,
       "forks": 42
     },
     "soul-md": {
-      "stars": 305,
+      "stars": 307,
       "forks": 24
     },
-    "awp-skill": {
-      "stars": 305,
-      "forks": 43
-    },
     "claude-code-aso-skill": {
-      "stars": 286,
+      "stars": 287,
       "forks": 31
     },
-    "agentic-seo-skill": {
-      "stars": 260,
-      "forks": 47
-    },
     "web-asset-generator": {
-      "stars": 259,
+      "stars": 270,
       "forks": 16
     },
-    "ccexp": {
-      "stars": 259,
-      "forks": 9
-    },
     "superpowers-lab": {
-      "stars": 257,
+      "stars": 262,
       "forks": 17
     },
+    "agentic-seo-skill": {
+      "stars": 261,
+      "forks": 47
+    },
+    "ccexp": {
+      "stars": 260,
+      "forks": 9
+    },
     "agentic-workflow-patterns": {
-      "stars": 223,
+      "stars": 224,
       "forks": 28
     },
     "hitchhikers-guide": {
@@ -20383,7 +20379,7 @@
       "forks": 18
     },
     "developer-kit": {
-      "stars": 187,
+      "stars": 188,
       "forks": 19
     },
     "aelf-skills": {
@@ -20391,7 +20387,7 @@
       "forks": 9
     },
     "recall": {
-      "stars": 165,
+      "stars": 167,
       "forks": 15
     },
     "blockrun-agent-wallet": {
@@ -20399,8 +20395,12 @@
       "forks": 16
     },
     "claude-code-voice-skill": {
-      "stars": 160,
+      "stars": 161,
       "forks": 18
+    },
+    "oh-my-mermaid": {
+      "stars": 157,
+      "forks": 13
     },
     "ab-method": {
       "stars": 156,
@@ -20414,16 +20414,12 @@
       "stars": 155,
       "forks": 16
     },
-    "oh-my-mermaid": {
-      "stars": 153,
-      "forks": 13
-    },
     "ai-pair": {
       "stars": 150,
       "forks": 23
     },
     "notebooklm-skill": {
-      "stars": 147,
+      "stars": 148,
       "forks": 16
     },
     "token-optimizer": {
@@ -20467,7 +20463,7 @@
       "forks": 20
     },
     "cc-hooks": {
-      "stars": 125,
+      "stars": 124,
       "forks": 9
     },
     "entice": {
@@ -20475,7 +20471,7 @@
       "forks": 12
     },
     "clearshot": {
-      "stars": 120,
+      "stars": 121,
       "forks": 10
     },
     "claude-zeroclaw": {
@@ -20487,8 +20483,8 @@
       "forks": 24
     },
     "dev-planner-skill": {
-      "stars": 106,
-      "forks": 17
+      "stars": 107,
+      "forks": 18
     },
     "translations": {
       "stars": 105,
@@ -20499,7 +20495,7 @@
       "forks": 5
     },
     "apple-hig-designer": {
-      "stars": 102,
+      "stars": 103,
       "forks": 5
     },
     "wechat-article-publisher-skill": {
@@ -20518,6 +20514,10 @@
       "stars": 95,
       "forks": 7
     },
+    "content-pipeline": {
+      "stars": 91,
+      "forks": 19
+    },
     "i18n-ai-translate": {
       "stars": 90,
       "forks": 7
@@ -20529,10 +20529,6 @@
     "product-architect": {
       "stars": 89,
       "forks": 20
-    },
-    "content-pipeline": {
-      "stars": 88,
-      "forks": 19
     },
     "nemp-memory": {
       "stars": 87,
@@ -20551,16 +20547,16 @@
       "forks": 10
     },
     "claude-skill-prompt-architect": {
-      "stars": 69,
+      "stars": 70,
+      "forks": 7
+    },
+    "prompt-architect": {
+      "stars": 70,
       "forks": 7
     },
     "jetpack-compose-skills": {
       "stars": 69,
       "forks": 4
-    },
-    "prompt-architect": {
-      "stars": 69,
-      "forks": 7
     },
     "algorithms": {
       "stars": 68,
@@ -20575,23 +20571,23 @@
       "forks": 6
     },
     "clawmem": {
-      "stars": 62,
+      "stars": 64,
       "forks": 7
+    },
+    "incident-report-skill": {
+      "stars": 60,
+      "forks": 10
+    },
+    "chinese-copyright-application-skill": {
+      "stars": 60,
+      "forks": 13
     },
     "claude-coach": {
       "stars": 59,
       "forks": 7
     },
-    "incident-report-skill": {
-      "stars": 59,
-      "forks": 10
-    },
-    "chinese-copyright-application-skill": {
-      "stars": 59,
-      "forks": 13
-    },
     "claude-ai-music-skills": {
-      "stars": 57,
+      "stars": 58,
       "forks": 13
     },
     "wechat-article-formatter-skill": {
@@ -20611,7 +20607,7 @@
       "forks": 1
     },
     "buyer-eval-skill": {
-      "stars": 49,
+      "stars": 50,
       "forks": 2
     },
     "cc-tools": {
@@ -20770,6 +20766,10 @@
       "stars": 27,
       "forks": 3
     },
+    "skill-optimizer": {
+      "stars": 27,
+      "forks": 3
+    },
     "spec-flow": {
       "stars": 26,
       "forks": 5
@@ -20778,13 +20778,17 @@
       "stars": 26,
       "forks": 8
     },
-    "skill-optimizer": {
-      "stars": 26,
-      "forks": 3
-    },
     "codex-kkp": {
       "stars": 25,
       "forks": 2
+    },
+    "cellar": {
+      "stars": 25,
+      "forks": 0
+    },
+    "mountaineering-skills": {
+      "stars": 24,
+      "forks": 0
     },
     "tpmjs": {
       "stars": 24,
@@ -20801,14 +20805,6 @@
     "cashu-skill": {
       "stars": 24,
       "forks": 4
-    },
-    "cellar": {
-      "stars": 24,
-      "forks": 0
-    },
-    "mountaineering-skills": {
-      "stars": 23,
-      "forks": 0
     },
     "recursive-decomposition-skill": {
       "stars": 23,
@@ -21026,6 +21022,10 @@
       "stars": 13,
       "forks": 1
     },
+    "claude-design-auditor-skill": {
+      "stars": 13,
+      "forks": 0
+    },
     "mytest": {
       "stars": 13,
       "forks": 4
@@ -21054,10 +21054,6 @@
       "stars": 12,
       "forks": 1
     },
-    "claude-design-auditor-skill": {
-      "stars": 12,
-      "forks": 0
-    },
     "ultimate-seo-geo": {
       "stars": 12,
       "forks": 2
@@ -21069,6 +21065,10 @@
     "wxclaw2026": {
       "stars": 12,
       "forks": 0
+    },
+    "running-marketing-campaigns-agent-skill": {
+      "stars": 11,
+      "forks": 1
     },
     "mastering-typescript-skill": {
       "stars": 11,
@@ -21093,10 +21093,6 @@
     "git-master-1": {
       "stars": 10,
       "forks": 2
-    },
-    "running-marketing-campaigns-agent-skill": {
-      "stars": 10,
-      "forks": 1
     },
     "skill-address-pr-review": {
       "stars": 10,
@@ -21444,6 +21440,10 @@
     },
     "nocfo-ai-toolkit": {
       "stars": 3,
+      "forks": 0
+    },
+    "claude-code-templates": {
+      "stars": 2,
       "forks": 0
     },
     "htmx-skill": {

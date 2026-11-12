@@ -4,9 +4,12 @@ import * as path from 'path';
 import type { SkillRegistry } from '../types';
 import { searchByTopic, searchForSkillMdFiles, type DiscoveredSkill } from '../lib/admin/github-search';
 import { analyzeRepo } from '../lib/admin/category-detector';
+import { fetchWithRetry, sleep } from '../lib/admin/fetch-utils';
 
 const GITHUB_API_BASE = 'https://api.github.com';
+const GITLAB_API_BASE = 'https://gitlab.com/api/v4';
 const skillsRegistryPath = path.join(__dirname, '../data/skills-registry.json');
+const discoverStatsPath = path.join(__dirname, '../data/pipeline-stats-discover.json');
 
 const MAX_NEW_SKILLS = parseInt(process.env.MAX_NEW_SKILLS || '50', 10);
 const DRY_RUN = process.argv.includes('--dry-run');
@@ -29,17 +32,27 @@ async function searchAdditionalQueries(): Promise<DiscoveredSkill[]> {
     '"claude code" skill',
     'mcp-server claude',
     'CLAUDE.md filename:CLAUDE.md',
+    '"claude code" extension',
+    '"claude code" plugin',
+    'anthropic mcp server',
+    'model-context-protocol server',
+    'claude slash command',
+    '"claude hooks" filename:settings.json',
   ];
 
   const allResults = new Map<string, DiscoveredSkill>();
+  let searchErrors = 0;
 
   for (const query of queries) {
     try {
-      const response = await fetch(
+      const response = await fetchWithRetry(
         `${GITHUB_API_BASE}/search/repositories?q=${encodeURIComponent(query)}&sort=stars&order=desc&per_page=30`,
         { headers: getHeaders() }
       );
-      if (!response.ok) continue;
+      if (!response.ok) {
+        console.warn(`  [WARN] Additional query "${query}" returned ${response.status}`);
+        continue;
+      }
 
       const data = await response.json();
       for (const item of data.items || []) {
@@ -60,11 +73,15 @@ async function searchAdditionalQueries(): Promise<DiscoveredSkill[]> {
         }
       }
 
-      // Rate limit between searches
-      await new Promise((resolve) => setTimeout(resolve, 2000));
-    } catch {
-      // Continue on error
+      await sleep(2000);
+    } catch (error) {
+      searchErrors++;
+      console.warn(`  [ERROR] Additional query "${query}" failed: ${error instanceof Error ? error.message : String(error)}`);
     }
+  }
+
+  if (searchErrors > 0) {
+    console.warn(`  ${searchErrors} additional queries failed`);
   }
 
   return Array.from(allResults.values());
@@ -76,17 +93,23 @@ async function crawlMonorepos(): Promise<DiscoveredSkill[]> {
 
   const monorepos = [
     { owner: 'anthropics', repo: 'skills' },
+    { owner: 'anthropics', repo: 'claude-code-skills' },
   ];
 
   const results: DiscoveredSkill[] = [];
 
   for (const { owner, repo } of monorepos) {
     try {
-      const response = await fetch(
+      const response = await fetchWithRetry(
         `${GITHUB_API_BASE}/repos/${owner}/${repo}/git/trees/main?recursive=1`,
         { headers: getHeaders() }
       );
-      if (!response.ok) continue;
+      if (!response.ok) {
+        if (response.status !== 404) {
+          console.warn(`  [WARN] Monorepo ${owner}/${repo} returned ${response.status}`);
+        }
+        continue;
+      }
 
       const data = await response.json();
       const tree = data.tree || [];
@@ -102,7 +125,7 @@ async function crawlMonorepos(): Promise<DiscoveredSkill[]> {
         .filter((p: string) => p.length > 0);
 
       // Get repo info for metadata
-      const repoResponse = await fetch(`${GITHUB_API_BASE}/repos/${owner}/${repo}`, {
+      const repoResponse = await fetchWithRetry(`${GITHUB_API_BASE}/repos/${owner}/${repo}`, {
         headers: getHeaders(),
       });
       const repoInfo = repoResponse.ok ? await repoResponse.json() : null;
@@ -124,8 +147,8 @@ async function crawlMonorepos(): Promise<DiscoveredSkill[]> {
           skillPaths: [skillPath],
         });
       }
-    } catch {
-      // Continue on error
+    } catch (error) {
+      console.warn(`  [ERROR] Crawling monorepo ${owner}/${repo}: ${error instanceof Error ? error.message : String(error)}`);
     }
   }
 
@@ -138,14 +161,16 @@ async function parseAwesomeLists(): Promise<DiscoveredSkill[]> {
 
   const awesomeLists = [
     { owner: 'anthropics', repo: 'awesome-claude-code', path: 'README.md' },
+    { owner: 'punkpeye', repo: 'awesome-mcp-servers', path: 'README.md' },
   ];
 
   const results: DiscoveredSkill[] = [];
 
   for (const { owner, repo, path: filePath } of awesomeLists) {
     try {
+      let found = false;
       for (const branch of ['main', 'master']) {
-        const response = await fetch(
+        const response = await fetchWithRetry(
           `https://raw.githubusercontent.com/${owner}/${repo}/${branch}/${filePath}`,
           { headers: getHeaders() }
         );
@@ -153,12 +178,11 @@ async function parseAwesomeLists(): Promise<DiscoveredSkill[]> {
 
         const content = await response.text();
 
-        // Extract GitHub repo links
+        // Extract GitHub repo links using matchAll
         const linkRegex = /https?:\/\/github\.com\/([\w.-]+)\/([\w.-]+)/g;
-        let match;
         const seen = new Set<string>();
 
-        while ((match = linkRegex.exec(content)) !== null) {
+        for (const match of content.matchAll(linkRegex)) {
           const repoOwner = match[1];
           const repoName = match[2];
           const key = `${repoOwner}/${repoName}`.toLowerCase();
@@ -166,7 +190,7 @@ async function parseAwesomeLists(): Promise<DiscoveredSkill[]> {
           if (seen.has(key)) continue;
           seen.add(key);
 
-          // Skip the list itself and non-repo links
+          // Skip the list itself and non-repo path segments
           if (repoOwner === owner && repoName === repo) continue;
           if (['issues', 'pull', 'blob', 'tree', 'releases'].includes(repoName)) continue;
 
@@ -184,14 +208,68 @@ async function parseAwesomeLists(): Promise<DiscoveredSkill[]> {
           });
         }
 
+        found = true;
         break; // Found on this branch
       }
-    } catch {
-      // Continue on error
+      if (!found) {
+        console.warn(`  [WARN] Awesome list ${owner}/${repo} not found on any branch`);
+      }
+    } catch (error) {
+      console.warn(`  [ERROR] Parsing awesome list ${owner}/${repo}: ${error instanceof Error ? error.message : String(error)}`);
     }
   }
 
   return results;
+}
+
+// Search GitLab for skills (optional — only runs when GITLAB_TOKEN is set)
+async function searchGitLab(): Promise<DiscoveredSkill[]> {
+  if (!process.env.GITLAB_TOKEN) return [];
+
+  const queries = ['claude-code-skill', 'mcp-server claude', 'claude skill'];
+  const allResults = new Map<string, DiscoveredSkill>();
+
+  for (const query of queries) {
+    try {
+      const response = await fetchWithRetry(
+        `${GITLAB_API_BASE}/projects?search=${encodeURIComponent(query)}&order_by=star_count&sort=desc&per_page=20`,
+        {
+          headers: { 'PRIVATE-TOKEN': process.env.GITLAB_TOKEN },
+        }
+      );
+      if (!response.ok) {
+        console.warn(`  [WARN] GitLab query "${query}" returned ${response.status}`);
+        continue;
+      }
+
+      const items = await response.json();
+      for (const item of items || []) {
+        const namespacedPath: string = item.path_with_namespace ?? '';
+        const key = namespacedPath.toLowerCase();
+        if (!allResults.has(key)) {
+          const ownerPath: string = item.namespace?.path ?? namespacedPath.split('/')[0];
+          allResults.set(key, {
+            owner: ownerPath,
+            repo: item.path as string,
+            name: item.path as string,
+            description: (item.description as string | null) ?? null,
+            stars: (item.star_count as number) || 0,
+            language: null,
+            topics: (item.topics as string[]) || [],
+            updatedAt: (item.last_activity_at as string) || new Date().toISOString(),
+            license: (item.license?.key as string | null) ?? null,
+            url: item.web_url as string,
+          });
+        }
+      }
+
+      await sleep(1000);
+    } catch (error) {
+      console.warn(`  [ERROR] GitLab query "${query}" failed: ${error instanceof Error ? error.message : String(error)}`);
+    }
+  }
+
+  return Array.from(allResults.values());
 }
 
 interface RejectionReason {
@@ -200,6 +278,7 @@ interface RejectionReason {
 }
 
 async function main() {
+  const pipelineStart = Date.now();
   console.log(`Discovering new skills...${DRY_RUN ? ' (DRY RUN)' : ''}\n`);
 
   if (!process.env.GITHUB_TOKEN) {
@@ -244,6 +323,14 @@ async function main() {
   const awesomeListResults = await parseAwesomeLists();
   console.log(`  Found ${awesomeListResults.length} repos`);
 
+  console.log('Searching GitLab...');
+  const gitlabResults = await searchGitLab();
+  if (gitlabResults.length > 0) {
+    console.log(`  Found ${gitlabResults.length} repos`);
+  } else {
+    console.log(`  Skipped (no GITLAB_TOKEN set)`);
+  }
+
   // Merge all results
   const allDiscovered = new Map<string, DiscoveredSkill>();
 
@@ -271,6 +358,7 @@ async function main() {
   addResults(additionalResults);
   addResults(monorepoResults);
   addResults(awesomeListResults);
+  addResults(gitlabResults);
 
   console.log(`\nTotal unique discovered: ${allDiscovered.size}`);
 
@@ -287,15 +375,17 @@ async function main() {
     // Fetch full repo info for quality filters
     let repoInfo: { archived: boolean; fork: boolean; description: string | null; stargazers_count: number; updated_at: string } | null = null;
     try {
-      const response = await fetch(`${GITHUB_API_BASE}/repos/${skill.owner}/${skill.repo}`, {
+      const response = await fetchWithRetry(`${GITHUB_API_BASE}/repos/${skill.owner}/${skill.repo}`, {
         headers: getHeaders(),
       });
       if (response.ok) {
         repoInfo = await response.json();
+      } else {
+        console.warn(`  [WARN] Repo info ${skill.owner}/${skill.repo} returned ${response.status}`);
       }
-      await new Promise((resolve) => setTimeout(resolve, 100));
-    } catch {
-      // Continue without repo info
+      await sleep(100);
+    } catch (error) {
+      console.warn(`  [ERROR] Fetching repo info ${skill.owner}/${skill.repo}: ${error instanceof Error ? error.message : String(error)}`);
     }
 
     // Quality filters
@@ -396,6 +486,40 @@ async function main() {
   } else if (DRY_RUN) {
     console.log(`\n(Dry run - no changes written)`);
   }
+
+  const durationMs = Date.now() - pipelineStart;
+  console.log(`\nDuration: ${(durationMs / 1000).toFixed(1)}s`);
+
+  // Collapse rejection reasons for stats
+  const rejectionReasons: Record<string, number> = {};
+  for (const r of rejected) {
+    // Normalize reason key (strip per-skill details)
+    const reasonKey = r.reason.replace(/: [^ ]+.*$/, '').trim();
+    rejectionReasons[reasonKey] = (rejectionReasons[reasonKey] || 0) + 1;
+  }
+
+  // Emit machine-readable stats for the CI summary step
+  const stats = {
+    step: 'discover',
+    existingSkills: registry.length,
+    totalDiscovered: allDiscovered.size,
+    alreadyKnown: allDiscovered.size - newSkills.length - rejected.length,
+    accepted: newSkills.length,
+    rejected: rejected.length,
+    rejectionReasons,
+    sources: {
+      topic: topicResults.length,
+      skillMd: skillMdResults.length,
+      additional: additionalResults.length,
+      monorepo: monorepoResults.length,
+      awesomeLists: awesomeListResults.length,
+      gitlab: gitlabResults.length,
+    },
+    durationMs,
+    discoveredAt: new Date().toISOString(),
+  };
+  fs.writeFileSync(discoverStatsPath, JSON.stringify(stats, null, 2));
+  console.log(`Pipeline stats written to ${discoverStatsPath}`);
 }
 
 main().catch(console.error);

@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generatedAt": "2026-03-31T13:18:06.714Z",
+  "generatedAt": "2026-03-31T13:19:49.672Z",
   "slugIndex": {
     "superpowers": 0,
     "everything-claude-code": 1,
@@ -26,8 +26,8 @@
     "ui-ux-pro-max-skill": 22,
     "awesome-claude-skills": 26,
     "get-shit-done": 28,
-    "oh-my-openagent": 29,
-    "oh-my-opencode": 30,
+    "oh-my-opencode": 29,
+    "oh-my-openagent": 30,
     "learn-claude-code": 31,
     "claude-mem": 32,
     "cherry-studio": 33,
@@ -35,8 +35,8 @@
     "awesome-claude-code": 35,
     "agents": 36,
     "antigravity-awesome-skills": 37,
-    "ruflo": 38,
-    "claude-flow": 39,
+    "claude-flow": 38,
+    "ruflo": 39,
     "composio-connect": 40,
     "claude-code-best-practice": 41,
     "nanoclaw": 42,
@@ -678,15 +678,15 @@
       "awesome-claude-skills",
       "get-shit-done",
       "get-shit-done",
-      "oh-my-openagent",
       "oh-my-opencode",
+      "oh-my-openagent",
       "learn-claude-code",
       "claude-mem",
       "cherry-studio",
       "awesome-claude-code",
       "antigravity-awesome-skills",
-      "ruflo",
       "claude-flow",
+      "ruflo",
       "composio-connect",
       "claude-code-best-practice",
       "nanoclaw",
@@ -1175,8 +1175,8 @@
     "ai-agents": [
       "everything-claude-code",
       "awesome-claude-skills",
-      "oh-my-openagent",
       "oh-my-opencode",
+      "oh-my-openagent",
       "claude-mem",
       "antigravity-awesome-skills",
       "nanoclaw",
@@ -1212,8 +1212,8 @@
       "brand-guidelines",
       "awesome-claude-skills",
       "awesome-claude-skills",
-      "oh-my-openagent",
       "oh-my-opencode",
+      "oh-my-openagent",
       "claude-mem",
       "agents",
       "opcode",
@@ -1741,8 +1741,8 @@
     ],
     "ai": [
       "awesome-claude-skills",
-      "oh-my-openagent",
       "oh-my-opencode",
+      "oh-my-openagent",
       "claude-mem",
       "serena",
       "aionui",
@@ -1907,14 +1907,14 @@
       "get-shit-done"
     ],
     "amp": [
-      "oh-my-openagent",
       "oh-my-opencode",
+      "oh-my-openagent",
       "cmux",
       "humanlayer"
     ],
     "chatgpt": [
-      "oh-my-openagent",
       "oh-my-opencode",
+      "oh-my-openagent",
       "hermes-agent",
       "open-saas",
       "ai-guide",
@@ -2068,8 +2068,8 @@
       "antigravity-awesome-skills"
     ],
     "agentic-ai": [
-      "ruflo",
       "claude-flow",
+      "ruflo",
       "superset",
       "git-mcp",
       "claude-code-tips",
@@ -2081,25 +2081,25 @@
       "opencode-intern-claude-code-skill"
     ],
     "agentic-engineering": [
-      "ruflo",
       "claude-flow",
+      "ruflo",
       "claude-code-best-practice"
     ],
     "agentic-framework": [
-      "ruflo",
       "claude-flow",
+      "ruflo",
       "mcp-use",
       "claude-code-aso-skill",
       "claude-code-aso-skill"
     ],
     "agentic-rag": [
-      "ruflo",
       "claude-flow",
+      "ruflo",
       "claude-context"
     ],
     "agentic-workflow": [
-      "ruflo",
       "claude-flow",
+      "ruflo",
       "claude-code-tips",
       "claudeforge",
       "opencode-intern-claude-code-skill"
@@ -4195,13 +4195,13 @@
       "better-prompt"
     ],
     "TypeScript": [
-      "oh-my-openagent",
       "oh-my-opencode",
+      "oh-my-openagent",
       "learn-claude-code",
       "claude-mem",
       "cherry-studio",
-      "ruflo",
       "claude-flow",
+      "ruflo",
       "composio-connect",
       "nanoclaw",
       "opcode",

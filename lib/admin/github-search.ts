@@ -1,4 +1,5 @@
 import { analyzeRepo, type RepoType } from './category-detector';
+import { fetchWithRetry, sleep } from './fetch-utils';
 
 const GITHUB_API_BASE = 'https://api.github.com';
 
@@ -78,12 +79,13 @@ export async function searchGitHubForSkills(query: string): Promise<DiscoveredSk
 
   for (const searchQuery of searchQueries) {
     try {
-      const response = await fetch(
+      const response = await fetchWithRetry(
         `${GITHUB_API_BASE}/search/repositories?q=${encodeURIComponent(searchQuery)}&sort=stars&order=desc&per_page=30`,
         { headers: getHeaders() }
       );
 
       if (!response.ok) {
+        console.warn(`  [WARN] Search query "${searchQuery}" returned ${response.status}`);
         continue;
       }
 
@@ -106,8 +108,10 @@ export async function searchGitHubForSkills(query: string): Promise<DiscoveredSk
           });
         }
       }
-    } catch {
-      // Silently continue on error
+
+      await sleep(1000);
+    } catch (error) {
+      console.warn(`  [ERROR] Search query "${searchQuery}" failed: ${error instanceof Error ? error.message : String(error)}`);
     }
   }
 
@@ -120,17 +124,27 @@ export async function searchByTopic(): Promise<DiscoveredSkill[]> {
     return [];
   }
 
-  const topics = ['claude-code', 'claude-skill', 'claude-code-skill', 'anthropic-skill'];
+  const topics = [
+    'claude-code',
+    'claude-skill',
+    'claude-code-skill',
+    'anthropic-skill',
+    'mcp-server',
+    'model-context-protocol',
+    'claude-extension',
+    'claude-plugin',
+  ];
   const allResults = new Map<string, DiscoveredSkill>();
 
   for (const topic of topics) {
     try {
-      const response = await fetch(
+      const response = await fetchWithRetry(
         `${GITHUB_API_BASE}/search/repositories?q=topic:${topic}&sort=stars&order=desc&per_page=50`,
         { headers: getHeaders() }
       );
 
       if (!response.ok) {
+        console.warn(`  [WARN] Topic search "${topic}" returned ${response.status}`);
         continue;
       }
 
@@ -153,8 +167,10 @@ export async function searchByTopic(): Promise<DiscoveredSkill[]> {
           });
         }
       }
-    } catch {
-      // Silently continue on error
+
+      await sleep(1000);
+    } catch (error) {
+      console.warn(`  [ERROR] Topic search "${topic}" failed: ${error instanceof Error ? error.message : String(error)}`);
     }
   }
 
@@ -168,12 +184,13 @@ export async function searchForSkillMdFiles(): Promise<DiscoveredSkill[]> {
   }
 
   try {
-    const response = await fetch(
+    const response = await fetchWithRetry(
       `${GITHUB_API_BASE}/search/code?q=filename:SKILL.md+path:/&per_page=100`,
       { headers: getHeaders() }
     );
 
     if (!response.ok) {
+      console.warn(`  [WARN] SKILL.md code search returned ${response.status}`);
       return [];
     }
 
@@ -221,7 +238,8 @@ export async function searchForSkillMdFiles(): Promise<DiscoveredSkill[]> {
     }
 
     return results.sort((a, b) => b.stars - a.stars);
-  } catch {
+  } catch (error) {
+    console.warn(`  [ERROR] SKILL.md code search failed: ${error instanceof Error ? error.message : String(error)}`);
     return [];
   }
 }
@@ -236,7 +254,7 @@ export async function checkRepoForSkillMd(
   }
 
   try {
-    const response = await fetch(
+    const response = await fetchWithRetry(
       `${GITHUB_API_BASE}/search/code?q=filename:SKILL.md+repo:${owner}/${repo}`,
       { headers: getHeaders() }
     );
@@ -261,6 +279,7 @@ export async function checkRepoForSkillMd(
 
     return { hasSkillMd: paths.length > 0, paths };
   } catch (error) {
+    console.warn(`  [ERROR] checkRepoForSkillMd ${owner}/${repo}: ${error instanceof Error ? error.message : String(error)}`);
     return { hasSkillMd: false, paths: [] };
   }
 }

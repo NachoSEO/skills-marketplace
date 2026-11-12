@@ -3,6 +3,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 import type { SkillRegistry, SkillCacheEntry, GitHubRepo, Skill, SkillsIndex, FileNode } from '../types';
 import { sanitizeUserContent } from '../lib/guardrails';
+import { fetchWithRetry } from '../lib/admin/fetch-utils';
 
 const GITHUB_API_BASE = 'https://api.github.com';
 const GITHUB_RAW_BASE = 'https://raw.githubusercontent.com';
@@ -12,6 +13,7 @@ const cacheFilePath = path.join(__dirname, '../data/skills-cache.json');
 const skillsDataPath = path.join(__dirname, '../data/skills-data.json');
 const skillsIndexPath = path.join(__dirname, '../data/skills-index.json');
 const skillsHistoryPath = path.join(__dirname, '../data/skills-history.json');
+const generateStatsPath = path.join(__dirname, '../data/pipeline-stats-generate.json');
 
 function getHeaders(): HeadersInit {
   const headers: HeadersInit = {
@@ -28,18 +30,18 @@ function getHeaders(): HeadersInit {
 
 async function getRepoInfo(owner: string, repo: string): Promise<(GitHubRepo & { open_issues_count?: number; has_wiki?: boolean; has_discussions?: boolean }) | null> {
   try {
-    const response = await fetch(`${GITHUB_API_BASE}/repos/${owner}/${repo}`, {
+    const response = await fetchWithRetry(`${GITHUB_API_BASE}/repos/${owner}/${repo}`, {
       headers: getHeaders(),
     });
 
     if (!response.ok) {
-      console.error(`Failed to fetch repo ${owner}/${repo}: ${response.status}`);
+      console.error(`  [ERROR] Failed to fetch repo ${owner}/${repo}: ${response.status}`);
       return null;
     }
 
     return response.json();
   } catch (error) {
-    console.error(`Error fetching repo ${owner}/${repo}:`, error);
+    console.error(`  [ERROR] Fetching repo ${owner}/${repo}:`, error instanceof Error ? error.message : String(error));
     return null;
   }
 }
@@ -54,7 +56,7 @@ async function getReadmeContent(
   for (const branch of ['main', 'master']) {
     const url = `${GITHUB_RAW_BASE}/${owner}/${repo}/${branch}/${readmePath}`;
     try {
-      const response = await fetch(url, { headers: getHeaders() });
+      const response = await fetchWithRetry(url, { headers: getHeaders() });
       if (response.ok) {
         return response.text();
       }
@@ -67,7 +69,7 @@ async function getReadmeContent(
     for (const branch of ['main', 'master']) {
       const url = `${GITHUB_RAW_BASE}/${owner}/${repo}/${branch}/README.md`;
       try {
-        const response = await fetch(url, { headers: getHeaders() });
+        const response = await fetchWithRetry(url, { headers: getHeaders() });
         if (response.ok) {
           return response.text();
         }
@@ -82,7 +84,7 @@ async function getReadmeContent(
 
 async function getLastCommitDate(owner: string, repo: string): Promise<string | null> {
   try {
-    const response = await fetch(
+    const response = await fetchWithRetry(
       `${GITHUB_API_BASE}/repos/${owner}/${repo}/commits?per_page=1`,
       { headers: getHeaders() }
     );
@@ -102,7 +104,7 @@ async function getContributors(
   repo: string
 ): Promise<{ count: number; top: { login: string; avatarUrl: string; contributions: number }[] }> {
   try {
-    const response = await fetch(
+    const response = await fetchWithRetry(
       `${GITHUB_API_BASE}/repos/${owner}/${repo}/contributors?per_page=5`,
       { headers: getHeaders() }
     );
@@ -150,7 +152,7 @@ async function getFileStructure(
   for (const branch of ['main', 'master']) {
     try {
       const url = `${GITHUB_API_BASE}/repos/${owner}/${repo}/git/trees/${branch}?recursive=1`;
-      const response = await fetch(url, { headers: getHeaders(), redirect: 'follow' });
+      const response = await fetchWithRetry(url, { headers: getHeaders(), redirect: 'follow' });
 
       if (!response.ok) continue;
 
@@ -514,6 +516,7 @@ function updateHistory(skills: Skill[]): void {
 }
 
 async function main() {
+  const pipelineStart = Date.now();
   console.log('Starting skill data generation...\n');
 
   const registry: SkillRegistry[] = JSON.parse(
@@ -532,6 +535,7 @@ async function main() {
   const results: SkillDataWithReadme[] = [];
   let processed = 0;
   let failed = 0;
+  const failedRepos: string[] = [];
 
   for (const entry of registry) {
     const result = await processSkill(entry, existingCache);
@@ -540,6 +544,8 @@ async function main() {
       processed++;
     } else {
       failed++;
+      failedRepos.push(`${entry.owner}/${entry.repo}${entry.path ? `/${entry.path}` : ''}`);
+      console.error(`  [FAILED] ${entry.owner}/${entry.repo}`);
     }
 
     await new Promise((resolve) => setTimeout(resolve, 100));
@@ -642,6 +648,8 @@ async function main() {
   // Update history for ranking
   updateHistory(skillsData);
 
+  const durationMs = Date.now() - pipelineStart;
+
   console.log(`\nDone!`);
   console.log(`  Processed: ${processed}`);
   console.log(`  Failed: ${failed}`);
@@ -649,11 +657,33 @@ async function main() {
   console.log(`  Skills data: ${skillsDataPath} (${skillsData.length} skills)`);
   console.log(`  Skills index: ${skillsIndexPath}`);
   console.log(`  Skills history: ${skillsHistoryPath}`);
+  console.log(`  Duration: ${(durationMs / 1000).toFixed(1)}s`);
   console.log(`\nIndex stats:`);
   console.log(`  Categories: ${Object.keys(skillsIndex.categoryIndex).length}`);
   console.log(`  Tags: ${Object.keys(skillsIndex.tagIndex).length}`);
   console.log(`  Languages: ${Object.keys(skillsIndex.languageIndex).length}`);
   console.log(`  Featured: ${skillsIndex.aggregates.totalFeatured}`);
+
+  // Emit machine-readable stats for the CI summary step
+  const stats = {
+    step: 'generate',
+    totalInRegistry: registry.length,
+    processed,
+    failed,
+    failedRepos,
+    totalSkillsOutput: skillsData.length,
+    durationMs,
+    generatedAt: new Date().toISOString(),
+  };
+  fs.writeFileSync(generateStatsPath, JSON.stringify(stats, null, 2));
+  console.log(`\nPipeline stats written to ${generateStatsPath}`);
+
+  if (failed > 0) {
+    console.log(`\nFailed repos:`);
+    for (const repo of failedRepos) {
+      console.log(`  - ${repo}`);
+    }
+  }
 }
 
 main().catch(console.error);

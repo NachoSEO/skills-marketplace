@@ -11,6 +11,9 @@ jobs:
     permissions:
       contents: write
     steps:
+      - name: Record start time
+        run: echo "PIPELINE_START=$(date -u +%s)" >> "$GITHUB_ENV"
+
       - name: Checkout
         uses: actions/checkout@v4
 
@@ -24,11 +27,14 @@ jobs:
         run: npm ci
 
       - name: Discover new skills
+        id: discover
         run: npm run discover:skills
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
 
       - name: Generate skill data
+        id: generate
         run: npm run generate:skills
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -43,14 +49,108 @@ jobs:
         run: npm run compute:embeddings
 
       - name: Commit changes
+        id: commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/
-          git diff --staged --quiet || git commit -m "chore: daily skill ingestion"
-          git push
+          if git diff --staged --quiet; then
+            echo "no_changes=true" >> "$GITHUB_OUTPUT"
+            echo "No data changes to commit."
+          else
+            git commit -m "chore: daily skill ingestion"
+            git push
+            echo "no_changes=false" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Deploy to Cloudflare
+        if: steps.commit.outputs.no_changes == 'false'
         run: npm run deploy
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+
+      - name: Pipeline summary
+        if: always()
+        env:
+          RUN_ID: ${{ github.run_id }}
+          SERVER_URL: ${{ github.server_url }}
+          REPOSITORY: ${{ github.repository }}
+          NO_CHANGES: ${{ steps.commit.outputs.no_changes }}
+        run: |
+          PIPELINE_END=$(date -u +%s)
+          DURATION_S=$((PIPELINE_END - PIPELINE_START))
+          DURATION_MIN=$((DURATION_S / 60))
+          DURATION_REM=$((DURATION_S % 60))
+
+          {
+            echo "## Daily Skill Ingestion Summary"
+            echo ""
+            echo "**Run:** [\`${RUN_ID}\`](${SERVER_URL}/${REPOSITORY}/actions/runs/${RUN_ID})"
+            echo "**Duration:** ${DURATION_MIN}m ${DURATION_REM}s"
+            echo ""
+
+            # Discovery stats
+            if [ -f data/pipeline-stats-discover.json ]; then
+              echo "### Discovery"
+              echo ""
+              EXISTING=$(jq -r '.existingSkills' data/pipeline-stats-discover.json)
+              DISCOVERED=$(jq -r '.totalDiscovered' data/pipeline-stats-discover.json)
+              ACCEPTED=$(jq -r '.accepted' data/pipeline-stats-discover.json)
+              REJECTED=$(jq -r '.rejected' data/pipeline-stats-discover.json)
+              ALREADY_KNOWN=$(jq -r '.alreadyKnown' data/pipeline-stats-discover.json)
+              echo "| Metric | Count |"
+              echo "| --- | --- |"
+              echo "| Existing skills | ${EXISTING} |"
+              echo "| Total discovered | ${DISCOVERED} |"
+              echo "| Already known | ${ALREADY_KNOWN} |"
+              echo "| **Newly accepted** | **${ACCEPTED}** |"
+              echo "| Rejected | ${REJECTED} |"
+              echo ""
+              echo "**Sources:**"
+              jq -r '.sources | to_entries[] | "- \(.key): \(.value)"' data/pipeline-stats-discover.json
+              echo ""
+              REASONS=$(jq -r '.rejectionReasons | to_entries[] | "- \(.key): \(.value)"' data/pipeline-stats-discover.json 2>/dev/null)
+              if [ -n "$REASONS" ]; then
+                echo "**Rejection reasons:**"
+                echo "$REASONS"
+                echo ""
+              fi
+            else
+              echo "### Discovery"
+              echo "> Stats file not found — discover step may have failed."
+              echo ""
+            fi
+
+            # Generate stats
+            if [ -f data/pipeline-stats-generate.json ]; then
+              echo "### Data Generation"
+              echo ""
+              PROCESSED=$(jq -r '.processed' data/pipeline-stats-generate.json)
+              FAILED=$(jq -r '.failed' data/pipeline-stats-generate.json)
+              TOTAL_OUTPUT=$(jq -r '.totalSkillsOutput' data/pipeline-stats-generate.json)
+              echo "| Metric | Count |"
+              echo "| --- | --- |"
+              echo "| Processed | ${PROCESSED} |"
+              echo "| Failed | ${FAILED} |"
+              echo "| Skills in output | ${TOTAL_OUTPUT} |"
+              echo ""
+              if [ "$FAILED" -gt 0 ]; then
+                echo "**Failed repos:**"
+                jq -r '.failedRepos[] | "- \(.)"' data/pipeline-stats-generate.json
+                echo ""
+              fi
+            else
+              echo "### Data Generation"
+              echo "> Stats file not found — generate step may have failed."
+              echo ""
+            fi
+
+            # Commit/deploy result
+            echo "### Deployment"
+            echo ""
+            if [ "$NO_CHANGES" = "true" ]; then
+              echo "> No data changes — deploy skipped."
+            else
+              echo "> Changes committed and deployed to Cloudflare."
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"

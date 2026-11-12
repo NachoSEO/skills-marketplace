@@ -64,8 +64,11 @@ export default async function ToolsForRolePage({ params }: Props) {
         listUrl={`${BASE_URL}/tools-for/${roleSlug}`}
       />
 
-      <div className="min-h-screen py-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      {/* Hero */}
+      <section className="relative pt-12 pb-16 overflow-hidden">
+        <div className="absolute inset-0 grid-bg opacity-30" />
+        <div className="absolute inset-0 bg-gradient-to-b from-accent/5 via-transparent to-transparent" />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Breadcrumb */}
           <nav className="flex items-center gap-2 text-sm text-muted mb-8">
             <Link href="/" className="hover:text-foreground transition-colors">
@@ -79,76 +82,111 @@ export default async function ToolsForRolePage({ params }: Props) {
             <span className="text-foreground">{role.title}</span>
           </nav>
 
-          {/* Header */}
-          <div className="mb-12">
+          <div className="max-w-3xl">
+            <div className="font-mono text-accent text-sm mb-3 opacity-70">// tools_for</div>
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-accent/10 border border-accent/20 text-accent text-xs font-mono mb-4">
+              <span className="w-1.5 h-1.5 rounded-full bg-accent" />
               Role
             </div>
-            <h1 className="text-3xl sm:text-4xl font-bold mb-4">{role.headline}</h1>
-            <p className="text-lg text-muted max-w-3xl leading-relaxed mb-6">{role.intro}</p>
-
-            {/* How-to box */}
-            <div className="p-5 rounded-xl border border-terminal/20 bg-terminal/5 max-w-2xl">
-              <h2 className="text-sm font-semibold text-terminal mb-2 font-mono uppercase tracking-wide">
-                How to use these skills
-              </h2>
-              <p className="text-sm text-muted leading-relaxed">{role.howTo}</p>
-            </div>
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-5 leading-tight">{role.headline}</h1>
+            <p className="text-lg text-muted max-w-3xl leading-relaxed">{role.intro}</p>
           </div>
 
-          {/* Skill count + tags */}
-          <div className="flex items-center justify-between mb-8 flex-wrap gap-4">
-            <p className="text-sm text-muted font-mono">
-              <span className="text-terminal">{roleSkills.length}</span> skills for {role.title}s
-            </p>
-            <div className="flex items-center gap-2 flex-wrap">
-              {role.tags.slice(0, 4).map((tag) => (
-                <span
-                  key={tag}
-                  className="text-xs px-2 py-1 rounded-full bg-muted/10 text-muted border border-border font-mono"
+          {/* How-to box */}
+          <div className="mt-8 p-5 rounded-xl border border-terminal/20 bg-terminal/5 max-w-2xl relative overflow-hidden">
+            <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-terminal/50 to-transparent" />
+            <h2 className="text-sm font-semibold text-terminal mb-2 font-mono uppercase tracking-wide flex items-center gap-2">
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+              </svg>
+              How to use these skills
+            </h2>
+            <p className="text-sm text-muted leading-relaxed">{role.howTo}</p>
+          </div>
+        </div>
+      </section>
+
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
+        {/* Skill count + tags */}
+        <div className="flex items-center justify-between mb-8 flex-wrap gap-4">
+          <p className="text-sm text-muted font-mono">
+            <span className="text-terminal font-semibold">{roleSkills.length}</span> skills for {role.title}s
+          </p>
+          <div className="flex items-center gap-2 flex-wrap">
+            {role.tags.slice(0, 4).map((tag) => (
+              <span
+                key={tag}
+                className="text-xs px-2 py-1 rounded-full bg-muted/10 text-muted border border-border font-mono"
+              >
+                #{tag}
+              </span>
+            ))}
+          </div>
+        </div>
+
+        {/* Skill grid */}
+        <SkillGrid
+          skills={roleSkills}
+          emptyMessage={`No skills found for ${role.title}s yet`}
+        />
+
+        {/* Category links */}
+        {role.categories.length > 0 && (
+          <div className="mt-16 pt-8 border-t border-border">
+            <div className="font-mono text-terminal text-sm mb-3 opacity-70">// categories</div>
+            <h2 className="text-xl font-semibold mb-4">Browse by Category</h2>
+            <div className="flex flex-wrap gap-3">
+              {role.categories.map((cat) => (
+                <Link
+                  key={cat}
+                  href={`/categories/${cat}`}
+                  className="px-4 py-2 rounded-lg border border-border hover:border-terminal/50 hover:text-terminal transition-colors text-sm font-mono"
                 >
-                  #{tag}
-                </span>
+                  {cat.replace(/-/g, ' ')}
+                </Link>
               ))}
             </div>
           </div>
+        )}
 
-          {/* Skill grid */}
-          <SkillGrid
-            skills={roleSkills}
-            emptyMessage={`No skills found for ${role.title}`}
-          />
-
-          {/* Category links */}
-          {role.categories.length > 0 && (
-            <div className="mt-16 pt-8 border-t border-border">
-              <h2 className="text-xl font-semibold mb-4">Browse by Category</h2>
-              <div className="flex flex-wrap gap-3">
-                {role.categories.map((cat) => (
-                  <Link
-                    key={cat}
-                    href={`/categories/${cat}`}
-                    className="px-4 py-2 rounded-lg border border-border hover:border-terminal/50 hover:text-terminal transition-colors text-sm font-mono"
-                  >
-                    {cat.replace(/-/g, ' ')}
-                  </Link>
-                ))}
+        {/* CTA Section */}
+        <div className="mt-16 pt-8 border-t border-border">
+          <div className="p-8 rounded-xl bg-gradient-to-br from-accent/5 via-card to-terminal/5 border border-border relative overflow-hidden">
+            <div className="absolute inset-0 grid-bg opacity-20" />
+            <div className="relative flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
+              <div>
+                <h3 className="text-lg font-bold mb-1">Need different tools?</h3>
+                <p className="text-sm text-muted">Explore skills for other roles or browse the full marketplace.</p>
+              </div>
+              <div className="flex items-center gap-3">
+                <Link
+                  href="/skills"
+                  className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-terminal text-primary-foreground font-medium text-sm hover:bg-terminal/90 transition-all hover:shadow-lg hover:shadow-terminal/20"
+                >
+                  Browse Skills
+                </Link>
+                <Link
+                  href="/tools-for"
+                  className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg border border-border hover:border-terminal/50 text-sm font-medium transition-colors"
+                >
+                  All Roles
+                </Link>
               </div>
             </div>
-          )}
-
-          {/* More roles link */}
-          <div className="mt-16 pt-8 border-t border-border">
-            <Link
-              href="/tools-for"
-              className="inline-flex items-center gap-2 text-terminal hover:text-terminal/80 transition-colors font-mono text-sm"
-            >
-              View all roles
-              <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <path d="M5 12h14M12 5l7 7-7 7" />
-              </svg>
-            </Link>
           </div>
+        </div>
+
+        {/* More roles link */}
+        <div className="mt-8">
+          <Link
+            href="/tools-for"
+            className="inline-flex items-center gap-2 text-terminal hover:text-terminal/80 transition-colors font-mono text-sm"
+          >
+            View all roles
+            <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </Link>
         </div>
       </div>
     </>
